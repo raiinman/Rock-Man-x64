@@ -7,15 +7,19 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_0025fefae3fde830692ff642c19c022a67449ed322ab3f0d41a16edaf34e7d1f` | ROM | `read_function_instructions` | `0xbfc0d8a0` |
 | `ev_031cfdf22ea01fcb3dfffa63968499aec626d5d51103036feff02ce4799d79d2` | ROM | `read_function_instructions` | `0xbfc02b50` |
 | `ev_0365b88e768c68710fc71aba2bd8a341b525301d57a98fe6373b67aa9021f97e` | ROM | `procedure_pseudo_code` | `0xbfc0615c` |
+| `ev_05cc1aa150b614727376f7fcd9ee8a643233303fb5c7bf02f2cffc684eed069d` | decoded-frontend | `read_function_instructions` | `0x80062e74` |
 | `ev_0661695b9e6772af62f70f90b9834a0c285d94b42660dbc2e3201def6764d874` | ROM | `procedure_pseudo_code` | `0xbfc0703c` |
 | `ev_090ec5f2088e159af1e72c476e82a0448ab10d95744f755f2e01070a206c3225` | ROM | `read_bytes` | `0xbfc18000` |
 | `ev_0984a04ad9b5f1de744f96c02d676c570d88e347fe041e599db6e3a33957de5c` | ROM | `read_function_instructions` | `0xbfc065c0` |
+| `ev_09bf46ba21acfffc0ab79adaae63f15fe2bc7d2ff1633011c332f21c35eaead1` | decoded-frontend | `procedure_callers` | `0x8006587c` |
 | `ev_0bd6773fbd9ad001167a06da55df93496d4e38c57fee198e71b70b4bffa5cf11` | ROM | `read_function_instructions` | `0xbfc11500` |
+| `ev_0c66bf81159518a7d667982fdf78e27f4644cf0905d9674f86cedde16f53e4ec` | decoded-frontend | `resolve_containing_procedure` | `0x80065860` |
 | `ev_0c7d5a28e1d7e42a2f216cadc91cf5b3744075e115b20cf801a147a02b2b13d9` | ROM | `read_function_instructions` | `0xbfc0661c` |
 | `ev_0d53661fa0e3db5348382bf00a436c56ef76219f4599aaa7b1ea8090451d7baa` | ROM | `procedure_pseudo_code` | `0xbfc12628` |
 | `ev_0f17432bfb631039775e3f9e186a88777346f995d0657b66dad3d461ff794243` | kernel | `read_bytes` | `0x510` |
 | `ev_0f385b970446f3a8af94349c1542d4270ffa202e932f8d0703b2f7cda544addd` | ROM | `read_function_instructions` | `0xbfc0d8b0` |
 | `ev_0faae87663f3cdbc331bfbcf569043229807c78054bd53c2ee38c18e2253c5ac` | staging-stub | `procedure_pseudo_code` | `0x80030000` |
+| `ev_10c755be9c6a065ba3a70d084fa73da74a17bf1ca309f4e907c5d99a80fb25bf` | decoded-frontend | `read_function_instructions` | `0x80062280` |
 | `ev_10ce94b28ad28b25a2ec1879658bf6a916f2b29a348a272d4f50dfddf478fc86` | ROM | `procedure_pseudo_code` | `0xbfc008a0` |
 | `ev_128252a3de7a207a55755f43452e963a9470a65013b8bd99b5d2ca5be6e00c26` | ROM | `procedure_pseudo_code` | `0xbfc1188c` |
 | `ev_129d3c3deda804f042f01f7f721cba8d28bd481d05401e35bcd374fa180bde63` | kernel | `read_bytes` | `0x20a8` |
@@ -23,7 +27,10 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_172399cc11841079a1c4712957fb5dc44e7711a9b810a86955f0bff2e01c3496` | ROM | `read_bytes` | `0xbfc003cc` |
 | `ev_1ae84031f0ee7b188fec5f56b88f0282edf5b66b2bb11ab9ad76c410652dbdab` | kernel | `read_bytes` | `0x1e1c` |
 | `ev_1afa9bd91e125b1e3815e38df41b82222a5c22994c817a3b38312f8af92bb338` | ROM | `procedure_pseudo_code` | `0xbfc00000` |
+| `ev_1c82bd7a74201c06a3794c636b62ac34a577286d394510dee5c2d2139f2667f4` | decoded-frontend | `resolve_containing_procedure` | `0x8006591c` |
 | `ev_1d2f48cf999b995d2b66b837c7b87787083ece967b350d20400a5aeaac87c581` | ROM | `xrefs` | `0xa0009154` |
+| `ev_1d640146efefb75e30e5a121141ba912a1b754cf61a7cec4a37f4cf09ed5d1db` | decoded-frontend | `read_bytes` | `0x8008a700` |
+| `ev_1f1fa468d491c17fd727098729a7fb928107bf0f90b2d5353ebb80238e64a3ef` | decoded-frontend | `read_function_instructions` | `0x8003de34` |
 | `ev_20f4d6cb1752b9ad12aa6b050c66decf7ce04d06efe0c2a3f5ce3f10b52501b2` | ROM | `procedure_pseudo_code` | `0xbfc061a0` |
 | `ev_21f5036c4939221137fd71118bd78a64ddb551438da53f996cbff07cd4d541c8` | ROM | `procedure_pseudo_code` | `0xbfc03cf0` |
 | `ev_2950a51eea442af0a88bd6cb59987cdc4d66de1c89e762d87b7bbc57d29177e1` | ROM | `read_function_instructions` | `0xbfc12900` |
@@ -43,8 +50,10 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_3efd2cc138d09295fdae3fc69d17942356904655169d63d5be05627f6b5df637` | kernel | `procedure_pseudo_code` | `0x1d00` |
 | `ev_400d2291bfe50513879205f7c77c0abe0a7c801936b7b897f445d0e946ce62c3` | ROM | `procedure_pseudo_code` | `0xbfc03a18` |
 | `ev_43352254707d4993f156c38906e09753d594d293efb18143e61a4543a648363f` | kernel | `procedure_pseudo_code` | `0x4498` |
+| `ev_462588ff048ca3588bff4de6b306469d7df35996076d4f8c340bf0b524868184` | decoded-frontend | `read_function_instructions` | `0x80068440` |
 | `ev_465ed4c62b7306e1e42357ab6df18dbc8a7f12e3a8c02711cba4bd8e76876f0b` | ROM | `procedure_pseudo_code` | `0xbfc0d570` |
 | `ev_4a1cb8b7c167ac856761e3341c552e51ebb060408ca0bd127e2c7a92a6a0eab7` | ROM | `read_function_instructions` | `0xbfc0d7bc` |
+| `ev_4b9d6ce75b6168dc157c93f15384579b5a096dc6c0f5d84f3baba156f9f265e6` | decoded-frontend | `read_bytes` | `0x8008ab50` |
 | `ev_4c76629359429db48c8bd576270bb2f8bc2631b51dab82c2762fc52c6b19e47a` | kernel | `xrefs` | `0x1f801044` |
 | `ev_533d40e258cface174d519ae3a55cce20e45bd02b560dce96d1da535222be0ec` | ROM | `procedure_pseudo_code` | `0xbfc06784` |
 | `ev_581d8e1b614b8855b498ce86ac161b6fc371562d2640cefe9ff2e19a9d10ffe9` | ROM | `read_bytes` | `0xbfc0de90` |
@@ -56,7 +65,9 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_62e1adb3fad4cdbdaff962864c01c3409c5517a0e6e46ad4af55e3eee0091782` | kernel | `xrefs` | `0x1f801048` |
 | `ev_6373d68ca314377d9738be4d09b10fedea3c01a77fbaa2b5e0ae5fa8fa389266` | ROM | `read_function_instructions` | `0xbfc04c38` |
 | `ev_64f067f8c8e1d8cb8281715b77ce923ed4960eb18fcbe855c11f20a01322923c` | ROM | `xrefs` | `0x1f801daa` |
+| `ev_65e4049321a21eb846d95368ff47438a5cafd956205be5786324b5b47d6f60a5` | decoded-frontend | `read_bytes` | `0x8008ab40` |
 | `ev_66897ec8c4eba93fde08b6b040c3ab079c7ce37f1da988ee4e5ca40d44fec4f6` | ROM | `inspect_native_load_image` | `inventory / image` |
+| `ev_67131e2d46105c98dd4de9f4842b33b2568ed6c3178b964d251c05aeb67b228f` | decoded-frontend | `xrefs` | `0x1f801dba` |
 | `ev_67fda4f6948b0c04d61463e1c1c2511683199c0e53e78e0c9d8ad7997ea8cb29` | ROM | `read_function_instructions` | `0xbfc04138` |
 | `ev_692470dbf7400ae2b05904bd392935aac2478685e852dafcd09b3d861a98325d` | kernel | `procedure_pseudo_code` | `0x1794` |
 | `ev_6b7a32a39b4e9ec4ec13a4e3c24aed0b9986473fc03bde47aff4fd11e46536a8` | ROM | `procedure_pseudo_code` | `0xbfc03c90` |
@@ -76,6 +87,8 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_796367124c5c66e028dc33e70904b2be13ff8a4b571b39d1140954d8f459d151` | ROM | `procedure_pseudo_code` | `0xbfc01a60` |
 | `ev_799537ba79f5f3d2fdc17a9a8e330360fada862ea979334ef275d5c509001622` | kernel | `read_bytes` | `0xb00` |
 | `ev_7a2c411ad3c08616a66e8047915766618a4181abcd255ac420b18bfb24c4fec8` | ROM | `read_bytes` | `0xbfc0e620` |
+| `ev_7a4fd1181783635af8858c0f81c1cc9dc33bc92413c2d5c3b794e3f6739871fa` | decoded-frontend | `read_bytes` | `0x8008a554` |
+| `ev_7a8cb033dd1d8692f585ccabce8a5a9108019b88d0594e9a7935da6d763bb700` | decoded-frontend | `xrefs` | `0x1f801db8` |
 | `ev_7c1ebfe940a01d2e231363c64aa157563ee61f64ba4a55f34ffca5b9ee93610f` | ROM | `read_function_instructions` | `0xbfc00420` |
 | `ev_7e6849de83f47f4453c30a10a49ce1dcca1eeef2048d33669ab18683708e0d41` | ROM | `read_function_instructions` | `0xbfc057b0` |
 | `ev_7e6e762829e837e45dc4d3b3dfd816755c919f3c30bf76c788f0392ee34aa5a1` | kernel | `read_function_instructions` | `0xf40` |
@@ -83,16 +96,21 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_80e848422d34eb0d3d7d33154a6a45ef8a14589b47156fcc15140af209d6ff44` | ROM | `read_function_instructions` | `0xbfc05f08` |
 | `ev_80e9f7aa60f3329a14f3a2a3df474d37d4484319e6bcd6e2626c85a6f8d39ca2` | kernel | `read_function_instructions` | `0x1444` |
 | `ev_8261269138c9f1c72282b7b47c1447a935b1670015789a877e5cc00a580b6fe4` | kernel | `procedure_pseudo_code` | `0x1a00` |
+| `ev_86f70346e7565d0549e7ae2395780eee3599da6834cb5319c844fe74236e911c` | decoded-frontend | `read_function_instructions` | `0x800657c0` |
+| `ev_872e4270d4f9115058c37e7b21740c1f610c6cb8ee990164eae7c263c14a2115` | decoded-frontend | `read_function_instructions` | `0x800390fc` |
 | `ev_875ea61d642a08484352a659d45d664dfc9ce0664e91aff74731a04ca37d0647` | ROM | `procedure_pseudo_code` | `0xbfc042a0` |
 | `ev_88ae9400bb2eab53a740bb8c92a5a0f511828d70ee644ddec50396156c1ee894` | ROM | `read_function_instructions` | `0xbfc05194` |
+| `ev_88b3efcbdee0e085328ab0f070bfdd3c3e14133e2901bde0c13a38b255afbbc4` | decoded-frontend | `read_function_instructions` | `0x80030000` |
 | `ev_88d3008dd38f2754e734ab45b8736ebf83847d530fd188b57cf2c93520f6a125` | kernel | `read_bytes` | `0x6c60` |
 | `ev_89e8c5b57fa97c887760db1f933fbce06b2437c67ce5aac7145a59c5923c7044` | kernel | `read_function_instructions` | `0x4498` |
 | `ev_8cef0928530e7a8b49899d4415722308b48d64970d41040a5ced1adcb2694c32` | ROM | `read_function_instructions` | `0xbfc12628` |
+| `ev_8ebcacf3fe065d195aad392b56da4eb28eca8481bf0cc2f93d0271430e3c943e` | decoded-frontend | `read_function_instructions` | `0x80068750` |
 | `ev_906fa18ce210a48be94fc19582fe2a317c550022601fc1c0f7b7e595159d90e7` | ROM | `read_function_instructions` | `0xbfc0d970` |
 | `ev_925e80b473357533d81fe1d3f4e0011d74a91ed954b759ea3edece85ce9e3de8` | ROM | `procedure_pseudo_code` | `0xbfc00b7c` |
 | `ev_93bbaf368a31f66adc7f7ca78bb8870d18af2ebe0a44c0fc2e9a0e5b17fc6321` | kernel | `read_bytes` | `0x674` |
 | `ev_93e875d7d3b661e97178e2c636ae3beb529216cae08055d4a7356ffd92759ead` | ROM | `procedure_pseudo_code` | `0xbfc12ce8` |
 | `ev_96e845f71e710db0d6752e506521b7c547f2c9bf23c3d69bcac34dfbecf5b129` | ROM | `read_function_instructions` | `0xbfc05e58` |
+| `ev_9915014938bc4078bccc1b1632481b9c6792edf372749325e3d26f3fcb2e6539` | decoded-frontend | `read_function_instructions` | `0x80061988` |
 | `ev_9a29ed66c9cdd7a44baed8058ce5a1f6f66b42de39bc549f9db60c03e73ce22f` | ROM | `xrefs` | `0x1f80104a` |
 | `ev_9ab93aa3d1fac2b6d9ac52c3dd33f219a4ff12bbad74a49317ae6b743b3d329a` | ROM | `procedure_pseudo_code` | `0xbfc0711c` |
 | `ev_9baf06425a4ae0cf617e5412470139b8dab5b2809cdd7d9cabc95b9dd0267319` | ROM | `xrefs` | `0x1f801040` |
@@ -100,9 +118,13 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_9d4449b4c6fb0292f80674cb86e2f2e34ea9318c37c4b44d9f959b7fdb038826` | ROM | `procedure_pseudo_code` | `0xbfc05194` |
 | `ev_9e5b798f5755bc43b6b6597e0a054e741528cbffe91b909ea17cd480893a290c` | ROM | `read_function_instructions` | `0xbfc0d960` |
 | `ev_9eab138a2e3919a794d53e0c414e6a451837960dd87e23258c2032d8f8619139` | ROM | `read_function_instructions` | `0xbfc06ff0` |
+| `ev_9fbb722e970956404c1d0b8528444ada48ed6e472dde077800480db577afefc1` | decoded-frontend | `read_function_instructions` | `0x800631cc` |
 | `ev_a6511e3833a6d9f06681f2c387a30e62fccc0e02ecbd56887ee47d7715c40ea3` | kernel | `procedure_pseudo_code` | `0x1c5c` |
 | `ev_a8a77986eb8ca9de6e7dcecb08beeaa7f7cdfffb8c5d923d60cb0b265bde1de9` | kernel | `xrefs` | `0x1f801040` |
 | `ev_afc54fa3af0c4be743b27beca71d2b2c8a36161f8b01d0ec2dc2c6f90855038b` | ROM | `read_function_instructions` | `0xbfc0593c` |
+| `ev_b1fd724341cef846fab8f83776ae0e788ad7f73e9e1c7d7f2bee42f27ba22e83` | decoded-frontend | `read_function_instructions` | `0x80061d0c` |
+| `ev_b333933491da5a25bb69138e3e58b18d647703742ae2826a03e847aedb21530d` | decoded-frontend | `read_function_instructions` | `0x80066328` |
+| `ev_b343b6f34e6cef378d01e019129c20287861a9fdab838c8593d91e65064869fb` | decoded-frontend | `read_function_instructions` | `0x80062050` |
 | `ev_b471298bc9859d73e7353704dd45e8a4e63abd3f0f5953f4a63780b634bcf6b1` | ROM | `xrefs` | `0xa00091c8` |
 | `ev_b7752a4b146483736cdcf574dd675d65dc43e5758b09005cff6f3b251c0c542b` | ROM | `procedure_pseudo_code` | `0xbfc02b50` |
 | `ev_b7e333ea54efd277b530f42c284f58bd4a40b206ae2c459e00b18f99aa9e7b28` | ROM | `read_function_instructions` | `0xbfc06ec4` |
@@ -119,7 +141,11 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_d3a078a08c69478d52332e94379241ae50ec200b3565c4039aeb606f6daa84c0` | kernel | `read_bytes` | `0x7258` |
 | `ev_d4ba064ed1b5655a030201a8bae7354d08d702eac038c7d70e858d1653e15772` | ROM | `read_function_instructions` | `0xbfc0d890` |
 | `ev_d5177bca65b9e5f0d07dfc6b01ae4a34de7f927c918aeaf7c3fc92c75a86967e` | ROM | `procedure_pseudo_code` | `0xbfc12900` |
+| `ev_d539802f93f7c45e5daf47e3286afd0987c7ea819745df3db4d64f86d60ef2f7` | decoded-frontend | `read_function_instructions` | `0x8006587c` |
 | `ev_d5a5ce3f37b1eaa123051d46e6663d19a08941ab50c1c5dbe16f5b880ea46308` | ROM | `read_function_instructions` | `0xbfc0d72c` |
+| `ev_d7184bd4295e454e378159d97c2742701fbbad66f67c5194b05da1c31bdc93b6` | decoded-frontend | `procedure_pseudo_code` | `0x8003de34` |
+| `ev_d8a6fc5ac39cdff487a2caa84d42328141b4a6f3807e788eb9d2c2c650f8a165` | decoded-frontend | `read_function_instructions` | `0x800672f8` |
+| `ev_d9d0a176926191493787be4427045050a91a0ac8d011b5ecc01ed850969a4010` | decoded-frontend | `read_function_instructions` | `0x8006777c` |
 | `ev_da9eac6c977b8f25f51aa1cb8f85cc95ef9bfb7fc6bcdfa973d7ec200469c5da` | ROM | `read_bytes` | `0xbfc7ff30` |
 | `ev_de07a32c05da62eba68be96569b9dd5468190edf5e5a01e69bca0090b1e5ebfa` | ROM | `procedure_pseudo_code` | `0xbfc04c38` |
 | `ev_de5b1ad22bb3623708bcb2fac7fbfc95294bad0cea980124e217462340a0bd33` | ROM | `read_function_instructions` | `0xbfc05558` |
@@ -127,6 +153,7 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_e5a6c8d3ee73699d20772181de29306d2136211fb6199ff294360aa0f17d830d` | ROM | `xrefs` | `0x1f801048` |
 | `ev_ea07b4427aa1f9b88bc836568e91636039cd0f17ae9d7dd128cd27f9300975a0` | ROM | `read_function_instructions` | `0xbfc00000` |
 | `ev_ea49205f3c7cdff993f3aebd6ed9beda66cb9d6d077a011fed76e6ea8a5732b7` | ROM | `read_function_instructions` | `0xbfc03a18` |
+| `ev_eb2daf480e3f93e840dca63d6dd70137efd759c0734b6630c2d2400f4f31a162` | decoded-frontend | `read_bytes` | `0x8008ab88` |
 | `ev_eea4d8ce85e26882e7adba1f73def0ea05b04d2807ff2a548c04b02930b89e21` | ROM | `procedure_pseudo_code` | `0xbfc11500` |
 | `ev_ef3a558d61dc18e9afee2482ed389cc1047dd53fd77a03548f95ec3c3ec00e8f` | ROM | `read_bytes` | `0xbfc10000` |
 | `ev_f1e039d748176c1a72dd0a0d8756f8dac4b93e40672abbe92df7bc1840beba93` | ROM | `read_function_instructions` | `0xbfc061a0` |
@@ -134,7 +161,10 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_f599d860b753ffcac0b4fd431836fe0565b15c77a6d165566e2dcd064d3b3088` | unpack-tail | `read_function_instructions` | `0x801c0ca4` |
 | `ev_f59e3438c2c7da1267c2f0386debf9756dc56f86fd2d6ae8dda05be4e6d44eed` | kernel | `procedure_pseudo_code` | `0x1b44` |
 | `ev_f8ffc44a8bb8a3c82a9677ecea73895cad5e9185d2a1f7276f8fbcf5b978e267` | kernel | `procedure_pseudo_code` | `0x1f88` |
+| `ev_f99501cae9535676ac053e9c248fd64de0fd5b681d74cb4113d111a983dac4be` | decoded-frontend | `read_function_instructions` | `0x80068580` |
+| `ev_faf05604c3cb1c5f3540859e67140fdc1c5f4076f0b9c3b748e8dc600cd89770` | decoded-frontend | `read_function_instructions` | `0x80061f98` |
 | `ev_fbc2a765b72549de4f221e5eb09df404314fe4ff0b46bc611e1691be44034a6f` | kernel | `procedure_pseudo_code` | `0x51f4` |
 | `ev_fd17c375398dc1b1e9622f860b5d31e14f1fadbd91468a59c490e374b2436ae8` | ROM | `procedure_pseudo_code` | `0xbfc042d0` |
 | `ev_fde33245e6f28ca8523a7a158da8756f33c20eda3f433cf2323c427761cfb5ee` | ROM | `binary_overview` | `inventory / image` |
 | `ev_fe2751fd837d5c5d52e513e9b278f8268d2ae3b8c0f7b53c0a6f0f72c165cf6d` | ROM | `procedure_pseudo_code` | `0xbfc067e8` |
+| `ev_ffdd1fe39e08b4a51d6c7f440354a66779a9c8f8d57fe941d6dfb816d331519f` | decoded-frontend | `read_function_instructions` | `0x80065ff4` |

@@ -84,6 +84,8 @@ The helper at `0xbfc0d970` loads vector address `0xb0`, jumps there, and sets se
 
 ## Coverage of normal `0x0b`/`0x0c` issuance
 
+**Later scope extension:** The bounded ROM-only gap below was subsequently narrowed by the [decoded-image investigation](DECODED-CD.md), which identifies normal issuers in a separately transformed firmware subject. The ROM report's source coordinates and software fields are not interchangeable with that derived image. Its earlier negative search remains bounded to the regions described here.
+
 The deeper pass cross-checked exact references to current state, saved state and the recovery latch, inspected the previously undefined initializer region, and followed the remaining later ROM CD command-access functions at `0xbfc0d600..0xbfc0d7bc`. Those later direct polling helpers select commands `0x1e` and `0x1a`; their pointer table independently resolves to the same indexed CD register range. They do not establish a normal `0x0b`/`0x0c` issuer. [N7-N12]
 
 The current evidence establishes the `0x0b`/`0x0c` completion branches described above. A normal issuer, saved-state preparation, caller-owned success meaning and all error paths for those commands remain unresolved. This is a bounded search result over the identified regions and reference inventory. It does not prove that these commands are absent from the complete firmware, from relocated or staged code, or from a game's own CD library. The native port must not manufacture a BIOS unmute lifecycle from the existence of a completion case alone.

@@ -4,6 +4,8 @@ This is a static firmware investigation. It does not inspect MML1 code, execute 
 
 ## Coverage limits
 
+Later [decoded-image CD](DECODED-CD.md) and [sound](SOUND.md) reports extend this investigation using a separately identified transform output. The ROM and copied-kernel observations below retain their original subject and mapping boundaries.
+
 The explicit mapping imports one contiguous ROM range at `0xbfc00000`. RAM, hardware-register state, scratchpad and other ROM aliases are absent. A negative exact-address cross-reference query therefore means that the selected Ghidra reference inventory contains no reference to that address; it does not mean a peripheral is unused. Indirect base-plus-offset accesses, RAM copies, aliased addresses, unidentified code and command data all require separate work.
 
 The generic little-endian MIPS32 analysis language is a decoding superset. Its decompiler types and register labels are analysis conventions. It does not establish R3000A load-delay behavior, PS1 GTE/COP2 semantics, bus timing, DMA ownership or physical device state. The reset decompiler labels CP0 registers using the generic language; these labels require R3000A-specific review.

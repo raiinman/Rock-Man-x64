@@ -16,7 +16,7 @@ The result is a substantial discovery catalog, not a claim to have explained eve
 | [Search and method](SEARCH-AND-METHOD.md) | Lead's three exact query passes; research workflow and REA connection limitation. Each dossier also retains its own three-pass log. |
 | [Machine-readable Sony index](sony-document-index.json) | Filename, URL, collection, observation date and directory-evidence status. `content_downloaded: false` means no local manual copy was acquired by the directory enumerator; it does not mean no researcher read that URL through a web tool. |
 | [Combined source links](source-links.json) | Deduplicated navigation index extracted from all research reports. Inclusion inherits the report's evidence label; no blanket content/authenticity verification is implied. |
-| [Validation record](VALIDATION.json) | JSON parsing, internal target checks, private-path scan, directory-entry count, and unique external link count. External URLs are not all independently re-fetched by this check. |
+| [Initial catalog validation](VALIDATION.json) | Initial JSON, target, path and catalog-count checks. Later BIOS batches have a separate [validation record](bios/VALIDATION.md). External URLs are not all independently re-fetched by these checks. |
 
 ## How to learn the system
 
