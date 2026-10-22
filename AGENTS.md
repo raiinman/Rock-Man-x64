@@ -81,6 +81,7 @@ When the user requests a durable behavior change, record it here or in the relev
 ## Child DOX Index
 
 - [`research/AGENTS.md`](research/AGENTS.md) owns the PS1 research library, source catalogs, search records, and handoff guidance.
+- [`docs/AGENTS.md`](docs/AGENTS.md) owns the project documentation index and delegates history, technical architecture, and current status to its child contracts.
 - The root owns `README.md`, `AGENTS.md`, and `DOX-LICENSE`.
 
 ## Project Scope
@@ -92,3 +93,18 @@ When the user requests a durable behavior change, record it here or in the relev
 - Respect the user's independent implementation constraint: do not import other game ports, decompilation projects, or emulator implementation code as implementation help.
 - Keep private notes, credentials, unrelated projects, original game data, and private validation packages out of this public repository.
 - The current deliverables are documentation and metadata. There is no game runtime or game build command here.
+
+## Documentation and Publication Contract
+
+- Development is paused at the owner's request while the start-to-current project record is documented. Documentation work does not authorize resuming implementation.
+- This public repository is a documentation and research record, not a source, build, asset, or playable-game distribution. A private prototype exists; do not describe repository emptiness as absence of all project development.
+- Document chronology, decisions, failures, corrections, evidence boundaries, and unfinished work, not just successful milestones.
+- Separate proposed, implemented, component/synthetic/Linux-tested, cross-compiled, and Windows-verified states. A build or test count does not establish gameplay, native boot, rendering accuracy, or audible output.
+- Publish only reviewed Markdown for the project-history update. Preserve unrelated research work and all existing license text; do not change research catalogs, workflows, settings, deployment, collaborators, or secrets as part of that update.
+- Do not publish implementation code, original assets, ROM or executable bytes, dumps or disassembly tables, binaries, previews, private packages or download links, private file identities, personal paths/account details, internal messages, private memory, or credentials.
+- Summarize private evidence in sanitized original prose; never copy raw private reports. State that private test results are not independently reproducible from this documentation-only repository.
+- Keep source provenance explicit. Independent implementation is a project constraint, not a legally certified clean-room claim.
+- Preserve `DOX-LICENSE` verbatim. Its MIT notice covers the imported DOX framework; do not infer or add a whole-project license without owner approval.
+- Before publication, review the exact changed Markdown, check relative links and DOX indexes, scan for forbidden content and local paths, and check whitespace.
+- Re-read the current remote head and relevant contracts before publishing. Build on the current tree, preserve unrelated changes, use an expected-head lease without force-push, and reconcile a changed head before retrying.
+- Verify the resulting remote commit, exact file contents, preserved paths, links, and public visibility before reporting publication complete.
