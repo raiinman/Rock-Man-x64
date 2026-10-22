@@ -8,7 +8,7 @@ The original ROM identity, transform source range and transform review belong in
 
 Numeric address `0x1f801db8` is a priority because the project's separate native handoff mentions an unresolved sound-related numeric-port read. Matching that numeric address in this frontend would establish a firmware investigation lead only. No MML1 executable, reaching state or dependency on this frontend is inspected here.
 
-The [primary-source pass](SOUND-PRIMARY-SOURCES.md) corroborates Sony's distinction between volume settings, mode and current volume, including newly accessed 1997 library documentation. It does not establish a vendor-authored numeric binding for `0x1f801db8` or identify this firmware's getter with that API.
+The [primary-source pass](SOUND-PRIMARY-SOURCES.md) corroborates Sony's distinction between volume settings, mode and current volume, including newly accessed 1996 and 1997 library documentation. It does not establish a vendor-authored numeric binding for `0x1f801db8` or identify this firmware's getter with that API.
 
 The [focused numeric-boundary report](DB8-BOUNDARY.md) adds whole-image encoding scans, their explicit limits and the game-consumer evidence needed to assess the subsequently attested native observation.
 

@@ -6,7 +6,7 @@ Observation date: 2026-10-22, with successive source checks recorded below. This
 
 Vendor-authored Sony documentation supports a distinction between a master-volume setting, its mode and a current-master-volume observation. This pass did **not** find a vendor-authored source explicitly binding numeric addresses `0x1f801db8` and `0x1f801dba` to those concepts. Their numeric meaning, timing, reset state and relationship to the particular MML1 read remain unresolved by this primary-source pass. A bounded failed search does not show that such documentation never existed.
 
-The newly accessed October 1997 Library Reference establishes that the current-master-volume API was documented in 1997. This closes the earlier documentation-date gap; it does not identify the firmware's implementation or bind the numeric port.
+Newly accessed editions establish the current-master-volume attribute in December 1996 documentation and a dedicated getter in October 1997 documentation. This closes the earlier documentation-date gap; it does not identify the firmware's implementation or bind the numeric port.
 
 ## Catalog inspected first
 
@@ -15,6 +15,14 @@ The existing `research/sony-document-index.json` lists Sony's PlayStation Hardwa
 The existing sound report and native handoff preserve the separate game-path numeric-read gap. Matching an API name in a later manual cannot bind that game's caller, source bytes, SDK revision, register access width, initialized state or acceptable native return.
 
 ## Vendor-authored sources actually inspected
+
+### Sony Run-time Library Reference 3.6 beta: newly accessed 1996 edition
+
+- Source provenance: [archived Technical Reference release 1.8](https://archive.org/details/redump-id-69351), selected `DEVREFS/LIBREF36.PDF` document. The cover identifies Beta Release 3.6, December 1996; front matter identifies Sony, publication December 1996 and licensed-developer/confidential restrictions. The archive's Japan label does not establish language: the selected manuals are English.
+- 1080 PDF pages. Printed 13-3, PDF page 955 (index 954), distinguishes master-volume setting, mode and current master volume (`mvolx`). The structure entry's documentation date is July 31, 1996.
+- Two reviewers visually checked the cover, publication front matter and selected attribute page. No numeric `db8` binding was established by targeted text searches.
+
+This is evidence of the documented API distinction in 1996, not a CPU register map or proof of a particular firmware implementation.
 
 ### Sony Run-time Library Reference 4.1: newly accessed 1997 edition
 
@@ -132,6 +140,8 @@ The [Technical Reference CD 21 catalog](https://gamingdoc.org/technical-document
 ## Register-document follow-up and alternate archive route
 
 The previously inaccessible GamingDoc ZIP remains unchecked. An alternate Internet Archive item permitted selective HTTP range access. The primary volume descriptor and selected ISO9660 directory records were inspected; five document extents were then fetched with HTTP 206, matching Content-Range and byte counts, sector removal, declared document length and PDF-signature checks. This is data extraction, not execution or installation of the disc's software. No full disc image, SDK implementation or executable was fetched. Private receipts retain the actual requests, document digests and extraction details.
+
+The earlier release 1.8 item was subsequently accessed through a separate bounded route. Its cue specifies MODE1/2352, requiring a different user-data offset from the release 2.1 item's MODE2/2352. That distinction was checked before extracting the two selected manuals. Alongside Library Reference 3.6, a 51-page Hardware guide with a September 1995 cover was inspected in text. It supplied no verified numeric `db8` definition. These selected directories and documents do not establish whole-disc absence. A release 2.0 USA catalog remains a further lead; later Japanese-edition catalog entries that require access were not downloaded.
 
 | Selected document | Inspection and result |
 |---|---|

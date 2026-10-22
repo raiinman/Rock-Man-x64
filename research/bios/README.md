@@ -17,7 +17,7 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 | [Decoded-image CD submission](DECODED-CD.md) | Newly identified normal `0x0b`/`0x0c` issuers, software eligibility, instruction ordering, saved-state restoration and caller retries |
 | [CD saved-state lifecycle](CD-STATE-LIFECYCLE.md) | Static initialization path, unchecked setup results, distinct current/saved/flag updates, and operation-specific error/completion behavior |
 | [Decoded-image sound paths](SOUND.md) | Paired register accesses, field masks, scaling, transfer/polling behavior and the unresolved separate `0x1f801db8` read |
-| [Primary sound sources](SOUND-PRIMARY-SOURCES.md) | Sony's configured/current-volume API distinction documented in 1997, selective archive access, exact pages and further source searches; numeric register mapping remains unverified |
+| [Primary sound sources](SOUND-PRIMARY-SOURCES.md) | Sony's configured/current-volume distinction documented in 1996, dedicated getter in 1997, selective archive access and exact pages; numeric register mapping remains unverified |
 | [The `0x1f801db8` boundary](DB8-BOUNDARY.md) | Wider bounded firmware scans, missing game-consumer evidence and conditional native-adapter acceptance requirements |
 | [Executable loading](BOOT-LOADING.md) | Configuration parsing, header/payload stages, execution descriptor and limitations of success returns |
 | [Evidence and coverage](EVIDENCE.md) | Artifact identity, two static profiles, retained evidence provenance, reproducibility and open coverage |
