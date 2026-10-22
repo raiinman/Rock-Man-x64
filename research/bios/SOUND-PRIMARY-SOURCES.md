@@ -93,6 +93,26 @@ No authenticated Sony-hosted developer portal, licensed register-level specifica
 
 **Supported inference:** Distinguishing a selected volume setting from an observed current volume is consistent with Sony's documented API model. It is sensible to retain requested versus applied/current state separately in an explicitly native design. That design inference is not an address binding, hardware timing model or proof of the game's dependency.
 
-**Not established:** the numeric pair's physical field meaning, signedness, writeability, update cadence, sweep behavior, reset value, stable-read rules or relation to CD muting; whether the game's source path reads either address; whether it expects a setting or a measurement; and how a software mixer should supply that request.
+**Not established by this source pass:** the numeric pair's physical field meaning, signedness, writeability, update cadence, sweep behavior, reset value, stable-read rules or relation to CD muting; the privately attested game load's exact width and consuming operation; and whether its native software observation matches physical behavior.
 
-The smallest next step is to bind the identified game's actual instruction, access width, effective address and reaching state on the other agent's authorized source path. Separately, seek an identifiable vendor-authored PS1 register-level specification or independently permitted measurement for the numeric pair. Until then, retain the numeric identity and unknown bits; do not certify a software coefficient, a physical value or a zero return by naming resemblance alone.
+The smallest next research step is to bind the identified game's actual instruction, access width, effective address and reaching state on the other agent's authorized source path. The [focused handoff](DB8-BOUNDARY.md) distinguishes the subsequently attested native adapter from the still-unresolved physical semantics. Separately, seek an identifiable vendor-authored PS1 register-level specification or independently permitted measurement for the numeric pair. Do not certify physical behavior by naming resemblance alone.
+
+## Focused chip, service-manual and patent follow-up
+
+Nine additional queries were submitted after reviewing the earlier negative results:
+
+1. `Sony CXD2922BQ datasheet sound processor register`
+2. `Sony PlayStation SPU technical reference current volume register hardware manual pdf`
+3. `"CXD2938" datasheet Sony SPU`
+4. `"CXD2922" "pdf" Sony -site:github.com`
+5. `"PlayStation" "SPURAM" technical note Sony`
+6. `"SpuGetCommonMasterVolumeX" sweep manual`
+7. `"Sony" "sound processing" "master volume" patent PlayStation`
+8. `"Sony" "CXD2922BQ" datasheet register address`
+9. `"Sony" "sound" "current volume" "register" patent`
+
+Sony's [US5978492A patent](https://patents.google.com/patent/US5978492A/en), Figure 3 description, provides primary architecture evidence for distinct voice, PCM-mixing, reverb and downstream master-volume stages. The [focused report](DB8-BOUNDARY.md) records the inference and its limits. Extracted-text searches did not find `register` or `1f801`; this is not an exhaustive image search or a numeric register binding.
+
+The [Sony SCPH-9000 service manual, third edition](https://gamingdoc.org/wp-content/uploads/2020/07/Sony_PlayStation_SCPH-9000_series_service_manual_3rd_edition.pdf), May 1999, is a Sony-authored 28-page manual on an unofficial GamingDoc mirror, with reproduction restrictions in its front matter. PDF indices 5–6 provide chip/block and audio-interface context. Text searches for `1F801`, `DB8` and `SPU` returned no matches; board connectivity does not establish the desired CPU-read contract.
+
+The [Technical Reference CD 21 catalog](https://gamingdoc.org/technical-documentation/consoles/sony-playstation/official/hardware/technical-reference-cd-21-12-10-1997/) was accessed, but its linked ZIP fetch timed out. A separate local HEAD request and a GET restricted to the first 1024 bytes both failed at DNS resolution, before any HTTP response or bytes. These failures do not establish that the archive is unavailable; its contents remain uninspected. A second patent lead, US5767430A, could not be opened and supplies no finding here. Excluded community labels and implementation snippets are not authorities. No verified numeric binding emerged from this follow-up; no manuals, SDK code or archives are redistributed.

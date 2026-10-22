@@ -10,6 +10,8 @@ Numeric address `0x1f801db8` is a priority because the project's separate native
 
 The later [primary-source pass](SOUND-PRIMARY-SOURCES.md) corroborates Sony's distinction between volume settings, mode and current volume in later library documentation. It does not establish a vendor-authored numeric binding for `0x1f801db8` or identify this firmware's getter with that later API.
 
+The [focused numeric-boundary report](DB8-BOUNDARY.md) adds whole-image encoding scans, their explicit limits and the game-consumer evidence needed to assess the subsequently attested native observation.
+
 ## Evidence and interpretation
 
 The derived profile's initial auto-analysis inventory contains 744 candidate procedures and 111 defined strings. Those are discovery counts, not complete code coverage or successful frontend execution. [S0]
