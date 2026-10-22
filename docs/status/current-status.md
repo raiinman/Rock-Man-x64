@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-22, development paused at 21:37 UTC for documentation.** The already queued verification work reached a terminal receipt at 21:39 UTC; that drain is recorded below and did not authorize new implementation or acceptance.
+**Checkpoint: 2026-10-22, resumed development.** Development paused at 21:37 UTC for documentation and resumed at 22:04 UTC. Isolated cloud validation completed at 22:06 UTC; final artifact review was confirmed by 22:08 UTC and approval to proceed with freezing followed at 22:09 UTC. Immutable freeze/rebuild and the Linux 40-case contract are in progress, not complete. No new Windows execution is claimed.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. The public repository is documentation-only. No original assets, implementation source or new private kit is published by this checkpoint.
 
@@ -18,7 +18,7 @@ The next sound-related leaf stops at source instruction `80079070`, reading nume
 
 Reset and unmute here are native application configuration transactions, not physical hardware equivalence or audible output. The [service contract](../technical/native-service-contracts.md) explains the separate ACK/completion and ownership obligations.
 
-## Verification available at pause
+## Completed isolated cloud validation — 22:06 UTC
 
 | Evidence | Recorded result | Interpretation |
 |---|---|---|
@@ -27,12 +27,12 @@ Reset and unmute here are native application configuration transactions, not phy
 | Isolated tools suite | 19 tests passed | Tool regression, not gameplay |
 | CLI matrix | 21 cases passed; 14 older JSON profiles exactly unchanged | New capability and refusal paths plus baseline preservation |
 | Static Windows builds | 18 passed | Compilation only; no new-stage Windows execution |
-| Standalone component scripts | Seven of nine passed | Two failed runs remain unresolved acceptance items |
+| Standalone component scripts | Nine of nine passed after two corrected-fixture retries | Original missing-fixture failures retained; not an uninterrupted clean run |
 | Queued asset conformance | Completed successfully after pause | Previously queued validation only |
 | Queued handler fixture | Compile and execution completed successfully after pause | Source-handler fixture, not production boot |
-| Terminal aggregate receipt | 19 stages completed, 17 successful | Runner exit 0 does not erase its two failed stages; acceptance false |
+| Terminal aggregate receipt | 19 effective stages successful after retries | Completed cloud validation; distinct from freezing and Windows acceptance |
 
-The character component exited 1 and inspector component exited 134 because preview fixtures were omitted from the isolated input set. This explains the immediate failures; it does **not** prove those components would pass with corrected inputs, nor establish a runtime defect. The missing set of 76 fixtures totaling 29,236,235 bytes was copied and hash-checked. **Retries had not started.**
+At the 21:39 UTC paused checkpoint, the character component exited 1 and inspector component exited 134 because preview fixtures were omitted. The copied fixture set was hash-checked, and corrected-input retries subsequently passed without source changes. Both original failures remain preserved; the completed result does not rewrite the earlier 17-of-19 receipt as an uninterrupted pass.
 
 Expanded negative tests cover return-address knownness and mismatches, captured nonzero callbacks and unexpected successor arrivals. Same-owner connected reset reissue, 16-operation exhaustion and broader recovery are not thereby dynamically proven.
 
@@ -40,9 +40,9 @@ Earlier shared-output verification runs became inconclusive after a transport in
 
 ## Preservation and release state
 
-A recorded set of 214 source hashes remained stable. The last preservation check at 21:20 UTC covered 2,086 existing release files. Original inputs, the original archive and three older shared ZIP baselines were additional preservation checks, not part of that 2,086-file count. These are time-bounded checks, not a claim that a new final preservation pass has completed.
+Final isolated validation and artifact review checked 214 source identities, 2,334 immutable copied inputs, 76 preview inputs and preservation of 2,086 existing release files. These checks support the settled cloud candidate; they do not establish completion of the subsequent immutable freeze/rebuild.
 
-The new configuration stage remains **unfrozen and unaccepted**. Final corrected-fixture checks, source/input/preservation hashes, completion report, review and new-stage Windows execution are pending. There is no new private package.
+Approval to proceed with freezing was recorded at 22:09 UTC. The immutable freeze/rebuild and Linux 40-case contract remain **in progress** at this update. A new frozen private package and its Windows validation are not yet established. The next gate is to finish the private freeze/package checks and run the exact candidate on Windows.
 
 ## Mixer and packaging research
 

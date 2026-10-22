@@ -63,11 +63,17 @@ Expected negative cases are successful **refusals**, not crashes being counted a
 
 A prior stage's actual Windows pass does **not** validate active inspector additions or the newer configuration candidate.
 
-## Latest candidate at the pause
+## Candidate at the 21:37 UTC pause
 
-**Unfrozen, not actual-Windows-validated:** the CD configuration candidate advances reset/unmute and stops before an unsupported sound-register read. The isolated run reports 92 regression tests, 19 tool tests, 21 CLI cases and 18 Windows cross-builds passing. At the pause, remaining standalone checks and final acceptance receipts were still pending/unaccepted. The already-running aggregate drained at **21:39:13 UTC**: 19 completed stages, 17 successful and two failures due to missing preview fixtures; acceptance, frozen and retry flags remained false. No new post-pause retries or Windows configuration run occurred. Earlier shared-output attempts were inconclusive and excluded from final acceptance.
+**Unfrozen, not actual-Windows-validated:** the CD configuration candidate advances reset/unmute and stops before an unsupported sound-register read. The isolated run reports 92 regression tests, 19 tool tests, 21 CLI cases and 18 Windows cross-builds passing. At the pause, remaining standalone checks and final acceptance receipts were still pending/unaccepted. The already-running aggregate drained at **21:39:13 UTC**: 19 completed stages, 17 successful and two failures due to missing preview fixtures; acceptance, frozen and retry flags remained false. At that paused checkpoint, no new post-pause retries or Windows configuration run had occurred. Earlier shared-output attempts were inconclusive and excluded from final acceptance.
 
 The isolated workflow requires separate outputs, pinned source/input identity, explicit command/exit receipts, CLI assertions, static artifact checks and final preservation/completion receipts. Until accepted, partial green subsets do not establish a final aggregate or release.
+
+## Resumption and isolated validation — 2026-10-22
+
+Development resumed at **22:04 UTC**. At **22:06 UTC**, isolated cloud validation completed with 92 regression tests, 19 tool tests, nine components, 21 CLI cases (14 exact older-JSON comparisons), and 18 static Windows builds. The character and inspector retries passed after missing private fixtures were supplied; their initial failures remain retained. Earlier shared-tree attempts remain inconclusive and excluded.
+
+Final artifact review was confirmed by **22:08 UTC**, followed by approval to proceed with freezing at **22:09 UTC**. At this update, immutable freeze/rebuild and the Linux 40-case contract are **in progress**, not completed. No new Windows execution occurred, so the 29-case IRQ-chain stage remains the latest Windows-verified milestone. High-level CD initialization, game boot and playback remain unestablished.
 
 ## Selected non-content identities
 

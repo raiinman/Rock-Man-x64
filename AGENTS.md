@@ -96,7 +96,7 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Documentation and Publication Contract
 
-- Development is paused at the owner's request while the start-to-current project record is documented. Documentation work does not authorize resuming implementation.
+- Development resumed at the owner's request on 2026-10-22 at 22:04 UTC after the documentation pause. Maintain hourly public GitHub documentation updates while development proceeds; summarize only verified changes and keep pending work explicit. This standing documentation authorization does not expand the publication boundary.
 - This public repository is a documentation and research record, not a source, build, asset, or playable-game distribution. A private prototype exists; do not describe repository emptiness as absence of all project development.
 - Document chronology, decisions, failures, corrections, evidence boundaries, and unfinished work, not just successful milestones.
 - Separate proposed, implemented, component/synthetic/Linux-tested, cross-compiled, and Windows-verified states. A build or test count does not establish gameplay, native boot, rendering accuracy, or audible output.

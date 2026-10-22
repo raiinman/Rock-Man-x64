@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Maintain an approachable, comprehensive public record of the project's history, technical work, verification boundaries, and current pause without publishing private implementation materials.
+Maintain an approachable, comprehensive public record of the project's history, technical work, verification boundaries, and current development state without publishing private implementation materials.
 
 ## Ownership
 
@@ -37,4 +37,4 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 - [history/AGENTS.md](history/AGENTS.md) owns start-to-current chronology and decision history.
 - [technical/AGENTS.md](technical/AGENTS.md) owns architecture, component explanations, and technical limits.
-- [status/AGENTS.md](status/AGENTS.md) owns the latest checkpoint, evidence matrix, unfinished work, and resume conditions.
+- [status/AGENTS.md](status/AGENTS.md) owns the latest checkpoint, evidence matrix, unfinished work, and next-step conditions.

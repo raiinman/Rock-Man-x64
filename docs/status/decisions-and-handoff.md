@@ -1,6 +1,6 @@
 # Decisions and next step handoff
 
-Development paused to bring the public record up to date. This page records the selected direction and the evidence needed before further milestones; it does not authorize implementation, device access, packaging or release.
+Development resumed on 2026-10-22 at 22:04 UTC after the documentation pause. This page records the selected direction and the evidence needed before further milestones; it does not authorize implementation, device access, packaging or release.
 
 ## Decisions in force
 
@@ -17,17 +17,17 @@ Development paused to bring the public record up to date. This page records the 
 | Keep one authoritative CD mute owner | A future synchronous mixer observes committed configuration under serialization rather than mirroring mutable mute state |
 | Freeze only after complete review | Candidate tests, compiler passes and a terminal runner are insufficient by themselves |
 
-## Immediate acceptance closure after a separate resume decision
+## Immediate acceptance closure after resumption
 
 The smallest open loop is the **existing CD configuration candidate**, not a new feature:
 
-1. Confirm the paused candidate and input identities before running anything.
-2. Rerun the character and inspector components using the already copied, hash-checked missing fixtures. Preserve their original failed results as superseded attempts, not erased history.
-3. Complete final source/input and older-release preservation checks. Do not represent the 21:20 preservation receipt as a newer check.
-4. Assemble a final result that distinguishes individual stage outcomes from wrapper exit status, then review the candidate's supported boundary and negative cases.
-5. After development is resumed, verify the existing authorization and selected Windows test environment, freeze the reviewed exact candidate and validate that exact stage, not a nearby build. This documentation grants no additional authority and does not automatically resume development.
+1. Completed: corrected-fixture character and inspector retries, settled source/input and preservation checks, and the 22:06 UTC cloud-validation receipt. Original failed attempts remain retained.
+2. Completed: final artifact review confirmed by 22:08 UTC and approval to proceed with freezing at 22:09 UTC.
+3. In progress: immutable freeze/rebuild and the Linux 40-case contract. Do not label these complete until their final receipts are checked.
+4. Next: finish the private freeze/package verification and execute the exact candidate on Windows. Cross-builds do not substitute for this run.
+5. Only after that bounded checkpoint, consider native audio-owner/mixer integration under its own evidence and ownership requirements.
 
-The desired outcome is an accepted or explicitly rejected bounded checkpoint with reproducible private receipts and a corresponding public summary. Until then the existing frozen IRQ-chain stage remains the latest Windows-verified baseline.
+The existing frozen IRQ-chain stage remains the latest Windows-verified baseline. The desired outcome is an accepted or explicitly rejected bounded configuration checkpoint, not a game-boot or playback claim.
 
 ## Next integration boundary
 

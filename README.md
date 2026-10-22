@@ -6,17 +6,17 @@ An independent effort toward a native Windows x64 implementation of Mega Man Leg
 
 ## Read the project record
 
-- **[Documentation guide](docs/README.md)** — start-to-current history, technical architecture, evidence levels, and the paused handoff.
+- **[Documentation guide](docs/README.md)** — start-to-current history, technical architecture, evidence levels, and the current handoff.
 - **[Project history](docs/history/README.md)** — how the goal and approach developed, what changed, and why.
 - **[Technical documentation](docs/technical/architecture.md)** — the investigated pipeline, component boundaries, and known limitations.
-- **[Current status](docs/status/current-status.md)** — completed validation versus the unfinished candidate, blockers, and conditions for resuming.
+- **[Current status](docs/status/current-status.md)** — completed validation versus the unfinished candidate, blockers, and next steps.
 - **[PS1 research library](research/README.md)** — a separate source catalog and investigation agenda, including [native Windows research guidance](research/NATIVE-WINDOWS-HANDOFF.md). A reference catalog is not evidence that a game feature works.
 
 ## Current checkpoint — 2026-10-22
 
-Development is **paused for documentation**. The last completed Windows-verified stage was the first CD status command, with a 29-case interrupt-chain suite. The subsequent reset/unmute candidate is **not frozen or Windows-validated**.
+Development **resumed at 22:04 UTC** after the documentation pause. Isolated cloud validation of the reset/unmute candidate completed at **22:06 UTC**, followed by final artifact review and approval to proceed with freezing. Immutable freeze/rebuild and the Linux 40-case contract are **in progress**, not completed. No new Windows execution has occurred: the last Windows-verified stage remains the 29-case IRQ-chain suite.
 
-At the final paused checkpoint, the validation runner completed 19 stages: 17 successful and two component failures retained because fixtures were missing. Separate passing checks recorded at this checkpoint include 92 tests, 19 tools, 21 CLI checks, 18 cross-builds, and 13,305 asset records, plus queued-handler fixtures. These check inventories are not a breakdown of the 19 aggregate stages. Acceptance, freeze, and component-retry completion remained false; no new Windows run occurred. These are scoped private results, not a complete end-to-end pass. Separate offline DSP-core tests are not integrated into the runtime and do not establish audio output.
+The completed cloud checks report 92 regression tests, 19 tool tests, nine components, 21 CLI cases (including 14 exact older-JSON comparisons), and 18 static Windows builds. Two initial missing-fixture component failures remain in the record; corrected-fixture retries passed. Earlier inconclusive shared-tree attempts remain excluded. These are scoped private results, not game boot or playback. The standalone DSP core is not integrated into the runtime.
 
 The [status record](docs/status/current-status.md) carries the detailed boundaries. Cross-compilation is not Windows execution; synthetic and component tests are not game boot; decoded assets are not gameplay.
 

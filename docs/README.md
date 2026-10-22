@@ -1,6 +1,6 @@
 # Project documentation
 
-This is the public, sanitized record of Rock Man x64 from its initial goal through the development pause on **2026-10-22**. It documents a private prototype and its limits; it does not distribute that prototype or supply a reproducible game build.
+This is the public, sanitized record of Rock Man x64 from its initial goal through resumed development on **2026-10-22**, following the documentation pause. It documents a private prototype and its limits; it does not distribute that prototype or supply a reproducible game build.
 
 ## Reading paths
 
@@ -8,7 +8,7 @@ This is the public, sanitized record of Rock Man x64 from its initial goal throu
 |---|---|
 | How did the project begin, and how did the plan change? | [History](history/README.md) |
 | What was investigated or implemented, and how do the pieces relate? | [Technical documentation](technical/architecture.md) |
-| What actually passed, what is pending, and where did work stop? | [Current status](status/current-status.md) |
+| What actually passed, what is pending, and what is the next boundary? | [Current status](status/current-status.md) |
 | Which PS1 references were found, and what are their provenance limits? | [Research library](../research/README.md) |
 | How should these documents be maintained? | [Documentation contract](AGENTS.md) and [root contract](../AGENTS.md) |
 

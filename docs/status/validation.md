@@ -31,11 +31,11 @@ A passing check supports only the claim it actually tested. This page defines th
 9. Review the complete result, freeze immutable artifacts and record the accepted boundary.
 10. Claim gameplay only after actual end-to-end game behavior is demonstrated.
 
-A later step cannot be inferred from an earlier one. The latest configuration candidate has substantial evidence in steps 1–6 and partial step 7, but final acceptance, freezing and its Windows run remain pending.
+A later step cannot be inferred from an earlier one. The configuration candidate completed isolated cloud validation at 22:06 UTC on 2026-10-22, with subsequent final artifact review and approval to proceed with freezing. Immutable freeze/rebuild and the Linux 40-case contract remain in progress; no new Windows execution or final Windows acceptance is established.
 
 ## Handling failures and inconclusive runs
 
-Record each command's outcome rather than treating a wrapper's exit code as a summary verdict. The paused aggregate runner ended with exit 0 while two component stages had failed. Both failures therefore remain in the acceptance record.
+Record each command's outcome rather than treating a wrapper's exit code as a summary verdict. The paused aggregate runner ended with exit 0 while two component stages had failed. Both failures remain in the historical record. Corrected-fixture retries later passed, supporting the 22:06 UTC cloud-validation completion without erasing the initial failures.
 
 Missing fixture inputs require a corrected-input rerun before passing acceptance. Copying and hashing fixtures is not that rerun. A transport interruption or uncertain execution must first be reconciled; it is not permission to repeat a potentially completed mutation blindly. Earlier shared-output runs with uncertain ownership are excluded instead of being combined into a convenient aggregate.
 
