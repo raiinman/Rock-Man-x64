@@ -1,0 +1,40 @@
+# Native MML1 research handoff and continuing queue
+
+This firmware investigation supports the independent port with bounded observations and questions. It does not resume implementation work or supersede the [current project handoff](../../docs/status/decisions-and-handoff.md). The game path, source generation and implementation on the other computer were not inspected here.
+
+## What the port agent can use now
+
+| Area | Firmware result | Proposed game-specific validation |
+|---|---|---|
+| Startup | Kernel copying and boot descriptor initialization are separate from application logic | Identify the actual game's entry, GP, stack and required initialized state; avoid inheriting firmware startup constants without game evidence |
+| Service selection | Low-memory stubs and tables carry indexed service requests | Bind each reached A0/B0/C0 caller and selector, argument width, result and side effects |
+| Events | Allocation, status, delivery mode and callbacks have distinct roles | Opening/enabling must not create an occurrence; prove callback identity and ordering from the game path |
+| Threads/exceptions | Logical contexts, cause discrimination and explicit return sequence | Preserve logical continuation and known register state; host thread creation is a separate design decision |
+| CD | Admission, response cause, acknowledgement, notification, DMA setup and recovery are separate | A command ACK or return cannot satisfy completion/data/continuation obligations by itself |
+| Graphics | CPU and DMA upload routes and synchronization checks differ | Bind source buffer ownership and completion; do not invent readiness or equate upload with displayed pixels |
+| Sound | Selected halfword initialization writes are visible | Resolve the actual game port read/write and owner; these stores do not establish voices, decoding, playback or audible output |
+| Input/saves | Relocated code exposes controller/card-shaped serial sequences | Establish actual game requests and persistence lifecycle before designing host input/save behavior |
+
+The current project's sound-related read at source `80079070` remains unbound by this BIOS investigation. The [peripheral report](DEVICES.md) cannot establish its semantics, reaching state or acceptable host return. Preserve unknown values until actual evidence resolves them.
+
+## Suggested acceptance cases
+
+These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
+
+## Continuing research queue
+
+| Priority | Unresolved question | Next evidence and completion boundary |
+|---|---|---|
+| 1 | Full event lifecycle and callback ordering | Follow relevant B0 selectors through independent instruction checks; verify each transition and failure return, preserving undefined-code limitations |
+| 2 | IRQ chain entry, priority, acknowledgement and return | Trace save/restore and enqueue/dequeue paths with exact fields; separate firmware operations from physical timing and the game's own hook |
+| 3 | CD reset/unmute/error state transitions | Trace the relevant command states, response causes and notification sites; do not infer all reset behavior from a recovery command |
+| 4 | Sound-related interface boundary | Locate instruction-level firmware accesses and numeric pointer tables; obtain game evidence before mapping the private implementation's source read |
+| 5 | File/device abstraction | Follow open/read/seek/close dispatch and error propagation, then identify which layers actual game paths reach |
+| 6 | Controller/card lifecycle | Resolve caller buffers, checksums, handshake failures, callback scheduling and persistence boundary beyond selected transaction candidates |
+| 7 | RAM installation phases and dispatch completeness | Reconcile initial copied bytes with subsequent table/vector writes; document proven service bindings without publishing reconstructed tables |
+| 8 | Unidentified and possibly transformed ROM regions | Inventory additional code/data with identified source-to-destination provenance; do not treat current procedure counts as total BIOS coverage |
+| 9 | CPU/GTE and hardware conformance | Vendor semantics and independently permitted measurements are needed; generic MIPS32 decompilation cannot validate load delays, GTE arithmetic or hardware timing |
+
+## Update workflow
+
+The user authorized continued independent research, subagents, necessary local tools and hourly updates on 2026-10-22. Publish reviewed research batches to GitHub promptly, update this queue with answered/partial/unresolved status, and preserve concurrent work. The hourly chat heartbeat continues the research and reports findings, commits, checks and blockers. It grants no authority to publish original firmware or game content or to resume implementation work.

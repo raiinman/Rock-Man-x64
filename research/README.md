@@ -8,6 +8,7 @@ The result is a substantial discovery catalog, not a claim to have explained eve
 
 | File | Use |
 |---|---|
+| [BIOS analysis and continuing handoff](bios/README.md) | New REA/Ghidra investigation: startup, copied kernel, service lifecycle, exceptions, CD/GPU/input paths, evidence limits and proposed port validation. |
 | [Native Windows handoff](NATIVE-WINDOWS-HANDOFF.md) | What the other MML1 agent can investigate next, proposed validation sequence, source boundaries, BIOS identity observation. |
 | [Hardware dossier](HARDWARE.md) | CPU, geometry, graphics, memory, sound, disc/video, DMA/events, peripherals, physical design; primary-source catalog and reconstruction gaps. |
 | [Sony document catalog](SONY-DOCUMENTS.md) | Verified manual editions; Net Yaroze filename correction; seminars; technical notes; FAQ/BBS collections; all 130 indexed links. |

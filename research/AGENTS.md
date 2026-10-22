@@ -30,4 +30,4 @@ This subtree owns research reports, source metadata, search records, and the age
 
 ## Child DOX Index
 
-No child contracts yet; this file owns the entire research subtree.
+- [`bios/AGENTS.md`](bios/AGENTS.md) owns firmware findings, evidence coverage and the continuing BIOS research handoff. This parent retains the wider document catalogs and source survey.

@@ -54,7 +54,7 @@ For each reconstructed behavior record: ID; game revision; evidence origin; repr
 
 Read-only filesystem observation: 524,288 bytes; SHA-256 `39dcc1a0717036c9b6ac52fefd1ee7a57d3808e8cfbc755879fa685a0a738278`. The user's filename identifies a US v4.1 image dated 1997-12-16. That version label was **not independently authenticated** by content or a trusted hash catalog. A size/hash identifies the supplied file; it does not establish model compatibility or runtime behavior.
 
-No BIOS bytes, disassembly, or extracted implementation were committed. The REA session-status call failed because the remote tunnel client was offline. No REA analysis Evidence was produced. The provided BIOS is a console firmware artifact, not MML1 game logic; possession of it alone cannot establish the game's platform dependencies.
+The initial discovery pass encountered an offline remote REA tunnel. A later local REA/Ghidra investigation succeeded and supersedes that access limitation: see the [BIOS findings and continuing handoff](bios/README.md). Its content inspection corroborates the trailing version/date banner while retaining the authenticity limitation. The reports cover startup, a copied kernel, selected services and peripheral paths with retained Evidence IDs. No BIOS bytes, disassembly or extracted implementation were committed. Firmware analysis still cannot establish MML1's actual platform dependencies.
 
 ## What this handoff does not resolve
 
