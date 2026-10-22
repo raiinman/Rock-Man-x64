@@ -26,7 +26,7 @@ These are proposals, not tests run against MML1: failed event allocation; enabli
 | Priority | Unresolved question | Next evidence and completion boundary |
 |---|---|---|
 | 1 | Full event lifecycle and callback ordering | Follow relevant B0 selectors through independent instruction checks; verify each transition and failure return, preserving undefined-code limitations |
-| 2 | IRQ chain entry, priority, acknowledgement and return | Trace save/restore and enqueue/dequeue paths with exact fields; separate firmware operations from physical timing and the game's own hook |
+| 2 | IRQ chain entry, priority, acknowledgement and return — partially answered | [Interrupt depth pass](INTERRUPTS.md) establishes vector copy, saved context, four-slot traversal and custom/default continuation. Nested faults, dynamic registrations, hardware timing and game hooks remain unresolved |
 | 3 | CD reset/unmute/error state transitions | Trace the relevant command states, response causes and notification sites; do not infer all reset behavior from a recovery command |
 | 4 | Sound-related interface boundary | Locate instruction-level firmware accesses and numeric pointer tables; obtain game evidence before mapping the private implementation's source read |
 | 5 | File/device abstraction | Follow open/read/seek/close dispatch and error propagation, then identify which layers actual game paths reach |

@@ -8,6 +8,7 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 |---|---|
 | [Startup and bootstrap](STARTUP.md) | Reset setup, decompiler omissions, copied kernel, service installation, optional expansion path and disc boot preparation |
 | [Kernel services](KERNEL-SERVICES.md) | Dispatch, event/thread records, exception discrimination, critical sections and context return; evidence classes remain separate |
+| [Interrupt entry and continuation](INTERRUPTS.md) | Vector installation, saved context, four-slot callback traversal, custom/default continuation and branch-delay gaps |
 | [Peripheral paths](DEVICES.md) | CD admission/interrupt/recovery/DMA, GPU transfer/synchronization, sound initialization, controller/card candidates |
 | [Executable loading](BOOT-LOADING.md) | Configuration parsing, header/payload stages, execution descriptor and limitations of success returns |
 | [Evidence and coverage](EVIDENCE.md) | Artifact identity, two static profiles, retained evidence provenance, reproducibility and open coverage |

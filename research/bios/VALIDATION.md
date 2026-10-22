@@ -11,3 +11,7 @@
 - Whitespace, changed-file types, relative links, evidence subjects, accidental local-path patterns and staged content were checked before publication. Normal fast-forward publication uses an explicit expected-remote-head check; a changed head is reconciled before retrying. Remote commit and exact changed content are verified after push.
 
 The repository excludes the private source artifacts and raw receipts. These analysis results are not independently reproducible from this documentation alone. Successful decoding, a recovered instruction body or a passing documentation check does not establish PS1 boot, physical timing, MML1 dependencies, Windows execution, rendering, playback or gameplay.
+
+## Interrupt depth batch
+
+The IRQ-entry conclusions were independently reviewed against the actual REA-returned span and supplemental decode. All 1,088 bytes matched the original source coordinate transformation; 272 decoded instructions covered the selected span. Callback-pointer capture, test-result forwarding, successor-read timing, ordinary versus context return, and the conditional EPC adjustment were checked explicitly. The newly cited IDs are resolved by the same evidence-index check. The derived kernel session was exported and closed before the next ROM investigation began; its private runtime directory was checked for cleanup. This review establishes static consistency, not runtime IRQ behavior.
