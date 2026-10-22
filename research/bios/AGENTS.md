@@ -20,7 +20,7 @@ This folder owns firmware analysis reports, coverage, evidence metadata, validat
 - Reuse retained evidence and private receipts before making a new import. Follow a specific unresolved question and preserve failed or bounded observations.
 - Check instruction evidence and function extents before treating pseudocode as a complete description of device accesses, register state or control flow.
 - Update the research queue and publish reviewed batches promptly; provide the user's requested half-hour updates through the existing chat heartbeat.
-- The user's current research priority is finding Sony documentation that explains `0x1f801db8` exactly, alongside the native MML1 consumer boundary. Maintain `DB8-BOUNDARY.md` and `SOUND-PRIMARY-SOURCES.md`; preserve the distinction between a numeric register binding, related API/architecture evidence, game attestations and native proposals.
+- The user's current research priority is finding Sony documentation that explains `0x1f801db8` exactly, alongside the native MML1 consumer boundary. Maintain `DB8-BOUNDARY.md`, `SOUND-PRIMARY-SOURCES.md` and `SONY-ARCHIVE-COVERAGE.md`; preserve the distinction between a numeric register binding, related API/architecture evidence, game attestations and native proposals. The archive ledger owns checked scopes, inaccessible revisions and remaining text/image/document-type gaps so follow-ups do not repeat completed scans.
 - Preserve other agents' concurrent GitHub changes. Re-read the remote head and contracts before publication.
 
 ## Verification

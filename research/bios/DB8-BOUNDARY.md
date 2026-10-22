@@ -57,7 +57,7 @@ The remaining question is precise: which bits of which observation does the actu
 
 ## Current documentation completion boundary
 
-The user's current priority is Sony's exact register definition. The [document search](SOUND-PRIMARY-SOURCES.md) now includes selective archived-disc access, vendor support discussions and a second patent. Each required claim still needs its own evidence:
+The user's current priority is Sony's exact register definition. The [document search](SOUND-PRIMARY-SOURCES.md) and [archive coverage ledger](SONY-ARCHIVE-COVERAGE.md) include archived-disc access, wider PDF scans, vendor support discussions and patents. Each required claim still needs its own evidence:
 
 | Claim about `0x1f801db8` | Status in inspected Sony material |
 |---|---|

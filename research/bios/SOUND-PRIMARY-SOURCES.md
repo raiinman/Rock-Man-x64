@@ -6,7 +6,7 @@ Observation date: 2026-10-22, with successive source checks recorded below. This
 
 Vendor-authored Sony documentation supports a distinction between a master-volume setting, its mode and a current-master-volume observation. This pass did **not** find a vendor-authored source explicitly binding numeric addresses `0x1f801db8` and `0x1f801dba` to those concepts. Their numeric meaning, timing, reset state and relationship to the particular MML1 read remain unresolved by this primary-source pass. A bounded failed search does not show that such documentation never existed.
 
-Newly accessed editions establish the current-master-volume attribute in December 1996 documentation and a dedicated getter in October 1997 documentation. This closes the earlier documentation-date gap; it does not identify the firmware's implementation or bind the numeric port.
+Newly accessed editions establish the current-master-volume attribute in December 1996 documentation and a dedicated getter in June 1997 documentation. This closes the earlier documentation-date gap; it does not identify the firmware's implementation or bind the numeric port. The [archive coverage ledger](SONY-ARCHIVE-COVERAGE.md) records subsequent release 2.0/2.3 scans, inaccessible revisions and image/document-type limits.
 
 ## Catalog inspected first
 

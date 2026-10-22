@@ -17,6 +17,8 @@ This firmware investigation supports the independent port with bounded observati
 
 The current project's sound-related read at source `80079070` remains unbound to physical hardware semantics by this BIOS investigation. Project update `2013042` now attests that a connected Linux native mixer passes it under an explicit software-coefficient policy and returns from `CdInit`; the earlier configuration stage still stops at the read. The focused [`0x1f801db8` handoff](DB8-BOUNDARY.md) records wider bounded searches and the game slice still unavailable here: load width/sign, consumer, preceding writes and reaching owner state. The user has prioritized this boundary for continuing research.
 
+Continuing Sony-document research is tracked in the [archive coverage ledger](SONY-ARCHIVE-COVERAGE.md). Release 2.3's 409-PDF text pass has not produced the numeric definition; remaining image and presentation limits are explicit. Related SPU2 documentation is separate comparison evidence and cannot certify a PS1 adapter.
+
 ## Suggested acceptance cases
 
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
