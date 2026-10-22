@@ -1,6 +1,6 @@
 # Cited retained evidence
 
-This is an index of private analysis records, not a public evidence bundle. `ROM` denotes the original firmware profile; `kernel` denotes the separately identified derived slice. See [Evidence](EVIDENCE.md) for subject hashes, profile digests, limitations and methods. Addresses below are query coordinates; the table contains no instructions or source bytes.
+This is an index of private analysis records, not a public evidence bundle. Subjects distinguish the original ROM, copied kernel, staging stub, unpacking tail and decoded frontend. See [Evidence](EVIDENCE.md) for subject hashes, profile digests, limitations and methods. Addresses below are query coordinates; the table contains no instructions or source bytes.
 
 | Evidence ID | Subject | Operation | Selected coordinate |
 |---|---|---|---|
@@ -15,6 +15,7 @@ This is an index of private analysis records, not a public evidence bundle. `ROM
 | `ev_0d53661fa0e3db5348382bf00a436c56ef76219f4599aaa7b1ea8090451d7baa` | ROM | `procedure_pseudo_code` | `0xbfc12628` |
 | `ev_0f17432bfb631039775e3f9e186a88777346f995d0657b66dad3d461ff794243` | kernel | `read_bytes` | `0x510` |
 | `ev_0f385b970446f3a8af94349c1542d4270ffa202e932f8d0703b2f7cda544addd` | ROM | `read_function_instructions` | `0xbfc0d8b0` |
+| `ev_0faae87663f3cdbc331bfbcf569043229807c78054bd53c2ee38c18e2253c5ac` | staging-stub | `procedure_pseudo_code` | `0x80030000` |
 | `ev_10ce94b28ad28b25a2ec1879658bf6a916f2b29a348a272d4f50dfddf478fc86` | ROM | `procedure_pseudo_code` | `0xbfc008a0` |
 | `ev_128252a3de7a207a55755f43452e963a9470a65013b8bd99b5d2ca5be6e00c26` | ROM | `procedure_pseudo_code` | `0xbfc1188c` |
 | `ev_129d3c3deda804f042f01f7f721cba8d28bd481d05401e35bcd374fa180bde63` | kernel | `read_bytes` | `0x20a8` |
@@ -50,6 +51,7 @@ This is an index of private analysis records, not a public evidence bundle. `ROM
 | `ev_584573cb8fb43e87fdb4f9088c530d8bb9120875999caa09e2792e26ad6e1e86` | ROM | `read_bytes` | `0xbfc18000` |
 | `ev_5b82e1e951e1ae908cf5a9f3a321566a2ed62dc98f07175c40647cfb03069753` | ROM | `read_function_instructions` | `0xbfc11b18` |
 | `ev_5d3ec0532a7c132f613d1601d50b7f3d8d0ee1f2b52d9394812cee64dd413973` | kernel | `read_function_instructions` | `0x1420` |
+| `ev_6016a1befb9e9af6518e33a2a1aade49675325c99648de4e4d5c8834622b02ad` | staging-stub | `read_function_instructions` | `0x80030000` |
 | `ev_601da8be3aec49838c586b9b578f8a8feb40dc79cca1b24e21c944d5e7cb420e` | ROM | `read_function_instructions` | `0xbfc0615c` |
 | `ev_62e1adb3fad4cdbdaff962864c01c3409c5517a0e6e46ad4af55e3eee0091782` | kernel | `xrefs` | `0x1f801048` |
 | `ev_6373d68ca314377d9738be4d09b10fedea3c01a77fbaa2b5e0ae5fa8fa389266` | ROM | `read_function_instructions` | `0xbfc04c38` |
@@ -59,7 +61,9 @@ This is an index of private analysis records, not a public evidence bundle. `ROM
 | `ev_692470dbf7400ae2b05904bd392935aac2478685e852dafcd09b3d861a98325d` | kernel | `procedure_pseudo_code` | `0x1794` |
 | `ev_6b7a32a39b4e9ec4ec13a4e3c24aed0b9986473fc03bde47aff4fd11e46536a8` | ROM | `procedure_pseudo_code` | `0xbfc03c90` |
 | `ev_6bc3ee441ca9d1ffde45021bd48f389700d2fc95414d4510c3015da6a2e433f5` | ROM | `procedure_pseudo_code` | `0xbfc00944` |
+| `ev_6bdcc04cb4656a403aabe255ffefed4aa3817be3844fdce743a583846c609080` | unpack-tail | `procedure_pseudo_code` | `0x801c0ca4` |
 | `ev_6cf21ee9509590926889431ac9df717d48adecd3c3b907403d55a96720ba19bb` | ROM | `read_function_instructions` | `0xbfc12458` |
+| `ev_6ebd1b4ebc735c23efec42bd8c72a16009f360421122132af10c69340734f54a` | decoded-frontend | `binary_overview` | `inventory / image` |
 | `ev_6f122ee6eaf45a4ebd80d9cbb95286e1ee82214ff8729f19cf47e7040dbd69ab` | ROM | `procedure_pseudo_code` | `0xbfc11b18` |
 | `ev_71793f2299237d5aae6795845923fc7b3dba737599875faf7696f82fcb01eeb0` | ROM | `read_function_instructions` | `0xbfc12564` |
 | `ev_73373ce0dff686bfa43768b50607875217073be3d2285c27c127907ad23c8794` | ROM | `procedure_pseudo_code` | `0xbfc03d80` |
@@ -68,6 +72,7 @@ This is an index of private analysis records, not a public evidence bundle. `ROM
 | `ev_7698ecaa6e7e148ad5dda0117569d515395b2a30e4985cb2e3f2abd4735e6ba1` | kernel | `xrefs` | `0x1f801daa` |
 | `ev_77656636b4ffa128bfe02798e968a3cd5879f9cdb83559ff508d590cbf7be750` | kernel | `read_bytes` | `0x874` |
 | `ev_78eb474075f934f7a3fb2a87c5148caa4f2db6ea77c0a27e5397961e43831258` | ROM | `read_function_instructions` | `0xbfc03ea0` |
+| `ev_78f80837d85451d3532d2da712775871c1ef5749c85e53f301268d070367ffa1` | decoded-frontend | `inspect_native_load_image` | `inventory / image` |
 | `ev_796367124c5c66e028dc33e70904b2be13ff8a4b571b39d1140954d8f459d151` | ROM | `procedure_pseudo_code` | `0xbfc01a60` |
 | `ev_799537ba79f5f3d2fdc17a9a8e330360fada862ea979334ef275d5c509001622` | kernel | `read_bytes` | `0xb00` |
 | `ev_7a2c411ad3c08616a66e8047915766618a4181abcd255ac420b18bfb24c4fec8` | ROM | `read_bytes` | `0xbfc0e620` |
@@ -126,6 +131,7 @@ This is an index of private analysis records, not a public evidence bundle. `ROM
 | `ev_ef3a558d61dc18e9afee2482ed389cc1047dd53fd77a03548f95ec3c3ec00e8f` | ROM | `read_bytes` | `0xbfc10000` |
 | `ev_f1e039d748176c1a72dd0a0d8756f8dac4b93e40672abbe92df7bc1840beba93` | ROM | `read_function_instructions` | `0xbfc061a0` |
 | `ev_f5094c3985f23d33fd91ec63a5922b95a9042b8f921cdbbd669d7d13f3e2361b` | ROM | `procedure_pseudo_code` | `0xbfc05558` |
+| `ev_f599d860b753ffcac0b4fd431836fe0565b15c77a6d165566e2dcd064d3b3088` | unpack-tail | `read_function_instructions` | `0x801c0ca4` |
 | `ev_f59e3438c2c7da1267c2f0386debf9756dc56f86fd2d6ae8dda05be4e6d44eed` | kernel | `procedure_pseudo_code` | `0x1b44` |
 | `ev_f8ffc44a8bb8a3c82a9677ecea73895cad5e9185d2a1f7276f8fbcf5b978e267` | kernel | `procedure_pseudo_code` | `0x1f88` |
 | `ev_fbc2a765b72549de4f221e5eb09df404314fe4ff0b46bc611e1691be44034a6f` | kernel | `procedure_pseudo_code` | `0x51f4` |

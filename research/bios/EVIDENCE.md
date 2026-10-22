@@ -26,6 +26,16 @@ The derived mapping follows the installer-observed uncached destination `0xa0000
 
 ## Methods and evidence classes
 
+The later [staging investigation](STAGING.md) adds these separately bound static inputs, using the same Ghidra language/compiler conventions:
+
+| Subject | Bytes and imported extent, exclusive end | Input SHA-256 | Provider profile digest |
+|---|---|---|---|
+| staging-stub | 76; `0x80030000..0x8003004c` | `8782a2aa10b397a9b75c4b38a2314c86f40f2d092bd27f394bfb478380ebd257` | `855a1ccd4159b7e27b2665d8fb8635772795ab4c9a1ada9d05aed2a6741e2408` |
+| unpack-tail | 272; `0x801c0ca4..0x801c0db4` | `255b26c39bd18d6fd299ebf42caeaa28cd02ad67ce554b73514def153b5d2c6f` | `6e09ceaaebb6a890f09da03e9c595f8768e32e8ac7be140928bd49f894366b48` |
+| decoded-frontend | 372032; `0x80030000..0x8008ad40` | `7920530e46981bab09bef02c72f35964bca25c879a72f3bf1c5313921143fbe7` | `855a1ccd4159b7e27b2665d8fb8635772795ab4c9a1ada9d05aed2a6741e2408` |
+
+The stub and tail each define one procedure and zero strings. The decoded image initially defines 744 procedures and 111 strings. These are separate and sometimes overlapping discovery contexts; do not add their counts to the ROM inventory as unique firmware routines. A profile digest identifies analysis parameters, so the stub and decoded image can share a digest while having different subject hashes. Always bind both subject and profile. The decoded image is a reviewed, bounded data-transform output, with no linear source-byte address correspondence and no synthesized zero-fill or runtime state.
+
 REA provided inventories, pseudocode, exact-address references, byte reads, load-image checks, selected instruction inspections and recovered function instruction bodies. Three parallel agents investigated startup, kernel services and devices; a coordinator reviewed coverage and publication. The first ROM pass queried 110 distinct procedure addresses; this is query coverage, not 110 completely understood routines. The derived profile adds context for overlapping source code and previously unresolved relationships; its counts must not be added as unique BIOS functions.
 
 Supplemental checks independently extracted MIPS instruction fields for reset and executable handoff. The latter verified 30 selected instruction patterns against the original digest. Kernel lifecycle spans lacking Ghidra-defined functions were independently decoded from REA-returned bytes with Capstone 5.0.6. These methods are identified at their conclusions. Capstone's MIPS32 decoding is also a superset; numeric instruction fields and MIPS-I context still need review. Independent decoding does not convert a failed REA instruction inspection into a success.

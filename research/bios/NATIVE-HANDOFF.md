@@ -32,7 +32,7 @@ These are proposals, not tests run against MML1: failed event allocation; enabli
 | 5 | File/device abstraction — partially answered | [Filesystem findings](FILESYSTEM.md) establishes selected B0 bindings, descriptor/callback failures, block alignment and close release. Live registrations, complete parsing, backend units and actual game calls remain unresolved |
 | 6 | Controller/card lifecycle | Resolve caller buffers, checksums, handshake failures, callback scheduling and persistence boundary beyond selected transaction candidates |
 | 7 | RAM installation phases and dispatch completeness | Reconcile initial copied bytes with subsequent table/vector writes; document proven service bindings without publishing reconstructed tables |
-| 8 | Unidentified and transformed ROM regions — active | [Staging findings](STAGING.md) establishes another ROM copy and an unpack-shaped tail. Correct-profile REA corroboration, bounded output derivation and resulting device-code coverage are next |
+| 8 | Unidentified and transformed ROM regions — active | [Staging findings](STAGING.md) establishes nested copies, correct-profile instruction corroboration and a bounded 372032-byte decoded image now open in REA. Sound/CD/device-code coverage and omitted zero-fill state remain under investigation |
 | 9 | CPU/GTE and hardware conformance | Vendor semantics and independently permitted measurements are needed; generic MIPS32 decompilation cannot validate load delays, GTE arithmetic or hardware timing |
 
 ## Update workflow
