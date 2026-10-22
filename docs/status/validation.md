@@ -31,7 +31,7 @@ A passing check supports only the claim it actually tested. This page defines th
 9. Review the complete result, freeze immutable artifacts and record the accepted boundary.
 10. Claim gameplay only after actual end-to-end game behavior is demonstrated.
 
-A later step cannot be inferred from an earlier one. The configuration candidate completed isolated cloud validation at 22:06 UTC on 2026-10-22, with subsequent final artifact review and approval to proceed with freezing. Immutable freeze/rebuild and the Linux 40-case contract remain in progress; no new Windows execution or final Windows acceptance is established.
+A later step cannot be inferred from an earlier one. The configuration stage now has a frozen 40-case Windows result. The newer connected software-mixer stage has Linux evidence and a separately verified reporting-only correction; its immutable freeze and actual Windows acceptance remain pending. The full pre-correction aggregate and affected post-correction checks form compositional evidence, not a claimed rerun of the full aggregate. See [current status](current-status.md) for the exact boundary and counts.
 
 ## Handling failures and inconclusive runs
 

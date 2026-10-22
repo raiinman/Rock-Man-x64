@@ -14,28 +14,25 @@ Development resumed on 2026-10-22 at 22:04 UTC after the documentation pause. Th
 | Keep partial knowledge visible | Unknown bytes, flags and permissions cannot become convenient zeros or successes |
 | Separate production authority from diagnostic fixtures | Demonstrations cannot grant capabilities or prove normal startup reachability |
 | Retain committed work and pending obligations | Recoverable failures must not replay side effects or discard debt |
-| Keep one authoritative CD mute owner | A future synchronous mixer observes committed configuration under serialization rather than mirroring mutable mute state |
+| Keep one authoritative CD mute owner | The connected synchronous mixer observes committed configuration under Session serialization rather than mirroring mutable mute state |
 | Freeze only after complete review | Candidate tests, compiler passes and a terminal runner are insufficient by themselves |
 
-## Immediate acceptance closure after resumption
+## Immediate acceptance closure
 
-The smallest open loop is the **existing CD configuration candidate**, not a new feature:
+The frozen configuration stage has passed all 40 Windows cases. The next open loop is the **newer native software-mixer freeze**, not another gameplay claim:
 
-1. Completed: corrected-fixture character and inspector retries, settled source/input and preservation checks, and the 22:06 UTC cloud-validation receipt. Original failed attempts remain retained.
-2. Completed: final artifact review confirmed by 22:08 UTC and approval to proceed with freezing at 22:09 UTC.
-3. In progress: immutable freeze/rebuild and the Linux 40-case contract. Do not label these complete until their final receipts are checked.
-4. Next: finish the private freeze/package verification and execute the exact candidate on Windows. Cross-builds do not substitute for this run.
-5. Only after that bounded checkpoint, consider native audio-owner/mixer integration under its own evidence and ownership requirements.
+1. Completed: connected Linux mixer checks and the pre-reporting 18-stage aggregate.
+2. Completed: isolated reporting-only correction, 21 exact older reports, nine new positive/refusal profiles, and affected tests/verifiers.
+3. Completed: guarded rebuild with 20 byte-identical target executables, 419 matching source files and a second Linux 51-case pass. Final unchanged contract execution with explicit before/after runner hashes remains in progress; freeze is not sealed. Retain the earlier excluded rebuild failure and require fresh output directories.
+4. Next: verify the sealed private package and execute the exact stage on Windows. Twenty staged target executables do not establish target execution.
 
-The existing frozen IRQ-chain stage remains the latest Windows-verified baseline. The desired outcome is an accepted or explicitly rejected bounded configuration checkpoint, not a game-boot or playback claim.
+## Next source boundary — planned, not implemented
 
-## Next integration boundary
+The integrated mixer genuinely returns from `CdInit` with result 1, then stops at `800779cc` before the next unsupported non-null-result `CdSync` wrapper proceeds. It does not provide a decoder, output endpoint or playback.
 
-The new candidate stops at the sound-related numeric-port read at source `80079070`; high-level CD initialization has not returned. A proposed mixer adapter must establish its native coefficient/state ownership and actual source reads/writes rather than returning a convenient zero to pass the branch.
+The next plan covers the actual eight-byte result copy, parameter FIFO, real mode-00 Form1 reader and response callback/event continuation. Implementation is held until the audio freeze is sealed. Preserve real source microcommits and existing response/IRQ obligations; do not skip a live pointer, callback, synchronizer or unsupported branch to reach command `0E`.
 
-The scratch DSP core provides arithmetic evidence only. Any integration must first establish initialized/probed processor ownership, current versus requested gain, staged versus applied matrix, stale-generation rejection and serialized authoritative configuration capture. It must preserve the existing CD response and IRQ obligations.
-
-The source path requires genuine leaf, wrapper, callback-setter and high-level initializer returns. Static research identifies later command-mode work, including command `0E`, as a further boundary, not permission to jump directly there. Stop earlier if a live pointer, callback, synchronizer or source branch is unsupported. No branch should be forced merely to reach a named milestone.
+The separately authored BIOS analysis supplies targeted test hypotheses, not independently reproduced runtime/hardware evidence or permission to copy firmware behavior into the game translator. Custom-hook return, ordinary callback return and final exception restoration remain distinct. A0 context/heap contracts, DB8 semantics and live game-event mapping remain unresolved.
 
 ## Explicitly unresolved scopes
 
@@ -49,7 +46,7 @@ The source path requires genuine leaf, wrapper, callback-setter and high-level i
 
 ## Release and publication boundary
 
-The new packager's 15 synthetic tests are scratch evidence only. There is no new private kit to distribute. Documentation publication does not authorize publishing source, assets, previews, executable bytes, private package contents or private receipts.
+The configuration package is frozen and privately Windows-validated. The newer audio package remains in preparation and must not be described as sealed or accepted before final receipts. Documentation publication does not authorize publishing source, assets, previews, executable bytes, private package contents or private receipts.
 
 Future public updates should record the exact accepted boundary, changes since the prior checkpoint, validation category and remaining unknowns. Public reference research should remain clearly distinguished from implementation and execution evidence. Do not call the process legally clean-room certified.
 

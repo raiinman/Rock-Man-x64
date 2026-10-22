@@ -14,9 +14,9 @@ An independent effort toward a native Windows x64 implementation of Mega Man Leg
 
 ## Current checkpoint — 2026-10-22
 
-Development **resumed at 22:04 UTC** after the documentation pause. Isolated cloud validation of the reset/unmute candidate completed at **22:06 UTC**, followed by final artifact review and approval to proceed with freezing. Immutable freeze/rebuild and the Linux 40-case contract are **in progress**, not completed. No new Windows execution has occurred: the last Windows-verified stage remains the 29-case IRQ-chain suite.
+Development **resumed at 22:04 UTC**. The frozen CD configuration/reset/unmute stage has now passed **40 actual Windows cases** (27 expected exit 0, 13 intentional exit 1), including 21 complete JSON and 19 contract-scoped text comparisons. Its low-level initializer returns 0; it still stops before the sound-related read and does not return from high-level CD initialization.
 
-The completed cloud checks report 92 regression tests, 19 tool tests, nine components, 21 CLI cases (including 14 exact older-JSON comparisons), and 18 static Windows builds. Two initial missing-fixture component failures remain in the record; corrected-fixture retries passed. Earlier inconclusive shared-tree attempts remain excluded. These are scoped private results, not game boot or playback. The standalone DSP core is not integrated into the runtime.
+A newer, separately Linux-tested **native CPU software mixer integration** genuinely returns from high-level `CdInit` with result 1 and stops at the next unsupported non-null-result `CdSync` boundary. It does not open or own an output device and has no decoder or playback and makes no physical SPU or game-boot claim. Its freeze sealing and final Linux contract are pending; it is **not Windows-validated**. Historical failures and the reporting-only correction remain in the [validation history](docs/history/validation-history.md).
 
 The [status record](docs/status/current-status.md) carries the detailed boundaries. Cross-compilation is not Windows execution; synthetic and component tests are not game boot; decoded assets are not gameplay.
 

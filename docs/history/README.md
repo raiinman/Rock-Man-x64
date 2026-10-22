@@ -12,7 +12,7 @@ Independently reconstruct the original PlayStation **Mega Man Legends** as a ful
 
 The initial comparison examined public descriptions/documentation of existing projects before the no-reuse direction; none was adopted as the implementation foundation. “Independent reconstruction” describes the working approach. The supplied original binary is analyzed directly; a formal legally separated clean-room process has **not** been established or certified.
 
-## The stopping point
+## The stopping point at the documentation pause
 
 The last frozen, actual-Windows-validated runtime stage is **native IRQ chain**: 88 regression tests and 29 Windows contract cases (22 successful exit-0 cases and seven intentional exit-1 refusals). The first status command completes through the translated handler, logical interrupt return and original wait. It stops before reset command `0A`.
 
@@ -25,3 +25,7 @@ There is still no native game boot, playable scene, complete integrated IDE or a
 Most saved milestones are dated **2026-10-22**, without trustworthy per-milestone completion times. Their sequence below follows dependencies and explicit records. Workstreams overlapped, so ordered milestones are not a minute-by-minute schedule. Exact times are used only where a record or conversation explicitly supplies them. File modification times are not treated as proof of completion.
 
 Private implementation documents sometimes retain historical statements such as “Windows execution unverified” or “no public repository authorized.” These were correct boundaries when written, not the final state: later actual Windows reports and the explicit documentation-publication request supersede them. Private originals and derived assets remain excluded.
+
+## Later resumed-development checkpoint
+
+Development resumed at 22:04 UTC. The configuration stage subsequently passed 40 Windows cases. A newer connected native CPU mixer returns from high-level CdInit on Linux, while its freeze and Windows acceptance remain pending. See [validation history](validation-history.md) for the preserved failures, correction and evidence limits, and [current status](../status/current-status.md) for the latest checkpoint.

@@ -16,9 +16,9 @@ A service result must correspond to work owned by the same Session. Heap initial
 
 Likewise, a raw-media preflight verifies actual cursor positioning and reads against a retained immutable image. It is not itself a CD command response. Command admission, backend work, response publication, FIFO consumption, interrupt acknowledgement and source return are separate obligations.
 
-## CD configuration candidate
+## CD configuration
 
-The unfrozen reset/unmute candidate requires the genuine immutable media owner, a fresh independent production Session and the preceding notification and IRQ-chain capabilities. Inherited, diagnostic, missing-image and unsupported reload/adoption paths cannot acquire that authority.
+The frozen, Windows-verified reset/unmute stage requires the genuine immutable media owner, a fresh independent production Session and the preceding notification and IRQ-chain capabilities. Inherited, diagnostic, missing-image and unsupported reload/adoption paths cannot acquire that authority.
 
 Reset `0A` reserves two response obligations before admission. Its first cause-3 response acknowledges acceptance from pre-reset authoritative status. Only after the actual first handler return does the scheduler prepare a separate reader against the same immutable allocation, reset its cursor, read first/middle/last sectors and probe EOF with a validation cursor. A successful atomic reader/configuration commit establishes native mute-request=true and prepares the cause-2 completion response. An ACK is not reset completion.
 
@@ -34,7 +34,7 @@ The IRQ chain captures a logical continuation separately from source-installed h
 
 New proven low-to-high arrivals have identities. A distinct arrival during active work remains successor debt; observing a still-high line does not invent another edge. Unsupported successors and nonzero user callbacks remain explicit barriers. Exception admission checks actual command phase, stack, return address and saved caller identity; an unknown or incorrect restored return address is not repaired by assumption.
 
-For the new candidate's normal path, four IRQ entries and returns, four FIFO reads, 28 source padding stores, 32 result-copy stores and 11 clock calls precede the final synchronizer result. These observations establish that bounded path, not a physical interrupt/timing model.
+For the configuration stage's normal path, four IRQ entries and returns, four FIFO reads, 28 source padding stores, 32 result-copy stores and 11 clock calls precede the final synchronizer result. These observations establish that bounded path, not a physical interrupt/timing model.
 
 ## Atomicity and allocation failure
 
@@ -44,15 +44,15 @@ Atomicity is boundary-specific. A later unsupported source store must not erase 
 
 Allocation-denial tests repeatedly target recoverable boundaries, including failure immediately after reset commit/publication. They check ownership, preserved state and resumability, rather than merely checking that the process did not crash. They do not establish every possible future path.
 
-## Mixer proposal and isolated DSP core
+## Connected native CPU software mixer
 
-The selected design uses a synchronous software stereo processor with immutable applied coefficients and one authoritative CD configuration owner. Each bounded processing call captures the actual owner's committed mute configuration and the mixer's coefficient/control state under the same Session serialization guard. It records consumed revisions; it does not maintain a second mutable mute authority.
+The connected implementation uses a synchronous software stereo processor with immutable applied coefficients and one authoritative CD configuration owner. Each bounded processing call captures the actual owner's committed mute configuration and the mixer's coefficient/control state under the same Session serialization guard. It records consumed revisions; it does not maintain a second mutable mute authority.
 
-Current gain means coefficients actually installed in that software processor. Silence, muted input or lack of an endpoint cannot justify a fabricated zero current-gain reading. A proposed numeric-port adapter would expose those software coefficients under an explicitly native policy; the hardware meaning of the relevant numeric addresses is not established by this proposal.
+Current gain means coefficients actually installed in that software processor. Silence, muted input or lack of an endpoint cannot justify a fabricated zero current-gain reading. The connected numeric-port adapter exposes those software coefficients under an explicitly native policy; the hardware meaning of the relevant numeric addresses is not established by this implementation.
 
-Staging matrix coefficients does not apply them. Apply validates all fields and publishes one complete revision. Source writes would remain individual microcommits. Processing must validate buffers, knownness, owners and completion capacity before a no-throw output phase. Reload, reentrant mutation and stale borrowers must not create torn snapshots.
+Staging matrix coefficients does not apply them. Apply validates all fields and publishes one complete revision. Source writes remain individual microcommits. Processing must validate buffers, knownness, owners and completion capacity before a no-throw output phase. Reload, reentrant mutation and stale borrowers must not create torn snapshots.
 
-Only the separately tested pure arithmetic core exists in scratch. There is no connected source adapter or production mixer capability, no open output device, no stream decoder and no playback proof. Integrating that core requires a separate authorized implementation and acceptance step.
+The sealed same-owner processor establishes functional readiness lazily after actual unmute and performs CPU PCM work under shared Session serialization. Connected Linux checks establish the genuine high-level initializer return, not merely a fabricated gain read. Freeze and Windows acceptance remain pending. There is no open output device, stream decoder, playback proof or physical SPU equivalence. Production reset-after-readiness coverage is still absent.
 
 ## Unsupported and recoverable outcomes
 

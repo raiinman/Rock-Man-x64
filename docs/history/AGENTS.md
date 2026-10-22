@@ -11,7 +11,7 @@ Scope: this `docs/history/` subtree only. Keep it a sanitized retrospective, not
 ## Verification rules
 - Check claims against retained evidence or explicitly supplied conversation history. Do not use file modification times as completion proof.
 - Preserve the initial outside-project comparison before the no-reuse restriction; do not rewrite it as “nothing external was ever examined.”
-- Separate frozen Windows-validated IRQ-chain results from unfrozen configuration work, failed/inconclusive aggregates and scratch-only prototypes.
+- Keep each historical stage distinct from later acceptance: frozen Windows-validated stages, pending candidates, failed/inconclusive aggregates, reporting-only corrections and scratch prototypes must retain their own evidence labels.
 - Keep exact timestamps only when directly evidenced. Do not infer ordering across parallel workstreams.
 - Do not expose private links, machine/account identifiers, absolute computer paths, source instructions, game assets or raw internal reports.
 - Documentation-only verification: inspect prose, links, scope and consistency. Do not execute native tests, access a Windows machine, modify project code or create releases to update this history.

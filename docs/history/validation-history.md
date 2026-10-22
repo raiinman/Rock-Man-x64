@@ -61,7 +61,7 @@ The retained reports describe real native Windows execution. They were preserved
 
 Expected negative cases are successful **refusals**, not crashes being counted as passes. Frozen runtime reports record empty stderr, no timeouts and before/after integrity checks. Text comparisons permitted only their stated normalization/pattern rules; full JSON comparison is stronger than matching a single success line.
 
-A prior stage's actual Windows pass does **not** validate active inspector additions or the newer configuration candidate.
+A prior stage's actual Windows pass does **not** validate active inspector additions or later candidates; the configuration stage's subsequent Windows result is recorded separately below.
 
 ## Candidate at the 21:37 UTC pause
 
@@ -73,7 +73,9 @@ The isolated workflow requires separate outputs, pinned source/input identity, e
 
 Development resumed at **22:04 UTC**. At **22:06 UTC**, isolated cloud validation completed with 92 regression tests, 19 tool tests, nine components, 21 CLI cases (14 exact older-JSON comparisons), and 18 static Windows builds. The character and inspector retries passed after missing private fixtures were supplied; their initial failures remain retained. Earlier shared-tree attempts remain inconclusive and excluded.
 
-Final artifact review was confirmed by **22:08 UTC**, followed by approval to proceed with freezing at **22:09 UTC**. At this update, immutable freeze/rebuild and the Linux 40-case contract are **in progress**, not completed. No new Windows execution occurred, so the 29-case IRQ-chain stage remains the latest Windows-verified milestone. High-level CD initialization, game boot and playback remain unestablished.
+The configuration validation also recorded 677 focused boundaries and 1,354 repeated allocation denials, plus preserved identities for 214 source files, 2,334 immutable copied inputs, 76 preview inputs and 2,086 existing release files. The 19 effective successful stages included corrected-fixture retries, not an uninterrupted clean pass. Expanded callback/successor refusal checks did not prove connected reset reissue, 16-operation exhaustion or broader recovery.
+
+Final artifact review was confirmed by **22:08 UTC**, followed by approval to proceed with freezing at **22:09 UTC**. At that earlier resumption update, immutable freeze/rebuild and the Linux 40-case contract were **in progress**, not completed. No new Windows execution had occurred, so the 29-case IRQ-chain stage remained the latest Windows-verified milestone at that time. High-level CD initialization, game boot and playback were unestablished.
 
 ## Selected non-content identities
 
@@ -94,3 +96,13 @@ Hashes identify retained private evidence; they are not download links or public
 This documentation-only repository does not include the private source corpus, original executable instruction tables, extracted assets, previews, private test packages or raw executor receipts. The reported original-data and Windows results therefore cannot be independently reproduced **from this repository alone**. Evidence is retained privately, and this narrative distinguishes evidence types rather than presenting inaccessible private paths as public citations.
 
 No instruction listing, ROM bytes, asset preview or private package content is embedded in this history. Hashes and sanitized milestone descriptions permit identity tracking without distributing those materials.
+
+## Subsequent configuration acceptance and connected mixer — 2026-10-22
+
+The frozen configuration/reset/unmute stage subsequently passed **40 actual Windows cases** (27 expected exit 0, 13 intentional exit 1): 21 complete JSON matches, 19 contract-scoped text matches, empty stderr, no timeouts and unchanged before/after integrity checks. Low-level helper `800791a8` returns 0, but that stage stops at sound-read boundary `80079070` without a high-level CdInit return.
+
+The newer connected native CPU mixer establishes same-owner processing and genuinely returns from high-level CdInit with fully known result 1, then stops at `800779cc` before unsupported non-null-result CdSync. Connected ASan/UBSan reports 20,222 checks, with 20,000 production PCM oracle frames and 136 source boundaries checked. Its pre-reporting aggregate passed all 18 stages (92 regression tests, 19 tool tests, ten components), with 438 tracked source/input/test/tool identities unchanged.
+
+Review found contradictory legacy reporting literals. An isolated reporting-only correction changed one CLI source file, leaving 437 other files unchanged. All 21 old reports remained byte-exact; nine new positive/refusal profiles and affected tests/verifiers passed. This is compositional validation, not a second full aggregate or new runtime capability. Original inconsistent reports are retained as history, not accepted current output; some intermediate reporting branches received source review only.
+
+Freeze preparation was approved at 22:51 UTC. An initial Linux 51-case contract passed. Fresh-output-directory hardening passed seven negative path/symlink checks. An earlier rebuild encountered a changing runner script and exited 127; that receipt is retained and excluded from acceptance. The settled guarded rebuild then passed with 20 byte-identical target executables and 419 source files matching the corrected snapshot; a second Linux 51-case pass completed. The final unchanged rerun with explicit before/after runner hashes remains pending. This release-tooling failure was not a Windows execution failure. The audio stage is not yet frozen or Windows-validated and has no device output, playback, physical SPU equivalence or game boot.

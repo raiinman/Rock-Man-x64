@@ -21,10 +21,10 @@ This matrix describes bounded private implementation work, not downloadable feat
 | Ahead-of-time handlers | Independently generated native C++ for selected recovered routines | No general CPU interpreter; untranslated successor remains a stop |
 | Startup | Entry/BSS, heap, event/context/hook and selected native device/routing policy prefixes | Bounded path, not full boot or general firmware replacement |
 | CD ownership and status | Sealed immutable reader, genuine status operation and retained response/notification ownership | Native service state is not physical drive state |
-| IRQ chain | Frozen stage completes first status command through actual source-handler return | Stops at reset command `0A`; later candidate is separately unfrozen |
-| CD reset and unmute candidate | Actual reader/configuration transactions and four source IRQ returns | New stage not frozen or Windows-run; stops at unsupported sound-related numeric-port read |
-| Software mixer research | Explicit native policy and separately tested pure DSP scratch core | No source adapter, production authority, decoder, output endpoint or playback |
-| Packaging | Prior private artifacts preserved; new packager has scratch synthetic checks | No new private kit created and no source release authorized by this documentation task |
+| IRQ chain | Frozen stage completes first status command through actual source-handler return | That historical stage stops at reset `0A`; the newer configuration stage is separately Windows-verified |
+| CD reset and unmute | Frozen actual reader/configuration transactions; 40 Windows cases and four source IRQ returns | Configuration stage stops at the sound-read boundary; high-level initializer has not returned there |
+| Native CPU software mixer | Connected same-owner processing and genuine high-level CdInit return; Linux-tested | Freeze/Windows acceptance pending; stops at next CdSync boundary; no decoder, output endpoint, playback or physical SPU equivalence |
+| Packaging | Configuration package frozen; audio staging and fresh-directory guards under validation | Audio freeze sealing pending; no public package or source release |
 | Gameplay | Target only | No demonstrated player control, collision, AI, combat, save compatibility or complete scene lifecycle |
 
 ## Why the subdivisions matter

@@ -38,7 +38,7 @@ Use combinations when appropriate: a component may be implemented, Linux-tested,
 
 - The public record contains explanatory Markdown and the separately maintained research catalog, not original assets, source code, binaries, extracted data, or private packages.
 - Private evidence is summarized, not reproduced. Readers cannot independently rerun the private validation suites from this repository.
-- No playable game, native game boot, integrated audio, or general hardware conformance is implied by the documented milestones.
+- No playable game, native game boot, audible output, or general hardware conformance is implied by the documented milestones.
 - Research references and engineering observations are different evidence classes. A linked manual, proposed dependency, or cataloged format does not establish that MML1 uses it or that the prototype implements it.
 - Independent implementation is a project constraint, not a legal certification. Source provenance and uncertainties remain visible.
 
