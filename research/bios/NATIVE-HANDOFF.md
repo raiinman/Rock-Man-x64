@@ -25,14 +25,14 @@ These are proposals, not tests run against MML1: failed event allocation; enabli
 
 | Priority | Unresolved question | Next evidence and completion boundary |
 |---|---|---|
-| 1 | Full event lifecycle and callback ordering | Follow relevant B0 selectors through independent instruction checks; verify each transition and failure return, preserving undefined-code limitations |
+| 1 | Full event lifecycle and callback ordering — partially answered | [Kernel services](KERNEL-SERVICES.md) establishes selected allocation/delivery/wait/test/enable/disable branches. Runtime callback order, reentrancy, malformed handles and game-specific reachability remain open |
 | 2 | IRQ chain entry, priority, acknowledgement and return — partially answered | [Interrupt depth pass](INTERRUPTS.md) establishes vector copy, saved context, four-slot traversal and custom/default continuation. Nested faults, dynamic registrations, hardware timing and game hooks remain unresolved |
-| 3 | CD reset/unmute/error state transitions | Trace the relevant command states, response causes and notification sites; do not infer all reset behavior from a recovery command |
+| 3 | CD reset/unmute/error state transitions — partially answered | [CD lifecycle](CD-LIFECYCLE.md) separates normal initializer `0xccc` from recovery `0xddd`, response phases and read continuations. Normal `0x0b`/`0x0c` issuers and complete caller contracts remain unresolved |
 | 4 | Sound-related interface boundary | Locate instruction-level firmware accesses and numeric pointer tables; obtain game evidence before mapping the private implementation's source read |
-| 5 | File/device abstraction | Follow open/read/seek/close dispatch and error propagation, then identify which layers actual game paths reach |
+| 5 | File/device abstraction — partially answered | [Filesystem findings](FILESYSTEM.md) establishes selected B0 bindings, descriptor/callback failures, block alignment and close release. Live registrations, complete parsing, backend units and actual game calls remain unresolved |
 | 6 | Controller/card lifecycle | Resolve caller buffers, checksums, handshake failures, callback scheduling and persistence boundary beyond selected transaction candidates |
 | 7 | RAM installation phases and dispatch completeness | Reconcile initial copied bytes with subsequent table/vector writes; document proven service bindings without publishing reconstructed tables |
-| 8 | Unidentified and possibly transformed ROM regions | Inventory additional code/data with identified source-to-destination provenance; do not treat current procedure counts as total BIOS coverage |
+| 8 | Unidentified and transformed ROM regions — active | [Staging findings](STAGING.md) establishes another ROM copy and an unpack-shaped tail. Correct-profile REA corroboration, bounded output derivation and resulting device-code coverage are next |
 | 9 | CPU/GTE and hardware conformance | Vendor semantics and independently permitted measurements are needed; generic MIPS32 decompilation cannot validate load delays, GTE arithmetic or hardware timing |
 
 ## Update workflow

@@ -61,5 +61,3 @@ For an identified game dependency, test four-slot traversal order; null tests an
 Nested exceptions remain a specific gap. The inspected entry writes into the current context and chooses a kernel stack, but this does not establish a general nesting protocol, bounds for nested frames, callback permission to re-enable interrupts or recovery from faults inside tests. Likewise, raw pointer-table membership does not establish the safety of arbitrary caller-supplied nodes or jump buffers. Keep unsupported paths explicit and distinguish a chosen native refusal policy from verified BIOS semantics.
 
 No dynamic callback order, interrupt timing, branch-delay behavior or MML1 use is established by this pass. The full evidence is private and is not independently reproducible from the documentation-only repository.
-
-

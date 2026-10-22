@@ -10,6 +10,9 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 | [Kernel services](KERNEL-SERVICES.md) | Dispatch, event/thread records, exception discrimination, critical sections and context return; evidence classes remain separate |
 | [Interrupt entry and continuation](INTERRUPTS.md) | Vector installation, saved context, four-slot callback traversal, custom/default continuation and branch-delay gaps |
 | [Peripheral paths](DEVICES.md) | CD admission/interrupt/recovery/DMA, GPU transfer/synchronization, sound initialization, controller/card candidates |
+| [CD command lifecycle](CD-LIFECYCLE.md) | Normal reset versus error recovery, mode-setting/read continuation, ignored response reads, persistent partial side effects and unresolved mute/unmute issuers |
+| [File and device I/O](FILESYSTEM.md) | Descriptor ownership, lookup, callback dispatch, cursor/alignment behavior, failure semantics and unchecked loader results |
+| [Further firmware staging](STAGING.md) | A second large copy, nested loader coordinates and the bounded packed-data transformation lead |
 | [Executable loading](BOOT-LOADING.md) | Configuration parsing, header/payload stages, execution descriptor and limitations of success returns |
 | [Evidence and coverage](EVIDENCE.md) | Artifact identity, two static profiles, retained evidence provenance, reproducibility and open coverage |
 | [Validation record](VALIDATION.md) | Publication checks and their limits |
