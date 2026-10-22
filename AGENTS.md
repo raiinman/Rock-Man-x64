@@ -80,12 +80,15 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Child DOX Index
 
-No child DOX documents are needed yet. The root owns `README.md`, `AGENTS.md`, and `DOX-LICENSE`.
+- [`research/AGENTS.md`](research/AGENTS.md) owns the PS1 research library, source catalogs, search records, and handoff guidance.
+- The root owns `README.md`, `AGENTS.md`, and `DOX-LICENSE`.
 
 ## Project Scope
 
 - Project: Rock Man x64.
-- This repository is setup-only for an external research agent on another system.
-- Do not begin research or game development without a separate user instruction.
+- This repository supports an independent MML1 native Windows effort and a sourced PS1 reference library.
+- The user authorized PS1 hardware and official Sony development research, parallel research agents, necessary tool installation, and saving findings to this repository on 2026-10-22.
+- Research authorization does not establish facts about the other computer's game implementation. Record game-specific behavior only when supported by identified game evidence.
+- Respect the user's independent implementation constraint: do not import other game ports, decompilation projects, or emulator implementation code as implementation help.
 - Keep private notes, credentials, unrelated projects, original game data, and private validation packages out of this public repository.
-- DOX is documentation-only; there are no dependencies, runtime, build, or test commands yet.
+- The current deliverables are documentation and metadata. There is no game runtime or game build command here.

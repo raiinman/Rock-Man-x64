@@ -1,12 +1,10 @@
 # Rock Man x64
 
-Project workspace prepared for an external research agent on another system.
+Independent MML1 native Windows project workspace and PS1 research library.
 
-## Setup
+Start with the [research library](research/README.md) and [native Windows agent handoff](research/NATIVE-WINDOWS-HANDOFF.md). The library catalogs Sony-authored development materials, hardware references, historical archives, provenance issues, and remaining evidence gaps. It contains original research notes and links, not a Sony SDK, BIOS, game data, or another project's implementation.
 
-DOX agent guidance is installed in [`AGENTS.md`](AGENTS.md). No research or game development has been performed in this repository.
-
-DOX is Markdown-only: no dependencies, package installation, or runtime is required. The external agent should read `AGENTS.md` before working and await its separate task instructions.
+Read [`AGENTS.md`](AGENTS.md) before editing. The external development agent's work on another computer was not inspected during this research.
 
 ## DOX provenance
 

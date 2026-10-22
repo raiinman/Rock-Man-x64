@@ -1,0 +1,1780 @@
+{
+  "observed": "2026-10-22",
+  "note": "Navigation metadata only. Read each report for source authorship, status, provenance, access limitations and uncertainty.",
+  "count": 171,
+  "sources": [
+    {
+      "url": "https://archive.org/details/net-yaroze-documents",
+      "labels": [
+        "Internet Archive manual collection"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://assemblergames-archive.com/archive/index.php/thread-9264.html",
+      "labels": [
+        "CD-development setup thread"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://assemblergames-archive.com/thread-9278-post-139893.html",
+      "labels": [
+        "ASSEMblergames H2000 manual thread"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://bitsavers.trailing-edge.com/components/sony/_dataSheets/",
+      "labels": [
+        "Sony semiconductor datasheet directory"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://delta-island.com/downloads/sony-ps1/service-manual/playstation-ps1-service-manual-SCPH-100-SERIE_5TH_ED.pdf",
+      "labels": [
+        "SCPH-100 series service manual, fifth edition"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://gamingdoc.org/technical-documentation/consoles/sony-playstation/official/hardware/runtime-library-overview/",
+      "labels": [
+        "GamingDoc mirror"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://gist.github.com/uyjulian/774698632607de395e4db07a874ecf89",
+      "labels": [
+        "related DTL list"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://manuals.plus/m/921bbff6fec5c6fb953a0fefbc4c62e99cdd1d422ad8c6dd2d73892a23d8bcaa",
+      "labels": [
+        "IDT R30xx Family Software Reference Manual, revision 1.0, 1994",
+        "IDT R30xx software reference"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://patents.google.com/patent/CA2127053C/en",
+      "labels": [
+        "CA2127053C, Method and apparatus for time-sharing CPU system bus in image generation system"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx-spx.consoledev.net/",
+      "labels": [
+        "PSX-SPX homepage",
+        "own provenance notice"
+      ],
+      "reports": [
+        "NATIVE-WINDOWS-HANDOFF.md",
+        "README.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/docs/service_manuals/",
+      "labels": [
+        "service manual directory",
+        "Sony service-manual directory"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/docs/service_manuals/SCPH-5500_5501_5502_5503.pdf",
+      "labels": [
+        "SCPH-5500/5501/5502/5503 service manual"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/docs/service_manuals/service_manual_scph_9000_3rd_ed.pdf",
+      "labels": [
+        "SCPH-9000 series service manual, third edition"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/NetYaroze/",
+      "labels": [
+        "Net Yaroze preservation directory"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/NetYaroze/Net%20Yaroze%20-%20Library%20Reference.pdf",
+      "labels": [
+        "Library Reference.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/NetYaroze/Net%20Yaroze%20Official%20-%20Startup%20Book.pdf",
+      "labels": [
+        "Startup Book.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/NetYaroze/Net%20Yaroze%20Official%20-%20Startup%20Guide.pdf",
+      "labels": [
+        "Startup Guide.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/",
+      "labels": [
+        "SDK DOCS index"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/",
+      "labels": [
+        "BBS directory"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/readme.pdf",
+      "labels": [
+        "readme.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scea_bbs.pdf",
+      "labels": [
+        "scea_bbs.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scee_bbs.pdf",
+      "labels": [
+        "scee_bbs.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scej_bbs.pdf",
+      "labels": [
+        "scej_bbs.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/webmsg.pdf",
+      "labels": [
+        "webmsg.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/",
+      "labels": [
+        "Conference directory"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/Readme.PDF",
+      "labels": [
+        "Conference Presentations abstract"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/adv_cd.pdf",
+      "labels": [
+        "adv_cd.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/adv_gpu.pdf",
+      "labels": [
+        "adv_gpu.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/adv_gte.pdf",
+      "labels": [
+        "GTE Advanced Topics, SCEA March 1996",
+        "adv_gte.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/artpath.pdf",
+      "labels": [
+        "artpath.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/gs.pdf",
+      "labels": [
+        "gs.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/sound.pdf",
+      "labels": [
+        "sound.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/cd_ovw.pdf",
+      "labels": [
+        "cd_ovw.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/cdmaster.pdf",
+      "labels": [
+        "cdmaster.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/intro.pdf",
+      "labels": [
+        "intro.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/memcard.pdf",
+      "labels": [
+        "memcard.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/optimize.pdf",
+      "labels": [
+        "optimize.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/sound.pdf",
+      "labels": [
+        "sound.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/4_PDA.ppt",
+      "labels": [
+        "4_PDA.ppt"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/7a_CD%20Emulation%202.ppt",
+      "labels": [
+        "7a_CD Emulation 2.ppt"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/7b_prodg.ppt",
+      "labels": [
+        "7b_prodg.ppt"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/AUDIO98.PPT",
+      "labels": [
+        "AUDIO98.PPT"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/Fmv_tips.pdf",
+      "labels": [
+        "Fmv_tips.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/H2700.PPT",
+      "labels": [
+        "H2700.PPT"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/HMD_JR.PPT",
+      "labels": [
+        "HMD_JR.PPT"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/xa_sound.pdf",
+      "labels": [
+        "xa_sound.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/XMPLAY.ppt",
+      "labels": [
+        "XMPLAY.ppt"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/",
+      "labels": [
+        "Developer Reference directory"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/3dgraph.pdf",
+      "labels": [
+        "3dgraph.pdf",
+        "3D Graphics Tools"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/armref.pdf",
+      "labels": [
+        "armref.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Cdemul.pdf",
+      "labels": [
+        "Cdemul.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Cdgen.pdf",
+      "labels": [
+        "Cdgen.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dataconv.pdf",
+      "labels": [
+        "Dataconv.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dtlh2000.pdf",
+      "labels": [
+        "Dtlh2000.pdf",
+        "DTL-H2000 Installation and Operation"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dtlh2500.pdf",
+      "labels": [
+        "Dtlh2500.pdf",
+        "DTL-H2500/H2700 Installation and Operation"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Filefrmt.pdf",
+      "labels": [
+        "Filefrmt.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Hardware.pdf",
+      "labels": [
+        "PlayStation Hardware",
+        "Hardware.pdf",
+        "Sony PlayStation Hardware, August 1998",
+        "Hardware manual"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md",
+        "ARCHIVES.md",
+        "NATIVE-WINDOWS-HANDOFF.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Inlinref.pdf",
+      "labels": [
+        "Inline Programming Reference",
+        "Inlinref.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Libovr.pdf",
+      "labels": [
+        "Run-Time Library Overview, older volume",
+        "Libovr.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Libref.pdf",
+      "labels": [
+        "Libref.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/os.pdf",
+      "labels": [
+        "PlayStation Operating System",
+        "os.pdf",
+        "Operating System manual"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md",
+        "NATIVE-WINDOWS-HANDOFF.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/pdahware.pdf",
+      "labels": [
+        "pdahware.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/PDAKern.pdf",
+      "labels": [
+        "PDAKern.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/readme.pdf",
+      "labels": [
+        "readme.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Readme.pdf",
+      "labels": [
+        "Readme.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/sdevtc.pdf",
+      "labels": [
+        "sdevtc.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Sound20.pdf",
+      "labels": [
+        "Sound20.pdf",
+        "Sound Artist Tool"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Sprite.pdf",
+      "labels": [
+        "Sprite.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/tech205.pdf",
+      "labels": [
+        "tech205.pdf",
+        "Performance Analyzer Technical Reference"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/user205.pdf",
+      "labels": [
+        "user205.pdf",
+        "Performance Analyzer User Guide"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/",
+      "labels": [
+        "FAQ directory"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/art5.pdf",
+      "labels": [
+        "art5.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/cd4.pdf",
+      "labels": [
+        "cd4.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/dev1.pdf",
+      "labels": [
+        "dev1.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/doc11.pdf",
+      "labels": [
+        "doc11.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/emul_faq.pdf",
+      "labels": [
+        "emul_faq.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/gpu6.pdf",
+      "labels": [
+        "gpu6.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/gs8.pdf",
+      "labels": [
+        "gs8.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/gte7.pdf",
+      "labels": [
+        "gte7.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/libpdfaq.pdf",
+      "labels": [
+        "libpdfaq.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/os2.pdf",
+      "labels": [
+        "os2.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/psyq10.pdf",
+      "labels": [
+        "psyq10.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/Readme.PDF",
+      "labels": [
+        "FAQ abstract",
+        "Readme.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/sio9.pdf",
+      "labels": [
+        "sio9.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/snd3.pdf",
+      "labels": [
+        "snd3.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FileFormat47.pdf",
+      "labels": [
+        "File Formats 4.7",
+        "FileFormat47.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LibOver47.pdf",
+      "labels": [
+        "Run-Time Library Overview 4.7",
+        "LibOver47.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LIBOVR46.PDF",
+      "labels": [
+        "LIBOVR46.PDF",
+        "library overview"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "NATIVE-WINDOWS-HANDOFF.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LIBREF46.PDF",
+      "labels": [
+        "LIBREF46.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LibRef47.pdf",
+      "labels": [
+        "Run-Time Library Reference 4.7",
+        "LibRef47.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/",
+      "labels": [
+        "Technical-note directory"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Analog.pdf",
+      "labels": [
+        "Analog.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CALLBACK.PDF",
+      "labels": [
+        "CALLBACK.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CDDROP.PDF",
+      "labels": [
+        "CDDROP.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/cdgenhlp.PDF",
+      "labels": [
+        "cdgenhlp.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CDSWITCH.PDF",
+      "labels": [
+        "CDSWITCH.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CHEKLIST.PDF",
+      "labels": [
+        "CHEKLIST.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/DCACHE.PDF",
+      "labels": [
+        "DCACHE.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/DECICONS.PDF",
+      "labels": [
+        "DECICONS.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Ds_servc.pdf",
+      "labels": [
+        "Ds_servc.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/epda1.pdf",
+      "labels": [
+        "epda1.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/epda2.pdf",
+      "labels": [
+        "epda2.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/FLASHBAT.PDF",
+      "labels": [
+        "FLASHBAT.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Glblreg.PDF",
+      "labels": [
+        "Glblreg.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Guncont.pdf",
+      "labels": [
+        "Guncont.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/H25BIOS.PDF",
+      "labels": [
+        "H25BIOS.PDF",
+        "H25BIOS usage note"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/joystk.pdf",
+      "labels": [
+        "joystk.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/mdecnote.pdf",
+      "labels": [
+        "mdecnote.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Memcard.PDF",
+      "labels": [
+        "Memcard.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/mtrc13.pdf",
+      "labels": [
+        "mtrc13.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/NeGcon.pdf",
+      "labels": [
+        "NeGcon.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/note520.pdf",
+      "labels": [
+        "note520.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/note588.pdf",
+      "labels": [
+        "note588.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/ordtbl.pdf",
+      "labels": [
+        "ordtbl.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/palguide.pdf",
+      "labels": [
+        "palguide.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/perfpapr.pdf",
+      "labels": [
+        "perfpapr.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/pretech.pdf",
+      "labels": [
+        "pretech.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/PSXCONS.PDF",
+      "labels": [
+        "PSXCONS.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/readme.pdf",
+      "labels": [
+        "Technical Notes abstract",
+        "readme.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/REVC.PDF",
+      "labels": [
+        "REVC.PDF",
+        "Revision-C hardware impact",
+        "Revision-C technical note"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md",
+        "README.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/scee_dev.pdf",
+      "labels": [
+        "SCEE PlayStation Developer's Guide",
+        "scee_dev.pdf",
+        "SCEE Developer's Guide 2.9"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/sceenews.pdf",
+      "labels": [
+        "sceenews.pdf",
+        "SCEE Developer Newsletter, issue 4, September 1996"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/shft_jis.pdf",
+      "labels": [
+        "shft_jis.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/sounread.pdf",
+      "labels": [
+        "sounread.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/SPURAM.PDF",
+      "labels": [
+        "SPURAM.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/TECHCHK.PDF",
+      "labels": [
+        "TECHCHK.PDF"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/",
+      "labels": [
+        "Training directory"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/cdrom.pdf",
+      "labels": [
+        "cdrom.pdf",
+        "Fall 1996 CD-ROM seminar"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/controll.pdf",
+      "labels": [
+        "controll.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/gte.pdf",
+      "labels": [
+        "GTE & Advanced Graphics, Fall 1996",
+        "gte.pdf",
+        "GTE & Advanced Graphics, Fall 1996 seminar",
+        "Fall 1996 GTE & Advanced Graphics"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "HARDWARE.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/mdec.pdf",
+      "labels": [
+        "mdec.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/overlay.pdf",
+      "labels": [
+        "overlay.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/readme.pdf",
+      "labels": [
+        "Training Materials abstract"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/bdldex.pdf",
+      "labels": [
+        "bdldex.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/bdmcard.pdf",
+      "labels": [
+        "bdmcard.pdf",
+        "Summer 1997 high-level memory-card seminar"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/dcenvmp.pdf",
+      "labels": [
+        "dcenvmp.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/dcglddsk.pdf",
+      "labels": [
+        "dcglddsk.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fsdbovl.pdf",
+      "labels": [
+        "fsdbovl.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fsgpont.pdf",
+      "labels": [
+        "fsgpont.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fsinlin.pdf",
+      "labels": [
+        "fsinlin.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fslnklb.pdf",
+      "labels": [
+        "fslnklb.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mfanlog.pdf",
+      "labels": [
+        "mfanlog.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mflibds.pdf",
+      "labels": [
+        "mflibds.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mfmovi.pdf",
+      "labels": [
+        "mfmovi.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mfprfanl.pdf",
+      "labels": [
+        "mfprfanl.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/rvsart.pdf",
+      "labels": [
+        "rvsart.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/rvsndpg.pdf",
+      "labels": [
+        "rvsndpg.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/snide.pdf",
+      "labels": [
+        "snide.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/swsart.pdf",
+      "labels": [
+        "swsart.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/tgpasqa.pdf",
+      "labels": [
+        "tgpasqa.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/upgtedv.pdf",
+      "labels": [
+        "Methods for Speeding up Polygon Division, Summer 1997",
+        "upgtedv.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/upgtelt.pdf",
+      "labels": [
+        "upgtelt.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/WINTER95/anim.pdf",
+      "labels": [
+        "anim.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/WINTER95/graph.pdf",
+      "labels": [
+        "graph.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/WINTER95/lcable.pdf",
+      "labels": [
+        "lcable.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/XATUT.pdf",
+      "labels": [
+        "XATUT.pdf"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://sonyinteractive.com/en/news/blog/insights-from-a-playstation-developer/",
+      "labels": [
+        "Insights from a PlayStation Developer"
+      ],
+      "reports": [
+        "HARDWARE.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.alldatasheet.com/datasheet-pdf/pdf/119317/SONY/CXA1782BR.html",
+      "labels": [
+        "Sony CXA1782BR datasheet landing page"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.alldatasheet.com/html-pdf/120374/SONY/CXD2510Q/97/1/CXD2510Q.html",
+      "labels": [
+        "Sony CXD2510Q datasheet"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.bitsavers.org/components/sony/_dataSheets/cxd-1199AQ_CD_ROM_Decoder.pdf",
+      "labels": [
+        "Sony CXD1199AQ CD-ROM decoder datasheet"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.bitsavers.org/components/sony/1996_Sony_Semiconductor_Product_List.pdf",
+      "labels": [
+        "Sony semiconductor product list, 1996"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.delta-island.com/index.php/fr/dossiers/net-yaroze",
+      "labels": [
+        "Delta Island"
+      ],
+      "reports": [
+        "SONY-DOCUMENTS.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.museumofplay.org/app/uploads/2025/01/Guide-to-the-Gene-Buckle-papers.pdf",
+      "labels": [
+        "The Strong: Gene Buckle papers finding aid",
+        "Gene Buckle papers finding aid, collection 2021.buckle"
+      ],
+      "reports": [
+        "HARDWARE.md",
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps-docs/JA_SCPH-1020_WEB.pdf",
+      "labels": [
+        "SCPH-1020 memory-card manual"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps-docs/JA_SCPH-5500_WEB.pdf",
+      "labels": [
+        "SCPH-5500 instruction manual"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/psone-docs/JA_SCPH-110_WEB.pdf",
+      "labels": [
+        "DUALSHOCK SCPH-110 manual"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.playstation.com/ja-jp/support/hardware/manuals/",
+      "labels": [
+        "Sony official hardware-manual index"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.prototopia.net/threads/ps-x-playstation-playstation-2-reference-dtl-eb-list.1026/",
+      "labels": [
+        "Collector DTL/EB catalog"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.psxdev.net/downloads/Net%20Yaroze%20Official%20-%20Startup%20Guide.pdf",
+      "labels": [
+        "PSXDEV startup-guide URL"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-09.html",
+      "labels": [
+        "Sony corporate history, PlayStation chapter"
+      ],
+      "reports": [
+        "ARCHIVES.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://www.tek.com/en/92dm74-manual/92dm74-r3000-r3000a-instruction-manual",
+      "labels": [
+        "Tektronix 92DM74 R3000/R3000A instruction manual landing page"
+      ],
+      "reports": [
+        "HARDWARE.md"
+      ],
+      "verification": "See linked report for evidence status and limitations."
+    }
+  ]
+}

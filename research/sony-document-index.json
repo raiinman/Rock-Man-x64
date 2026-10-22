@@ -1,0 +1,1172 @@
+[
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FileFormat47.pdf",
+    "filename": "FileFormat47.pdf",
+    "collection": "",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LIBOVR46.PDF",
+    "filename": "LIBOVR46.PDF",
+    "collection": "",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LIBREF46.PDF",
+    "filename": "LIBREF46.PDF",
+    "collection": "",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LibOver47.pdf",
+    "filename": "LibOver47.pdf",
+    "collection": "",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/LibRef47.pdf",
+    "filename": "LibRef47.pdf",
+    "collection": "",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/XATUT.pdf",
+    "filename": "XATUT.pdf",
+    "collection": "",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/3dgraph.pdf",
+    "filename": "3dgraph.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Cdemul.pdf",
+    "filename": "Cdemul.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Cdgen.pdf",
+    "filename": "Cdgen.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dataconv.pdf",
+    "filename": "Dataconv.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dtlh2000.pdf",
+    "filename": "Dtlh2000.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dtlh2500.pdf",
+    "filename": "Dtlh2500.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Filefrmt.pdf",
+    "filename": "Filefrmt.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Hardware.pdf",
+    "filename": "Hardware.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Inlinref.pdf",
+    "filename": "Inlinref.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Libovr.pdf",
+    "filename": "Libovr.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Libref.pdf",
+    "filename": "Libref.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/PDAKern.pdf",
+    "filename": "PDAKern.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Readme.pdf",
+    "filename": "Readme.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Sound20.pdf",
+    "filename": "Sound20.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Sprite.pdf",
+    "filename": "Sprite.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/armref.pdf",
+    "filename": "armref.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/os.pdf",
+    "filename": "os.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/pdahware.pdf",
+    "filename": "pdahware.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/readme.pdf",
+    "filename": "readme.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/sdevtc.pdf",
+    "filename": "sdevtc.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/tech205.pdf",
+    "filename": "tech205.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/user205.pdf",
+    "filename": "user205.pdf",
+    "collection": "Devrefs/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Analog.pdf",
+    "filename": "Analog.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CALLBACK.PDF",
+    "filename": "CALLBACK.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CDDROP.PDF",
+    "filename": "CDDROP.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CDSWITCH.PDF",
+    "filename": "CDSWITCH.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/CHEKLIST.PDF",
+    "filename": "CHEKLIST.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/DCACHE.PDF",
+    "filename": "DCACHE.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/DECICONS.PDF",
+    "filename": "DECICONS.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Ds_servc.pdf",
+    "filename": "Ds_servc.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/FLASHBAT.PDF",
+    "filename": "FLASHBAT.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Glblreg.PDF",
+    "filename": "Glblreg.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Guncont.pdf",
+    "filename": "Guncont.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/H25BIOS.PDF",
+    "filename": "H25BIOS.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/Memcard.PDF",
+    "filename": "Memcard.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/NeGcon.pdf",
+    "filename": "NeGcon.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/PSXCONS.PDF",
+    "filename": "PSXCONS.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/REVC.PDF",
+    "filename": "REVC.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/SPURAM.PDF",
+    "filename": "SPURAM.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/TECHCHK.PDF",
+    "filename": "TECHCHK.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/cdgenhlp.PDF",
+    "filename": "cdgenhlp.PDF",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/epda1.pdf",
+    "filename": "epda1.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/epda2.pdf",
+    "filename": "epda2.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/joystk.pdf",
+    "filename": "joystk.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/mdecnote.pdf",
+    "filename": "mdecnote.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/mtrc13.pdf",
+    "filename": "mtrc13.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/note520.pdf",
+    "filename": "note520.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/note588.pdf",
+    "filename": "note588.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/ordtbl.pdf",
+    "filename": "ordtbl.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/palguide.pdf",
+    "filename": "palguide.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/perfpapr.pdf",
+    "filename": "perfpapr.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/pretech.pdf",
+    "filename": "pretech.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/readme.pdf",
+    "filename": "readme.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/scee_dev.pdf",
+    "filename": "scee_dev.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/sceenews.pdf",
+    "filename": "sceenews.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/shft_jis.pdf",
+    "filename": "shft_jis.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/sounread.pdf",
+    "filename": "sounread.pdf",
+    "collection": "TECHNOTE/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/Readme.PDF",
+    "filename": "Readme.PDF",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/art5.pdf",
+    "filename": "art5.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/cd4.pdf",
+    "filename": "cd4.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/dev1.pdf",
+    "filename": "dev1.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/doc11.pdf",
+    "filename": "doc11.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/emul_faq.pdf",
+    "filename": "emul_faq.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/gpu6.pdf",
+    "filename": "gpu6.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/gs8.pdf",
+    "filename": "gs8.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/gte7.pdf",
+    "filename": "gte7.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/libpdfaq.pdf",
+    "filename": "libpdfaq.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/os2.pdf",
+    "filename": "os2.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/psyq10.pdf",
+    "filename": "psyq10.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/sio9.pdf",
+    "filename": "sio9.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/FAQ/snd3.pdf",
+    "filename": "snd3.pdf",
+    "collection": "FAQ/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/readme.pdf",
+    "filename": "readme.pdf",
+    "collection": "BBS/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scea_bbs.pdf",
+    "filename": "scea_bbs.pdf",
+    "collection": "BBS/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scee_bbs.pdf",
+    "filename": "scee_bbs.pdf",
+    "collection": "BBS/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scej_bbs.pdf",
+    "filename": "scej_bbs.pdf",
+    "collection": "BBS/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/webmsg.pdf",
+    "filename": "webmsg.pdf",
+    "collection": "BBS/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/WINTER95/anim.pdf",
+    "filename": "anim.pdf",
+    "collection": "TRAINING/WINTER95/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/WINTER95/graph.pdf",
+    "filename": "graph.pdf",
+    "collection": "TRAINING/WINTER95/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/WINTER95/lcable.pdf",
+    "filename": "lcable.pdf",
+    "collection": "TRAINING/WINTER95/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/cdrom.pdf",
+    "filename": "cdrom.pdf",
+    "collection": "TRAINING/FALL96/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/controll.pdf",
+    "filename": "controll.pdf",
+    "collection": "TRAINING/FALL96/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/gte.pdf",
+    "filename": "gte.pdf",
+    "collection": "TRAINING/FALL96/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/mdec.pdf",
+    "filename": "mdec.pdf",
+    "collection": "TRAINING/FALL96/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/FALL96/overlay.pdf",
+    "filename": "overlay.pdf",
+    "collection": "TRAINING/FALL96/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/bdldex.pdf",
+    "filename": "bdldex.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/bdmcard.pdf",
+    "filename": "bdmcard.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/dcenvmp.pdf",
+    "filename": "dcenvmp.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/dcglddsk.pdf",
+    "filename": "dcglddsk.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fsdbovl.pdf",
+    "filename": "fsdbovl.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fsgpont.pdf",
+    "filename": "fsgpont.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fsinlin.pdf",
+    "filename": "fsinlin.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/fslnklb.pdf",
+    "filename": "fslnklb.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mfanlog.pdf",
+    "filename": "mfanlog.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mflibds.pdf",
+    "filename": "mflibds.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mfmovi.pdf",
+    "filename": "mfmovi.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/mfprfanl.pdf",
+    "filename": "mfprfanl.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/rvsart.pdf",
+    "filename": "rvsart.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/rvsndpg.pdf",
+    "filename": "rvsndpg.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/snide.pdf",
+    "filename": "snide.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/swsart.pdf",
+    "filename": "swsart.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/tgpasqa.pdf",
+    "filename": "tgpasqa.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/upgtedv.pdf",
+    "filename": "upgtedv.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/upgtelt.pdf",
+    "filename": "upgtelt.pdf",
+    "collection": "TRAINING/Summer97/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/adv_cd.pdf",
+    "filename": "adv_cd.pdf",
+    "collection": "CONF/SCEA/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/adv_gpu.pdf",
+    "filename": "adv_gpu.pdf",
+    "collection": "CONF/SCEA/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/adv_gte.pdf",
+    "filename": "adv_gte.pdf",
+    "collection": "CONF/SCEA/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/artpath.pdf",
+    "filename": "artpath.pdf",
+    "collection": "CONF/SCEA/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/gs.pdf",
+    "filename": "gs.pdf",
+    "collection": "CONF/SCEA/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEA/sound.pdf",
+    "filename": "sound.pdf",
+    "collection": "CONF/SCEA/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/cd_ovw.pdf",
+    "filename": "cd_ovw.pdf",
+    "collection": "CONF/SCEE/96April/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/cdmaster.pdf",
+    "filename": "cdmaster.pdf",
+    "collection": "CONF/SCEE/96April/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/intro.pdf",
+    "filename": "intro.pdf",
+    "collection": "CONF/SCEE/96April/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/memcard.pdf",
+    "filename": "memcard.pdf",
+    "collection": "CONF/SCEE/96April/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/optimize.pdf",
+    "filename": "optimize.pdf",
+    "collection": "CONF/SCEE/96April/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/96April/sound.pdf",
+    "filename": "sound.pdf",
+    "collection": "CONF/SCEE/96April/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/4_PDA.ppt",
+    "filename": "4_PDA.ppt",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/7a_CD%20Emulation%202.ppt",
+    "filename": "7a_CD Emulation 2.ppt",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/7b_prodg.ppt",
+    "filename": "7b_prodg.ppt",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/AUDIO98.PPT",
+    "filename": "AUDIO98.PPT",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/Fmv_tips.pdf",
+    "filename": "Fmv_tips.pdf",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/H2700.PPT",
+    "filename": "H2700.PPT",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/HMD_JR.PPT",
+    "filename": "HMD_JR.PPT",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/XMPLAY.ppt",
+    "filename": "XMPLAY.ppt",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  },
+  {
+    "url": "https://psx.arthus.net/sdk/Psy-Q/DOCS/CONF/SCEE/98July/xa_sound.pdf",
+    "filename": "xa_sound.pdf",
+    "collection": "CONF/SCEE/98July/",
+    "status": "INDEX",
+    "host": "unofficial mirror",
+    "observed": "2026-10-22",
+    "content_downloaded": false
+  }
+]
