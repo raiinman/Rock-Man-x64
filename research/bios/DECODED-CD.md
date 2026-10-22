@@ -6,6 +6,8 @@ Evidence for this profile: `ev_78f80837d85451d3532d2da712775871c1ef5749c85e53f30
 
 ## Normal submission routines recovered
 
+The later [saved-state lifecycle pass](CD-STATE-LIFECYCLE.md) establishes a static initialization path and distinguishes additional overwrites, current-only clears and error restoration. It narrows this report's saved-state initialization gap without proving a universal runtime invariant or successful setup.
+
 **Observed:** REA defines the routine containing command-byte store `0x80065860` at entry `0x800657c0`; it defines the routine containing store `0x8006591c` at entry `0x8006587c`. Each recovered body is 188 bytes. Their common structure supports normal submitters for numeric commands `0x0b` and `0x0c`, rather than an error-recovery-only interpretation.
 
 Evidence: containing-function records `ev_0c66bf81159518a7d667982fdf78e27f4644cf0905d9674f86cedde16f53e4ec` and `ev_1c82bd7a74201c06a3794c636b62ac34a577286d394510dee5c2d2139f2667f4`; complete instructions `ev_86f70346e7565d0549e7ae2395780eee3599da6834cb5319c844fe74236e911c` and `ev_d539802f93f7c45e5daf47e3286afd0987c7ea819745df3db4d64f86d60ef2f7`.

@@ -12,9 +12,12 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 | [Peripheral paths](DEVICES.md) | CD admission/interrupt/recovery/DMA, GPU transfer/synchronization, sound initialization, controller/card candidates |
 | [CD command lifecycle](CD-LIFECYCLE.md) | Normal reset versus error recovery, mode-setting/read continuation, ignored response reads, persistent partial side effects and unresolved mute/unmute issuers |
 | [File and device I/O](FILESYSTEM.md) | Descriptor ownership, lookup, callback dispatch, cursor/alignment behavior, failure semantics and unchecked loader results |
+| [File-service diagnostics](FILE-DIAGNOSTICS.md) | Diagnostic dispatch narrowed to a formatter/output route, with ordinary return paths and explicit live-table/backend limits |
 | [Further firmware staging](STAGING.md) | A second large copy, nested loader coordinates and the bounded packed-data transformation lead |
 | [Decoded-image CD submission](DECODED-CD.md) | Newly identified normal `0x0b`/`0x0c` issuers, software eligibility, instruction ordering, saved-state restoration and caller retries |
+| [CD saved-state lifecycle](CD-STATE-LIFECYCLE.md) | Static initialization path, unchecked setup results, distinct current/saved/flag updates, and operation-specific error/completion behavior |
 | [Decoded-image sound paths](SOUND.md) | Paired register accesses, field masks, scaling, transfer/polling behavior and the unresolved separate `0x1f801db8` read |
+| [Primary sound sources](SOUND-PRIMARY-SOURCES.md) | Sony's configured/current-volume API distinction, exact pages and three focused search passes; numeric register mapping remains unverified |
 | [Executable loading](BOOT-LOADING.md) | Configuration parsing, header/payload stages, execution descriptor and limitations of success returns |
 | [Evidence and coverage](EVIDENCE.md) | Artifact identity, two static profiles, retained evidence provenance, reproducibility and open coverage |
 | [Validation record](VALIDATION.md) | Publication checks and their limits |

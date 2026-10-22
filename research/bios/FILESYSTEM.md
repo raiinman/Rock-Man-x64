@@ -16,6 +16,8 @@ Evidence: ROM template `ev_c049691ada28ce1dd13058c9779c60064b9bc2371db4fa7df9364
 
 ## Descriptor ownership and open failure
 
+A [later diagnostic-path investigation](FILE-DIAGNOSTICS.md) identifies the selected helper as an A0 selector-`0x3f` veneer whose initial template selects formatted output. The helper itself is not a halt routine. Conditional results below remain conditional on the live dispatch/output route returning.
+
 **Observed:** The free-descriptor helper at `0x3060` scans first-word occupancy fields in `0x2c`-byte records from `0x8648` to exclusive endpoint `0x8908`: sixteen records. It returns a record pointer when the first word is zero. Its exhausted path calls a diagnostic helper before the code that would return null; the behavior of that diagnostic helper must be resolved before claiming that exhaustion always returns normally.
 
 The independent decode of the adjacent descriptor lookup at `0x30c8` rejects signed negative descriptors and values at least sixteen, returning null; accepted indices select the corresponding record. The operation-specific routines then also test that record's first word. Range validity and open-record occupancy are separate checks.
