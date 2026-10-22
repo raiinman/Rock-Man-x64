@@ -8,7 +8,7 @@ The research requirement is to bind the observation at source `0x80079070` to it
 |---|---|---|
 | Project attestation | [Current status](../../docs/status/current-status.md), updated in commit `2013042`, distinguishes a Windows-verified configuration stage stopping at the sound read from a newer connected Linux mixer stage returning from `CdInit` with result 1 and stopping at `0x800779cc` | The private executable and reaching-state receipts were not inspected here; the mixer stage's freeze and Windows acceptance remain pending in that update |
 | Retained REA instructions | The selected firmware common getter reads other paired sound addresses, including `0x1f801d80/82` and `0x1f801db0/b2`; its recovered body does not read `db8/dba` | A different firmware component cannot identify the game leaf by a similar address or apparent library purpose; see [sound findings](SOUND.md) |
-| Later Sony documentation | Configured master volume, mode and current-volume observation are distinct API concepts | The inspected pages do not bind numeric `db8/dba`, establish this BIOS's API revision, or establish MML1's dependency; see [primary sources](SOUND-PRIMARY-SOURCES.md) |
+| Sony library documentation | Configured master volume, mode and current-volume observation are distinct API concepts | The inspected pages do not bind numeric `db8/dba`, establish this BIOS's API revision, or establish MML1's dependency; see the newly accessed 1997 edition in [primary sources](SOUND-PRIMARY-SOURCES.md) |
 | Native implementation attestation | The [service contract](../../docs/technical/native-service-contracts.md) reports a connected adapter exposing applied software coefficients, with staging and authoritative CD configuration kept separate | Passing the native source path does not establish physical register equivalence; no output device, decoder or playback is claimed |
 
 ## A wider firmware search
@@ -54,3 +54,18 @@ Once the slice is established, useful acceptance cases include correct width/sig
 Sony's [US5978492A patent](https://patents.google.com/patent/US5978492A/en), filed December 1, 1995 and published November 2, 1999, describes per-voice volume controls, external PCM mixing, reverb and a downstream master-volume stage in the description of Figure 3. This supports a conceptual separation of gain stages from the samples passing through them. It does not identify `0x1f801db8`, prescribe its access width, or supply its reset, timing or sweep behavior. The patent is a primary architectural source hosted by Google Patents, not a register specification or a license determination.
 
 The remaining question is precise: which bits of which observation does the actual game consumer require, under which reaching state? This batch narrows the firmware search and the handoff; it does not claim that the numeric mapping is solved.
+
+## Current documentation completion boundary
+
+The user's current priority is Sony's exact register definition. The [document search](SOUND-PRIMARY-SOURCES.md) now includes selective archived-disc access, vendor support discussions and a second patent. Each required claim still needs its own evidence:
+
+| Claim about `0x1f801db8` | Status in inspected Sony material |
+|---|---|
+| Numeric address bound to a named register/channel | Unresolved |
+| Register field width, signedness and encoding | Unresolved; an API output type is insufficient |
+| Supported CPU access widths and read/write effects | Unresolved |
+| Programmed setting versus evolving/current value | API/architecture distinction documented; numeric binding unresolved |
+| Mode-dependent change, cadence and sweep arithmetic | Related modes and clocked circuitry documented; target-register rules unresolved |
+| Reset state, limits, saturation and paired-read coherence | Unresolved |
+
+Passing the explicit native adapter remains separate evidence. This documentation work cannot certify hardware equivalence from that pass.

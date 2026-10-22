@@ -37,4 +37,4 @@ These are proposals, not tests run against MML1: failed event allocation; enabli
 
 ## Update workflow
 
-The user authorized continued independent research, subagents, necessary local tools and hourly updates on 2026-10-22. Publish reviewed research batches to GitHub promptly, update this queue with answered/partial/unresolved status, and preserve concurrent work. The hourly chat heartbeat continues the research and reports findings, commits, checks and blockers. It grants no authority to publish original firmware or game content or to resume implementation work.
+The user authorized continued independent research, subagents and necessary local tools on 2026-10-22; the latest requested update cadence is every half hour. Publish reviewed research batches to GitHub promptly, update this queue with answered/partial/unresolved status, and preserve concurrent work. The existing chat heartbeat continues the research and reports findings, commits, checks and blockers. Its current priority is Sony's exact numeric-register documentation for `0x1f801db8`. It grants no authority to publish original firmware or game content or to resume implementation work.

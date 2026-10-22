@@ -78,7 +78,7 @@ Default section order:
 
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
 
-- On 2026-10-22 the user authorized continued in-depth BIOS research, subagents and necessary local tools, requested hourly updates, and asked that reviewed findings reach GitHub promptly for the other agent. This research continues separately from game implementation; `research/bios/AGENTS.md` owns its operating detail.
+- On 2026-10-22 the user authorized continued in-depth BIOS research, subagents and necessary local tools, and asked that reviewed findings reach GitHub promptly for the other agent. The latest research update cadence is every half hour, superseding the earlier hourly request. This research continues separately from game implementation; `research/bios/AGENTS.md` owns its operating detail.
 
 ## Child DOX Index
 

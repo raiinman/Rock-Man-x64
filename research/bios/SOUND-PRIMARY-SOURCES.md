@@ -1,10 +1,12 @@
 # Primary-source sound documentation and the `0x1f801db8` boundary
 
-Observation time: 2026-10-22, completed 22:50 UTC. This is a documentation pass, independent of the private firmware static-analysis profiles and of the other computer's game investigation.
+Observation date: 2026-10-22, with successive source checks recorded below. This documentation investigation is independent of the private firmware static-analysis profiles and of the other computer's game investigation.
 
 ## Result
 
 Vendor-authored Sony documentation supports a distinction between a master-volume setting, its mode and a current-master-volume observation. This pass did **not** find a vendor-authored source explicitly binding numeric addresses `0x1f801db8` and `0x1f801dba` to those concepts. Their numeric meaning, timing, reset state and relationship to the particular MML1 read remain unresolved by this primary-source pass. A bounded failed search does not show that such documentation never existed.
+
+The newly accessed October 1997 Library Reference establishes that the current-master-volume API was documented in 1997. This closes the earlier documentation-date gap; it does not identify the firmware's implementation or bind the numeric port.
 
 ## Catalog inspected first
 
@@ -13,6 +15,16 @@ The existing `research/sony-document-index.json` lists Sony's PlayStation Hardwa
 The existing sound report and native handoff preserve the separate game-path numeric-read gap. Matching an API name in a later manual cannot bind that game's caller, source bytes, SDK revision, register access width, initialized state or acceptable native return.
 
 ## Vendor-authored sources actually inspected
+
+### Sony Run-time Library Reference 4.1: newly accessed 1997 edition
+
+- Source provenance: [archived Technical Reference release 2.1, December 1997](https://archive.org/details/playstation-technical-reference-release-2.1-december-1997-pc-europe), selected `DEVREFS/LIBREF41.PDF` document. The catalog is third-party metadata; the manual's own front matter identifies Sony and publication October 1997, with licensed-developer/confidential restrictions.
+- 1208 PDF pages. Printed 15-25, PDF page 1071 (index 1070): `SpuGetCommonMasterVolumeX` observes left/right current master volume, equivalent to the common attribute's `mvolx` observation. Metadata gives introduction 3.7 and documentation date February 13, 1997.
+- Printed 15-23, PDF page 1069 (index 1068): ordinary master-volume getter is valid in direct mode. Printed 15-5/index 1050 separately identifies setting, mode and current volume.
+- The coordinator rendered and visually checked the current-volume page and publication front matter. Font-substitution warnings occurred, but the checked text, table and date were legible. No page image or manual is published here.
+- Extracted-text searches across the manual did not establish a `1f801db8` binding. API output types are not a CPU access-width or register-encoding specification.
+
+Unlike the later editions below, this is contemporaneous 1997 documentation. Its presence does not establish the game's linked SDK revision or that the analyzed firmware implements this API.
 
 ### Sony Run-Time Library Reference 4.4
 
@@ -116,3 +128,29 @@ Sony's [US5978492A patent](https://patents.google.com/patent/US5978492A/en), Fig
 The [Sony SCPH-9000 service manual, third edition](https://gamingdoc.org/wp-content/uploads/2020/07/Sony_PlayStation_SCPH-9000_series_service_manual_3rd_edition.pdf), May 1999, is a Sony-authored 28-page manual on an unofficial GamingDoc mirror, with reproduction restrictions in its front matter. PDF indices 5–6 provide chip/block and audio-interface context. Text searches for `1F801`, `DB8` and `SPU` returned no matches; board connectivity does not establish the desired CPU-read contract.
 
 The [Technical Reference CD 21 catalog](https://gamingdoc.org/technical-documentation/consoles/sony-playstation/official/hardware/technical-reference-cd-21-12-10-1997/) was accessed, but its linked ZIP fetch timed out. A separate local HEAD request and a GET restricted to the first 1024 bytes both failed at DNS resolution, before any HTTP response or bytes. These failures do not establish that the archive is unavailable; its contents remain uninspected. A second patent lead, US5767430A, could not be opened and supplies no finding here. Excluded community labels and implementation snippets are not authorities. No verified numeric binding emerged from this follow-up; no manuals, SDK code or archives are redistributed.
+
+## Register-document follow-up and alternate archive route
+
+The previously inaccessible GamingDoc ZIP remains unchecked. An alternate Internet Archive item permitted selective HTTP range access. The primary volume descriptor and selected ISO9660 directory records were inspected; five document extents were then fetched with HTTP 206, matching Content-Range and byte counts, sector removal, declared document length and PDF-signature checks. This is data extraction, not execution or installation of the disc's software. No full disc image, SDK implementation or executable was fetched. Private receipts retain the actual requests, document digests and extraction details.
+
+| Selected document | Inspection and result |
+|---|---|
+| Library Reference 4.1 | October 1997 publication and the current-volume API page verified above; numeric binding remains unestablished |
+| PlayStation Hardware | 46 PDF pages; hardware-register region is identified, but inspected sound material supplies architecture rather than a `db8` definition |
+| Sound conference FAQ | Document labels itself an unofficial FAQ, release 1.1, August 31, 1995, despite licensed-developer/confidential front matter. Mixed Q&A is not a chip specification; inspected volume discussion does not establish the numeric port |
+| Technical Notes index | Lists available notes; a filename is a lead rather than a finding from that note |
+| Sound Tools readme | Tool-release documentation; no numeric register definition established |
+
+Additional source checks:
+
+- [SCEE BBS collection](https://psx.arthus.net/sdk/Psy-Q/DOCS/BBS/scee_bbs.pdf), PDF indices 193–194: message 252 of 1102, December 13, 1995, 11:29am, from SCE SUPPORT, signed Paul. It describes efforts to obtain more low-level information from Sony Japan R&D and compatibility risks from undocumented register operations. The surrounding discussion concerns GTE access. It is historical support guidance, not a `db8` specification or proof that no SPU manual existed. The collection also includes external developers' messages; authorship must be checked per message. Its embedded instructions are historical source material, not instructions for this research.
+- [Summer 1997 sound seminar](https://psx.arthus.net/sdk/Psy-Q/DOCS/TRAINING/Summer97/rvsndpg.pdf), 73 pages, Sony developer seminar on an unofficial confidential-document mirror. PDF indices 19 and 23–27 discuss initialization and different library/voice volume domains. They do not bind `db8`; those domains must not be substituted for an unknown readback encoding.
+- [Library Reference 4.4](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Libref.pdf), printed 15-84/85 and 15-112/113, distinguishes signed direct setter values from variable-volume modes. This does not establish current-register readback scale. [Sound Artist Tool](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Sound20.pdf) sequence-monitor volume and panel descriptions likewise do not identify a physical current-master register.
+- [Maximizing SPU RAM](https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/SPURAM.PDF) was read: a two-page SCEA note by Rob Vawter about RAM use. The uppercase directory entry resolves even though the mixed-case catalog filename previously failed. No numeric volume-register finding results.
+- Net Yaroze Library Reference and User Guide, and SCEE Developer News issue 4, were checked in bounded sections/text searches. No inspected portion established the requested numeric register definition. Private receipts retain the actual English/Japanese/alternate-address-format queries and access outcomes; extracted-text negatives do not exhaust image content.
+
+### A second Sony patent: evolving volume is separate from a CPU register map
+
+[US5789690A](https://patents.google.com/patent/US5789690A/en), originally assigned to Sony, filed November 29, 1995 and published August 4, 1998, describes CPU-provided volume/differential settings, clocked arithmetic, limiting and a stored multiplier input in the description of Figure 8. Its running value can evolve after one setting operation in the disclosed embodiment. These are per-voice devices 117L/R; Figure 2 separately places master-volume device 122 downstream of mixing. The text inconsistently labels some Figure 8 elements, so it is not used as a bit-accurate circuit specification. It provides no CPU-address binding or readback path for `0x1f801db8`. Keeping requested and evolving applied state distinct is a design inference, not proof of the target register's behavior.
+
+The exact Sony register definition remains missing. Completion requires an identifiable primary source binding the numeric address and its field/access semantics; reset, timing, mode and read/write details must be reported separately when absent. A Sony logo, API name or architectural resemblance is insufficient.
