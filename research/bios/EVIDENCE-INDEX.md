@@ -59,6 +59,7 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_43352254707d4993f156c38906e09753d594d293efb18143e61a4543a648363f` | kernel | `procedure_pseudo_code` | `0x4498` |
 | `ev_462588ff048ca3588bff4de6b306469d7df35996076d4f8c340bf0b524868184` | decoded-frontend | `read_function_instructions` | `0x80068440` |
 | `ev_465ed4c62b7306e1e42357ab6df18dbc8a7f12e3a8c02711cba4bd8e76876f0b` | ROM | `procedure_pseudo_code` | `0xbfc0d570` |
+| `ev_47a5fe27b7c76772c568d27e15a33f36045eb52cc132a355cf612ddacf9518cd` | ROM | `read_bytes` | `0xbfc043e4` |
 | `ev_4a1cb8b7c167ac856761e3341c552e51ebb060408ca0bd127e2c7a92a6a0eab7` | ROM | `read_function_instructions` | `0xbfc0d7bc` |
 | `ev_4b9d6ce75b6168dc157c93f15384579b5a096dc6c0f5d84f3baba156f9f265e6` | decoded-frontend | `read_bytes` | `0x8008ab50` |
 | `ev_4c76629359429db48c8bd576270bb2f8bc2631b51dab82c2762fc52c6b19e47a` | kernel | `xrefs` | `0x1f801044` |
@@ -166,6 +167,7 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_d8a6fc5ac39cdff487a2caa84d42328141b4a6f3807e788eb9d2c2c650f8a165` | decoded-frontend | `read_function_instructions` | `0x800672f8` |
 | `ev_d9d0a176926191493787be4427045050a91a0ac8d011b5ecc01ed850969a4010` | decoded-frontend | `read_function_instructions` | `0x8006777c` |
 | `ev_da9eac6c977b8f25f51aa1cb8f85cc95ef9bfb7fc6bcdfa973d7ec200469c5da` | ROM | `read_bytes` | `0xbfc7ff30` |
+| `ev_dace1ff729af3b4234d5c2b87443a2ddde1a83a04ec8098dcf58960592265a4a` | ROM | `read_bytes` | `0xbfc01e24` |
 | `ev_de07a32c05da62eba68be96569b9dd5468190edf5e5a01e69bca0090b1e5ebfa` | ROM | `procedure_pseudo_code` | `0xbfc04c38` |
 | `ev_de5b1ad22bb3623708bcb2fac7fbfc95294bad0cea980124e217462340a0bd33` | ROM | `read_function_instructions` | `0xbfc05558` |
 | `ev_e27e9d26d06395a7c37c37285244b612be61d5c3526129760f557fc0b7f5f249` | ROM | `xrefs` | `0x1f80104e` |

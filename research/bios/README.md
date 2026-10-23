@@ -8,6 +8,7 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 |---|---|
 | [Startup and bootstrap](STARTUP.md) | Reset setup, decompiler omissions, copied kernel, service installation, optional expansion path and disc boot preparation |
 | [Kernel services](KERNEL-SERVICES.md) | Dispatch, event/thread records, exception discrimination, critical sections and context return; evidence classes remain separate |
+| [Selected heap initialization](HEAP-INITIALIZATION.md) | Initial A0:39 binding, five ordered stores, argument handling and leaf register/return properties; native policy and actual game occurrence remain separate |
 | [Interrupt entry and continuation](INTERRUPTS.md) | Vector installation, saved context, four-slot callback traversal, custom/default continuation and branch-delay gaps |
 | [Peripheral paths](DEVICES.md) | CD admission/interrupt/recovery/DMA, GPU transfer/synchronization, sound initialization, controller/card candidates |
 | [Original A0:49 recorder](A049-RECORDER.md) | One RAM calibration and one synthetic BIOS call in a pinned emulator; access/sample distinctions, observed route and explicit missing game-state joins |
