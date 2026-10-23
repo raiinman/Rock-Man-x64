@@ -24,6 +24,10 @@ Two reviewers checked targeted rendered pages from the [release 2.1 documentatio
 
 These are distinct documented mute controls. Neither page specifies DB8's value during mute, establishes that current master gain becomes zero, or guarantees that it remains unchanged. For the native investigation, mute state, current coefficient and output samples must remain separate observations until the actual consumer and its required behavior are established. The existing native policy is not validated merely by this API distinction.
 
+The retained November 1997 Hardware manual adds a qualitative routing check: Figure 4-3, printed 4-4 / PDF index 33, places the illustrated synthesized-source mute before the left/right volume split. A separate CD-input branch joins the downstream mix, while master volume follows the dry/reverb combination. Two reviewers traced the connections in the rendered figure and checked adjacent pages 4-3 and 4-5. This is consistent with the API's CD-input exception.
+
+The caption simplifies the drawing to one voice and the left channel. It does not establish an independently controllable mute flag for every voice, locate the CD command's internal gate, or identify a CPU register bit. Signal routing does not establish whether mute changes DB8, preserves its current coefficient or stops an update clock. No numeric readback rule follows from this diagram.
+
 ### Sony Run-time Library Reference 3.6 beta: newly accessed 1996 edition
 
 - Source provenance: [archived Technical Reference release 1.8](https://archive.org/details/redump-id-69351), selected `DEVREFS/LIBREF36.PDF` document. The cover identifies Beta Release 3.6, December 1996; front matter identifies Sony, publication December 1996 and licensed-developer/confidential restrictions. The archive's Japan label does not establish language: the selected manuals are English.
