@@ -12,6 +12,16 @@ The [pinned documentation source](https://github.com/psx-spx/psx-spx.github.io/b
 
 The original specification's boot-state example is explicitly emulator-observed and qualified as potentially different on hardware. It is not a power-on reset guarantee. Likewise, the nearby read/write paragraph concerns the voice-envelope register; it must not be assigned to DB8 merely because it precedes the current-volume headings.
 
+### Following hardware-test claims to their corrections
+
+The author of [PSX-SPX PR 198](https://github.com/psx-spx/psx-spx.github.io/pull/198) reports tracing voice-current volume on three consoles. Its timing conclusion was corrected in [PR 199](https://github.com/psx-spx/psx-spx.github.io/pull/199): the selected status-bit interval represented 512 samples rather than 256, invalidating the earlier doubled-rate inference. The later report must accompany any use of the earlier one.
+
+Revision identity matters: the earlier definition was pinned to the repository's default `stable` branch at `6d7d1bc`. The two experimental reports were merged into the diverged `master` branch. Its separately inspected [SPU document at `038d444`](https://github.com/psx-spx/psx-spx.github.io/blob/038d444bf28e8ac1b203667c7155eb80d8b7dec2/docs/ps1/spu/soundprocessingunitspu.md#L539) retains the numeric definition; nearby timing text differs. These are separate recorded snapshots, rather than one interchangeable latest document.
+
+These reports concern voice-current observation, not a demonstrated DB8/DBA experiment. The inspected descriptions do not identify console/chip models, reset phase or a raw measurement record. They therefore provide a useful experimental lead and correction history, without establishing master-current reset, writes, update timing or paired-read behavior. This research did not reproduce the reported tests.
+
+The next useful measurement record would identify the machine, reset/boot phase, preceding master-control writes, actual DB8/DBA access widths and timing reference. Voice-current traces or rendered sound alone cannot supply those missing observations. This is an evidence request specification, not a test run or implementation change.
+
 ## What is established
 
 | Evidence class | Result | Limit |
