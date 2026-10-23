@@ -21,15 +21,15 @@ Development resumed on 2026-10-22 at 22:04 UTC after the documentation pause. Th
 
 The software-mixer stage is sealed and passed all 51 actual Windows cases. Its historical summary-counter defect is recorded separately; the unchanged frozen definitions, not stale summary fields, governed execution. The generic packager now rejects inconsistent totals and references before private-input handling, with 22 synthetic tests passed.
 
-The newer mode-00 candidate is **unsealed and not Windows-tested**. Pinned regression coverage, ten new profiles and targeted ASan/UBSan fail-N checks passed. The original aggregate attempt remains inconclusive and excluded. A fresh isolated rerun started at 00:04 UTC, but no terminal full-project receipt exists yet. Review the final source identities, whole-project results and artifact consistency before any subsequent freeze or Windows acceptance. A builder under preparation is not a created release.
+The newer mode-00 candidate is **unsealed and not Windows-tested**. Pinned regression coverage, ten new profiles and targeted ASan/UBSan fail-N checks passed. The isolated recovery aggregate passed all 13 stages, preserving 427 source and 4,181 input identities; the original attempt remains inconclusive and excluded. A newer unsealed Linux contract passed 69 cases across 26 executables and 40 CLI profiles (39 expected successes, 30 intentional refusals). Both 26-target Windows cross-builds passed and all 26 pairs were byte-identical; actual executable/profile mapping passed without placeholders. Review final artifacts and provenance, complete the separately authorized real 69-case Windows adapter and independent review, then consider final sealing and separately authorized Windows mode execution.
 
 ## Next source boundary
 
 The candidate connects the actual result copies, parameter FIFO, same-image Form1 reader and response/IRQ/callback continuation. It examines the genuine same-owner event registry without inventing a matching event, preserves permission and reaches a true source return before the next unsupported startup boundary, `8001b44c`. This is not full startup. Preserve committed publication and outstanding IRQ debt across diagnostic allocation failure; do not impose unsupported whole-call rollback.
 
-A graphics-startup continuation plan covers bounded ResetGraph diagnostics, RAM fill and a live initialized callback. This is static planning only, not implemented or executed and not proof of GPU initialization.
+A separate graphics-startup RAM/control prefix has moved from static planning into implementation in progress. Implementation and validation are in progress, without independent acceptance; no original-image execution, accepted milestone or GPU-initialization proof exists.
 
-Separately reviewed BIOS analysis supplies test hypotheses, not runtime/hardware proof. Custom-hook return, ordinary callback return and final exception restoration remain distinct. DB8/DBA numeric/reset/timing/signedness questions remain unresolved; per-voice patent circuitry is not master readback evidence.
+Separately reviewed BIOS analysis supplies test hypotheses, not runtime/hardware proof. Custom-hook return, ordinary callback return and final exception restoration remain distinct. [Community documentation](../../research/bios/DB8-BOUNDARY.md) defines the DB8/DBA current-volume pair and signed 16-bit field; Sony numeric binding, original-machine proof for the claims, reset/timing and game hardware equivalence remain unverified. Per-voice circuitry and corrected voice-sweep reports do not prove master readback behavior.
 
 ## Explicitly unresolved scopes
 
@@ -48,3 +48,9 @@ The configuration and newer software-mixer stages are frozen and privately Windo
 Future public updates should record the exact accepted boundary, changes since the prior checkpoint, validation category and remaining unknowns. Public reference research should remain clearly distinguished from implementation and execution evidence. Do not call the process legally clean-room certified.
 
 See [architecture](../technical/architecture.md), [service contracts](../technical/native-service-contracts.md), [current status](current-status.md) and [validation](validation.md) for the supporting detail.
+
+## Runner and provenance gates
+
+Synthetic Windows supervisor candidates 3–5 each failed their first success case and accepted zero checks. Preserve all failed receipts; a current owned-member basename does not authenticate the image or prove historical process continuity. Owned-job cleanup completed, but later synthetic cases were unrun. Console-detached candidate 6 subsequently passed all 15 synthetic Windows checks in one invocation, including deliberate descendants, timeouts and forced-supervisor-termination cleanup. The 14-file kit remained unchanged, with no protection override or unresolved cleanup. This is not Windows mode execution. No protections were changed and no uncontained fallback is accepted.
+
+Cross-toolchain distribution payload and signed-index/package checks improved offline provenance. Nine host shared-library dependencies remain hash-pinned without independently verified package origin. Select and document bounded provenance assurance rather than claiming full environment authentication from deterministic output alone.

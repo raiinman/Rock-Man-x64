@@ -50,3 +50,11 @@ This record preserves unsuccessful attempts and unresolved questions alongside s
 - **Allocation failure coverage:** early bounds of 64/512 were insufficient, and a later whole-call rollback assertion incorrectly rejected legitimate committed response publication followed by IRQ diagnostic failure. Targeted same-operation, debt, no-duplicate and retry checks then passed; no runtime rollback was added and exhaustive coverage is not claimed.
 - **Lifecycle guard:** a stale-reader/raw-mode bypass was found and guarded before the candidate pin. Earlier feature profiles remained unchanged.
 - **Acceptance boundary:** the mode-00 candidate remains unsealed and not Windows-tested; the original aggregate attempt is inconclusive and excluded. A fresh isolated rerun started, with no terminal full-project receipt yet. Static graphics planning is not executed GPU initialization.
+
+## Recovery and synthetic Windows runner failures — October 23, 01:05 update
+
+- **Recovery aggregate:** the later isolated 13-stage attempt passed with unchanged source/input identities; preserve the earlier inconclusive attempt instead of recasting it as successful.
+- **Synthetic supervisor candidates 3–5:** each rejected the first success fixture because of additional/inconsistent process association and accepted zero checks. Exact fixture output and exit 0 did not satisfy supervisor acceptance. Later tests were not run. Cleanup observed the owned job empty and direct child ended.
+- **Identity limit:** the fifth candidate's current-member basename was diagnostic evidence only, not authenticated image identity or historical process continuity. No basename whitelist or uncontained fallback was used.
+- **Next runner candidate:** console-detached candidate 6 subsequently passed all 15 synthetic Windows checks, including deliberate descendants, timeouts and forced-supervisor-termination cleanup; its 14-file kit remained unchanged, with no protection override or unresolved cleanup. Synthetic runner acceptance remains distinct from a real Windows mode contract.
+- **Provenance:** retained cross-toolchain distribution linkage improved, but nine host shared dependencies have pinned hashes rather than independently established package origins. Do not equate deterministic binaries with full provenance.
