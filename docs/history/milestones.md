@@ -217,3 +217,7 @@ The [A0:39 investigation](../../research/bios/HEAP-INITIALIZATION.md) reports an
 ## 30. S2 lifecycle feasibility NO-GO — October 23
 
 Independent source review accepted a NO-GO for the planned production IRQ/graphics runtime controller. Loading lacks an accepted cancellation/deadline contract, whole-owner retirement is missing, and single-call fault/stop behavior plus worker/mailbox finalization remain unproven. This records a completed feasibility review, not a failed execution or new implementation. Accepted frozen sources and earlier results remain unchanged; the viewer remains the supported boundary rather than an enabled live runtime controller.
+
+## 31. Isolated data-channel acceptance — October 23
+
+An independently reviewed observation mailbox passed 12 distinct synthetic scenarios under optimized Linux, ASan/UBSan without leak detection, and ThreadSanitizer builds. Independent tests added two coverage dimensions; the three modes do not triple the unique test count. The candidate establishes bounded observation/request/notice accounting only. No runtime or Windows integration occurred, and full S2 lifecycle closure remains NO-GO. LeakSanitizer environment failures and earlier project failures remain preserved.

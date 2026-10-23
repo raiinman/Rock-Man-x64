@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 12:02 UTC documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 14:09 UTC documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -109,6 +109,14 @@ Next: preserve the earlier 36-pass/check-37-failure/74-unrun viewer result and l
 An independent source-only review accepted a **NO-GO for enabling the planned S2 runtime controller with the production IRQ/graphics startup profile**. Production loading is synchronous with no accepted cancellation or wall-time bound; the APIs do not supply a whole-owner retirement transition. Single-call stop/fault semantics and worker/mailbox finalization also remain unproven. A bounded byte count or requested batch is not a deadline, rollback guarantee or safe-shutdown receipt.
 
 This is a completed design-feasibility review, **not a runtime test failure**. No code changes, builds, tests or Windows actions occurred; accepted frozen sources remain unchanged. It does not establish that every reduced profile is impossible, nor propose one as a substitute. Retain the frozen viewer and leave S2 controls absent or disabled until the lifecycle contracts are separately established. Earlier viewer successes and failures remain valid within their own scopes. Visual acceptance and the separate blocked initializer execution-preparation stage are unchanged; this review authorizes no retry or alternative route.
+
+## Isolated observation mailbox: synthetic acceptance only
+
+A separate data-only mailbox candidate received independent acceptance with no blocking defect found within its stated scope. **Twelve distinct synthetic scenarios** passed optimized Linux builds, AddressSanitizer/UndefinedBehaviorSanitizer with leak detection disabled, and ThreadSanitizer. These are the same scenarios in three modes, not 36 unique tests. Independent optimized and ASan/UBSan checks added two coverage dimensions: cross-translation-unit identity and live notice move/finalization accounting. A third reviewer scenario overlapped existing coverage.
+
+LeakSanitizer attempts failed because of the host tracing environment and remain recorded; no LeakSanitizer or exhaustive leak-free claim is made. Eighteen selected accepted-source/metadata identity checks matched, not a full ancestry revalidation. The candidate transfers observations and accounts for requests/notices; completing those records does not complete native work or retire a runtime owner. Delayed stale notices require explicit data-only recovery, not automatic delivery or runtime replay.
+
+This is **not an S2 controller, full application-message lifecycle closure, integration or Windows acceptance**. No real runtime, original input or PC action was exercised. Load termination, whole-owner retirement, single-call fault/stop semantics and real endpoint/capture/UI integration remain open; S2 stays NO-GO. Earlier accepted results and the separate initializer execution-preparation blocker are unchanged.
 
 Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
 

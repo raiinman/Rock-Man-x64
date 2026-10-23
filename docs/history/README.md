@@ -45,3 +45,5 @@ The 08:05 update records separate native-policy heap and continuation compatibil
 The 09:05 update adds a research-provenance checkpoint: author-reported static A0:39 effects differ from the accepted RAM-preserving native policy. It records no new execution or equivalence; the initializer execution-preparation blocker and all earlier failed stages remain unchanged.
 
 The later October 23 S2 feasibility review concluded source-only NO-GO for the planned production IRQ/graphics runtime controller. Missing loading/retirement and worker-lifecycle contracts were identified without code changes or tests; earlier viewer results and the separate initializer blocker remain unchanged.
+
+The subsequent isolated observation mailbox passed 12 synthetic scenarios in three instrumentation modes, with two additional independent coverage dimensions. LeakSanitizer environment failures remain preserved. This is data-channel acceptance only, not S2 readiness, native-owner retirement or Windows integration.

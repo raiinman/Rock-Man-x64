@@ -230,3 +230,11 @@ The native heap/continuation results remain separately accepted within their exp
 A completed independent review accepted the production IRQ/graphics controller feasibility **NO-GO**. Selected source identities were checked against accepted records; this was not complete ancestry revalidation or fresh execution evidence. No builds, tests, code changes or Windows actions occurred. Missing load termination, whole-owner retirement, single-call fault/stop and final message-ownership contracts prevent claiming a safe controller lifecycle from the existing interfaces.
 
 The finding is profile-specific, not proof that all hypothetical reduced profiles are impossible or that ordinary destruction necessarily crashes. The earlier 111-check frozen-viewer and 23-check host-function results do not exercise a native-session worker and remain separately scoped. Visual acceptance and the initializer execution-preparation blocker remain unchanged; no blocked operation was retried.
+
+## Synthetic mailbox evidence and sanitizer limits — October 23
+
+Twelve author scenarios passed in optimized Linux, ASan/UBSan with leak detection disabled, and ThreadSanitizer modes. Independent optimized and ASan/UBSan tests covered cross-translation-unit host identity and cross-channel live-notice assignment/finalization; another reviewer scenario confirmed already-covered stale-wake recovery. The reviewer inspected the author logs but did not independently rerun the author suites. Finite schedules and sanitizer silence are not exhaustive race or liveness proof.
+
+Both leak-enabled attempts failed because LeakSanitizer could not operate under host tracing. Targeted deletion/lifetime assertions passed, but no LeakSanitizer pass or exhaustive leak-free result follows. An initial reviewer self-move test expression failed warnings-as-errors compilation and was corrected in the test; no initial execution or primitive compilation defect was claimed. Eighteen selected accepted-source/metadata hashes matched, not complete ancestry revalidation.
+
+Acceptance is isolated data-channel behavior only: no native session, original input, actual GUI endpoint, Windows execution or runtime regression was exercised. The data-channel finalization receipt cannot prove native-owner retirement. S2 and the separate initializer execution blocker remain unchanged.

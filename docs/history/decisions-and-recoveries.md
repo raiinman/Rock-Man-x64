@@ -112,3 +112,7 @@ A later initializer-prefix candidate has **source/synthetic acceptance only**: 1
 ## Runtime-controller feasibility stop — October 23
 
 The independently reviewed S2 design stopped at **NO-GO for the planned production IRQ/graphics profile**, before implementation or tests. The decisive gaps are load completion/cancellation, whole-owner retirement and single-call stop/fault contracts; worker/mailbox finalization is also unproven. Bounded input size is not bounded wall time, and closing a view is not safe retirement of native work. Retain the accepted frozen viewer rather than substituting timeout, detach, forced termination or owner replacement for those contracts. This is separate from visual-tool limitations and the unchanged initializer execution-preparation blocker.
+
+## Separate data channel without controller promotion — October 23
+
+A later isolated observation mailbox was accepted only for its synthetic ownership/notification scope. Review clarified that an old notice is not refreshed automatically, ordinary destruction is not a successful finalization receipt, and data-record completion is not native-work completion. LeakSanitizer environment failures and a corrected reviewer test-only compilation warning remain recorded. This narrows one separable mechanism without resolving load cancellation, native-owner retirement, operation faults or real application integration; the S2 NO-GO is preserved.

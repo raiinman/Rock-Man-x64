@@ -67,6 +67,8 @@ The new [static A0:39 report](../../research/bios/HEAP-INITIALIZATION.md) descri
 
 The planned production IRQ/graphics runtime controller received an independently accepted source-only **NO-GO**. Before reconsideration, establish load cancellation/completion, whole-owner retirement, single-call stop/fault handling and final worker/message ownership. View closure, an idle worker or an elapsed timeout cannot stand in for retiring native obligations. Keep S2 controls absent or disabled; do not replace the owner or force worker termination to conceal the gap. This decision neither changes earlier frozen-viewer acceptance nor authorizes implementation, execution or a retry of the separate blocked initializer operation.
 
+The later isolated observation mailbox has synthetic acceptance only. It accounts for data-channel requests and notices, not native completion or owner retirement. It does not close the full application-message lifecycle gate or change S2 NO-GO; real endpoint, capture-boundary and UI integration still depend on the unresolved load/retirement/operation contracts. Explicit stale-notice recovery is data-only, never permission to replay a runtime operation.
+
 ## Explicitly unresolved scopes
 
 - Connected reset reissue and already-unmuted command admission are not dynamically established merely because guards exist.
