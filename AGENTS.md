@@ -79,10 +79,12 @@ Default section order:
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
 
 - On 2026-10-22 the user authorized continued in-depth BIOS research, subagents and necessary local tools, and asked that reviewed findings reach GitHub promptly for the other agent. The latest research update cadence is every half hour, superseding the earlier hourly request. This research continues separately from game implementation; `research/bios/AGENTS.md` owns its operating detail.
-- On 2026-10-23 the user requested visual progress bars and prominent, interesting findings instead of text-heavy updates. Use original evidence-linked documentation graphics, distinguish evidence stages and unresolved gates, and never invent an overall game-completion percentage. `docs/status/AGENTS.md` owns the dashboard and its visual evidence ledger.
+- On 2026-10-23 the user clarified that progress must be a living tracker updated with GitHub changes, not a set of render snapshots. Lead with plain-English changed/why/next and evidence-stage bars; never invent an overall game-completion percentage. Every meaningful Rock Man change must maintain the authoritative tracker data, cited evidence class, blockers and real review revision, regenerate/check outputs, and verify the actual published workflow result. `docs/status/AGENTS.md` owns that team completion contract.
+- The user explicitly approved the narrowly scoped documentation-only GitHub Actions updater on 2026-10-23. This does not authorize game builds, deployment, settings changes, new credentials or additional workflows.
 
 ## Child DOX Index
 
+- [`.github/AGENTS.md`](.github/AGENTS.md) owns only the approved documentation-updater workflow and its safety boundary.
 - [`research/AGENTS.md`](research/AGENTS.md) owns the PS1 research library, source catalogs, search records, and handoff guidance.
 - [`docs/AGENTS.md`](docs/AGENTS.md) owns the project documentation index and delegates history, technical architecture, and current status to its child contracts.
 - The root owns `README.md`, `AGENTS.md`, and `DOX-LICENSE`.
@@ -96,7 +98,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - Respect the user's independent implementation constraint: do not import other game ports, decompilation projects, or emulator implementation code as implementation help.
 - Controlled BIOS/emulator diagnostics are permitted as separately labeled research—not hardware or native-boot proof; the finished game must remain native Windows without a BIOS/emulator runtime dependency or reused port/mod/emulator implementation, and original bytes, captures and private packages remain excluded from publication.
 - Keep private notes, credentials, unrelated projects, original game data, and private validation packages out of this public repository.
-- The current deliverables are documentation, metadata and original static explanatory graphics. There is no game runtime or game build command here.
+- The current deliverables are documentation, metadata, original explanatory graphics and the narrowly scoped documentation-maintenance tooling. There is no game runtime or game build command here.
 
 ## Documentation and Publication Contract
 
@@ -104,11 +106,11 @@ When the user requests a durable behavior change, record it here or in the relev
 - This public repository is a documentation and research record, not a source, build, asset, or playable-game distribution. A private prototype exists; do not describe repository emptiness as absence of all project development.
 - Document chronology, decisions, failures, corrections, evidence boundaries, and unfinished work, not just successful milestones.
 - Separate proposed, implemented, component/synthetic/Linux-tested, cross-compiled, and Windows-verified states. A build or test count does not establish gameplay, native boot, rendering accuracy, or audible output.
-- Publish reviewed Markdown for the project-history update. The separately authorized visual dashboard may additionally contain original static SVG documentation graphics and sanitized JSON evidence metadata under `docs/status/`; these are explanatory artifacts, not runtime previews or an implementation release. Preserve unrelated research work and all existing license text; do not change research catalogs, workflows, settings, deployment, collaborators, or secrets as part of that update.
-- Do not publish implementation code, original assets, ROM or executable bytes, dumps or disassembly tables, binaries, private-runtime previews or captures, private packages or download links, private file identities, personal paths/account details, internal messages, private memory, or credentials.
+- Publish reviewed Markdown for the project-history update. The authorized living tracker may additionally contain sanitized JSON evidence metadata, original SVG explanations and documentation-only generator/tests under `docs/status/`. The approved `.github/workflows/update-progress.yml` may run those tools on eligible main-branch pushes and commit only their five exact generated outputs. These are documentation infrastructure, not game/runtime implementation or previews. Preserve unrelated research work and all existing license text; do not change research catalogs, other workflows, settings, deployment, collaborators or secrets as part of that update. The named updater is the sole workflow exception.
+- Do not publish game/runtime implementation code, original assets, ROM or executable bytes, dumps or disassembly tables, binaries, private-runtime previews or captures, private packages or download links, private file identities, personal paths/account details, internal messages, private memory, or credentials.
 - Summarize private evidence in sanitized original prose; never copy raw private reports. State that private test results are not independently reproducible from this documentation-only repository.
 - Keep source provenance explicit. Independent implementation is a project constraint, not a legally certified clean-room claim.
 - Preserve `DOX-LICENSE` verbatim. Its MIT notice covers the imported DOX framework; do not infer or add a whole-project license without owner approval.
-- Before publication, review the exact changed Markdown, metadata and static graphics; check relative links and DOX indexes, scan for forbidden content and local paths, and check whitespace. Render and inspect graphics, verify every stage/count against its source, and exclude scripts, remote embeds, original assets and private captures from SVGs.
+- Before publication, review the exact changed Markdown, metadata, documentation tooling/workflow and graphics; check relative links and DOX indexes, scan for forbidden content and local paths, and check whitespace. Render and inspect graphics, verify every stage/count against its source, and exclude scripts, remote embeds, original assets and private captures from SVGs.
 - Re-read the current remote head and relevant contracts before publishing. Build on the current tree, preserve unrelated changes, use an expected-head lease without force-push, and reconcile a changed head before retrying.
 - Verify the resulting remote commit, exact file contents, preserved paths, links, and public visibility before reporting publication complete.

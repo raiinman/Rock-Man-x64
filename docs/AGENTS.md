@@ -12,7 +12,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Local Contracts
 
-- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized status dashboard also accepts original static SVG explanations and sanitized JSON evidence metadata. These do not authorize implementation code, game assets, private runtime captures or services.
+- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized living status tracker also accepts original SVG explanations, sanitized JSON evidence metadata and its documentation-only generator/tests. These do not authorize game/runtime implementation code, game assets, private runtime captures or services.
 - Use sanitized original summaries, not raw private logs, transcripts, code excerpts, or extracted content.
 - Separate the current checkpoint from historical stages. Preserve failed approaches and corrections in history while removing stale claims from current summaries.
 - Describe private results as reported evidence with explicit scope; the public repository does not contain the inputs or implementation needed to reproduce them.
@@ -21,9 +21,10 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Work Guidance
 
-- Keep the root overview visual-first and short; use evidence-stage bars and curated findings, link the complete ledger, and put durable detail in the owning child subtree. Do not convert uneven workstreams or test counts into a game-completion percentage.
+- Keep the root overview current, plain-English and short; generate evidence-stage bars and changed/why/next from reviewed source data, link the complete ledger, and put durable detail in the owning child subtree. Do not convert uneven workstreams or test counts into a game-completion percentage.
 - Update status, relevant technical limitations, and history together when a milestone or correction changes the project record.
 - Keep dates and milestone labels explicit. Do not invent timestamps or turn planned work into completed history.
+- Tracker upkeep is part of every meaningful Rock Man change: maintain reviewed data and change explanations, regenerate/check outputs, and verify the actual updater result after publication. Never promote native evidence from research or repository activity.
 - A documentation update does not authorize resuming development or publishing private artifacts.
 
 ## Verification

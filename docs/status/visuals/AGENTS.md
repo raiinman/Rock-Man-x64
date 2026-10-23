@@ -6,10 +6,10 @@ Make verified progress, interesting discoveries and unresolved boundaries visibl
 
 ## Ownership
 
-- `progress-dashboard.svg` owns the evidence-stage overview.
-- `findings-01.svg` owns the six front-page reconstruction findings.
-- `findings-02.svg` owns six linked frontier and evidence-boundary findings.
-- The parent owns the Markdown evidence ledger and sanitized JSON data; those are the accessible text equivalents and source map.
+- `progress-dashboard.svg` is generated from the parent reviewed data; do not edit it manually.
+- `findings-01.svg` is the archived 2026-10-23 reconstruction board, not the live tracker.
+- `findings-02.svg` is the archived 2026-10-23 frontier board, not the live tracker.
+- The parent owns the generated Markdown and reviewed JSON; those are the authoritative current facts and accessible source map. The approved updater regenerates only `progress-dashboard.svg`.
 
 ## Local Contracts
 

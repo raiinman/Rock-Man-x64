@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "as_of": "2026-10-23",
   "base_commit": "e32df907d72f65e0067a0b56ad56c1f65bb74de7",
   "scope": "Documentation-only evidence snapshot, not a game-completion percentage. Includes separately labeled source-only load/host-I/O reviews.",
@@ -27,7 +27,24 @@
         0
       ],
       "source": "docs/status/current-status.md#accepted-native-windows-mode-00-stage",
-      "limit": "Stops at the unsupported graphics-startup continuation."
+      "limit": "Stops at the unsupported graphics-startup continuation.",
+      "id": "mode00",
+      "plain_status": "Windows checks pass for this startup slice.",
+      "next": "Resolve the unsupported graphics continuation; do not invent a service result.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#accepted-native-windows-mode-00-stage"
+        ],
+        "1": [
+          "docs/status/current-status.md#accepted-native-windows-mode-00-stage"
+        ],
+        "2": [
+          "docs/status/current-status.md#accepted-native-windows-mode-00-stage"
+        ],
+        "3": [
+          "docs/status/current-status.md#accepted-native-windows-mode-00-stage"
+        ]
+      }
     },
     {
       "name": "Graphics diagnostic",
@@ -40,7 +57,21 @@
         0
       ],
       "source": "docs/status/current-status.md#diagnostic-continuation-bounded-linux-acceptance",
-      "limit": "No Windows parity or GPU initialization established."
+      "limit": "No Windows parity or GPU initialization established.",
+      "id": "graphics",
+      "plain_status": "The Linux diagnostic reaches a known stop.",
+      "next": "Establish the missing A0:49 effects and permitted implementation basis.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#diagnostic-continuation-bounded-linux-acceptance"
+        ],
+        "1": [
+          "docs/status/current-status.md#diagnostic-continuation-bounded-linux-acceptance"
+        ],
+        "2": [
+          "docs/status/current-status.md#diagnostic-continuation-bounded-linux-acceptance"
+        ]
+      }
     },
     {
       "name": "Owned startup capture",
@@ -53,7 +84,21 @@
         0
       ],
       "source": "docs/status/current-status.md#bounded-actual-owned-capture",
-      "limit": "Bounded Linux/UBSan owner observations, not a live debugger."
+      "limit": "Bounded Linux/UBSan owner observations, not a live debugger.",
+      "id": "capture",
+      "plain_status": "Bounded owner snapshots work in Linux tests.",
+      "next": "Keep capture observation separate from native stepping and UI acceptance.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#bounded-actual-owned-capture"
+        ],
+        "1": [
+          "docs/status/current-status.md#bounded-actual-owned-capture"
+        ],
+        "2": [
+          "docs/status/current-status.md#bounded-actual-owned-capture"
+        ]
+      }
     },
     {
       "name": "Export + frozen viewer",
@@ -66,7 +111,24 @@
         0
       ],
       "source": "docs/status/current-status.md#separately-approved-windows-viewer-result",
-      "limit": "Different bounded Linux/Windows scopes; no actual-capture GUI display or pixel acceptance."
+      "limit": "Different bounded Linux/Windows scopes; no actual-capture GUI display or pixel acceptance.",
+      "id": "viewer",
+      "plain_status": "Portable model import and Windows synthetic viewer checks each pass.",
+      "next": "Verify real-launcher, pixels and actual-capture display separately.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#separately-approved-windows-viewer-result"
+        ],
+        "1": [
+          "docs/status/current-status.md#separately-approved-windows-viewer-result"
+        ],
+        "2": [
+          "docs/status/current-status.md#actual-portable-exportimport-and-bounded-windows-viewer-acceptance"
+        ],
+        "3": [
+          "docs/status/current-status.md#separately-approved-windows-viewer-result"
+        ]
+      }
     },
     {
       "name": "Source bytes / Back",
@@ -79,7 +141,21 @@
         0
       ],
       "source": "docs/status/current-status.md#combined-candidate-and-ide-update",
-      "limit": "No Linux execution claim in this row; visual preflight blocked before launch."
+      "limit": "No Linux execution claim in this row; visual preflight blocked before launch.",
+      "id": "navigation",
+      "plain_status": "Windows navigation commands preserve tested state.",
+      "next": "Obtain a permitted visual check; do not infer pixels from command tests.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#combined-candidate-and-ide-update"
+        ],
+        "1": [
+          "docs/status/current-status.md#combined-candidate-and-ide-update"
+        ],
+        "3": [
+          "docs/status/current-status.md#combined-candidate-and-ide-update"
+        ]
+      }
     },
     {
       "name": "Mailbox + observer",
@@ -92,7 +168,21 @@
         0
       ],
       "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance",
-      "limit": "Data-only channel; no Windows or native-controller integration."
+      "limit": "Data-only channel; no Windows or native-controller integration.",
+      "id": "observer",
+      "plain_status": "The data-only channel and observer pass Linux synthetic tests.",
+      "next": "Review production lifecycle contracts before any native controller connection.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        ],
+        "1": [
+          "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        ],
+        "2": [
+          "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        ]
+      }
     },
     {
       "name": "Loader continuation",
@@ -105,7 +195,21 @@
         0
       ],
       "source": "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance",
-      "limit": "No BIOS equivalence; later initializer remains synthetic-only and execution-blocked."
+      "limit": "No BIOS equivalence; later initializer remains synthetic-only and execution-blocked.",
+      "id": "loader",
+      "plain_status": "Native-policy compatibility stops before the initializer.",
+      "next": "Preserve the initializer execution gate and unresolved firmware effects.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance"
+        ],
+        "1": [
+          "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance"
+        ],
+        "2": [
+          "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance"
+        ]
+      }
     },
     {
       "name": "S2 live IDE controller",
@@ -118,7 +222,15 @@
         0
       ],
       "source": "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go",
-      "limit": "Load termination, owner retirement, stop/fault and real UI/capture integration remain unresolved."
+      "limit": "Load termination, owner retirement, stop/fault and real UI/capture integration remain unresolved.",
+      "id": "s2",
+      "plain_status": "Live runtime controls remain disabled.",
+      "next": "Establish loading, ownership, stop/fault and real UI/capture contracts.",
+      "stage_evidence": {
+        "0": [
+          "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go"
+        ]
+      }
     }
   ],
   "findings": [
@@ -292,5 +404,57 @@
       ]
     }
   ],
-  "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority."
+  "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
+  "last_evidence_review": {
+    "date": "2026-10-23",
+    "review_id": "2026-10-23-native-evidence-02",
+    "reviewed_through_commit": "9ce9b9497f496584c438b76b39d1b36f2f1e4d58",
+    "summary": "Published component results and source-only load reviews reconciled. No new native-game run is claimed."
+  },
+  "overview": {
+    "now": "Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.",
+    "changed": "The data-only observer can recover delayed notices and label old snapshots honestly. New load reviews narrowed the shutdown problem; they did not solve it.",
+    "why": "We can inspect a stopped runtime without pretending it advanced. Safe cancellation and ownership still have to be proved before live controls can be connected.",
+    "next": "Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped."
+  },
+  "updates": [
+    {
+      "id": "tracker-living-01",
+      "date": "2026-10-23",
+      "kind": "documentation",
+      "changed": "The progress page is now generated from one reviewed evidence file instead of hand-edited render snapshots.",
+      "why": "Future documentation updates can refresh the visible tracker and explain the change in plain English. A repository push alone cannot promote a capability.",
+      "next": "Keep the evidence file and this change ledger current in each authorized project-documentation update.",
+      "evidence": [
+        "docs/status/TRACKER.md"
+      ],
+      "capability_changed": false
+    },
+    {
+      "id": "load-contract-review-01",
+      "date": "2026-10-23",
+      "kind": "source-review",
+      "changed": "Load and Windows host-I/O reviews separated cancellation requests from real completion, resource settlement and worker retirement.",
+      "why": "A timeout or asynchronous handle does not prove safe bounded shutdown. The live-controller gate remains unmet.",
+      "next": "An accepted backend/product close contract is needed; weakening the product guarantee requires an explicit owner decision.",
+      "evidence": [
+        "docs/status/dashboard.md#12-cancel-requested-is-not-work-retired",
+        "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go"
+      ],
+      "capability_changed": false
+    },
+    {
+      "id": "observer-linux-01",
+      "date": "2026-10-23",
+      "kind": "synthetic-linux",
+      "changed": "Ten observer scenarios passed alongside the unchanged twelve mailbox scenarios in three Linux build modes.",
+      "why": "Delayed notifications recover sampled data; failures preserve stale/as-of labels without replaying native requests. The modes are repetitions, not extra unique tests.",
+      "next": "Review production load and owner retirement before integrating the observer with live controls.",
+      "evidence": [
+        "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance",
+        "docs/status/validation.md#observer-candidate-validation--october-23"
+      ],
+      "capability_changed": true
+    }
+  ]
 }

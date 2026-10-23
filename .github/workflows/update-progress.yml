@@ -1,0 +1,67 @@
+name: Update living progress tracker
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: living-progress-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event.repository.default_branch == 'main' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      TRIGGER_SHA: ${{ github.sha }}
+    steps:
+      - name: Check out the exact triggering commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2; immutable tag target verified
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Verify a clean checkout and test documentation tooling
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$TRIGGER_SHA"
+          python3 -B docs/status/tools/check_generated_changes.py --clean
+          python3 -B -m unittest discover -s docs/status/tools -p 'test_*.py' -v
+      - name: Refresh activity and regenerate reviewed documentation
+        run: |
+          set -euo pipefail
+          python3 -B docs/status/tools/update_tracker.py --write --refresh-activity "$TRIGGER_SHA"
+          python3 -B docs/status/tools/update_tracker.py --check
+          python3 -B docs/status/tools/check_generated_changes.py
+      - name: Commit only generated documentation if the triggering head is still current
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          remote_head="$(git ls-remote --exit-code origin refs/heads/main | cut -f1)"
+          if [ "$remote_head" != "$TRIGGER_SHA" ]; then
+            echo 'A newer repository update superseded this run; nothing will be pushed.'
+            exit 0
+          fi
+          python3 -B docs/status/tools/check_generated_changes.py
+          git add -- README.md docs/status/dashboard.md docs/status/changes.md docs/status/visuals/progress-dashboard.svg docs/status/tracker-state.json
+          python3 -B docs/status/tools/check_generated_changes.py
+          if git diff --cached --quiet; then
+            echo 'Tracker already current; no generated commit needed.'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'docs: refresh generated progress tracker'
+          test "$(git rev-parse HEAD^)" = "$TRIGGER_SHA"
+          remote_head="$(git ls-remote --exit-code origin refs/heads/main | cut -f1)"
+          test "$remote_head" = "$TRIGGER_SHA" || { echo 'Head changed before push; refusing stale output.'; exit 1; }
+          auth="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          echo "::add-mask::$auth"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin HEAD:refs/heads/main
+          test "$(git ls-remote --exit-code origin refs/heads/main | cut -f1)" = "$(git rev-parse HEAD)"

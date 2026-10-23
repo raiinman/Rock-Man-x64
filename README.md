@@ -4,17 +4,40 @@ An independent effort toward a **native Windows x64 Mega Man Legends 1 + integra
 
 This public repository contains documentation, research metadata and original explanatory graphics—not the private prototype, game assets, a source release or a playable build.
 
-## Where we are · 2026-10-23
+<!-- ROCK-MAN-TRACKER:START -->
 
-[![Eight evidence-stage progress bars: bounded Windows evidence for mode-00 and the frozen viewer; Linux-only graphics, capture, mailbox and loader evidence; S2 source-review NO-GO. No full game or IDE acceptance.](docs/status/visuals/progress-dashboard.svg)](docs/status/dashboard.md#evidence-tracks)
+## Living progress tracker
 
-**Filled segments are evidence classes, not percent complete.** [Read the exact scopes, sources and unknowns →](docs/status/dashboard.md)
+**Where we are:** Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.
 
-## What we actually learned
+**What changed:** The data-only observer can recover delayed notices and label old snapshots honestly. New load reviews narrowed the shutdown problem; they did not solve it.
 
-[![Six reconstruction discoveries: tiled texture storage, packed pose mapping, update-call sequence semantics, bounded environment geometry, character hierarchy and the ST01 startup distinction.](docs/status/visuals/findings-01.svg)](docs/status/dashboard.md#reconstruction-findings)
+**Why it matters:** We can inspect a stopped runtime without pretending it advanced. Safe cancellation and ownership still have to be proved before live controls can be connected.
 
-**[Six more important findings →](docs/status/dashboard.md#frontier-findings)** — native heap policy versus BIOS effects, honest snapshots, executed original-game emulator research, A0:49's unresolved effects, and why cancellation is not safe shutdown.
+**Next useful step:** Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped.
+
+**Last evidence review:** 2026-10-23 · `2026-10-23-native-evidence-02` · [reviewed basis 9ce9b94](https://github.com/raiinman/Rock-Man-x64/commit/9ce9b9497f496584c438b76b39d1b36f2f1e4d58).
+**Latest repository change observed:** [9ce9b94](https://github.com/raiinman/Rock-Man-x64/commit/9ce9b9497f496584c438b76b39d1b36f2f1e4d58) · 2026-10-23T19:54:41Z — docs: add visual evidence dashboard and twelve linked discoveries.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+
+| Workstream | Evidence bar | In plain English |
+|---|---|---|
+| Native CD mode-00 | 🟦🟦🟦🟦⬜ | Windows checks pass for this startup slice. |
+| Graphics diagnostic | 🟦🟦🟦⬜⬜ | The Linux diagnostic reaches a known stop. |
+| Owned startup capture | 🟦🟦🟦⬜⬜ | Bounded owner snapshots work in Linux tests. |
+| Export \+ frozen viewer | 🟦🟦🟦🟦⬜ | Portable model import and Windows synthetic viewer checks each pass. |
+| Source bytes / Back | 🟦🟦⬜🟦⬜ | Windows navigation commands preserve tested state. |
+| Mailbox \+ observer | 🟦🟦🟦⬜⬜ | The data-only channel and observer pass Linux synthetic tests. |
+| Loader continuation | 🟦🟦🟦⬜⬜ | Native-policy compatibility stops before the initializer. |
+| S2 live IDE controller | 🟨⬜⬜⬜⬜ | Live runtime controls remain disabled. |
+
+**Left → right:** source review · synthetic/component · Linux · Windows · full game/IDE. 🟦 bounded evidence · 🟨 completed NO-GO review · ⬜ no acceptance claimed. **These are evidence classes, not five equal units of work or percent complete.**
+
+[What changed / why / next](docs/status/changes.md) · [Exact scopes and discoveries](docs/status/dashboard.md) · [How updates work](docs/status/TRACKER.md)
+
+_Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages._
+
+<!-- ROCK-MAN-TRACKER:END -->
 
 ## Follow the evidence
 

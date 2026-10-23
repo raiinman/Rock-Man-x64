@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "latest_repository_change": {
+    "sha": "9ce9b9497f496584c438b76b39d1b36f2f1e4d58",
+    "committed_at": "2026-10-23T19:54:41Z",
+    "subject": "docs: add visual evidence dashboard and twelve linked discoveries",
+    "source": "GitHub connector: exact main commit observed before tracker preparation"
+  },
+  "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
+  "evidence_data_sha256": "b42a09178f3145a1f27eae6e206e3251bb79acb8a71e522646245234e47d9e17",
+  "generated_paths": [
+    "README.md",
+    "docs/status/dashboard.md",
+    "docs/status/changes.md",
+    "docs/status/visuals/progress-dashboard.svg",
+    "docs/status/tracker-state.json"
+  ],
+  "reviewed_stage_sha256": "07f00f757f60411d1267ef31885ed498812c69a16c198bac3366276f37b02405",
+  "evidence_review_id": "2026-10-23-native-evidence-02",
+  "evidence_review_date": "2026-10-23"
+}

@@ -11,13 +11,18 @@ Index: [visual dashboard and evidence ledger](dashboard.md), [dashboard metadata
 - Exclude original data, raw private receipts, machine/user/account identifiers, internal paths and private links. Check navigation and cross-page counts before publication.
 - Record a later acceptance as a new checkpoint, not a retroactive rewrite of what was known at pause.
 
-## Visual dashboard contract
+## Living tracker contract
 
-- Own `dashboard.md` and `dashboard-data.json`; the ledger mirrors every visible workstream and finding, with evidence class, source, importance and remaining unknown. The snapshot date and underlying public commit must be explicit.
-- Bars represent independent evidence classes, not equal units of implementation or a game-completion percentage. Platform execution and synthetic inputs overlap; do not sum them as independent milestones. An empty segment means no acceptance claimed in this dashboard, not a failed test or proof no work exists.
-- Summarize new private reviews only in original sanitized prose. Source/design acceptance, including a NO-GO finding, is not implementation or runtime acceptance. Preserve PSX-SPX and firmware provenance limits and distinguish executed emulator research from native game boot.
-- Keep structured metadata, graphics and accessible prose in sync. Check all relative paths and section anchors; compare stage/count changes to the exact cited evidence, render SVGs, and inspect readability before publication. Local generators, preview PNGs and review receipts are not public runtime artifacts.
+- Own `dashboard-data.json` as the reviewed evidence source, `TRACKER.md` as the team upkeep contract, and the generated `dashboard.md`, `changes.md` and `tracker-state.json`. The root README tracker block is generated from this source too.
+- Every meaningful Rock Man change must update plain-English changed/why/next, evidence class/source, blockers and actual review date/identifier/basis. Stable entry IDs preserve history. Research authors may update reference findings, never native capability acceptance by inference.
+- Generated files are not manually edited. Run the generator, bounded fixture tests and `--check`; inspect the exact diff and visible text. The publication owner verifies the actual Actions result and generated commit, or reports a failed/skipped/pending refresh.
+- Latest repository activity and last evidence review are separate. Unchanged evidence data or an unchanged review identifier keeps new activity review-pending. A changed authored record is not an independent automated review of underlying tests.
+- Bars represent overlapping evidence classes, not equal effort or a completion denominator. A dash means no acceptance claimed, not a failed test or proof no work exists. Source review is not implementation; synthetic and platform labels can describe the same run.
+- Private reports are summarized only in sanitized original prose. Preserve emulator/native distinctions, PSX-SPX/firmware/test-oracle provenance, native-boot limits and unresolved S2/lifecycle gates.
+- Repository activity is refreshed only from exact commit metadata (Git or the authorized connector path). No prose parser promotes capabilities. The updater never changes `dashboard-data.json` or its review history. Changed stage states/citations require a new review identifier against both the saved stage receipt and, during Git refresh, the actual parent evidence file.
+- Archived findings graphics are secondary dated references, not the live status authority. The current generated tracker and reviewed data take precedence.
 
 ## Child DOX Index
 
-- [visuals/AGENTS.md](visuals/AGENTS.md) owns the original static dashboard and findings graphics.
+- [tools/AGENTS.md](tools/AGENTS.md) owns the documentation-only updater, fixed-path guard and fixture tests.
+- [visuals/AGENTS.md](visuals/AGENTS.md) owns the generated evidence graphic and dated explanatory boards.
