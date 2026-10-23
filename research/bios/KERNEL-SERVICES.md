@@ -48,6 +48,12 @@ Combining those retained stub/dispatcher bytes with the [later table installatio
 
 The minimum live-state join must establish the fetched gate and dispatcher, the selected table word and relevant writes or replacements since installation, including partial writes through RAM aliases. A native interception before those fetches needs its own explicit binding rather than an assertion that guest dispatch was observed. Known caller arguments and an initial BIOS table alone cannot prove the effective target at this occurrence. The existing stub/dispatcher Evidence IDs above support the chain; independent decoding of the digest-checked original bytes corroborates the selected route.
 
+### Selected B0:57 constant return
+
+The same retained B0 table span places selector `0x57` at physical slot `0x9d0`, sourced from original ROM offset `0x104d0`. Its initial target is physical `0x668` in the copied kernel. Independent decoding of the complete three-instruction helper, original ROM offsets `0x10168..0x10173`, establishes an argument-independent return value of `0x00000874`. The helper has no memory access, stack change or nested call; the final value is established in its return delay slot. The retained table evidence is `ev_77656636b4ffa128bfe02798e968a3cd5879f9cdb83559ff508d590cbf7be750`; helper bytes are covered by the digest-bound copied-kernel source evidence `ev_3c855c29d0d01d7d76022a5b2a6a7263131dcc9202745065daa80ba4d94bafcb`. No new REA function analysis or execution was performed.
+
+This can narrow symbolic return-derived addresses only if the effective call reaches that unmodified helper. A symbolic B0:57 result in a static loader analysis does not establish the live return, branch execution, subsequent write destinations or A0:49 table history. Compute any proposed write ranges under the explicit conditional binding, then separately establish their actual producers and ordering; a pointer-shaped result alone is not dispatch-patch evidence.
+
 ## Event lifecycle and delivery
 
 **REA-decompiled observation:** At `0x1b44`, delivery scans records bounded by the event-table pointer and byte size from `0xa0000120`/`0xa0000124`. Only records with state `0x2000` and matching class/specification participate. For mode `0x2000`, delivery changes state to `0x4000`. For mode `0x1000`, it invokes a non-null callback directly instead. The latter branch does not perform the former branch's state transition. At `0x1c5c`, undelivery changes matching mode-`0x2000` records from state `0x4000` back to `0x2000`.
