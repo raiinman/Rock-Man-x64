@@ -28,4 +28,4 @@ Private implementation documents sometimes retain historical statements such as 
 
 ## Later resumed-development checkpoint
 
-Development resumed at 22:04 UTC. The configuration stage subsequently passed 40 Windows cases. A newer connected native CPU mixer returns from high-level CdInit on Linux, while its freeze and Windows acceptance remain pending. See [validation history](validation-history.md) for the preserved failures, correction and evidence limits, and [current status](../status/current-status.md) for the latest checkpoint.
+Development resumed at 22:04 UTC. The configuration stage subsequently passed 40 Windows cases. The later native CPU mixer was sealed and passed 51 actual Windows cases, with a preserved stale-summary metadata defect. A newer mode-00 candidate has pinned Linux and targeted sanitizer evidence but remains unsealed and not Windows-tested; its full-project aggregate has no verified terminal receipt. See [validation history](validation-history.md) for the preserved failures, correction and evidence limits, and [current status](../status/current-status.md) for the latest checkpoint.

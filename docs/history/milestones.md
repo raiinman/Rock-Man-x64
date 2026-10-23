@@ -147,3 +147,11 @@ At **21:37:34 UTC**, the user asked to pause development and bring GitHub up to 
 ## 19. Resumption, configuration Windows acceptance and connected mixer
 
 Development resumed at 22:04 UTC. The configuration stage subsequently passed 40 Windows cases; the newer connected CPU software mixer then established a genuine high-level CdInit return in Linux testing, stopping at the next unsupported CdSync boundary. A reporting-only correction preserves old-profile bytes without changing runtime capability. Audio freeze sealing and target execution remain pending. The [validation history](validation-history.md) records exact scope, counts and retained failures; none of these milestones establishes playback or game boot.
+
+## 20. Sealed mixer and mode-00 candidate — October 22 work, October 23 update
+
+The mixer freeze subsequently completed, retaining 419 source files, 20 reproducible Windows executables and 30 CLI profiles. All 51 actual Windows cases passed: 30 expected successes and 21 intentional refusals, with 30 JSON and 21 text comparisons. The true high-level initializer return is established without device output, decoding, playback or game boot.
+
+A separate erratum records inherited contract summaries of 40/18/21 instead of the actual 51/20/30. Definitions and comparisons were complete; the freeze was preserved unchanged. New generic packaging preflight passed 22 synthetic tests and rejects those stale summaries rather than silently repairing history.
+
+A subsequent mode-00 candidate connects genuine same-image Form1 configuration and response/IRQ/callback continuation, with one real event examined and no match invented. Pinned earlier-case regression and ten new profiles passed, as did targeted direct-pinned sanitizer fail-N checks. The candidate remains unsealed and not Windows-tested, with no verified terminal full-project aggregate. Earlier mistaken pinned-log attribution, copied-byte expectation and insufficient/invalid failure-injection assertions are retained in [validation history](validation-history.md). Graphics startup remains static planning, not implementation or GPU initialization.

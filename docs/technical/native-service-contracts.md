@@ -52,10 +52,16 @@ Current gain means coefficients actually installed in that software processor. S
 
 Staging matrix coefficients does not apply them. Apply validates all fields and publishes one complete revision. Source writes remain individual microcommits. Processing must validate buffers, knownness, owners and completion capacity before a no-throw output phase. Reload, reentrant mutation and stale borrowers must not create torn snapshots.
 
-The sealed same-owner processor establishes functional readiness lazily after actual unmute and performs CPU PCM work under shared Session serialization. Connected Linux checks establish the genuine high-level initializer return, not merely a fabricated gain read. Freeze and Windows acceptance remain pending. There is no open output device, stream decoder, playback proof or physical SPU equivalence. Production reset-after-readiness coverage is still absent.
+The sealed same-owner processor establishes functional readiness lazily after actual unmute and performs CPU PCM work under shared Session serialization. Connected Linux checks and the later sealed 51-case Windows result establish the genuine high-level initializer return, not merely a fabricated gain read. There is no open output device, stream decoder, playback proof or physical SPU equivalence. Production reset-after-readiness coverage is still absent.
 
 ## Unsupported and recoverable outcomes
 
 Failures should distinguish missing authority, stale generation, unknown required state, unsupported semantics, busy obligations, revision exhaustion and allocation failure. A recoverable retry retains exact continuation; an unsupported callback target remains captured even if a RAM pointer is later changed. No error becomes an invented successful firmware response.
 
 Connected reset reissue, already-unmuted admission, history recovery, timeout cancellation, unmapped device errors, nonzero callbacks and unexpected successors remain bounded or unsupported. See the [handoff](../status/decisions-and-handoff.md) before extending them.
+
+## Mode-00 candidate boundary
+
+The newer unsealed candidate applies a 2048-byte Form1 reader from the same immutable image through actual parameter FIFO, response, IRQ and callback continuation. An exhaustive same-owner registry examination found one registered event and zero matches; no event occurrence was invented. The B0:07 return remains unknown and is overwritten before the source caller uses it; no numeric success is fabricated. Permission remains unchanged. Lifecycle guards reject stale-reader/raw-mode bypasses.
+
+Targeted pinned Linux sanitizer checks preserve real response-publication commits when later IRQ diagnostic allocation fails. Same-operation identity, outstanding debt, no duplicate work and retry behavior are the assertions—not whole-call rollback or exhaustive allocation coverage. This candidate has no verified terminal full-project aggregate or Windows result and makes no physical timing claim. See [current status](../status/current-status.md).

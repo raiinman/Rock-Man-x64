@@ -41,3 +41,12 @@ This record preserves unsuccessful attempts and unresolved questions alongside s
 - Unsupported behavior is an honest endpoint, not a successful stub.
 - Frozen releases remain unchanged while newer candidates are investigated.
 - Test-count growth is historical evidence, not a percentage-complete metric.
+
+## Subsequent corrections retained — October 23 documentation update
+
+- **Mixer contract counters:** frozen summaries remained 40/18/21 while the actual definitions were 51/20/30. All 51 Windows comparisons passed against actual definitions. Preserve the old freeze; separate strict preflight now rejects inconsistency, with 22 synthetic tests passed.
+- **Pinned evidence attribution:** an older regression log compiled a shared tree, not the final pinned candidate. That attribution was corrected; the later actual pinned 51-case run passed.
+- **Result-copy expectation:** the first new-profile assertion expected eight bytes instead of the cumulative 16 from two actual copies. Retain the failed test expectation and the corrected pinned-fixture evidence.
+- **Allocation failure coverage:** early bounds of 64/512 were insufficient, and a later whole-call rollback assertion incorrectly rejected legitimate committed response publication followed by IRQ diagnostic failure. Targeted same-operation, debt, no-duplicate and retry checks then passed; no runtime rollback was added and exhaustive coverage is not claimed.
+- **Lifecycle guard:** a stale-reader/raw-mode bypass was found and guarded before the candidate pin. Earlier feature profiles remained unchanged.
+- **Acceptance boundary:** the mode-00 candidate remains unsealed and not Windows-tested; the original aggregate attempt is inconclusive and excluded. A fresh isolated rerun started, with no terminal full-project receipt yet. Static graphics planning is not executed GPU initialization.

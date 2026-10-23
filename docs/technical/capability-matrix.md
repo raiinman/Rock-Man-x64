@@ -23,8 +23,9 @@ This matrix describes bounded private implementation work, not downloadable feat
 | CD ownership and status | Sealed immutable reader, genuine status operation and retained response/notification ownership | Native service state is not physical drive state |
 | IRQ chain | Frozen stage completes first status command through actual source-handler return | That historical stage stops at reset `0A`; the newer configuration stage is separately Windows-verified |
 | CD reset and unmute | Frozen actual reader/configuration transactions; 40 Windows cases and four source IRQ returns | Configuration stage stops at the sound-read boundary; high-level initializer has not returned there |
-| Native CPU software mixer | Connected same-owner processing and genuine high-level CdInit return; Linux-tested | Freeze/Windows acceptance pending; stops at next CdSync boundary; no decoder, output endpoint, playback or physical SPU equivalence |
-| Packaging | Configuration package frozen; audio staging and fresh-directory guards under validation | Audio freeze sealing pending; no public package or source release |
+| Native CPU software mixer | Sealed same-owner CPU processing and genuine high-level CdInit return; 51 actual Windows cases passed | Stops at next CdSync boundary; no decoder, output endpoint, playback or physical SPU equivalence |
+| Mode-00 candidate | Same-image Form1 reader, actual FIFO/response/IRQ/callback path; pinned Linux profiles and targeted sanitizer checks passed | Unsealed, no Windows test or verified terminal full-project aggregate; no invented matching event or hardware timing claim |
+| Packaging | Configuration and mixer stages sealed; stricter derived-count/reference/JSON preflight passed 22 synthetic tests | Mixer summary-counter defect retained in unchanged historical freeze; mode candidate not sealed; no public package or source release |
 | Gameplay | Target only | No demonstrated player control, collision, AI, combat, save compatibility or complete scene lifecycle |
 
 ## Why the subdivisions matter

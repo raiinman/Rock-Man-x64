@@ -31,7 +31,7 @@ A passing check supports only the claim it actually tested. This page defines th
 9. Review the complete result, freeze immutable artifacts and record the accepted boundary.
 10. Claim gameplay only after actual end-to-end game behavior is demonstrated.
 
-A later step cannot be inferred from an earlier one. The configuration stage now has a frozen 40-case Windows result. The newer connected software-mixer stage has Linux evidence and a separately verified reporting-only correction; its immutable freeze and actual Windows acceptance remain pending. The full pre-correction aggregate and affected post-correction checks form compositional evidence, not a claimed rerun of the full aggregate. See [current status](current-status.md) for the exact boundary and counts.
+A later step cannot be inferred from an earlier one. The configuration stage has a frozen 40-case Windows result; the later sealed software-mixer stage has 51 actual Windows comparisons. Its stale summary counters are a retained metadata defect, not a failed or truncated execution. The newer mode-00 candidate has pinned Linux regression/profile and targeted sanitizer evidence, but no verified terminal full-project aggregate, freeze or Windows receipt. Earlier shared-tree logs are not pinned-candidate receipts. See [current status](current-status.md) for exact counts and limits.
 
 ## Handling failures and inconclusive runs
 

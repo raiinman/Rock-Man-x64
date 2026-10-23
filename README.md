@@ -12,11 +12,11 @@ An independent effort toward a native Windows x64 implementation of Mega Man Leg
 - **[Current status](docs/status/current-status.md)** — completed validation versus the unfinished candidate, blockers, and next steps.
 - **[PS1 research library](research/README.md)** — a separate source catalog and investigation agenda, including [native Windows research guidance](research/NATIVE-WINDOWS-HANDOFF.md). A reference catalog is not evidence that a game feature works.
 
-## Current checkpoint — 2026-10-22
+## Current checkpoint — 2026-10-23 hourly update
 
-Development **resumed at 22:04 UTC**. The frozen CD configuration/reset/unmute stage has now passed **40 actual Windows cases** (27 expected exit 0, 13 intentional exit 1), including 21 complete JSON and 19 contract-scoped text comparisons. Its low-level initializer returns 0; it still stops before the sound-related read and does not return from high-level CD initialization.
+Development **resumed at 22:04 UTC on October 22**. The native CPU software-mixer stage is now sealed and has passed **51 actual Windows cases** (30 expected exit 0, 21 intentional refusals), including 30 complete JSON and 21 text comparisons. High-level `CdInit` genuinely returns 1; the stage stops at the next unsupported non-null-result `CdSync` boundary. It has no output-device ownership, decoder, playback, physical SPU equivalence or game-boot claim.
 
-A newer, separately Linux-tested **native CPU software mixer integration** genuinely returns from high-level `CdInit` with result 1 and stops at the next unsupported non-null-result `CdSync` boundary. It does not open or own an output device and has no decoder or playback and makes no physical SPU or game-boot claim. Its freeze sealing and final Linux contract are pending; it is **not Windows-validated**. Historical failures and the reporting-only correction remain in the [validation history](docs/history/validation-history.md).
+A newer **mode-00 candidate** connects a same-image Form1 reader through the actual parameter FIFO, response, IRQ and callback path. Pinned Linux regression/profile checks and targeted sanitizer failure-injection checks passed. It remains **unsealed and not Windows-tested**; the full project aggregate has no verified terminal receipt. Historical failures, the frozen mixer's stale summary-counter defect, and reporting corrections remain in the [validation history](docs/history/validation-history.md).
 
 The [status record](docs/status/current-status.md) carries the detailed boundaries. Cross-compilation is not Windows execution; synthetic and component tests are not game boot; decoded assets are not gameplay.
 

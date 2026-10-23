@@ -19,20 +19,17 @@ Development resumed on 2026-10-22 at 22:04 UTC after the documentation pause. Th
 
 ## Immediate acceptance closure
 
-The frozen configuration stage has passed all 40 Windows cases. The next open loop is the **newer native software-mixer freeze**, not another gameplay claim:
+The software-mixer stage is sealed and passed all 51 actual Windows cases. Its historical summary-counter defect is recorded separately; the unchanged frozen definitions, not stale summary fields, governed execution. The generic packager now rejects inconsistent totals and references before private-input handling, with 22 synthetic tests passed.
 
-1. Completed: connected Linux mixer checks and the pre-reporting 18-stage aggregate.
-2. Completed: isolated reporting-only correction, 21 exact older reports, nine new positive/refusal profiles, and affected tests/verifiers.
-3. Completed: guarded rebuild with 20 byte-identical target executables, 419 matching source files and a second Linux 51-case pass. Final unchanged contract execution with explicit before/after runner hashes remains in progress; freeze is not sealed. Retain the earlier excluded rebuild failure and require fresh output directories.
-4. Next: verify the sealed private package and execute the exact stage on Windows. Twenty staged target executables do not establish target execution.
+The newer mode-00 candidate is **unsealed and not Windows-tested**. Pinned regression coverage, ten new profiles and targeted ASan/UBSan fail-N checks passed. The original aggregate attempt remains inconclusive and excluded. A fresh isolated rerun started at 00:04 UTC, but no terminal full-project receipt exists yet. Review the final source identities, whole-project results and artifact consistency before any subsequent freeze or Windows acceptance. A builder under preparation is not a created release.
 
-## Next source boundary — planned, not implemented
+## Next source boundary
 
-The integrated mixer genuinely returns from `CdInit` with result 1, then stops at `800779cc` before the next unsupported non-null-result `CdSync` wrapper proceeds. It does not provide a decoder, output endpoint or playback.
+The candidate connects the actual result copies, parameter FIFO, same-image Form1 reader and response/IRQ/callback continuation. It examines the genuine same-owner event registry without inventing a matching event, preserves permission and reaches a true source return before the next unsupported startup boundary, `8001b44c`. This is not full startup. Preserve committed publication and outstanding IRQ debt across diagnostic allocation failure; do not impose unsupported whole-call rollback.
 
-The next plan covers the actual eight-byte result copy, parameter FIFO, real mode-00 Form1 reader and response callback/event continuation. Implementation is held until the audio freeze is sealed. Preserve real source microcommits and existing response/IRQ obligations; do not skip a live pointer, callback, synchronizer or unsupported branch to reach command `0E`.
+A graphics-startup continuation plan covers bounded ResetGraph diagnostics, RAM fill and a live initialized callback. This is static planning only, not implemented or executed and not proof of GPU initialization.
 
-The separately authored BIOS analysis supplies targeted test hypotheses, not independently reproduced runtime/hardware evidence or permission to copy firmware behavior into the game translator. Custom-hook return, ordinary callback return and final exception restoration remain distinct. A0 context/heap contracts, DB8 semantics and live game-event mapping remain unresolved.
+Separately reviewed BIOS analysis supplies test hypotheses, not runtime/hardware proof. Custom-hook return, ordinary callback return and final exception restoration remain distinct. DB8/DBA numeric/reset/timing/signedness questions remain unresolved; per-voice patent circuitry is not master readback evidence.
 
 ## Explicitly unresolved scopes
 
@@ -46,7 +43,7 @@ The separately authored BIOS analysis supplies targeted test hypotheses, not ind
 
 ## Release and publication boundary
 
-The configuration package is frozen and privately Windows-validated. The newer audio package remains in preparation and must not be described as sealed or accepted before final receipts. Documentation publication does not authorize publishing source, assets, previews, executable bytes, private package contents or private receipts.
+The configuration and newer software-mixer stages are frozen and privately Windows-validated. The mode-00 candidate remains unsealed and must not be described as accepted or Windows-tested before final receipts. Documentation publication does not authorize publishing source, assets, previews, executable bytes, private package contents or private receipts.
 
 Future public updates should record the exact accepted boundary, changes since the prior checkpoint, validation category and remaining unknowns. Public reference research should remain clearly distinguished from implementation and execution evidence. Do not call the process legally clean-room certified.
 

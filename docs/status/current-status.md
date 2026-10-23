@@ -1,48 +1,47 @@
 # Current project status
 
-**Checkpoint: 2026-10-22, hourly development update.** Development resumed at 22:04 UTC. The CD configuration stage is now frozen and Windows-verified; the newer software-mixer stage has connected Linux evidence but its freeze and Windows validation remain pending.
+**Checkpoint: 2026-10-23 hourly documentation update.** The software-mixer stage is sealed and Windows-verified. A newer mode-00 candidate has bounded Linux evidence but remains unsealed and not Windows-tested.
 
-Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository remains documentation-only. The private results below cannot be independently reproduced from this repository.
+Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only; these reported private results cannot be independently reproduced from it.
 
-## Last frozen and Windows-verified stage
+## Last sealed and Windows-verified stage: software mixer
 
-The CD configuration/reset/unmute stage passed **all 40 Windows cases**: 27 expected exit-0 results and 13 intentional exit-1 refusals. All 21 complete JSON comparisons matched exactly and all 19 text comparisons matched their contract. Stderr was empty, there were no timeouts, and before/after input, executable and package integrity checks were unchanged.
+All **51 actual Windows cases** passed: 30 expected exit-0 outcomes and 21 intentional exit-1 refusals. All 30 complete JSON and 21 contract-scoped text comparisons matched; stderr was empty, no timeout occurred, and checked input, executable and package identities remained unchanged. Windows execution is separate from the earlier Linux sanitizer evidence; Windows sanitizers are not claimed.
 
-The supported path performs native reset `0A` acceptance and completion followed by actual unmute `0C` configuration. Four IRQ returns precede the final `CdSync` result 2. Low-level helper `800791a8` genuinely returns 0. This frozen stage then stops at sound-read boundary `80079070`; **high-level CdInit has not returned in this stage**. Native configuration is not physical drive reset or audible output.
+The immutable stage contains 419 source files, 20 reproducibly cross-built Windows executables and 30 CLI profiles. Its Linux 51-case contract also passed. These are private validation artifacts, not a public release or download.
 
-## New connected native software-mixer stage
+High-level `CdInit` genuinely returns 1 with full knownness and the source stack restored, then stops before unsupported non-null-result `CdSync`. Its connected same-owner CPU mixer performs PCM processing under shared Session serialization. Current gain, staged coefficients and applied coefficients remain distinct. It does **not** own an output endpoint, decode game audio, provide playback, establish physical SPU equivalence or boot the game.
 
-The newer implementation binds sealed same-owner mixer state, actual CPU PCM processing and authoritative mute capture under shared Session serialization. Functional readiness is established lazily after actual unmute, not fabricated to bypass the source branch. Current software gain, staged coefficients and applied coefficients remain distinct.
+### Frozen metadata defect, not an execution failure
 
-Its high-level `CdInit` routine returns at `80077800` to `8001b3f4` with fully known result **1** and source stack pointer `801fffa0`. It then stops at **`800779cc`**, before the next unsupported non-null-result `CdSync` wrapper proceeds. This is not completion of later mode-setting or startup.
+Three inherited contract-summary fields incorrectly retained **40 cases / 18 executables / 21 CLI profiles**, rather than the actual **51 / 20 / 30**. The Windows runner checked and executed the actual definitions, so all 51 comparisons remain valid. The historical freeze and hashes were preserved unchanged; the stale summaries were not silently repaired.
 
-| Evidence | Recorded result | Boundary |
+A separate generic packager now checks derived totals, references and strict JSON before reading private inputs or creating a package. All **22 synthetic packaging tests** passed, including an independent rerun. The old inconsistent freeze is rejected by that new preflight; no override or resealing is implied.
+
+## New mode-00 candidate: not accepted, sealed or Windows-tested
+
+The candidate applies a genuine same-image **2048-byte Form1 reader**, through actual parameter FIFO writes, response consumption, IRQ return and callback continuation. The same-owner event registry was examined exhaustively for this path: **one registered event examined, zero matched**. No matching BIOS event was fabricated. The B0:07 return remains unknown and is overwritten before the source caller uses it; no numeric success is fabricated. Existing permission remains preserved. The actual source routine returns 1 with the restored source stack, then stops at **`8001b44c`**, the next unsupported startup boundary. This is native policy, not a hardware timing claim.
+
+| Evidence | Recorded result | Limit |
 |---|---|---|
-| Connected ASan/UBSan checks | 20,222 checks | Owned native integration, not physical SPU conformance |
-| Production PCM oracle | 20,000 frames | CPU processing, not device output |
-| Source boundaries | 136 checked | Bounded translated path, not full boot |
-| Pre-reporting aggregate | All 18 stages passed: 92 regression tests, 19 tool tests, ten components | 438 tracked source/input/test/tool identities unchanged during that aggregate |
-| Reporting-only correction | One CLI reporting source changed; 437 other files unchanged | No additional runtime capability |
-| Corrected CLI coverage | 21 old reports byte-exact; nine new positive/refusal profiles and affected tests/verifiers passed | Compositional verification, not a second full aggregate |
+| Actual pinned regression run | 51 earlier cases, 20 builds and 30 CLI profiles passed | Linux builds/execution, not Windows execution |
+| New mode profiles | Ten passed: one positive and nine refusals | Bounded connected path, not full startup |
+| Independent review | Three synthetic UBSan groups: 50, 32 and 36 checks; 53 original control-flow targets checked | Review and synthetic evidence, not original-machine execution |
+| Direct-pinned ASan/UBSan failure injection | Normal-path group: 23,323 checks; nonzero-path group: 10,940 checks | Targeted fail-N coverage, not exhaustive allocation coverage; leak detection unavailable |
+| Full project aggregate | No verified terminal receipt | The original aggregate attempt remains inconclusive and excluded; a fresh isolated rerun started, with no final-pass claim |
 
-The correction removes contradictory new-profile legacy summaries and derives both high-level-return fields from the genuine source receipt. Historical inconsistent reports are retained, not accepted as current truth. Some intermediate reporting branches were source-reviewed only; production reset-after-readiness coverage remains absent.
+Before pinning, review found and guarded a stale-reader/raw-mode lifecycle bypass. Earlier feature profiles remained unchanged. Independent review closed the partial-publication concern after the targeted checks; this does not replace outstanding full-project acceptance.
 
-The mixer **does not open or own an output device**; physical endpoint presence was not enumerated. There is no disc decoder, playback, physical SPU equivalence or game boot. The physical meaning of numeric sound address `1f801db8` remains unresolved; this adapter is an explicit native policy.
+Failed and inconclusive attempts remain part of the record. An earlier shared-tree regression log was briefly mistaken for pinned evidence; the actual pinned run subsequently passed. The first new-profile assertion expected eight copied bytes, but two real eight-byte copies correctly total 16; the failed expectation was retained. Initial allocation-failure bounds of 64 and 512 were insufficient. A later whole-call rollback assertion was also invalid: response publication can complete before IRQ diagnostic allocation fails. Narrow same-operation, retained-debt, no-duplicate and retry checks passed without adding runtime rollback.
 
-## Freeze and acceptance still pending
+## Research and next steps
 
-Audio freeze preparation was approved at 22:51 UTC. Staging contains 419 source files, 20 Windows target executables and 30 CLI profiles for a 51-case contract (30 success and 21 refusal cases). These are staging counts, not proof of an accepted freeze or Windows execution.
+The separate [BIOS research library](../../research/README.md) informs partial-commit and callback cautions; it is not runtime or hardware proof. Sony documentation distinguishes setting/current concepts, but DB8/DBA numeric meaning, reset values, timing and signedness remain unresolved. Per-voice patent circuitry does not establish master readback semantics. Historical pending-Windows research wording does not supersede the newer 51-case mixer receipt.
 
-An initial Linux 51-case contract passed. Runner hardening now requires fresh output directories; seven negative path/symlink checks passed. An earlier rebuild attempt encountered a changing runner script and exited 127; that failed attempt is retained and excluded from acceptance. The settled guarded rebuild passed: all 20 Windows target executables were byte-identical and all 419 source files matched the corrected snapshot. A second Linux 51-case pass completed; one final unchanged run capturing explicit before/after runner hashes remains pending. The audio freeze is not yet sealed. This is release-tooling validation, not a failed Windows game execution. No prior overwrite was evidenced; prior Windows checks used fresh task directories.
+A fresh isolated rerun began at 00:04 UTC with an observed first-suite heartbeat. The original aggregate attempt remains inconclusive and excluded; this does not establish that its descendant processes stopped.
 
-## Research and next source boundary
+Next: complete the fresh isolated candidate aggregate, review final identities and artifacts, then consider an immutable freeze and separately authorized Windows validation. A release builder is only being prepared. Graphics continuation is **static planning only**: bounded ResetGraph diagnostics, RAM fill and a live initialized callback may reach the next firmware-service boundary. It is not implemented or executed, and does not establish GPU initialization.
 
-The separate [BIOS research at the reviewed revision](https://github.com/raiinman/Rock-Man-x64/blob/e748ffd5fd30c355077b93329126746e7b756773/research/bios/NATIVE-HANDOFF.md) reports static Ghidra, Capstone and decoded-firmware analysis. It has not been independently reproduced here as BIOS runtime, hardware or game proof. Custom B0:19 hook versus B0:17 return distinctions support targeted tests; B0:07 event dispatch corroborates future callback mapping, not a live event match. DB8 hardware semantics, A0 setjmp/longjmp/heap behavior and a real mode-00 Form1 reader remain unresolved.
+No full startup return, normal first-scene lifecycle, player control, collision/gameplay, AI, combat, full rendering fidelity, save compatibility or audio playback has been demonstrated.
 
-The next source plan is **prepared, not implemented**: non-null eight-byte `CdSync` result copy, actual parameter FIFO, real mode-00 Form1 reader, and response callback/event continuation. Implementation remains held until the audio freeze is sealed. See [handoff](decisions-and-handoff.md).
-
-## What remains absent
-
-No demonstrated full startup return, normal first-scene lifecycle, player control, collision/gameplay, AI, combat, full rendering fidelity, save-game compatibility or audio playback. Asset previews and diagnostic scene functions are not substitutes for those milestones.
-
-Continue with the [capability inventory](../technical/capability-matrix.md), [validation ladder](validation.md) or [next-step handoff](decisions-and-handoff.md).
+See [validation](validation.md), [handoff](decisions-and-handoff.md), [history](../history/validation-history.md) and [capabilities](../technical/capability-matrix.md).
