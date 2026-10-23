@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 06:09 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 07:07 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -72,7 +72,21 @@ Independent static review found a conditional original-loader path that requests
 
 A further independently reviewed static calculation keeps the firmware-return distinction explicit: conditional B0:57 return `U=0x874` localizes the next word load to `0x9e0`; it does **not** establish that the loaded base `R` equals `0x874`. Three independently loaded bases remain unknown. Store counts, interleaved copy order and conditional modular overlap predicates were checked under explicit alias and nontrapping-arithmetic assumptions. Only the enumerated fixed cache stores exclude selected-site overlap; no general dispatch non-overlap, executed loader mutation or inherited GPU state is established. The native GPU origin remains an observation-only model with unknown status, not a reset or idle snapshot.
 
-Next: preserve both Windows execution contexts and their distinct outcomes; keep visual/standalone/actual-capture acceptance separate and A0:49 gated on adequate dispatch, state and effect evidence. Portable export/import is not visible GUI, full IDE, live debugger, GPU initialization, game boot or playback.
+## Native loader-prefix compatibility, not firmware execution
+
+A separately reviewed native loader prefix passed one authorized Linux original-input compatibility run: one build, one load and one native advance stopped at pending **A0:39**. It performed 4,032 modeled zero-word stores followed by an unknown saved-return-address overwrite, leaving 4,031 final known-zero words. All register masks and outside-range RAM were checked. The **20,195 modeled source-instruction count** is not a host-step, command-batch or capture count. Zero services and GPU operations completed; cleanup and pre/post integrity passed. Original instructions were not executed, and no firmware completion, inherited GPU state, A0:49 closure or game boot is established.
+
+The first loader execution envelope received **NO GO**: an injected cleanup exception could propagate before owned-child/group cleanup was proven. That failed version remains preserved. A separate v2 keeps ownership through cleanup faults and cannot turn recovered cleanup into success; eight ordinary lifecycle controls plus three cleanup-fault regressions passed before the one authorized compatibility run.
+
+The loader heap proposal is accepted as **native-policy design only**. Any future completion must have a distinct native-policy outcome and persistent allocator ownership; preserving native bytes or registers cannot erase unresolved BIOS effects or establish hardware equivalence. A new implementation candidate is not yet independently accepted. The accepted loader prefix still stops at A0:39.
+
+## Standalone-viewer lifecycle and remaining access gates
+
+A separate standalone-viewer candidate received source acceptance with **four additions and 457 baseline files unchanged**. Its Windows synthetic host-function lifecycle then passed **23 checks**, with an exact **25-record / 1,053-byte** oracle match, supervisor/harness/validator exits 0 and empty scoped cleanup, in the normal permitted context without security changes. This is an identified authorized executor report; raw PC receipts were not independently downloaded. It does **not** verify the real standalone launcher, pixels, actual-capture display, full IDE operation or game boot.
+
+Visual acceptance remains blocked by missing required tooling and a version-registration mismatch; no nondisruptive repair was verified, and no application restart or security change was made. A transfer-route audit qualified earlier authorized handling as a compatibility route rather than the documented standard helper route; reuse is held pending review. This qualification does not invalidate the separately scoped lifecycle result or authorize another transfer.
+
+Next: preserve the earlier 36-pass/check-37-failure/74-unrun viewer result and later 111-check pass alongside this separate 23-check lifecycle result. Keep visual/real-launcher/actual-capture acceptance separate; do not extend loader or A0:49 progress through invented service or device state.
 
 Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
 

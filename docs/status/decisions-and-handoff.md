@@ -47,6 +47,14 @@ Reviewed earlier-loader evidence is static and conditional: an A0:49 request pre
 
 A further independently reviewed static calculation keeps the firmware-return distinction explicit: conditional B0:57 return `U=0x874` localizes the next word load to `0x9e0`; it does **not** establish that the loaded base `R` equals `0x874`. Three independently loaded bases remain unknown. Store counts, interleaved copy order and conditional modular overlap predicates were checked under explicit alias and nontrapping-arithmetic assumptions. Only the enumerated fixed cache stores exclude selected-site overlap; no general dispatch non-overlap, executed loader mutation or inherited GPU state is established. The native GPU origin remains an observation-only model with unknown status, not a reset or idle snapshot.
 
+## New bounded acceptance and pending policy — October 23, 07:07 update
+
+The loader heap proposal is accepted as **native-policy design only**. Any future completion must have a distinct native-policy outcome and persistent allocator ownership; preserving native bytes or registers cannot erase unresolved BIOS effects or establish hardware equivalence. A new implementation candidate is not yet independently accepted. The accepted loader prefix still stops at A0:39.
+
+Visual acceptance remains blocked by missing required tooling and a version-registration mismatch; no nondisruptive repair was verified, and no application restart or security change was made. A transfer-route audit qualified earlier authorized handling as a compatibility route rather than the documented standard helper route; reuse is held pending review. This qualification does not invalidate the separately scoped lifecycle result or authorize another transfer.
+
+The accepted native loader compatibility run stops pending A0:39; the separately accepted 23-check Windows host-function lifecycle does not establish real-launcher or actual-capture display. Preserve the earlier viewer failures and later approved-context pass as distinct evidence. No automatic rerun, transfer reuse, security change or continuation through unsupported services follows.
+
 ## Explicitly unresolved scopes
 
 - Connected reset reissue and already-unmuted command admission are not dynamically established merely because guards exist.
