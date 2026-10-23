@@ -77,3 +77,10 @@ This record preserves unsuccessful attempts and unresolved questions alongside s
 - **Combined closure:** connected-19 and allocation-29 passed separately, completing four-phase bounded Linux acceptance rather than borrowing predecessor results.
 - **Actual capture:** four Linux cases passed after the earlier availability correction. Production checkpoints, synthetic fields/lifetimes and observed owner fingerprints remain explicitly scoped; no exhaustive private-state or live-debugger claim.
 - **Exporter/viewer v1:** deterministic synthetic review exposed unrelated replacement deletion, substituted temporary content publication and Windows reparse traversal gaps before actual exporter/Windows viewer execution. Preserve v1 failures; v2 corrections resolved all three findings within independently accepted source/synthetic scope, not actual end-to-end acceptance.
+
+## Portable publication and Windows validator correction — October 23, 05:05 update
+
+- **Portable export/import:** one exact actual Linux artifact/model path passed. Existing-output constructor refusals establish bounded no-clobber behavior, not repeated startup or exhaustive concurrent-race coverage.
+- **Windows preparation:** retain the path-metadata blocker and companion-fixture correction without exposing private environment details.
+- **BOM false positive:** culture-sensitive prefix comparison rejected a valid positive offline trace; no native executable ran. A character/ordinal correction passed four-culture shape checks and 33 offline controls. The later native run failed bounded file load after 36 checks passed, leaving 74 unrun. The cause is unknown; retain the failure and diagnose the exact reader without blind retry.
+- **Loader history:** conditional static calls, unresolved firmware-return-relative writes and unchecked synchronization failure prevent inferring inherited hardware state from the independent native startup model.

@@ -2,6 +2,8 @@
 
 Development resumed on 2026-10-22 at 22:04 UTC after the documentation pause. This page records the selected direction and the evidence needed before further milestones; it does not authorize implementation, device access, packaging or release.
 
+Controlled BIOS/emulator diagnostics are permitted as separately labeled research—not hardware or native-boot proof; the finished game must remain native Windows without a BIOS/emulator runtime dependency or reused port/mod/emulator implementation, and original bytes, captures and private packages remain excluded from publication.
+
 ## Decisions in force
 
 | Decision | Rationale and consequence |
@@ -35,7 +37,11 @@ All four combined Linux phases are accepted: 16 aggregate/source-test stages, 69
 
 Bounded actual owned startup capture is accepted for four Linux cases, 60 successful captures and 253 injected allocation failures. Production checkpoints and synthetic field/lifetime coverage remain distinct; owner fingerprints plus source review are not complete private-state introspection.
 
-Before actual exporter/Windows viewer execution, v1 review found destructive directory replacement, foreign temporary-file publication and reparse traversal gaps. Preserve the findings; v2 corrections now have source/synthetic acceptance after independent review, with all three findings resolved in reviewed source. Actual-export envelope preparation is pending; actual execution and captured-artifact/viewer integration still need separate review and authorization.
+The retained v1 exporter/viewer races were corrected in v2. One exact portable Linux export/import is now accepted: 2,175 command batches, one 2,846-byte private artifact and bounded 6,108-byte model rendering, with three existing-output constructor refusals preserving the artifact. This is not GUI or exhaustive race coverage.
+
+Windows frozen-viewer acceptance failed at check 37: 36 checks passed and 74 remained unrun. Preserve the preparation blocker, companion-fixture repair and culture-sensitive BOM false-positive failure; zero native executables ran during the failed offline control. Corrected v2 trace validation passed 24 checks across four cultures and 33 offline controls. The actual native run created the independent window/initial empty state, then bounded file loading returned false. Harness exit 1, supervisor exit 0 and empty-job cleanup distinguish a test failure from supervision failure. Cause remains unknown; diagnose the exact reader without blind retry.
+
+Reviewed earlier-loader evidence is static and conditional: an A0:49 request precedes later reset work, firmware-return-relative write destinations are unresolved, and synchronization failure is not checked by the handoff caller. Do not substitute the native cold-start trace for original inherited device/firmware history or infer actual dispatch/hardware state.
 
 ## Explicitly unresolved scopes
 

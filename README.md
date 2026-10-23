@@ -18,7 +18,7 @@ The native **mode-00 stage passed all 69 actual Windows cases**: 39 expected suc
 
 The IDE's **Source bytes/Back feature passed 50 actual Windows synthetic command/state checks**; visual QA remains blocked before launch. All four combined Linux phases are now accepted: **16 aggregate/source-test stages, 69 regression cases, 19 connected cases and 29 targeted allocation checkpoints**. Bounded owned startup capture also passed **four cases, 60 captures and 253 allocation-failure injections**—not full private-state introspection or a live debugger.
 
-A new exporter/frozen-viewer candidate has source/synthetic acceptance only after synthetic filesystem-race findings; v2 corrections received source/synthetic acceptance, not actual exporter or Windows viewer acceptance. Graphics still stops at **A0:49**. No GPU initialization, game boot or playback is claimed. See [validation history](docs/history/validation-history.md).
+A bounded **actual Linux export/import** now passed: one private captured artifact was imported into the portable display model. The Windows frozen-viewer run passed 36 checks then failed its bounded-file-load check; 74 checks remain unrun. Corrected offline validator checks are not native viewer acceptance. A new reviewed loader finding is static evidence only and does not resolve inherited GPU/firmware state. Graphics still stops at **A0:49**, with no GPU initialization, game boot or playback claim. See [validation history](docs/history/validation-history.md).
 
 The [status record](docs/status/current-status.md) carries the detailed boundaries. Cross-compilation is not Windows execution; synthetic and component tests are not game boot; decoded assets are not gameplay.
 

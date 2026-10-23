@@ -93,6 +93,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - The user authorized PS1 hardware and official Sony development research, parallel research agents, necessary tool installation, and saving findings to this repository on 2026-10-22.
 - Research authorization does not establish facts about the other computer's game implementation. Record game-specific behavior only when supported by identified game evidence.
 - Respect the user's independent implementation constraint: do not import other game ports, decompilation projects, or emulator implementation code as implementation help.
+- Controlled BIOS/emulator diagnostics are permitted as separately labeled research—not hardware or native-boot proof; the finished game must remain native Windows without a BIOS/emulator runtime dependency or reused port/mod/emulator implementation, and original bytes, captures and private packages remain excluded from publication.
 - Keep private notes, credentials, unrelated projects, original game data, and private validation packages out of this public repository.
 - The current deliverables are documentation and metadata. There is no game runtime or game build command here.
 

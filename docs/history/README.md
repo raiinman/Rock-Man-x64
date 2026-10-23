@@ -33,3 +33,5 @@ Development resumed at 22:04 UTC. The configuration stage subsequently passed 40
 The later 03:05 update records 50 Windows IDE command checks, visual QA blocked before launch, and combined 16-stage/69-case Linux validation with separate connected/allocation gates still pending. Snapshot DTO review is not capture acceptance.
 
 The 04:05 update closes all four combined Linux phases and records separately accepted bounded actual capture. Exporter/frozen-viewer v1 race findings remain visible while v2 corrections have source/synthetic acceptance; no actual exporter or Windows viewer acceptance is implied.
+
+The 05:05 update adds bounded actual portable export/import, retained Windows-validator preparation failures and a corrected offline validator. The native frozen-viewer run failed bounded file load after 36 passes, with 74 unrun; new original-loader findings are static evidence, not execution or hardware proof.

@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 04:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 05:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -52,13 +52,19 @@ After correction and review of the earlier availability invariant, actual same-o
 
 Observed owner-state fingerprints plus source review support the bounded non-mutation claim—not byte-complete introspection of every private field or every state. Successful captures are not runtime steps or exhaustive state-space coverage. Absence of captured A0:49 data does not mean every service is absent. No Windows capture, live debugger or complete viewer integration is accepted.
 
-## Exporter and frozen-viewer candidate: source/synthetic acceptance
+## Actual portable export/import accepted; Windows viewer load failed
 
-Before any actual exporter or Windows viewer run, independent v1 review reproduced a directory-replacement race that could remove an unrelated replacement, a temporary-file substitution race that could publish foreign content, and a Windows reader reparse-traversal gap. These synthetic findings are retained; there is no claim that original data was lost in an actual run.
+After the retained v1 race findings and reviewed v2 fixes, **one exact Linux producer-to-artifact-to-portable-model export/import run is accepted**. It advanced **2,175 command batches**, stopped at the existing runtime refusal, produced one **2,846-byte private artifact** and imported/rendered **6,108 bytes of model text**. These are not instruction counts, a GUI screenshot or a boot result.
 
-Independent review and root acceptance of v2 resolved all three v1 findings within the source/synthetic scope. Evidence remains **source/synthetic/cross-build only**; actual exporter execution, captured-artifact delivery and Windows viewer behavior are not accepted. Earlier build-warning, test-invocation and setup failures remain part of the record. Passing portable pieces does not establish the end-to-end frozen viewer.
+Independent review verified artifact fidelity, bounded parsing, round-trip equality, frozen/untrusted/producer-reported labels, unchanged pins and scoped cleanup. **Three existing-output constructor refusals** preserved the artifact and checked metadata; these were not three more startup runs or exhaustive filesystem-race coverage. Private artifact contents are not published. A0:49 remains unfulfilled.
 
-Next: prepare and review a separately authorized actual-export envelope, keep snapshot evidence boundaries explicit, and retain the pending A0:49 service. No GPU initialization, full boot, gameplay or playback is claimed.
+The new Windows frozen-viewer run **failed at check 37 after 36 exact-prefix checks passed; 74 checks remain unrun**. Preparation encountered a path-metadata blocker and a missing companion fixture, both corrected without claiming native execution. The first positive offline control then failed because culture-sensitive prefix checking misclassified a valid trace as BOM-prefixed; **zero native executables ran in that failed attempt**. A v2 character/ordinal correction passed **24 trace-shape checks across four cultures and 33 offline controls** (one positive, 32 expected refusals). These fabricated-evidence tests validate the validator, not the viewer. The subsequent single native 111-check invocation created an independent window and verified its initial empty state, but bounded artifact loading returned false at check 37. The harness exited 1 while the supervisor exited 0; cleanup was certain with an empty owned job and no timeout. All 23 kit files and seven fixtures remained unchanged. The cause is unknown: no security-denial or pixel-correctness claim is made. Evidence is the identified execution report; raw local receipts were not independently downloaded.
+
+## Earlier-loader static finding
+
+Independent static review found a conditional original-loader path that requests A0:49 before later GPU reset work, firmware-return-relative writes with unresolved runtime destinations, and a prehandoff synchronization result that the caller does not check. This is not actual execution, physical hardware state, effective firmware dispatch or exhaustive producer coverage. It explains why the independent native cold-start trace alone cannot establish the original loader's inherited GPU/firmware history. No instruction dump or original content is reproduced.
+
+Next: diagnose the failed bounded reader against the exact source and retained evidence without blind retry, retain the failed validation attempts, and keep A0:49 gated on adequate dispatch, state and effect evidence. Portable export/import is not visible GUI, full IDE, live debugger, GPU initialization, game boot or playback.
 
 Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
 

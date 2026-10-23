@@ -177,3 +177,11 @@ Source bytes/Back passed 50 actual Windows synthetic command/state checks; stand
 All four combined Linux phases are accepted: the 16-stage aggregate/source-test set, 69 regression cases, 19 connected cases and 29 targeted allocation checkpoints. Actual owned capture separately passed four Linux/UBSan cases, totaling 60 captures and 253 injected allocation failures. Production checkpoints are distinct from synthetic field/lifetime coverage; this is not exhaustive private-state introspection, Windows capture or a live debugger.
 
 Exporter/frozen-viewer v1 review found directory-replacement deletion, foreign temporary-file publication and Windows reparse traversal gaps before any actual exporter or Windows viewer run. Findings and earlier build/integration failures are retained. V2 corrections received source/synthetic acceptance after independent review; no end-to-end exporter/viewer acceptance is claimed. A0:49 remains pending.
+
+## 25. Portable export/import and Windows validation repair — October 23, 05:05 update
+
+One actual Linux exporter invocation advanced 2,175 command batches to the existing refusal, produced a private 2,846-byte artifact and passed portable import/model rendering of 6,108 bytes. Three existing-output constructor refusals preserved that artifact; they were not additional startup runs. Independent review accepted this bounded result, not GUI or full IDE completion.
+
+Windows viewer preparation required a metadata unblock and companion-fixture correction. A culture-sensitive BOM check then falsely rejected the positive offline control before any native executable ran. The corrected v2 validator passed 24 checks across four cultures and 33 offline controls. The subsequent actual 111-check native run passed 36 checks, then failed bounded file load at check 37; 74 checks remained unrun. Cleanup completed without timeout, but no full native acceptance or pixels are established.
+
+An independently reviewed original-loader finding is static only: conditional earlier A0:49, unresolved firmware-return-relative writes and unchecked synchronization failure prevent treating the native cold-start trace as proof of inherited GPU/firmware history. A0:49 remains pending.
