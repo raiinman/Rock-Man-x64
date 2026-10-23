@@ -22,7 +22,7 @@
 <text x="48" y="50" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ffbdc5">ROCK MAN x64  /  LIVE CHECKLIST TRACKER</text>
 <text x="48" y="103" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#fff2dd">Project progress, in numbers</text>
 <text x="48" y="139" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#c9c1bf">Accepted roadmap milestones + named delivery checklists.</text>
-<text x="48" y="175" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#ffc36d">Reviewed 2026-10-23  /  FIRST NUMERIC BASELINE — no earlier delta recorded</text>
+<text x="48" y="175" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#ffc36d">Reviewed 2026-10-23  /  CHANGES COMPARED WITH THE PREVIOUS RECORDED REVIEW</text>
 <rect x="25" y="207" width="1390" height="208" rx="10" fill="#080a0f"/>
 <rect x="28" y="210" width="1384" height="202" rx="8" fill="#291c28"/>
 <rect x="32" y="211" width="1376" height="3" rx="0" fill="#f16a84"/>
@@ -39,7 +39,7 @@
 <rect x="52" y="340" width="325.5" height="4" rx="0" fill="#8e1d3b"/>
 <text x="48" y="376" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#fff2dd">5 bounded foundations accepted; 15 production goals remain.</text>
 <text x="48" y="400" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">Unequal-size milestones — NOT 25% of game/code/effort finished. Effort-weighted progress is unknown.</text>
-<text x="1145" y="376" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="1145" y="376" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ +0 goals</text>
 <text x="48.0" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">0%</text>
 <text x="310.5" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">25%</text>
 <text x="573.0" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">50%</text>
@@ -70,7 +70,7 @@
 <text x="1145" y="487" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fff2dd">4 / 7</text>
 <text x="1145" y="524" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">57.1%</text>
 <text x="1145" y="549" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">3 remaining</text>
-<text x="1145" y="576" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="1145" y="576" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ +0 goals</text>
 <text x="48" y="579" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  Real launcher, pixels and actual-capture display remain unverified.</text>
 <text x="48" y="604" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Obtain permitted real-launcher and actual-capture GUI evidence.</text>
 <rect x="25" y="622" width="1390" height="168" rx="9" fill="#090b10"/>
@@ -98,7 +98,7 @@
 <text x="1145" y="657" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fff2dd">2 / 4</text>
 <text x="1145" y="694" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">50%</text>
 <text x="1145" y="719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">2 remaining</text>
-<text x="1145" y="746" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="1145" y="746" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ +0 goals</text>
 <text x="48" y="749" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  No Windows execution or real endpoint/capture/UI integration.</text>
 <text x="48" y="774" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Review the production endpoint and lifecycle contract before connection.</text>
 <rect x="25" y="792" width="1390" height="168" rx="9" fill="#090b10"/>
@@ -126,7 +126,7 @@
 <text x="1145" y="827" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fff2dd">3 / 4</text>
 <text x="1145" y="864" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">75%</text>
 <text x="1145" y="889" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">1 remaining</text>
-<text x="1145" y="916" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="1145" y="916" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ +0 goals</text>
 <text x="48" y="919" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  Initializer execution preparation remains blocked pending review.</text>
 <text x="48" y="944" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Resolve the existing review gate; do not retry blocked preparation.</text>
 <rect x="25" y="962" width="1390" height="168" rx="9" fill="#090b10"/>
@@ -147,7 +147,7 @@
 <text x="1145" y="997" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#ffc36d">0 / 4</text>
 <text x="1145" y="1034" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#ffc36d">0%</text>
 <text x="1145" y="1059" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">4 remaining</text>
-<text x="1145" y="1086" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="1145" y="1086" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ +0 goals</text>
 <text x="48" y="1089" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  All four necessary gates remain open; S2 controls stay disabled.</text>
 <text x="48" y="1114" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Establish a bounded loading contract, then owner retirement and integration.</text>
 <rect x="25" y="1132" width="1390" height="168" rx="9" fill="#090b10"/>
@@ -168,7 +168,7 @@
 <text x="1145" y="1167" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#ffc36d">0 / 1</text>
 <text x="1145" y="1204" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#ffc36d">0%</text>
 <text x="1145" y="1229" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">1 remaining</text>
-<text x="1145" y="1256" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="1145" y="1256" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ +0 goals</text>
 <text x="48" y="1259" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  A0:49 remains unresolved; full native startup is unestablished.</text>
 <text x="48" y="1284" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Resolve service effects and their permitted implementation basis.</text>
 <text x="48" y="1368" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ff8095">VALIDATION RUNS</text>

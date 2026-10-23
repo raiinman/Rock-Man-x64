@@ -1,8 +1,14 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 19:05 UTC documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, isolated importer candidate update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
+
+## Isolated importer result-boundary candidate — October 23
+
+An independently reviewed **isolated host-side candidate** corrects two demonstrated allocation-failure paths that could escape the importer worker entry and terminate the application. Preparation happens before launch; diagnostic allocation failure retains a meaningful failure result, and result handoff has explicit ownership. This is **not an installed fix in the accepted frozen viewer**; production sources and parsing/cancellation contracts were not replaced.
+
+Reported evidence comprises two controlled synthetic termination reproductions, fifteen scenarios in three Linux modes, two partly overlapping reviewer thread cases, and Windows-target object compilation only. There was **no application link, Windows execution or real import**. Failed completion-message delivery and allocating UI error display remain open; see [the validation record](../history/validation-history.md#importer-result-boundary-evidence--october-23). No roadmap criterion advances. S2, native-owner retirement, provenance and the blocked initializer remain unchanged.
 
 ## Accepted native Windows mode-00 stage
 

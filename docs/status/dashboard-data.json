@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
   "as_of": "2026-10-23",
-  "base_commit": "e32df907d72f65e0067a0b56ad56c1f65bb74de7",
-  "scope": "Documentation-only evidence snapshot, not a game-completion percentage. Includes separately labeled source-only load/host-I/O reviews.",
+  "base_commit": "632a8f676f8099920a2e734fcd769882da717732",
+  "scope": "Documentation-only evidence tracker, not game completion. Includes a separately accepted isolated host-side importer correction; no production integration credit.",
   "stages": [
     "Source review",
     "Synthetic/component",
@@ -407,17 +407,43 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-23",
-    "review_id": "2026-10-23-numeric-baseline-01",
-    "reviewed_through_commit": "bc4417b4b9a3cb75c0bb481250600af4af2a0ff9",
-    "summary": "First versioned numeric checklist baseline, reconciled to existing published evidence. No new native test or game milestone is claimed."
+    "review_id": "2026-10-23-importer-boundary-02",
+    "reviewed_through_commit": "632a8f676f8099920a2e734fcd769882da717732",
+    "summary": "Accepted isolated importer boundary correction and hermetic documentation fixtures. Linux synthetic importer evidence/object compilation only; frozen viewer and all milestone counts unchanged."
   },
   "overview": {
-    "now": "Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.",
-    "changed": "The data-only observer can recover delayed notices and label old snapshots honestly. New load reviews narrowed the shutdown problem; they did not solve it.",
-    "why": "We can inspect a stopped runtime without pretending it advanced. Safe cancellation and ownership still have to be proved before live controls can be connected.",
-    "next": "Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped."
+    "now": "A separate importer result-boundary fix is accepted in Linux synthetic tests, but is not installed in the frozen viewer. Native boot and the complete IDE remain unestablished.",
+    "changed": "Two demonstrated allocation-failure termination paths now retain a meaningful failure result and explicit result ownership in the isolated candidate.",
+    "why": "A worker should report failure without terminating the application or falsely reporting import success. This correction does not establish real import or Windows execution.",
+    "next": "Review production adoption separately; failed completion-message delivery and UI low-memory handling remain open. Preserve Windows validation, S2, provenance and initializer gates."
   },
   "updates": [
+    {
+      "id": "tracker-hermetic-fixtures-01",
+      "date": "2026-10-23",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Removed live acceptance-count/history assumptions from tracker mutation tests; they now use explicit synthetic definitions and receipts.",
+      "why": "A legitimate later acceptance must not break tests or turn a negative control into a no-op. Current real data is separately validated read-only.",
+      "next": "Keep both current-data drift validation and future-count regressions when maintaining tracker tests; no runtime milestone changes.",
+      "evidence": [
+        "docs/history/validation-history.md#tracker-fixture-maintenance--october-23",
+        "docs/status/tools/AGENTS.md"
+      ]
+    },
+    {
+      "id": "importer-result-boundary-01",
+      "date": "2026-10-23",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Accepted an isolated original host-side importer result-boundary correction after two controlled synthetic termination reproductions. It is not an installed frozen-viewer fix.",
+      "why": "Preparation and diagnostic allocation failures now retain a meaningful failure result with explicit result ownership; this avoids false import success within the tested boundary.",
+      "next": "Review production adoption separately. Failed completion-message delivery, UI low-memory handling and authorized Windows validation remain open; no roadmap criterion advances.",
+      "evidence": [
+        "docs/status/current-status.md#isolated-importer-result-boundary-candidate--october-23",
+        "docs/history/validation-history.md#importer-result-boundary-evidence--october-23"
+      ]
+    },
     {
       "id": "numeric-checklist-baseline-01",
       "date": "2026-10-23",
@@ -919,6 +945,68 @@
       "date": "2026-10-23",
       "basis_commit": "bc4417b4b9a3cb75c0bb481250600af4af2a0ff9",
       "note": "First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-23-importer-boundary-02",
+      "date": "2026-10-23",
+      "basis_commit": "632a8f676f8099920a2e734fcd769882da717732",
+      "note": "Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta.",
       "checklists": [
         {
           "id": "inspection",

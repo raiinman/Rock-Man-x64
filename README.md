@@ -12,17 +12,17 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.
+**Where we are:** A separate importer result-boundary fix is accepted in Linux synthetic tests, but is not installed in the frozen viewer. Native boot and the complete IDE remain unestablished.
 
-**Next useful step:** Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped.
+**Next useful step:** Review production adoption separately; failed completion-message delivery and UI low-memory handling remain open. Preserve Windows validation, S2, provenance and initializer gates.
 
-**Change since previous numeric review:** First recorded baseline. No earlier numeric observation exists, so no progress delta is invented.
+**Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-numeric-baseline-01` · [reviewed basis bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9).
-**Latest repository change observed:** [f90d157](https://github.com/raiinman/Rock-Man-x64/commit/f90d1576f1600b93c92f7d4a49676478263074ed) · 2026-10-23T13:47:11-07:00 — docs: add glossy crimson numeric roadmap and versioned progress checklists.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-importer-boundary-02` · [reviewed basis 632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732).
+**Latest repository change observed:** [632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732) · 2026-10-23T20:47:32Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

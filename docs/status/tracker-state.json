@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "f90d1576f1600b93c92f7d4a49676478263074ed",
-    "committed_at": "2026-10-23T13:47:11-07:00",
-    "subject": "docs: add glossy crimson numeric roadmap and versioned progress checklists",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "632a8f676f8099920a2e734fcd769882da717732",
+    "committed_at": "2026-10-23T20:47:32Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact public GitHub commit metadata observed through the connector; no workflow execution inferred",
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "0538475f30d22c09721ff40c21b7828883ce0e0c8c5f52904c153c997427981e",
+  "evidence_data_sha256": "5aeedef5beabe01b7c03ad7d9ef6959ea5cf31eed961cc165c611b28590d4f85",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "38b74722a9b03101107f993ca8ab4a0dfca5a4a9b47e98e8a1c6f3fd4dc45ef8",
-  "evidence_review_id": "2026-10-23-numeric-baseline-01",
+  "reviewed_stage_sha256": "0ad0364932c79182fb1d19f26d0a4068624ed90edcfa849df15b1ea00564c4ca",
+  "evidence_review_id": "2026-10-23-importer-boundary-02",
   "evidence_review_date": "2026-10-23",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -47,6 +47,7 @@
     }
   },
   "recorded_observation_hashes": [
-    "3a9189dd0f3cdc53c9565337bc8701731ac0d2a5b650713be0b7a4b5f5247fab"
+    "3a9189dd0f3cdc53c9565337bc8701731ac0d2a5b650713be0b7a4b5f5247fab",
+    "184eff307e41daccf32fe69597b4115933ba965530050769a0aeba109aec971f"
   ]
 }

@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-numeric-baseline-01` · [reviewed basis bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9).
-**Latest repository change observed:** [f90d157](https://github.com/raiinman/Rock-Man-x64/commit/f90d1576f1600b93c92f7d4a49676478263074ed) · 2026-10-23T13:47:11-07:00 — docs: add glossy crimson numeric roadmap and versioned progress checklists.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-importer-boundary-02` · [reviewed basis 632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732).
+**Latest repository change observed:** [632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732) · 2026-10-23T20:47:32Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -12,11 +12,11 @@ Generated from reviewed evidence data. This is documentation, not a playable gam
 
 The overall roadmap is a separately defined whole-project milestone plan. Its percentage counts unequal-sized accepted milestones, not game/code/effort completion; effort-weighted completion is unknown. The five local checklists overlap it and are never added or averaged into the overall score. Test pass rates are separate.
 
-**Latest numeric change:** First recorded baseline. No earlier numeric observation exists, so no progress delta is invented.
+**Latest numeric change:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 ### roadmap — Accepted roadmap milestones
 
-**5 / 20 accepted · 25.0% · 15 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+**5 / 20 accepted · 25.0% · 15 remaining · Δ +0 goals.** Definition v1, frozen 2026-10-23.
 
 A named whole-project delivery roadmap for the native game and integrated IDE, including bounded foundations and unaccepted product domains. This is an unweighted count of milestones, not effort/code completeness, an ETA or an average of local checklists. Weighted-effort completion is unknown.
 
@@ -49,7 +49,7 @@ A named whole-project delivery roadmap for the native game and integrated IDE, i
 
 ### inspection — Frozen inspection delivery
 
-**4 / 7 accepted · 57.1% · 3 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+**4 / 7 accepted · 57.1% · 3 remaining · Δ +0 goals.** Definition v1, frozen 2026-10-23.
 
 Seven named delivery checkpoints, mixing separately labeled Linux and Windows scopes. A local checklist, not full IDE completion.
 
@@ -69,7 +69,7 @@ Seven named delivery checkpoints, mixing separately labeled Linux and Windows sc
 
 ### observation — Data-only observation path
 
-**2 / 4 accepted · 50.0% · 2 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+**2 / 4 accepted · 50.0% · 2 remaining · Δ +0 goals.** Definition v1, frozen 2026-10-23.
 
 Four named delivery checkpoints. Linux synthetic components are not native controller or GUI integration.
 
@@ -86,7 +86,7 @@ Four named delivery checkpoints. Linux synthetic components are not native contr
 
 ### loader — Selected loader checkpoints
 
-**3 / 4 accepted · 75.0% · 1 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+**3 / 4 accepted · 75.0% · 1 remaining · Δ +0 goals.** Definition v1, frozen 2026-10-23.
 
 Four bounded native-policy compatibility checkpoints. Not BIOS equivalence, a complete loader or game boot.
 
@@ -103,7 +103,7 @@ Four bounded native-policy compatibility checkpoints. Not BIOS equivalence, a co
 
 ### s2 — Live controller safety gates
 
-**0 / 4 accepted · 0.0% · 4 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+**0 / 4 accepted · 0.0% · 4 remaining · Δ +0 goals.** Definition v1, frozen 2026-10-23.
 
 Four named necessary lifecycle gates from the current NO-GO. They are not an exhaustive sufficiency proof or full controller completion.
 
@@ -120,7 +120,7 @@ Four named necessary lifecycle gates from the current NO-GO. They are not an exh
 
 ### boot — Native game boot acceptance
 
-**0 / 1 accepted · 0.0% · 1 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+**0 / 1 accepted · 0.0% · 1 remaining · Δ +0 goals.** Definition v1, frozen 2026-10-23.
 
 One binary acceptance goal. Zero accepted boot goals does not mean zero development; this is not a percent of the game.
 
@@ -152,17 +152,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-numeric-baseline-01` | s2 v1 | 0 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
 | 2026-10-23 · `2026-10-23-numeric-baseline-01` | boot v1 | 0 / 1 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
 | 2026-10-23 · `2026-10-23-numeric-baseline-01` | roadmap v1 | 5 / 20 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-importer-boundary-02` | inspection v1 | 4 / 7 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-importer-boundary-02` | observation v1 | 2 / 4 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-importer-boundary-02` | loader v1 | 3 / 4 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-importer-boundary-02` | s2 v1 | 0 / 4 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-importer-boundary-02` | boot v1 | 0 / 1 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-importer-boundary-02` | roadmap v1 | 5 / 20 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
 
 
 ## Current explanation
 
-**Now:** Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.
+**Now:** A separate importer result-boundary fix is accepted in Linux synthetic tests, but is not installed in the frozen viewer. Native boot and the complete IDE remain unestablished.
 
-**Changed:** The data-only observer can recover delayed notices and label old snapshots honestly. New load reviews narrowed the shutdown problem; they did not solve it.
+**Changed:** Two demonstrated allocation-failure termination paths now retain a meaningful failure result and explicit result ownership in the isolated candidate.
 
-**Why:** We can inspect a stopped runtime without pretending it advanced. Safe cancellation and ownership still have to be proved before live controls can be connected.
+**Why:** A worker should report failure without terminating the application or falsely reporting import success. This correction does not establish real import or Windows execution.
 
-**Next:** Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped.
+**Next:** Review production adoption separately; failed completion-message delivery and UI low-memory handling remain open. Preserve Windows validation, S2, provenance and initializer gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

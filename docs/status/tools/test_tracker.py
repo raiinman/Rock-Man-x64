@@ -12,11 +12,73 @@ import unittest
 import update_tracker as u
 import check_generated_changes as guard
 
+def synthetic_fixture():
+    """Explicit test-owned semantics; never derive flags/IDs/history from live data."""
+    date='2026-01-01';basis='1'*40;ref='docs/status/fixture-evidence.md'
+    plans=(('inspection',7,4),('observation',4,2),('loader',4,3),
+           ('s2',4,0),('boot',1,0),('roadmap',20,5))
+    checklists=[]
+    for cid,total,accepted in plans:
+        items=[]
+        for n in range(total):
+            item={'id':f'{cid}-goal-{n}', 'label':f'Synthetic {cid} goal {n}',
+                  'criterion':'Owned synthetic criterion, never a project claim.',
+                  'done':n<accepted, 'evidence_class':'Synthetic fixture only', 'source':ref}
+            if cid=='roadmap':item['phase']='foundation' if n<5 else 'production'
+            items.append(item)
+        checklists.append({'id':cid,'title':'Synthetic '+cid,'version':1,'frozen_on':date,
+                           'scope':'Owned test definition.','blocker':'Synthetic blocker.',
+                           'next':'Synthetic next step.','items':items})
+    review={'date':date,'review_id':'fixture-initial-review','reviewed_through_commit':basis,
+            'summary':'Owned synthetic baseline, not real acceptance.'}
+    observation={'review_id':review['review_id'],'date':date,'basis_commit':basis,
+                 'note':'Owned synthetic baseline only.',
+                 'checklists':[{'id':c['id'],'version':1,'total':len(c['items']),
+                                'completed_ids':[i['id'] for i in c['items'] if i['done']]}
+                               for c in checklists]}
+    data={'schema_version':3,'last_evidence_review':review,
+          'overview':{k:'Synthetic fixture explanation.' for k in ('now','changed','why','next')},
+          'workstreams':[{'id':'fixture-stream','name':'Synthetic stream',
+                         'plain_status':'Synthetic status.','next':'Synthetic next step.',
+                         'detail':'Synthetic bounded evidence.','limit':'Not a real capability.',
+                         'stages':[1,1,1,1,0],'source':ref,
+                         'stage_evidence':{str(n):[ref] for n in range(4)}}],
+          'updates':[{'id':'fixture-update-'+str(n),'date':date,'kind':kind,
+                      'capability_changed':False,'changed':'Synthetic change.',
+                      'why':'Synthetic reason.','next':'Synthetic next step.','evidence':[ref]}
+                     for n,kind in enumerate(('documentation','source-review'))],
+          'findings':[{'id':'01','title':'Synthetic finding','found':'Synthetic result.',
+                       'why':'Synthetic reason.','unknown':'Not project evidence.',
+                       'class':'Synthetic','metric':'1','unit':'fixture','sources':[ref]}],
+          'provenance':'Owned synthetic fixture only.','checklists':checklists,
+          'validation_runs':[{'title':'Synthetic suite '+str(n),'passed':total,'total':total,
+                              'unit':'checks','scope':'Synthetic fixture only.','source':ref}
+                             for n,total in enumerate((69,111,50))],
+          'observations':[observation]}
+    state={'schema_version':2,'latest_repository_change':{
+               'sha':basis,'committed_at':date+'T00:00:00Z','subject':'Synthetic fixture',
+               'source':'Owned synthetic fixture metadata'},'trigger_status':'Synthetic fixture only.',
+           'reviewed_stage_sha256':u.stage_digest(data),'evidence_review_id':review['review_id'],
+           'evidence_review_date':date,'reviewed_checklist_definitions':u.definitions(data),
+           'recorded_observation_hashes':[u.digest(observation)]}
+    return data,state
+
 class TrackerTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory(prefix='rock-man-tracker-test-')
         self.root=Path(self.tmp.name)/'repo'
         shutil.copytree(u.ROOT,self.root,ignore=shutil.ignore_patterns('.git','__pycache__','*.pyc'))
+        # Copy real code/workflow and inert documents, but replace all mutable evidence
+        # semantics with an explicit owned fixture before any mutation test runs.
+        data,state=synthetic_fixture()
+        (self.root/'docs/status/fixture-evidence.md').write_text('# Synthetic evidence\n')
+        (self.root/u.DATA).write_text(json.dumps(data,indent=2)+'\n')
+        (self.root/u.STATE).write_text(json.dumps(state,indent=2)+'\n')
+        u.run(self.root,False)
+        self.assertFalse(data['checklists'][0]['items'][4]['done'])
+        self.assertTrue(data['checklists'][0]['items'][0]['done'])
+        self.assertFalse(data['checklists'][-1]['items'][5]['done'])
+        self.assertEqual(len(data['observations']),1)
         self.git('init','-q','-b','main');self.git('config','user.name','Fixture');self.git('config','user.email','fixture@example.invalid')
         self.git('add','.');self.git('commit','-qm','fixture baseline')
     def tearDown(self):self.tmp.cleanup()
@@ -166,7 +228,7 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(u.delta_label(d,d['checklists'][0]),'Δ — rebaseline');self.assertEqual(u.numbers(d['checklists'][0]),(4,6,66.7))
     def test_40_activity_only_preserves_numbers_and_history(self):
         d=self.data();self.git('commit','--allow-empty','-qm','activity only numeric fixture');u.run(self.root,False,refresh=self.git('rev-parse','HEAD'))
-        self.assertEqual(d,self.data());self.assertEqual(len(self.data()['observations']),1);self.assertIn('Review pending',(self.root/'README.md').read_text())
+        self.assertEqual(d,self.data());self.assertEqual(self.data()['observations'],d['observations']);self.assertIn('Review pending',(self.root/'README.md').read_text())
     def test_41_forged_numeric_receipt_still_fails_git_parent_review_gate(self):
         d=self.data();d['checklists'][0]['items'][4]['done']=True;old_id=d['last_evidence_review']['review_id'];self.snapshot(d,'fixture-forged-observation');d['last_evidence_review']['review_id']=old_id;self.save(d)
         p=self.root/u.STATE;state=json.loads(p.read_text());state['reviewed_stage_sha256']=u.stage_digest(d);state['recorded_observation_hashes']=[u.digest(o) for o in d['observations']];p.write_text(json.dumps(state)+'\n');self.git('add','.');self.git('commit','-qm','forged review fixture')
@@ -185,7 +247,8 @@ class TrackerTests(unittest.TestCase):
     def test_45_chart_default_has_counts_axis_and_no_square_grid(self):
         readme=(self.root/'README.md').read_text();svg=(self.root/'docs/status/visuals/progress-dashboard.svg').read_text()
         self.assertIn('progress-dashboard.svg',readme);self.assertNotIn('🟦',readme)
-        for value in ('4 / 7','57.1%','2 / 4','50%','3 / 4','75%','0 / 4','0 / 1','100%','remaining','first record'):self.assertIn(value,svg)
+        for value in ('4 / 7','57.1%','2 / 4','50%','3 / 4','75%','0 / 4','0 / 1','100%','remaining'):self.assertIn(value,svg)
+        for c in self.data()['checklists']:self.assertIn(u.delta_label(self.data(),c),svg)
         self.assertIn('game/code/effort finished',svg)
     def test_46_numeric_observation_review_identity_must_match(self):
         original=self.data()
@@ -226,5 +289,59 @@ class TrackerTests(unittest.TestCase):
     def test_53_unknown_layout_id_refused_before_render(self):
         d=self.data();d['checklists'][0]['id']='other';d['observations'][-1]['checklists'][0]['id']='other';self.save(d)
         with self.assertRaisesRegex(u.Invalid,'fixed reviewed checklist IDs'):u.run(self.root,False)
+
+    def test_54_baseline_then_second_zero_delta_preserves_exact_history(self):
+        # Owned synthetic fixture bootstrap only; never rewrite the public record.
+        d=self.data();d['observations']=[];self.snapshot(d,'fixture-zero-baseline');self.save(d)
+        p=self.root/u.STATE;state=json.loads(p.read_text())
+        state.update(reviewed_stage_sha256=u.stage_digest(d),evidence_review_id=d['last_evidence_review']['review_id'],evidence_review_date=d['last_evidence_review']['date'],reviewed_checklist_definitions=u.definitions(d),recorded_observation_hashes=[u.digest(o) for o in d['observations']]);p.write_text(json.dumps(state)+'\n')
+        u.run(self.root,False);u.run(self.root,True)
+        baseline=copy.deepcopy(d['observations']);counts=[u.numbers(c) for c in d['checklists']]
+        for c in d['checklists']:self.assertEqual(u.delta_label(d,c),'Δ — first record')
+        self.assertIn('FIRST NUMERIC BASELINE',(self.root/'docs/status/visuals/progress-dashboard.svg').read_text())
+        self.git('add','.');self.git('commit','-qm','synthetic zero baseline')
+        self.snapshot(d,'fixture-second-zero-review');self.save(d)
+        self.git('add','.');self.git('commit','-qm','synthetic second unchanged acceptance')
+        u.run(self.root,False,refresh=self.git('rev-parse','HEAD'));u.run(self.root,True)
+        self.assertEqual(self.data()['observations'][:-1],baseline)
+        self.assertEqual(len(self.data()['observations']),len(baseline)+1)
+        self.assertEqual([u.numbers(c) for c in self.data()['checklists']],counts)
+        for c in d['checklists']:self.assertEqual(u.delta_label(d,c),'Δ +0 goals')
+        svg=(self.root/'docs/status/visuals/progress-dashboard.svg').read_text()
+        self.assertIn('CHANGES COMPARED WITH THE PREVIOUS RECORDED REVIEW',svg)
+        self.assertNotIn('FIRST NUMERIC BASELINE',svg);self.assertNotIn('first record',svg)
+        self.assertEqual(svg.count('Δ +0 goals'),len(d['checklists']))
+
+    def test_55_legitimate_plus_one_review_uses_real_git_parent(self):
+        d=self.data();prior=copy.deepcopy(d['observations'])
+        self.assertFalse(d['checklists'][0]['items'][4]['done'])
+        d['checklists'][0]['items'][4]['done']=True
+        self.snapshot(d,'fixture-accepted-plus-one');self.save(d)
+        self.git('add','.');self.git('commit','-qm','synthetic accepted plus-one review')
+        u.run(self.root,False,refresh=self.git('rev-parse','HEAD'));u.run(self.root,True)
+        self.assertEqual(self.data()['observations'][:-1],prior)
+        self.assertEqual(len(self.data()['observations']),len(prior)+1)
+        self.assertEqual(u.numbers(d['checklists'][0]),(5,7,71.4))
+        self.assertEqual(u.delta_label(d,d['checklists'][0]),'Δ +1 goals')
+        svg=(self.root/'docs/status/visuals/progress-dashboard.svg').read_text()
+        self.assertIn('5 / 7',svg);self.assertIn('71.4%',svg)
+        self.assertEqual(svg.count('Δ +1 goals'),1)
+        self.assertEqual(svg.count('Δ +0 goals'),5)
+        self.assertTrue(set(guard.check(self.root))<=set(u.OUTPUTS))
+
+class CurrentDatasetTests(unittest.TestCase):
+    def test_current_reviewed_data_renders_without_drift_or_mutation(self):
+        # Deliberately separate from the synthetic mutation fixture. This reads
+        # the real current dataset, whatever its counts/versions/history are.
+        paths=(*u.OUTPUTS,u.DATA)
+        before={p:(u.ROOT/p).read_bytes() for p in paths}
+        self.assertEqual(u.run(u.ROOT,True),[])
+        data=json.loads(before[u.DATA]);svg=before['docs/status/visuals/progress-dashboard.svg'].decode()
+        for c in data['checklists']:
+            accepted=sum(i['done'] for i in c['items']);total=len(c['items'])
+            self.assertIn(f'{accepted} / {total}',svg)
+            self.assertIn(f'{round(100*accepted/total,1):g}%',svg)
+            self.assertIn(u.delta_label(data,c),svg)
+        self.assertEqual(before,{p:(u.ROOT/p).read_bytes() for p in paths})
 
 if __name__=='__main__':unittest.main()
