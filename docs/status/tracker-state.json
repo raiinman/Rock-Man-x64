@@ -1,15 +1,13 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "257ae6fa2adb97af7fe2553e2d620e27dad72ce7",
-    "committed_at": "2026-10-23T15:20:41-07:00",
-    "subject": "docs: add spacious evidence tracker and approved Pages deployment",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "346abf8841bf0f6c845daff5bab24ce076c5e5e3",
+    "committed_at": "2026-10-23T22:21:03Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact public commit metadata observed through the connector; workflow job results are separately cited evidence"
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "1d8d64fad21eb4c57f72c6259b4dba7d6391a658bee25fc99d75e50cf8a08946",
+  "evidence_data_sha256": "ffd96ad1c77b7693f0e7a6516dc3b7c16d93b941f74e3f28074c69ae41a2d4c7",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +15,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "1f9d0a29396c2e10696b9fb17c43835491069728e18ccfc7e1b913ff3f5bb936",
-  "evidence_review_id": "2026-10-23-pages-tracker-01",
+  "reviewed_stage_sha256": "5b2a51ca84c727ff864a0c333c8cad8313ee04f2a820fca39ff87109190a678d",
+  "evidence_review_id": "2026-10-23-execution-hosting-limits-01",
   "evidence_review_date": "2026-10-23",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -50,6 +48,7 @@
     "3a9189dd0f3cdc53c9565337bc8701731ac0d2a5b650713be0b7a4b5f5247fab",
     "184eff307e41daccf32fe69597b4115933ba965530050769a0aeba109aec971f",
     "5716ba8b68cc3b8619acce6e655f74110bc758021d99c5cbeea31b9c16684139",
-    "ab6702be16866d06483d4c7123eecc22a03bc5c6fb25706b857beb0daa7c1ba8"
+    "ab6702be16866d06483d4c7123eecc22a03bc5c6fb25706b857beb0daa7c1ba8",
+    "0e53c64890cd5c0f5c028703e8baf0b8e64b572332650b5a5da8f9ed848651e6"
   ]
 }

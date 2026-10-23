@@ -12,17 +12,17 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.
+**Where we are:** The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.
 
-**Next useful step:** Complete the approved Pages setup after secure authentication, verify the actual public artifact and browser behavior, and keep native Windows validation and S2/provenance gates separate.
+**Next useful step:** Complete secure owner authentication and approved Pages configuration before verifying live hosting. Obtain permitted launch observation without retrying denied diagnostics or bypassing security; preserve all native gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-pages-tracker-01` · [reviewed basis d970fa6](https://github.com/raiinman/Rock-Man-x64/commit/d970fa6f2ea4ab17673251fc7ee9d54acee9c60f).
-**Latest repository change observed:** [257ae6f](https://github.com/raiinman/Rock-Man-x64/commit/257ae6fa2adb97af7fe2553e2d620e27dad72ce7) · 2026-10-23T15:20:41-07:00 — docs: add spacious evidence tracker and approved Pages deployment.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-execution-hosting-limits-01` · [reviewed basis 346abf8](https://github.com/raiinman/Rock-Man-x64/commit/346abf8841bf0f6c845daff5bab24ce076c5e5e3).
+**Latest repository change observed:** [346abf8](https://github.com/raiinman/Rock-Man-x64/commit/346abf8841bf0f6c845daff5bab24ce076c5e5e3) · 2026-10-23T22:21:03Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

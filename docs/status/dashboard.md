@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-pages-tracker-01` · [reviewed basis d970fa6](https://github.com/raiinman/Rock-Man-x64/commit/d970fa6f2ea4ab17673251fc7ee9d54acee9c60f).
-**Latest repository change observed:** [257ae6f](https://github.com/raiinman/Rock-Man-x64/commit/257ae6fa2adb97af7fe2553e2d620e27dad72ce7) · 2026-10-23T15:20:41-07:00 — docs: add spacious evidence tracker and approved Pages deployment.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-execution-hosting-limits-01` · [reviewed basis 346abf8](https://github.com/raiinman/Rock-Man-x64/commit/346abf8841bf0f6c845daff5bab24ce076c5e5e3).
+**Latest repository change observed:** [346abf8](https://github.com/raiinman/Rock-Man-x64/commit/346abf8841bf0f6c845daff5bab24ce076c5e5e3) · 2026-10-23T22:21:03Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -170,17 +170,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-pages-tracker-01` | s2 v1 | 0 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
 | 2026-10-23 · `2026-10-23-pages-tracker-01` | boot v1 | 0 / 1 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
 | 2026-10-23 · `2026-10-23-pages-tracker-01` | roadmap v1 | 5 / 20 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | inspection v1 | 4 / 7 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | observation v1 | 2 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | loader v1 | 3 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | s2 v1 | 0 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | boot v1 | 0 / 1 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | roadmap v1 | 5 / 20 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
 
 
 ## Current explanation
 
-**Now:** A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.
+**Now:** The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.
 
-**Changed:** Added a spacious interactive tracker and a checked Pages delivery chain that uses the final generated data. Hosting setup and actual public/browser verification are still pending.
+**Changed:** Recorded verified transfer, an unresolved launch attempt and the actual split workflow result: updater/build passed, Pages deployment failed because hosting was not enabled.
 
-**Why:** The same reviewed milestones, findings and changes are easier to explore without duplicating evidence or pretending that website delivery advances the native game.
+**Why:** File integrity does not prove execution, and a passing site build does not prove hosting. Denied diagnostics and unavailable GUI controls leave the startup cause unknown.
 
-**Next:** Complete the approved Pages setup after secure authentication, verify the actual public artifact and browser behavior, and keep native Windows validation and S2/provenance gates separate.
+**Next:** Complete secure owner authentication and approved Pages configuration before verifying live hosting. Obtain permitted launch observation without retrying denied diagnostics or bypassing security; preserve all native gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

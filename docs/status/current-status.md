@@ -1,12 +1,18 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, private viewer reliability update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, Windows-attempt and hosting limits.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
+## Windows attempt and Pages delivery — October 23
+
+The authorized execution report verifies private transfer of the exact viewer package and executable, with matching checksums. **The normal Windows launch attempt is inconclusive:** the launcher stalled without returning a process handle, and no inspector was observed afterward. This does not establish a successful start or a crash; the cause is unknown. GUI-control capability remained unavailable, and denied diagnostic-log access was not retried. No runtime, pixel or import acceptance follows. [Attempt history](../history/validation-history.md#windows-attempt-and-pages-delivery-evidence--october-23).
+
+Actual [workflow run 40033005572](https://github.com/raiinman/Rock-Man-x64/actions/runs/40033005572) passed the documentation updater and site build, but **Pages deployment failed with HTTP 404 because Pages was not enabled**. The site is not live; secure owner authentication/configuration remains pending. A successful build is not successful hosting, and another unchanged deployment cannot resolve that prerequisite. All milestone counts and native/S2/initializer/provenance gates remain unchanged.
+
 ## Private viewer reliability candidates — October 23
 
-A new **unfrozen private viewer candidate** incorporates the accepted importer worker-boundary correction plus two later host-side fixes: allocation-independent UI error fallback and retained completion results when notification delivery fails. Control restoration retains the displayed view rather than re-reading the selection. The Windows-target application now **fully compiles and links**, but it has **not run on Windows**. Frozen accepted viewers and previously delivered artifacts were preserved; this is not an installed production replacement.
+A new **unfrozen private viewer candidate** incorporates the accepted importer worker-boundary correction plus two later host-side fixes: allocation-independent UI error fallback and retained completion results when notification delivery fails. Control restoration retains the displayed view rather than re-reading the selection. The Windows-target application **fully compiles and links**. At that source/link checkpoint no Windows execution was established; the later launch attempt above remains inconclusive. Frozen accepted viewers and previously delivered artifacts were preserved; this is not an installed production replacement.
 
 Independent review accepted the isolated source/synthetic boundaries after correcting an initial queue-drain defect that could misclassify quit or child-window messages. Reported Linux evidence is **13 UI scenarios** in two modes and **17 retained-result scenarios** in three modes, plus separately scoped drain and reviewer controls; repeated modes are not additional unique tests. [The validation history](../history/validation-history.md#private-viewer-reliability-evidence--october-23) retains the failure, correction and exact counts.
 

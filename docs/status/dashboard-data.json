@@ -407,17 +407,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-23",
-    "review_id": "2026-10-23-pages-tracker-01",
-    "reviewed_through_commit": "d970fa6f2ea4ab17673251fc7ee9d54acee9c60f",
-    "summary": "Reviewed the original read-only documentation UI and chained Pages delivery with offline source/artifact checks. Hosting authentication/configuration and actual browser acceptance remain pending; native capabilities and all milestone counts are unchanged."
+    "review_id": "2026-10-23-execution-hosting-limits-01",
+    "reviewed_through_commit": "346abf8841bf0f6c845daff5bab24ce076c5e5e3",
+    "summary": "Reviewed the reported private Windows transfer and inconclusive normal launch attempt, plus the actual Pages updater/build success and deployment failure. Startup cause remains unknown; no runtime acceptance or milestone-count change."
   },
   "overview": {
-    "now": "A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.",
-    "changed": "Added a spacious interactive tracker and a checked Pages delivery chain that uses the final generated data. Hosting setup and actual public/browser verification are still pending.",
-    "why": "The same reviewed milestones, findings and changes are easier to explore without duplicating evidence or pretending that website delivery advances the native game.",
-    "next": "Complete the approved Pages setup after secure authentication, verify the actual public artifact and browser behavior, and keep native Windows validation and S2/provenance gates separate."
+    "now": "The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.",
+    "changed": "Recorded verified transfer, an unresolved launch attempt and the actual split workflow result: updater/build passed, Pages deployment failed because hosting was not enabled.",
+    "why": "File integrity does not prove execution, and a passing site build does not prove hosting. Denied diagnostics and unavailable GUI controls leave the startup cause unknown.",
+    "next": "Complete secure owner authentication and approved Pages configuration before verifying live hosting. Obtain permitted launch observation without retrying denied diagnostics or bypassing security; preserve all native gates."
   },
   "updates": [
+    {
+      "id": "execution-hosting-limits-01",
+      "date": "2026-10-23",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed a successful private viewer transfer followed by an inconclusive Windows launch attempt. The actual updater and site build passed; Pages deployment failed with HTTP 404 and the site is not live.",
+      "why": "A transfer, launch request or build is not runtime or hosting acceptance. The startup cause remains unknown; denied log access was not retried and GUI-control capability remained unavailable.",
+      "next": "Resolve approved Pages authentication/configuration and verify the actual deployment separately. Keep Windows runtime validation pending; do not relaunch or bypass security on the strength of this documentation update.",
+      "evidence": [
+        "docs/status/current-status.md#windows-attempt-and-pages-delivery--october-23",
+        "docs/history/validation-history.md#windows-attempt-and-pages-delivery-evidence--october-23",
+        "https://github.com/raiinman/Rock-Man-x64/actions/runs/40033005572"
+      ]
+    },
     {
       "id": "interactive-pages-tracker-01",
       "date": "2026-10-23",
@@ -1157,6 +1171,68 @@
       "date": "2026-10-23",
       "basis_commit": "d970fa6f2ea4ab17673251fc7ee9d54acee9c60f",
       "note": "Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-23-execution-hosting-limits-01",
+      "date": "2026-10-23",
+      "basis_commit": "346abf8841bf0f6c845daff5bab24ce076c5e5e3",
+      "note": "Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved.",
       "checklists": [
         {
           "id": "inspection",

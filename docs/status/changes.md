@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-23 · execution-hosting-limits-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed a successful private viewer transfer followed by an inconclusive Windows launch attempt. The actual updater and site build passed; Pages deployment failed with HTTP 404 and the site is not live.
+
+**Why:** A transfer, launch request or build is not runtime or hosting acceptance. The startup cause remains unknown; denied log access was not retried and GUI-control capability remained unavailable.
+
+**Next:** Resolve approved Pages authentication/configuration and verify the actual deployment separately. Keep Windows runtime validation pending; do not relaunch or bypass security on the strength of this documentation update.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#windows-attempt-and-pages-delivery--october-23) · [source 2](../../docs/history/validation-history.md#windows-attempt-and-pages-delivery-evidence--october-23) · [source 3](https://github.com/raiinman/Rock-Man-x64/actions/runs/40033005572).
+
 ## 2026-10-23 · interactive-pages-tracker-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -131,3 +143,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-pages-tracker-01` | s2 v1 | 0 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
 | 2026-10-23 · `2026-10-23-pages-tracker-01` | boot v1 | 0 / 1 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
 | 2026-10-23 · `2026-10-23-pages-tracker-01` | roadmap v1 | 5 / 20 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | inspection v1 | 4 / 7 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | observation v1 | 2 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | loader v1 | 3 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | s2 v1 | 0 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | boot v1 | 0 / 1 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | roadmap v1 | 5 / 20 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
