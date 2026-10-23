@@ -26,7 +26,7 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 | [Evidence and coverage](EVIDENCE.md) | Artifact identity, two static profiles, retained evidence provenance, reproducibility and open coverage |
 | [Validation record](VALIDATION.md) | Publication checks and their limits |
 
-A local [research workbench](WORKBENCH.md) organizes retained captures, declared boundary checks, owner-lifecycle obligations and private project notes. Its tools do not establish native boot.
+A local [research workbench](WORKBENCH.md) organizes retained captures, declared boundary checks, owner-lifecycle obligations and private project notes. Its [requirements and status plan](WORKBENCH-ROADMAP.md) tracks 87 detailed requirements and implemented subsets while development-agent selection remains pending. Its tools do not establish native boot.
 
 ## Findings that change the investigation
 
