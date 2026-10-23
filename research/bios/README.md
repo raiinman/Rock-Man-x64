@@ -10,6 +10,7 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 | [Kernel services](KERNEL-SERVICES.md) | Dispatch, event/thread records, exception discrimination, critical sections and context return; evidence classes remain separate |
 | [Interrupt entry and continuation](INTERRUPTS.md) | Vector installation, saved context, four-slot callback traversal, custom/default continuation and branch-delay gaps |
 | [Peripheral paths](DEVICES.md) | CD admission/interrupt/recovery/DMA, GPU transfer/synchronization, sound initialization, controller/card candidates |
+| [Original A0:49 recorder](A049-RECORDER.md) | One RAM calibration and one synthetic BIOS call in a pinned emulator; access/sample distinctions, observed route and explicit missing game-state joins |
 | [CD command lifecycle](CD-LIFECYCLE.md) | Normal reset versus error recovery, mode-setting/read continuation, ignored response reads, persistent partial side effects and unresolved mute/unmute issuers |
 | [File and device I/O](FILESYSTEM.md) | Descriptor ownership, lookup, callback dispatch, cursor/alignment behavior, failure semantics and unchecked loader results |
 | [File-service diagnostics](FILE-DIAGNOSTICS.md) | Diagnostic dispatch narrowed to a formatter/output route, with ordinary return paths and explicit live-table/backend limits |
