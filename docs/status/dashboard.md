@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-apex-public-handoff-01` · [reviewed basis f5aad94](https://github.com/raiinman/Rock-Man-x64/commit/f5aad94ff2ffeed9f26342465612453bc704b7d4).
+**Last evidence review:** 2026-10-23 · `2026-10-23-research-handoff-received-01` · [reviewed basis b90462d](https://github.com/raiinman/Rock-Man-x64/commit/b90462d39c920e4ed93073ed44a34d62e0dd13dc).
 **Latest repository change observed:** [e3f9f6f](https://github.com/raiinman/Rock-Man-x64/commit/e3f9f6fbe0a942c40ca3b246c6b246432aa2dad4) · 2026-10-23T16:37:23-07:00 — docs: add separate public APEX-1 coordination handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -182,17 +182,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-apex-public-handoff-01` | s2 v1 | 0 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
 | 2026-10-23 · `2026-10-23-apex-public-handoff-01` | boot v1 | 0 / 1 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
 | 2026-10-23 · `2026-10-23-apex-public-handoff-01` | roadmap v1 | 5 / 20 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | inspection v1 | 4 / 7 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | observation v1 | 2 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | loader v1 | 3 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | s2 v1 | 0 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | boot v1 | 0 / 1 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | roadmap v1 | 5 / 20 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
 
 
 ## Current explanation
 
 **Now:** The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.
 
-**Changed:** Recorded verified transfer, an unresolved launch attempt and the actual split workflow result: updater/build passed, Pages deployment failed because hosting was not enabled.
+**Changed:** Research received the public coordination acknowledgment and proposed one bounded source-only A0:49 completion-contract question. Viewer launch and hosting limits remain unchanged.
 
-**Why:** File integrity does not prove execution, and a passing site build does not prove hosting. Denied diagnostics and unavailable GUI controls leave the startup cause unknown.
+**Why:** The historical caller match cannot identify a current native request; a specific source question or later permitted runtime binding is needed before choosing a fix.
 
-**Next:** Complete secure owner authentication and approved Pages configuration before verifying live hosting. Obtain permitted launch observation without retrying denied diagnostics or bypassing security; preserve all native gates.
+**Next:** Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Preserve the separate pending launch/hosting work and all native gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

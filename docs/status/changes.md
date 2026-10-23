@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-23 · research-handoff-received-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Research acknowledged the public handoff and its no-active-original-input-native-run limit.
+
+**Why:** Historical emulator/caller correlations do not identify a live native request or clear implementation provenance.
+
+**Next:** Select or defer one source-only completion-contract question before choosing another tool or implementation change.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#research-acknowledgment-and-next-question--october-23).
+
 ## 2026-10-23 · apex-public-handoff-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -167,3 +179,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-apex-public-handoff-01` | s2 v1 | 0 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
 | 2026-10-23 · `2026-10-23-apex-public-handoff-01` | boot v1 | 0 / 1 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
 | 2026-10-23 · `2026-10-23-apex-public-handoff-01` | roadmap v1 | 5 / 20 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | inspection v1 | 4 / 7 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | observation v1 | 2 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | loader v1 | 3 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | s2 v1 | 0 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | boot v1 | 0 / 1 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-research-handoff-received-01` | roadmap v1 | 5 / 20 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |

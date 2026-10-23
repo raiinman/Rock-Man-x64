@@ -14,13 +14,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.
 
-**Next useful step:** Complete secure owner authentication and approved Pages configuration before verifying live hosting. Obtain permitted launch observation without retrying denied diagnostics or bypassing security; preserve all native gates.
+**Next useful step:** Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Preserve the separate pending launch/hosting work and all native gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-apex-public-handoff-01` · [reviewed basis f5aad94](https://github.com/raiinman/Rock-Man-x64/commit/f5aad94ff2ffeed9f26342465612453bc704b7d4).
+**Last evidence review:** 2026-10-23 · `2026-10-23-research-handoff-received-01` · [reviewed basis b90462d](https://github.com/raiinman/Rock-Man-x64/commit/b90462d39c920e4ed93073ed44a34d62e0dd13dc).
 **Latest repository change observed:** [e3f9f6f](https://github.com/raiinman/Rock-Man-x64/commit/e3f9f6fbe0a942c40ca3b246c6b246432aa2dad4) · 2026-10-23T16:37:23-07:00 — docs: add separate public APEX-1 coordination handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
