@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 08:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 09:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -85,6 +85,12 @@ Two later, separately authorized Linux compatibility runs are accepted: one init
 These outcomes are explicitly **native policy**, not BIOS execution or equivalence. Native RAM/register preservation does not resolve original firmware side effects, dispatch history, allocator layout, GPU state or the three unresolved loaded bases. Original instructions were not executed; no integration, A0:49 completion or game boot follows.
 
 The first continuation candidate received **NO GO** after synthetic mutation exposed an input-lineage binding gap. The separately reviewed v2 retains the successful admission category independently and rejects either allowed-category substitution before and after commit. The failed v1 and earlier cleanup-envelope rejection remain preserved; neither was relabeled as accepted.
+
+## New static heap evidence does not establish equivalence
+
+The [digest-specific A0:39 report](../../research/bios/HEAP-INITIALIZATION.md) now describes an initial service binding and five ordered word stores, including clearing one supplied-address word and recording heap-related globals. This is author-reported static instruction interpretation, cross-checked with a separate decoder—not firmware execution or an observed game-time call. The analysis tool did not recover a function at the selected address; the report distinguishes that limitation from its bounded instruction decoding. Private source bytes and raw evidence were not independently inspected for this documentation review.
+
+The reported store effects differ from the accepted native heap policy's deliberate preservation of guest RAM. That policy's bounded acceptance remains valid as a native design choice, not a claim of BIOS equivalence. Effective runtime dispatch, exceptional completion, later allocator invariants and inherited GPU state remain unresolved. The new report does not authorize adopting firmware effects or advancing the initializer; execution preparation remains blocked pending review, with no retry or alternative route attempted.
 
 ## Initializer candidate: synthetic-only, execution blocked
 

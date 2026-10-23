@@ -209,3 +209,7 @@ Two later, separately authorized Linux compatibility runs are accepted: one init
 These outcomes are explicitly **native policy**, not BIOS execution or equivalence. Native RAM/register preservation does not resolve original firmware side effects, dispatch history, allocator layout, GPU state or the three unresolved loaded bases. Original instructions were not executed; no integration, A0:49 completion or game boot follows.
 
 A later initializer-prefix candidate has **source/synthetic acceptance only**: 127 author checks and 920 independent assertions. Its proposed fixed lowering models 26 source instructions and four stores, stopping at a pending 16-bit I_MASK write with applied=false. No actual-input run is accepted. Its execution preparation was blocked pending review; no retry or alternative route was attempted. This is not an applied interrupt-mask operation, GPU initialization or game boot.
+
+## 29. Static heap-effect provenance, not new execution — October 23, 09:05 update
+
+The [A0:39 investigation](../../research/bios/HEAP-INITIALIZATION.md) reports an initial binding and five ordered stores from bounded static decoding, with a separate decoder cross-check but no recovered function or firmware execution. The effects differ from the accepted native policy's guest-RAM preservation; neither that policy nor the new report establishes original-call equivalence. Existing native acceptances and earlier failures remain intact. Initializer execution preparation remains blocked pending review, without a retry or alternative route.

@@ -41,3 +41,5 @@ The 06:09 update records the unchanged reader's context-dependent diagnostic and
 The 07:07 update adds one accepted native loader-prefix original-input compatibility run stopping at A0:39, preserves the rejected first cleanup envelope and separately reviewed v2 recovery, and records 23 Windows standalone host-function lifecycle checks. Visual/real-launcher/actual-capture acceptance and transfer-route reuse remain gated; no firmware or game-boot claim follows.
 
 The 08:05 update records separate native-policy heap and continuation compatibility acceptances, stopping before the initializer with BIOS effects unresolved. It preserves the rejected lineage-binding candidate and reviewed v2 correction. The later initializer prefix is source/synthetic accepted only; execution preparation is blocked pending review without a retry or alternative route.
+
+The 09:05 update adds a research-provenance checkpoint: author-reported static A0:39 effects differ from the accepted RAM-preserving native policy. It records no new execution or equivalence; the initializer execution-preparation blocker and all earlier failed stages remain unchanged.

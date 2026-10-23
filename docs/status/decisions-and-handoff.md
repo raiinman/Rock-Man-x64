@@ -61,6 +61,8 @@ A later initializer-prefix candidate has **source/synthetic acceptance only**: 1
 
 Preserve the v1 lineage rejection and v2 correction. Native-policy outcomes must remain distinct from original firmware claims; source/tooling checks cannot authorize an execution retry or silently advance the pending device operation.
 
+The new [static A0:39 report](../../research/bios/HEAP-INITIALIZATION.md) describes ordered memory effects that differ from the accepted RAM-preserving native policy. This author-reported decoding neither establishes runtime equivalence nor authorizes adopting those effects or resuming blocked initializer execution.
+
 ## Explicitly unresolved scopes
 
 - Connected reset reissue and already-unmuted command admission are not dynamically established merely because guards exist.
