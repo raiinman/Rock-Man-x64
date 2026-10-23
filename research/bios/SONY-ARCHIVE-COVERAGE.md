@@ -70,6 +70,12 @@ The source/history trace pins PSX-SPX documentation at commit `6d7d1bc106a7e0b61
 
 The original Lameguy tutorial route failed in the checked clients; a public [credited tutorial mirror](https://www.breck-mckye.com/psnoobsdk-docs/) worked. Its index and system overview did not provide the target definition. Video metadata verified the linked architecture video's creator/title, but the checked caption endpoint yielded no usable transcript, so its spoken coverage remains uninspected. Publisher/university bibliography routes were identified without downloading full books. These bounded checks do not rule out information in unread chapters, captions or external source history.
 
+### Additional historical register catalog
+
+A new route through the [Hitmen document index](https://hitmen.c02.at/html/psx_docs.html) yielded the [PSX-Register archive](https://hitmen.c02.at/files/docs/psx/psx-reg.zip): a 46,668-byte ZIP containing a PDF and a PostScript version. Only the PDF was extracted for inspection: 22,972 bytes, ten pages, SHA-256 `e1c97e3d66143b96bb21aeea20ecc846b56898bef02843028801608d693c44fe`. Its cover credits bITmASTER and displays update date `09.07.99`; it is community documentation.
+
+PDF index 3 lists both target addresses with the notation `short r ???`. Index 1 defines `short` as two bytes. Two reviewers inspected the rendered cover, size legend and target page. This is an earlier address listing with explicitly unknown meaning, not a Sony definition, independent measurement or demonstrated source for the later current-volume description. The notation alone does not establish complete CPU access permissions or write effects. It does not overturn the modern positive definition. Original copies, renders and complete private receipts remain outside GitHub.
+
 ## Wayback and independent-copy checks
 
 Following the actual 401 download responses, public Wayback CDX queries for the three exact Internet Archive file URLs and their item page returned HTTP 403. Wayback availability queries returned HTTP 429 and were not repeatedly retried. These are query-access failures, not evidence that captures do not exist.

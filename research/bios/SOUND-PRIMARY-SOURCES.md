@@ -18,6 +18,12 @@ The existing sound report and native handoff preserve the separate game-path num
 
 ## Vendor-authored sources actually inspected
 
+### Distinct mute scopes in retained 4.1 manuals
+
+Two reviewers checked targeted rendered pages from the [release 2.1 documentation](https://archive.org/details/playstation-technical-reference-release-2.1-december-1997-pc-europe): Library Reference 4.1 printed 15-94 / PDF index 1139, and Library Overview 4.1 printed 11-11 / index 210. The former describes `SpuSetMute` as excluding CD input and external digital input. The latter describes `CdlMute/CdlDemute` as affecting CD-DA or ADPCM playback, supplying a fuller scope than a short command-table label.
+
+These are distinct documented mute controls. Neither page specifies DB8's value during mute, establishes that current master gain becomes zero, or guarantees that it remains unchanged. For the native investigation, mute state, current coefficient and output samples must remain separate observations until the actual consumer and its required behavior are established. The existing native policy is not validated merely by this API distinction.
+
 ### Sony Run-time Library Reference 3.6 beta: newly accessed 1996 edition
 
 - Source provenance: [archived Technical Reference release 1.8](https://archive.org/details/redump-id-69351), selected `DEVREFS/LIBREF36.PDF` document. The cover identifies Beta Release 3.6, December 1996; front matter identifies Sony, publication December 1996 and licensed-developer/confidential restrictions. The archive's Japan label does not establish language: the selected manuals are English.
@@ -143,7 +149,7 @@ The [Technical Reference CD 21 catalog](https://gamingdoc.org/technical-document
 
 The previously inaccessible GamingDoc ZIP remains unchecked. An alternate Internet Archive item permitted selective HTTP range access. The primary volume descriptor and selected ISO9660 directory records were inspected; five document extents were then fetched with HTTP 206, matching Content-Range and byte counts, sector removal, declared document length and PDF-signature checks. This is data extraction, not execution or installation of the disc's software. No full disc image, SDK implementation or executable was fetched. Private receipts retain the actual requests, document digests and extraction details.
 
-The earlier release 1.8 item was subsequently accessed through a separate bounded route. Its cue specifies MODE1/2352, requiring a different user-data offset from the release 2.1 item's MODE2/2352. That distinction was checked before extracting the two selected manuals. Alongside Library Reference 3.6, a 51-page Hardware guide with a September 1995 cover was inspected in text. It supplied no verified numeric `db8` definition. These selected directories and documents do not establish whole-disc absence. A release 2.0 USA catalog remains a further lead; later Japanese-edition catalog entries that require access were not downloaded.
+The earlier release 1.8 item was subsequently accessed through a separate bounded route. Its cue specifies MODE1/2352, requiring a different user-data offset from the release 2.1 item's MODE2/2352. That distinction was checked before extracting the two selected manuals. Alongside Library Reference 3.6, a 51-page Hardware guide with a September 1995 cover was inspected in text. It supplied no verified numeric `db8` definition. These selected directories and documents do not establish whole-disc absence. Subsequent widened release 2.0 scans and the actual Japanese-archive download attempts are recorded in the [archive ledger](SONY-ARCHIVE-COVERAGE.md); those three download attempts returned HTTP 401.
 
 | Selected document | Inspection and result |
 |---|---|

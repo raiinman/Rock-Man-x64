@@ -70,6 +70,8 @@ These are research and acceptance proposals for assessing the attested native po
 
 Once the slice is established, useful acceptance cases include correct width/sign and masks; unknown or stale owner refusal; requested-versus-applied state; staged-state isolation; coherent repeated observations; refusal/resume without replay; and genuine source returns. Whether an endpoint, sweep model or time-dependent observation is necessary remains a question for the actual consumer.
 
+Targeted [Sony mute documentation](SOUND-PRIMARY-SOURCES.md#distinct-mute-scopes-in-retained-41-manuals) distinguishes SPU mute from CD-stream mute. It supplies no DB8 invariant under either operation. The separate native observations above remain a validation proposal, rather than a newly established physical register rule.
+
 ## Additional primary architecture evidence
 
 Sony's [US5978492A patent](https://patents.google.com/patent/US5978492A/en), filed December 1, 1995 and published November 2, 1999, describes per-voice volume controls, external PCM mixing, reverb and a downstream master-volume stage in the description of Figure 3. This supports a conceptual separation of gain stages from the samples passing through them. It does not identify `0x1f801db8`, prescribe its access width, or supply its reset, timing or sweep behavior. The patent is a primary architectural source hosted by Google Patents, not a register specification or a license determination.
