@@ -21,8 +21,8 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-23 · `2026-10-23-importer-boundary-02` · [reviewed basis 632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732).
-**Latest repository change observed:** [632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732) · 2026-10-23T20:47:32Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [972b0e5](https://github.com/raiinman/Rock-Man-x64/commit/972b0e5408ca441ff08c9dcaa9bdf0ca81bd3283) · 2026-10-23T15:00:58-07:00 — docs: record importer exception checks and decouple tracker test fixtures.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
 
