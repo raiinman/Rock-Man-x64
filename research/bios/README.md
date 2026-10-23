@@ -26,6 +26,8 @@ Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It conn
 | [Evidence and coverage](EVIDENCE.md) | Artifact identity, two static profiles, retained evidence provenance, reproducibility and open coverage |
 | [Validation record](VALIDATION.md) | Publication checks and their limits |
 
+A local [research workbench](WORKBENCH.md) organizes retained captures, declared boundary checks, owner-lifecycle obligations and private project notes. Its tools do not establish native boot.
+
 ## Findings that change the investigation
 
 1. Startup copies **35,824 bytes** from ROM into RAM and later overwrites some initial kernel bytes with dispatch data. A ROM-only address model misses important kernel and input relationships.
