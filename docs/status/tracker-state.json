@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "bc4417b4b9a3cb75c0bb481250600af4af2a0ff9",
-    "committed_at": "2026-10-23T20:23:03Z",
-    "subject": "docs: refresh generated progress tracker",
-    "source": "Exact connector-observed generated commit; not a new native review",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "sha": "f90d1576f1600b93c92f7d4a49676478263074ed",
+    "committed_at": "2026-10-23T13:47:11-07:00",
+    "subject": "docs: add glossy crimson numeric roadmap and versioned progress checklists",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "0538475f30d22c09721ff40c21b7828883ce0e0c8c5f52904c153c997427981e",

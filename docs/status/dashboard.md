@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-23 · `2026-10-23-numeric-baseline-01` · [reviewed basis bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9).
-**Latest repository change observed:** [bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9) · 2026-10-23T20:23:03Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [f90d157](https://github.com/raiinman/Rock-Man-x64/commit/f90d1576f1600b93c92f7d4a49676478263074ed) · 2026-10-23T13:47:11-07:00 — docs: add glossy crimson numeric roadmap and versioned progress checklists.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
