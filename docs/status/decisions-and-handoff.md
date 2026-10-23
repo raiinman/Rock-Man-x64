@@ -29,7 +29,9 @@ The diagnostic continuation performs one real diagnostic publication, a bounded 
 
 The inspected Sony OS (1998) and Runtime 4.7 pages do not bind the exact service contract. Community documentation offers a provenance-limited lead, not implementation authority. This is not a universal absence-of-documentation claim. Establish applicable service effects, ownership, ordering, completion and failure semantics before implementation. No fabricated GPU readiness or successful no-op is acceptable.
 
-The isolated IDE Source bytes/Back feature passed independent portable/build-only review, strict and sanitizer tests, and byte-identical Windows cross-builds of the inspector and harness. Actual Windows UI, state, reparse and pixel validation remain unrun. Its reader-derived offsets show current-disk bytes, not a fingerprint-authenticated copy of the earlier decode. Preserve source-bound editing and original-input immutability while selecting any next work.
+The IDE Source bytes/Back feature passed 50 actual Windows synthetic command/state checks. Standalone visual preflight was blocked before launch by unavailable supported capability; pixels and original-asset UI remain unverified. Current-disk bytes are not authenticated prior-decode content.
+
+The combined candidate passed all 16 full-project-plus-source-test stages and independent terminal review of its 69-case Linux contract. Separate combined connected-19 is pending and allocation-29 remains unrun; prior isolated results do not fulfill those gates. An owned snapshot DTO is source/synthetic-only: independently rereview the v2 availability correction before freezing its contract and separately validate real same-owner capture/non-mutation. No live debugger or capture acceptance exists.
 
 ## Explicitly unresolved scopes
 

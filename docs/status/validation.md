@@ -46,3 +46,7 @@ Verification should report what was attempted, what target it used, what complet
 This repository can be reviewed for consistent scope, readable specifications, linked decisions and honest claims. It does not yet offer a public build/test workflow. Commands referring to private source trees would mislead readers and are therefore not presented as public quick-start instructions.
 
 A future public source release would need a separately reviewed distribution boundary, synthetic fixtures, documented toolchains, source-input requirements and an independently usable test procedure. Publication of narrative does not authorize publication of original executable data, assets, previews, private packages or detailed disassembly witnesses.
+
+## Combined-candidate qualification
+
+A new combined candidate passed the full 13-stage aggregate plus three source-test stages and independent review of its 69-case Linux contract. Its separate connected-19 is pending and allocation-29 remains unrun; predecessor tests cannot be relabeled as combined execution. The IDE's 50 actual Windows command/state checks are separate from blocked-before-launch standalone visual QA. Synthetic snapshot serialization is not actual capture/non-mutation proof.

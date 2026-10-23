@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 02:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 03:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -38,6 +38,17 @@ The inspected Sony Operating System (1998) and Run-Time Library Reference 4.7 pa
 
 The separate [BIOS research library](../../research/README.md) is reference evidence, not proof that this runtime implements or reproduces hardware. Its [DB8/DBA review](../../research/bios/DB8-BOUNDARY.md) distinguishes community numeric/signed-field definitions from unverified Sony binding, reset/timing and game hardware equivalence. Voice-current experiments do not establish master readback behavior.
 
-Next: preserve the pending service boundary until an adequate contract exists. The isolated IDE Source bytes/Back feature passed independent portable/build-only review, strict and sanitizer tests, and byte-identical Windows cross-builds of the inspector and harness. Actual Windows UI, state, reparse and pixel validation remain unrun. Its reader-derived offsets show current-disk bytes, not a fingerprint-authenticated copy of the earlier decode. Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
+## Combined candidate and IDE update
+
+The isolated combined development candidate passed the **full 13-stage project aggregate plus three added source-test stages: all 16 stages passed**, including 92 project tests, 19 tool tests and 13,305 asset metadata rows. Independent terminal review checked command exits, output identities, preserved inputs and scoped cleanup. The launcher exit is supported by an identified author attestation, not an independently saved raw launcher receipt. Earlier preparation failures remain preserved.
+
+Its later **69-case Linux contract** also passed independent terminal review: 26 builds, 40 CLI profiles, exact saved-output comparisons and 97 scoped cleanup records checked. **Connected-19 is separately authorized, with terminal acceptance pending; allocation-29 remains unrun on this combined candidate**; earlier isolated graphics results are not substituted for those gates. No combined Windows or release acceptance is implied.
+
+The IDE **Source bytes/Back feature passed 50 actual Windows synthetic command/state checks** in one supervised invocation. The exact 52-record trace matched, all 13 kit files remained unchanged, output streams were empty and the owned job ended empty. This tests the real inspector entry point through the harness, including paging and state preservation—not standalone pixel correctness, original-asset UI or comprehensive reparse races. Raw local receipts were not independently downloaded by the reviewers. The separate visual preflight was **blocked by unavailable supported visual-control capability before launch**; no standalone window launch, capture or pixel inspection occurred. This does not invalidate the 50 command checks. Reader-derived offsets show current-disk bytes, not fingerprint-authenticated earlier decoded content.
+
+An owned startup-snapshot data-transfer object has source review and synthetic codec/lifetime testing only. Independent review found an imported-availability consistency gap in v1; a v2 correction exists but awaits independent rereview before freezing the import contract. No actual same-owner capture, non-mutation acceptance, export/viewer integration or live-debugger capability is established. Absence of an A0:49 request in a record must not be read as absence of every pending service.
+
+Next: complete separately reviewed combined connected/allocation phases, address the snapshot contract gap before capture validation, and keep A0:49 evidence-gated. No GPU initialization, full boot, gameplay or playback is claimed.
+Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
 
 See [validation](validation.md), [handoff](decisions-and-handoff.md), [history](../history/validation-history.md) and [capabilities](../technical/capability-matrix.md).

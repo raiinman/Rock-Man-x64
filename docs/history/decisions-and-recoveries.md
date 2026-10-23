@@ -65,3 +65,9 @@ This record preserves unsuccessful attempts and unresolved questions alongside s
 - **Graphics regression fixture:** the first attempt failed compilation. A reviewed fixture-only repair enabled the passing 69-case retry without changing production runtime bytes. Preserve the failed attempt and avoid describing it as an uninterrupted clean pass.
 - **Graphics evidence boundary:** the entry prefix has bounded Linux acceptance; newer diagnostic connected/regression and targeted allocation checks also received bounded Linux acceptance. No graphics Windows parity or repeated full-project aggregate is claimed.
 - **A0:49 contract gap:** inspected vendor manuals do not bind the exact service. A community definition exists with provenance limits, but does not authorize implementation. A discarded return value cannot erase effects or justify a no-op; the real service boundary remains pending.
+
+## Command tests versus visual QA and capture — October 23, 03:05 update
+
+- **IDE Windows:** 50 synthetic command/state checks passed; separate visual capability was unavailable before launch. Keep the command result while leaving pixels and original-asset UI unverified.
+- **Combined validation:** all 16 aggregate/source-test stages and the 69-case Linux contract passed terminal review. Preserve earlier preparation failures and the author-attested launcher-exit limit; connected/allocation phases remain separate pending gates.
+- **Snapshot contract:** independent source/synthetic review found imported availability metadata weaker than the producer invariant. A v2 correction awaits independent rereview before capture acceptance; synthetic serialization does not establish non-mutating runtime capture. A retained failed leak-check attempt is not erased by later sanitizer success with leak detection disabled.

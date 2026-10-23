@@ -29,3 +29,5 @@ Private implementation documents sometimes retain historical statements such as 
 ## Later resumed-development checkpoint
 
 Development resumed at 22:04 UTC. The configuration stage subsequently passed 40 Windows cases. The later native CPU mixer was sealed and passed 51 actual Windows cases, with a preserved stale-summary metadata defect. The later mode-00 stage passed all 69 actual Windows cases after its Linux recovery and contract checks. Failed synthetic Windows supervisor attempts remain recorded separately. Newer graphics entry and diagnostic continuations have Linux-only evidence and still stop at an unsupported service; see current status for their acceptance limits. See [validation history](validation-history.md) for the preserved failures, correction and evidence limits, and [current status](../status/current-status.md) for the latest checkpoint.
+
+The later 03:05 update records 50 Windows IDE command checks, visual QA blocked before launch, and combined 16-stage/69-case Linux validation with separate connected/allocation gates still pending. Snapshot DTO review is not capture acceptance.

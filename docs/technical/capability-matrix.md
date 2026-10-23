@@ -14,7 +14,8 @@ This matrix describes bounded private implementation work, not downloadable feat
 | Sequence helper | Primary/secondary update rules; primary inspector exposes 55 nonempty sequences | Update calls are not Hz; repeating hold is not an end-of-playback signal |
 | Static environment | Supported STG/HED/IDX union geometry; representative 8 placements and 854 four-corner faces | Visibility lists, broader orientations, collision and material semantics remain incomplete |
 | CPU rasterizer | Diagnostic textured character output, depth and selection overlay | Not complete PS1 GPU/GTE behavior or a game frame |
-| Native inspector | Win32/GDI asset browser, hex/image/mesh/scene views, pose controls and edit history | Not a complete IDE, script compiler or playable editor session |
+| Native inspector | Win32/GDI inspection/edit foundations; Source bytes/Back passed 50 Windows synthetic command/state checks | Standalone visual QA blocked before launch; not pixel validation, complete IDE or playable editor session |
+| Owned startup snapshot | Source review and synthetic DTO/codec/lifetime checks | V1 import gap found; v2 correction awaits independent rereview; no actual capture/non-mutation, export or viewer acceptance |
 | Sidecar persistence | Source-bound transforms, validation and atomic replacement | Local edits, not original asset rewrite or game patches |
 | Resource plans | Ordered resource records and bounded copy/upload/cache operations | Sound preparation is nonexecuting; palette cache is not completed hardware residency |
 | First-scene functions | Recovered setup, allocation, callbacks and bounded dispatch subsets | Synthetic diagnostic reachability does not prove production initialization |
