@@ -34,6 +34,14 @@ Cold rechecks of releases 1.8, 2.0 and 2.1 with pypdf and FontTools retained the
 
 A separate retained-document scan closed the bare-hex-token gap: 654 distinct PDF digests / 27,327 pages across these four archive scopes, with no document/page extraction errors. Standalone `1B8/1BA/DB8/DBA` tokens, including optional `0x`, leading zeros and trailing `h`, produced zero matches. Seventeen positive/negative pattern checks passed. This tests extracted tokens only; it does not inspect image-only tables or prove that an unknown table uses those offset conventions.
 
+## Selected image-text follow-up
+
+A separate OCR pass completed 218 selected pages across ten release 2.3 sound/hardware PDFs, with zero processing errors. Selection used the union of retained low-text and image-page flags in filename-matched sound/hardware documents. Source digests and page indices were retained. A scope audit caught three PDFs stored under a different private extraction root; their digests were verified and their five selected pages included before completion.
+
+RapidOCR with CPU inference searched for the full address pair, selected short forms and current-volume labels; no candidate emerged. A separate search of all cached recognized rows for standalone bare hex offsets also produced no matches. The already visually checked SPU2 current-volume page served as a positive OCR control and yielded its labels; that control is not PS1 register evidence. OCR errors remain possible, and a negative result is not a visual absence proof.
+
+This closes the selected PDF image-text pass, not all archive images. Filename selection excludes other manuals, vector graphics can evade image flags, and presentation images are separate. The next focused visual scope is the retained July 1998 `AUDIO98.PPT` and `XMPLAY.ppt` sound-presentation graphics. Their previously checked text atoms do not establish what their images contain.
+
 ## Wayback and independent-copy checks
 
 Following the actual 401 download responses, public Wayback CDX queries for the three exact Internet Archive file URLs and their item page returned HTTP 403. Wayback availability queries returned HTTP 429 and were not repeatedly retried. These are query-access failures, not evidence that captures do not exist.
@@ -43,6 +51,8 @@ Two historical mirror indexes were actually retrieved with HTTP 200: [Arthus, No
 A [September 25, 2022 capture of that manual](https://web.archive.org/web/20220925062633id_/https://psx.arthus.net/sdk/Psy-Q/DOCS/LIBREF46.PDF) subsequently yielded a complete English Library Reference 4.6: 4,591,901 bytes, matching Content-Length, PDF signature and terminal EOF, SHA-256 `fbe6479257fa4668b874fe356bf92f7d7d45d7900ec92d64a2974cff9e2590d7`. Its rendered front matter identifies September 1999; 1,220 pages parsed. The current-master-volume getter appears at printed 15-25 / PDF index 1003, also rendered and inspected. The full extracted-text pass produced no verified numeric register candidate; 64 broader normalized token matches were reviewed and rejected. Twenty-seven pages had fewer than 100 extracted characters; exhaustive visual review is not claimed. This is an additional retained manual with already familiar API distinctions, not recovery of the Japanese 4.6 Technical Reference disc.
 
 Internet searches used the exact archive titles, DTL-D2340/D2350/D2360 identifiers, English revision terms and Japanese technical-reference terms. No independently downloadable copy of those three archives was obtained in these checks. Sony's mirrored [DTL-H2500/H2700 manual](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dtlh2500.pdf) lists DTL-D2340 as the Technical Reference 4.3 document CD separately from DTL-S2340, the runtime-library CD. This helps identify the requested media; it does not provide its contents or the target register definition. English runtime-library revision labels are not proof of identity with Japanese Technical Reference discs.
+
+A later chip-document search found [third-party catalog references](https://www.dl7avf.info/katalog/quellen.html) to Sony Semiconductor Europe Data Books 96.6 and 96.11, but no downloadable data-book document or verified coverage of the relevant SPU parts. The linked alphabetic part-index page returned 404. This remains a catalog lead, not a Sony register specification, and the access failure does not prove that such documentation never existed.
 
 ## New primary evidence from release 2.0
 
