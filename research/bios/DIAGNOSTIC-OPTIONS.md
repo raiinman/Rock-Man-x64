@@ -1,0 +1,9 @@
+# Diagnostic programs and independent probe scope
+
+Existing homebrew diagnostic projects cover useful hardware questions, but a tool's license is separate from its implementation and expected-result provenance. This review checked primary project READMEs and license documents, not test bodies, SDK implementation or binaries. No external diagnostic was installed or executed.
+
+The [ps1-tests inventory](https://github.com/JaCzekanski/ps1-tests/blob/f727802fead11f1daa7549285548392ef87749cb/README.md) documents GPU-status, drawing-mode, DMA, cache, access-width and image-comparison tests. These are leads for isolating a demonstrated discrepancy; they do not reconstruct the actual game's prior command stream or dispatch state. Its stated MIT license does not establish independent derivation of its documented PSn00bSDK dependency.
+
+The [PSn00bSDK README](https://github.com/Lameguy64/PSn00bSDK/blob/5d9aa2d3dfc7d6e51c2eb942ab4cdbae5571a40a/README.md) acknowledges Sony-derived GTE assembly and lists PSX-SPX among its development references. It is therefore a flagged research lead, not a clean-room SDK replacement for this project. The project's [license overview](https://github.com/Lameguy64/PSn00bSDK/blob/5d9aa2d3dfc7d6e51c2eb942ab4cdbae5571a40a/LICENSE.md) does not remove that provenance concern.
+
+An original, narrow diagnostic can be built as a guest executable or test disc without replacing the console BIOS or developing a complete SDK. First identify the missing observation, record permitted design inputs and the expected-result oracle, and keep the test authoring and implementation handoff subject to [provenance review](PROVENANCE-REVIEW.md). Running a new test is a separate scope from passively observing the supplied game. A successful emulator test remains an emulator result and does not establish physical PS1 behavior or clean-room eligibility.

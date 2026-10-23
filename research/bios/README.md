@@ -9,7 +9,9 @@ Read the [provenance and implementation review boundary](PROVENANCE-REVIEW.md) b
 | Report | What it establishes |
 |---|---|
 | [BIOS-only startup baseline](BIOS-BOOT-BASELINE.md) | One bounded firmware-only emulator startup reaches a visible main menu; native game boot and provenance acceptance remain separate |
+| [Supplied original-game startup](ORIGINAL-GAME-STARTUP.md) | Two bounded disc startup windows, a declared-entry callback and later A0:49 entry observations; native identity/dispatch/GPU joins remain open |
 | [Provenance review](PROVENANCE-REVIEW.md) | Source classifications, retained exposure history and review requirements before implementation use; no automatic clean-room certification |
+| [Diagnostic options](DIAGNOSTIC-OPTIONS.md) | Primary-document inventory of existing homebrew tests, SDK provenance flags and a bounded original-probe alternative |
 | [Startup and bootstrap](STARTUP.md) | Reset setup, decompiler omissions, copied kernel, service installation, optional expansion path and disc boot preparation |
 | [Kernel services](KERNEL-SERVICES.md) | Dispatch, event/thread records, exception discrimination, critical sections and context return; evidence classes remain separate |
 | [Selected heap initialization](HEAP-INITIALIZATION.md) | Initial A0:39 binding, five ordered stores, argument handling and leaf register/return properties; native policy and actual game occurrence remain separate |
