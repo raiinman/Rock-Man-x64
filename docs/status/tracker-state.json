@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "756058b790810ae1357d0947c2ad7915e4bbe045",
-    "committed_at": "2026-10-23T22:02:21Z",
-    "subject": "docs: refresh generated progress tracker",
-    "source": "Exact public GitHub commit metadata observed through the connector; no workflow execution inferred",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "sha": "3a448fbd605c0a118aa528ba31e86a69d00dae5f",
+    "committed_at": "2026-10-23T15:13:06-07:00",
+    "subject": "docs: record reviewed viewer recovery candidates and limits",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "3d2fdf424e3320224894e8335c488e37738d39730daab98bcaa816f96f516e20",
