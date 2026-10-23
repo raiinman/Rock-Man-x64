@@ -120,6 +120,7 @@ This is an index of private analysis records, not a public evidence bundle. Subj
 | `ev_9376b2606b01c5406301dbfa089af9575bfdf5b546285d78fd1eaaf14146ec75` | decoded-frontend | `read_function_instructions` | `0x80064c00` |
 | `ev_93bbaf368a31f66adc7f7ca78bb8870d18af2ebe0a44c0fc2e9a0e5b17fc6321` | kernel | `read_bytes` | `0x674` |
 | `ev_93e875d7d3b661e97178e2c636ae3beb529216cae08055d4a7356ffd92759ead` | ROM | `procedure_pseudo_code` | `0xbfc12ce8` |
+| `ev_9681c75e75a2ca2de0a32aad4f140d1935c8466b6260c54ef405273f9853f67d` | ROM | `read_function_instructions` | `0xbfc040ec` |
 | `ev_96e845f71e710db0d6752e506521b7c547f2c9bf23c3d69bcac34dfbecf5b129` | ROM | `read_function_instructions` | `0xbfc05e58` |
 | `ev_9915014938bc4078bccc1b1632481b9c6792edf372749325e3d26f3fcb2e6539` | decoded-frontend | `read_function_instructions` | `0x80061988` |
 | `ev_9a29ed66c9cdd7a44baed8058ce5a1f6f66b42de39bc549f9db60c03e73ce22f` | ROM | `xrefs` | `0x1f80104a` |

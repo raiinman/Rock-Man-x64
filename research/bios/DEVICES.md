@@ -64,6 +64,14 @@ The [pinned PSX-SPX GPU-function description](https://github.com/psx-spx/psx-spx
 
 **Native investigation proposal:** Once the actual game slice arrives, distinguish the no-DMA bit-28 wait, DMA busy-bit wait and post-DMA bit-26 wait. Preserve GP0 submission even when the synchronization return is ignored or negative. Confirm the dispatch binding, command word, GP0 parser state, preceding GP1/DMA state and result consumer before choosing a native policy. No implementation change or game acceptance is established here.
 
+### Returning timeout includes recovery before submission
+
+**Bounded independent decoding:** The timeout helper at ROM `0xbfc04260` reads GPU status, calls a reporting wrapper at `0xbfc018e0`, then calls recovery routine `0xbfc040ec` if reporting returns. The reporting wrapper itself calls `0xbfc00da0`; that further callee remains unaudited. The helper therefore must not be summarized as logging alone.
+
+**Retained REA instructions and independent decoding agree:** Recovery writes `0x00000401` to `0x1f8010a8`, followed in order by `0x04000000`, `0x02000000` and `0x01000000` to `0x1f801814`. The last store executes in the return delay slot. The [pinned GP1 command reference](https://github.com/psx-spx/psx-spx.github.io/blob/038d444bf28e8ac1b203667c7155eb80d8b7dec2/docs/ps1/gpu/display-control-commands-gp1.md) identifies the GPU commands as DMA direction off, interrupt acknowledgement and command-buffer reset. This is not the complete GPU-reset command; the DMA write is not a captured completion event. [G5, P1]
+
+Joining this path to the verified wrapper establishes a conditional sequence: returning diagnostic/recovery path, synchronization result `-1`, then the saved GP0 word submission. It does not establish that the actual game reaches timeout, reporting terminates, physical recovery succeeds or every callee preserves live registers. The three bounded helper bodies do not directly modify `s0`/`s1` and locally restore their frames, but preservation through the unaudited reporting callee remains open. Reporting also writes argument-area memory; a result-only substitute would omit more than a return value. No firmware execution or new REA import was performed for this audit.
+
 ### Minimal branch evidence for the selected synchronization routine
 
 The retained instructions support a smaller investigation than requiring every GPU status bit to be known. The table below is a proposed evidence checklist, conditional on the effective dispatch reaching this exact routine. It does not establish a current game state or authorize a synthetic ready value. [G4]
@@ -121,6 +129,7 @@ Only evidence identities and original conclusions belong in the public handoff. 
 - G2: `ev_7ffe124a27e772cc23443294cff7456dabd1bd7dd241b97c7ccae983c288df21` (read_function_instructions).
 - G3: `ev_78eb474075f934f7a3fb2a87c5148caa4f2db6ea77c0a27e5397961e43831258` (read_function_instructions).
 - G4: `ev_67fda4f6948b0c04d61463e1c1c2511683199c0e53e78e0c9d8ad7997ea8cb29` (read_function_instructions).
+- G5: `ev_9681c75e75a2ca2de0a32aad4f140d1935c8466b6260c54ef405273f9853f67d` (read_function_instructions, recovery leaf).
 - I1: `ev_9baf06425a4ae0cf617e5412470139b8dab5b2809cdd7d9cabc95b9dd0267319` (xrefs).
 - I2: `ev_36820f412dbe25f8c9fecc7dbe9af6012201fd409bc5ed38c83fed8cb8f2206c` (xrefs).
 - I3: `ev_e5a6c8d3ee73699d20772181de29306d2136211fb6199ff294360aa0f17d830d` (xrefs).
