@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1790" viewBox="0 0 1280 1790" role="img" aria-labelledby="title desc"><title id="title">Rock Man x64 findings 1–6</title><desc id="desc">Original explanatory documentation graphic. Every numbered finding has sources, evidence classification, why it matters and an explicit remaining unknown in the companion dashboard ledger.</desc>
+<rect x="0" y="0" width="1280" height="1790" rx="0" fill="#10171b"/>
+<text x="48" y="52" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#6ed5df" letter-spacing="2">RESEARCH + ENGINEERING / 01</text>
+<text x="48" y="110" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="700" fill="#f1ebdf">What has been reconstructed</text>
+<text x="48" y="151" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#a9b8bd">Six discoveries that changed the reconstruction — textures, poses, hierarchy and startup.</text>
+<rect x="48" y="191" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="48" y="191" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="75" y="226" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">01</text>
+<text x="114" y="226" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">ASSET + ORIGINAL-UPLOAD ANALYSIS</text>
+<text x="75" y="267" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">The texture layout was not linear</text>
+<text x="75" y="333" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">32 × 32</text>
+<text x="76" y="359" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">WORD / ROW SECTOR TILES</text>
+<text x="75" y="398" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">The first full-width texture interpretation was wrong.</text>
+<text x="75" y="423" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">Recovered upload traversal established tiled storage</text>
+<text x="75" y="448" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">instead.</text>
+<text x="75" y="495" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="75" y="522" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">A file can pass size checks while its pixels are decoded in the</text>
+<text x="75" y="546" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">wrong order. The decoder was corrected.</text>
+<path d="M75 577H601" stroke="#314047" stroke-width="1"/>
+<text x="75" y="603" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="198" y="603" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">These are custom repacked structures, not ordinary TIM</text>
+<text x="198" y="622" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">files or universal texture coverage.</text>
+<rect x="652" y="191" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="652" y="191" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="679" y="226" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">02</text>
+<text x="718" y="226" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">STATIC + COMPONENT EVIDENCE</text>
+<text x="679" y="267" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">The pose packing is mapped</text>
+<text x="679" y="333" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">456 → 48</text>
+<text x="680" y="359" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">INPUT-BIT VECTORS / OUTPUTS</text>
+<text x="679" y="398" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">Bit-origin reconstruction recovered sparse axes and an</text>
+<text x="679" y="423" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">overlapping-store effect in one packed pose helper.</text>
+<text x="679" y="495" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="679" y="522" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">There is a testable mapping behind the pose decoder, not</text>
+<text x="679" y="546" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">just a plausible-looking model.</text>
+<path d="M679 577H1205" stroke="#314047" stroke-width="1"/>
+<text x="679" y="603" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="802" y="603" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">A fixed-block check, not a complete animation system or</text>
+<text x="802" y="622" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">provenance clearance.</text>
+<rect x="48" y="696" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="48" y="696" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="75" y="731" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">03</text>
+<text x="114" y="731" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">COMPONENT / INSTRUCTION-ALGEBRA ORACLE</text>
+<text x="75" y="772" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">Sequence calls are not frames</text>
+<text x="75" y="838" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">262,144</text>
+<text x="76" y="864" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">TRANSITIONS CHECKED</text>
+<text x="75" y="903" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">The primary updater was checked against a separate</text>
+<text x="75" y="928" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">oracle. A zero duration expires after 256 update calls.</text>
+<text x="75" y="1000" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="75" y="1027" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">A repeating hold is not an end signal. Assuming a frame rate</text>
+<text x="75" y="1051" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">would change the animation semantics.</text>
+<path d="M75 1082H601" stroke="#314047" stroke-width="1"/>
+<text x="75" y="1108" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="198" y="1108" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">55 nonempty sequences are exposed; timing and a</text>
+<text x="198" y="1127" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">complete animation system are not established.</text>
+<rect x="652" y="696" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="652" y="696" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="679" y="731" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">04</text>
+<text x="718" y="731" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">STATIC + DECODER COMPARISON</text>
+<text x="679" y="772" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">Geometry is real; gameplay is not</text>
+<text x="679" y="838" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">8 / 854</text>
+<text x="680" y="864" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">PLACEMENTS / FOUR-CORNER FACES</text>
+<text x="679" y="903" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">A bounded environment decoder matched 863 reference</text>
+<text x="679" y="928" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">rows, retaining coordinates, UVs, flags and material</text>
+<text x="679" y="953" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">evidence.</text>
+<text x="679" y="1000" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="679" y="1027" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">The scene has structured reconstruction evidence beyond an</text>
+<text x="679" y="1051" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">isolated visual guess.</text>
+<path d="M679 1082H1205" stroke="#314047" stroke-width="1"/>
+<text x="679" y="1108" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="802" y="1108" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Visibility, broader orientations, collision and material</text>
+<text x="802" y="1127" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">semantics remain incomplete.</text>
+<rect x="48" y="1201" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="48" y="1201" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="75" y="1236" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">05</text>
+<text x="114" y="1236" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">STATIC + DIAGNOSTIC ASSEMBLY</text>
+<text x="75" y="1277" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">A character is more than loose parts</text>
+<text x="75" y="1343" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">15 / 18</text>
+<text x="76" y="1369" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">JOINTS / MESH PARTS</text>
+<text x="75" y="1408" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">Recovered hierarchy and part mapping support a</text>
+<text x="75" y="1433" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">diagnostic character with 317 vertices and 316 faces.</text>
+<text x="75" y="1505" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="75" y="1532" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">Part identities connect to a skeleton; duplicate render</text>
+<text x="75" y="1556" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">packets were workspaces, not extra faces.</text>
+<path d="M75 1587H601" stroke="#314047" stroke-width="1"/>
+<text x="75" y="1613" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="198" y="1613" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Transforms are approximate. Full animation and original</text>
+<text x="198" y="1632" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">GPU/GTE fidelity are not established.</text>
+<rect x="652" y="1201" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="652" y="1201" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="679" y="1236" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">06</text>
+<text x="718" y="1236" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">STATIC STARTUP + RESOURCE ANALYSIS</text>
+<text x="679" y="1277" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">The first inspected map is not boot</text>
+<text x="679" y="1343" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">ST01</text>
+<text x="680" y="1369" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">SCENE 1 / SUBSCENE 0</text>
+<text x="679" y="1408" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">The zero-state startup path resolves to ST01. Its</text>
+<text x="679" y="1433" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">established direct order is INIT_DAT → DEMO_DAT →</text>
+<text x="679" y="1458" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">ST01.</text>
+<text x="679" y="1505" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="679" y="1532" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">The earlier ST1C environment cannot be substituted for the</text>
+<text x="679" y="1556" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">first startup scene or called a title screen.</text>
+<path d="M679 1587H1205" stroke="#314047" stroke-width="1"/>
+<text x="679" y="1613" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="802" y="1613" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">This is not the complete dependency set, an executed</text>
+<text x="802" y="1632" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">native scene or a boot result.</text>
+<path d="M48 1730H1232" stroke="#314047" stroke-width="1"/>
+<text x="48" y="1761" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Numbers identify bounded evidence, not feature-completion scores. Open the companion ledger for every source.</text>
+</svg>

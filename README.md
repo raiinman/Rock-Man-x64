@@ -1,37 +1,41 @@
 # Rock Man x64
 
-An independent effort toward a native Windows x64 implementation of Mega Man Legends 1 (MML1) with an integrated IDE/editor, accompanied by a public record of its research, decisions, experiments, and validation limits. The game and complete IDE/editor are targets, not finished capabilities.
+An independent effort toward a **native Windows x64 Mega Man Legends 1 + integrated IDE/editor**. The goal is not finished: **native game boot is not established, and the production S2 controller remains NO-GO.**
 
-**This repository contains documentation and research metadata—not a game, source release, or build distribution.** A private prototype exists, but no playable game or native game boot has been established. No original game assets or prototype implementation are uploaded here.
+This public repository contains documentation, research metadata and original explanatory graphics—not the private prototype, game assets, a source release or a playable build.
 
-## Read the project record
+## Where we are · 2026-10-23
 
-- **[Documentation guide](docs/README.md)** — start-to-current history, technical architecture, evidence levels, and the current handoff.
-- **[Project history](docs/history/README.md)** — how the goal and approach developed, what changed, and why.
-- **[Technical documentation](docs/technical/architecture.md)** — the investigated pipeline, component boundaries, and known limitations.
-- **[Current status](docs/status/current-status.md)** — completed validation versus the unfinished candidate, blockers, and next steps.
-- **[PS1 research library](research/README.md)** — a separate source catalog and investigation agenda, including [native Windows research guidance](research/NATIVE-WINDOWS-HANDOFF.md). A reference catalog is not evidence that a game feature works.
+[![Eight evidence-stage progress bars: bounded Windows evidence for mode-00 and the frozen viewer; Linux-only graphics, capture, mailbox and loader evidence; S2 source-review NO-GO. No full game or IDE acceptance.](docs/status/visuals/progress-dashboard.svg)](docs/status/dashboard.md#evidence-tracks)
 
-## Current checkpoint — 2026-10-23 hourly update
+**Filled segments are evidence classes, not percent complete.** [Read the exact scopes, sources and unknowns →](docs/status/dashboard.md)
 
-The native **mode-00 stage passed all 69 actual Windows cases**: 39 expected successes and 30 intentional refusals, including 40 complete CLI JSON comparisons. It reaches a genuine source return before stopping at the unsupported graphics-startup continuation. The fixed private validation payload remains unchanged; later acceptance is recorded separately, not by rewriting historical metadata. This is not a public or final game release.
+## What we actually learned
 
-The IDE's **Source bytes/Back feature passed 50 actual Windows synthetic command/state checks**; visual QA remains blocked before launch. All four combined Linux phases are now accepted: **16 aggregate/source-test stages, 69 regression cases, 19 connected cases and 29 targeted allocation checkpoints**. Bounded owned startup capture also passed **four cases, 60 captures and 253 allocation-failure injections**—not full private-state introspection or a live debugger.
+[![Six reconstruction discoveries: tiled texture storage, packed pose mapping, update-call sequence semantics, bounded environment geometry, character hierarchy and the ST01 startup distinction.](docs/status/visuals/findings-01.svg)](docs/status/dashboard.md#reconstruction-findings)
 
-A bounded **actual Linux export/import** now passed: one private captured artifact was imported into the portable display model. A later unchanged frozen Windows viewer passed all 111 synthetic HWND/command/state checks in a separately approved context. The earlier default-context 36-pass/check-37-failure/74-unrun result remains historical evidence; pixels, standalone operation and actual-capture display remain unverified. A separate standalone-viewer host-function lifecycle passed 23 Windows synthetic checks, not the real launcher or pixels. The earlier loader-prefix-only run stopped at A0:39. Later native-policy heap and 13-instruction continuation compatibility runs are accepted, stopping before the initializer; BIOS effects and inherited GPU state remain unresolved. A further initializer candidate is synthetic-tested only, with execution blocked pending review. Graphics still stops at **A0:49**, with no GPU initialization, game boot or playback claim. See [validation history](docs/history/validation-history.md).
+**[Six more important findings →](docs/status/dashboard.md#frontier-findings)** — native heap policy versus BIOS effects, honest snapshots, executed original-game emulator research, A0:49's unresolved effects, and why cancellation is not safe shutdown.
 
-The [status record](docs/status/current-status.md) carries the detailed boundaries. Cross-compilation is not Windows execution; synthetic and component tests are not game boot; decoded assets are not gameplay.
+## Follow the evidence
 
-## How to read the evidence
+| I want… | Go here |
+|---|---|
+| Every visual claim, its source and its limit | [Dashboard evidence ledger](docs/status/dashboard.md) |
+| Exact current blockers and test scopes | [Current status](docs/status/current-status.md) · [Validation](docs/status/validation.md) |
+| The full story, including failures and corrections | [Project history](docs/history/README.md) |
+| Architecture and investigated capabilities | [Technical guide](docs/technical/architecture.md) · [Capability matrix](docs/technical/capability-matrix.md) |
+| PS1 research and its implementation restrictions | [Research library](research/README.md) · [Provenance review](research/bios/PROVENANCE-REVIEW.md) |
 
-The project documentation summarizes private work in sanitized prose. Its reported private results cannot be independently reproduced from this documentation-only repository. Proposed designs, implemented components, test environments, confirmed milestones, and pending work are kept distinct. The public research library records reference provenance and gaps independently; it was not itself an inspection of the private prototype.
+Private results are summarized in sanitized prose and are **not independently reproducible from this repository**. Executed emulator research is not native-game boot. Source references, test oracles and implementation lineage remain separate; PSX-SPX is a restricted-provenance research reference, not cleared implementation authority. Independent implementation is the project constraint, not a legally certified clean-room claim.
 
-After an initial comparison of existing-project descriptions and approaches, the project adopted an independent-implementation constraint: no existing port, mod, or recompilation implementation reuse, and no other game decompilations or emulator implementations as construction references. The history records that decision rather than claiming no external projects were ever considered. This is not a formal or legally certified clean-room claim. Original game content, BIOS bytes, proprietary SDK code, and private validation packages are excluded.
+<details>
+<summary>Documentation maintenance and DOX licensing</summary>
 
-## Documentation maintenance and licensing
 
 Read [AGENTS.md](AGENTS.md) and the relevant child contract before editing. Preserve history and evidence limits when updating the current status; do not turn a component success into a completion claim.
 
 The documentation hierarchy is adapted from [raiinman/dox](https://github.com/raiinman/dox) at commit [b88194c34ace1a2a3dc01831d36b8a65986a41f5](https://github.com/raiinman/dox/commit/b88194c34ace1a2a3dc01831d36b8a65986a41f5). Its project-specific indexes replace the source repository's indexes and artwork rules.
 
 DOX copyright (c) 2026 Agent Zero; its MIT license is preserved verbatim in [DOX-LICENSE](DOX-LICENSE). That notice is for the imported DOX framework, not a newly granted license for the whole project or third-party game content.
+
+</details>

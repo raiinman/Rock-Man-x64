@@ -12,7 +12,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Local Contracts
 
-- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation only.
+- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized status dashboard also accepts original static SVG explanations and sanitized JSON evidence metadata. These do not authorize implementation code, game assets, private runtime captures or services.
 - Use sanitized original summaries, not raw private logs, transcripts, code excerpts, or extracted content.
 - Separate the current checkpoint from historical stages. Preserve failed approaches and corrections in history while removing stale claims from current summaries.
 - Describe private results as reported evidence with explicit scope; the public repository does not contain the inputs or implementation needed to reproduce them.
@@ -21,14 +21,14 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Work Guidance
 
-- Keep the root overview short and direct readers to this index; put durable detail in the owning child subtree.
+- Keep the root overview visual-first and short; use evidence-stage bars and curated findings, link the complete ledger, and put durable detail in the owning child subtree. Do not convert uneven workstreams or test counts into a game-completion percentage.
 - Update status, relevant technical limitations, and history together when a milestone or correction changes the project record.
 - Keep dates and milestone labels explicit. Do not invent timestamps or turn planned work into completed history.
 - A documentation update does not authorize resuming development or publishing private artifacts.
 
 ## Verification
 
-- Review the exact changed file list and Markdown content against the public-content boundary.
+- Review the exact changed file list, Markdown, metadata and graphics against the public-content boundary. Render static graphics and inspect all text, stage labels, counts and caveats; reject executable SVG content and external embeds.
 - Check internal links against the assembled repository tree, refresh Child DOX Index entries, and check whitespace.
 - Review milestone numbers and validation labels for consistency across root overview, history, technical pages, and current status.
 - Preserve untouched research and DOX license blobs when publishing; verify exact remote contents after the commit.

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-23",
+  "base_commit": "e32df907d72f65e0067a0b56ad56c1f65bb74de7",
+  "scope": "Documentation-only evidence snapshot, not a game-completion percentage. Includes separately labeled source-only load/host-I/O reviews.",
+  "stages": [
+    "Source review",
+    "Synthetic/component",
+    "Linux execution",
+    "Windows execution",
+    "Full game/IDE acceptance"
+  ],
+  "stage_values": {
+    "0": "No acceptance claimed here",
+    "1": "Bounded evidence exists; see scope and citation",
+    "2": "Review completed with NO-GO result"
+  },
+  "workstreams": [
+    {
+      "name": "Native CD mode-00",
+      "detail": "69 Windows cases · 30 intentional refusals",
+      "stages": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source": "docs/status/current-status.md#accepted-native-windows-mode-00-stage",
+      "limit": "Stops at the unsupported graphics-startup continuation."
+    },
+    {
+      "name": "Graphics diagnostic",
+      "detail": "19 connected Linux cases · A0:49 pending",
+      "stages": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "docs/status/current-status.md#diagnostic-continuation-bounded-linux-acceptance",
+      "limit": "No Windows parity or GPU initialization established."
+    },
+    {
+      "name": "Owned startup capture",
+      "detail": "60 captures · 253 allocation-failure injections",
+      "stages": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "docs/status/current-status.md#bounded-actual-owned-capture",
+      "limit": "Bounded Linux/UBSan owner observations, not a live debugger."
+    },
+    {
+      "name": "Export + frozen viewer",
+      "detail": "Linux model import / 111 Windows synthetic checks",
+      "stages": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source": "docs/status/current-status.md#separately-approved-windows-viewer-result",
+      "limit": "Different bounded Linux/Windows scopes; no actual-capture GUI display or pixel acceptance."
+    },
+    {
+      "name": "Source bytes / Back",
+      "detail": "50 Windows synthetic command/state checks",
+      "stages": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "source": "docs/status/current-status.md#combined-candidate-and-ide-update",
+      "limit": "No Linux execution claim in this row; visual preflight blocked before launch."
+    },
+    {
+      "name": "Mailbox + observer",
+      "detail": "12 mailbox + 10 observer scenarios · Linux only",
+      "stages": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance",
+      "limit": "Data-only channel; no Windows or native-controller integration."
+    },
+    {
+      "name": "Loader continuation",
+      "detail": "Native policy · stops before the initializer",
+      "stages": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance",
+      "limit": "No BIOS equivalence; later initializer remains synthetic-only and execution-blocked."
+    },
+    {
+      "name": "S2 live IDE controller",
+      "detail": "Source review complete · production admission NO-GO",
+      "stages": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go",
+      "limit": "Load termination, owner retirement, stop/fault and real UI/capture integration remain unresolved."
+    }
+  ],
+  "findings": [
+    {
+      "id": "01",
+      "title": "The texture layout was not linear",
+      "metric": "32 × 32",
+      "unit": "WORD / ROW SECTOR TILES",
+      "class": "ASSET + ORIGINAL-UPLOAD ANALYSIS",
+      "found": "The first full-width texture interpretation was wrong. Recovered upload traversal established tiled storage instead.",
+      "why": "A file can pass size checks while its pixels are decoded in the wrong order. The decoder was corrected.",
+      "unknown": "These are custom repacked structures, not ordinary TIM files or universal texture coverage.",
+      "sources": [
+        "docs/history/milestones.md#4-recover-textures-and-local-model-parts",
+        "docs/technical/architecture.md#assets-and-rendering"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The pose packing is mapped",
+      "metric": "456 → 48",
+      "unit": "INPUT-BIT VECTORS / OUTPUTS",
+      "class": "STATIC + COMPONENT EVIDENCE",
+      "found": "Bit-origin reconstruction recovered sparse axes and an overlapping-store effect in one packed pose helper.",
+      "why": "There is a testable mapping behind the pose decoder, not just a plausible-looking model.",
+      "unknown": "A fixed-block check, not a complete animation system or provenance clearance.",
+      "sources": [
+        "docs/history/milestones.md#6-reconstruct-diagnostic-character-poses-and-sequence-stepping",
+        "docs/technical/capability-matrix.md"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Sequence calls are not frames",
+      "metric": "262,144",
+      "unit": "TRANSITIONS CHECKED",
+      "class": "COMPONENT / INSTRUCTION-ALGEBRA ORACLE",
+      "found": "The primary updater was checked against a separate oracle. A zero duration expires after 256 update calls.",
+      "why": "A repeating hold is not an end signal. Assuming a frame rate would change the animation semantics.",
+      "unknown": "55 nonempty sequences are exposed; timing and a complete animation system are not established.",
+      "sources": [
+        "docs/history/milestones.md#6-reconstruct-diagnostic-character-poses-and-sequence-stepping"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Geometry is real; gameplay is not",
+      "metric": "8 / 854",
+      "unit": "PLACEMENTS / FOUR-CORNER FACES",
+      "class": "STATIC + DECODER COMPARISON",
+      "found": "A bounded environment decoder matched 863 reference rows, retaining coordinates, UVs, flags and material evidence.",
+      "why": "The scene has structured reconstruction evidence beyond an isolated visual guess.",
+      "unknown": "Visibility, broader orientations, collision and material semantics remain incomplete.",
+      "sources": [
+        "docs/history/milestones.md#7-recover-a-static-environment-then-distinguish-it-from-startup",
+        "docs/technical/capability-matrix.md"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "A character is more than loose parts",
+      "metric": "15 / 18",
+      "unit": "JOINTS / MESH PARTS",
+      "class": "STATIC + DIAGNOSTIC ASSEMBLY",
+      "found": "Recovered hierarchy and part mapping support a diagnostic character with 317 vertices and 316 faces.",
+      "why": "Part identities connect to a skeleton; duplicate render packets were workspaces, not extra faces.",
+      "unknown": "Transforms are approximate. Full animation and original GPU/GTE fidelity are not established.",
+      "sources": [
+        "docs/history/milestones.md#6-reconstruct-diagnostic-character-poses-and-sequence-stepping",
+        "docs/history/milestones.md#4-recover-textures-and-local-model-parts"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "The first inspected map is not boot",
+      "metric": "ST01",
+      "unit": "SCENE 1 / SUBSCENE 0",
+      "class": "STATIC STARTUP + RESOURCE ANALYSIS",
+      "found": "The zero-state startup path resolves to ST01. Its established direct order is INIT_DAT → DEMO_DAT → ST01.",
+      "why": "The earlier ST1C environment cannot be substituted for the first startup scene or called a title screen.",
+      "unknown": "This is not the complete dependency set, an executed native scene or a boot result.",
+      "sources": [
+        "docs/history/milestones.md#7-recover-a-static-environment-then-distinguish-it-from-startup"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Native policy is not BIOS equivalence",
+      "metric": "5 stores",
+      "unit": "STATIC HEAP-SERVICE EFFECTS",
+      "class": "FIRMWARE STATIC / NATIVE-POLICY CONTRAST",
+      "found": "Selected A0:39 analysis reports five ordered word stores. The accepted native heap policy deliberately preserves guest RAM.",
+      "why": "A passing native-policy test does not prove the original firmware performed the same effects.",
+      "unknown": "Actual game-time dispatch, allocator invariants and inherited GPU state remain unresolved.",
+      "sources": [
+        "docs/status/current-status.md#new-static-heap-evidence-does-not-establish-equivalence",
+        "research/bios/HEAP-INITIALIZATION.md#arguments-and-ordered-memory-effects",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Observe without inventing a step",
+      "metric": "60 + 253",
+      "unit": "CAPTURES + INJECTED FAILURES",
+      "class": "ACTUAL OWNED CAPTURE · LINUX/UBSAN",
+      "found": "A four-case envelope captured bounded owner state, including the actual pending A0:49 request.",
+      "why": "Inspection can report where execution stopped without pretending the pending service completed.",
+      "unknown": "Fingerprints are not full-state introspection. No Windows capture or live-debugger acceptance.",
+      "sources": [
+        "docs/status/current-status.md#bounded-actual-owned-capture"
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Old data is allowed to look old",
+      "metric": "10 + 12",
+      "unit": "OBSERVER + MAILBOX SCENARIOS",
+      "class": "LINUX SYNTHETIC · THREE BUILD MODES",
+      "found": "Delayed wakes recover sampled data; failed observations retain explicit stale/as-of labels without replaying requests.",
+      "why": "An old snapshot must never silently masquerade as current runtime state.",
+      "unknown": "Mode repetitions are not unique tests. No timing guarantee, LeakSanitizer pass or native-owner retirement.",
+      "sources": [
+        "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance",
+        "docs/status/validation.md#observer-candidate-validation--october-23"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "The original game reached story",
+      "metric": "EXECUTED",
+      "unit": "EMULATOR RESEARCH — NOT NATIVE",
+      "class": "EXECUTED EMULATOR RESEARCH",
+      "found": "An author-reported emulator capture progressed past loading into the opening story, with observed entry and caller boundaries.",
+      "why": "This is executed reference research, not merely a catalog of manuals or a static hypothesis.",
+      "unknown": "Not native-port boot, physical-console proof, complete gameplay or implementation clearance.",
+      "sources": [
+        "research/bios/ORIGINAL-GAME-STARTUP.md#past-loading-capture-and-first-call-detail",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "A0:49 is not a safe no-op",
+      "metric": "OPEN",
+      "unit": "NATIVE SERVICE / GPU FRONTIER",
+      "class": "STATIC + BOUNDED EMULATOR OBSERVATION",
+      "found": "Research observed GPU-access callbacks before a context-matched caller return; access payloads remain unknown.",
+      "why": "Ignoring a return value does not mean the call had no effects. A success constant would invent state.",
+      "unknown": "Effective dispatch, full ABI, GPU history and current native binding remain open.",
+      "sources": [
+        "research/bios/ORIGINAL-GAME-STARTUP.md#caller-focused-follow-up",
+        "research/bios/ORIGINAL-GAME-STARTUP.md#original-input-and-caller-correlation",
+        "docs/status/current-status.md#evidence-limits-and-next-steps"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Cancel requested ≠ work retired",
+      "metric": "S2 NO-GO",
+      "unit": "LOAD / OWNER / SHUTDOWN GATES",
+      "class": "SOURCE + PRIMARY-DOCUMENT REVIEW ONLY",
+      "found": "New load and host-I/O reviews separate cancellation intent, actual completion, resource settlement and execution retirement.",
+      "why": "A timeout or an overlapped handle cannot be relabeled as a safe, bounded shutdown.",
+      "unknown": "No admitted production backend, controller implementation or new Windows test. L1/P1 remain unmet.",
+      "sources": [
+        "docs/status/dashboard.md#12-cancel-requested-is-not-work-retired",
+        "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go",
+        "https://learn.microsoft.com/en-us/windows/win32/api/ioapiset/nf-ioapiset-cancelioex",
+        "https://learn.microsoft.com/en-us/windows/win32/fileio/synchronous-and-asynchronous-i-o"
+      ]
+    }
+  ],
+  "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority."
+}

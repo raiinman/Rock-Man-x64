@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1790" viewBox="0 0 1280 1790" role="img" aria-labelledby="title desc"><title id="title">Rock Man x64 findings 7–12</title><desc id="desc">Original explanatory documentation graphic. Every numbered finding has sources, evidence classification, why it matters and an explicit remaining unknown in the companion dashboard ledger.</desc>
+<rect x="0" y="0" width="1280" height="1790" rx="0" fill="#10171b"/>
+<text x="48" y="52" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#6ed5df" letter-spacing="2">RESEARCH + ENGINEERING / 02</text>
+<text x="48" y="110" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="700" fill="#f1ebdf">Where the hard boundaries are</text>
+<text x="48" y="151" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#a9b8bd">Observation, executed research and the exact reasons the next stage stays gated.</text>
+<rect x="48" y="191" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="48" y="191" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="75" y="226" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">07</text>
+<text x="114" y="226" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">FIRMWARE STATIC / NATIVE-POLICY CONTRAST</text>
+<text x="75" y="267" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">Native policy is not BIOS equivalence</text>
+<text x="75" y="333" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">5 stores</text>
+<text x="76" y="359" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">STATIC HEAP-SERVICE EFFECTS</text>
+<text x="75" y="398" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">Selected A0:39 analysis reports five ordered word stores.</text>
+<text x="75" y="423" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">The accepted native heap policy deliberately preserves</text>
+<text x="75" y="448" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">guest RAM.</text>
+<text x="75" y="495" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="75" y="522" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">A passing native-policy test does not prove the original</text>
+<text x="75" y="546" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">firmware performed the same effects.</text>
+<path d="M75 577H601" stroke="#314047" stroke-width="1"/>
+<text x="75" y="603" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="198" y="603" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Actual game-time dispatch, allocator invariants and</text>
+<text x="198" y="622" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">inherited GPU state remain unresolved.</text>
+<rect x="652" y="191" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="652" y="191" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="679" y="226" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">08</text>
+<text x="718" y="226" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">ACTUAL OWNED CAPTURE · LINUX/UBSAN</text>
+<text x="679" y="267" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">Observe without inventing a step</text>
+<text x="679" y="333" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">60 + 253</text>
+<text x="680" y="359" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">CAPTURES + INJECTED FAILURES</text>
+<text x="679" y="398" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">A four-case envelope captured bounded owner state,</text>
+<text x="679" y="423" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">including the actual pending A0:49 request.</text>
+<text x="679" y="495" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="679" y="522" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">Inspection can report where execution stopped without</text>
+<text x="679" y="546" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">pretending the pending service completed.</text>
+<path d="M679 577H1205" stroke="#314047" stroke-width="1"/>
+<text x="679" y="603" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="802" y="603" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Fingerprints are not full-state introspection. No Windows</text>
+<text x="802" y="622" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">capture or live-debugger acceptance.</text>
+<rect x="48" y="696" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="48" y="696" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="75" y="731" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">09</text>
+<text x="114" y="731" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">LINUX SYNTHETIC · THREE BUILD MODES</text>
+<text x="75" y="772" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">Old data is allowed to look old</text>
+<text x="75" y="838" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">10 + 12</text>
+<text x="76" y="864" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">OBSERVER + MAILBOX SCENARIOS</text>
+<text x="75" y="903" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">Delayed wakes recover sampled data; failed observations</text>
+<text x="75" y="928" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">retain explicit stale/as-of labels without replaying</text>
+<text x="75" y="953" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">requests.</text>
+<text x="75" y="1000" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="75" y="1027" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">An old snapshot must never silently masquerade as current</text>
+<text x="75" y="1051" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">runtime state.</text>
+<path d="M75 1082H601" stroke="#314047" stroke-width="1"/>
+<text x="75" y="1108" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="198" y="1108" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Mode repetitions are not unique tests. No timing</text>
+<text x="198" y="1127" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">guarantee, LeakSanitizer pass or native-owner</text>
+<text x="198" y="1146" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">retirement.</text>
+<rect x="652" y="696" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="652" y="696" width="5" height="481" rx="2" fill="#6ed5df"/>
+<text x="679" y="731" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">10</text>
+<text x="718" y="731" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">EXECUTED EMULATOR RESEARCH</text>
+<text x="679" y="772" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">The original game reached story</text>
+<text x="679" y="838" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#6ed5df">EXECUTED</text>
+<text x="680" y="864" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">EMULATOR RESEARCH — NOT NATIVE</text>
+<text x="679" y="903" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">An author-reported emulator capture progressed past</text>
+<text x="679" y="928" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">loading into the opening story, with observed entry and</text>
+<text x="679" y="953" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">caller boundaries.</text>
+<text x="679" y="1000" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="679" y="1027" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">This is executed reference research, not merely a catalog of</text>
+<text x="679" y="1051" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">manuals or a static hypothesis.</text>
+<path d="M679 1082H1205" stroke="#314047" stroke-width="1"/>
+<text x="679" y="1108" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="802" y="1108" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Not native-port boot, physical-console proof, complete</text>
+<text x="802" y="1127" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">gameplay or implementation clearance.</text>
+<rect x="48" y="1201" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="48" y="1201" width="5" height="481" rx="2" fill="#efb765"/>
+<text x="75" y="1236" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">11</text>
+<text x="114" y="1236" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">STATIC + BOUNDED EMULATOR OBSERVATION</text>
+<text x="75" y="1277" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">A0:49 is not a safe no-op</text>
+<text x="75" y="1343" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#efb765">OPEN</text>
+<text x="76" y="1369" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">NATIVE SERVICE / GPU FRONTIER</text>
+<text x="75" y="1408" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">Research observed GPU-access callbacks before a</text>
+<text x="75" y="1433" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">context-matched caller return; access payloads remain</text>
+<text x="75" y="1458" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">unknown.</text>
+<text x="75" y="1505" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="75" y="1532" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">Ignoring a return value does not mean the call had no</text>
+<text x="75" y="1556" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">effects. A success constant would invent state.</text>
+<path d="M75 1587H601" stroke="#314047" stroke-width="1"/>
+<text x="75" y="1613" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="198" y="1613" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Effective dispatch, full ABI, GPU history and current</text>
+<text x="198" y="1632" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">native binding remain open.</text>
+<rect x="652" y="1201" width="580" height="481" rx="9" fill="#182126" stroke="#314047"/>
+<rect x="652" y="1201" width="5" height="481" rx="2" fill="#efb765"/>
+<text x="679" y="1236" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#6ed5df">12</text>
+<text x="718" y="1236" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#a9b8bd" letter-spacing="0.6">SOURCE + PRIMARY-DOCUMENT REVIEW ONLY</text>
+<text x="679" y="1277" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#f1ebdf">Cancel requested ≠ work retired</text>
+<text x="679" y="1343" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#efb765">S2 NO-GO</text>
+<text x="680" y="1369" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd" letter-spacing="0.8">LOAD / OWNER / SHUTDOWN GATES</text>
+<text x="679" y="1408" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">New load and host-I/O reviews separate cancellation</text>
+<text x="679" y="1433" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">intent, actual completion, resource settlement and</text>
+<text x="679" y="1458" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#f1ebdf">execution retirement.</text>
+<text x="679" y="1505" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#6ed5df" letter-spacing="1">WHY IT MATTERS</text>
+<text x="679" y="1532" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">A timeout or an overlapped handle cannot be relabeled as a</text>
+<text x="679" y="1556" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">safe, bounded shutdown.</text>
+<path d="M679 1587H1205" stroke="#314047" stroke-width="1"/>
+<text x="679" y="1613" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#efb765" letter-spacing="1">STILL UNKNOWN</text>
+<text x="802" y="1613" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">No admitted production backend, controller</text>
+<text x="802" y="1632" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">implementation or new Windows test. L1/P1 remain</text>
+<text x="802" y="1651" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">unmet.</text>
+<path d="M48 1730H1232" stroke="#314047" stroke-width="1"/>
+<text x="48" y="1761" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#a9b8bd">Numbers identify bounded evidence, not feature-completion scores. Open the companion ledger for every source.</text>
+</svg>
