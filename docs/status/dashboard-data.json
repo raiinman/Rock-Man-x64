@@ -407,17 +407,30 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-23",
-    "review_id": "2026-10-23-viewer-reliability-01",
-    "reviewed_through_commit": "756058b790810ae1357d0947c2ad7915e4bbe045",
-    "summary": "Reviewed isolated UI fallback and retained-completion candidates plus the linked private viewer. Linux synthetic/source and cross-link evidence only; Windows execution and all accepted milestone counts unchanged."
+    "review_id": "2026-10-23-pages-tracker-01",
+    "reviewed_through_commit": "d970fa6f2ea4ab17673251fc7ee9d54acee9c60f",
+    "summary": "Reviewed the original read-only documentation UI and chained Pages delivery with offline source/artifact checks. Hosting authentication/configuration and actual browser acceptance remain pending; native capabilities and all milestone counts are unchanged."
   },
   "overview": {
     "now": "A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.",
-    "changed": "Added low-memory UI fallback and retained-result recovery after refused notification; corrected a review-discovered queue-drain defect before acceptance.",
-    "why": "A reporting failure or lost wake should not erase the import outcome. These bounded checks do not prove Windows UI behavior or game progress.",
-    "next": "Obtain permitted Windows launch, UI/timer and import validation. Preserve bounded-close, S2, initializer and implementation-provenance gates."
+    "changed": "Added a spacious interactive tracker and a checked Pages delivery chain that uses the final generated data. Hosting setup and actual public/browser verification are still pending.",
+    "why": "The same reviewed milestones, findings and changes are easier to explore without duplicating evidence or pretending that website delivery advances the native game.",
+    "next": "Complete the approved Pages setup after secure authentication, verify the actual public artifact and browser behavior, and keep native Windows validation and S2/provenance gates separate."
   },
   "updates": [
+    {
+      "id": "interactive-pages-tracker-01",
+      "date": "2026-10-23",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Added the original read-only interactive tracker and reviewed updater-to-build-to-Pages sequencing. Source, mock-DOM and artifact checks pass; actual hosting and browser acceptance are pending.",
+      "why": "Large milestone cards, filters, exact criteria and a separate change history make progress easier to understand. A post-updater snapshot avoids silently publishing stale evidence.",
+      "next": "Finish approved Pages authentication/configuration and verify the actual workflow, public snapshot and browser behavior. Do not promote any native milestone for this documentation UI.",
+      "evidence": [
+        "docs/web/README.md",
+        "docs/web/DEPLOYMENT.md"
+      ]
+    },
     {
       "id": "viewer-importer-reliability-01",
       "date": "2026-10-23",
@@ -1082,6 +1095,68 @@
       "date": "2026-10-23",
       "basis_commit": "756058b790810ae1357d0947c2ad7915e4bbe045",
       "note": "Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-23-pages-tracker-01",
+      "date": "2026-10-23",
+      "basis_commit": "d970fa6f2ea4ab17673251fc7ee9d54acee9c60f",
+      "note": "Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta.",
       "checklists": [
         {
           "id": "inspection",

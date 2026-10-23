@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-viewer-reliability-01` · [reviewed basis 756058b](https://github.com/raiinman/Rock-Man-x64/commit/756058b790810ae1357d0947c2ad7915e4bbe045).
+**Last evidence review:** 2026-10-23 · `2026-10-23-pages-tracker-01` · [reviewed basis d970fa6](https://github.com/raiinman/Rock-Man-x64/commit/d970fa6f2ea4ab17673251fc7ee9d54acee9c60f).
 **Latest repository change observed:** [3a448fb](https://github.com/raiinman/Rock-Man-x64/commit/3a448fbd605c0a118aa528ba31e86a69d00dae5f) · 2026-10-23T15:13:06-07:00 — docs: record reviewed viewer recovery candidates and limits.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -164,17 +164,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-viewer-reliability-01` | s2 v1 | 0 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
 | 2026-10-23 · `2026-10-23-viewer-reliability-01` | boot v1 | 0 / 1 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
 | 2026-10-23 · `2026-10-23-viewer-reliability-01` | roadmap v1 | 5 / 20 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | inspection v1 | 4 / 7 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | observation v1 | 2 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | loader v1 | 3 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | s2 v1 | 0 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | boot v1 | 0 / 1 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | roadmap v1 | 5 / 20 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
 
 
 ## Current explanation
 
 **Now:** A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.
 
-**Changed:** Added low-memory UI fallback and retained-result recovery after refused notification; corrected a review-discovered queue-drain defect before acceptance.
+**Changed:** Added a spacious interactive tracker and a checked Pages delivery chain that uses the final generated data. Hosting setup and actual public/browser verification are still pending.
 
-**Why:** A reporting failure or lost wake should not erase the import outcome. These bounded checks do not prove Windows UI behavior or game progress.
+**Why:** The same reviewed milestones, findings and changes are easier to explore without duplicating evidence or pretending that website delivery advances the native game.
 
-**Next:** Obtain permitted Windows launch, UI/timer and import validation. Preserve bounded-close, S2, initializer and implementation-provenance gates.
+**Next:** Complete the approved Pages setup after secure authentication, verify the actual public artifact and browser behavior, and keep native Windows validation and S2/provenance gates separate.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "3d2fdf424e3320224894e8335c488e37738d39730daab98bcaa816f96f516e20",
+  "evidence_data_sha256": "1d8d64fad21eb4c57f72c6259b4dba7d6391a658bee25fc99d75e50cf8a08946",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "1e8de53ef546ff07b28a399e35ccb6aa4604d9520a525a4f1ef3dd4e5c477be2",
-  "evidence_review_id": "2026-10-23-viewer-reliability-01",
+  "reviewed_stage_sha256": "1f9d0a29396c2e10696b9fb17c43835491069728e18ccfc7e1b913ff3f5bb936",
+  "evidence_review_id": "2026-10-23-pages-tracker-01",
   "evidence_review_date": "2026-10-23",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -49,6 +49,7 @@
   "recorded_observation_hashes": [
     "3a9189dd0f3cdc53c9565337bc8701731ac0d2a5b650713be0b7a4b5f5247fab",
     "184eff307e41daccf32fe69597b4115933ba965530050769a0aeba109aec971f",
-    "5716ba8b68cc3b8619acce6e655f74110bc758021d99c5cbeea31b9c16684139"
+    "5716ba8b68cc3b8619acce6e655f74110bc758021d99c5cbeea31b9c16684139",
+    "ab6702be16866d06483d4c7123eecc22a03bc5c6fb25706b857beb0daa7c1ba8"
   ]
 }

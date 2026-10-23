@@ -2,16 +2,16 @@
 
 ## Purpose
 
-Own the single user-approved living-tracker workflow without expanding project infrastructure or publication permissions.
+Own the user-approved documentation updater and chained public-tracker Pages delivery, without expanding into game builds or unrelated infrastructure.
 
 ## Ownership
 
-- `workflows/AGENTS.md` owns the exact updater trigger, credentials, output and race boundaries.
+- `workflows/AGENTS.md` owns the exact updater/build/deploy triggers, job credentials, output and race boundaries.
 - Root contracts own public content and the user's authorization. Documentation contracts own evidence and tooling.
 
 ## Local Contracts
 
-- Only the approved docs-only tracker updater is in scope. No game builds, deployments, services, secret creation, repository settings, branch-protection changes or new workflows.
+- Only the approved docs-only tracker updater and its chained static-tracker Pages delivery are in scope. Required Pages source/environment configuration is authorized; preserve existing protections. No game builds, other deployments/services, secret creation, unrelated repository settings, branch-protection changes or additional workflow routes.
 - Do not broaden permissions or use a different token/route if a remote operation is blocked. Report the exact action and owner decision needed.
 
 ## Work Guidance
@@ -24,4 +24,4 @@ Own the single user-approved living-tracker workflow without expanding project i
 
 ## Child DOX Index
 
-- [workflows/AGENTS.md](workflows/AGENTS.md) owns `update-progress.yml`.
+- [workflows/AGENTS.md](workflows/AGENTS.md) owns `update-progress.yml`, including its three strictly separated jobs.

@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-23 · interactive-pages-tracker-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Added the original read-only interactive tracker and reviewed updater-to-build-to-Pages sequencing. Source, mock-DOM and artifact checks pass; actual hosting and browser acceptance are pending.
+
+**Why:** Large milestone cards, filters, exact criteria and a separate change history make progress easier to understand. A post-updater snapshot avoids silently publishing stale evidence.
+
+**Next:** Finish approved Pages authentication/configuration and verify the actual workflow, public snapshot and browser behavior. Do not promote any native milestone for this documentation UI.
+
+**Evidence:** [source 1](../../docs/web/README.md) · [source 2](../../docs/web/DEPLOYMENT.md).
+
 ## 2026-10-23 · viewer-importer-reliability-01
 
 **Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
@@ -113,3 +125,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-viewer-reliability-01` | s2 v1 | 0 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
 | 2026-10-23 · `2026-10-23-viewer-reliability-01` | boot v1 | 0 / 1 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
 | 2026-10-23 · `2026-10-23-viewer-reliability-01` | roadmap v1 | 5 / 20 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | inspection v1 | 4 / 7 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | observation v1 | 2 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | loader v1 | 3 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | s2 v1 | 0 / 4 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | boot v1 | 0 / 1 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |
+| 2026-10-23 · `2026-10-23-pages-tracker-01` | roadmap v1 | 5 / 20 | Documentation UI and Pages pipeline source review only. Offline checks do not establish a live site or browser acceptance. All criterion definitions, accepted flags and milestone counts are unchanged; zero delta. |

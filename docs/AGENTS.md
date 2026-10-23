@@ -7,12 +7,12 @@ Maintain an approachable, comprehensive public record of the project's history, 
 ## Ownership
 
 - This file owns the documentation-wide rules and `README.md` reading guide.
-- Child contracts own chronology, technical explanation, and present status respectively.
+- Child contracts own chronology, technical explanation, present status and the read-only documentation UI respectively.
 - The independent `research/` subtree remains governed by its own contract; link to it rather than silently rewriting its evidence or provenance.
 
 ## Local Contracts
 
-- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized living status tracker also accepts original SVG explanations, sanitized JSON evidence metadata and its documentation-only generator/tests. These do not authorize game/runtime implementation code, game assets, private runtime captures or services.
+- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized living status tracker also accepts original SVG explanations, sanitized JSON evidence metadata and its documentation-only generator/tests. The requested `web/` interface also accepts original static HTML/CSS/ES modules, its local artifact builder and bounded tests, using canonical status data without a second authored snapshot. These do not authorize game/runtime implementation code, game assets, private runtime captures or services.
 - Use sanitized original summaries, not raw private logs, transcripts, code excerpts, or extracted content.
 - Separate the current checkpoint from historical stages. Preserve failed approaches and corrections in history while removing stale claims from current summaries.
 - Describe private results as reported evidence with explicit scope; the public repository does not contain the inputs or implementation needed to reproduce them.
@@ -25,6 +25,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 - Update status, relevant technical limitations, and history together when a milestone or correction changes the project record.
 - Keep dates and milestone labels explicit. Do not invent timestamps or turn planned work into completed history.
 - Tracker upkeep is part of every meaningful Rock Man change: maintain reviewed data and change explanations, regenerate/check outputs, and verify the actual updater result after publication. Never promote native evidence from research or repository activity.
+- Keep the interactive overview spacious: one prominent overall panel and a small workstream selection; put complete criteria, caveats and suite statistics in expandable or dedicated views. Preserve the generated repository chart as the fallback. Public filters and navigation are read-only, never evidence edits or simulated running tasks.
 - A documentation update does not authorize resuming development or publishing private artifacts.
 
 ## Verification
@@ -39,3 +40,4 @@ Maintain an approachable, comprehensive public record of the project's history, 
 - [history/AGENTS.md](history/AGENTS.md) owns start-to-current chronology and decision history.
 - [technical/AGENTS.md](technical/AGENTS.md) owns architecture, component explanations, and technical limits.
 - [status/AGENTS.md](status/AGENTS.md) owns the latest checkpoint, evidence matrix, unfinished work, and next-step conditions.
+- [web/AGENTS.md](web/AGENTS.md) owns the original static, read-only interactive tracker, local build/preview and UI verification boundary.

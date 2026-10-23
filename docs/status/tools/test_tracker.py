@@ -166,7 +166,9 @@ class TrackerTests(unittest.TestCase):
     def test_23_workflow_has_narrow_trigger_permissions_and_pinned_action(self):
         s=(self.root/'.github/workflows/update-progress.yml').read_text()
         self.assertIn('branches: [main]',s);self.assertNotIn('pull_request',s);self.assertNotIn('workflow_dispatch',s)
-        self.assertEqual(s.count('uses:'),1);self.assertIn('actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683',s)
+        updater=s.split('\n  update:\n',1)[1].split('\n  build-site:\n',1)[0]
+        self.assertEqual(updater.count('uses:'),1);self.assertIn('actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683',updater)
+        self.assertIn('contents: write',updater);self.assertNotIn('pages: write',updater);self.assertNotIn('id-token: write',updater)
         self.assertIn('persist-credentials: false',s);self.assertIn('cancel-in-progress: false',s);self.assertNotIn('--force',s)
         self.assertIn('test "$remote_head" = "$TRIGGER_SHA"',s);self.assertIn('github.actor !=',s)
     def test_24_same_review_id_cannot_promote_a_stage(self):
