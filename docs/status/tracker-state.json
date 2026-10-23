@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "latest_repository_change": {
-    "sha": "9ce9b9497f496584c438b76b39d1b36f2f1e4d58",
-    "committed_at": "2026-10-23T19:54:41Z",
-    "subject": "docs: add visual evidence dashboard and twelve linked discoveries",
-    "source": "GitHub connector: exact main commit observed before tracker preparation"
+    "sha": "c1275311c5c841405d000203f4b02aa9645145d4",
+    "committed_at": "2026-10-23T13:22:45-07:00",
+    "subject": "docs: automate living tracker with evidence-gated progress and plain-English updates",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "b42a09178f3145a1f27eae6e206e3251bb79acb8a71e522646245234e47d9e17",

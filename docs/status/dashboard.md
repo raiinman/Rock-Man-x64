@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-23 · `2026-10-23-native-evidence-02` · [reviewed basis 9ce9b94](https://github.com/raiinman/Rock-Man-x64/commit/9ce9b9497f496584c438b76b39d1b36f2f1e4d58).
-**Latest repository change observed:** [9ce9b94](https://github.com/raiinman/Rock-Man-x64/commit/9ce9b9497f496584c438b76b39d1b36f2f1e4d58) · 2026-10-23T19:54:41Z — docs: add visual evidence dashboard and twelve linked discoveries.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [c127531](https://github.com/raiinman/Rock-Man-x64/commit/c1275311c5c841405d000203f4b02aa9645145d4) · 2026-10-23T13:22:45-07:00 — docs: automate living tracker with evidence-gated progress and plain-English updates.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ## Current explanation
 
