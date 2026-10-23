@@ -12,17 +12,17 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** A separate importer result-boundary fix is accepted in Linux synthetic tests, but is not installed in the frozen viewer. Native boot and the complete IDE remain unestablished.
+**Where we are:** A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.
 
-**Next useful step:** Review production adoption separately; failed completion-message delivery and UI low-memory handling remain open. Preserve Windows validation, S2, provenance and initializer gates.
+**Next useful step:** Obtain permitted Windows launch, UI/timer and import validation. Preserve bounded-close, S2, initializer and implementation-provenance gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-importer-boundary-02` · [reviewed basis 632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732).
-**Latest repository change observed:** [972b0e5](https://github.com/raiinman/Rock-Man-x64/commit/972b0e5408ca441ff08c9dcaa9bdf0ca81bd3283) · 2026-10-23T15:00:58-07:00 — docs: record importer exception checks and decouple tracker test fixtures.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-viewer-reliability-01` · [reviewed basis 756058b](https://github.com/raiinman/Rock-Man-x64/commit/756058b790810ae1357d0947c2ad7915e4bbe045).
+**Latest repository change observed:** [756058b](https://github.com/raiinman/Rock-Man-x64/commit/756058b790810ae1357d0947c2ad7915e4bbe045) · 2026-10-23T22:02:21Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

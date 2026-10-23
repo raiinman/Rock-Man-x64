@@ -407,17 +407,30 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-23",
-    "review_id": "2026-10-23-importer-boundary-02",
-    "reviewed_through_commit": "632a8f676f8099920a2e734fcd769882da717732",
-    "summary": "Accepted isolated importer boundary correction and hermetic documentation fixtures. Linux synthetic importer evidence/object compilation only; frozen viewer and all milestone counts unchanged."
+    "review_id": "2026-10-23-viewer-reliability-01",
+    "reviewed_through_commit": "756058b790810ae1357d0947c2ad7915e4bbe045",
+    "summary": "Reviewed isolated UI fallback and retained-completion candidates plus the linked private viewer. Linux synthetic/source and cross-link evidence only; Windows execution and all accepted milestone counts unchanged."
   },
   "overview": {
-    "now": "A separate importer result-boundary fix is accepted in Linux synthetic tests, but is not installed in the frozen viewer. Native boot and the complete IDE remain unestablished.",
-    "changed": "Two demonstrated allocation-failure termination paths now retain a meaningful failure result and explicit result ownership in the isolated candidate.",
-    "why": "A worker should report failure without terminating the application or falsely reporting import success. This correction does not establish real import or Windows execution.",
-    "next": "Review production adoption separately; failed completion-message delivery and UI low-memory handling remain open. Preserve Windows validation, S2, provenance and initializer gates."
+    "now": "A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.",
+    "changed": "Added low-memory UI fallback and retained-result recovery after refused notification; corrected a review-discovered queue-drain defect before acceptance.",
+    "why": "A reporting failure or lost wake should not erase the import outcome. These bounded checks do not prove Windows UI behavior or game progress.",
+    "next": "Obtain permitted Windows launch, UI/timer and import validation. Preserve bounded-close, S2, initializer and implementation-provenance gates."
   },
   "updates": [
+    {
+      "id": "viewer-importer-reliability-01",
+      "date": "2026-10-23",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Accepted separate low-memory UI and retained-completion candidates after correcting an initial queue-drain defect; the cumulative private Windows-target viewer fully links but is Windows-unrun.",
+      "why": "Literal fallback preserves failure reporting, and a refused notification no longer discards the finished result. Timer recovery still depends on actual UI dispatch and never terminates blocked I/O.",
+      "next": "Validate the new candidate on an explicitly permitted Windows path before runtime adoption. Keep frozen artifacts, milestone counts and native/provenance gates unchanged.",
+      "evidence": [
+        "docs/status/current-status.md#private-viewer-reliability-candidates--october-23",
+        "docs/history/validation-history.md#private-viewer-reliability-evidence--october-23"
+      ]
+    },
     {
       "id": "tracker-hermetic-fixtures-01",
       "date": "2026-10-23",
@@ -1007,6 +1020,68 @@
       "date": "2026-10-23",
       "basis_commit": "632a8f676f8099920a2e734fcd769882da717732",
       "note": "Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-23-viewer-reliability-01",
+      "date": "2026-10-23",
+      "basis_commit": "756058b790810ae1357d0947c2ad7915e4bbe045",
+      "note": "Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta.",
       "checklists": [
         {
           "id": "inspection",

@@ -1,14 +1,22 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, isolated importer candidate update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, private viewer reliability update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
+
+## Private viewer reliability candidates — October 23
+
+A new **unfrozen private viewer candidate** incorporates the accepted importer worker-boundary correction plus two later host-side fixes: allocation-independent UI error fallback and retained completion results when notification delivery fails. Control restoration retains the displayed view rather than re-reading the selection. The Windows-target application now **fully compiles and links**, but it has **not run on Windows**. Frozen accepted viewers and previously delivered artifacts were preserved; this is not an installed production replacement.
+
+Independent review accepted the isolated source/synthetic boundaries after correcting an initial queue-drain defect that could misclassify quit or child-window messages. Reported Linux evidence is **13 UI scenarios** in two modes and **17 retained-result scenarios** in three modes, plus separately scoped drain and reviewer controls; repeated modes are not additional unique tests. [The validation history](../history/validation-history.md#private-viewer-reliability-evidence--october-23) retains the failure, correction and exact counts.
+
+Recovery requires actual UI timer-message dispatch; the requested polling interval is **not a recovery deadline** and does not terminate blocked I/O. Windows launch, real UI/timer behavior, actual import/cancellation, abnormal teardown and pixel acceptance remain unverified. No roadmap criterion advances; native boot, S2, initializer and implementation-provenance gates remain unchanged.
 
 ## Isolated importer result-boundary candidate — October 23
 
 An independently reviewed **isolated host-side candidate** corrects two demonstrated allocation-failure paths that could escape the importer worker entry and terminate the application. Preparation happens before launch; diagnostic allocation failure retains a meaningful failure result, and result handoff has explicit ownership. This is **not an installed fix in the accepted frozen viewer**; production sources and parsing/cancellation contracts were not replaced.
 
-Reported evidence comprises two controlled synthetic termination reproductions, fifteen scenarios in three Linux modes, two partly overlapping reviewer thread cases, and Windows-target object compilation only. There was **no application link, Windows execution or real import**. Failed completion-message delivery and allocating UI error display remain open; see [the validation record](../history/validation-history.md#importer-result-boundary-evidence--october-23). No roadmap criterion advances. S2, native-owner retirement, provenance and the blocked initializer remain unchanged.
+At that earlier checkpoint, evidence comprised two controlled synthetic termination reproductions, fifteen scenarios in three Linux modes, two partly overlapping reviewer thread cases, and Windows-target object compilation only. There was then **no application link, Windows execution or real import**. Completion-message delivery and allocating UI error display were still open; the later private candidate above adds separately scoped fixes, not retroactive Windows acceptance; see [the validation record](../history/validation-history.md#importer-result-boundary-evidence--october-23). No roadmap criterion advances. S2, native-owner retirement, provenance and the blocked initializer remain unchanged.
 
 ## Accepted native Windows mode-00 stage
 

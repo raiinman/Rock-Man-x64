@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "972b0e5408ca441ff08c9dcaa9bdf0ca81bd3283",
-    "committed_at": "2026-10-23T15:00:58-07:00",
-    "subject": "docs: record importer exception checks and decouple tracker test fixtures",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "756058b790810ae1357d0947c2ad7915e4bbe045",
+    "committed_at": "2026-10-23T22:02:21Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact public GitHub commit metadata observed through the connector; no workflow execution inferred",
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "5aeedef5beabe01b7c03ad7d9ef6959ea5cf31eed961cc165c611b28590d4f85",
+  "evidence_data_sha256": "3d2fdf424e3320224894e8335c488e37738d39730daab98bcaa816f96f516e20",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "0ad0364932c79182fb1d19f26d0a4068624ed90edcfa849df15b1ea00564c4ca",
-  "evidence_review_id": "2026-10-23-importer-boundary-02",
+  "reviewed_stage_sha256": "1e8de53ef546ff07b28a399e35ccb6aa4604d9520a525a4f1ef3dd4e5c477be2",
+  "evidence_review_id": "2026-10-23-viewer-reliability-01",
   "evidence_review_date": "2026-10-23",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -48,6 +48,7 @@
   },
   "recorded_observation_hashes": [
     "3a9189dd0f3cdc53c9565337bc8701731ac0d2a5b650713be0b7a4b5f5247fab",
-    "184eff307e41daccf32fe69597b4115933ba965530050769a0aeba109aec971f"
+    "184eff307e41daccf32fe69597b4115933ba965530050769a0aeba109aec971f",
+    "5716ba8b68cc3b8619acce6e655f74110bc758021d99c5cbeea31b9c16684139"
   ]
 }

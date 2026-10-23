@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-23 · viewer-importer-reliability-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** Accepted separate low-memory UI and retained-completion candidates after correcting an initial queue-drain defect; the cumulative private Windows-target viewer fully links but is Windows-unrun.
+
+**Why:** Literal fallback preserves failure reporting, and a refused notification no longer discards the finished result. Timer recovery still depends on actual UI dispatch and never terminates blocked I/O.
+
+**Next:** Validate the new candidate on an explicitly permitted Windows path before runtime adoption. Keep frozen artifacts, milestone counts and native/provenance gates unchanged.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#private-viewer-reliability-candidates--october-23) · [source 2](../../docs/history/validation-history.md#private-viewer-reliability-evidence--october-23).
+
 ## 2026-10-23 · tracker-hermetic-fixtures-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -95,3 +107,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-importer-boundary-02` | s2 v1 | 0 / 4 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
 | 2026-10-23 · `2026-10-23-importer-boundary-02` | boot v1 | 0 / 1 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
 | 2026-10-23 · `2026-10-23-importer-boundary-02` | roadmap v1 | 5 / 20 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | inspection v1 | 4 / 7 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | observation v1 | 2 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | loader v1 | 3 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | s2 v1 | 0 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | boot v1 | 0 / 1 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | roadmap v1 | 5 / 20 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |

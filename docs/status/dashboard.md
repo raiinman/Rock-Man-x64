@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-importer-boundary-02` · [reviewed basis 632a8f6](https://github.com/raiinman/Rock-Man-x64/commit/632a8f676f8099920a2e734fcd769882da717732).
-**Latest repository change observed:** [972b0e5](https://github.com/raiinman/Rock-Man-x64/commit/972b0e5408ca441ff08c9dcaa9bdf0ca81bd3283) · 2026-10-23T15:00:58-07:00 — docs: record importer exception checks and decouple tracker test fixtures.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-viewer-reliability-01` · [reviewed basis 756058b](https://github.com/raiinman/Rock-Man-x64/commit/756058b790810ae1357d0947c2ad7915e4bbe045).
+**Latest repository change observed:** [756058b](https://github.com/raiinman/Rock-Man-x64/commit/756058b790810ae1357d0947c2ad7915e4bbe045) · 2026-10-23T22:02:21Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -158,17 +158,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-importer-boundary-02` | s2 v1 | 0 / 4 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
 | 2026-10-23 · `2026-10-23-importer-boundary-02` | boot v1 | 0 / 1 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
 | 2026-10-23 · `2026-10-23-importer-boundary-02` | roadmap v1 | 5 / 20 | Accepted isolated importer correction, not production integration. All accepted criterion IDs and versions remain unchanged; this records zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | inspection v1 | 4 / 7 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | observation v1 | 2 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | loader v1 | 3 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | s2 v1 | 0 / 4 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | boot v1 | 0 / 1 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
+| 2026-10-23 · `2026-10-23-viewer-reliability-01` | roadmap v1 | 5 / 20 | Isolated viewer reliability and Windows-target link evidence only. No Windows execution or production acceptance; all criterion IDs/versions are preserved with zero milestone delta. |
 
 
 ## Current explanation
 
-**Now:** A separate importer result-boundary fix is accepted in Linux synthetic tests, but is not installed in the frozen viewer. Native boot and the complete IDE remain unestablished.
+**Now:** A new private Windows-target viewer links with three host-side importer reliability corrections. Linux synthetic checks pass; Windows execution, native boot and the complete IDE remain unestablished.
 
-**Changed:** Two demonstrated allocation-failure termination paths now retain a meaningful failure result and explicit result ownership in the isolated candidate.
+**Changed:** Added low-memory UI fallback and retained-result recovery after refused notification; corrected a review-discovered queue-drain defect before acceptance.
 
-**Why:** A worker should report failure without terminating the application or falsely reporting import success. This correction does not establish real import or Windows execution.
+**Why:** A reporting failure or lost wake should not erase the import outcome. These bounded checks do not prove Windows UI behavior or game progress.
 
-**Next:** Review production adoption separately; failed completion-message delivery and UI low-memory handling remain open. Preserve Windows validation, S2, provenance and initializer gates.
+**Next:** Obtain permitted Windows launch, UI/timer and import validation. Preserve bounded-close, S2, initializer and implementation-provenance gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
