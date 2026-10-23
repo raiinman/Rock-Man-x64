@@ -100,3 +100,11 @@ The first loader execution envelope received **NO GO**: an injected cleanup exce
 Visual acceptance remains blocked by missing required tooling and a version-registration mismatch; no nondisruptive repair was verified, and no application restart or security change was made. A transfer-route audit qualified earlier authorized handling as a compatibility route rather than the documented standard helper route; reuse is held pending review. This qualification does not invalidate the separately scoped lifecycle result or authorize another transfer.
 
 The separately accepted native loader-prefix run is not firmware execution. The new 23-check Windows host-function lifecycle is not real-launcher/pixel acceptance; neither rewrites earlier viewer failures or grants broader execution permissions.
+
+## Lineage-binding correction and execution hold — October 23, 08:05 update
+
+The first continuation candidate received **NO GO** after synthetic mutation exposed an input-lineage binding gap. The separately reviewed v2 retains the successful admission category independently and rejects either allowed-category substitution before and after commit. The failed v1 and earlier cleanup-envelope rejection remain preserved; neither was relabeled as accepted.
+
+After independent source and envelope reviews, a separate exact-input continuation run passed only within its native-policy boundary, stopping before the initializer. It does not retrospectively validate the rejected candidate or prove BIOS-equivalent effects.
+
+A later initializer-prefix candidate has **source/synthetic acceptance only**: 127 author checks and 920 independent assertions. Its proposed fixed lowering models 26 source instructions and four stores, stopping at a pending 16-bit I_MASK write with applied=false. No actual-input run is accepted. Its execution preparation was blocked pending review; no retry or alternative route was attempted. This is not an applied interrupt-mask operation, GPU initialization or game boot.

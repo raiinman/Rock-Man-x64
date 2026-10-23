@@ -39,3 +39,5 @@ The 05:05 update adds bounded actual portable export/import, retained Windows-va
 The 06:09 update records the unchanged reader's context-dependent diagnostic and a separately approved frozen-viewer 111-check pass. Earlier failure remains preserved; acceptance is synthetic HWND/command/state only. Conditional loader range review does not establish actual firmware dispatch or GPU history.
 
 The 07:07 update adds one accepted native loader-prefix original-input compatibility run stopping at A0:39, preserves the rejected first cleanup envelope and separately reviewed v2 recovery, and records 23 Windows standalone host-function lifecycle checks. Visual/real-launcher/actual-capture acceptance and transfer-route reuse remain gated; no firmware or game-boot claim follows.
+
+The 08:05 update records separate native-policy heap and continuation compatibility acceptances, stopping before the initializer with BIOS effects unresolved. It preserves the rejected lineage-binding candidate and reviewed v2 correction. The later initializer prefix is source/synthetic accepted only; execution preparation is blocked pending review without a retry or alternative route.

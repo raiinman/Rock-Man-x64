@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 07:07 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 08:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -78,7 +78,17 @@ A separately reviewed native loader prefix passed one authorized Linux original-
 
 The first loader execution envelope received **NO GO**: an injected cleanup exception could propagate before owned-child/group cleanup was proven. That failed version remains preserved. A separate v2 keeps ownership through cleanup faults and cannot turn recovered cleanup into success; eight ordinary lifecycle controls plus three cleanup-fault regressions passed before the one authorized compatibility run.
 
-The loader heap proposal is accepted as **native-policy design only**. Any future completion must have a distinct native-policy outcome and persistent allocator ownership; preserving native bytes or registers cannot erase unresolved BIOS effects or establish hardware equivalence. A new implementation candidate is not yet independently accepted. The accepted loader prefix still stops at A0:39.
+## Later native-policy heap and continuation acceptance
+
+Two later, separately authorized Linux compatibility runs are accepted: one initialized the persistent native heap policy and stopped at its return boundary; the other performed one load, prefix advance, heap initialization and fixed continuation, stopping **before `800108ec`**. The continuation modeled **13 source instructions and two word stores**, with zero initializer instructions or optional allocator calls. Unknown saved return-address bits were retained and not used for control; all register masks and outside-store RAM were checked. Exact authorization, outputs, pre/post integrity and reaped/empty process groups passed independent terminal review without a reviewer rerun.
+
+These outcomes are explicitly **native policy**, not BIOS execution or equivalence. Native RAM/register preservation does not resolve original firmware side effects, dispatch history, allocator layout, GPU state or the three unresolved loaded bases. Original instructions were not executed; no integration, A0:49 completion or game boot follows.
+
+The first continuation candidate received **NO GO** after synthetic mutation exposed an input-lineage binding gap. The separately reviewed v2 retains the successful admission category independently and rejects either allowed-category substitution before and after commit. The failed v1 and earlier cleanup-envelope rejection remain preserved; neither was relabeled as accepted.
+
+## Initializer candidate: synthetic-only, execution blocked
+
+A later initializer-prefix candidate has **source/synthetic acceptance only**: 127 author checks and 920 independent assertions. Its proposed fixed lowering models 26 source instructions and four stores, stopping at a pending 16-bit I_MASK write with applied=false. No actual-input run is accepted. Its execution preparation was blocked pending review; no retry or alternative route was attempted. This is not an applied interrupt-mask operation, GPU initialization or game boot.
 
 ## Standalone-viewer lifecycle and remaining access gates
 

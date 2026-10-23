@@ -49,11 +49,17 @@ A further independently reviewed static calculation keeps the firmware-return di
 
 ## New bounded acceptance and pending policy — October 23, 07:07 update
 
-The loader heap proposal is accepted as **native-policy design only**. Any future completion must have a distinct native-policy outcome and persistent allocator ownership; preserving native bytes or registers cannot erase unresolved BIOS effects or establish hardware equivalence. A new implementation candidate is not yet independently accepted. The accepted loader prefix still stops at A0:39.
+The earlier design-only heap checkpoint has been superseded by separately accepted, exact-input native-policy heap and continuation runs. The latter stops before `800108ec`; original firmware effects remain unresolved, and no integration or hardware-equivalence claim follows.
 
 Visual acceptance remains blocked by missing required tooling and a version-registration mismatch; no nondisruptive repair was verified, and no application restart or security change was made. A transfer-route audit qualified earlier authorized handling as a compatibility route rather than the documented standard helper route; reuse is held pending review. This qualification does not invalidate the separately scoped lifecycle result or authorize another transfer.
 
-The accepted native loader compatibility run stops pending A0:39; the separately accepted 23-check Windows host-function lifecycle does not establish real-launcher or actual-capture display. Preserve the earlier viewer failures and later approved-context pass as distinct evidence. No automatic rerun, transfer reuse, security change or continuation through unsupported services follows.
+The earlier loader prefix stopped at A0:39; later accepted native-policy work stops before the initializer. The separately accepted 23-check Windows host-function lifecycle does not establish real-launcher or actual-capture display. Preserve the earlier viewer failures and later approved-context pass as distinct evidence. No automatic rerun, transfer reuse, security change or continuation through unsupported services follows.
+
+## Initializer execution remains gated — October 23, 08:05 update
+
+A later initializer-prefix candidate has **source/synthetic acceptance only**: 127 author checks and 920 independent assertions. Its proposed fixed lowering models 26 source instructions and four stores, stopping at a pending 16-bit I_MASK write with applied=false. No actual-input run is accepted. Its execution preparation was blocked pending review; no retry or alternative route was attempted. This is not an applied interrupt-mask operation, GPU initialization or game boot.
+
+Preserve the v1 lineage rejection and v2 correction. Native-policy outcomes must remain distinct from original firmware claims; source/tooling checks cannot authorize an execution retry or silently advance the pending device operation.
 
 ## Explicitly unresolved scopes
 
