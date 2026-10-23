@@ -1,12 +1,23 @@
-# The unresolved `0x1f801db8` boundary
+# `0x1f801db8`: source definitions and the native boundary
 
-The research requirement is to bind the observation at source `0x80079070` to its actual consumer and distinguish the selected native behavior from hardware semantics. The public project record attests that this instruction reads numeric address `0x1f801db8`, after the bounded CD configuration path. Its latest update reports that a newer connected native mixer passes this boundary under an explicit software policy. Neither this BIOS investigation nor the inspected vendor sources establishes the physical register's exact behavior.
+The research requirement is to bind the observation at source `0x80079070` to its actual consumer and distinguish the selected native behavior from hardware semantics. The public project record attests that this instruction reads numeric address `0x1f801db8`, after the bounded CD configuration path. Its latest update reports that a connected native mixer passes this boundary under an explicit software policy. Following the user-supplied README's documentation links establishes an explicit community-published numeric definition. The inspected Sony materials still do not supply that binding, and the game consumer remains uninspected here.
+
+## Explicit definition reached through the README
+
+The [PSX-SPX register section](https://psx-spx.consoledev.net/soundprocessingunitspu/#0x1f801db8-mvolxl-current-main-volume-left) identifies `0x1f801db8` as `MVOLXL`, current main volume left, and `0x1f801dba` as its right counterpart. Its grouped current-value field is 16 bits with signed range −32768 through 32767. The [original nocash specification](https://problemkaputt.de/psx-spx.htm) contains the same numeric/channel distinction. These related publications are community hardware documentation, not two independent measurements or Sony manuals.
+
+This corrects the earlier broad unresolved wording: a published numeric definition is available; a Sony-authored definition and independently verified target behavior remain open. Setter state, current gain and output samples must remain distinct. The source section does not establish a universal reset constant, every CPU access width, direct-write behavior or paired-read atomicity. No new hardware experiment or MML1 execution was performed by this research.
+
+The [pinned documentation source](https://github.com/psx-spx/psx-spx.github.io/blob/6d7d1bc106a7e0b616b0330fe58401ab1ba57f0f/docs/soundprocessingunitspu.md#L500) preserves the inspected definition. It already existed in the [initial 2020 conversion](https://github.com/psx-spx/psx-spx.github.io/blob/c602ea11a1d45526d57eb8598e5b22082674921e/soundprocessingunitspu.md#L422). The [later naming change](https://github.com/psx-spx/psx-spx.github.io/pull/118) cites SPU2 documentation for SPU names; that does not establish a Sony PS1 address citation. General credits and nearby hardware-test statements do not identify the evidence behind this particular mapping.
+
+The original specification's boot-state example is explicitly emulator-observed and qualified as potentially different on hardware. It is not a power-on reset guarantee. Likewise, the nearby read/write paragraph concerns the voice-envelope register; it must not be assigned to DB8 merely because it precedes the current-volume headings.
 
 ## What is established
 
 | Evidence class | Result | Limit |
 |---|---|---|
-| Project attestation | [Current status](../../docs/status/current-status.md), updated in commit `2013042`, distinguishes a Windows-verified configuration stage stopping at the sound read from a newer connected Linux mixer stage returning from `CdInit` with result 1 and stopping at `0x800779cc` | The private executable and reaching-state receipts were not inspected here; the mixer stage's freeze and Windows acceptance remain pending in that update |
+| Project attestation | [Current status](../../docs/status/current-status.md), updated in commit `69afad7`, records the sealed, Windows-validated mixer stage and a later unsealed mode-00 candidate | Private executable and reaching-state receipts were not inspected here; newer project milestones remain owned by that status page |
+| Community hardware documentation | The README leads to explicit numeric/channel and current-field definitions in PSX-SPX and its nocash ancestor | Shared ancestry is not independent corroboration; no Sony PS1 register citation or local measurement is established by reading them |
 | Retained REA instructions | The selected firmware common getter reads other paired sound addresses, including `0x1f801d80/82` and `0x1f801db0/b2`; its recovered body does not read `db8/dba` | A different firmware component cannot identify the game leaf by a similar address or apparent library purpose; see [sound findings](SOUND.md) |
 | Sony library documentation | Configured master volume, mode and current-volume observation are distinct API concepts | The inspected pages do not bind numeric `db8/dba`, establish this BIOS's API revision, or establish MML1's dependency; see the newly accessed 1996 and 1997 editions in [primary sources](SOUND-PRIMARY-SOURCES.md) |
 | Native implementation attestation | The [service contract](../../docs/technical/native-service-contracts.md) reports a connected adapter exposing applied software coefficients, with staging and authoritative CD configuration kept separate | Passing the native source path does not establish physical register equivalence; no output device, decoder or playback is claimed |
@@ -53,7 +64,7 @@ Once the slice is established, useful acceptance cases include correct width/sig
 
 Sony's [US5978492A patent](https://patents.google.com/patent/US5978492A/en), filed December 1, 1995 and published November 2, 1999, describes per-voice volume controls, external PCM mixing, reverb and a downstream master-volume stage in the description of Figure 3. This supports a conceptual separation of gain stages from the samples passing through them. It does not identify `0x1f801db8`, prescribe its access width, or supply its reset, timing or sweep behavior. The patent is a primary architectural source hosted by Google Patents, not a register specification or a license determination.
 
-The remaining question is precise: which bits of which observation does the actual game consumer require, under which reaching state? This batch narrows the firmware search and the handoff; it does not claim that the numeric mapping is solved.
+The remaining game question is precise: which bits of which observation does the actual consumer require, under which reaching state? The community definition narrows this investigation; it does not supply that private slice or certify hardware equivalence.
 
 ## Current documentation completion boundary
 

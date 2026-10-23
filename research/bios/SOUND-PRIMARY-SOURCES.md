@@ -8,6 +8,8 @@ Vendor-authored Sony documentation supports a distinction between a master-volum
 
 Newly accessed editions establish the current-master-volume attribute in December 1996 documentation and a dedicated getter in June 1997 documentation. This closes the earlier documentation-date gap; it does not identify the firmware's implementation or bind the numeric port. The [archive coverage ledger](SONY-ARCHIVE-COVERAGE.md) records subsequent release 2.0/2.3 scans, inaccessible revisions and image/document-type limits.
 
+Separate community documentation reached through the user-supplied README **does explicitly bind the numeric pair**. The [focused boundary report](DB8-BOUNDARY.md#explicit-definition-reached-through-the-readme) records that positive result and its provenance. The negative vendor-source result above must not be read as absence of any published definition.
+
 ## Catalog inspected first
 
 The existing `research/sony-document-index.json` lists Sony's PlayStation Hardware, Run-Time Library Reference, Run-Time Library Overview, Sound Artist Tool and SPURAM technical-note references. Their catalog entries identify an unofficial host and originally record index-level observation rather than downloaded content. This pass inspected relevant manual content separately; it does not silently upgrade every catalog item or every mirror file to verified status.

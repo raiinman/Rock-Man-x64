@@ -1,6 +1,6 @@
 # Sony Technical Reference archive coverage for `0x1f801db8`
 
-This ledger tracks the specific archives and document sets investigated. It is not a catalog of every Sony archive ever produced. The exact numeric register definition remains unresolved. Related API, architecture and tool descriptions are kept separate from an address binding.
+This ledger tracks the specific archives and document sets investigated. It is not a catalog of every Sony archive ever produced. An explicit community numeric definition has now been reached through the README links; the Sony-authored definition remains unlocated. See the [positive definition and native boundary](DB8-BOUNDARY.md#explicit-definition-reached-through-the-readme). Related API, architecture and tool descriptions remain separate evidence classes.
 
 ## Archive inventory
 
@@ -59,6 +59,16 @@ The [playstationAssembly repository](https://github.com/micklemacklemore/playsta
 The exercises cover elementary MIPS arithmetic, GPU rectangles, subroutines and input/timers. No SPU include file, register catalog or Sony manual occurs in this tree. Full-address, short-offset, current-volume-label and SPU-term searches produced no target reference. Selected exercises contain the general I/O base literal, but the checked text lacks the relevant SPU offsets; this is a bounded source-text result, not a runtime address proof.
 
 The README points to community memory-map documentation, tutorials, assembly examples and MIPS books. Those are source-discovery links, not Sony-authored numeric register definitions. Linked repositories and example code were not imported as native-port construction input. This repository does not resolve the Sony DB8 documentation gap in its checked revision. The check covers the pinned current tree; history, other branches, issues, forks and external documents are outside this result.
+
+### Following the external documentation
+
+The initial repository inventory did not follow its outgoing documentation. Following those links subsequently produced the explicit positive definition recorded in the focused boundary report. The useful route is README → PSX-SPX hardware documentation → its original nocash specification. The modern site and original text have shared ancestry; matching text is not an independent hardware replication. Authorship and paragraph-level experimental support must be traced separately from the existence of the definition.
+
+This changes the research status: earlier negative Sony/archive searches remain valid within their stated scopes, but cannot justify saying that no numeric definition is published on the internet. Community technical documentation is being inspected as documentation; emulator implementation code and unrelated game constructions remain outside the input set.
+
+The source/history trace pins PSX-SPX documentation at commit `6d7d1bc106a7e0b616b0330fe58401ab1ba57f0f` and follows the relevant text back through the renamed Markdown file to the initial 2020 conversion. Its general credits include an older SPU.TXT. An actually retrieved [Doomed/Padua SPU.TXT mirror](https://hitmen.c02.at/files/docs/psx/spu.txt) does not contain the target address or current-main labels; it cannot be promoted into the paragraph's source merely because the title is credited. The inspected current paragraph and history did not identify a Sony PS1 page or target-specific measurement receipt.
+
+The original Lameguy tutorial route failed in the checked clients; a public [credited tutorial mirror](https://www.breck-mckye.com/psnoobsdk-docs/) worked. Its index and system overview did not provide the target definition. Video metadata verified the linked architecture video's creator/title, but the checked caption endpoint yielded no usable transcript, so its spoken coverage remains uninspected. Publisher/university bibliography routes were identified without downloading full books. These bounded checks do not rule out information in unread chapters, captions or external source history.
 
 ## Wayback and independent-copy checks
 

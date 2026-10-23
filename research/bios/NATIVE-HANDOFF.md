@@ -21,6 +21,8 @@ Continuing Sony-document research is tracked in the [archive coverage ledger](SO
 
 The focused graphics follow-up inspected all 50 exported slides from the two retained sound presentations and their embedded pictures. No numeric DB8 definition emerged. Voice-volume ranges, tracker-channel controls and key-queue timing remarks remain scoped to those subjects; they do not establish master readback encoding or cadence. The archive ledger records the active-slide checks, rendering limits and remaining presentation gaps.
 
+Following the README's external documentation subsequently found an explicit community definition of the numeric pair. See the [source definition and native boundary](DB8-BOUNDARY.md#explicit-definition-reached-through-the-readme). This is a positive documentation finding; Sony provenance, hardware verification and the actual game's consumer remain separate questions.
+
 ## Suggested acceptance cases
 
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
