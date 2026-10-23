@@ -25,3 +25,9 @@ The [retained synthetic A0:49 occurrence](A049-RECORDER.md) remains useful for i
 For the separate controller blocker, use an identified owner/generation and new source-level transition evidence to resolve the first outstanding obligation. A declared snapshot cannot supply an absent cancellation contract or retirement transition. The workbench neither changes the game implementation nor enables S2, retries the blocked initializer, terminates native owners or substitutes a different execution route.
 
 The next useful input remains a new bounded response from the development agent tied to its current artifact and question. Neither dashboard expansion nor successful host tests establish that Rock Man x64 boots.
+
+## Later mailbox checkpoint
+
+The project's `e816118` documentation checkpoint reports isolated data-channel acceptance across twelve distinct synthetic Linux scenarios, exercised in three build/sanitizer modes. This is a project attestation, not tests rerun by this research. Leak-enabled attempts failed in the host environment; real endpoint, capture and UI integration remain open. See the [project status](../../docs/status/current-status.md#isolated-observation-mailbox-synthetic-acceptance-only).
+
+Applying the workbench lifecycle checker to that source-only checkpoint leaves native owner generation and runtime fields unknown and all four source contracts open. No runtime snapshot was supplied. Accepted request/notice accounting cannot be entered as load completion, fault disposition or whole-owner retirement. This narrows the next review to the bridge between observation delivery and the actual owner lifecycle; it does not replace the separate A0:49 state-producer investigation.
