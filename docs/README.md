@@ -17,7 +17,7 @@ Read history first for chronology, technical pages for mechanisms, and status la
 ## Detailed map
 
 - **History:** [milestone ledger](history/milestones.md), [decisions and recoveries](history/decisions-and-recoveries.md), [validation history](history/validation-history.md).
-- **Technical:** [architecture](technical/architecture.md), [capability matrix](technical/capability-matrix.md), [native service contracts](technical/native-service-contracts.md).
+- **Technical:** [architecture](technical/architecture.md), [capability matrix](technical/capability-matrix.md), [native service contracts](technical/native-service-contracts.md), [Windows visual-testing readiness](technical/windows-visual-testing.md).
 - **Status:** [current checkpoint](status/current-status.md), [validation and provenance](status/validation.md), [decisions and handoff](status/decisions-and-handoff.md).
 
 ## Evidence vocabulary
