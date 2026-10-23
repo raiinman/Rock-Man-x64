@@ -41,6 +41,14 @@ The owner authorized one calibration and one synthetic call. Both completed and 
 
 The recorder's next use must answer a new precise question. DMA-directed/timeout paths, full formatter ABI and original-game preceding state remain open; no further runs are implied by completion of these two scopes. An offline checker remains a possible later addition if an identity-bound export supplies new producer/history evidence, rather than merely repeating canonical import checks.
 
+### Next evidence: loader writes and the first missing producer
+
+The next proposed input is a new, bounded summary of return-derived loader stores, rather than another synthetic ready-state test. Bind each candidate to its source generation and record return-relative arithmetic, access width or byte enables, loop bounds and stride, path conditions, ordering and any already justified source-value known bits. State whether the selected B0:57 binding is observed, explicitly modeled or merely conditional. Missing fields remain unknown; this is an evidence request, not a report that those stores executed.
+
+Under the [conditional B0:57 return](KERNEL-SERVICES.md#selected-b057-constant-return), calculate candidate byte ranges with 32-bit arithmetic and the stated guest-memory alias policy before comparing selected dispatch locations. A range overlap identifies a candidate writer; it does not establish its value, execution, later survival or fetched instruction state. Non-overlap excludes only the supplied writes. A manual calculation is sufficient for the first bounded summary; another collector is unnecessary until an actual input requires it.
+
+For GPU history, identify the last justified initialization or native model-state origin and the first missing predecessor on the path to the pending call. New ordered GP1, DMA and GP0 producers can then be checked against the [branch-specific requirements](DEVICES.md#minimal-branch-evidence-for-the-selected-synchronization-routine), parser position and pending completion obligations. A later reset cannot supply earlier state. An omitted predecessor is an explicit coverage gap, not a zero-effect transition or permission to substitute the synthetic fixture's values. These proposed inputs have not yet closed the game-specific join.
+
 ## Suggested acceptance cases
 
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
