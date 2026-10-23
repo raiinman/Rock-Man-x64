@@ -21,7 +21,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-23 · `2026-10-23-pages-tracker-01` · [reviewed basis d970fa6](https://github.com/raiinman/Rock-Man-x64/commit/d970fa6f2ea4ab17673251fc7ee9d54acee9c60f).
-**Latest repository change observed:** [3a448fb](https://github.com/raiinman/Rock-Man-x64/commit/3a448fbd605c0a118aa528ba31e86a69d00dae5f) · 2026-10-23T15:13:06-07:00 — docs: record reviewed viewer recovery candidates and limits.
+**Latest repository change observed:** [257ae6f](https://github.com/raiinman/Rock-Man-x64/commit/257ae6fa2adb97af7fe2553e2d620e27dad72ce7) · 2026-10-23T15:20:41-07:00 — docs: add spacious evidence tracker and approved Pages deployment.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->

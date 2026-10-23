@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "3a448fbd605c0a118aa528ba31e86a69d00dae5f",
-    "committed_at": "2026-10-23T15:13:06-07:00",
-    "subject": "docs: record reviewed viewer recovery candidates and limits",
+    "sha": "257ae6fa2adb97af7fe2553e2d620e27dad72ce7",
+    "committed_at": "2026-10-23T15:20:41-07:00",
+    "subject": "docs: add spacious evidence tracker and approved Pages deployment",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
