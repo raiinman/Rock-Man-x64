@@ -46,6 +46,8 @@ Two focused additions could reuse that infrastructure once a precise question is
 
 Both additions are proposals, not implemented or tested A0:49 tooling. No new game execution or native implementation acceptance follows from the capability inventory.
 
+The current research recommendation is the boundary recorder first, beginning with a separate scratch-RAM calibration fixture. Known stores and pre/post execution markers must establish callback timing and value semantics before any MMIO result is interpreted. A callback memory peek is not automatically the value consumed by a device-read instruction. Only then consider one original normal-return fixture with declared inputs, a fixed event/time cap and explicit incomplete or instrument-uncertain outcomes. A cap must not be reported as a firmware timeout, and a sampled table word must not be reported as an observed fetched route. Joint selection is still pending; if a new native producer/export becomes available, the offline checker may become the more useful first tool.
+
 ## Suggested acceptance cases
 
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
