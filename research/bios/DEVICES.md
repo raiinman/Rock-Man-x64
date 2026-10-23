@@ -12,7 +12,7 @@ The generic little-endian MIPS32 analysis language is a decoding superset. Its d
 
 ## Relevance to the current native boundary
 
-The repository handoff records a paused CD configuration candidate and a later sound-related numeric-port read at source address `80079070`. The firmware evidence cannot prove the meaning of that game read because this investigation does not bind the instruction bytes, game artifact identity, reaching state or service owner for that path. Preserve the distinction between observed firmware accesses and the project's deliberately selected native product contracts.
+The latest [native handoff](NATIVE-HANDOFF.md) identifies the published A0:49 boundary; earlier CD and sound boundaries are historical stages. This investigation still lacks the actual game arguments, reaching state and result consumer. Preserve the distinction between observed firmware accesses and the project's deliberately selected native product contracts.
 
 For a resumed port investigation, identify each game-facing request before implementing it: source caller and arguments; actual command admission; response bytes and phase; FIFO consumption; interrupt acknowledgement; callback and continuation ownership; and the source return. A firmware routine that writes a device address is not evidence that a Windows adapter completed the corresponding operation.
 
@@ -51,6 +51,18 @@ ROM `0xbfc03d80` polls a status bit, emits a three-word upload-shaped command/he
 ROM `0xbfc03ea0` uses the same header shape, writes a different direction/control request, adjusts the DMA control word, supplies the source address and block sizing, and writes channel-control value `0x01000201`. This is a separate DMA-backed route. A native renderer needs an explicit data-ownership and completion contract before either path can be represented as successful. [G3, P1]
 
 ROM `0xbfc04138` makes its synchronization path depend on status bits. One path polls the GPU status; another polls channel-control state and subsequently GPU readiness. It has explicit failure exits calling a diagnostic helper for bounded polls, and a later readiness loop that is not bounded by that same counter. Inventing readiness would erase observable branch and failure behavior. Exact wall-clock time, frame timing, GPU rasterization, drawing rules and DMA completion are not established. [G4, P1]
+
+### A0:49 submission and a documentation discrepancy
+
+**Static binding and independent decoding:** The [startup table installer](STARTUP.md#low-memory-service-installation) copies ROM table words to physical `0x200`. Selecting entry `0x49` from that source gives ROM target `0xbfc03fac`; entry `0x4e` gives `0xbfc04138`. These two selected bindings were independently read from the digest-checked original BIOS. They describe installer-produced entries, not a captured game-time dispatch table or proof that later code leaves those entries intact.
+
+The complete A0:49 wrapper calls the synchronization routine, then submits the saved first argument through a 32-bit store to `0x1f801810`, preserving the returned value. There is no conditional branch suppressing this store when synchronization returns `-1`. This resolves the timeout-submission ambiguity for this firmware's ordinary returning path; an indefinitely waiting synchronization call never reaches the store. The wrapper conclusion comes from independent instruction decoding, rather than a new REA decompilation or runtime test.
+
+**Retained REA instructions, independently checked:** The synchronization entry examines GPU status mask `0x60000000`. When clear, it polls GPU status mask `0x10000000` (bit 28) with a counter initialized to `0x10000000`. Otherwise it polls DMA channel-control mask `0x01000000` (bit 24) with that counter, then polls GPU status mask `0x04000000` (bit 26) without a progressing timeout counter. Its successful DMA branch writes `0x04000000` to the GPU control port before returning zero. Bounded timeout exits call a diagnostic helper and return `-1`. Counter constants are instruction observations, not elapsed-time measurements. [G4, P1]
+
+The [pinned PSX-SPX GPU-function description](https://github.com/psx-spx/psx-spx.github.io/blob/038d444bf28e8ac1b203667c7155eb80d8b7dec2/docs/ps1/kernelbios/gpu-functions.md) instead describes WFEP readiness after DMA completion. Under its current bit names that means bit 28, whereas this BIOS instruction stream selects bit 26. Keep the numeric masks explicit; the general description must not overwrite the identified firmware behavior. This discrepancy does not establish behavior across all BIOS versions or physical GPU timing.
+
+**Native investigation proposal:** Once the actual game slice arrives, distinguish the no-DMA bit-28 wait, DMA busy-bit wait and post-DMA bit-26 wait. Preserve GP0 submission even when the synchronization return is ignored or negative. Confirm the dispatch binding, command word, GP0 parser state, preceding GP1/DMA state and result consumer before choosing a native policy. No implementation change or game acceptance is established here.
 
 ### Sound and input coverage
 
