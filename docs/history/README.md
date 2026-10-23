@@ -35,3 +35,5 @@ The later 03:05 update records 50 Windows IDE command checks, visual QA blocked 
 The 04:05 update closes all four combined Linux phases and records separately accepted bounded actual capture. Exporter/frozen-viewer v1 race findings remain visible while v2 corrections have source/synthetic acceptance; no actual exporter or Windows viewer acceptance is implied.
 
 The 05:05 update adds bounded actual portable export/import, retained Windows-validator preparation failures and a corrected offline validator. The native frozen-viewer run failed bounded file load after 36 passes, with 74 unrun; new original-loader findings are static evidence, not execution or hardware proof.
+
+The 06:09 update records the unchanged reader's context-dependent diagnostic and a separately approved frozen-viewer 111-check pass. Earlier failure remains preserved; acceptance is synthetic HWND/command/state only. Conditional loader range review does not establish actual firmware dispatch or GPU history.

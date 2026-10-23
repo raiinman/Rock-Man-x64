@@ -186,3 +186,15 @@ The v2 character/ordinal correction passed **24 trace-shape checks across four c
 ## Static original-loader history limit
 
 Independent static review identified a conditional earlier A0:49 request before later GPU reset work, firmware-return-relative memory writes whose actual destinations are unresolved, and a synchronization result ignored by the handoff caller. This is positive original-code analysis, not an executed occurrence, hardware/dispatch proof or exhaustive queue/producer audit. Native independent-cold-start evidence cannot establish that original inherited history.
+
+## Unchanged reader and frozen viewer in separately approved contexts — October 23, 06:09 update
+
+A separate unchanged-reader diagnostic identified `QueryDosDeviceW` error 5 in the default context; one explicitly approved invocation passed the synthetic reader and model checks. That contrast does not identify the general access-control cause, resolve the original context, imply administrator status or grant reusable permissions. The later frozen-v2 harness was separately approved; its pass did not require source or security-setting changes.
+
+The unchanged frozen Windows viewer subsequently passed **all 111 synthetic HWND/command/state checks** in a separately approved execution context: zero failed or unrun checks, an exact 113-record / 7,651-byte oracle match, supervisor/harness/validator exits 0 and an empty scoped job. Source, retained kit/history and security settings remained unchanged. The prior default-context result—36 passes, failure at check 37 and 74 unrun—is preserved, not repaired retroactively. This is reported executor evidence; raw PC receipts were not independently downloaded. It does not establish pixels, standalone inspector operation, actual-capture display, full IDE acceptance or game boot.
+
+Independent review accepted the bounded result from the identified executor report, not an independent download or replay of raw Windows receipts. This is a later acceptance checkpoint, not a rewrite of the earlier 36-pass/check-37-failure/74-unrun attempt. No future unrestricted execution permission follows.
+
+## Conditional loader range verification
+
+A further independently reviewed static calculation keeps the firmware-return distinction explicit: conditional B0:57 return `U=0x874` localizes the next word load to `0x9e0`; it does **not** establish that the loaded base `R` equals `0x874`. Three independently loaded bases remain unknown. Store counts, interleaved copy order and conditional modular overlap predicates were checked under explicit alias and nontrapping-arithmetic assumptions. Only the enumerated fixed cache stores exclude selected-site overlap; no general dispatch non-overlap, executed loader mutation or inherited GPU state is established. The native GPU origin remains an observation-only model with unknown status, not a reset or idle snapshot.
