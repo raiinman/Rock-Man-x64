@@ -33,6 +33,19 @@ Following the README's external documentation subsequently found an explicit com
 
 The next state request can be kept narrow: the [selected dispatch route](KERNEL-SERVICES.md#selected-a049-route-and-missing-live-state-proof) identifies the initial gate, dispatcher and table word to reconcile with actual resolution; the [branch evidence checklist](DEVICES.md#minimal-branch-evidence-for-the-selected-synchronization-routine) identifies only the GPU/DMA bits each reached branch consumes. Neither checklist supplies missing live state. A subsequent [timeout-helper audit](DEVICES.md#returning-timeout-includes-recovery-before-submission) also establishes recovery writes before a returning timeout's GP0 submission; reporting termination and full ABI preservation across its further callee remain unresolved.
 
+## Reuse the existing research debugger before adding tools
+
+The private research environment already has REA/Ghidra static evidence, a pinned PCSX-Redux CLI capture runner (`29142.20261022.44.x64`), a separately pinned graphical CPU debugger (`29135.20261022.42.x64`) and an original local register workbench. The workbench runs two fixed SPU experiments, checks probe/result digests and completion, displays captures and exports summaries. A guest SPU read breakpoint was exercised; this does not establish an A0:49 trace or visually verified desktop debugger behavior. The versions and evidence classes remain separate.
+
+A source-and-receipt audit found no existing A0:49 dispatch watcher, ordered GPU/DMA event recorder, game parser-state capture or full ABI checker in that workbench. Generic breakpoints are infrastructure, not those completed features. Repeating the SPU probes cannot supply the missing graphics state.
+
+Two focused additions could reuse that infrastructure once a precise question is selected:
+
+- An original BIOS boundary recorder could retain bounded call/return, selected dispatch and ordered GPU/DMA observations with identity, event and time limits. Callback timing/value semantics must first be verified. This would characterize one emulator model and fixture, not reconstruct the game's historical state or measure physical hardware.
+- An offline evidence checker could consume a new identity-bound native export, preserve unknown masks and check dispatch provenance, branch observations, event order and declared frame obligations. It needs an actual new provenance scope or explicit native abstraction; it cannot manufacture absent producers from the unchanged caller slice.
+
+Both additions are proposals, not implemented or tested A0:49 tooling. No new game execution or native implementation acceptance follows from the capability inventory.
+
 ## Suggested acceptance cases
 
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
