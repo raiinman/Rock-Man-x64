@@ -24,6 +24,30 @@ The next useful measurement record would identify the machine, reset/boot phase,
 
 ## What is established
 
+### Original diagnostic probe executed in an emulator
+
+The user subsequently authorized using the supplied BIOS with an emulator to run diagnostic tests. A portable PCSX-Redux Windows CLI build was obtained through its [official download route](https://github.com/grumpycoders/pcsx-redux#where); its [documented CLI](https://pcsx-redux.consoledev.net/cli_flags/) and [debugger API](https://pcsx-redux.consoledev.net/Lua/breakpoints/) were used. No emulator implementation source, SDK sample implementation or game code was inspected or used to construct the probe.
+
+The executed build reports version `29142.20261022.44.x64`, changeset `afad8da748b38415a17a3080e027cf2f44983cfb`. It loaded the authorized 524288-byte BIOS identified by SHA-256 `39dcc1a0717036c9b6ac52fefd1ee7a57d3808e8cfbc755879fa685a0a738278`, executed its kernel setup, then intercepted the shell to load an original standalone diagnostic executable. This is an emulator session with an explicitly loaded probe, not a retail reset measurement or MML1 boot. The original probe's SHA-256 is `a86f39e5312b9d6eb1ed6aa7dece51ba47c727ae93d56c77cd41210c693c195e`; its bytes, scripts and raw reports remain private.
+
+The guest CPU performed halfword writes and unsigned halfword reads, recording raw control, configured left/right volume and current left/right volume into separate RAM records. A retained Lua completion breakpoint extracted those records; Lua did not substitute host values for guest SPU reads. Two completed runs each produced 56 records over seven phases:
+
+| Probe phase | Controlled change | Observed current pair in this build |
+|---|---|---|
+| Initial post-load observation | No probe sound writes yet | Zero / zero |
+| Direct master volume | Left/right settings `0x1234/0x2345`, control `0xc000` | Zero / zero |
+| Direct mode, mute selected | Control changes to `0x8000` | Zero / zero |
+| Direct mode, unmute selected | Control restored to `0xc000` | Zero / zero |
+| Sweep controls | Seed settings `0x0400/0x0800`, delay, then `0x8028` for both sides | Zero / zero |
+| Sweep controls, mute selected | Control changes to `0x8000` without rewriting volume settings | Zero / zero |
+| Sweep controls, unmute selected | Control restored to `0xc000` | Zero / zero |
+
+Each phase has eight observations separated by specified guest delay loops. Control and setter readbacks match all expected phase values. In the second run, debugger callbacks additionally counted 56 two-byte reads at each of DB8 and DBA, alongside 56 reads of each control/setter port. Expected writes were counted separately. An independent agent reviewed instruction encoding, load/branch delay slots, record bounds and completion checks; the coordinator checked the traced rerun. Neither review identified an obvious harness error.
+
+The build used its interpreter CPU, software GPU and dummy audio driver. No voice playback, audible output or decoded-sample capture was tested. Mute transitions kept control bit 15 set; there was no SPU-disable phase. Guest delay-loop counts are not a calibrated physical sample clock, and sequential channel reads do not prove coherence. All-zero current values cannot distinguish an unimplemented readback, scheduling behavior or another model condition from these observations alone. No such implementation diagnosis is asserted.
+
+This establishes harness execution and the selected emulator's observed answers. It does **not** establish that physical DB8 is zero during mute, that master updates freeze, that the configured direct value should be zero, or that the native adapter should return zero. Sony register-level documentation and original-machine measurements remain separate requirements. The emulator is a diagnostic tool here, not an implementation dependency of the native port.
+
 | Evidence class | Result | Limit |
 |---|---|---|
 | Project attestation | [Current status](../../docs/status/current-status.md), updated in commit `69afad7`, records the sealed, Windows-validated mixer stage and a later unsealed mode-00 candidate | Private executable and reaching-state receipts were not inspected here; newer project milestones remain owned by that status page |
