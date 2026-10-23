@@ -1,100 +1,221 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
-<title id="title">Generated evidence-stage tracker</title><desc id="desc">Five independent evidence classes per workstream, not a completion percentage. Exact evidence and next steps are in the accessible Markdown tracker.</desc>
-<rect width="1280" height="780" fill="#10171b"/>
-<text x="40" y="52" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#f1ebdf">REVIEWED EVIDENCE — NOT PERCENT COMPLETE</text>
-<text x="40" y="88" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#a9b8bd">Last evidence review: 2026-10-23 · activity never promotes a stage</text>
-<text x="620" y="135" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">SOURCE</text>
-<text x="742" y="135" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">SYNTHETIC</text>
-<text x="864" y="135" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">LINUX</text>
-<text x="986" y="135" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">WINDOWS</text>
-<text x="1108" y="135" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">FULL APP</text>
-<text x="40" y="179" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Native CD mode-00</text>
-<rect x="620" y="157" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="180" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="157" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="180" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="157" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="886" y="180" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="986" y="157" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="1008" y="180" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="1108" y="157" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="180" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="249" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Graphics diagnostic</text>
-<rect x="620" y="227" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="250" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="227" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="250" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="227" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="886" y="250" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="986" y="227" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1008" y="250" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="1108" y="227" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="250" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="319" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Owned startup capture</text>
-<rect x="620" y="297" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="320" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="297" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="320" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="297" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="886" y="320" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="986" y="297" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1008" y="320" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="1108" y="297" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="320" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="389" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Export + frozen viewer</text>
-<rect x="620" y="367" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="390" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="367" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="390" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="367" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="886" y="390" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="986" y="367" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="1008" y="390" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="1108" y="367" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="390" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="459" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Source bytes / Back</text>
-<rect x="620" y="437" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="460" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="437" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="460" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="437" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="886" y="460" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="986" y="437" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="1008" y="460" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="1108" y="437" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="460" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="529" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Mailbox + observer</text>
-<rect x="620" y="507" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="530" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="507" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="530" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="507" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="886" y="530" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="986" y="507" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1008" y="530" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="1108" y="507" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="530" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="599" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">Loader continuation</text>
-<rect x="620" y="577" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="642" y="600" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">REVIEW</text>
-<rect x="742" y="577" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="764" y="600" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">PASS</text>
-<rect x="864" y="577" width="110" height="35" rx="4" fill="#6ed5df"/>
-<text x="886" y="600" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">RUN</text>
-<rect x="986" y="577" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1008" y="600" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="1108" y="577" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="600" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="669" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#f1ebdf">S2 live IDE controller</text>
-<rect x="620" y="647" width="110" height="35" rx="4" fill="#efb765"/>
-<text x="642" y="670" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#10171b">NO-GO</text>
-<rect x="742" y="647" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="764" y="670" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="864" y="647" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="886" y="670" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="986" y="647" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1008" y="670" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<rect x="1108" y="647" width="110" height="35" rx="4" fill="#26343a"/>
-<text x="1130" y="670" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#a9b8bd">—</text>
-<text x="40" y="748" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#a9b8bd">Evidence classes overlap. Empty means no acceptance claimed. Read the linked scope before interpreting a filled cell.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1720" viewBox="0 0 1440 1720" role="img" aria-labelledby="title desc">
+<title id="title">Milestones completed: counts, remaining goals and checklist percentages</title>
+<desc id="desc">A separately defined overall roadmap and five local checklists, not code or effort completion. Separate validation pass rates and exact done criteria are available in the linked Markdown ledger.</desc>
+<rect x="0" y="0" width="1440" height="1720" rx="0" fill="#101116"/>
+<rect x="18" y="17" width="1404" height="171" rx="12" fill="#090b10"/>
+<rect x="24" y="20" width="1392" height="164" rx="10" fill="#34151f"/>
+<rect x="27" y="21" width="1386" height="3" rx="4" fill="#dd4561"/>
+<rect x="27" y="24" width="1386" height="5" rx="4" fill="#a82e49"/>
+<rect x="27" y="29" width="1386" height="9" rx="4" fill="#79243b"/>
+<rect x="27" y="38" width="1386" height="13" rx="4" fill="#551c2c"/>
+<rect x="24" y="55" width="6" height="122" rx="0" fill="#f24763"/>
+<rect x="31" y="59" width="2" height="112" rx="0" fill="#651c32"/>
+<rect x="34" y="180" width="1368" height="2" rx="0" fill="#6e263a"/>
+<rect x="0" y="0" width="6" height="1720" rx="0" fill="#d32c4c"/>
+<path d="M 1374 184 L 1416 142 L 1416 184 Z" fill="#101116"/>
+<path d="M 1190 64 L 1215 64 L 1209 80 L 1184 80 Z" fill="#f25b74"/>
+<path d="M 1221 64 L 1246 64 L 1240 80 L 1215 80 Z" fill="#f25b74"/>
+<path d="M 1252 64 L 1277 64 L 1271 80 L 1246 80 Z" fill="#f25b74"/>
+<path d="M 1283 64 L 1308 64 L 1302 80 L 1277 80 Z" fill="#f25b74"/>
+<path d="M 1314 64 L 1339 64 L 1333 80 L 1308 80 Z" fill="#5c2939"/>
+<path d="M 1345 64 L 1370 64 L 1364 80 L 1339 80 Z" fill="#5c2939"/>
+<text x="48" y="50" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ffbdc5">ROCK MAN x64  /  LIVE CHECKLIST TRACKER</text>
+<text x="48" y="103" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="#fff2dd">Project progress, in numbers</text>
+<text x="48" y="139" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#c9c1bf">Accepted roadmap milestones + named delivery checklists.</text>
+<text x="48" y="175" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#ffc36d">Reviewed 2026-10-23  /  FIRST NUMERIC BASELINE — no earlier delta recorded</text>
+<rect x="25" y="207" width="1390" height="208" rx="10" fill="#080a0f"/>
+<rect x="28" y="210" width="1384" height="202" rx="8" fill="#291c28"/>
+<rect x="32" y="211" width="1376" height="3" rx="0" fill="#f16a84"/>
+<rect x="32" y="215" width="1376" height="5" rx="0" fill="#8e2c49"/>
+<rect x="32" y="221" width="1376" height="7" rx="0" fill="#542237"/>
+<text x="48" y="258" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#ffbdc5">OVERALL ROADMAP</text>
+<text x="48" y="300" font-family="DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#fff2dd">5 / 20 milestones accepted</text>
+<text x="1188" y="298" font-family="DejaVu Sans, sans-serif" font-size="51" font-weight="700" fill="#fff2dd">25%</text>
+<rect x="48" y="320" width="1316" height="28" rx="5" fill="#080a0f"/>
+<rect x="51" y="323" width="1310" height="22" rx="3" fill="#40303e"/>
+<rect x="51" y="323" width="327.5" height="22" rx="3" fill="#c3294b"/>
+<rect x="52" y="324" width="325.5" height="2" rx="2" fill="#ffadbd"/>
+<rect x="52" y="327" width="325.5" height="5" rx="0" fill="#f56381"/>
+<rect x="52" y="340" width="325.5" height="4" rx="0" fill="#8e1d3b"/>
+<text x="48" y="376" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#fff2dd">5 bounded foundations accepted; 15 production goals remain.</text>
+<text x="48" y="400" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">Unequal-size milestones — NOT 25% of game/code/effort finished. Effort-weighted progress is unknown.</text>
+<text x="1145" y="376" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="48.0" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">0%</text>
+<text x="310.5" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">25%</text>
+<text x="573.0" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">50%</text>
+<text x="835.5" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">75%</text>
+<text x="1098.0" y="451" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#9c929b">100%</text>
+<rect x="25" y="452" width="1390" height="168" rx="9" fill="#090b10"/>
+<rect x="28" y="455" width="1384" height="164" rx="8" fill="#1c2028"/>
+<rect x="33" y="456" width="1374" height="2" rx="0" fill="#50515b"/>
+<rect x="34" y="459" width="1369" height="2" rx="0" fill="#30323e"/>
+<rect x="28" y="464" width="4" height="137" rx="0" fill="#c82c4b"/>
+<rect x="33" y="465" width="2" height="134" rx="0" fill="#502131"/>
+<rect x="1118" y="470" width="1" height="133" rx="0" fill="#49404b"/>
+<text x="48" y="485" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#fff2dd">Frozen inspection delivery</text>
+<text x="48" y="513" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">7 named criteria · version 1 · bounded Linux / Windows delivery</text>
+<rect x="45" y="526" width="1056" height="28" rx="6" fill="#080a0f"/>
+<rect x="48" y="529" width="1050" height="22" rx="4" fill="#34313b"/>
+<rect x="51" y="530" width="1044" height="1" rx="0" fill="#73636e"/>
+<rect x="47" y="528" width="602.0" height="24" rx="5" fill="#5e1329"/>
+<rect x="48" y="529" width="600.0" height="22" rx="4" fill="#bd2142"/>
+<rect x="49" y="530" width="598.0" height="2" rx="2" fill="#ff91a2"/>
+<rect x="49" y="532" width="598.0" height="4" rx="2" fill="#f65370"/>
+<rect x="49" y="536" width="598.0" height="5" rx="0" fill="#dd3455"/>
+<rect x="49" y="546" width="598.0" height="4" rx="2" fill="#8b1733"/>
+<rect x="52" y="533" width="592.0" height="1" rx="0" fill="#ffbdc8"/>
+<rect x="310.5" y="529" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="573.0" y="529" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="835.5" y="529" width="1" height="22" rx="0" fill="#70515f"/>
+<text x="1145" y="487" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fff2dd">4 / 7</text>
+<text x="1145" y="524" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">57.1%</text>
+<text x="1145" y="549" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">3 remaining</text>
+<text x="1145" y="576" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="48" y="579" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  Real launcher, pixels and actual-capture display remain unverified.</text>
+<text x="48" y="604" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Obtain permitted real-launcher and actual-capture GUI evidence.</text>
+<rect x="25" y="622" width="1390" height="168" rx="9" fill="#090b10"/>
+<rect x="28" y="625" width="1384" height="164" rx="8" fill="#1c2028"/>
+<rect x="33" y="626" width="1374" height="2" rx="0" fill="#50515b"/>
+<rect x="34" y="629" width="1369" height="2" rx="0" fill="#30323e"/>
+<rect x="28" y="634" width="4" height="137" rx="0" fill="#c82c4b"/>
+<rect x="33" y="635" width="2" height="134" rx="0" fill="#502131"/>
+<rect x="1118" y="640" width="1" height="133" rx="0" fill="#49404b"/>
+<text x="48" y="655" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#fff2dd">Data-only observation path</text>
+<text x="48" y="683" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">4 named criteria · version 1 · data-only components, not a controller</text>
+<rect x="45" y="696" width="1056" height="28" rx="6" fill="#080a0f"/>
+<rect x="48" y="699" width="1050" height="22" rx="4" fill="#34313b"/>
+<rect x="51" y="700" width="1044" height="1" rx="0" fill="#73636e"/>
+<rect x="47" y="698" width="527.0" height="24" rx="5" fill="#5e1329"/>
+<rect x="48" y="699" width="525.0" height="22" rx="4" fill="#bd2142"/>
+<rect x="49" y="700" width="523.0" height="2" rx="2" fill="#ff91a2"/>
+<rect x="49" y="702" width="523.0" height="4" rx="2" fill="#f65370"/>
+<rect x="49" y="706" width="523.0" height="5" rx="0" fill="#dd3455"/>
+<rect x="49" y="716" width="523.0" height="4" rx="2" fill="#8b1733"/>
+<rect x="52" y="703" width="517.0" height="1" rx="0" fill="#ffbdc8"/>
+<rect x="310.5" y="699" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="573.0" y="699" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="835.5" y="699" width="1" height="22" rx="0" fill="#70515f"/>
+<text x="1145" y="657" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fff2dd">2 / 4</text>
+<text x="1145" y="694" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">50%</text>
+<text x="1145" y="719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">2 remaining</text>
+<text x="1145" y="746" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="48" y="749" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  No Windows execution or real endpoint/capture/UI integration.</text>
+<text x="48" y="774" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Review the production endpoint and lifecycle contract before connection.</text>
+<rect x="25" y="792" width="1390" height="168" rx="9" fill="#090b10"/>
+<rect x="28" y="795" width="1384" height="164" rx="8" fill="#1c2028"/>
+<rect x="33" y="796" width="1374" height="2" rx="0" fill="#50515b"/>
+<rect x="34" y="799" width="1369" height="2" rx="0" fill="#30323e"/>
+<rect x="28" y="804" width="4" height="137" rx="0" fill="#c82c4b"/>
+<rect x="33" y="805" width="2" height="134" rx="0" fill="#502131"/>
+<rect x="1118" y="810" width="1" height="133" rx="0" fill="#49404b"/>
+<text x="48" y="825" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#fff2dd">Selected loader checkpoints</text>
+<text x="48" y="853" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">4 named criteria · version 1 · selected native-policy checkpoints only</text>
+<rect x="45" y="866" width="1056" height="28" rx="6" fill="#080a0f"/>
+<rect x="48" y="869" width="1050" height="22" rx="4" fill="#34313b"/>
+<rect x="51" y="870" width="1044" height="1" rx="0" fill="#73636e"/>
+<rect x="47" y="868" width="789.5" height="24" rx="5" fill="#5e1329"/>
+<rect x="48" y="869" width="787.5" height="22" rx="4" fill="#bd2142"/>
+<rect x="49" y="870" width="785.5" height="2" rx="2" fill="#ff91a2"/>
+<rect x="49" y="872" width="785.5" height="4" rx="2" fill="#f65370"/>
+<rect x="49" y="876" width="785.5" height="5" rx="0" fill="#dd3455"/>
+<rect x="49" y="886" width="785.5" height="4" rx="2" fill="#8b1733"/>
+<rect x="52" y="873" width="779.5" height="1" rx="0" fill="#ffbdc8"/>
+<rect x="310.5" y="869" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="573.0" y="869" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="835.5" y="869" width="1" height="22" rx="0" fill="#70515f"/>
+<text x="1145" y="827" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fff2dd">3 / 4</text>
+<text x="1145" y="864" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">75%</text>
+<text x="1145" y="889" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">1 remaining</text>
+<text x="1145" y="916" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="48" y="919" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  Initializer execution preparation remains blocked pending review.</text>
+<text x="48" y="944" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Resolve the existing review gate; do not retry blocked preparation.</text>
+<rect x="25" y="962" width="1390" height="168" rx="9" fill="#090b10"/>
+<rect x="28" y="965" width="1384" height="164" rx="8" fill="#1c2028"/>
+<rect x="33" y="966" width="1374" height="2" rx="0" fill="#50515b"/>
+<rect x="34" y="969" width="1369" height="2" rx="0" fill="#30323e"/>
+<rect x="28" y="974" width="4" height="137" rx="0" fill="#9e6335"/>
+<rect x="33" y="975" width="2" height="134" rx="0" fill="#502131"/>
+<rect x="1118" y="980" width="1" height="133" rx="0" fill="#49404b"/>
+<text x="48" y="995" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#fff2dd">Live controller safety gates</text>
+<text x="48" y="1023" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">4 named criteria · version 1 · necessary gates, not a sufficiency proof</text>
+<rect x="45" y="1036" width="1056" height="28" rx="6" fill="#080a0f"/>
+<rect x="48" y="1039" width="1050" height="22" rx="4" fill="#34313b"/>
+<rect x="51" y="1040" width="1044" height="1" rx="0" fill="#73636e"/>
+<rect x="310.5" y="1039" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="573.0" y="1039" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="835.5" y="1039" width="1" height="22" rx="0" fill="#70515f"/>
+<text x="1145" y="997" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#ffc36d">0 / 4</text>
+<text x="1145" y="1034" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#ffc36d">0%</text>
+<text x="1145" y="1059" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">4 remaining</text>
+<text x="1145" y="1086" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="48" y="1089" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  All four necessary gates remain open; S2 controls stay disabled.</text>
+<text x="48" y="1114" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Establish a bounded loading contract, then owner retirement and integration.</text>
+<rect x="25" y="1132" width="1390" height="168" rx="9" fill="#090b10"/>
+<rect x="28" y="1135" width="1384" height="164" rx="8" fill="#1c2028"/>
+<rect x="33" y="1136" width="1374" height="2" rx="0" fill="#50515b"/>
+<rect x="34" y="1139" width="1369" height="2" rx="0" fill="#30323e"/>
+<rect x="28" y="1144" width="4" height="137" rx="0" fill="#9e6335"/>
+<rect x="33" y="1145" width="2" height="134" rx="0" fill="#502131"/>
+<rect x="1118" y="1150" width="1" height="133" rx="0" fill="#49404b"/>
+<text x="48" y="1165" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#fff2dd">Native game boot acceptance</text>
+<text x="48" y="1193" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">1 named criteria · version 1 · one acceptance gate, not implementation %</text>
+<rect x="45" y="1206" width="1056" height="28" rx="6" fill="#080a0f"/>
+<rect x="48" y="1209" width="1050" height="22" rx="4" fill="#34313b"/>
+<rect x="51" y="1210" width="1044" height="1" rx="0" fill="#73636e"/>
+<rect x="310.5" y="1209" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="573.0" y="1209" width="1" height="22" rx="0" fill="#70515f"/>
+<rect x="835.5" y="1209" width="1" height="22" rx="0" fill="#70515f"/>
+<text x="1145" y="1167" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#ffc36d">0 / 1</text>
+<text x="1145" y="1204" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#ffc36d">0%</text>
+<text x="1145" y="1229" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">1 remaining</text>
+<text x="1145" y="1256" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#ffc36d">Δ — first record</text>
+<text x="48" y="1259" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#e2c29a">BLOCKER  A0:49 remains unresolved; full native startup is unestablished.</text>
+<text x="48" y="1284" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">NEXT  Resolve service effects and their permitted implementation basis.</text>
+<text x="48" y="1368" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ff8095">VALIDATION RUNS</text>
+<text x="272" y="1368" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#b1abb0">Pass rates for specific suites — not milestone or game completion</text>
+<rect x="45" y="1387" width="430" height="216" rx="11" fill="#080a0f"/>
+<rect x="48" y="1390" width="424" height="210" rx="9" fill="#20222b"/>
+<rect x="52" y="1391" width="416" height="2" rx="0" fill="#69616b"/>
+<rect x="52" y="1394" width="416" height="4" rx="0" fill="#3b303c"/>
+<rect x="49" y="1398" width="422" height="35" rx="3" fill="#42202e"/>
+<rect x="49" y="1398" width="422" height="2" rx="0" fill="#bf415b"/>
+<rect x="70" y="1580" width="380" height="3" rx="0" fill="#76203a"/>
+<rect x="70" y="1579" width="380" height="1" rx="0" fill="#f15a74"/>
+<text x="70" y="1424" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#fff2dd">Windows mode-00</text>
+<text x="70" y="1470" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#fff2dd">69 / 69</text>
+<text x="315" y="1470" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">100%</text>
+<text x="70" y="1498" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#c6d1d3">ordered cases passed</text>
+<text x="70" y="1526" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">39 expected successes + 30 intentional</text>
+<text x="70" y="1545" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">refusals; bounded startup only.</text>
+<rect x="493" y="1387" width="430" height="216" rx="11" fill="#080a0f"/>
+<rect x="496" y="1390" width="424" height="210" rx="9" fill="#20222b"/>
+<rect x="500" y="1391" width="416" height="2" rx="0" fill="#69616b"/>
+<rect x="500" y="1394" width="416" height="4" rx="0" fill="#3b303c"/>
+<rect x="497" y="1398" width="422" height="35" rx="3" fill="#42202e"/>
+<rect x="497" y="1398" width="422" height="2" rx="0" fill="#bf415b"/>
+<rect x="518" y="1580" width="380" height="3" rx="0" fill="#76203a"/>
+<rect x="518" y="1579" width="380" height="1" rx="0" fill="#f15a74"/>
+<text x="518" y="1424" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#fff2dd">Windows frozen viewer</text>
+<text x="518" y="1470" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#fff2dd">111 / 111</text>
+<text x="763" y="1470" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">100%</text>
+<text x="518" y="1498" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#c6d1d3">synthetic checks passed</text>
+<text x="518" y="1526" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">HWND/command/state, not pixels or actual-</text>
+<text x="518" y="1545" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">capture display.</text>
+<rect x="941" y="1387" width="430" height="216" rx="11" fill="#080a0f"/>
+<rect x="944" y="1390" width="424" height="210" rx="9" fill="#20222b"/>
+<rect x="948" y="1391" width="416" height="2" rx="0" fill="#69616b"/>
+<rect x="948" y="1394" width="416" height="4" rx="0" fill="#3b303c"/>
+<rect x="945" y="1398" width="422" height="35" rx="3" fill="#42202e"/>
+<rect x="945" y="1398" width="422" height="2" rx="0" fill="#bf415b"/>
+<rect x="966" y="1580" width="380" height="3" rx="0" fill="#76203a"/>
+<rect x="966" y="1579" width="380" height="1" rx="0" fill="#f15a74"/>
+<text x="966" y="1424" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#fff2dd">Windows Source / Back</text>
+<text x="966" y="1470" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#fff2dd">50 / 50</text>
+<text x="1211" y="1470" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#fff2dd">100%</text>
+<text x="966" y="1498" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#c6d1d3">synthetic checks passed</text>
+<text x="966" y="1526" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">Command/state navigation, not visual</text>
+<text x="966" y="1545" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" fill="#b1abb0">acceptance.</text>
+<text x="48" y="1640" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#ffc36d">READ THE CRITERIA</text>
+<text x="48" y="1668" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#c9c1bf">Checklist goals have different sizes. Do not add these percentages. A checked goal means only its cited scope passed.</text>
+<text x="48" y="1694" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#c9c1bf">Native boot remains unestablished. S2 is NO-GO. The chart is regenerated by the approved documentation workflow.</text>
 </svg>

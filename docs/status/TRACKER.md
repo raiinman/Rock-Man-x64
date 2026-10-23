@@ -17,10 +17,7 @@ review-pending, not converted into a native capability. If they did both change,
 the tracker says an authored evidence update was supplied; changed stages or stage citations without a new review identifier are refused before generation. That is still not an
 independent machine review or proof of the underlying test result.
 
-No text parser, commit counter or time-based animation advances the bars. The
-five positions represent overlapping evidence classes—not equal effort, a stable
-task denominator or percentage complete. An unchanged bar is the right result
-when no new accepted evidence exists. Plain-English findings can still improve.
+No text parser, commit counter or time-based animation advances the bars. The default chart uses named finite acceptance checklists, each with a versioned denominator, explicit done criteria and source links. Its percentage means accepted criteria divided by the criteria in that checklist—not effort or total game progress. The evidence-class matrix remains secondary and overlapping. An unchanged bar is correct when no new accepted criterion exists; plain-English findings can still improve.
 
 ## Team completion requirement
 
@@ -33,14 +30,15 @@ Every meaningful Rock Man change is incomplete until its owner:
    reviewed repository basis and a concise scope summary. Do not advance the date
    or identifier merely because the updater ran. Research authors may add
    research findings; they may not promote native evidence from reference work.
-3. Changes a workstream stage only after review of its cited evidence. Each filled
+3. Changes a workstream stage or a named checklist acceptance only after review of its cited evidence. Each filled
    stage requires a source. A source-only NO-GO is not implementation or runtime
    acceptance; a Windows synthetic pass is not pixel or game-boot acceptance.
 4. Adds plain-English `plain_status` and `next` changes where relevant. Keep
    uncertainty, blocked/denied/pending status and source-provenance limits visible.
-5. Runs the updater, tests and drift check below. Generated files are never edited
+5. Appends one numeric observation matching the new evidence review ID, date and basis commit. Record each checklist version and exact accepted criterion IDs. Do not edit earlier observations or insert multiple historical points in one transition. The updater permits one newly bound observation per review transition; a separately evidenced historical import is not supported by this path. A changed item set or done criterion needs a new version; its percentage is a rebaseline, not a same-plan improvement.
+6. Runs the updater, tests and drift check below. Generated files are never edited
    manually. Review the rendered text/SVG and exact diff for scope and privacy.
-6. Publishes through the authorized update path, then verifies the actual workflow
+7. Publishes through the authorized update path, then verifies the actual workflow
    result and generated commit. A green local check alone is not a published or
    remotely refreshed tracker. Report a failed/skipped/pending update explicitly.
 
@@ -50,8 +48,8 @@ clears PSX-SPX, Sony/firmware or test-oracle provenance.
 
 ## Source and outputs
 
-- **Reviewed source:** `dashboard-data.json` (schema 2).
-- **Observed repository metadata:** `tracker-state.json`; generated receipt,
+- **Reviewed source:** `dashboard-data.json` (schema 3).
+- **Observed repository metadata:** `tracker-state.json` (schema 2); generated receipt,
   never an authority for native completion.
 - **Generated outputs only:** the marked README tracker block,
   `docs/status/dashboard.md`, `docs/status/changes.md`,
@@ -84,6 +82,21 @@ metadata, not code. Do not label connector observation as an executed workflow.
 `check_generated_changes.py` requires a Git checkout and rejects any generated
 change outside the five exact output paths, changes outside README markers,
 renames, symlinks or executable/external SVG content.
+
+## What the numeric chart measures
+
+The overall v1 roadmap and five local v1 checklists were frozen on 2026-10-23 from named goals and existing public acceptance records. They are useful measurement plans, not exhaustive project backlogs or equal-sized work units:
+
+- **Overall roadmap:** 5/20 named milestones accepted (25% of that roadmap), comprising five bounded foundations and fifteen pending production goals. The full twenty-item [criteria ledger](dashboard.md#roadmap--accepted-roadmap-milestones) covers native boot, scene lifecycle, rendering, animation, controls/camera, collision, AI/combat/progression, audio, game saves, actual Windows inspection, live/full IDE, provenance, packaging and end-to-end acceptance. The milestones are unequal-sized; effort-weighted completion is unknown. This is not 25% of the game finished and is not calculated from local percentages.
+- **Frozen inspection delivery:** 4/7 separately scoped acceptance goals. Linux capture/import and Windows synthetic viewer/host checks do not establish the remaining real launcher, pixels or actual-capture display.
+- **Data-only observation path:** 2/4 named goals; platform and integration goals overlap and are not independent effort units.
+- **Selected loader checkpoints:** 3/4 bounded native-policy checkpoints, not 75% of a complete loader or BIOS equivalence. The actual-input initializer remains blocked; the chart does not authorize a retry.
+- **Live controller safety gates:** 0/4 necessary admission gates, not an exhaustive proof that four closures alone would finish S2.
+- **Native game boot acceptance:** 0/1 binary acceptance goal, not zero development or a game-completion estimate.
+
+The exact done criteria and sources live in [the generated ledger](dashboard.md#named-checklists). The first observation is a baseline from existing evidence, not a claim that those goals were just completed. No earlier numeric history is fabricated. Later deltas count changed accepted goals only within the same checklist version. Version changes show **rebaseline**. Validation cards (69/69, 111/111, 50/50) are pass rates for identified bounded suites, never checklist acceptance inferred from test volume.
+
+The SVG is code-generated by the existing updater, not a manually maintained picture. GitHub README cannot execute an interactive JavaScript chart; rendering the deterministic SVG on each eligible push gives a visible chart without hosting, deployment, a new route or additional permissions. The workflow's five-output allowlist is unchanged.
 
 ## Trigger, race and authorization boundaries
 

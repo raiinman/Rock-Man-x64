@@ -21,7 +21,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Work Guidance
 
-- Keep the root overview current, plain-English and short; generate evidence-stage bars and changed/why/next from reviewed source data, link the complete ledger, and put durable detail in the owning child subtree. Do not convert uneven workstreams or test counts into a game-completion percentage.
+- Keep the root overview current, plain-English and short; generate visible numeric checklist charts and changed/why/next from reviewed source data, link the complete ledger, and put durable detail in the owning child subtree. Percentages may describe only explicit versioned finite checklists, never overall game completion or effort. Keep suite pass rates separate and compare recorded observations only within the same checklist version.
 - Update status, relevant technical limitations, and history together when a milestone or correction changes the project record.
 - Keep dates and milestone labels explicit. Do not invent timestamps or turn planned work into completed history.
 - Tracker upkeep is part of every meaningful Rock Man change: maintain reviewed data and change explanations, regenerate/check outputs, and verify the actual updater result after publication. Never promote native evidence from research or repository activity.

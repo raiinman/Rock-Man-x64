@@ -2,7 +2,19 @@
 
 Generated from reviewed evidence data. Entries describe actual reviewed changes; an unrelated repository push does not add a capability milestone.
 
-[Current tracker](../../README.md#living-progress-tracker) · [Maintenance](TRACKER.md)
+[Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
+
+## 2026-10-23 · numeric-checklist-baseline-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Added versioned named checklists, completed/remaining counts, percentages and a first recorded numeric baseline. Replaced the ambiguous evidence-square overview.
+
+**Why:** You can see which concrete goals are accepted and which remain, without mistaking test totals for game completion.
+
+**Next:** Append the next reviewed observation when a checklist changes; preserve definitions or create a clearly labeled new version.
+
+**Evidence:** [source 1](../../docs/status/dashboard.md#named-checklists) · [source 2](../../docs/status/TRACKER.md).
 
 ## 2026-10-23 · tracker-living-01
 
@@ -39,3 +51,17 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 **Next:** Review production load and owner retirement before integrating the observer with live controls.
 
 **Evidence:** [source 1](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) · [source 2](../../docs/status/validation.md#observer-candidate-validation--october-23).
+
+
+## Numeric review history
+
+Only recorded observations appear here. The first entry is a baseline, not a newly completed runtime milestone. A new checklist version starts a new comparison basis.
+
+| Recorded review | Checklist version | Completed / total | Change note |
+|---|---|---|---|
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | inspection v1 | 4 / 7 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | observation v1 | 2 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | loader v1 | 3 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | s2 v1 | 0 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | boot v1 | 0 / 1 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | roadmap v1 | 5 / 20 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |

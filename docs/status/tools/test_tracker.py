@@ -3,6 +3,7 @@ from pathlib import Path
 import copy
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import tempfile
@@ -56,7 +57,7 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(before,self.data()['workstreams']);self.assertIn('**Review pending:**',(self.root/'README.md').read_text())
         a=json.loads((self.root/u.STATE).read_text())['latest_repository_change'];self.assertFalse(a['evidence_data_changed']);self.assertFalse(a['review_id_changed']);u.run(self.root,True)
     def test_10_authored_review_is_identified_not_inferred(self):
-        d=self.data();d['last_evidence_review']['review_id']='fixture-review-02';d['overview']['changed']='Reviewed fixture explanation only.';self.save(d);self.git('add','.');self.git('commit','-qm','authored evidence fixture')
+        d=self.data();self.snapshot(d,'fixture-review-02');d['overview']['changed']='Reviewed fixture explanation only.';self.save(d);self.git('add','.');self.git('commit','-qm','authored evidence fixture')
         u.run(self.root,False,refresh=self.git('rev-parse','HEAD'))
         self.assertIn('**Authored evidence update supplied:**',(self.root/'README.md').read_text())
         self.assertFalse(any(w['stages'][4] for w in self.data()['workstreams']))
@@ -130,7 +131,100 @@ class TrackerTests(unittest.TestCase):
         p=self.root/u.STATE;s=json.loads(p.read_text());del s['reviewed_stage_sha256'];p.write_text(json.dumps(s))
         with self.assertRaisesRegex(u.Invalid,'prior reviewed-stage receipt'):u.run(self.root,False)
     def test_31_guard_rejects_encoded_external_svg_paint(self):
-        p=self.root/'docs/status/visuals/progress-dashboard.svg';p.write_text(p.read_text().replace('fill="#10171b"','fill="u&#114;l(//example.invalid/x)"',1))
+        p=self.root/'docs/status/visuals/progress-dashboard.svg';original=p.read_text();mutated=re.sub(r'fill="#[0-9a-fA-F]{6}"','fill="u&#114;l(//example.invalid/x)"',original,count=1);self.assertNotEqual(original,mutated);p.write_text(mutated)
         with self.assertRaisesRegex(u.Invalid,'external parsed SVG'):guard.check(self.root)
+
+    def snapshot(self,d,review_id='fixture-numeric-review-02'):
+        d['last_evidence_review']['review_id']=review_id
+        d['observations'].append({'review_id':review_id,'date':d['last_evidence_review']['date'],'basis_commit':d['last_evidence_review']['reviewed_through_commit'],'note':'Synthetic documentation fixture, not actual project acceptance.','checklists':[{'id':c['id'],'version':c['version'],'total':len(c['items']),'completed_ids':[i['id'] for i in c['items'] if i['done']]} for c in d['checklists']]})
+    def test_32_done_promotion_without_review_refuses_before_write(self):
+        d=self.data();d['checklists'][0]['items'][4]['done']=True
+        self.snapshot(d,d['last_evidence_review']['review_id']+'-observation');d['last_evidence_review']['review_id']=self.data()['last_evidence_review']['review_id'];self.save(d);before=self.hashes()
+        with self.assertRaisesRegex(u.Invalid,'match the evidence review'):u.run(self.root,False)
+        self.assertEqual(before,self.hashes())
+    def test_33_done_change_without_snapshot_refused(self):
+        d=self.data();d['checklists'][0]['items'][4]['done']=True;self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'matching recorded observation'):u.run(self.root,False)
+    def test_34_denominator_removal_without_version_refused(self):
+        d=self.data();d['checklists'][0]['items'].pop();self.snapshot(d);self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'historical denominator changed'):u.run(self.root,False)
+    def test_35_denominator_inflation_without_version_refused(self):
+        d=self.data();i=copy.deepcopy(d['checklists'][0]['items'][0]);i['id']='synthetic-extra';d['checklists'][0]['items'].append(i);self.snapshot(d);self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'historical denominator changed'):u.run(self.root,False)
+    def test_36_criteria_edit_without_version_refused(self):
+        d=self.data();d['checklists'][0]['items'][0]['criterion']='Changed synthetic criterion';self.snapshot(d);self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'new checklist version'):u.run(self.root,False)
+    def test_37_baseline_history_rewrite_refused(self):
+        d=self.data();d['observations'][0]['note']='Rewritten synthetic past';self.snapshot(d);self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'append-only'):u.run(self.root,False)
+    def test_38_fresh_review_advances_exactly_one_named_goal(self):
+        d=self.data();d['checklists'][0]['items'][4]['done']=True;self.snapshot(d);self.save(d);u.run(self.root,False);u.run(self.root,True)
+        self.assertEqual(u.numbers(d['checklists'][0]),(5,7,71.4));self.assertEqual(u.delta_label(d,d['checklists'][0]),'Δ +1 goals')
+        self.assertIn('5 / 7',(self.root/'docs/status/visuals/progress-dashboard.svg').read_text())
+    def test_39_new_version_rebaselines_instead_of_claiming_delta(self):
+        d=self.data();d['checklists'][0]['version']=2;d['checklists'][0]['items'].pop();self.snapshot(d);self.save(d);u.run(self.root,False)
+        self.assertEqual(u.delta_label(d,d['checklists'][0]),'Δ — rebaseline');self.assertEqual(u.numbers(d['checklists'][0]),(4,6,66.7))
+    def test_40_activity_only_preserves_numbers_and_history(self):
+        d=self.data();self.git('commit','--allow-empty','-qm','activity only numeric fixture');u.run(self.root,False,refresh=self.git('rev-parse','HEAD'))
+        self.assertEqual(d,self.data());self.assertEqual(len(self.data()['observations']),1);self.assertIn('Review pending',(self.root/'README.md').read_text())
+    def test_41_forged_numeric_receipt_still_fails_git_parent_review_gate(self):
+        d=self.data();d['checklists'][0]['items'][4]['done']=True;old_id=d['last_evidence_review']['review_id'];self.snapshot(d,'fixture-forged-observation');d['last_evidence_review']['review_id']=old_id;self.save(d)
+        p=self.root/u.STATE;state=json.loads(p.read_text());state['reviewed_stage_sha256']=u.stage_digest(d);state['recorded_observation_hashes']=[u.digest(o) for o in d['observations']];p.write_text(json.dumps(state)+'\n');self.git('add','.');self.git('commit','-qm','forged review fixture')
+        with self.assertRaisesRegex(u.Invalid,'without a new evidence review identifier'):u.run(self.root,False,refresh=self.git('rev-parse','HEAD'))
+    def test_42_git_parent_rejects_forged_history_receipt(self):
+        d=self.data();d['observations'][0]['note']='Forged old fixture';self.snapshot(d);self.save(d)
+        p=self.root/u.STATE;state=json.loads(p.read_text());state['recorded_observation_hashes']=[u.digest(o) for o in d['observations']];p.write_text(json.dumps(state)+'\n');self.git('add','.');self.git('commit','-qm','forged history fixture')
+        with self.assertRaisesRegex(u.Invalid,'append-only'):u.run(self.root,False,refresh=self.git('rev-parse','HEAD'))
+    def test_43_invalid_validation_counts_and_empty_denominator_refused(self):
+        for passed,total in [(70,69),(-1,69),(True,69),(0,0)]:
+            d=self.data();d['validation_runs'][0].update(passed=passed,total=total);self.save(d)
+            with self.assertRaisesRegex(u.Invalid,'invalid validation count'):u.run(self.root,False)
+    def test_44_missing_numeric_receipts_refused(self):
+        p=self.root/u.STATE;state=json.loads(p.read_text());del state['recorded_observation_hashes'];p.write_text(json.dumps(state))
+        with self.assertRaisesRegex(u.Invalid,'prior observation history'):u.run(self.root,False)
+    def test_45_chart_default_has_counts_axis_and_no_square_grid(self):
+        readme=(self.root/'README.md').read_text();svg=(self.root/'docs/status/visuals/progress-dashboard.svg').read_text()
+        self.assertIn('progress-dashboard.svg',readme);self.assertNotIn('🟦',readme)
+        for value in ('4 / 7','57.1%','2 / 4','50%','3 / 4','75%','0 / 4','0 / 1','100%','remaining','first record'):self.assertIn(value,svg)
+        self.assertIn('game/code/effort finished',svg)
+    def test_46_numeric_observation_review_identity_must_match(self):
+        original=self.data()
+        for key,value in [('review_id','fixture-mismatch'),('date','2026-10-24'),('basis_commit','0'*40)]:
+            d=copy.deepcopy(original);d['observations'][-1][key]=value;self.save(d)
+            with self.assertRaisesRegex(u.Invalid,'match the evidence review'):u.run(self.root,False)
+    def test_47_plain_ids_and_historical_versions_are_validated(self):
+        original=self.data()
+        for field in ('checklist','criterion','historical-version'):
+            d=copy.deepcopy(original)
+            if field=='checklist':d['checklists'][0]['id']='[unsafe]'
+            elif field=='criterion':d['checklists'][0]['items'][0]['id']='bad id'
+            else:d['observations'][0]['checklists'][0]['version']=True
+            self.save(d)
+            with self.assertRaisesRegex(u.Invalid,'invalid plain identifier|invalid observed checklist version'):u.run(self.root,False)
+    def test_48_multiple_inserted_observations_cannot_fabricate_delta(self):
+        d=self.data();self.snapshot(d,'fixture-unbound-middle');d['observations'][-1]['checklists'][0]['completed_ids']=[];self.snapshot(d,'fixture-final-review');self.save(d);before=self.hashes()
+        with self.assertRaisesRegex(u.Invalid,'only one new numeric observation'):u.run(self.root,False)
+        self.assertEqual(before,self.hashes())
+        p=self.root/u.STATE;state=json.loads(p.read_text());state['recorded_observation_hashes']=[u.digest(o) for o in d['observations']];state['reviewed_stage_sha256']=u.stage_digest(d);p.write_text(json.dumps(state)+'\n');self.git('add','.');self.git('commit','-qm','fabricated middle observation fixture')
+        with self.assertRaisesRegex(u.Invalid,'only one new numeric observation'):u.run(self.root,False,refresh=self.git('rev-parse','HEAD'))
+    def test_49_new_review_without_new_acceptance_has_zero_delta(self):
+        d=self.data();self.snapshot(d);self.save(d);u.run(self.root,False)
+        self.assertEqual(u.delta_label(d,d['checklists'][0]),'Δ +0 goals')
+    def test_50_overall_is_its_own_named_milestone_count(self):
+        d=self.data();road=next(c for c in d['checklists'] if c['id']=='roadmap');self.assertEqual(u.numbers(road),(5,20,25.0))
+        d['checklists'][0]['items'][4]['done']=True;self.snapshot(d);self.save(d);u.run(self.root,False)
+        self.assertEqual(u.numbers(road),(5,20,25.0));self.assertIn('5 / 20 milestones accepted',(self.root/'docs/status/visuals/progress-dashboard.svg').read_text())
+    def test_51_overall_advance_requires_review_and_updates_only_its_count(self):
+        d=self.data();road=next(c for c in d['checklists'] if c['id']=='roadmap');road['items'][5]['done']=True;self.snapshot(d);self.save(d);u.run(self.root,False)
+        self.assertEqual(u.numbers(road),(6,20,30.0));self.assertEqual(u.numbers(d['checklists'][0]),(4,7,57.1))
+        svg=(self.root/'docs/status/visuals/progress-dashboard.svg').read_text();self.assertIn('5 bounded foundations accepted; 14 production goals remain',svg)
+    def test_52_overall_unreviewed_change_and_definition_edit_refused(self):
+        original=self.data();d=copy.deepcopy(original);road=next(c for c in d['checklists'] if c['id']=='roadmap');road['items'][5]['done']=True;self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'matching recorded observation'):u.run(self.root,False)
+        d=copy.deepcopy(original);road=next(c for c in d['checklists'] if c['id']=='roadmap');road['items'][5]['phase']='foundation';self.snapshot(d);self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'new checklist version'):u.run(self.root,False)
+    def test_53_unknown_layout_id_refused_before_render(self):
+        d=self.data();d['checklists'][0]['id']='other';d['observations'][-1]['checklists'][0]['id']='other';self.save(d)
+        with self.assertRaisesRegex(u.Invalid,'fixed reviewed checklist IDs'):u.run(self.root,False)
 
 if __name__=='__main__':unittest.main()

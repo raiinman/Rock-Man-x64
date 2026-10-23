@@ -1,15 +1,15 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "latest_repository_change": {
-    "sha": "c1275311c5c841405d000203f4b02aa9645145d4",
-    "committed_at": "2026-10-23T13:22:45-07:00",
-    "subject": "docs: automate living tracker with evidence-gated progress and plain-English updates",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "bc4417b4b9a3cb75c0bb481250600af4af2a0ff9",
+    "committed_at": "2026-10-23T20:23:03Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact connector-observed generated commit; not a new native review",
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "b42a09178f3145a1f27eae6e206e3251bb79acb8a71e522646245234e47d9e17",
+  "evidence_data_sha256": "0538475f30d22c09721ff40c21b7828883ce0e0c8c5f52904c153c997427981e",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,7 +17,36 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "07f00f757f60411d1267ef31885ed498812c69a16c198bac3366276f37b02405",
-  "evidence_review_id": "2026-10-23-native-evidence-02",
-  "evidence_review_date": "2026-10-23"
+  "reviewed_stage_sha256": "38b74722a9b03101107f993ca8ab4a0dfca5a4a9b47e98e8a1c6f3fd4dc45ef8",
+  "evidence_review_id": "2026-10-23-numeric-baseline-01",
+  "evidence_review_date": "2026-10-23",
+  "reviewed_checklist_definitions": {
+    "inspection": {
+      "version": 1,
+      "sha256": "0c9082aae0922e9568929852d5e4733bb29d9c8e389afbe90354aa42a889c08b"
+    },
+    "observation": {
+      "version": 1,
+      "sha256": "d290cbd51ad8ce97f3781d0b2b648c5eb7cec3b1d1c2ec5bba97777e0bb18b95"
+    },
+    "loader": {
+      "version": 1,
+      "sha256": "7fc6088c58781ae98aca304e6f101dbeb3d7e703e4dd3d41fbeff5ddf6415663"
+    },
+    "s2": {
+      "version": 1,
+      "sha256": "94b3d0ed4dd8f2982a640beaadcda11afb6ad0ecab00e74ad446ae6b06b434dc"
+    },
+    "boot": {
+      "version": 1,
+      "sha256": "e56adfa063a3f4564789b57d53551fc81011b75d0144110f4731e4ab19426ced"
+    },
+    "roadmap": {
+      "version": 1,
+      "sha256": "1618375ee4c4ff4c29be2acbb046d2b26e0138fb9dd096d0b4c9a04d7b5f6c4c"
+    }
+  },
+  "recorded_observation_hashes": [
+    "3a9189dd0f3cdc53c9565337bc8701731ac0d2a5b650713be0b7a4b5f5247fab"
+  ]
 }

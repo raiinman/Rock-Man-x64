@@ -6,36 +6,23 @@ This public repository contains documentation, research metadata and original ex
 
 <!-- ROCK-MAN-TRACKER:START -->
 
-## Living progress tracker
+## Progress, in numbers
+
+[![Completed and remaining goals in five named checklists](docs/status/visuals/progress-dashboard.svg)](docs/status/dashboard.md#named-checklists)
+
+**This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
 **Where we are:** Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.
 
-**What changed:** The data-only observer can recover delayed notices and label old snapshots honestly. New load reviews narrowed the shutdown problem; they did not solve it.
-
-**Why it matters:** We can inspect a stopped runtime without pretending it advanced. Safe cancellation and ownership still have to be proved before live controls can be connected.
-
 **Next useful step:** Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-native-evidence-02` · [reviewed basis 9ce9b94](https://github.com/raiinman/Rock-Man-x64/commit/9ce9b9497f496584c438b76b39d1b36f2f1e4d58).
-**Latest repository change observed:** [c127531](https://github.com/raiinman/Rock-Man-x64/commit/c1275311c5c841405d000203f4b02aa9645145d4) · 2026-10-23T13:22:45-07:00 — docs: automate living tracker with evidence-gated progress and plain-English updates.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Change since previous numeric review:** First recorded baseline. No earlier numeric observation exists, so no progress delta is invented.
 
-| Workstream | Evidence bar | In plain English |
-|---|---|---|
-| Native CD mode-00 | 🟦🟦🟦🟦⬜ | Windows checks pass for this startup slice. |
-| Graphics diagnostic | 🟦🟦🟦⬜⬜ | The Linux diagnostic reaches a known stop. |
-| Owned startup capture | 🟦🟦🟦⬜⬜ | Bounded owner snapshots work in Linux tests. |
-| Export \+ frozen viewer | 🟦🟦🟦🟦⬜ | Portable model import and Windows synthetic viewer checks each pass. |
-| Source bytes / Back | 🟦🟦⬜🟦⬜ | Windows navigation commands preserve tested state. |
-| Mailbox \+ observer | 🟦🟦🟦⬜⬜ | The data-only channel and observer pass Linux synthetic tests. |
-| Loader continuation | 🟦🟦🟦⬜⬜ | Native-policy compatibility stops before the initializer. |
-| S2 live IDE controller | 🟨⬜⬜⬜⬜ | Live runtime controls remain disabled. |
+[Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Left → right:** source review · synthetic/component · Linux · Windows · full game/IDE. 🟦 bounded evidence · 🟨 completed NO-GO review · ⬜ no acceptance claimed. **These are evidence classes, not five equal units of work or percent complete.**
-
-[What changed / why / next](docs/status/changes.md) · [Exact scopes and discoveries](docs/status/dashboard.md) · [How updates work](docs/status/TRACKER.md)
-
-_Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages._
+**Last evidence review:** 2026-10-23 · `2026-10-23-numeric-baseline-01` · [reviewed basis bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9).
+**Latest repository change observed:** [bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9) · 2026-10-23T20:23:03Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

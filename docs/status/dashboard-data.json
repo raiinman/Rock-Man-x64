@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "as_of": "2026-10-23",
   "base_commit": "e32df907d72f65e0067a0b56ad56c1f65bb74de7",
   "scope": "Documentation-only evidence snapshot, not a game-completion percentage. Includes separately labeled source-only load/host-I/O reviews.",
@@ -407,9 +407,9 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-23",
-    "review_id": "2026-10-23-native-evidence-02",
-    "reviewed_through_commit": "9ce9b9497f496584c438b76b39d1b36f2f1e4d58",
-    "summary": "Published component results and source-only load reviews reconciled. No new native-game run is claimed."
+    "review_id": "2026-10-23-numeric-baseline-01",
+    "reviewed_through_commit": "bc4417b4b9a3cb75c0bb481250600af4af2a0ff9",
+    "summary": "First versioned numeric checklist baseline, reconciled to existing published evidence. No new native test or game milestone is claimed."
   },
   "overview": {
     "now": "Parts of startup and the inspection tools have passed bounded tests. Native game boot is still unestablished, and live IDE controls are not safe to enable yet.",
@@ -418,6 +418,19 @@
     "next": "Establish a reviewed loading and shutdown contract, then review native-owner retirement and real UI integration. Keep the unresolved graphics service stopped."
   },
   "updates": [
+    {
+      "id": "numeric-checklist-baseline-01",
+      "date": "2026-10-23",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Added versioned named checklists, completed/remaining counts, percentages and a first recorded numeric baseline. Replaced the ambiguous evidence-square overview.",
+      "why": "You can see which concrete goals are accepted and which remain, without mistaking test totals for game completion.",
+      "next": "Append the next reviewed observation when a checklist changes; preserve definitions or create a clearly labeled new version.",
+      "evidence": [
+        "docs/status/dashboard.md#named-checklists",
+        "docs/status/TRACKER.md"
+      ]
+    },
     {
       "id": "tracker-living-01",
       "date": "2026-10-23",
@@ -455,6 +468,513 @@
         "docs/status/validation.md#observer-candidate-validation--october-23"
       ],
       "capability_changed": true
+    }
+  ],
+  "checklists": [
+    {
+      "id": "inspection",
+      "title": "Frozen inspection delivery",
+      "version": 1,
+      "frozen_on": "2026-10-23",
+      "scope": "Seven named delivery checkpoints, mixing separately labeled Linux and Windows scopes. A local checklist, not full IDE completion.",
+      "blocker": "Real launcher, pixels and actual-capture display remain unverified.",
+      "next": "Obtain permitted real-launcher and actual-capture GUI evidence.",
+      "items": [
+        {
+          "id": "capture",
+          "label": "Owned startup capture",
+          "criterion": "Accept an actual bounded same-owner capture run with non-mutation and cleanup review.",
+          "done": true,
+          "evidence_class": "Actual Linux/UBSan",
+          "source": "docs/status/current-status.md#bounded-actual-owned-capture"
+        },
+        {
+          "id": "portable",
+          "label": "Portable export/import",
+          "criterion": "Accept an actual producer-to-artifact-to-portable-model round trip.",
+          "done": true,
+          "evidence_class": "Actual Linux export/import",
+          "source": "docs/status/current-status.md#actual-portable-exportimport-and-bounded-windows-viewer-acceptance"
+        },
+        {
+          "id": "viewer",
+          "label": "Frozen viewer commands",
+          "criterion": "Accept the frozen Windows viewer synthetic HWND/command/state suite.",
+          "done": true,
+          "evidence_class": "Reported Windows synthetic execution",
+          "source": "docs/status/current-status.md#separately-approved-windows-viewer-result"
+        },
+        {
+          "id": "host",
+          "label": "Standalone host lifecycle",
+          "criterion": "Accept the standalone viewer synthetic host-function lifecycle checks.",
+          "done": true,
+          "evidence_class": "Reported Windows synthetic execution",
+          "source": "docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates"
+        },
+        {
+          "id": "launcher",
+          "label": "Real standalone launcher",
+          "criterion": "Verify the real standalone launcher, separately from host-function tests.",
+          "done": false,
+          "evidence_class": "Pending real-launcher acceptance",
+          "source": "docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates"
+        },
+        {
+          "id": "pixels",
+          "label": "Visual correctness",
+          "criterion": "Accept a permitted pixel/visual inspection of the standalone viewer.",
+          "done": false,
+          "evidence_class": "Blocked visual acceptance",
+          "source": "docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates"
+        },
+        {
+          "id": "capture-gui",
+          "label": "Actual-capture GUI display",
+          "criterion": "Verify actual owned capture display in the Windows GUI, not synthetic fixtures.",
+          "done": false,
+          "evidence_class": "Pending actual-capture GUI acceptance",
+          "source": "docs/status/current-status.md#separately-approved-windows-viewer-result"
+        }
+      ]
+    },
+    {
+      "id": "observation",
+      "title": "Data-only observation path",
+      "version": 1,
+      "frozen_on": "2026-10-23",
+      "scope": "Four named delivery checkpoints. Linux synthetic components are not native controller or GUI integration.",
+      "blocker": "No Windows execution or real endpoint/capture/UI integration.",
+      "next": "Review the production endpoint and lifecycle contract before connection.",
+      "items": [
+        {
+          "id": "mailbox",
+          "label": "Observation mailbox",
+          "criterion": "Accept the twelve distinct synthetic mailbox scenarios within the recorded Linux envelope.",
+          "done": true,
+          "evidence_class": "Linux synthetic component",
+          "source": "docs/status/current-status.md#isolated-observation-mailbox-synthetic-acceptance-only"
+        },
+        {
+          "id": "observer",
+          "label": "Data-only observer",
+          "criterion": "Accept the ten observer scenarios, including delayed notices and honest stale/as-of data.",
+          "done": true,
+          "evidence_class": "Linux synthetic component",
+          "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        },
+        {
+          "id": "windows",
+          "label": "Windows qualification",
+          "criterion": "Accept Windows execution of the data-only mailbox/observer path.",
+          "done": false,
+          "evidence_class": "Pending Windows acceptance",
+          "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        },
+        {
+          "id": "endpoint",
+          "label": "Real endpoint integration",
+          "criterion": "Accept actual endpoint/capture/UI integration without implying native-owner retirement.",
+          "done": false,
+          "evidence_class": "Pending integration acceptance",
+          "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        }
+      ]
+    },
+    {
+      "id": "loader",
+      "title": "Selected loader checkpoints",
+      "version": 1,
+      "frozen_on": "2026-10-23",
+      "scope": "Four bounded native-policy compatibility checkpoints. Not BIOS equivalence, a complete loader or game boot.",
+      "blocker": "Initializer execution preparation remains blocked pending review.",
+      "next": "Resolve the existing review gate; do not retry blocked preparation.",
+      "items": [
+        {
+          "id": "prefix",
+          "label": "Loader prefix",
+          "criterion": "Accept an authorized original-input Linux compatibility run stopping at pending A0:39.",
+          "done": true,
+          "evidence_class": "Actual Linux native-policy compatibility",
+          "source": "docs/status/current-status.md#native-loader-prefix-compatibility-not-firmware-execution"
+        },
+        {
+          "id": "heap",
+          "label": "Native heap policy",
+          "criterion": "Accept the authorized Linux compatibility run to the native heap-policy return boundary.",
+          "done": true,
+          "evidence_class": "Actual Linux native policy, not BIOS",
+          "source": "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance"
+        },
+        {
+          "id": "continuation",
+          "label": "Fixed continuation",
+          "criterion": "Accept the authorized Linux continuation stopping before the initializer.",
+          "done": true,
+          "evidence_class": "Actual Linux native-policy compatibility",
+          "source": "docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance"
+        },
+        {
+          "id": "initializer",
+          "label": "Actual-input initializer",
+          "criterion": "Obtain authorized actual-input initializer acceptance; source/synthetic checks alone do not satisfy this goal.",
+          "done": false,
+          "evidence_class": "Execution blocked; synthetic-only evidence",
+          "source": "docs/status/current-status.md#initializer-candidate-synthetic-only-execution-blocked"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Live controller safety gates",
+      "version": 1,
+      "frozen_on": "2026-10-23",
+      "scope": "Four named necessary lifecycle gates from the current NO-GO. They are not an exhaustive sufficiency proof or full controller completion.",
+      "blocker": "All four necessary gates remain open; S2 controls stay disabled.",
+      "next": "Establish a bounded loading contract, then owner retirement and integration.",
+      "items": [
+        {
+          "id": "load",
+          "label": "Bounded load termination",
+          "criterion": "Establish an accepted production loading cancellation/termination and wall-time contract.",
+          "done": false,
+          "evidence_class": "Source review NO-GO",
+          "source": "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go"
+        },
+        {
+          "id": "retirement",
+          "label": "Whole-owner retirement",
+          "criterion": "Establish an accepted whole-owner retirement transition, not merely completed mailbox records.",
+          "done": false,
+          "evidence_class": "Source review NO-GO",
+          "source": "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go"
+        },
+        {
+          "id": "stop",
+          "label": "Single-call stop/fault",
+          "criterion": "Establish accepted single-call stop/fault semantics without inventing rollback or deadlines.",
+          "done": false,
+          "evidence_class": "Source review NO-GO",
+          "source": "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go"
+        },
+        {
+          "id": "integration",
+          "label": "Real endpoint lifecycle",
+          "criterion": "Establish accepted endpoint/capture/UI ownership and worker/mailbox finalization.",
+          "done": false,
+          "evidence_class": "Source review NO-GO",
+          "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance"
+        }
+      ]
+    },
+    {
+      "id": "boot",
+      "title": "Native game boot acceptance",
+      "version": 1,
+      "frozen_on": "2026-10-23",
+      "scope": "One binary acceptance goal. Zero accepted boot goals does not mean zero development; this is not a percent of the game.",
+      "blocker": "A0:49 remains unresolved; full native startup is unestablished.",
+      "next": "Resolve service effects and their permitted implementation basis.",
+      "items": [
+        {
+          "id": "native-boot",
+          "label": "Native original-game boot",
+          "criterion": "Establish an authorized native Windows original-game boot result without a BIOS/emulator runtime dependency, with exact scope reviewed.",
+          "done": false,
+          "evidence_class": "Native boot not established",
+          "source": "docs/status/current-status.md#evidence-limits-and-next-steps"
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "title": "Accepted roadmap milestones",
+      "version": 1,
+      "frozen_on": "2026-10-23",
+      "scope": "A named whole-project delivery roadmap for the native game and integrated IDE, including bounded foundations and unaccepted product domains. This is an unweighted count of milestones, not effort/code completeness, an ETA or an average of local checklists. Weighted-effort completion is unknown.",
+      "blocker": "Native boot, complete gameplay and the integrated live IDE are not accepted.",
+      "next": "Resolve the current native service and lifecycle gates; follow the remaining roadmap criteria.",
+      "items": [
+        {
+          "id": "source-inventory",
+          "label": "Read-only source inventory",
+          "criterion": "Establish source identity, ISO inventory and bounded logical Form1 export without changing original media; authenticity and unsupported media stay qualified.",
+          "done": true,
+          "evidence_class": "Reported source inventory and bounded export",
+          "source": "docs/history/milestones.md#2-disc-integrity-and-bounded-export",
+          "phase": "foundation"
+        },
+        {
+          "id": "diagnostic-assets",
+          "label": "Diagnostic asset reconstruction",
+          "criterion": "Establish bounded tiled texture, mesh, assembled-character and static-environment inspection; this milestone excludes full coverage, production rendering and scene execution.",
+          "done": true,
+          "evidence_class": "Reported static/component diagnostic reconstruction",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "foundation"
+        },
+        {
+          "id": "offline-editor",
+          "label": "Source-bound offline editor foundation",
+          "criterion": "Establish the bounded offline transform-edit/history/sidecar foundation, with portable and frozen synthetic Windows evidence; not a complete current IDE, live apply workflow or pixel acceptance.",
+          "done": true,
+          "evidence_class": "Reported portable and frozen Windows synthetic evidence",
+          "source": "docs/history/validation-history.md#delegated-authorized-windows-test-machine-results",
+          "additional_sources": [
+            "docs/technical/architecture.md#editor-boundary"
+          ],
+          "phase": "foundation"
+        },
+        {
+          "id": "cd-startup",
+          "label": "Native Windows CD startup slice",
+          "criterion": "Accept the bounded mode-00 path using a real same-image reader, FIFO/response/IRQ/callback ownership and reviewed Windows execution, stopping honestly at the unsupported continuation.",
+          "done": true,
+          "evidence_class": "Reported authorized Windows execution",
+          "source": "docs/status/current-status.md#accepted-native-windows-mode-00-stage",
+          "phase": "foundation"
+        },
+        {
+          "id": "portable-observation",
+          "label": "Owned snapshot and portable inspection",
+          "criterion": "Accept bounded actual owner capture and an actual producer-artifact-portable-model round trip; no live controller or Windows GUI display is implied.",
+          "done": true,
+          "evidence_class": "Actual Linux capture and portable export/import",
+          "source": "docs/status/current-status.md#actual-portable-exportimport-and-bounded-windows-viewer-acceptance",
+          "additional_sources": [
+            "docs/status/current-status.md#bounded-actual-owned-capture"
+          ],
+          "phase": "foundation"
+        },
+        {
+          "id": "native-boot",
+          "label": "Native original-game boot",
+          "criterion": "Accept native Windows startup reaching the required initial game state under an identified authorized run, without a BIOS/emulator runtime dependency.",
+          "done": false,
+          "evidence_class": "Native boot unestablished",
+          "source": "docs/status/current-status.md#evidence-limits-and-next-steps",
+          "phase": "production"
+        },
+        {
+          "id": "scene-lifecycle",
+          "label": "Production scene and resource lifecycle",
+          "criterion": "Accept real production scene entry, resource dependencies, visibility/lifetime transitions and teardown, not a static union-geometry view or synthetic first-scene fixture.",
+          "done": false,
+          "evidence_class": "Production scene lifecycle unestablished",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "renderer",
+          "label": "Production renderer fidelity",
+          "criterion": "Accept the required production GPU/GTE, texture/material and rendering semantics against bounded stated references, beyond the approximate CPU diagnostic renderer.",
+          "done": false,
+          "evidence_class": "Diagnostic subset only",
+          "source": "docs/technical/architecture.md#assets-and-rendering",
+          "phase": "production"
+        },
+        {
+          "id": "animation",
+          "label": "Complete character animation",
+          "criterion": "Accept integrated pose, animation sequence, transform and timing behavior for the required game use cases; a fixed helper or update-call oracle alone is insufficient.",
+          "done": false,
+          "evidence_class": "Bounded helpers only",
+          "source": "docs/history/milestones.md#6-reconstruct-diagnostic-character-poses-and-sequence-stepping",
+          "phase": "production"
+        },
+        {
+          "id": "controls-camera",
+          "label": "Player controls and camera",
+          "criterion": "Demonstrate integrated player input, motion and camera behavior in an accepted native gameplay session.",
+          "done": false,
+          "evidence_class": "Gameplay target only",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "collision",
+          "label": "Collision and world interaction",
+          "criterion": "Accept required collision, triggers and world-interaction behavior in production scenes, not merely recovered coordinates.",
+          "done": false,
+          "evidence_class": "Gameplay target only",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "gameplay",
+          "label": "AI, combat and progression",
+          "criterion": "Accept representative required AI, combat and game-progression behavior in native play, with explicit remaining-coverage limits.",
+          "done": false,
+          "evidence_class": "Gameplay target only",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "audio",
+          "label": "Decoded audio, music and output",
+          "criterion": "Accept required decoding, music/stream handling and audible native output; nonexecuting sound plans and a CPU mixer checkpoint do not satisfy it.",
+          "done": false,
+          "evidence_class": "No accepted decoding/output/playback",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "game-saves",
+          "label": "Game save/load compatibility",
+          "criterion": "Accept game-state persistence, load/restore and required compatibility; editor sidecars are a different feature.",
+          "done": false,
+          "evidence_class": "Game save compatibility unestablished",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "windows-viewer",
+          "label": "Actual-capture Windows viewer",
+          "criterion": "Accept the real standalone launcher, pixel behavior and actual owned-capture GUI display, not synthetic HWND/host-function checks alone.",
+          "done": false,
+          "evidence_class": "Visual/launcher/capture acceptance pending",
+          "source": "docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates",
+          "phase": "production"
+        },
+        {
+          "id": "live-controller",
+          "label": "Safe live runtime controller",
+          "criterion": "Close necessary production loading, owner-retirement, stop/fault and endpoint lifecycle obligations and accept integrated runtime control; four source reviews alone are insufficient.",
+          "done": false,
+          "evidence_class": "Source-only NO-GO",
+          "source": "docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go",
+          "phase": "production"
+        },
+        {
+          "id": "integrated-ide",
+          "label": "Complete integrated IDE workflow",
+          "criterion": "Accept the intended complete integrated inspection/edit/debug workflow with real runtime interaction, persistence, failures and safe shutdown, not isolated inspection foundations.",
+          "done": false,
+          "evidence_class": "Complete IDE unestablished",
+          "source": "docs/technical/architecture.md#editor-boundary",
+          "phase": "production"
+        },
+        {
+          "id": "provenance",
+          "label": "Implementation provenance review",
+          "criterion": "Complete the project-specific independent-implementation provenance review for adopted runtime behavior and references; restricted research remains separate and no legal clean-room certification is implied.",
+          "done": false,
+          "evidence_class": "Implementation clearance unresolved",
+          "source": "research/bios/PROVENANCE-REVIEW.md",
+          "phase": "production"
+        },
+        {
+          "id": "package",
+          "label": "Native Windows package acceptance",
+          "criterion": "Accept the authorized native Windows package/install/run workflow with its required original inputs kept separate; frozen component kits or cross-builds do not establish product packaging.",
+          "done": false,
+          "evidence_class": "No game release acceptance",
+          "source": "docs/technical/capability-matrix.md",
+          "phase": "production"
+        },
+        {
+          "id": "end-to-end",
+          "label": "End-to-end native game acceptance",
+          "criterion": "Accept a defined representative native game journey with the integrated IDE and required product behavior; component tests, emulator research and boot alone are insufficient.",
+          "done": false,
+          "evidence_class": "No playable game or full-application acceptance",
+          "source": "docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance",
+          "phase": "production"
+        }
+      ]
+    }
+  ],
+  "validation_runs": [
+    {
+      "id": "mode00",
+      "title": "Windows mode-00",
+      "passed": 69,
+      "total": 69,
+      "unit": "ordered cases",
+      "scope": "39 expected successes + 30 intentional refusals; bounded startup only.",
+      "source": "docs/status/current-status.md#accepted-native-windows-mode-00-stage"
+    },
+    {
+      "id": "viewer",
+      "title": "Windows frozen viewer",
+      "passed": 111,
+      "total": 111,
+      "unit": "synthetic checks",
+      "scope": "HWND/command/state, not pixels or actual-capture display.",
+      "source": "docs/status/current-status.md#separately-approved-windows-viewer-result"
+    },
+    {
+      "id": "navigation",
+      "title": "Windows Source / Back",
+      "passed": 50,
+      "total": 50,
+      "unit": "synthetic checks",
+      "scope": "Command/state navigation, not visual acceptance.",
+      "source": "docs/status/current-status.md#combined-candidate-and-ide-update"
+    }
+  ],
+  "observations": [
+    {
+      "review_id": "2026-10-23-numeric-baseline-01",
+      "date": "2026-10-23",
+      "basis_commit": "bc4417b4b9a3cb75c0bb481250600af4af2a0ff9",
+      "note": "First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ]
 }

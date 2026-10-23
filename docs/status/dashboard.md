@@ -2,9 +2,157 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-native-evidence-02` · [reviewed basis 9ce9b94](https://github.com/raiinman/Rock-Man-x64/commit/9ce9b9497f496584c438b76b39d1b36f2f1e4d58).
-**Latest repository change observed:** [c127531](https://github.com/raiinman/Rock-Man-x64/commit/c1275311c5c841405d000203f4b02aa9645145d4) · 2026-10-23T13:22:45-07:00 — docs: automate living tracker with evidence-gated progress and plain-English updates.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-23 · `2026-10-23-numeric-baseline-01` · [reviewed basis bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9).
+**Latest repository change observed:** [bc4417b](https://github.com/raiinman/Rock-Man-x64/commit/bc4417b4b9a3cb75c0bb481250600af4af2a0ff9) · 2026-10-23T20:23:03Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+
+![Milestone checklist completion](visuals/progress-dashboard.svg)
+
+## Named checklists
+
+The overall roadmap is a separately defined whole-project milestone plan. Its percentage counts unequal-sized accepted milestones, not game/code/effort completion; effort-weighted completion is unknown. The five local checklists overlap it and are never added or averaged into the overall score. Test pass rates are separate.
+
+**Latest numeric change:** First recorded baseline. No earlier numeric observation exists, so no progress delta is invented.
+
+### roadmap — Accepted roadmap milestones
+
+**5 / 20 accepted · 25.0% · 15 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+
+A named whole-project delivery roadmap for the native game and integrated IDE, including bounded foundations and unaccepted product domains. This is an unweighted count of milestones, not effort/code completeness, an ETA or an average of local checklists. Weighted-effort completion is unknown.
+
+**Blocker:** Native boot, complete gameplay and the integrated live IDE are not accepted.
+
+**Next:** Resolve the current native service and lifecycle gates; follow the remaining roadmap criteria.
+
+| Accepted? | Named criterion and exact done condition | Evidence class / source |
+|---|---|---|
+| YES | **Read-only source inventory** — Establish source identity, ISO inventory and bounded logical Form1 export without changing original media; authenticity and unsupported media stay qualified. | Reported source inventory and bounded export · [evidence](../../docs/history/milestones.md#2-disc-integrity-and-bounded-export) |
+| YES | **Diagnostic asset reconstruction** — Establish bounded tiled texture, mesh, assembled-character and static-environment inspection; this milestone excludes full coverage, production rendering and scene execution. | Reported static/component diagnostic reconstruction · [evidence](../../docs/technical/capability-matrix.md) |
+| YES | **Source-bound offline editor foundation** — Establish the bounded offline transform-edit/history/sidecar foundation, with portable and frozen synthetic Windows evidence; not a complete current IDE, live apply workflow or pixel acceptance. | Reported portable and frozen Windows synthetic evidence · [evidence](../../docs/history/validation-history.md#delegated-authorized-windows-test-machine-results) · [evidence](../../docs/technical/architecture.md#editor-boundary) |
+| YES | **Native Windows CD startup slice** — Accept the bounded mode-00 path using a real same-image reader, FIFO/response/IRQ/callback ownership and reviewed Windows execution, stopping honestly at the unsupported continuation. | Reported authorized Windows execution · [evidence](../../docs/status/current-status.md#accepted-native-windows-mode-00-stage) |
+| YES | **Owned snapshot and portable inspection** — Accept bounded actual owner capture and an actual producer-artifact-portable-model round trip; no live controller or Windows GUI display is implied. | Actual Linux capture and portable export/import · [evidence](../../docs/status/current-status.md#actual-portable-exportimport-and-bounded-windows-viewer-acceptance) · [evidence](../../docs/status/current-status.md#bounded-actual-owned-capture) |
+| NO — pending | **Native original-game boot** — Accept native Windows startup reaching the required initial game state under an identified authorized run, without a BIOS/emulator runtime dependency. | Native boot unestablished · [evidence](../../docs/status/current-status.md#evidence-limits-and-next-steps) |
+| NO — pending | **Production scene and resource lifecycle** — Accept real production scene entry, resource dependencies, visibility/lifetime transitions and teardown, not a static union-geometry view or synthetic first-scene fixture. | Production scene lifecycle unestablished · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **Production renderer fidelity** — Accept the required production GPU/GTE, texture/material and rendering semantics against bounded stated references, beyond the approximate CPU diagnostic renderer. | Diagnostic subset only · [evidence](../../docs/technical/architecture.md#assets-and-rendering) |
+| NO — pending | **Complete character animation** — Accept integrated pose, animation sequence, transform and timing behavior for the required game use cases; a fixed helper or update-call oracle alone is insufficient. | Bounded helpers only · [evidence](../../docs/history/milestones.md#6-reconstruct-diagnostic-character-poses-and-sequence-stepping) |
+| NO — pending | **Player controls and camera** — Demonstrate integrated player input, motion and camera behavior in an accepted native gameplay session. | Gameplay target only · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **Collision and world interaction** — Accept required collision, triggers and world-interaction behavior in production scenes, not merely recovered coordinates. | Gameplay target only · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **AI, combat and progression** — Accept representative required AI, combat and game-progression behavior in native play, with explicit remaining-coverage limits. | Gameplay target only · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **Decoded audio, music and output** — Accept required decoding, music/stream handling and audible native output; nonexecuting sound plans and a CPU mixer checkpoint do not satisfy it. | No accepted decoding/output/playback · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **Game save/load compatibility** — Accept game-state persistence, load/restore and required compatibility; editor sidecars are a different feature. | Game save compatibility unestablished · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **Actual-capture Windows viewer** — Accept the real standalone launcher, pixel behavior and actual owned-capture GUI display, not synthetic HWND/host-function checks alone. | Visual/launcher/capture acceptance pending · [evidence](../../docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates) |
+| NO — pending | **Safe live runtime controller** — Close necessary production loading, owner-retirement, stop/fault and endpoint lifecycle obligations and accept integrated runtime control; four source reviews alone are insufficient. | Source-only NO-GO · [evidence](../../docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go) |
+| NO — pending | **Complete integrated IDE workflow** — Accept the intended complete integrated inspection/edit/debug workflow with real runtime interaction, persistence, failures and safe shutdown, not isolated inspection foundations. | Complete IDE unestablished · [evidence](../../docs/technical/architecture.md#editor-boundary) |
+| NO — pending | **Implementation provenance review** — Complete the project-specific independent-implementation provenance review for adopted runtime behavior and references; restricted research remains separate and no legal clean-room certification is implied. | Implementation clearance unresolved · [evidence](../../research/bios/PROVENANCE-REVIEW.md) |
+| NO — pending | **Native Windows package acceptance** — Accept the authorized native Windows package/install/run workflow with its required original inputs kept separate; frozen component kits or cross-builds do not establish product packaging. | No game release acceptance · [evidence](../../docs/technical/capability-matrix.md) |
+| NO — pending | **End-to-end native game acceptance** — Accept a defined representative native game journey with the integrated IDE and required product behavior; component tests, emulator research and boot alone are insufficient. | No playable game or full-application acceptance · [evidence](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) |
+
+### inspection — Frozen inspection delivery
+
+**4 / 7 accepted · 57.1% · 3 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+
+Seven named delivery checkpoints, mixing separately labeled Linux and Windows scopes. A local checklist, not full IDE completion.
+
+**Blocker:** Real launcher, pixels and actual-capture display remain unverified.
+
+**Next:** Obtain permitted real-launcher and actual-capture GUI evidence.
+
+| Accepted? | Named criterion and exact done condition | Evidence class / source |
+|---|---|---|
+| YES | **Owned startup capture** — Accept an actual bounded same-owner capture run with non-mutation and cleanup review. | Actual Linux/UBSan · [evidence](../../docs/status/current-status.md#bounded-actual-owned-capture) |
+| YES | **Portable export/import** — Accept an actual producer-to-artifact-to-portable-model round trip. | Actual Linux export/import · [evidence](../../docs/status/current-status.md#actual-portable-exportimport-and-bounded-windows-viewer-acceptance) |
+| YES | **Frozen viewer commands** — Accept the frozen Windows viewer synthetic HWND/command/state suite. | Reported Windows synthetic execution · [evidence](../../docs/status/current-status.md#separately-approved-windows-viewer-result) |
+| YES | **Standalone host lifecycle** — Accept the standalone viewer synthetic host-function lifecycle checks. | Reported Windows synthetic execution · [evidence](../../docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates) |
+| NO — pending | **Real standalone launcher** — Verify the real standalone launcher, separately from host-function tests. | Pending real-launcher acceptance · [evidence](../../docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates) |
+| NO — pending | **Visual correctness** — Accept a permitted pixel/visual inspection of the standalone viewer. | Blocked visual acceptance · [evidence](../../docs/status/current-status.md#standalone-viewer-lifecycle-and-remaining-access-gates) |
+| NO — pending | **Actual-capture GUI display** — Verify actual owned capture display in the Windows GUI, not synthetic fixtures. | Pending actual-capture GUI acceptance · [evidence](../../docs/status/current-status.md#separately-approved-windows-viewer-result) |
+
+### observation — Data-only observation path
+
+**2 / 4 accepted · 50.0% · 2 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+
+Four named delivery checkpoints. Linux synthetic components are not native controller or GUI integration.
+
+**Blocker:** No Windows execution or real endpoint/capture/UI integration.
+
+**Next:** Review the production endpoint and lifecycle contract before connection.
+
+| Accepted? | Named criterion and exact done condition | Evidence class / source |
+|---|---|---|
+| YES | **Observation mailbox** — Accept the twelve distinct synthetic mailbox scenarios within the recorded Linux envelope. | Linux synthetic component · [evidence](../../docs/status/current-status.md#isolated-observation-mailbox-synthetic-acceptance-only) |
+| YES | **Data-only observer** — Accept the ten observer scenarios, including delayed notices and honest stale/as-of data. | Linux synthetic component · [evidence](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) |
+| NO — pending | **Windows qualification** — Accept Windows execution of the data-only mailbox/observer path. | Pending Windows acceptance · [evidence](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) |
+| NO — pending | **Real endpoint integration** — Accept actual endpoint/capture/UI integration without implying native-owner retirement. | Pending integration acceptance · [evidence](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) |
+
+### loader — Selected loader checkpoints
+
+**3 / 4 accepted · 75.0% · 1 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+
+Four bounded native-policy compatibility checkpoints. Not BIOS equivalence, a complete loader or game boot.
+
+**Blocker:** Initializer execution preparation remains blocked pending review.
+
+**Next:** Resolve the existing review gate; do not retry blocked preparation.
+
+| Accepted? | Named criterion and exact done condition | Evidence class / source |
+|---|---|---|
+| YES | **Loader prefix** — Accept an authorized original-input Linux compatibility run stopping at pending A0:39. | Actual Linux native-policy compatibility · [evidence](../../docs/status/current-status.md#native-loader-prefix-compatibility-not-firmware-execution) |
+| YES | **Native heap policy** — Accept the authorized Linux compatibility run to the native heap-policy return boundary. | Actual Linux native policy, not BIOS · [evidence](../../docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance) |
+| YES | **Fixed continuation** — Accept the authorized Linux continuation stopping before the initializer. | Actual Linux native-policy compatibility · [evidence](../../docs/status/current-status.md#later-native-policy-heap-and-continuation-acceptance) |
+| NO — pending | **Actual-input initializer** — Obtain authorized actual-input initializer acceptance; source/synthetic checks alone do not satisfy this goal. | Execution blocked; synthetic-only evidence · [evidence](../../docs/status/current-status.md#initializer-candidate-synthetic-only-execution-blocked) |
+
+### s2 — Live controller safety gates
+
+**0 / 4 accepted · 0.0% · 4 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+
+Four named necessary lifecycle gates from the current NO-GO. They are not an exhaustive sufficiency proof or full controller completion.
+
+**Blocker:** All four necessary gates remain open; S2 controls stay disabled.
+
+**Next:** Establish a bounded loading contract, then owner retirement and integration.
+
+| Accepted? | Named criterion and exact done condition | Evidence class / source |
+|---|---|---|
+| NO — pending | **Bounded load termination** — Establish an accepted production loading cancellation/termination and wall-time contract. | Source review NO-GO · [evidence](../../docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go) |
+| NO — pending | **Whole-owner retirement** — Establish an accepted whole-owner retirement transition, not merely completed mailbox records. | Source review NO-GO · [evidence](../../docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go) |
+| NO — pending | **Single-call stop/fault** — Establish accepted single-call stop/fault semantics without inventing rollback or deadlines. | Source review NO-GO · [evidence](../../docs/status/current-status.md#ide-runtime-controller-source-only-feasibility-no-go) |
+| NO — pending | **Real endpoint lifecycle** — Establish accepted endpoint/capture/UI ownership and worker/mailbox finalization. | Source review NO-GO · [evidence](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) |
+
+### boot — Native game boot acceptance
+
+**0 / 1 accepted · 0.0% · 1 remaining · Δ — first record.** Definition v1, frozen 2026-10-23.
+
+One binary acceptance goal. Zero accepted boot goals does not mean zero development; this is not a percent of the game.
+
+**Blocker:** A0:49 remains unresolved; full native startup is unestablished.
+
+**Next:** Resolve service effects and their permitted implementation basis.
+
+| Accepted? | Named criterion and exact done condition | Evidence class / source |
+|---|---|---|
+| NO — pending | **Native original-game boot** — Establish an authorized native Windows original-game boot result without a BIOS/emulator runtime dependency, with exact scope reviewed. | Native boot not established · [evidence](../../docs/status/current-status.md#evidence-limits-and-next-steps) |
+
+### Validation pass rates — separate measurement
+
+| Specific run | Passed / total | Pass rate | Scope |
+|---|---|---|
+| Windows mode-00 | 69 / 69 | 100.0% | 39 expected successes \+ 30 intentional refusals; bounded startup only. [evidence](../../docs/status/current-status.md#accepted-native-windows-mode-00-stage) |
+| Windows frozen viewer | 111 / 111 | 100.0% | HWND/command/state, not pixels or actual-capture display. [evidence](../../docs/status/current-status.md#separately-approved-windows-viewer-result) |
+| Windows Source / Back | 50 / 50 | 100.0% | Command/state navigation, not visual acceptance. [evidence](../../docs/status/current-status.md#combined-candidate-and-ide-update) |
+
+## Numeric review history
+
+Only recorded observations appear here. The first entry is a baseline, not a newly completed runtime milestone. A new checklist version starts a new comparison basis.
+
+| Recorded review | Checklist version | Completed / total | Change note |
+|---|---|---|---|
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | inspection v1 | 4 / 7 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | observation v1 | 2 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | loader v1 | 3 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | s2 v1 | 0 / 4 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | boot v1 | 0 / 1 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+| 2026-10-23 · `2026-10-23-numeric-baseline-01` | roadmap v1 | 5 / 20 | First numeric baseline from existing accepted records: five bounded roadmap foundations plus fifteen pending product goals, and five separate local checklists. No new runtime milestone or historical delta is invented. |
+
 
 ## Current explanation
 
@@ -34,13 +182,6 @@ Generated from reviewed evidence data. This is documentation, not a playable gam
 Platform and synthetic cells can describe the same run. They are not additive, equally weighted units or a game-completion percentage. Full app means end-to-end game or complete IDE, not a component integration.
 
 The exporter/frozen-viewer row combines **different scopes**: one actual Linux artifact-to-portable-model import and Windows synthetic HWND/command/state checks. It does not establish actual-capture GUI display on Windows. See [evidence](../../docs/status/current-status.md#actual-portable-exportimport-and-bounded-windows-viewer-acceptance) and [evidence](../../docs/status/current-status.md#separately-approved-windows-viewer-result).
-
-<details>
-<summary>Generated visual fallback for the same reviewed stages</summary>
-
-![Generated evidence-stage bars](visuals/progress-dashboard.svg)
-
-</details>
 
 ## Reconstruction findings
 
