@@ -89,6 +89,10 @@ The user's current priority is Sony's exact register definition. The [document s
 | Supported CPU access widths and read/write effects | Unresolved |
 | Programmed setting versus evolving/current value | API/architecture distinction documented; numeric binding unresolved |
 | Mode-dependent change, cadence and sweep arithmetic | Related modes and clocked circuitry documented; target-register rules unresolved |
+| Value read during SPU mute or CD mute | Controls have distinct documented scopes; neither supplies a target readback invariant |
+| Direct-setting visibility and progression during mute | No verified target latency, update phase, freeze or restart rule |
 | Reset state, limits, saturation and paired-read coherence | Unresolved |
 
 Passing the explicit native adapter remains separate evidence. This documentation work cannot certify hardware equivalence from that pass.
+
+The user's diagnostic-disc lead now has [specific Sony tools, service-disc references and a proposed experiment matrix](SOUND-PRIMARY-SOURCES.md#sony-diagnostic-tools-and-the-proposed-register-experiment). Their documented setup/drive tests do not establish DB8 conformance. Useful further finds include a Sony PS1 SPU register specification, a CXD2922/CXD2925 programming manual, or an original-machine master-current test report with numeric readings around mute and identified timing. These are search targets, not verified document titles or a claim that a particular chip manual is publicly available. Searches can use `1F801DB8`, `MVOLXL`, `current main volume`, `master volume sweep`, `mute`, `ミュート` and `現在音量`; a voice-only result must retain that narrower scope.

@@ -18,6 +18,28 @@ The existing sound report and native handoff preserve the separate game-path num
 
 ## Vendor-authored sources actually inspected
 
+### Sony diagnostic tools and the proposed register experiment
+
+The user's diagnostic-disc suggestion led to specific Sony references. The [August 1998 DTL-H2500/H2700 manual](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Dtlh2500.pdf), printed 4-4 / PDF index 39, describes a sound sample whose setup check is audible output from the connected development board. Printed A-4 / index 45 identifies `H25DRV.EXE` retained on the Programmer Tools CD for diagnostics, and `FRESET.EXE` for checking the board's PC address mapping. Both pages were visually checked in a retained 66-page copy. These are hardware-dependent setup checks; the inspected instructions do not describe a DB8 mute/readback or update test. No utility or SDK sample was executed or imported.
+
+The [Sony SCPH-9000 service manual, third edition](https://gamingdoc.org/wp-content/uploads/2020/07/Sony_PlayStation_SCPH-9000_series_service_manual_3rd_edition.pdf), printed 4 / PDF index 4, explicitly names QA-DISC and AGING DISC for checking double-speed and sled operation after optical-device checks. This passage was checked in extracted text; it establishes a service-disc lead, not an SPU conformance suite. Neither disc's contents were inspected or downloaded.
+
+For DB8, a purpose-built original-machine experiment is a separate proposal. Record machine/chip identity, boot phase, preceding writes and a timing reference. Observe the numeric current-volume pair directly, retaining raw values independently from audible output. Vary one control at a time:
+
+| Proposed case | Observation needed | Question isolated |
+|---|---|---|
+| Direct master setting, SPU unmuted | Reads immediately and at measured delays after a setting change | Write visibility and settling, rather than merely the final value |
+| Same setting, SPU mute toggled | Reads before, during and after mute | Whether the current coefficient is zeroed, retained or otherwise changed |
+| Master sweep, mute toggled | Timed current-value observations spanning the muted interval | Whether progression continues, freezes or restarts; rate and phase remain to be measured |
+| CD command mute with SPU state held fixed | Separate current-value and output observations | CD-stream mute versus SPU mute |
+| SPU processing disabled, then restored | Independently labelled control transition and repeated reads | Processing shutdown versus mute; the two conditions must not be conflated |
+
+This is a measurement plan, not an executed test, hardware contract or game requirement. Sequential left/right reads do not by themselves establish atomicity. An emulator run can check a harness against that emulator's model, but cannot independently settle physical-chip behavior. No real-console or development-board connection has been established by this investigation.
+
+### Library lifecycle is a separate control boundary
+
+Two reviewers visually checked retained release 2.1 Library Overview 4.1 printed 16-12 / PDF index 307 and Library Reference 4.1 printed 15-72 and 15-132 / indices 1117 and 1177. The overview describes stopping/restarting SPU processing through `SpuQuit`/`SpuStart`; the reference specifies unavailable sound-buffer DMA after Quit and DMA initialization through Start. These library lifecycle descriptions do not identify a hardware-enable bit or establish that DB8 arithmetic stops. The overview's adjacent 44.1 kHz passage concerns decoded CD/voice capture, not master-current update cadence. Neither passage supplies the missing read-during-mute rule.
+
 ### Distinct mute scopes in retained 4.1 manuals
 
 Two reviewers checked targeted rendered pages from the [release 2.1 documentation](https://archive.org/details/playstation-technical-reference-release-2.1-december-1997-pc-europe): Library Reference 4.1 printed 15-94 / PDF index 1139, and Library Overview 4.1 printed 11-11 / index 210. The former describes `SpuSetMute` as excluding CD input and external digital input. The latter describes `CdlMute/CdlDemute` as affecting CD-DA or ADPCM playback, supplying a fuller scope than a short command-table label.
