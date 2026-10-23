@@ -31,7 +31,11 @@ The inspected Sony OS (1998) and Runtime 4.7 pages do not bind the exact service
 
 The IDE Source bytes/Back feature passed 50 actual Windows synthetic command/state checks. Standalone visual preflight was blocked before launch by unavailable supported capability; pixels and original-asset UI remain unverified. Current-disk bytes are not authenticated prior-decode content.
 
-The combined candidate passed all 16 full-project-plus-source-test stages and independent terminal review of its 69-case Linux contract. Separate combined connected-19 is pending and allocation-29 remains unrun; prior isolated results do not fulfill those gates. An owned snapshot DTO is source/synthetic-only: independently rereview the v2 availability correction before freezing its contract and separately validate real same-owner capture/non-mutation. No live debugger or capture acceptance exists.
+All four combined Linux phases are accepted: 16 aggregate/source-test stages, 69 regression cases, 19 connected cases and 29 targeted allocation checkpoints. This does not grant combined Windows or release acceptance.
+
+Bounded actual owned startup capture is accepted for four Linux cases, 60 successful captures and 253 injected allocation failures. Production checkpoints and synthetic field/lifetime coverage remain distinct; owner fingerprints plus source review are not complete private-state introspection.
+
+Before actual exporter/Windows viewer execution, v1 review found destructive directory replacement, foreign temporary-file publication and reparse traversal gaps. Preserve the findings; v2 corrections now have source/synthetic acceptance after independent review, with all three findings resolved in reviewed source. Actual-export envelope preparation is pending; actual execution and captured-artifact/viewer integration still need separate review and authorization.
 
 ## Explicitly unresolved scopes
 

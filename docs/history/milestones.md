@@ -171,3 +171,9 @@ A later graphics-entry prefix passed 12 connected Linux cases, the 69-case regre
 ## 23. IDE command validation and combined Linux candidate — October 23, 03:05 update
 
 Source bytes/Back passed 50 actual Windows synthetic command/state checks; standalone visual QA was blocked before launch by unavailable capability, leaving pixel correctness unverified. The combined development candidate passed all 16 full-project-plus-source-test stages and independent review of its 69-case Linux contract. Combined connected-19 is pending and allocation-29 remains unrun. Owned snapshot v1 exposed an import-contract gap; v2 correction awaits independent rereview, not real capture or debugger acceptance. A0:49 remains pending; no game boot or playback is claimed.
+
+## 24. Combined Linux closure and bounded owned capture — October 23, 04:05 update
+
+All four combined Linux phases are accepted: the 16-stage aggregate/source-test set, 69 regression cases, 19 connected cases and 29 targeted allocation checkpoints. Actual owned capture separately passed four Linux/UBSan cases, totaling 60 captures and 253 injected allocation failures. Production checkpoints are distinct from synthetic field/lifetime coverage; this is not exhaustive private-state introspection, Windows capture or a live debugger.
+
+Exporter/frozen-viewer v1 review found directory-replacement deletion, foreign temporary-file publication and Windows reparse traversal gaps before any actual exporter or Windows viewer run. Findings and earlier build/integration failures are retained. V2 corrections received source/synthetic acceptance after independent review; no end-to-end exporter/viewer acceptance is claimed. A0:49 remains pending.

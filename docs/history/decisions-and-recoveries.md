@@ -71,3 +71,9 @@ This record preserves unsuccessful attempts and unresolved questions alongside s
 - **IDE Windows:** 50 synthetic command/state checks passed; separate visual capability was unavailable before launch. Keep the command result while leaving pixels and original-asset UI unverified.
 - **Combined validation:** all 16 aggregate/source-test stages and the 69-case Linux contract passed terminal review. Preserve earlier preparation failures and the author-attested launcher-exit limit; connected/allocation phases remain separate pending gates.
 - **Snapshot contract:** independent source/synthetic review found imported availability metadata weaker than the producer invariant. A v2 correction awaits independent rereview before capture acceptance; synthetic serialization does not establish non-mutating runtime capture. A retained failed leak-check attempt is not erased by later sanitizer success with leak detection disabled.
+
+## Capture acceptance and exporter race findings — October 23, 04:05 update
+
+- **Combined closure:** connected-19 and allocation-29 passed separately, completing four-phase bounded Linux acceptance rather than borrowing predecessor results.
+- **Actual capture:** four Linux cases passed after the earlier availability correction. Production checkpoints, synthetic fields/lifetimes and observed owner fingerprints remain explicitly scoped; no exhaustive private-state or live-debugger claim.
+- **Exporter/viewer v1:** deterministic synthetic review exposed unrelated replacement deletion, substituted temporary content publication and Windows reparse traversal gaps before actual exporter/Windows viewer execution. Preserve v1 failures; v2 corrections resolved all three findings within independently accepted source/synthetic scope, not actual end-to-end acceptance.

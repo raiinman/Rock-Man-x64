@@ -49,4 +49,6 @@ A future public source release would need a separately reviewed distribution bou
 
 ## Combined-candidate qualification
 
-A new combined candidate passed the full 13-stage aggregate plus three source-test stages and independent review of its 69-case Linux contract. Its separate connected-19 is pending and allocation-29 remains unrun; predecessor tests cannot be relabeled as combined execution. The IDE's 50 actual Windows command/state checks are separate from blocked-before-launch standalone visual QA. Synthetic snapshot serialization is not actual capture/non-mutation proof.
+All four combined Linux phases are separately accepted: the 16-stage aggregate/source-test set, 69-case contract, 19 connected cases and 29 targeted allocation checkpoints. Predecessor tests were not relabeled as combined execution. These phases do not establish combined Windows or release acceptance.
+
+Actual owned capture has a separate four-case Linux/UBSan acceptance: 60 captures and 253 injected allocation failures, with production versus synthetic coverage distinguished. Observed owner fingerprints and source review support bounded non-mutation, not exhaustive private-state introspection. Exporter/frozen-viewer v2 corrections received source/synthetic acceptance; actual export and Windows viewer execution remain unrun. The IDE's 50 Windows command/state checks remain separate from blocked-before-launch visual QA.
