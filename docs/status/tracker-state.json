@@ -1,10 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "346abf8841bf0f6c845daff5bab24ce076c5e5e3",
-    "committed_at": "2026-10-23T22:21:03Z",
-    "subject": "docs: refresh generated progress tracker",
-    "source": "Exact public commit metadata observed through the connector; workflow job results are separately cited evidence"
+    "sha": "a4f66dba4a4a1a8a42b8f22d617d828464dd4f18",
+    "committed_at": "2026-10-23T16:11:17-07:00",
+    "subject": "docs: preserve inconclusive Windows and failed hosting evidence",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "ffd96ad1c77b7693f0e7a6516dc3b7c16d93b941f74e3f28074c69ae41a2d4c7",
