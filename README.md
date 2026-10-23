@@ -21,7 +21,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-23 · `2026-10-23-apex-public-handoff-01` · [reviewed basis f5aad94](https://github.com/raiinman/Rock-Man-x64/commit/f5aad94ff2ffeed9f26342465612453bc704b7d4).
-**Latest repository change observed:** [a4f66db](https://github.com/raiinman/Rock-Man-x64/commit/a4f66dba4a4a1a8a42b8f22d617d828464dd4f18) · 2026-10-23T16:11:17-07:00 — docs: preserve inconclusive Windows and failed hosting evidence.
+**Latest repository change observed:** [e3f9f6f](https://github.com/raiinman/Rock-Man-x64/commit/e3f9f6fbe0a942c40ca3b246c6b246432aa2dad4) · 2026-10-23T16:37:23-07:00 — docs: add separate public APEX-1 coordination handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
