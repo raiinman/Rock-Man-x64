@@ -238,3 +238,9 @@ Twelve author scenarios passed in optimized Linux, ASan/UBSan with leak detectio
 Both leak-enabled attempts failed because LeakSanitizer could not operate under host tracing. Targeted deletion/lifetime assertions passed, but no LeakSanitizer pass or exhaustive leak-free result follows. An initial reviewer self-move test expression failed warnings-as-errors compilation and was corrected in the test; no initial execution or primitive compilation defect was claimed. Eighteen selected accepted-source/metadata hashes matched, not complete ancestry revalidation.
 
 Acceptance is isolated data-channel behavior only: no native session, original input, actual GUI endpoint, Windows execution or runtime regression was exercised. The data-channel finalization receipt cannot prove native-owner retirement. S2 and the separate initializer execution blocker remain unchanged.
+
+## Observer candidate evidence — October 23
+
+A later data-only observer passed ten new scenarios and the unchanged twelve mailbox scenarios in three Linux/GCC 14.2 C++17 modes: optimized, ASan/UBSan with leak detection disabled, and TSan. The independent reviewer ran three focused, partially overlapping scenarios in the same modes and inspected the author evidence. These are repeated suites, not 66 unique author scenarios or product-level acceptance. Twenty-four selected source/metadata pins remained unchanged, not a full ancestry proof.
+
+The initial optimized compilation failed before tests ran; the test-only allocator correction retained strict warnings. LeakSanitizer was deliberately not rerun after its earlier environment limitation. No actual native owner, GUI endpoint, Windows run or game behavior was validated. See [the validation boundary](../status/validation.md#observer-candidate-validation--october-23).

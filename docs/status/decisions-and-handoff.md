@@ -86,3 +86,7 @@ The configuration, software-mixer and mode-00 stages have private actual-Windows
 Future updates should state the accepted boundary, changes, execution platform and remaining unknowns. Public research and private execution evidence remain distinct; no legally certified clean-room process is claimed.
 
 See [architecture](../technical/architecture.md), [service contracts](../technical/native-service-contracts.md), [current status](current-status.md) and [validation](validation.md).
+
+## Observer boundary and next gate — October 23
+
+Accept the independently reviewed observer only as a data-only synthetic candidate. Keep stale/as-of/unavailable observations distinct from native request completion. Detach/reopen and last shared data-handle destruction do not establish native-owner retirement. The production S2 NO-GO remains: review load termination and whole-owner retirement first, then single-call stop/fault semantics and real endpoint/capture/UI integration. No controller enablement, Windows acceptance, original-input execution or blocked-initializer retry follows from the observer tests. See [validation](validation.md#observer-candidate-validation--october-23).

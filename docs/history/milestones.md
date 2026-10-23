@@ -221,3 +221,9 @@ Independent source review accepted a NO-GO for the planned production IRQ/graphi
 ## 31. Isolated data-channel acceptance — October 23
 
 An independently reviewed observation mailbox passed 12 distinct synthetic scenarios under optimized Linux, ASan/UBSan without leak detection, and ThreadSanitizer builds. Independent tests added two coverage dimensions; the three modes do not triple the unique test count. The candidate establishes bounded observation/request/notice accounting only. No runtime or Windows integration occurred, and full S2 lifecycle closure remains NO-GO. LeakSanitizer environment failures and earlier project failures remain preserved.
+
+## 32. Data-only observer acceptance — October 23
+
+The isolated mailbox gained a separately reviewed observer candidate. Ten new observer scenarios plus twelve unchanged baseline scenarios passed optimized Linux, ASan/UBSan without leak detection, and separate TSan builds. Three reviewer scenarios added partially overlapping edge coverage; repeats across modes do not multiply distinct cases. The initial test build failed before execution and was corrected in the test-only allocator probe, without warning suppression. LeakSanitizer was not run.
+
+Delayed/coalesced wake recovery, explicitly stale/as-of observations and detach/reopen epochs were exercised only with synthetic data. Native loading/retirement and real controller/UI integration remain unresolved; production S2 stays NO-GO. No Windows execution or native game boot was established. Earlier failures and acceptances remain unchanged.

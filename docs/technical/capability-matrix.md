@@ -40,3 +40,7 @@ This matrix describes bounded private implementation work, not downloadable feat
 A parser can accept a structure whose rendering semantics remain incomplete. A source helper can match an independent oracle without being reachable from production startup. A Windows executable can compile without ever running on Windows. A Windows console checkpoint can pass without establishing the GUI's interaction behavior. None of these should be collapsed into a single completion percentage.
 
 The current integration frontier and outstanding acceptance work are in [current status](../status/current-status.md); proposed work is in [decisions and handoff](../status/decisions-and-handoff.md).
+
+## Data-only observer boundary
+
+A separate Linux-synthetic observer candidate supports explicitly as-of samples, stale/unavailable retention and delayed/coalesced wake recovery without executing or replaying native requests. Detach/reopen obtains a fresh endpoint epoch while producer obligations remain separate. A no-wake poll does not detect every closure; the consumer remains thread-confined, and no eventual-delivery or timing guarantee is established. Last data-channel handle destruction is not a native-owner retirement receipt. Production S2 loading, whole-owner retirement, stop/fault and actual UI/capture integration gates remain open. See [validation](../status/validation.md#observer-candidate-validation--october-23).

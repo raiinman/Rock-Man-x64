@@ -116,3 +116,9 @@ The independently reviewed S2 design stopped at **NO-GO for the planned producti
 ## Separate data channel without controller promotion — October 23
 
 A later isolated observation mailbox was accepted only for its synthetic ownership/notification scope. Review clarified that an old notice is not refreshed automatically, ordinary destruction is not a successful finalization receipt, and data-record completion is not native-work completion. LeakSanitizer environment failures and a corrected reviewer test-only compilation warning remain recorded. This narrows one separable mechanism without resolving load cancellation, native-owner retirement, operation faults or real application integration; the S2 NO-GO is preserved.
+
+## Observer test-build correction, not runtime recovery — October 23
+
+The observer candidate's first optimized test compilation failed on a replacement-allocation diagnostic; no test executed in that attempt. Moving the test allocator probe into a separate translation unit resolved the diagnostic without suppressing warnings or changing the observer/accepted primitive for that correction. Later author and independent reviewer runs passed their stated Linux synthetic scopes. LeakSanitizer was not run, and its earlier environment failures remain recorded.
+
+The observer retains stale/as-of data on later observation failures, but neither recovered samples nor final data-channel handle destruction retire a native owner. Production S2 remains NO-GO; no Windows or game-boot claim follows.

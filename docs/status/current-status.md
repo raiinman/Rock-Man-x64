@@ -1,6 +1,6 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 14:09 UTC documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-23, 19:05 UTC documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
@@ -121,3 +121,11 @@ This is **not an S2 controller, full application-message lifecycle closure, inte
 Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
 
 See [validation](validation.md), [handoff](decisions-and-handoff.md), [history](../history/validation-history.md) and [capabilities](../technical/capability-matrix.md).
+
+## Data-only observer: Linux synthetic acceptance
+
+A separate observer candidate now samples the isolated mailbox without executing or replaying native requests. Delayed/coalesced wakes recover the latest synthetic data; failed observations preserve an existing sample with stale/as-of labels (the first failure is empty). Detach/reopen obtains a fresh endpoint epoch but does not retire a native owner.
+
+Ten new observer scenarios and the unchanged twelve mailbox scenarios passed three Linux build modes. Independent review added three focused, partially overlapping scenarios. Mode repetitions are not additional unique tests. The initial test-only compilation failure and the absence of LeakSanitizer coverage remain recorded in [validation](validation.md#observer-candidate-validation--october-23).
+
+Production S2 remains **NO-GO**: load termination, whole-owner retirement, single-call fault/stop semantics and actual endpoint/capture/UI integration remain unresolved. No Windows execution, GUI integration, original-input run or native game boot was established. Next: review the production loading/retirement contracts before proposing controller integration; do not enable controls or retry blocked initializer preparation.
