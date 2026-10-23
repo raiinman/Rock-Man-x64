@@ -407,9 +407,9 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-23",
-    "review_id": "2026-10-23-execution-hosting-limits-01",
-    "reviewed_through_commit": "346abf8841bf0f6c845daff5bab24ce076c5e5e3",
-    "summary": "Reviewed the reported private Windows transfer and inconclusive normal launch attempt, plus the actual Pages updater/build success and deployment failure. Startup cause remains unknown; no runtime acceptance or milestone-count change."
+    "review_id": "2026-10-23-apex-public-handoff-01",
+    "reviewed_through_commit": "f5aad94ff2ffeed9f26342465612453bc704b7d4",
+    "summary": "Public-source-only coordination review of historical input/caller correlation and the outstanding current-binding/provenance questions. No new runtime evidence, execution authority, acceptance or milestone changes."
   },
   "overview": {
     "now": "The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.",
@@ -418,6 +418,20 @@
     "next": "Complete secure owner authentication and approved Pages configuration before verifying live hosting. Obtain permitted launch observation without retrying denied diagnostics or bypassing security; preserve all native gates."
   },
   "updates": [
+    {
+      "id": "apex-public-handoff-01",
+      "date": "2026-10-23",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Added a temporary public-sourced coordination handoff to APEX-1; research and native-development ownership are unchanged.",
+      "why": "Historical input/caller agreement does not verify a current native build, owner generation or active request. Acknowledging the provenance question is not completing its audit.",
+      "next": "Native development owes a supported current-binding statement; research can flag already-public corrections or remaining questions. Preserve S2 NO-GO, the initializer gate and every existing acceptance count.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#apex-1-coordination-handoff--october-23",
+        "research/bios/ORIGINAL-GAME-STARTUP.md#original-input-and-caller-correlation",
+        "research/bios/PROVENANCE-REVIEW.md#remediation-record"
+      ]
+    },
     {
       "id": "execution-hosting-limits-01",
       "date": "2026-10-23",
@@ -1233,6 +1247,68 @@
       "date": "2026-10-23",
       "basis_commit": "346abf8841bf0f6c845daff5bab24ce076c5e5e3",
       "note": "Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-23-apex-public-handoff-01",
+      "date": "2026-10-23",
+      "basis_commit": "f5aad94ff2ffeed9f26342465612453bc704b7d4",
+      "note": "Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta.",
       "checklists": [
         {
           "id": "inspection",

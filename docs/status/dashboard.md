@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-execution-hosting-limits-01` · [reviewed basis 346abf8](https://github.com/raiinman/Rock-Man-x64/commit/346abf8841bf0f6c845daff5bab24ce076c5e5e3).
+**Last evidence review:** 2026-10-23 · `2026-10-23-apex-public-handoff-01` · [reviewed basis f5aad94](https://github.com/raiinman/Rock-Man-x64/commit/f5aad94ff2ffeed9f26342465612453bc704b7d4).
 **Latest repository change observed:** [a4f66db](https://github.com/raiinman/Rock-Man-x64/commit/a4f66dba4a4a1a8a42b8f22d617d828464dd4f18) · 2026-10-23T16:11:17-07:00 — docs: preserve inconclusive Windows and failed hosting evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -176,6 +176,12 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | s2 v1 | 0 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
 | 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | boot v1 | 0 / 1 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
 | 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | roadmap v1 | 5 / 20 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | inspection v1 | 4 / 7 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | observation v1 | 2 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | loader v1 | 3 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | s2 v1 | 0 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | boot v1 | 0 / 1 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | roadmap v1 | 5 / 20 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
 
 
 ## Current explanation

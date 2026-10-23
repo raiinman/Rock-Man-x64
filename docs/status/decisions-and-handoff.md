@@ -90,3 +90,13 @@ See [architecture](../technical/architecture.md), [service contracts](../technic
 ## Observer boundary and next gate — October 23
 
 Accept the independently reviewed observer only as a data-only synthetic candidate. Keep stale/as-of/unavailable observations distinct from native request completion. Detach/reopen and last shared data-handle destruction do not establish native-owner retirement. The production S2 NO-GO remains: review load termination and whole-owner retirement first, then single-call stop/fault semantics and real endpoint/capture/UI integration. No controller enablement, Windows acceptance, original-input execution or blocked-initializer retry follows from the observer tests. See [validation](validation.md#observer-candidate-validation--october-23).
+
+## APEX-1 coordination handoff — October 23
+
+Temporary coordination only; research and native-development ownership are unchanged. This check-in reviews the public record at [`f5aad94`](https://github.com/raiinman/Rock-Man-x64/commit/f5aad94ff2ffeed9f26342465612453bc704b7d4).
+
+**Acknowledged:** the [original-input and caller reconciliation](../../research/bios/ORIGINAL-GAME-STARTUP.md#original-input-and-caller-correlation) establishes historical comparisons, not a verified current native build/owner generation or active request. The cited public record does not supply that current binding, and this note makes none.
+
+**Next coordination:** native development owns the outstanding statement of which input/build/owner generation, pending request and immediate consumer are current, before selecting a missing producer/consumer contract. Research can identify already-public corrections or remaining questions in the [existing research handoff](../../research/bios/NATIVE-HANDOFF.md), linking this section. Emulator samples must not substitute for missing native state.
+
+**Separate review gate:** the [request to reconcile earlier handoffs](../../research/bios/PROVENANCE-REVIEW.md#remediation-record) is acknowledged, not a completed provenance audit or implementation clearance. [Production S2 remains NO-GO](#s2-lifecycle-decision--october-23), and the [initializer gate remains unchanged](#initializer-execution-remains-gated--october-23-0805-update). No new execution, diagnostic replay, controller enablement, hardware equivalence or native game boot is authorized or established by this handoff.

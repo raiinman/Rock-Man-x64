@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-23 · apex-public-handoff-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Added a temporary public-sourced coordination handoff to APEX-1; research and native-development ownership are unchanged.
+
+**Why:** Historical input/caller agreement does not verify a current native build, owner generation or active request. Acknowledging the provenance question is not completing its audit.
+
+**Next:** Native development owes a supported current-binding statement; research can flag already-public corrections or remaining questions. Preserve S2 NO-GO, the initializer gate and every existing acceptance count.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#apex-1-coordination-handoff--october-23) · [source 2](../../research/bios/ORIGINAL-GAME-STARTUP.md#original-input-and-caller-correlation) · [source 3](../../research/bios/PROVENANCE-REVIEW.md#remediation-record).
+
 ## 2026-10-23 · execution-hosting-limits-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -149,3 +161,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | s2 v1 | 0 / 4 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
 | 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | boot v1 | 0 / 1 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
 | 2026-10-23 · `2026-10-23-execution-hosting-limits-01` | roadmap v1 | 5 / 20 | Verified transfer, inconclusive Windows launch attempt and failed Pages deployment; no runtime or hosting acceptance and zero milestone delta. Prior criteria, counts and observations are preserved. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | inspection v1 | 4 / 7 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | observation v1 | 2 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | loader v1 | 3 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | s2 v1 | 0 / 4 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | boot v1 | 0 / 1 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |
+| 2026-10-23 · `2026-10-23-apex-public-handoff-01` | roadmap v1 | 5 / 20 | Public-source-only temporary coordination handoff; no new runtime evidence or acceptance. All checklist definitions, accepted criterion IDs and versions are unchanged; zero milestone delta. |

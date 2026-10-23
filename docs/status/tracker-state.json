@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "ffd96ad1c77b7693f0e7a6516dc3b7c16d93b941f74e3f28074c69ae41a2d4c7",
+  "evidence_data_sha256": "cb965d6565e0e71e8ce06ccb7b7ae2ebddc334f332c7f4081f9c48c37851a97b",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "5b2a51ca84c727ff864a0c333c8cad8313ee04f2a820fca39ff87109190a678d",
-  "evidence_review_id": "2026-10-23-execution-hosting-limits-01",
+  "reviewed_stage_sha256": "f0f8c7616f6153cb03a47b0b2d893d6101652a10531650a4b26684872a1f735b",
+  "evidence_review_id": "2026-10-23-apex-public-handoff-01",
   "evidence_review_date": "2026-10-23",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -51,6 +51,7 @@
     "184eff307e41daccf32fe69597b4115933ba965530050769a0aeba109aec971f",
     "5716ba8b68cc3b8619acce6e655f74110bc758021d99c5cbeea31b9c16684139",
     "ab6702be16866d06483d4c7123eecc22a03bc5c6fb25706b857beb0daa7c1ba8",
-    "0e53c64890cd5c0f5c028703e8baf0b8e64b572332650b5a5da8f9ed848651e6"
+    "0e53c64890cd5c0f5c028703e8baf0b8e64b572332650b5a5da8f9ed848651e6",
+    "fe6bcc255b3fe96061584be25ffe81f0f7f2ced3802054c2cf03f25a7366c686"
   ]
 }
