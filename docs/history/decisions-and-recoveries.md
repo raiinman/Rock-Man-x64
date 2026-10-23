@@ -108,3 +108,7 @@ The first continuation candidate received **NO GO** after synthetic mutation exp
 After independent source and envelope reviews, a separate exact-input continuation run passed only within its native-policy boundary, stopping before the initializer. It does not retrospectively validate the rejected candidate or prove BIOS-equivalent effects.
 
 A later initializer-prefix candidate has **source/synthetic acceptance only**: 127 author checks and 920 independent assertions. Its proposed fixed lowering models 26 source instructions and four stores, stopping at a pending 16-bit I_MASK write with applied=false. No actual-input run is accepted. Its execution preparation was blocked pending review; no retry or alternative route was attempted. This is not an applied interrupt-mask operation, GPU initialization or game boot.
+
+## Runtime-controller feasibility stop — October 23
+
+The independently reviewed S2 design stopped at **NO-GO for the planned production IRQ/graphics profile**, before implementation or tests. The decisive gaps are load completion/cancellation, whole-owner retirement and single-call stop/fault contracts; worker/mailbox finalization is also unproven. Bounded input size is not bounded wall time, and closing a view is not safe retirement of native work. Retain the accepted frozen viewer rather than substituting timeout, detach, forced termination or owner replacement for those contracts. This is separate from visual-tool limitations and the unchanged initializer execution-preparation blocker.

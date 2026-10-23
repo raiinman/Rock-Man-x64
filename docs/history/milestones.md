@@ -213,3 +213,7 @@ A later initializer-prefix candidate has **source/synthetic acceptance only**: 1
 ## 29. Static heap-effect provenance, not new execution — October 23, 09:05 update
 
 The [A0:39 investigation](../../research/bios/HEAP-INITIALIZATION.md) reports an initial binding and five ordered stores from bounded static decoding, with a separate decoder cross-check but no recovered function or firmware execution. The effects differ from the accepted native policy's guest-RAM preservation; neither that policy nor the new report establishes original-call equivalence. Existing native acceptances and earlier failures remain intact. Initializer execution preparation remains blocked pending review, without a retry or alternative route.
+
+## 30. S2 lifecycle feasibility NO-GO — October 23
+
+Independent source review accepted a NO-GO for the planned production IRQ/graphics runtime controller. Loading lacks an accepted cancellation/deadline contract, whole-owner retirement is missing, and single-call fault/stop behavior plus worker/mailbox finalization remain unproven. This records a completed feasibility review, not a failed execution or new implementation. Accepted frozen sources and earlier results remain unchanged; the viewer remains the supported boundary rather than an enabled live runtime controller.

@@ -63,6 +63,10 @@ Preserve the v1 lineage rejection and v2 correction. Native-policy outcomes must
 
 The new [static A0:39 report](../../research/bios/HEAP-INITIALIZATION.md) describes ordered memory effects that differ from the accepted RAM-preserving native policy. This author-reported decoding neither establishes runtime equivalence nor authorizes adopting those effects or resuming blocked initializer execution.
 
+## S2 lifecycle decision — October 23
+
+The planned production IRQ/graphics runtime controller received an independently accepted source-only **NO-GO**. Before reconsideration, establish load cancellation/completion, whole-owner retirement, single-call stop/fault handling and final worker/message ownership. View closure, an idle worker or an elapsed timeout cannot stand in for retiring native obligations. Keep S2 controls absent or disabled; do not replace the owner or force worker termination to conceal the gap. This decision neither changes earlier frozen-viewer acceptance nor authorizes implementation, execution or a retry of the separate blocked initializer operation.
+
 ## Explicitly unresolved scopes
 
 - Connected reset reissue and already-unmuted command admission are not dynamically established merely because guards exist.
