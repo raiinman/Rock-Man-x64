@@ -14,9 +14,9 @@ An independent effort toward a native Windows x64 implementation of Mega Man Leg
 
 ## Current checkpoint — 2026-10-23 hourly update
 
-Development **resumed at 22:04 UTC on October 22**. The native CPU software-mixer stage is now sealed and has passed **51 actual Windows cases** (30 expected exit 0, 21 intentional refusals), including 30 complete JSON and 21 text comparisons. High-level `CdInit` genuinely returns 1; the stage stops at the next unsupported non-null-result `CdSync` boundary. It has no output-device ownership, decoder, playback, physical SPU equivalence or game-boot claim.
+The native **mode-00 stage passed all 69 actual Windows cases**: 39 expected successes and 30 intentional refusals, including 40 complete CLI JSON comparisons. It reaches a genuine source return before stopping at the unsupported graphics-startup continuation. The fixed private validation payload remains unchanged; later acceptance is recorded separately, not by rewriting historical metadata. This is not a public or final game release.
 
-A newer **mode-00 candidate** connects a same-image Form1 reader through the actual parameter FIFO, response, IRQ and callback path. The isolated 13-stage recovery aggregate and a newer 69-case Linux contract passed. It remains **unsealed and not Windows-tested**: Windows runner supervision passed 15 synthetic checks after earlier failures, but the real mode adapter, final sealing and Windows mode execution remain pending. Historical failures, the frozen mixer's stale summary-counter defect, and reporting corrections remain in the [validation history](docs/history/validation-history.md).
+Newer **graphics-entry and diagnostic continuations are Linux-only**. The entry prefix has bounded acceptance; the diagnostic continuation passed 19 connected cases and the 69-case regression, and targeted allocation checks, with bounded Linux acceptance. It performs a real diagnostic and bounded RAM/callback work, then deliberately stops at **A0:49**. No GPU initialization, full boot, gameplay or playback is claimed. See [validation history](docs/history/validation-history.md) for retained failures and evidence limits.
 
 The [status record](docs/status/current-status.md) carries the detailed boundaries. Cross-compilation is not Windows execution; synthetic and component tests are not game boot; decoded assets are not gameplay.
 

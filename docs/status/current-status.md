@@ -1,53 +1,43 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, 01:05 UTC hourly documentation update.** The software-mixer stage is sealed and Windows-verified. A newer mode-00 candidate has bounded Linux evidence but remains unsealed and not Windows-tested.
+**Checkpoint: 2026-10-23, 02:05 UTC hourly documentation update.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
 
-Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only; these reported private results cannot be independently reproduced from it.
+Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
-## Last sealed and Windows-verified stage: software mixer
+## Accepted native Windows mode-00 stage
 
-All **51 actual Windows cases** passed: 30 expected exit-0 outcomes and 21 intentional exit-1 refusals. All 30 complete JSON and 21 contract-scoped text comparisons matched; stderr was empty, no timeout occurred, and checked input, executable and package identities remained unchanged. Windows execution is separate from the earlier Linux sanitizer evidence; Windows sanitizers are not claimed.
+A single actual Windows invocation passed **all 69 ordered cases**: **39 expected exit 0 and 30 intentional exit 1**, including **40 complete CLI JSON comparisons** and the declared text comparisons. All cases reported supervisor completion, direct-child termination and empty owned jobs. Adapter stderr was empty; individual case stderr matched its contract. No timeout, unresolved cleanup or security-setting change occurred.
 
-The immutable stage contains 419 source files, 20 reproducibly cross-built Windows executables and 30 CLI profiles. Its Linux 51-case contract also passed. These are private validation artifacts, not a public release or download.
+All **605 validation-kit files**, including 26 case executables and support material, and **separately three pre-existing original inputs** remained unchanged. No original inputs were packaged. This is an identified authorized execution report; full raw local receipts were retained on the executing system and were **not independently downloaded by the reviewers**. Acceptance is recorded in a separate record. Frozen payloads and historical unrun metadata were not rewritten. This is neither a public distribution nor final game-release acceptance.
 
-High-level `CdInit` genuinely returns 1 with full knownness and the source stack restored, then stops before unsupported non-null-result `CdSync`. Its connected same-owner CPU mixer performs PCM processing under shared Session serialization. Current gain, staged coefficients and applied coefficients remain distinct. It does **not** own an output endpoint, decode game audio, provide playback, establish physical SPU equivalence or boot the game.
+The stage applies a genuine same-image 2048-byte Form1 reader through actual FIFO, response, IRQ and callback work. It examines one same-owner event with zero matches, preserves permission and does not invent an event or numeric success. Source control and outer return complete with result 1 and full knownness, then stop at **`8001b44c`**. Streaming, playback, complete startup and GPU initialization remain unsupported.
 
-### Frozen metadata defect, not an execution failure
+Before the first 69-case integration, actual Windows PowerShell comparison and receipt rules passed **96 synthetic checks**. Earlier adapter-review gaps and fixes remain retained; these were validation-tool tests, not game tests.
 
-Three inherited contract-summary fields incorrectly retained **40 cases / 18 executables / 21 CLI profiles**, rather than the actual **51 / 20 / 30**. The Windows runner checked and executed the actual definitions, so all 51 comparisons remain valid. The historical freeze and hashes were preserved unchanged; the stale summaries were not silently repaired.
+Earlier supporting evidence remains distinct: the isolated 13-stage Linux recovery passed 92 project tests, 19 tool tests and 13,305 metadata rows with 427 source and 4,181 immutable-input identities unchanged. The Linux 69-case contract passed, and two Windows cross-builds produced 26 byte-identical executable pairs. Synthetic supervisor candidate 6 passed 15 Windows checks after candidates 3–5 failed; those failures remain in [history](../history/validation-history.md).
 
-A separate generic packager now checks derived totals, references and strict JSON before reading private inputs or creating a package. All **22 synthetic packaging tests** passed, including an independent rerun. The old inconsistent freeze is rejected by that new preflight; no override or resealing is implied.
+The preceding mixer stage's 51-case Windows result and frozen 40/18/21 summary-counter defect also remain historical evidence. Actual definitions were 51/20/30; the old freeze was not silently repaired. Neither that defect nor the new acceptance rewrites what earlier checkpoints established.
 
-## New mode-00 candidate: Linux recovery accepted; unsealed and not Windows-tested
+## Newer graphics entry: bounded Linux acceptance
 
-The candidate applies a genuine same-image **2048-byte Form1 reader**, through actual parameter FIFO writes, response consumption, IRQ return and callback continuation. The same-owner event registry was examined exhaustively for this path: **one registered event examined, zero matched**. No matching BIOS event was fabricated. The B0:07 return remains unknown and is overwritten before the source caller uses it; no numeric success is fabricated. Existing permission remains preserved. The actual source routine returns 1 with the restored source stack, then stops at **`8001b44c`**, the next unsupported startup boundary. This is native policy, not a hardware timing claim.
+The entry prefix passed **12 connected cases**, the **69-case Linux regression**, and targeted allocation testing across **11 checkpoints / 31,227 allocation cuts**, with a maximum observed count of **2,871**. This is targeted failure coverage, not exhaustive coverage of every allocation path.
 
-| Evidence | Recorded result | Limit |
-|---|---|---|
-| Actual pinned regression run | 51 earlier cases, 20 builds and 30 CLI profiles passed | Linux builds/execution, not Windows execution |
-| New mode profiles | Ten passed: one positive and nine refusals | Bounded connected path, not full startup |
-| Independent review | Three synthetic UBSan groups: 50, 32 and 36 checks; 53 original control-flow targets checked | Review and synthetic evidence, not original-machine execution |
-| Direct-pinned ASan/UBSan failure injection | Normal-path group: 23,323 checks; nonzero-path group: 10,940 checks | Targeted fail-N coverage, not exhaustive allocation coverage; leak detection unavailable |
-| Isolated recovery aggregate | All 13 stages passed: 92 project tests, 19 tool tests and 13,305 metadata comparison rows | 427 source and 4,181 input identities unchanged; original attempt remains inconclusive and excluded |
-| New unsealed Linux contract | 69 cases passed across 26 Linux-built executables and 40 CLI profiles: 39 expected exit 0 and 30 intentional exit 1 | Linux contract validation, not Windows execution |
-| Windows cross-build | Two passes built all 26 target executables; all 26 pairs byte-identical | Actual executable/profile mapping checked; no Windows mode execution or final seal |
+The first regression attempt had a fixture compilation failure. A reviewed fixture-only repair enabled the passing retry without changing production runtime bytes; the failure and earlier evidence were preserved. The full 13-stage project aggregate was **not repeated** for graphics, and no graphics Windows parity is established.
 
-Before pinning, review found and guarded a stale-reader/raw-mode lifecycle bypass. Earlier feature profiles remained unchanged. Independent review closed the partial-publication concern after the targeted checks; this does not replace release sealing or target-platform acceptance.
+## Diagnostic continuation: bounded Linux acceptance
 
-Failed and inconclusive attempts remain part of the record. An earlier shared-tree regression log was briefly mistaken for pinned evidence; the actual pinned run subsequently passed. The first new-profile assertion expected eight copied bytes, but two real eight-byte copies correctly total 16; the failed expectation was retained. Initial allocation-failure bounds of 64 and 512 were insufficient. A later whole-call rollback assertion was also invalid: response publication can complete before IRQ diagnostic allocation fails. Narrow same-operation, retained-debt, no-duplicate and retry checks passed without adding runtime rollback.
+Independent source/synthetic review and **19 connected cases** passed. The supported path publishes the exact **37-byte diagnostic once**, clears **128 bytes**, follows a guarded initialized callback and stops at pending **A0:49**, at `8007cc0c` with return continuation `8007cc14` and source stack `801fff98`. These identifiers describe a bounded stop, not executed GPU initialization.
 
-## Research and next steps
+The continuation's **69-case Linux regression passed**. Independent final review accepted **29 targeted allocation checkpoints / 96,596 fault cuts**, maximum **3,424** below the fixed 8,192 cap, with zero late commits observed in the targeted sweep, unchanged source pins and complete cleanup. This is bounded Linux acceptance. No full-project aggregate, Windows parity or release acceptance is inferred from the connected and regression subsets.
 
-The separate [BIOS research library](../../research/README.md) informs partial-commit and callback cautions; it is not runtime or hardware proof. The reviewed [DB8/DBA research](../../research/bios/DB8-BOUNDARY.md) identifies a community-published numeric left/right current-volume pair and signed 16-bit definition. Sony-authored numeric binding, claim-specific original-machine proof, reset/timing behavior and game hardware equivalence remain unverified. Per-voice patent circuitry and the corrected voice-sweep report do not establish master readback behavior. Historical pending-Windows research wording does not supersede the newer 51-case mixer receipt.
+## Evidence limits and next steps
 
-The fresh isolated recovery completed with all 13 stages passing. The original aggregate attempt remains inconclusive and excluded; this does not establish that its descendant processes stopped, and timings are not benchmarks.
+Build provenance uses an **environment-pinned** assurance: nine host dependencies are retained privately and hash-pinned, without authenticated host-package origin or independent trust-root bootstrap. Deterministic executable bytes do not establish those stronger claims.
 
-Windows supervisor candidates 3, 4 and 5 each failed the first synthetic success case, with zero accepted checks; later cases remained unrun. The fixture itself exited successfully with exact output, but the supervisor refused additional/inconsistent process association. Candidate 5 recorded a current owned member basename consistent with a console host, not authenticated executable identity or historical process continuity. Cleanup observed the owned job empty and direct child ended. These were synthetic runner failures, not a Windows mode test or policy refusal; no protection changes or uncontained fallback were used. Console-detached candidate 6 subsequently passed all 15 synthetic Windows checks in one invocation, including deliberate descendants, timeouts and forced-supervisor-termination cleanup. The 14-file kit remained unchanged, with no protection override or unresolved cleanup. This is not Windows mode execution.
+The inspected Sony Operating System (1998) and Run-Time Library Reference 4.7 pages do **not establish the exact A0:49 service contract**. A community definition exists but remains a provenance-limited research lead, not implementation authority. This is a limitation of the inspected sources, not a claim that no definition exists anywhere. A discarded return value does not make the service effect-free or justify a successful no-op; A0:49 remains pending.
 
-Offline compiler-provenance review verified retained cross-toolchain distribution payloads and signed-index/package linkage. Nine host shared-library dependencies are hash-pinned but lack independently established distribution origin; complete build-environment provenance is not claimed.
+The separate [BIOS research library](../../research/README.md) is reference evidence, not proof that this runtime implements or reproduces hardware. Its [DB8/DBA review](../../research/bios/DB8-BOUNDARY.md) distinguishes community numeric/signed-field definitions from unverified Sony binding, reset/timing and game hardware equivalence. Voice-current experiments do not establish master readback behavior.
 
-Next: implement and independently review the real 69-case Windows adapter, resolve bounded provenance assurance and review final sealing before Windows mode validation. A separate private graphics-entry RAM/control prefix is **implementation and validation in progress**, without independent acceptance. No original-image execution or GPU-initialization milestone is established.
-
-No full startup return, normal first-scene lifecycle, player control, collision/gameplay, AI, combat, full rendering fidelity, save compatibility or audio playback has been demonstrated.
+Next: preserve the pending service boundary until an adequate contract exists. The isolated IDE Source bytes/Back feature passed independent portable/build-only review, strict and sanitizer tests, and byte-identical Windows cross-builds of the inspector and harness. Actual Windows UI, state, reparse and pixel validation remain unrun. Its reader-derived offsets show current-disk bytes, not a fingerprint-authenticated copy of the earlier decode. Neither graphics work nor Windows mode validation establishes original GPU equivalence, normal scene lifecycle, player control, collision, AI, combat, save compatibility or audio playback.
 
 See [validation](validation.md), [handoff](decisions-and-handoff.md), [history](../history/validation-history.md) and [capabilities](../technical/capability-matrix.md).

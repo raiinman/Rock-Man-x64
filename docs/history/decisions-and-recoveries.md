@@ -58,3 +58,10 @@ This record preserves unsuccessful attempts and unresolved questions alongside s
 - **Identity limit:** the fifth candidate's current-member basename was diagnostic evidence only, not authenticated image identity or historical process continuity. No basename whitelist or uncontained fallback was used.
 - **Next runner candidate:** console-detached candidate 6 subsequently passed all 15 synthetic Windows checks, including deliberate descendants, timeouts and forced-supervisor-termination cleanup; its 14-file kit remained unchanged, with no protection override or unresolved cleanup. Synthetic runner acceptance remains distinct from a real Windows mode contract.
 - **Provenance:** retained cross-toolchain distribution linkage improved, but nine host shared dependencies have pinned hashes rather than independently established package origins. Do not equate deterministic binaries with full provenance.
+
+## Windows acceptance and graphics fixture recovery — October 23, 02:05 update
+
+- **Mode Windows closure:** all 69 actual cases passed. Preserve frozen payloads and historical unrun fields; record later acceptance separately. The report is delegated execution evidence, not an independent download of raw local receipts or a final game release.
+- **Graphics regression fixture:** the first attempt failed compilation. A reviewed fixture-only repair enabled the passing 69-case retry without changing production runtime bytes. Preserve the failed attempt and avoid describing it as an uninterrupted clean pass.
+- **Graphics evidence boundary:** the entry prefix has bounded Linux acceptance; newer diagnostic connected/regression and targeted allocation checks also received bounded Linux acceptance. No graphics Windows parity or repeated full-project aggregate is claimed.
+- **A0:49 contract gap:** inspected vendor manuals do not bind the exact service. A community definition exists with provenance limits, but does not authorize implementation. A discarded return value cannot erase effects or justify a no-op; the real service boundary remains pending.

@@ -134,3 +134,19 @@ Synthetic Windows supervisor candidates **3, 4 and 5** each failed the first suc
 Offline provenance checks verified retained cross-toolchain distribution payload closure and signed-index/package linkage. Nine host shared dependencies are hash-pinned without independently established package origin. Complete build-environment provenance and stronger reproducibility claims remain unestablished.
 
 Separately, a graphics-entry RAM/control prefix has moved from static planning into implementation and validation in progress, without independent acceptance. No original-image execution, accepted graphics milestone or GPU initialization is established.
+
+## Actual Windows mode-00 acceptance — October 23, 02:05 update
+
+Before the first real 69-case integration, actual Windows PowerShell comparison/receipt rules passed 96 synthetic checks. Earlier adapter-review gaps and fixes remain retained, not rewritten as an uninterrupted clean pass. These were validation-tool checks, not game tests. Provenance assurance remains environment-pinned: nine host dependencies are retained privately and hash-pinned, without authenticated host-package origin or independent trust-root bootstrap.
+
+A single invocation passed **69/69 actual Windows cases**, comprising **39 expected exit 0 and 30 intentional exit 1**, **40 complete CLI JSON comparisons** and declared text comparisons. Every case reported supervisor completion, direct-child termination and an empty owned job; no timeout or unresolved cleanup occurred. Adapter stderr was empty and per-case stderr matched its contract. All **605 kit files**, including 26 case binaries and support material, and **separately three pre-existing original inputs** remained unchanged. No original inputs were packaged. No security settings changed.
+
+The accepted source path completes control/outer return with fully known result 1 and stops at `8001b44c`. Streaming, playback and game boot remain unsupported. Acceptance relies on the identified authorized execution report: full raw local receipts were retained on the executing system and not independently downloaded by the reviewers. Frozen payloads and historical unrun fields remain unchanged; a separate acceptance record captures the later result. This is not final/public game-release acceptance.
+
+## Newer graphics Linux checks and retained failure
+
+The graphics-entry prefix passed **12 connected cases**, the **69-case Linux regression** and **11 targeted allocation checkpoints / 31,227 allocation cuts**, with a highest observed allocation count of **2,871**. Its first full-regression attempt had a fixture compilation failure. A reviewed fixture-only repair enabled a passing retry with production runtime bytes unchanged; the original failure and evidence remain preserved. Targeted coverage is not exhaustive allocation coverage, and the full 13-stage project aggregate was not repeated on graphics.
+
+A later diagnostic continuation passed independent source/synthetic review, **19 connected cases** and its **69-case Linux regression**. The path publishes the exact 37-byte diagnostic once, clears 128 bytes, follows a guarded initialized callback and retains pending A0:49 at `8007cc0c`. Independent final review accepted **29 targeted allocation checkpoints / 96,596 fault cuts**, maximum **3,424** below the fixed 8,192 cap, zero late commits observed in the targeted sweep, unchanged source pins and complete cleanup. This is bounded Linux acceptance. Neither graphics continuation has Windows parity or proves GPU initialization.
+
+The inspected Sony OS (1998) and Runtime 4.7 pages did not establish the exact service contract. A community definition is a provenance-limited research lead, not implementation authority; the inspection does not establish universal absence of documentation. The call stays pending rather than being replaced by a no-op or fabricated success.
