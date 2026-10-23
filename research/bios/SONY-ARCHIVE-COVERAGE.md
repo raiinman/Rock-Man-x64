@@ -52,6 +52,14 @@ AUDIO98's zero-based slides 1–4 distinguish direct settings, hardware volume r
 
 The cover and branding attribute AUDIO98 to Rob Vawter, SCEA; the decks also carry SCEE Technology Group conference styling. These are attribution observations on third-party-hosted copies. Initial renderer attempts produced no PDFs, including a nonzero process result; successful later exports were checked for actual PDF presence, page counts and content. Body text was legible in the reviewed export; a small trademark mark touches the page edge. This is a static LibreOffice rendering, without validation against original PowerPoint, animations, hidden content or speaker delivery. Source files, extracted images, rendered PDFs and raw reports remain private. Other presentation graphics and the inaccessible Japanese revisions remain separate gaps.
 
+## User-supplied assembly repository lead
+
+The [playstationAssembly repository](https://github.com/micklemacklemore/playstationAssembly/tree/ad4b36aa8ece040ce5889ea69847f82d8487081d) was checked at commit `ad4b36aa8ece040ce5889ea69847f82d8487081d`. Its complete, untruncated tree has five exercise directories and 13 text files. All 13 files were fetched as inert text and checked against Git blob identities: 33,550 bytes / 1,132 lines. Nothing was built or executed.
+
+The exercises cover elementary MIPS arithmetic, GPU rectangles, subroutines and input/timers. No SPU include file, register catalog or Sony manual occurs in this tree. Full-address, short-offset, current-volume-label and SPU-term searches produced no target reference. Selected exercises contain the general I/O base literal, but the checked text lacks the relevant SPU offsets; this is a bounded source-text result, not a runtime address proof.
+
+The README points to community memory-map documentation, tutorials, assembly examples and MIPS books. Those are source-discovery links, not Sony-authored numeric register definitions. Linked repositories and example code were not imported as native-port construction input. This repository does not resolve the Sony DB8 documentation gap in its checked revision. The check covers the pinned current tree; history, other branches, issues, forks and external documents are outside this result.
+
 ## Wayback and independent-copy checks
 
 Following the actual 401 download responses, public Wayback CDX queries for the three exact Internet Archive file URLs and their item page returned HTTP 403. Wayback availability queries returned HTTP 429 and were not repeatedly retried. These are query-access failures, not evidence that captures do not exist.
