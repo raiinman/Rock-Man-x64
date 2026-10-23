@@ -83,3 +83,7 @@ Implementation use of this queue is subject to the owner's [provenance review bo
 ## Update workflow
 
 The user authorized continued independent research, subagents and necessary local tools on 2026-10-22; the latest requested update cadence is every half hour. Publish reviewed research batches to GitHub promptly, update this queue with answered/partial/unresolved status, and preserve concurrent work. The existing chat heartbeat continues the research and reports findings, commits, checks and blockers. Its current priority is the port's actual identified blocker, using PSX-SPX first and pursuing specific evidence gaps; `0x1f801db8` mute/update semantics remain a separate open question. It grants no authority to publish original firmware or game content or to resume implementation work.
+
+## Original-game progress beyond loading
+
+A separately authorized [7,200-frame capture](ORIGINAL-GAME-STARTUP.md#past-loading-capture-and-first-call-detail) reaches the opening story. Its first post-entry A0:49 detail records a candidate-target callback, bounded GPU accesses and a context-matched caller-return sample of zero. A later A0:49 occurrence is numerically close to the native diagnostic coordinate, but is outside that first-call detail window. Match the actual input/caller/generation before treating it as the native blocker. These findings narrow research; they do not populate missing native state or clear provenance. The development agent has been sent the bounded summary; acknowledgment remains pending.
