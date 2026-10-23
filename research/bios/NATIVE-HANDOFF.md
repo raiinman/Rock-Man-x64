@@ -31,6 +31,8 @@ The focused graphics follow-up inspected all 50 exported slides from the two ret
 
 Following the README's external documentation subsequently found an explicit community definition of the numeric pair. See the [source definition and native boundary](DB8-BOUNDARY.md#explicit-definition-reached-through-the-readme). This is a positive documentation finding; Sony provenance, hardware verification and the actual game's consumer remain separate questions.
 
+The next state request can be kept narrow: the [selected dispatch route](KERNEL-SERVICES.md#selected-a049-route-and-missing-live-state-proof) identifies the initial gate, dispatcher and table word to reconcile with actual resolution; the [branch evidence checklist](DEVICES.md#minimal-branch-evidence-for-the-selected-synchronization-routine) identifies only the GPU/DMA bits each reached branch consumes. Neither checklist supplies missing live state.
+
 ## Suggested acceptance cases
 
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.

@@ -64,6 +64,19 @@ The [pinned PSX-SPX GPU-function description](https://github.com/psx-spx/psx-spx
 
 **Native investigation proposal:** Once the actual game slice arrives, distinguish the no-DMA bit-28 wait, DMA busy-bit wait and post-DMA bit-26 wait. Preserve GP0 submission even when the synchronization return is ignored or negative. Confirm the dispatch binding, command word, GP0 parser state, preceding GP1/DMA state and result consumer before choosing a native policy. No implementation change or game acceptance is established here.
 
+### Minimal branch evidence for the selected synchronization routine
+
+The retained instructions support a smaller investigation than requiring every GPU status bit to be known. The table below is a proposed evidence checklist, conditional on the effective dispatch reaching this exact routine. It does not establish a current game state or authorize a synthetic ready value. [G4]
+
+| Decision | Smallest relevant evidence | Limit |
+|---|---|---|
+| Initial branch | Both bits in GPU status mask `0x60000000` known zero, or at least one of them known one | The first proves the no-DMA branch; the second proves the other branch. An all-zero known mask proves neither |
+| No-DMA immediate return | A subsequent GPU-status read with bit 28 known set | This branch does not read GPU channel-control state. A clear bit enters polling; unknown readiness does not prove a timeout |
+| DMA branch progress | Channel-control bit 24 known clear, followed by a GPU-status read with bit 26 known set | These are ordered observations, not interchangeable fields from one snapshot; the successful branch also writes GPU control |
+| Submitted word's role | Effective wrapper binding plus the GP0 stream position at its store | Readiness or a discarded return does not prove that the word begins a new command |
+
+A producer and ordering history must justify each consumed observation. A prior GPU control write alone does not supply a complete later status sequence; software initialization flags or unrelated DMA interrupt bookkeeping do not supply it either. If the native startup contract omits that producer, record where the state becomes unknown and identify the chosen service abstraction explicitly. This checklist separates a missing observation from a proved busy state, failure or finite return.
+
 ### Command-zero lead and its limits
 
 The [pinned PSX-SPX other-command page](https://github.com/psx-spx/psx-spx.github.io/blob/038d444bf28e8ac1b203667c7155eb80d8b7dec2/docs/ps1/gpu/other-commands.md), SHA-256 `fea217bf11b4e94282f63079bb59cda44bc9c3cd3e92233405980784b472208e`, describes GP0(00h) with an explicit uncertainty marker. A word with a zero high byte therefore provides a command-zero lead **if it is actually submitted at a command boundary**. A pointer-shaped low value does not make the observed single-word wrapper dereference that value or start an ordering-table transfer.
