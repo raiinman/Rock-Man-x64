@@ -4,8 +4,12 @@
 
 Start with the [native handoff and continuing queue](NATIVE-HANDOFF.md). It connects firmware findings to proposed validation cases without changing implementation work.
 
+Read the [provenance and implementation review boundary](PROVENANCE-REVIEW.md) before using research in game implementation. The owner's clean-room requirement is not established by functional tests or this library's original wording.
+
 | Report | What it establishes |
 |---|---|
+| [BIOS-only startup baseline](BIOS-BOOT-BASELINE.md) | One bounded firmware-only emulator startup reaches a visible main menu; native game boot and provenance acceptance remain separate |
+| [Provenance review](PROVENANCE-REVIEW.md) | Source classifications, retained exposure history and review requirements before implementation use; no automatic clean-room certification |
 | [Startup and bootstrap](STARTUP.md) | Reset setup, decompiler omissions, copied kernel, service installation, optional expansion path and disc boot preparation |
 | [Kernel services](KERNEL-SERVICES.md) | Dispatch, event/thread records, exception discrimination, critical sections and context return; evidence classes remain separate |
 | [Selected heap initialization](HEAP-INITIALIZATION.md) | Initial A0:39 binding, five ordered stores, argument handling and leaf register/return properties; native policy and actual game occurrence remain separate |

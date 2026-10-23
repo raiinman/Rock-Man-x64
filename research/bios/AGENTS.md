@@ -17,6 +17,8 @@ This folder owns firmware analysis reports, coverage, evidence metadata, validat
 
 ## Work Guidance
 
+- The owner requires a clean-room game implementation. Apply `PROVENANCE-REVIEW.md`: PSX-SPX is a restricted-provenance research reference, not an implementation-cleared source. Preserve source/exposure history and separate behavioral verification from independent authorship. Do not clear flags automatically or claim tests/paraphrasing remove derivation. Earlier research handoffs require review under the project's agreed provenance policy before implementation use.
+
 - Reuse retained evidence and private receipts before making a new import. Follow a specific unresolved question and preserve failed or bounded observations.
 - Check instruction evidence and function extents before treating pseudocode as a complete description of device accesses, register state or control flow.
 - Update the research queue and publish reviewed batches promptly; provide the user's requested half-hour updates through the existing chat heartbeat.

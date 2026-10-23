@@ -4,7 +4,7 @@ This original research-team proposal has 87 detailed requirements across 15 doma
 
 Status concerns the private research application only: **implemented** means the described bounded workbench path exists and has host/browser checks within its stated scope; **waiting input** requires identified evidence or an agreed integration contract; **proposed** is unimplemented. None means native boot, hardware conformance, S2 acceptance or execution authority.
 
-Current totals: 41 implemented, 10 waiting for input and 36 proposed. P0 targets the current evidence and collaboration gaps; P1 supports nearby investigations; P2 covers later PS1 reuse. The broad CPU/GPU/IRQ/CD/SPU worksheets remain proposed unless the row describes a narrower existing decoder or report view.
+Current totals: 45 implemented, 10 waiting for input and 32 proposed. P0 targets the current evidence and collaboration gaps; P1 supports nearby investigations; P2 covers later PS1 reuse. The broad CPU/GPU/IRQ/CD/SPU worksheets remain proposed unless the row describes a narrower existing decoder or report view.
 
 ## Evidence intake
 
@@ -69,10 +69,10 @@ Current totals: 41 implemented, 10 waiting for input and 36 proposed. P0 targets
 
 | ID | Priority | Requirement | Status | Acceptance boundary |
 |---|---|---|---|---|
-| cpu-01 | P1 | Decode a documented instruction subset | proposed | Unsupported operations stop dependent reasoning instead of being treated as NOP. |
-| cpu-02 | P1 | Display register definitions and uses | proposed | Loads remain symbolic unless identified memory evidence is supplied. |
-| cpu-03 | P1 | Annotate load delays and branch delays | proposed | Separate source instruction order from observed retirement. |
-| cpu-04 | P1 | Compute branch and jump targets statically | proposed | Use explicit PC mapping and preserve delay-slot conditions. |
+| cpu-01 | P1 | Decode a documented instruction subset | implemented | Unsupported operations stop dependent reasoning instead of being treated as NOP. |
+| cpu-02 | P1 | Display register definitions and uses | implemented | Loads remain symbolic unless identified memory evidence is supplied. |
+| cpu-03 | P1 | Annotate load delays and branch delays | implemented | Separate source instruction order from observed retirement. |
+| cpu-04 | P1 | Compute branch and jump targets statically | implemented | Use explicit PC mapping and preserve delay-slot conditions. |
 | cpu-05 | P1 | Mark conservative call clobbers | proposed | A callee summary must identify its artifact and scope. |
 | cpu-06 | P1 | Track signedness and overflow assumptions | proposed | Unsigned modulo arithmetic cannot certify signed exception behavior. |
 
@@ -171,3 +171,5 @@ Current totals: 41 implemented, 10 waiting for input and 36 proposed. P0 targets
 ## Next concrete integration decision
 
 Request a new identified original-loader producer summary or owner transition scope. For the A0:49 investigation, conditional address arithmetic does not supply the loaded pointer, subsequent writes, effective dispatch or GPU parser state. For S2, a consistent observation-channel ledger cannot supply native cancellation/completion or whole-owner retirement contracts. Select one bounded question and matching input before specializing an adapter or diagnostic; preserve completed recorder launch locks and the separate initializer block.
+
+The four implemented CPU rows describe the bounded static instruction lens only; propagation, execution, full call summaries and broader CPU conformance remain outside that subset. Additional BIOS startup, full-text reference and provenance-review capabilities are described in WORKBENCH.md; this original 87-row proposal is not an exhaustive inventory.

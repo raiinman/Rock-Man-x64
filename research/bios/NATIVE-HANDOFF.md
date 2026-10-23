@@ -41,7 +41,7 @@ The subsequent [digest-specific static check](HEAP-INITIALIZATION.md) establishe
 
 ## Reuse the existing research debugger before adding tools
 
-The private research environment has REA/Ghidra static evidence, a pinned PCSX-Redux CLI capture runner (`29142.20261022.44.x64`), a separately pinned graphical CPU debugger (`29135.20261022.42.x64`) and an expanded original local [research workbench](WORKBENCH.md). Its capture explorer reuses five retained sessions, including the completed [A0:49 recorder](A049-RECORDER.md), without rerunning them. Known-mask and ordered-dispatch checks locate missing evidence; a separate declared owner-lifecycle review preserves the production controller NO-GO. Neither checker establishes native completion. Only the two existing SPU experiments remain manually launchable through the workbench; the A0:49 launch locks remain intact.
+The private research environment has REA/Ghidra static evidence, a pinned PCSX-Redux CLI capture runner (`29142.20261022.44.x64`), a separately pinned graphical CPU debugger (`29135.20261022.42.x64`) and an expanded original local [research workbench](WORKBENCH.md). Its capture explorer reuses five retained sessions, including the completed [A0:49 recorder](A049-RECORDER.md), without rerunning them. Known-mask and ordered-dispatch checks locate missing evidence; a separate declared owner-lifecycle review preserves the production controller NO-GO. Neither checker establishes native completion. The two existing SPU experiments and a separate fixed BIOS-only startup capture are manually launchable through the workbench; the A0:49 launch locks remain intact.
 
 The owner authorized one calibration and one synthetic call. Both completed and passed independent capture review: 16 calibration events and 22 A0:49 events, approximately five seconds each. Calibration distinguished store-hook samples, delayed load results and branch-delay observations. The call recorded the reported gate/dispatcher/wrapper route, a post-load target register, GPU-status register results and a return of zero. Direct transfer payloads and fetched-opcode/retirement evidence remain unavailable. Neither the synthetic status value nor its return can populate an unknown native game state.
 
@@ -62,6 +62,8 @@ For GPU history, identify the last justified initialization or native model-stat
 These are proposals, not tests run against MML1: failed event allocation; enabling without delivery; repeated delivery and consumption; null/non-null callback; invalid or stale handle; nested critical-section entry/exit; continuation restoration; command rejection before admission; response-phase mismatch; unread response and outstanding IRQ debt; reset recovery without replaying effects; transfer configured but not complete; short executable read; disconnected input; save failure before commit; generation replacement with outstanding work. Link each adopted case to a genuinely reached game path and the selected native policy.
 
 ## Continuing research queue
+
+Implementation use of this queue is subject to the owner's [provenance review boundary](PROVENANCE-REVIEW.md). PSX-SPX definitions and firmware-derived observations remain research evidence; tests do not clear their provenance or certify the game as clean room. Review earlier handoffs before adopting them as implementation inputs.
 
 | Priority | Unresolved question | Next evidence and completion boundary |
 |---|---|---|
