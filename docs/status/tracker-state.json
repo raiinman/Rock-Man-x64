@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "ce39274034690c5ed77b59960d4b0d48352dd13927a19e81ed6c37c764a0bcf7",
+  "evidence_data_sha256": "1b7c7f8cfc514c904de79cc0bc76574278b7d02ce0793249ef334eb0d8e8c70c",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
