@@ -64,6 +64,14 @@ The [pinned PSX-SPX GPU-function description](https://github.com/psx-spx/psx-spx
 
 **Native investigation proposal:** Once the actual game slice arrives, distinguish the no-DMA bit-28 wait, DMA busy-bit wait and post-DMA bit-26 wait. Preserve GP0 submission even when the synchronization return is ignored or negative. Confirm the dispatch binding, command word, GP0 parser state, preceding GP1/DMA state and result consumer before choosing a native policy. No implementation change or game acceptance is established here.
 
+### Command-zero lead and its limits
+
+The [pinned PSX-SPX other-command page](https://github.com/psx-spx/psx-spx.github.io/blob/038d444bf28e8ac1b203667c7155eb80d8b7dec2/docs/ps1/gpu/other-commands.md), SHA-256 `fea217bf11b4e94282f63079bb59cda44bc9c3cd3e92233405980784b472208e`, describes GP0(00h) with an explicit uncertainty marker. A word with a zero high byte therefore provides a command-zero lead **if it is actually submitted at a command boundary**. A pointer-shaped low value does not make the observed single-word wrapper dereference that value or start an ordering-table transfer.
+
+Primary author reports [PR 116](https://github.com/psx-spx/psx-spx.github.io/pull/116) and [PR 135](https://github.com/psx-spx/psx-spx.github.io/pull/135) bound the claim more carefully than the informal NOP label: selected parameters left the tested GPU readback and VRAM state unchanged; a later busy-copy experiment distinguished FIFO behavior. The reports concern GPU versions 0 and 2. They do not settle timing, establish every parameter or parser state, or show that this game's occurrence reached that measured condition. These are community hardware-test reports reviewed as sources, not experiments reproduced here. Their linked probe implementation was not imported or run.
+
+The [GP0 port and command description](https://psx-spx.consoledev.net/dev/ps1/gpu/i-o-ports-dma-channels-commands-vram/) explains that following words can be parameters of an existing command. Thus command-byte classification must retain stream position. Even a proven command-zero occurrence would not erase the preceding BIOS synchronization, DMA-control effects, failure behavior or ABI obligations. A discarded service result and unknown status bits cannot supply those missing facts. The remaining native investigation is an effective-dispatch and reaching-device-state join, not permission to return fabricated success.
+
 ### Sound and input coverage
 
 ROM `0xbfc06ca4` begins with four 16-bit zero stores to `0x1f801d86`, `0x1f801d84`, `0x1f801d82` and `0x1f801d80`, then proceeds to initialization helpers. ROM `0xbfc06ec4` also performs this four-address sequence after a service call. Those actual halfword writes give a concrete sound-related initialization lead. They do not establish initialization of all sound registers, sample RAM, voice state, decoding, mixing or any audible output. [S1, S2]
