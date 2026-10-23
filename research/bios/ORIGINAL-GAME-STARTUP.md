@@ -45,3 +45,17 @@ The caller-focused run completed 7,200 frames in 127.319572 seconds, exited norm
 Eight detail records include the terminal summary, with no reported detail drops, context mismatches or saturation. The numeric caller match makes this a more focused research lead for DOT; exact native input/generation, actual dispatch load, full ABI, parser state, transferred payload and implementation acceptance remain open. No native code was changed.
 
 Result metadata SHA-256: `edeacaf2090f0f7e6de763e01e3b656b78bebb856f14d83cc6d37f81899069a6`. Observer SHA-256: `8a616a2f83cab6213730021f958187d518682aceba5b659482ef9f6601d12403`. Detail-journal SHA-256: `38dc4f7ef6100fe7295114484118c764873b1c9908a65cc03103f7817d05369f`. Final display digest matches the separately retained third capture. Independent host validation checks the retained files; this public repository contains metadata and original prose only.
+
+## Original-input and caller correlation
+
+A later read-only ISO directory check distinguishes the disc's 305,152-byte boot executable from a separate 825,344-byte executable in the same image. SHA-256 over the latter's exact logical file bytes matches the original-input digest supplied in DOT's historical handoff. The earlier comparison used the boot executable's identity; those two artifact roles should not be treated as conflicting original inputs. This check inspected directory metadata and hashed bytes without extracting code, decoding instructions or launching another capture. It establishes contained-file identity against an attestation, not the bytes actually loaded at runtime.
+
+Reconciliation of the retained handoff also finds explicit caller-return, stack-pointer and argument values that all match the later captured boundary. This is stronger than the earlier numerical eight-byte relationship alone. The native callsite and veneer remain project-attested; this research has not authenticated fetched game instructions or proved equivalent execution history.
+
+| Match dimension | Result | Remaining boundary |
+|---|---|---|
+| Contained original executable | Size and SHA-256 match DOT's reported historical original input | Runtime loading and transformed memory remain unverified |
+| Later A0:49 caller context | Three observed fields match the explicit historical attestation | Same dynamic occurrence and complete reaching state are not established |
+| Native source and accepted receipt | Historical identities were supplied by the project | Current binary, owner generation and active pending request are not independently verified |
+
+The new coordination question is a current-binding statement referring to the identities already supplied: whether the active build still uses that input and generation, and which pending request and immediate consumer are current. It does not ask for unavailable GPU history from the unchanged caller slice. The next implementation review should select an actual producer/consumer mismatch only after that binding and the project's provenance review. Observed zero returns do not authorize a successful no-op, readiness constants or controller enablement. No game code changed and no implementation clearance was granted.
