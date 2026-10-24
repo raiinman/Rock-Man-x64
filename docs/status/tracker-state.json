@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "883b432bf4ca3912577dc9c0fadf8793e1eaa4ec95c2adf80e11f4253115f201",
+  "evidence_data_sha256": "b0c98d3130e12dce2a55890095fcf3b0f85b3709ceb457b8acea134fef31178c",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "5c88a0c0afee9e6ae58d9b3e74b191ced6b43436a9919810e41c6e8c38448c80",
-  "evidence_review_id": "2026-10-24-helper-first-branch-case-01",
+  "reviewed_stage_sha256": "d97d2585715b74c18f85bbdfc65a0572868ebf753369012d4b1b3f5d6ffe38fb",
+  "evidence_review_id": "2026-10-24-preview-outcome-repair-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -68,6 +68,7 @@
     "5035648da239310de0f09bbcad2a623feb35d40bc7151e40e42789a9f6281754",
     "67538bf2c4c907f45904a3e07fd70109e09051b23cd9403c200ebf047a77257d",
     "457b7c88dda0b9c147ee1de3a7561d3a34e076aaca7e73dec0c11d00a858ad80",
-    "a374cb472fc009e6279758f2c3e04fc9efc83780a76d1c923192843d8a6d0772"
+    "a374cb472fc009e6279758f2c3e04fc9efc83780a76d1c923192843d8a6d0772",
+    "36e2e52673a2d6eccc5568eac0cff8ef4b62d1269ec81dc17dc19b616c642412"
   ]
 }

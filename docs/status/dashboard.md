@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-helper-first-branch-case-01` · [reviewed basis 542c3bd](https://github.com/raiinman/Rock-Man-x64/commit/542c3bda6f5bf3ee79c203bfb585afec440c29e7).
+**Last evidence review:** 2026-10-24 · `2026-10-24-preview-outcome-repair-01` · [reviewed basis c6d7f31](https://github.com/raiinman/Rock-Man-x64/commit/c6d7f31bd90072c53d9c4f553dafe95598e7a42d).
 **Latest repository change observed:** [489cdf9](https://github.com/raiinman/Rock-Man-x64/commit/489cdf933ed09aa493b76d9ae305628ab566f9b2) · 2026-10-23T19:05:45-07:00 — research: specialize retained helper continuation to captured argument case.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -278,17 +278,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | s2 v1 | 0 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | boot v1 | 0 / 1 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | roadmap v1 | 5 / 20 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
 
 
 ## Current explanation
 
 **Now:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Changed:** Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.
+**Changed:** Reviewed at 2026-10-24 02:07 UTC: the isolated diagnostic preview now withholds incomplete or failed raster output; Linux synthetic checks and Windows links passed, with no Windows execution or milestone acceptance. Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.
 
-**Why:** The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.
+**Why:** A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.
 
-**Next:** Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
+**Next:** Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

@@ -408,17 +408,30 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-helper-first-branch-case-01",
-    "reviewed_through_commit": "542c3bda6f5bf3ee79c203bfb585afec440c29e7",
-    "summary": "Independent retained-evidence review specializes the first continuation branch to captured argument three. No new artifact analysis or target execution; original gameplay-HUD result and native/provenance limits remain separate."
+    "review_id": "2026-10-24-preview-outcome-repair-01",
+    "reviewed_through_commit": "c6d7f31bd90072c53d9c4f553dafe95598e7a42d",
+    "summary": "Reviewed at 2026-10-24 02:07 UTC: sealed independent diagnostic-preview repair evidence. Incomplete/failed raster attempts no longer enter ordinary completed-frame presentation; Linux synthetic checks and Windows links only, not Windows execution or visible-frame acceptance. No native tests rerun; zero milestone delta. Earlier failures, APEX research/handoff and all native gates remain separate."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.",
-    "why": "The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
-    "next": "Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open."
+    "changed": "Reviewed at 2026-10-24 02:07 UTC: the isolated diagnostic preview now withholds incomplete or failed raster output; Linux synthetic checks and Windows links passed, with no Windows execution or milestone acceptance. Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.",
+    "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
+    "next": "Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open."
   },
   "updates": [
+    {
+      "id": "diagnostic-preview-outcome-repair-01",
+      "date": "2026-10-24",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 02:07 UTC: a sealed isolated caller repair withholds budget-stopped or failed raster output from ordinary presentation. Eleven policy scenarios, five overlapping source-extracted caller checks, affected regressions and four independent controls passed optimized Linux and ASan/UBSan; Windows links passed only.",
+      "why": "The retained pre-fix failure presented a partial raster once after the unchanged work cap stopped drawing. Final behavior preserves exact-cap completion, uses honest notices and adds no retry or queue. Repeated modes and overlapping controls are not extra unique scenarios; the initial reviewer harness build failure remains recorded.",
+      "next": "Windows execution, display-call success and actual pixels remain unverified; three targeted allocation sites are not a full sweep, and LeakSanitizer was disabled. No native tests were rerun for this documentation check. Preserve native boot, producer/frame-owner, A0:49, S2, initializer and provenance gates; roadmap remains 5/20.",
+      "evidence": [
+        "docs/status/current-status.md#diagnostic-preview-outcome-repair--october-24",
+        "docs/history/validation-history.md#diagnostic-preview-outcome-repair-evidence--october-24"
+      ]
+    },
     {
       "id": "helper-first-branch-case-01",
       "date": "2026-10-24",
@@ -2553,6 +2566,68 @@
       "date": "2026-10-24",
       "basis_commit": "542c3bda6f5bf3ee79c203bfb585afec440c29e7",
       "note": "Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-preview-outcome-repair-01",
+      "date": "2026-10-24",
+      "basis_commit": "c6d7f31bd90072c53d9c4f553dafe95598e7a42d",
+      "note": "Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate.",
       "checklists": [
         {
           "id": "inspection",

@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Next useful step:** Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
+**Next useful step:** Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-helper-first-branch-case-01` · [reviewed basis 542c3bd](https://github.com/raiinman/Rock-Man-x64/commit/542c3bda6f5bf3ee79c203bfb585afec440c29e7).
+**Last evidence review:** 2026-10-24 · `2026-10-24-preview-outcome-repair-01` · [reviewed basis c6d7f31](https://github.com/raiinman/Rock-Man-x64/commit/c6d7f31bd90072c53d9c4f553dafe95598e7a42d).
 **Latest repository change observed:** [489cdf9](https://github.com/raiinman/Rock-Man-x64/commit/489cdf933ed09aa493b76d9ae305628ab566f9b2) · 2026-10-23T19:05:45-07:00 — research: specialize retained helper continuation to captured argument case.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

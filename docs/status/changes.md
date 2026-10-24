@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · diagnostic-preview-outcome-repair-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 02:07 UTC: a sealed isolated caller repair withholds budget-stopped or failed raster output from ordinary presentation. Eleven policy scenarios, five overlapping source-extracted caller checks, affected regressions and four independent controls passed optimized Linux and ASan/UBSan; Windows links passed only.
+
+**Why:** The retained pre-fix failure presented a partial raster once after the unchanged work cap stopped drawing. Final behavior preserves exact-cap completion, uses honest notices and adds no retry or queue. Repeated modes and overlapping controls are not extra unique scenarios; the initial reviewer harness build failure remains recorded.
+
+**Next:** Windows execution, display-call success and actual pixels remain unverified; three targeted allocation sites are not a full sweep, and LeakSanitizer was disabled. No native tests were rerun for this documentation check. Preserve native boot, producer/frame-owner, A0:49, S2, initializer and provenance gates; roadmap remains 5/20.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#diagnostic-preview-outcome-repair--october-24) · [source 2](../../docs/history/validation-history.md#diagnostic-preview-outcome-repair-evidence--october-24).
+
 ## 2026-10-24 · helper-first-branch-case-01
 
 **Evidence class:** research. **Runtime capability advanced:** no.
@@ -491,3 +503,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | s2 v1 | 0 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | boot v1 | 0 / 1 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | roadmap v1 | 5 / 20 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |

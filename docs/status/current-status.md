@@ -1,8 +1,16 @@
 # Current project status
 
-**Checkpoint: 2026-10-24, reviewed at 01:05 UTC.** Three isolated editor/rasterizer repairs retain bounded Linux evidence and Windows-target links only; native mode-00 retains its earlier Windows acceptance. The saved 00:33–00:34 UTC cloud-browser check verifies repaired heatmap arrows on its exact deployed snapshot, not native Windows pixels. A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
+
+## Diagnostic preview outcome repair — October 24
+
+An independently reviewed, isolated host-side repair makes the character preview distinguish a finished raster traversal from an incomplete or failed attempt. A retained pre-fix synthetic reproduction exhausted the unchanged work budget after drawing partial content, yet still requested ordinary presentation once. The correction retains the draw outcome, withholds that incomplete raster from the ordinary presentation path, suppresses misleading wireframe and selects an honest notice. Exactly reaching the cap without further work remains a completed traversal, not a false failure. Renderer arithmetic, caps and frozen candidates are unchanged; no automatic retry or queue was added.
+
+Reported evidence: **11 policy scenarios**, **five source-extracted caller checks** and **four independent controls** passed optimized Linux and ASan/UBSan. The caller checks repeat key policy outcomes rather than adding five unique rendering scenarios; repeated configurations and reviewer overlap are not new scenarios. The prior nine sample-bounds scenarios, eleven shared-edge scenarios and existing synthetic rasterizer regression also passed. Review covered three named allocation-failure sites, not a full sweep. [Failure, repair and validation limits](../history/validation-history.md#diagnostic-preview-outcome-repair-evidence--october-24).
+
+Actual execution used cloud Linux with synthetic RGBA data. Windows-target application/test links passed, but **neither artifact ran on Windows or Wine**. A completed CPU traversal permits only a presentation attempt: the Windows display-call result is still unchecked, so successful display and actual window pixels remain unverified. No original assets, game execution, native producer/frame-owner integration or A0:49 completion was involved. S2, initializer and provenance gates remain unchanged. This 02:07 UTC documentation review reads the sealed receipts; it reruns no native tests and adds **zero milestone acceptance**.
 
 ## Isolated editor and rasterizer repairs — October 24
 
