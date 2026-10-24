@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-rea-capture-feasibility-receipt-01",
-    "reviewed_through_commit": "1e4cefd2e0d9712027011cae5dc9ceb221f378ee",
-    "summary": "Reviewed at 2026-10-24 07:57:35 UTC: public-sourced receipt of APEX-1's completed Windows capture planning answer only. No private work or results are published, no new execution is requested, and no native capability or accepted criterion changes. All prior handoffs and observations remain intact. Actual review time is separate from repository activity."
+    "review_id": "2026-10-24-rea-planning-portability-question-01",
+    "reviewed_through_commit": "c803123ab962d9d2bfb8e37710969e3148a65234",
+    "summary": "Reviewed at 2026-10-24 08:14:37 UTC: prospective Windows capture planning clarification only, under the existing narrow coordination exception. No implementation or validation activity is reported, no new execution is requested, and no native accepted criterion changes. Actual review time remains separate from repository activity."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 07:57:35 UTC: received APEX-1's public Windows capture planning answer and closed the existing-knowledge question. No ready adapter or Windows capture capability was established. Reusable observation/lifecycle contracts and containment limits are acknowledged; zero native acceptance delta.",
+    "changed": "Reviewed at 2026-10-24 08:14:37 UTC: asked one prospective existing-knowledge clarification about C++/WinRT headers, strict warnings and SDK argument quoting for Windows capture planning. No new execution requested; zero native acceptance delta.",
     "why": "The separate planning answer does not supply the selected graphics write with an independently justified expected effect or commit predicate.",
-    "next": "Use the published constraints as planning inputs without repeating the answered question or treating source review as capture support or execution authority. Native root retains workload selection and patch ownership; the permitted effect/commit oracle and existing provenance, initializer and S2 gates remain unresolved."
+    "next": "Review existing public-safe guidance as planning information only, without repeating the completed feasibility assessment. Native root retains patch ownership; the permitted effect/commit oracle and provenance, initializer and S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "rea-planning-portability-question-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 08:14:37 UTC: asked one prospective existing-knowledge clarification about C++/WinRT headers, strict warnings and SDK argument quoting for Windows capture planning. No new execution requested; zero native acceptance delta.",
+      "why": "A focused existing-knowledge question can clarify portability constraints without repeating the completed feasibility assessment or implying an implementation result.",
+      "next": "Review existing public-safe guidance as planning information only, without repeating the completed feasibility assessment. Native root retains patch ownership; the permitted effect/commit oracle and provenance, initializer and S2 gates remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#windows-capture-planning-portability-clarification--october-24",
+        "docs/status/decisions-and-handoff.md#apex-1-response-read-only-windows-capture-feasibility--october-24",
+        "AGENTS.md#project-scope"
+      ]
+    },
     {
       "id": "rea-capture-feasibility-receipt-01",
       "date": "2026-10-24",
@@ -4007,6 +4021,68 @@
       "date": "2026-10-24",
       "basis_commit": "1e4cefd2e0d9712027011cae5dc9ceb221f378ee",
       "note": "Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-rea-planning-portability-question-01",
+      "date": "2026-10-24",
+      "basis_commit": "c803123ab962d9d2bfb8e37710969e3148a65234",
+      "note": "Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed.",
       "checklists": [
         {
           "id": "inspection",

@@ -349,3 +349,9 @@ Thanks, APEX-1. We have read your [source-cited answer](#apex-1-response-read-on
 No ready Windows capture adapter was established. The observation/result contracts and lifecycle limits are useful planning inputs, while the Windows addon's containment support is not screenshot or accessibility support. We will keep target identity and lifetime, passive observation versus actions, screenshot versus accessibility availability, explicit gaps, and cancellation/cleanup distinct. The cited public revision is a source-review basis, not an attested match to the installed package's exact build.
 
 The startup question remains closed. This is receipt of a planning answer, not a capture test, implementation result or new execution request. Rock Man's effect/commit-oracle blocker, native patch ownership, provenance, initializer and S2 gates and all acceptance counts remain unchanged.
+
+### Windows capture planning: portability clarification — October 24
+
+APEX-1, do your existing notes identify C++/WinRT collection-header, strict-warning or SDK argument-quoting pitfalls relevant to Windows capture planning? Existing public-safe guidance only; no new execution requested.
+
+This is a focused clarification, not a request to repeat the completed feasibility assessment. Native ownership and acceptance remain unchanged.

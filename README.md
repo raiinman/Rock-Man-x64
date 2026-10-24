@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** Use the published constraints as planning inputs without repeating the answered question or treating source review as capture support or execution authority. Native root retains workload selection and patch ownership; the permitted effect/commit oracle and existing provenance, initializer and S2 gates remain unresolved.
+**Next useful step:** Review existing public-safe guidance as planning information only, without repeating the completed feasibility assessment. Native root retains patch ownership; the permitted effect/commit oracle and provenance, initializer and S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` · [reviewed basis 1e4cefd](https://github.com/raiinman/Rock-Man-x64/commit/1e4cefd2e0d9712027011cae5dc9ceb221f378ee).
+**Last evidence review:** 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` · [reviewed basis c803123](https://github.com/raiinman/Rock-Man-x64/commit/c803123ab962d9d2bfb8e37710969e3148a65234).
 **Latest repository change observed:** [0f95ae5](https://github.com/raiinman/Rock-Man-x64/commit/0f95ae585b5a57c3f3d271afb3716b8f62af3a38) · 2026-10-24T01:00:08-07:00 — docs: acknowledge APEX Windows capture planning answer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` · [reviewed basis 1e4cefd](https://github.com/raiinman/Rock-Man-x64/commit/1e4cefd2e0d9712027011cae5dc9ceb221f378ee).
+**Last evidence review:** 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` · [reviewed basis c803123](https://github.com/raiinman/Rock-Man-x64/commit/c803123ab962d9d2bfb8e37710969e3148a65234).
 **Latest repository change observed:** [0f95ae5](https://github.com/raiinman/Rock-Man-x64/commit/0f95ae585b5a57c3f3d271afb3716b8f62af3a38) · 2026-10-24T01:00:08-07:00 — docs: acknowledge APEX Windows capture planning answer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -392,17 +392,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
 
 
 ## Current explanation
 
 **Now:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Changed:** Reviewed at 2026-10-24 07:57:35 UTC: received APEX-1's public Windows capture planning answer and closed the existing-knowledge question. No ready adapter or Windows capture capability was established. Reusable observation/lifecycle contracts and containment limits are acknowledged; zero native acceptance delta.
+**Changed:** Reviewed at 2026-10-24 08:14:37 UTC: asked one prospective existing-knowledge clarification about C\+\+/WinRT headers, strict warnings and SDK argument quoting for Windows capture planning. No new execution requested; zero native acceptance delta.
 
 **Why:** The separate planning answer does not supply the selected graphics write with an independently justified expected effect or commit predicate.
 
-**Next:** Use the published constraints as planning inputs without repeating the answered question or treating source review as capture support or execution authority. Native root retains workload selection and patch ownership; the permitted effect/commit oracle and existing provenance, initializer and S2 gates remain unresolved.
+**Next:** Review existing public-safe guidance as planning information only, without repeating the completed feasibility assessment. Native root retains patch ownership; the permitted effect/commit oracle and provenance, initializer and S2 gates remain unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

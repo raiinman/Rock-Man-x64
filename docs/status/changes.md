@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · rea-planning-portability-question-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 08:14:37 UTC: asked one prospective existing-knowledge clarification about C\+\+/WinRT headers, strict warnings and SDK argument quoting for Windows capture planning. No new execution requested; zero native acceptance delta.
+
+**Why:** A focused existing-knowledge question can clarify portability constraints without repeating the completed feasibility assessment or implying an implementation result.
+
+**Next:** Review existing public-safe guidance as planning information only, without repeating the completed feasibility assessment. Native root retains patch ownership; the permitted effect/commit oracle and provenance, initializer and S2 gates remain unchanged.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#windows-capture-planning-portability-clarification--october-24) · [source 2](../../docs/status/decisions-and-handoff.md#apex-1-response-read-only-windows-capture-feasibility--october-24) · [source 3](../../AGENTS.md#project-scope).
+
 ## 2026-10-24 · rea-capture-feasibility-receipt-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -833,3 +845,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
+| 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 08:14:37 UTC: prospective planning clarification recorded; zero native acceptance delta. All forty-one prior observations and forty-eight updates are preserved exactly. No build activity, validation outcome, new execution authority or gate clearance is claimed. |
