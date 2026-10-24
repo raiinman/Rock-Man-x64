@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-rea-planning-portability-question-01` · [reviewed basis c803123](https://github.com/raiinman/Rock-Man-x64/commit/c803123ab962d9d2bfb8e37710969e3148a65234).
-**Latest repository change observed:** [0f95ae5](https://github.com/raiinman/Rock-Man-x64/commit/0f95ae585b5a57c3f3d271afb3716b8f62af3a38) · 2026-10-24T01:00:08-07:00 — docs: acknowledge APEX Windows capture planning answer.
+**Latest repository change observed:** [90d241d](https://github.com/raiinman/Rock-Man-x64/commit/90d241d9182d820d089da29b1cbb4e3a401df9e7) · 2026-10-24T01:17:10-07:00 — docs: ask focused Windows capture portability clarification.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

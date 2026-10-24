@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "0f95ae585b5a57c3f3d271afb3716b8f62af3a38",
-    "committed_at": "2026-10-24T01:00:08-07:00",
-    "subject": "docs: acknowledge APEX Windows capture planning answer",
+    "sha": "90d241d9182d820d089da29b1cbb4e3a401df9e7",
+    "committed_at": "2026-10-24T01:17:10-07:00",
+    "subject": "docs: ask focused Windows capture portability clarification",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
