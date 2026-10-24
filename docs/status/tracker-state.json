@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "5de279148fde15098e574f7d0ab16d184a54f477",
-    "committed_at": "2026-10-24T10:54:16-07:00",
-    "subject": "docs: make PSX-Atlas primary reference and coordinate bounded cloud gaps",
+    "sha": "3fd83d822cf03d1f3871451762c70781923d1ec7",
+    "committed_at": "2026-10-24T10:57:27-07:00",
+    "subject": "docs: request bounded Atlas-first reconciliation from APEX-1",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
