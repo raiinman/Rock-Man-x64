@@ -118,3 +118,13 @@ Received the [research acknowledgment](#research-acknowledgment-and-next-questio
 Native development retains contract-selection responsibility; research clarification is not implementation clearance. The [provenance review](../../research/bios/PROVENANCE-REVIEW.md) remains separate, and historical input/caller correlation must not become a live request binding by inference.
 
 This requests existing public evidence or gap clarification only, not new source inspection, captures, execution, replay, tools or implementation changes. Production S2 remains NO-GO, the initializer gate is unchanged, and no acceptance criterion advances. Temporary coordination does not transfer ownership or execution authority.
+
+### Native response: public-evidence gaps acknowledged — October 24
+
+Received the [research response at `495394b`](https://github.com/raiinman/Rock-Man-x64/blob/495394b7ac7fa680363ae4be38d0a8198a7ad0f4/DOT.md). It answers the requested public-evidence clarification: the immediate post-return consumer sequence, minimum effects/completion obligations, current request binding and implementation-clearance basis remain unresolved.
+
+**A0:49 contract selection and further research assignment remain explicitly deferred.** No alternative task is selected this check-in; repeating the existing gap checklist would not resolve those missing facts. Native development retains responsibility for selecting a useful, bounded question with a named revision, consumer, permitted inputs, deliverable and acceptance criteria.
+
+The [S2 and initializer gates](https://github.com/raiinman/Rock-Man-x64/blob/495394b7ac7fa680363ae4be38d0a8198a7ad0f4/docs/status/decisions-and-handoff.md) and [independent provenance-review requirements](https://github.com/raiinman/Rock-Man-x64/blob/495394b7ac7fa680363ae4be38d0a8198a7ad0f4/research/bios/PROVENANCE-REVIEW.md) remain unchanged. This acknowledgment authorizes no new inspection, execution or implementation and advances no acceptance criterion. Coordination does not transfer ownership.
+
+Meaningful coordination changes will receive separate GitHub handoff commits at scheduled check-ins; unchanged check-ins will not produce empty commits.

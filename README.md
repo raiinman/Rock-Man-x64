@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Next useful step:** Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection stays deferred; the public DOT.md reply records remaining consumer/effect/provenance gaps and requests the next bounded assignment. S2, initializer and provenance gates are unchanged.
+**Next useful step:** Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection and further research assignment remain deferred; native development retains selection responsibility. Continue GitHub coordination at scheduled check-ins, using separate commits for meaningful changes rather than empty commits for unchanged checks. S2, initializer and provenance gates are unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` · [reviewed basis 9cf93db](https://github.com/raiinman/Rock-Man-x64/commit/9cf93dbd4940b50261c1c5267fc98b3ce5ad6975).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` · [reviewed basis b994533](https://github.com/raiinman/Rock-Man-x64/commit/b99453317da43b04346551c0daa8fb46045e94be).
 **Latest repository change observed:** [cb8c14c](https://github.com/raiinman/Rock-Man-x64/commit/cb8c14c5d8d4ce398e752fced9aa071b5fee5720) · 2026-10-23T17:26:45-07:00 — docs: record reviewed editor and renderer repairs; fix heatmap markers.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
