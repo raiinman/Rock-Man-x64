@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "cb8c14c5d8d4ce398e752fced9aa071b5fee5720",
-    "committed_at": "2026-10-23T17:26:45-07:00",
-    "subject": "docs: record reviewed editor and renderer repairs; fix heatmap markers",
+    "sha": "56cb3a2752d6f2b5da05ba29b39a26cd48b56dda",
+    "committed_at": "2026-10-23T17:36:47-07:00",
+    "subject": "docs: acknowledge APEX public evidence gaps separately",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

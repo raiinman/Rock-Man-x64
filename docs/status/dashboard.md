@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` · [reviewed basis b994533](https://github.com/raiinman/Rock-Man-x64/commit/b99453317da43b04346551c0daa8fb46045e94be).
-**Latest repository change observed:** [cb8c14c](https://github.com/raiinman/Rock-Man-x64/commit/cb8c14c5d8d4ce398e752fced9aa071b5fee5720) · 2026-10-23T17:26:45-07:00 — docs: record reviewed editor and renderer repairs; fix heatmap markers.
+**Latest repository change observed:** [56cb3a2](https://github.com/raiinman/Rock-Man-x64/commit/56cb3a2752d6f2b5da05ba29b39a26cd48b56dda) · 2026-10-23T17:36:47-07:00 — docs: acknowledge APEX public evidence gaps separately.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
