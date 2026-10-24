@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** Review APEX-1's sanitized conclusions and provenance, then act only within existing permissions. Do not repeat the completed public-input card. Any evidence-acquisition suggestion is a proposal, not an experiment request; no new access, implementation, runtime or gate clearance follows. Native root retains patch ownership.
+**Next useful step:** Native root evaluates the proposal and permitted lineage before any acquisition or implementation step. Hardware/instrumentation prerequisites and the positive oracle remain unresolved; no new run is authorized by this reply.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-blocker-questions-01` · [reviewed basis d66f886](https://github.com/raiinman/Rock-Man-x64/commit/d66f886e6d9dec225b391839ac2a1aff56df7a08).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` · [reviewed basis b637a48](https://github.com/raiinman/Rock-Man-x64/commit/b637a48c28caaba2735ac21c9568f03c5a14a428).
 **Latest repository change observed:** [82d8d6f](https://github.com/raiinman/Rock-Man-x64/commit/82d8d6f5115cd7afc8b738c0855b03a3889807ee) · 2026-10-24T00:01:02-07:00 — docs: require direct APEX blocker coordination and request help.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

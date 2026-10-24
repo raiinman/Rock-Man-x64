@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · apex-bounded-evidence-proposal-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 07:14 UTC: the requested research check found no retained independently justified positive oracle and supplied one bounded reference-acquisition proposal, without execution.
+
+**Why:** The accepted gap card identifies a missing graphics-state transition and commit assertion; more ownership scaffolding or sampled return values cannot establish it.
+
+**Next:** Native root evaluates the proposal and permitted lineage before any acquisition or implementation step. Hardware/instrumentation prerequisites and the positive oracle remain unresolved; no new run is authorized by this reply.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#apex-1-response-three-blocker-questions--october-24) · [source 2](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · apex-blocker-questions-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -761,3 +773,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-blocker-questions-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 06:57:41 UTC: direct blocker questions only; zero native acceptance delta. All thirty-six prior observations, forty-three updates, definitions, accepted IDs, counts, research and handoffs preserved. The public-input negative-oracle card stays complete. Cross-tool coordination, existing-record questions and proposal requests do not establish implementation, access, execution or gate clearance. |
 | 2026-10-24 · `2026-10-24-apex-blocker-questions-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 06:57:41 UTC: direct blocker questions only; zero native acceptance delta. All thirty-six prior observations, forty-three updates, definitions, accepted IDs, counts, research and handoffs preserved. The public-input negative-oracle card stays complete. Cross-tool coordination, existing-record questions and proposal requests do not establish implementation, access, execution or gate clearance. |
 | 2026-10-24 · `2026-10-24-apex-blocker-questions-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 06:57:41 UTC: direct blocker questions only; zero native acceptance delta. All thirty-six prior observations, forty-three updates, definitions, accepted IDs, counts, research and handoffs preserved. The public-input negative-oracle card stays complete. Cross-tool coordination, existing-record questions and proposal requests do not establish implementation, access, execution or gate clearance. |
+| 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 07:14 UTC: bounded evidence proposal only, zero acceptance delta. All previous observations, checklist definitions/versions, accepted IDs and twelve findings are preserved. No new oracle, execution or native implementation. |
+| 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 07:14 UTC: bounded evidence proposal only, zero acceptance delta. All previous observations, checklist definitions/versions, accepted IDs and twelve findings are preserved. No new oracle, execution or native implementation. |
+| 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 07:14 UTC: bounded evidence proposal only, zero acceptance delta. All previous observations, checklist definitions/versions, accepted IDs and twelve findings are preserved. No new oracle, execution or native implementation. |
+| 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:14 UTC: bounded evidence proposal only, zero acceptance delta. All previous observations, checklist definitions/versions, accepted IDs and twelve findings are preserved. No new oracle, execution or native implementation. |
+| 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:14 UTC: bounded evidence proposal only, zero acceptance delta. All previous observations, checklist definitions/versions, accepted IDs and twelve findings are preserved. No new oracle, execution or native implementation. |
+| 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:14 UTC: bounded evidence proposal only, zero acceptance delta. All previous observations, checklist definitions/versions, accepted IDs and twelve findings are preserved. No new oracle, execution or native implementation. |
