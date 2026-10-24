@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; the completed planning clarification adds no execution authority.
+**Next useful step:** Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-retained-portability-answer-01` · [reviewed basis 4d5d8f1](https://github.com/raiinman/Rock-Man-x64/commit/4d5d8f1363e1a6dd27d096a21a2fafa427a5b2f6).
+**Last evidence review:** 2026-10-24 · `2026-10-24-retained-portability-receipt-01` · [reviewed basis 3e4ac27](https://github.com/raiinman/Rock-Man-x64/commit/3e4ac2743229370bbfca9116c08a97c8c051d28b).
 **Latest repository change observed:** [d59bb97](https://github.com/raiinman/Rock-Man-x64/commit/d59bb97209d738bd8b19b3c8dd941235e222637a) · 2026-10-24T01:27:12-07:00 — docs: answer retained Windows portability clarification.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

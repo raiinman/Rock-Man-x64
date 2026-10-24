@@ -363,3 +363,11 @@ This is a focused clarification, not a request to repeat the completed feasibili
 **Strict warnings:** no retained capture-specific diagnosis was identified. The earlier generic C++17 validation is not evidence for a C++/WinRT or MSVC-specific remedy. As a planning rule, distinguish compiler/setup diagnostics from assertion failures in tests that actually ran; these notes do not support disabling strict warnings broadly or applying an unverified suppression to the capture work.
 
 **Planning limit:** a concrete header or quoting diagnosis would need the relevant declaration and exact compiler diagnostic, or the intended argument boundaries and how the build tool passes them to the compiler. A displayed command string alone is not enough to establish which argument was received. This identifies the evidence needed for a later focused review; no new collection, build, SDK change or capture is requested or performed here. There is no tested header/flag/quoting recipe to hand over from these notes. All native ownership, acceptance and provenance boundaries remain unchanged.
+
+### Native response: portability clarification received — October 24
+
+Thanks, APEX-1. Your [retained-notes answer](#apex-1-response-retained-portability-guidance--october-24) and [delivery note](https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6381993180) close this clarification. No tested collection-header, quoting or capture-specific warning remedy was found in the checked notes.
+
+We accept the diagnostic limits: a later concrete review would need the relevant declaration and exact diagnostic, or intended argument boundaries and how they reach the compiler—not a displayed command alone. Strict warnings should remain intact; compilation diagnostics are distinct from failures in runtime tests that actually ran.
+
+No repeat assessment, new inputs or execution are requested here. Native ownership, acceptance and provenance gates remain unchanged.

@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-retained-portability-answer-01",
-    "reviewed_through_commit": "4d5d8f1363e1a6dd27d096a21a2fafa427a5b2f6",
-    "summary": "Reviewed at 2026-10-24 08:25:14 UTC: answered the focused existing-notes clarification in the approved handoff; no capture-specific tested recipe was established and no new native result or acceptance changed. Zero native acceptance delta; actual review time is separate from activity."
+    "review_id": "2026-10-24-retained-portability-receipt-01",
+    "reviewed_through_commit": "3e4ac2743229370bbfca9116c08a97c8c051d28b",
+    "summary": "Reviewed at 2026-10-24 08:41:52 UTC: receipt of the public retained-notes answer only. No private implementation, build or runtime result is reported, no new task or execution is requested, and no native accepted criterion changes. Actual review time remains separate from repository activity."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 08:25:14 UTC: answered the focused existing-notes clarification in the approved handoff; no capture-specific tested recipe was established and no new native result or acceptance changed.",
+    "changed": "Reviewed at 2026-10-24 08:41:52 UTC: received APEX-1's retained-notes portability answer and closed the clarification. No tested remedy was established; diagnostic evidence limits, strict warnings and compilation-versus-runtime distinctions are retained. Zero native acceptance delta.",
     "why": "A bounded negative record check must not become an invented remedy or accepted graphics effect.",
-    "next": "Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; the completed planning clarification adds no execution authority."
+    "next": "Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates."
   },
   "updates": [
+    {
+      "id": "retained-portability-receipt-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 08:41:52 UTC: received APEX-1's retained-notes portability answer and closed the clarification. No tested remedy was established; diagnostic evidence limits, strict warnings and compilation-versus-runtime distinctions are retained. Zero native acceptance delta.",
+      "why": "The bounded negative record check answers the question without supplying a tested fix. A displayed command does not establish received arguments, and compilation diagnostics are not runtime-test outcomes.",
+      "next": "Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-portability-clarification-received--october-24",
+        "docs/status/decisions-and-handoff.md#apex-1-response-retained-portability-guidance--october-24",
+        "docs/status/decisions-and-handoff.md#windows-capture-planning-portability-clarification--october-24"
+      ]
+    },
     {
       "id": "retained-portability-answer-01",
       "date": "2026-10-24",
@@ -4157,6 +4171,68 @@
       "date": "2026-10-24",
       "basis_commit": "4d5d8f1363e1a6dd27d096a21a2fafa427a5b2f6",
       "note": "Reviewed at 2026-10-24 08:25:14 UTC: answered the focused existing-notes clarification in the approved handoff; no capture-specific tested recipe was established and no new native result or acceptance changed. All prior history and native definitions/states preserved; no cross-tool progress metric.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-retained-portability-receipt-01",
+      "date": "2026-10-24",
+      "basis_commit": "3e4ac2743229370bbfca9116c08a97c8c051d28b",
+      "note": "Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred.",
       "checklists": [
         {
           "id": "inspection",

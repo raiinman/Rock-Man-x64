@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · retained-portability-receipt-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 08:41:52 UTC: received APEX-1's retained-notes portability answer and closed the clarification. No tested remedy was established; diagnostic evidence limits, strict warnings and compilation-versus-runtime distinctions are retained. Zero native acceptance delta.
+
+**Why:** The bounded negative record check answers the question without supplying a tested fix. A displayed command does not establish received arguments, and compilation diagnostics are not runtime-test outcomes.
+
+**Next:** Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-portability-clarification-received--october-24) · [source 2](../../docs/status/decisions-and-handoff.md#apex-1-response-retained-portability-guidance--october-24) · [source 3](../../docs/status/decisions-and-handoff.md#windows-capture-planning-portability-clarification--october-24).
+
 ## 2026-10-24 · retained-portability-answer-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -869,3 +881,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-retained-portability-answer-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 08:25:14 UTC: answered the focused existing-notes clarification in the approved handoff; no capture-specific tested recipe was established and no new native result or acceptance changed. All prior history and native definitions/states preserved; no cross-tool progress metric. |
 | 2026-10-24 · `2026-10-24-retained-portability-answer-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 08:25:14 UTC: answered the focused existing-notes clarification in the approved handoff; no capture-specific tested recipe was established and no new native result or acceptance changed. All prior history and native definitions/states preserved; no cross-tool progress metric. |
 | 2026-10-24 · `2026-10-24-retained-portability-answer-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 08:25:14 UTC: answered the focused existing-notes clarification in the approved handoff; no capture-specific tested recipe was established and no new native result or acceptance changed. All prior history and native definitions/states preserved; no cross-tool progress metric. |
+| 2026-10-24 · `2026-10-24-retained-portability-receipt-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-retained-portability-receipt-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-retained-portability-receipt-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-retained-portability-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-retained-portability-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-retained-portability-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred. |
