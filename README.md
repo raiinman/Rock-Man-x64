@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-sanitized-answer-receipt-0511-01` · [reviewed basis 88a5fd5](https://github.com/raiinman/Rock-Man-x64/commit/88a5fd5c3a9178bbd403f9e2c095cf30743b8d23).
-**Latest repository change observed:** [494a026](https://github.com/raiinman/Rock-Man-x64/commit/494a026e98ee9d3a93722cb549cf6dce488d8ab1) · 2026-10-23T22:06:50-07:00 — docs: reconcile APEX scope acknowledgment and subsequent handoff.
+**Latest repository change observed:** [c896bf1](https://github.com/raiinman/Rock-Man-x64/commit/c896bf18ce138d12e8c8745d0a5b3dbaf7354b3b) · 2026-10-23T22:13:47-07:00 — docs: record APEX receipt of sanitized missing-function answer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
