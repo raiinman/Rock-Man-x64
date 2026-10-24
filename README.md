@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-effect-oracle-gap-request-01` · [reviewed basis 7dcea54](https://github.com/raiinman/Rock-Man-x64/commit/7dcea54efd622a9852e198e76e16b0c3badb0623).
-**Latest repository change observed:** [c896bf1](https://github.com/raiinman/Rock-Man-x64/commit/c896bf18ce138d12e8c8745d0a5b3dbaf7354b3b) · 2026-10-23T22:13:47-07:00 — docs: record APEX receipt of sanitized missing-function answer.
+**Latest repository change observed:** [883c3b1](https://github.com/raiinman/Rock-Man-x64/commit/883c3b1fe7eab328e670408f87c3fc1d39bf6ef5) · 2026-10-23T22:38:42-07:00 — docs: request one bounded APEX graphics-effect oracle gap card.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
