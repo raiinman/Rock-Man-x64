@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "572816df4a36bb29852ae6512408dcb96db83d07",
-    "committed_at": "2026-10-23T19:14:38-07:00",
-    "subject": "docs: acknowledge conditional continuation case separately",
+    "sha": "4b413654006e93e9a9e00c143160302655866efa",
+    "committed_at": "2026-10-23T19:34:15-07:00",
+    "subject": "docs: hand off tested generic completion ownership candidate",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
