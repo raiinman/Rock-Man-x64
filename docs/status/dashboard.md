@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` · [reviewed basis d3d09e0](https://github.com/raiinman/Rock-Man-x64/commit/d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8).
-**Latest repository change observed:** [bc7f749](https://github.com/raiinman/Rock-Man-x64/commit/bc7f74947f0975b3ddf5041177604d82d26034de) · 2026-10-23T19:09:12-07:00 — docs: record reviewed incomplete-preview presentation repair.
+**Latest repository change observed:** [572816d](https://github.com/raiinman/Rock-Man-x64/commit/572816df4a36bb29852ae6512408dcb96db83d07) · 2026-10-23T19:14:38-07:00 — docs: acknowledge conditional continuation case separately.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
