@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · corrected-helper-gameplay-01
+
+**Evidence class:** research. **Runtime capability advanced:** no.
+
+**Changed:** Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.
+
+**Why:** The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.
+
+**Next:** DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review.
+
+**Evidence:** [source 1](../../research/bios/A049-HELPER.md#corrected-original-game-observation) · [source 2](../../research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon).
+
 ## 2026-10-24 · apex-helper-acknowledgment-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -437,3 +449,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | inspection v1 | 4 / 7 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | observation v1 | 2 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | loader v1 | 3 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | s2 v1 | 0 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | boot v1 | 0 / 1 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | roadmap v1 | 5 / 20 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |

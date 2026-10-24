@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` · [reviewed basis 814f25c](https://github.com/raiinman/Rock-Man-x64/commit/814f25cbce534283821897fa4c992398f1860234).
+**Last evidence review:** 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` · [reviewed basis 709bf01](https://github.com/raiinman/Rock-Man-x64/commit/709bf018d2caa4e13ba5571ca7a0dd2741a28ad8).
 **Latest repository change observed:** [3a6e4f1](https://github.com/raiinman/Rock-Man-x64/commit/3a6e4f19774c2692ef47948e28fcb83732bfe88a) · 2026-10-23T18:33:17-07:00 — docs: acknowledge helper findings and bounded observer correction.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -260,17 +260,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | inspection v1 | 4 / 7 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | observation v1 | 2 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | loader v1 | 3 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | s2 v1 | 0 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | boot v1 | 0 / 1 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | roadmap v1 | 5 / 20 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
 
 
 ## Current explanation
 
-**Now:** The helper observer has a host-tested callback correction; both selected-call measurements remain incomplete. The 2,400-frame run ended at loading and the 7,200-frame extension at opening story; native A0:49 remains pending.
+**Now:** The supplied original game reached the opening dungeon with its gameplay HUD in the pinned emulator. The corrected helper chain is measured; native A0:49 remains unresolved.
 
-**Changed:** Reviewed at 2026-10-24 01:28 UTC: native coordination acknowledges the published helper/old-value findings and host-only observer correction, partially superseding the earlier helper-uninspected scope while preserving both incomplete emulator attempts.
+**Changed:** Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.
 
-**Why:** Bounded direct return-register discard does not remove GPU effects. A file-initialized pointer is not runtime binding, and a host-reproduced watch-loss defect is not a measured diagnosis of the retained runs.
+**Why:** The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.
 
-**Next:** Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged.
+**Next:** DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
@@ -403,17 +409,17 @@ The exporter/frozen-viewer row combines **different scopes**: one actual Linux a
 
 **Sources:** [source 1](../../docs/status/current-status.md#data-only-observer-linux-synthetic-acceptance) · [source 2](../../docs/status/validation.md#observer-candidate-validation--october-23).
 
-## 10 The original game reached story
+## 10 The original reached a gameplay scene
 
-**Found:** An author-reported emulator capture progressed past loading into the opening story, with observed entry and caller boundaries.
+**Found:** A bounded original-game controller capture progressed through New Game to a corridor with the gameplay HUD; its selected helper register chain is complete.
 
-**Why it matters:** This is executed reference research, not merely a catalog of manuals or a static hypothesis.
+**Why it matters:** The original copy progresses beyond the opening story under documented controller inputs. This is identified emulator research.
 
-**Evidence:** EXECUTED EMULATOR RESEARCH. EXECUTED — emulator research — not native.
+**Evidence:** EXECUTED EMULATOR RESEARCH. HUD VISIBLE — emulator research — not native.
 
-**Still unknown:** Not native-port boot, physical-console proof, complete gameplay or implementation clearance.
+**Still unknown:** Not native-port boot, isolated movement causality, physical-console proof, complete gameplay or implementation clearance.
 
-**Sources:** [source 1](../../research/bios/ORIGINAL-GAME-STARTUP.md#past-loading-capture-and-first-call-detail) · [source 2](../../research/bios/PROVENANCE-REVIEW.md).
+**Sources:** [source 1](../../research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon) · [source 2](../../research/bios/A049-HELPER.md#corrected-original-game-observation) · [source 3](../../research/bios/PROVENANCE-REVIEW.md).
 
 ## 11 A0:49 is not a safe no-op
 

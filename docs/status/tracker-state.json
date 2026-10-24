@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "bba9f05f692470d37cad76eecd0f531daeb72001ca9bb930e499bdb7fdfd6a84",
+  "evidence_data_sha256": "0a4db45b5a63e638b094c51558e89c1fc6a1960bb4f0273291169e736e5f58a1",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "30c1c85b05a0bd85aabca15b2e7b395a9f9058499f538f4cb903313f31a7ff95",
-  "evidence_review_id": "2026-10-24-apex-helper-acknowledgment-01",
+  "reviewed_stage_sha256": "332dca1219aa31577e96ee8c9effadcbbbb36e61979850b629223acdd5677064",
+  "evidence_review_id": "2026-10-24-corrected-helper-gameplay-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -65,6 +65,7 @@
     "0b2675cc5e1cefbd445a2719781143df74b9babca8973dbde135ba3fb8af9111",
     "00f2cc36c2a4a3fcab10c69a899e52bbcba25dd9e3bb82f2281462a68407b0c1",
     "1fa0babb397b5f4118c91c95ea32186253385dec000ec9c15594cb456ba192cf",
-    "5035648da239310de0f09bbcad2a623feb35d40bc7151e40e42789a9f6281754"
+    "5035648da239310de0f09bbcad2a623feb35d40bc7151e40e42789a9f6281754",
+    "67538bf2c4c907f45904a3e07fd70109e09051b23cd9403c200ebf047a77257d"
   ]
 }

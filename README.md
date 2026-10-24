@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The helper observer has a host-tested callback correction; both selected-call measurements remain incomplete. The 2,400-frame run ended at loading and the 7,200-frame extension at opening story; native A0:49 remains pending.
+**Where we are:** The supplied original game reached the opening dungeon with its gameplay HUD in the pinned emulator. The corrected helper chain is measured; native A0:49 remains unresolved.
 
-**Next useful step:** Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged.
+**Next useful step:** DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` · [reviewed basis 814f25c](https://github.com/raiinman/Rock-Man-x64/commit/814f25cbce534283821897fa4c992398f1860234).
+**Last evidence review:** 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` · [reviewed basis 709bf01](https://github.com/raiinman/Rock-Man-x64/commit/709bf018d2caa4e13ba5571ca7a0dd2741a28ad8).
 **Latest repository change observed:** [3a6e4f1](https://github.com/raiinman/Rock-Man-x64/commit/3a6e4f19774c2692ef47948e28fcb83732bfe88a) · 2026-10-23T18:33:17-07:00 — docs: acknowledge helper findings and bounded observer correction.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -360,15 +360,16 @@
     },
     {
       "id": "10",
-      "title": "The original game reached story",
-      "metric": "EXECUTED",
+      "title": "The original reached a gameplay scene",
+      "metric": "HUD VISIBLE",
       "unit": "EMULATOR RESEARCH — NOT NATIVE",
       "class": "EXECUTED EMULATOR RESEARCH",
-      "found": "An author-reported emulator capture progressed past loading into the opening story, with observed entry and caller boundaries.",
-      "why": "This is executed reference research, not merely a catalog of manuals or a static hypothesis.",
-      "unknown": "Not native-port boot, physical-console proof, complete gameplay or implementation clearance.",
+      "found": "A bounded original-game controller capture progressed through New Game to a corridor with the gameplay HUD; its selected helper register chain is complete.",
+      "why": "The original copy progresses beyond the opening story under documented controller inputs. This is identified emulator research.",
+      "unknown": "Not native-port boot, isolated movement causality, physical-console proof, complete gameplay or implementation clearance.",
       "sources": [
-        "research/bios/ORIGINAL-GAME-STARTUP.md#past-loading-capture-and-first-call-detail",
+        "research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon",
+        "research/bios/A049-HELPER.md#corrected-original-game-observation",
         "research/bios/PROVENANCE-REVIEW.md"
       ]
     },
@@ -407,17 +408,30 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-apex-helper-acknowledgment-01",
-    "reviewed_through_commit": "814f25cbce534283821897fa4c992398f1860234",
-    "summary": "Reviewed at 2026-10-24 01:28 UTC: public-source acknowledgment of bounded helper/old-value dataflow, two incomplete selected-chain emulator measurements and a separately host-tested callback correction. Partially supersedes the earlier helper-uninspected scope and distinguishes the loading/opening-story endpoints. No new original-input analysis, execution, research assignment, provenance clearance or native acceptance."
+    "review_id": "2026-10-24-corrected-helper-gameplay-01",
+    "reviewed_through_commit": "709bf018d2caa4e13ba5571ca7a0dd2741a28ad8",
+    "summary": "Corrected original-game register chain completed; helper reaching pointer and delayed result measured for that occurrence. Separately bounded controller scope reaches a corridor with gameplay HUD. Independent receipt/source reviews retained; native boot, movement causality and implementation clearance not established."
   },
   "overview": {
-    "now": "The helper observer has a host-tested callback correction; both selected-call measurements remain incomplete. The 2,400-frame run ended at loading and the 7,200-frame extension at opening story; native A0:49 remains pending.",
-    "changed": "Reviewed at 2026-10-24 01:28 UTC: native coordination acknowledges the published helper/old-value findings and host-only observer correction, partially superseding the earlier helper-uninspected scope while preserving both incomplete emulator attempts.",
-    "why": "Bounded direct return-register discard does not remove GPU effects. A file-initialized pointer is not runtime binding, and a host-reproduced watch-loss defect is not a measured diagnosis of the retained runs.",
-    "next": "Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged."
+    "now": "The supplied original game reached the opening dungeon with its gameplay HUD in the pinned emulator. The corrected helper chain is measured; native A0:49 remains unresolved.",
+    "changed": "Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.",
+    "why": "The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.",
+    "next": "DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review."
   },
   "updates": [
+    {
+      "id": "corrected-helper-gameplay-01",
+      "date": "2026-10-24",
+      "kind": "research",
+      "changed": "Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.",
+      "why": "The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.",
+      "next": "DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review.",
+      "evidence": [
+        "research/bios/A049-HELPER.md#corrected-original-game-observation",
+        "research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon"
+      ],
+      "capability_changed": false
+    },
     {
       "id": "apex-helper-acknowledgment-01",
       "date": "2026-10-24",
@@ -2326,6 +2340,68 @@
       "date": "2026-10-24",
       "basis_commit": "814f25cbce534283821897fa4c992398f1860234",
       "note": "Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-corrected-helper-gameplay-01",
+      "date": "2026-10-24",
+      "basis_commit": "709bf018d2caa4e13ba5571ca7a0dd2741a28ad8",
+      "note": "Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions.",
       "checklists": [
         {
           "id": "inspection",

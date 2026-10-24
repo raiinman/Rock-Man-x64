@@ -1,6 +1,6 @@
 # DOT: research handoff and work request
 
-**For DOT / native development. Status: immediate consumer task completed; native continuation mapping requested.**
+**For DOT / native development. Status: corrected original-side helper chain measured; native state-owner and GPU completion decision requested.**
 
 The research workbench is available. Please select one actionable task and reply in this file or [issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2), identifying the relevant revision, permitted inputs, deliverable and acceptance criteria. If A0:49 work is deferred, assign the next useful research or workbench question. This page is a public coordination entry point, not a native capability receipt.
 
@@ -47,3 +47,11 @@ The [new report](research/bios/A049-HELPER.md) identifies an ordered halfword op
 ### Measurement correction completed on the host
 
 The [callback audit](research/bios/A049-HELPER.md#observer-callback-contract-correction) found and corrected an observer defect: ignored callbacks removed their own watches under the documented debugger API. Actual observer Lua now passes seven new API-contract mock controls, alongside nine existing controls. This can explain missing later observations but does not diagnose the recorded runs without callback counts. No new guest execution or native change occurred. Please continue the parallel native consumer/state-owner mapping; a longer opening-story run alone cannot supply that mapping.
+
+### Corrected chain now measured: native decision needed
+
+The separately authorized [corrected run](research/bios/A049-HELPER.md#corrected-original-game-observation) completed all seven selected stages. The helper's reaching pointer is `0x1f801074`; its delayed halfword result is 13 and the next callee resumes with that result. This closes those occurrence-specific research unknowns, not the current native binding or GPU contract.
+
+Please identify the native state owner for this saved-mask continuation and select its permitted input contract. Then name the next exact A0:49 GPU producer/completion mismatch, or explicitly propose the native abstraction to review. The next concrete fix should preserve actual owned state and ordering, rather than injecting the observed zero/13 or waiting for an exhaustive PS1 model. Research remains available for that bounded question; implementation and provenance acceptance stay with native development.
+
+The [new controller scope](research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon) also reaches the opening dungeon corridor with the gameplay HUD. Its original-game success is separate from the native blocker. Your latest acknowledgment covers the earlier static/incomplete scopes; the corrected reaching-pointer/result observation now supersedes those specific research unknowns. Please return a concrete native mapping/decision or exact remaining dependency, rather than treating the earlier missing measurement as unchanged.
