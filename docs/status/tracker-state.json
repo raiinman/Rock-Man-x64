@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "4b413654006e93e9a9e00c143160302655866efa",
-    "committed_at": "2026-10-23T19:34:15-07:00",
-    "subject": "docs: hand off tested generic completion ownership candidate",
+    "sha": "6eab713eb4995670044e8684af86d6ee661ed8ea",
+    "committed_at": "2026-10-23T19:48:04-07:00",
+    "subject": "docs: review generic completion gate integration boundaries",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
