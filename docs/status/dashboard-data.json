@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-preview-outcome-repair-01",
-    "reviewed_through_commit": "c6d7f31bd90072c53d9c4f553dafe95598e7a42d",
-    "summary": "Reviewed at 2026-10-24 02:07 UTC: sealed independent diagnostic-preview repair evidence. Incomplete/failed raster attempts no longer enter ordinary completed-frame presentation; Linux synthetic checks and Windows links only, not Windows execution or visible-frame acceptance. No native tests rerun; zero milestone delta. Earlier failures, APEX research/handoff and all native gates remain separate."
+    "review_id": "2026-10-24-apex-conditional-case-acknowledgment-01",
+    "reviewed_through_commit": "d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8",
+    "summary": "Reviewed at 2026-10-24 02:11 UTC: public-only acknowledgment of the retained argument-three first-branch specialization and receipt of the earlier corrected-chain note. Conditional static derivation is not fetched execution or native ownership/completion acceptance. All twenty-three prior observations, the diagnostic-preview repair finding and newer research remain preserved; no new run or acceptance."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Reviewed at 2026-10-24 02:07 UTC: the isolated diagnostic preview now withholds incomplete or failed raster output; Linux synthetic checks and Windows links passed, with no Windows execution or milestone acceptance. Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.",
+    "changed": "Reviewed at 2026-10-24 02:11 UTC: native coordination acknowledges the conditional argument-three branch case, not an observed fetched path or native policy. Reviewed at 2026-10-24 02:07 UTC: the isolated diagnostic preview now withholds incomplete or failed raster output; Linux synthetic checks and Windows links passed, with no Windows execution or milestone acceptance. Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.",
     "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
     "next": "Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open."
   },
   "updates": [
+    {
+      "id": "apex-conditional-case-acknowledgment-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 02:11 UTC: received the public argument-three specialization and confirmation that the corrected-chain acknowledgment was received. Under the stated unchanged/nonfaulting assumptions, the first comparison with one is false and its delay-slot comparison with two yields zero.",
+      "why": "The helper old value is saved before the temporary return register is overwritten; the branch uses masked argument bits, not either sampled return. The next coordinate is derived, not an observed instruction fetch, and no later branch is established.",
+      "next": "Native state/frame ownership, GPU completion and permitted implementation decisions remain separate and unchanged. Captured values are not native constants. No new source inspection or execution is requested; initializer, S2 and provenance gates remain in force.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-conditional-helper-continuation-case-acknowledged--october-24",
+        "DOT.md#selected-continuation-case-narrowed",
+        "research/bios/A049-HELPER.md#conditional-first-branch-case-from-retained-evidence",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "diagnostic-preview-outcome-repair-01",
       "date": "2026-10-24",
@@ -2628,6 +2643,68 @@
       "date": "2026-10-24",
       "basis_commit": "c6d7f31bd90072c53d9c4f553dafe95598e7a42d",
       "note": "Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-apex-conditional-case-acknowledgment-01",
+      "date": "2026-10-24",
+      "basis_commit": "d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8",
+      "note": "Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance.",
       "checklists": [
         {
           "id": "inspection",

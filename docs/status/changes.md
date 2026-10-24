@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · apex-conditional-case-acknowledgment-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 02:11 UTC: received the public argument-three specialization and confirmation that the corrected-chain acknowledgment was received. Under the stated unchanged/nonfaulting assumptions, the first comparison with one is false and its delay-slot comparison with two yields zero.
+
+**Why:** The helper old value is saved before the temporary return register is overwritten; the branch uses masked argument bits, not either sampled return. The next coordinate is derived, not an observed instruction fetch, and no later branch is established.
+
+**Next:** Native state/frame ownership, GPU completion and permitted implementation decisions remain separate and unchanged. Captured values are not native constants. No new source inspection or execution is requested; initializer, S2 and provenance gates remain in force.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-conditional-helper-continuation-case-acknowledged--october-24) · [source 2](../../DOT.md#selected-continuation-case-narrowed) · [source 3](../../research/bios/A049-HELPER.md#conditional-first-branch-case-from-retained-evidence) · [source 4](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · diagnostic-preview-outcome-repair-01
 
 **Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
@@ -509,3 +521,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
 | 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
 | 2026-10-24 · `2026-10-24-preview-outcome-repair-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:07 UTC: reconciled sealed independent preview-outcome repair evidence only; no new native/game/research execution. Zero acceptance delta. All twenty-two prior observations, twenty-nine updates, frozen criteria, versions and accepted IDs are preserved. Windows presentation, native boot, A0:49, S2, initializer and provenance remain separate. |
+| 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |

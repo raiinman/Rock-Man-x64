@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-preview-outcome-repair-01` · [reviewed basis c6d7f31](https://github.com/raiinman/Rock-Man-x64/commit/c6d7f31bd90072c53d9c4f553dafe95598e7a42d).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` · [reviewed basis d3d09e0](https://github.com/raiinman/Rock-Man-x64/commit/d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8).
 **Latest repository change observed:** [bc7f749](https://github.com/raiinman/Rock-Man-x64/commit/bc7f74947f0975b3ddf5041177604d82d26034de) · 2026-10-23T19:09:12-07:00 — docs: record reviewed incomplete-preview presentation repair.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
