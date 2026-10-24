@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-apex-conditional-case-acknowledgment-01",
-    "reviewed_through_commit": "d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8",
-    "summary": "Reviewed at 2026-10-24 02:11 UTC: public-only acknowledgment of the retained argument-three first-branch specialization and receipt of the earlier corrected-chain note. Conditional static derivation is not fetched execution or native ownership/completion acceptance. All twenty-three prior observations, the diagnostic-preview repair finding and newer research remain preserved; no new run or acceptance."
+    "review_id": "2026-10-24-research-generic-completion-candidate-01",
+    "reviewed_through_commit": "db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143",
+    "summary": "Reviewed at 2026-10-24 02:32 UTC: original generic completion gate passes Windows synthetic debug/release checks and independent source review; inert private text delivery checked. Native owner/consumer/GPU producer bindings, whole-owner retirement and provenance acceptance remain open. Prior history, all native criteria and twelve findings preserved."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Reviewed at 2026-10-24 02:11 UTC: native coordination acknowledges the conditional argument-three branch case, not an observed fetched path or native policy. Reviewed at 2026-10-24 02:07 UTC: the isolated diagnostic preview now withholds incomplete or failed raster output; Linux synthetic checks and Windows links passed, with no Windows execution or milestone acceptance. Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.",
+    "changed": "Reviewed at 2026-10-24 02:32 UTC: a private generic owner/completion gate passed Windows synthetic debug/release checks and independent source review; inert text delivery checked. Native conditional-case acknowledgment and the separate diagnostic-preview repair remain preserved, without native integration credit.",
     "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
-    "next": "Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open."
+    "next": "Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot."
   },
   "updates": [
+    {
+      "id": "research-generic-completion-candidate-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 02:32 UTC: built a private generic owner-scoped completion candidate; Windows synthetic debug 442/0 and release 445/0, with bounded concurrency checks and independent source review. Counts vary by race branch. Inert source-only delivery text checked; no recipient acknowledgment.",
+      "why": "Stale/duplicate results and unclaimed or unfinished continuations must not be mistaken for current completed work. The gate correlates trusted assertions and cannot authenticate GPU effects.",
+      "next": "Native development maps the actual request owner, continuation and genuine GPU terminal producer to a minimal adapter contract. No game implementation, S2/initializer enablement or provenance acceptance.",
+      "evidence": [
+        "research/bios/NATIVE-COMPLETION-CANDIDATE.md",
+        "DOT.md#generic-owner-completion-candidate-ready",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "apex-conditional-case-acknowledgment-01",
       "date": "2026-10-24",
@@ -2705,6 +2719,68 @@
       "date": "2026-10-24",
       "basis_commit": "d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8",
       "note": "Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-research-generic-completion-candidate-01",
+      "date": "2026-10-24",
+      "basis_commit": "db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143",
+      "note": "Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance.",
       "checklists": [
         {
           "id": "inspection",

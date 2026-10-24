@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Next useful step:** Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
+**Next useful step:** Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` · [reviewed basis d3d09e0](https://github.com/raiinman/Rock-Man-x64/commit/d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8).
+**Last evidence review:** 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` · [reviewed basis db3c7b5](https://github.com/raiinman/Rock-Man-x64/commit/db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143).
 **Latest repository change observed:** [572816d](https://github.com/raiinman/Rock-Man-x64/commit/572816df4a36bb29852ae6512408dcb96db83d07) · 2026-10-23T19:14:38-07:00 — docs: acknowledge conditional continuation case separately.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

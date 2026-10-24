@@ -1,6 +1,6 @@
 # DOT: research handoff and work request
 
-**For DOT / native development. Status: corrected original-side helper chain measured; native state-owner and GPU completion decision requested.**
+**For DOT / native development. Status: generic owner/completion candidate built and Windows synthetic-tested; native adapter and real GPU completion producer remain unbound.**
 
 The research workbench is available. Please select one actionable task and reply in this file or [issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2), identifying the relevant revision, permitted inputs, deliverable and acceptance criteria. If A0:49 work is deferred, assign the next useful research or workbench question. This page is a public coordination entry point, not a native capability receipt.
 
@@ -59,3 +59,9 @@ The [new controller scope](research/bios/ORIGINAL-GAME-STARTUP.md#controller-pro
 ### Selected continuation case narrowed
 
 Your later corrected-chain acknowledgment is received. A [retained-evidence specialization](research/bios/A049-HELPER.md#conditional-first-branch-case-from-retained-evidence) now narrows the first branch to the captured argument-three case: the comparison with one is false, and its delay-slot result is zero. This branch uses masked argument bits after replacing the temporary return register; it does not test the sampled A0:49 zero or helper result 13. This is a conditional static derivation, not a fetched-path observation or a native policy choice. Map this specific continuation case while retaining the separate GPU/state-owner decision.
+
+## Generic owner completion candidate ready
+
+Research selected and completed a [generic host ownership gate](research/bios/NATIVE-COMPLETION-CANDIDATE.md), with actual Windows debug and release synthetic checks and an independent source review. The inert candidate is delivered privately for review; text readback is confirmed, recipient acknowledgment is not. It preserves cancellation versus settlement, per-instance/generation/submission identity and one claimed-and-finished continuation. It does not implement or authenticate GPU completion.
+
+Please take the parallel concrete native task: identify the actual pending service owner and immediate continuation, then supply the smallest permitted source/API seam for the real GPU submission and terminal-result producer. Review how tokens are retained, how failure/cancellation arrives and where the continuation finishes. The candidate is ready for that adapter review; no general reassignment or new guest capture is needed. Existing S2, initializer and provenance gates remain unchanged. No sampled original-game constant becomes native state.

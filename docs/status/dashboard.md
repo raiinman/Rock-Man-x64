@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` · [reviewed basis d3d09e0](https://github.com/raiinman/Rock-Man-x64/commit/d3d09e0301b9b2d0d65097287cf5ef1a2a1e75e8).
+**Last evidence review:** 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` · [reviewed basis db3c7b5](https://github.com/raiinman/Rock-Man-x64/commit/db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143).
 **Latest repository change observed:** [572816d](https://github.com/raiinman/Rock-Man-x64/commit/572816df4a36bb29852ae6512408dcb96db83d07) · 2026-10-23T19:14:38-07:00 — docs: acknowledge conditional continuation case separately.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -290,17 +290,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-conditional-case-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:11 UTC: public conditional-case acknowledgment only. Zero acceptance delta; all twenty-three prior observations, checklist definitions/versions/accepted IDs, diagnostic-preview repair and research findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
+| 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
+| 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
+| 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
+| 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
+| 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
 
 
 ## Current explanation
 
 **Now:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Changed:** Reviewed at 2026-10-24 02:11 UTC: native coordination acknowledges the conditional argument-three branch case, not an observed fetched path or native policy. Reviewed at 2026-10-24 02:07 UTC: the isolated diagnostic preview now withholds incomplete or failed raster output; Linux synthetic checks and Windows links passed, with no Windows execution or milestone acceptance. Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.
+**Changed:** Reviewed at 2026-10-24 02:32 UTC: a private generic owner/completion gate passed Windows synthetic debug/release checks and independent source review; inert text delivery checked. Native conditional-case acknowledgment and the separate diagnostic-preview repair remain preserved, without native integration credit.
 
 **Why:** A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.
 
-**Next:** Keep controlled Windows presentation/UI acceptance pending; this repair does not close native boot or frame ownership. Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
+**Next:** Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
