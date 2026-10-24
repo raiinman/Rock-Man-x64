@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-23 · live-heatmap-docs-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** The public tracker deployed successfully after Pages setup. Its prior layout passed bounded actual desktop route/filter/keyboard checks. The replacement read-only heatmap keeps the same 5/20 roadmap; a separate owner screenshot shows an Inspector executable-byte view only. The later coordination-only workflow stopped at a stale receipt checksum; a subsequent receipt-only repair passed updater/build/deployment without changing that acknowledgment.
+
+**Why:** Hosting is now observed, not merely built. The heatmap makes every named milestone visible without weighting effort or promoting component evidence. Prior browser checks do not certify the new heatmap; the owner screenshot does not establish controlled import/cancel, lifecycle or native boot.
+
+**Next:** Verify the new deployed heatmap and its exact snapshot. Keep phone/touch and full accessibility acceptance pending, and qualify native viewer/runtime behavior through its separate authorized evidence path. Preserve the earlier failed deployments and inconclusive supervised launch.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#live-tracker-and-owner-observed-inspector--october-23) · [source 2](../../docs/history/validation-history.md#live-tracker-and-owner-observed-inspector-evidence--october-23) · [source 3](../../docs/web/README.md#heatmap-reading-guide) · [source 4](https://github.com/raiinman/Rock-Man-x64/actions/runs/40038248046/attempts/2) · [source 5](https://github.com/raiinman/Rock-Man-x64/actions/runs/40041118527) · [source 6](https://github.com/raiinman/Rock-Man-x64/actions/runs/40042360611).
+
 ## 2026-10-23 · research-handoff-received-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -185,3 +197,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-research-handoff-received-01` | s2 v1 | 0 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
 | 2026-10-23 · `2026-10-23-research-handoff-received-01` | boot v1 | 0 / 1 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
 | 2026-10-23 · `2026-10-23-research-handoff-received-01` | roadmap v1 | 5 / 20 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | inspection v1 | 4 / 7 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | observation v1 | 2 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | loader v1 | 3 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | s2 v1 | 0 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | boot v1 | 0 / 1 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | roadmap v1 | 5 / 20 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |

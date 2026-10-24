@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-research-handoff-received-01` · [reviewed basis b90462d](https://github.com/raiinman/Rock-Man-x64/commit/b90462d39c920e4ed93073ed44a34d62e0dd13dc).
+**Last evidence review:** 2026-10-23 · `2026-10-23-live-heatmap-docs-01` · [reviewed basis 925b6ba](https://github.com/raiinman/Rock-Man-x64/commit/925b6ba107f2f811410cb049d93c7b7ffb9c9b60).
 **Latest repository change observed:** [ec96aac](https://github.com/raiinman/Rock-Man-x64/commit/ec96aac348c337256715b1f29aebad4557e2c51e) · 2026-10-23T16:55:50-07:00 — docs: regenerate evidence receipt from canonical LF bytes.
 **Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
 
@@ -188,17 +188,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-research-handoff-received-01` | s2 v1 | 0 / 4 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
 | 2026-10-23 · `2026-10-23-research-handoff-received-01` | boot v1 | 0 / 1 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
 | 2026-10-23 · `2026-10-23-research-handoff-received-01` | roadmap v1 | 5 / 20 | Research acknowledgment and proposed source-only coordination question; zero milestone delta. Definitions, accepted IDs and versions unchanged. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | inspection v1 | 4 / 7 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | observation v1 | 2 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | loader v1 | 3 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | s2 v1 | 0 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | boot v1 | 0 / 1 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | roadmap v1 | 5 / 20 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
 
 
 ## Current explanation
 
-**Now:** The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.
+**Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Changed:** Research received the public coordination acknowledgment and proposed one bounded source-only A0:49 completion-contract question. Viewer launch and hosting limits remain unchanged.
+**Changed:** Pages deployment succeeded after its earlier failures, and the prior site passed bounded desktop navigation/filter/keyboard checks. The new default heatmap presents the same reviewed milestones in warm armor red without changing acceptance.
 
-**Why:** The historical caller match cannot identify a current native request; a specific source question or later permitted runtime binding is needed before choosing a fix.
+**Why:** A full-page status map makes accepted foundations and remaining product goals visible. Website delivery, owner screenshots and native test acceptance are separate kinds of evidence.
 
-**Next:** Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Preserve the separate pending launch/hosting work and all native gates.
+**Next:** Verify the published heatmap in the supported browser. Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Keep controlled Windows import/cancel/cleanup, native retirement, blocked initializer and provenance gates separate.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

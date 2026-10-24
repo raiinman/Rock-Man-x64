@@ -4,6 +4,8 @@ An independent effort toward a **native Windows x64 Mega Man Legends 1 + integra
 
 This public repository contains documentation, research metadata and original explanatory graphics—not the private prototype, game assets, a source release or a playable build.
 
+**[Open the interactive project tracker](https://raiinman.github.io/Rock-Man-x64/)** — roadmap, workstreams, findings and recorded changes.
+
 <!-- ROCK-MAN-TRACKER:START -->
 
 ## Progress, in numbers
@@ -12,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The private viewer transferred intact, but its normal Windows launch attempt is inconclusive. The tracker site built successfully; Pages deployment failed and the site is not live.
+**Where we are:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Next useful step:** Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Preserve the separate pending launch/hosting work and all native gates.
+**Next useful step:** Verify the published heatmap in the supported browser. Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Keep controlled Windows import/cancel/cleanup, native retirement, blocked initializer and provenance gates separate.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-research-handoff-received-01` · [reviewed basis b90462d](https://github.com/raiinman/Rock-Man-x64/commit/b90462d39c920e4ed93073ed44a34d62e0dd13dc).
+**Last evidence review:** 2026-10-23 · `2026-10-23-live-heatmap-docs-01` · [reviewed basis 925b6ba](https://github.com/raiinman/Rock-Man-x64/commit/925b6ba107f2f811410cb049d93c7b7ffb9c9b60).
 **Latest repository change observed:** [ec96aac](https://github.com/raiinman/Rock-Man-x64/commit/ec96aac348c337256715b1f29aebad4557e2c51e) · 2026-10-23T16:55:50-07:00 — docs: regenerate evidence receipt from canonical LF bytes.
 **Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
 

@@ -19,6 +19,7 @@ Check the read-only tracker's projection, safe artifact construction and control
 
 ## Work Guidance
 
+- Check heatmap tile identities/counts against canonical milestones, categorical labels independent of color, filtered totals without denominator drift, focused open/close behavior, evidence escaping/pinning and future-data changes. Static layout assertions are not browser acceptance.
 - Cover strict acceptance/counts, overall independence, real deltas/rebaseline, review consistency, safe URLs/escaping, filter/navigation behavior, cancellation/races and fail-closed error states.
 - Artifact checks must cover exact paths, source preservation, symlink refusal, checksum mismatch, standalone CSP hashes and closing-script injection.
 

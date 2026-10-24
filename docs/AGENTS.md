@@ -25,7 +25,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 - Update status, relevant technical limitations, and history together when a milestone or correction changes the project record.
 - Keep dates and milestone labels explicit. Do not invent timestamps or turn planned work into completed history.
 - Tracker upkeep is part of every meaningful Rock Man change: maintain reviewed data and change explanations, regenerate/check outputs, and verify the actual updater result after publication. Never promote native evidence from research or repository activity.
-- Keep the interactive overview spacious: one prominent overall panel and a small workstream selection; put complete criteria, caveats and suite statistics in expandable or dedicated views. Preserve the generated repository chart as the fallback. Public filters and navigation are read-only, never evidence edits or simulated running tasks.
+- Keep the interactive overview spacious and heatmap-first: equal-area, clearly labeled milestone cells across the main canvas, with the overall accepted/total count visible; put complete criteria, caveats and suite statistics in expandable or dedicated views. Tile area/color are not measures of effort, activity or game completion. Preserve the generated repository chart as the fallback. Public filters and navigation are read-only, never evidence edits or simulated running tasks.
 - A documentation update does not authorize resuming development or publishing private artifacts.
 
 ## Verification

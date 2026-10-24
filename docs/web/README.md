@@ -1,6 +1,16 @@
 # Interactive project tracker
 
-A spacious, read-only view of the **same reviewed roadmap** used by the repository chart: Overview, Roadmap, Workstreams, Findings and Change history. It is original vanilla HTML/CSS/ES modules, without framework dependencies or external assets.
+**[Open the public tracker](https://raiinman.github.io/Rock-Man-x64/).** The [live-delivery record](../history/validation-history.md#live-tracker-and-owner-observed-inspector-evidence--october-23) separates actual hosting/browser evidence from offline checks.
+
+A spacious, read-only view of the **same reviewed roadmap** used by the repository chart: Heatmap, Roadmap, Workstreams, Findings and Change history. It is original vanilla HTML/CSS/ES modules, without framework dependencies or external assets.
+
+## Heatmap reading guide
+
+The default view fills the page with **equal-area milestone tiles**, not a weighted effort treemap or activity calendar. Warm armor red + ✓ means accepted; charcoal + ○ means pending; amber hatching + ! means explicitly blocked; ◐ appears only for an explicitly recorded in-progress state. Every tile also spells out its status. Pending does not mean untouched. Search and status filters never change the overall denominator.
+
+Open a tile by click or keyboard to read its exact done criterion, evidence class, project blocker, next step and pinned sources. Details are a nonmodal region: focus moves there on opening and returns to the tile on closing. The existing Roadmap list/board, bounded Workstreams, Findings and Change history remain available. Their overlapping percentages are never summed into the roadmap.
+
+The visual direction is an original mechanical engineering display: deep warm red, charcoal, ivory and restrained gold, with cyan only for selection/focus. It uses no character art, logos, copied HUD assets or fictional telemetry. The prior site's actual browser record does not establish browser acceptance for this new heatmap; verify the deployed revision separately.
 
 ## What the numbers mean
 
@@ -19,7 +29,7 @@ The build copies those exact public files; the browser verifies their checksum b
 
 The owner approved public GitHub Pages hosting. The existing `update-progress.yml` chains updater → build-site → deploy-site, so it publishes the final generated data without relying on a bot commit to trigger another push workflow. The updater still commits only its five fixed generated paths. Build uses read-only repository access; only the separate Pages deployment job receives Pages/OIDC write scopes. No new secret, custom domain, game build or deployment service is used.
 
-The workflow refuses superseded snapshots before build/deploy; those checks cannot atomically prevent a push immediately after the last check. The next eligible run publishes the newer snapshot. Actual publication must be verified: this source guide does not assert that a deployment or browser acceptance already succeeded. See [deployment operations](DEPLOYMENT.md).
+The workflow refuses superseded snapshots before build/deploy; those checks cannot atomically prevent a push immediately after the last check. The next eligible run publishes the newer snapshot. Verify every later publication against its displayed snapshot and artifact; the first live-delivery record does not certify all future deployments or every browser/accessibility behavior. See [deployment operations](DEPLOYMENT.md).
 
 ## Build and checks
 

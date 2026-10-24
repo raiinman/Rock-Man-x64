@@ -15,7 +15,7 @@ Make the reviewed public roadmap understandable on a spacious, interactive canva
 - Use original dependency-free HTML/CSS/ES modules. No proprietary character art, copied project source, remote fonts/scripts, telemetry, accounts, writes, service workers or local storage.
 - Read the exact canonical `dashboard-data.json` and `tracker-state.json` copied into the build artifact. Verify the JSON's SHA-256 against the receipt and both canonical file hashes against the deployed manifest before displaying data; a mismatch or invalid shape shows an error, not stale or invented acceptance. Display and pin repository citations to the exact deployed snapshot revision. These hashes are consistency checking, not a signature or independent proof of the private evidence.
 - Compute each percentage from that named checklist's reviewed flags. Overall means accepted unequal-size roadmap milestones, never an average of workstreams, game-finished percentage, weighted effort or ETA.
-- Preserve last evidence review versus repository activity. Show only recorded deltas; changed definitions rebaseline. Never infer active work from commits, partial tests or an agent-like UI.
+- Preserve last evidence review versus repository activity. Hourly check-ins are authored, time-identified reviews under the existing documentation cadence, not an animated UI clock or automatically advanced acceptance. Show only recorded deltas; changed definitions rebaseline. Never infer active work from commits, partial tests or an agent-like UI.
 - Status filters repeat reviewed acceptance and explicit blocked/NO-GO classes. `in_progress` requires an explicit compatible status in reviewed data. Pending means unaccepted, not necessarily untouched.
 - Keep citations and exact evidence limits accessible in expanded criteria. Native boot remains unestablished; research execution is not native acceptance. Preserve restricted-source provenance.
 - `check_site.py` rejects extra files/directories, links, mismatched bytes/reviews/revisions and oversized artifacts before upload. The public artifact is exactly five UI files, two canonical JSON files and its manifest.
@@ -23,8 +23,8 @@ Make the reviewed public roadmap understandable on a spacious, interactive canva
 
 ## Work Guidance
 
-- Use roomy crimson/graphite/pearl/gold panels, large counts, restrained gloss and readable focus/contrast. Overview leads with one overall panel and three workstream cards; detail belongs in Roadmap, Workstreams, Findings and Change history.
-- Support responsive list/board views, search, status filters, keyboard-operated controls, native expandable criteria and shareable hash routes. Do not pretend dragging cards would change public project state.
+- Use original deep warm armor-red/charcoal/ivory/gold styling, restrained mechanical gloss and tiny cyan selection accents, never pink/magenta or invented telemetry. Overview is a full-page equal-area categorical milestone heatmap with large accepted/total counts; textual status and symbols must remain understandable without color. Tile area does not imply equal effort. Click/keyboard detail regions show exact criteria/evidence and restore focus when closed; retain Roadmap, Workstreams, Findings and Change history.
+- Support responsive heatmap and list/board views, search, status filters, keyboard-operated controls, native expandable criteria and shareable hash routes. Do not pretend dragging cards would change public project state.
 - Escape every data string; keep evidence links HTTPS or validated repository-relative paths. Production CSP admits only same-origin code/styles/data and no forms or embedded objects.
 - Preserve the repository chart/ledger fallback. Do not call a snapshot live or claim publication without verifying the actual public artifact.
 
