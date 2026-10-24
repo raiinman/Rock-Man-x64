@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-retained-portability-receipt-01` · [reviewed basis 3e4ac27](https://github.com/raiinman/Rock-Man-x64/commit/3e4ac2743229370bbfca9116c08a97c8c051d28b).
-**Latest repository change observed:** [d59bb97](https://github.com/raiinman/Rock-Man-x64/commit/d59bb97209d738bd8b19b3c8dd941235e222637a) · 2026-10-24T01:27:12-07:00 — docs: answer retained Windows portability clarification.
+**Latest repository change observed:** [daecfde](https://github.com/raiinman/Rock-Man-x64/commit/daecfdeae8f66fc1dfbec85c3cfbf780441d314a) · 2026-10-24T01:43:42-07:00 — docs: acknowledge retained Windows portability guidance.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

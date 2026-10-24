@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "d59bb97209d738bd8b19b3c8dd941235e222637a",
-    "committed_at": "2026-10-24T01:27:12-07:00",
-    "subject": "docs: answer retained Windows portability clarification",
+    "sha": "daecfdeae8f66fc1dfbec85c3cfbf780441d314a",
+    "committed_at": "2026-10-24T01:43:42-07:00",
+    "subject": "docs: acknowledge retained Windows portability guidance",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
