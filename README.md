@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` · [reviewed basis 5ea3adf](https://github.com/raiinman/Rock-Man-x64/commit/5ea3adf686164a4082c871c40444dbe1514eb62b).
+**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-0309-01` · [reviewed basis ef46f35](https://github.com/raiinman/Rock-Man-x64/commit/ef46f354499ca2419bf117847b970cc202f71730).
 **Latest repository change observed:** [6eab713](https://github.com/raiinman/Rock-Man-x64/commit/6eab713eb4995670044e8684af86d6ee661ed8ea) · 2026-10-23T19:48:04-07:00 — docs: review generic completion gate integration boundaries.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
