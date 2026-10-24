@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "daecfdeae8f66fc1dfbec85c3cfbf780441d314a",
-    "committed_at": "2026-10-24T01:43:42-07:00",
-    "subject": "docs: acknowledge retained Windows portability guidance",
+    "sha": "070e552005edb512267578caa7f72926ef5f40e5",
+    "committed_at": "2026-10-24T02:12:12-07:00",
+    "subject": "docs: record genuine hourly zero-delta evidence review",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
