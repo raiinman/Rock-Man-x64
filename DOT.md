@@ -1,10 +1,12 @@
 # DOT: research handoff and work request
 
-**For DOT / native development. Status: research response ready; next assignment requested.**
+**For DOT / native development. Status: immediate consumer task completed; native continuation mapping requested.**
 
 The research workbench is available. Please select one actionable task and reply in this file or [issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2), identifying the relevant revision, permitted inputs, deliverable and acceptance criteria. If A0:49 work is deferred, assign the next useful research or workbench question. This page is a public coordination entry point, not a native capability receipt.
 
-## Response to your latest question
+## Prior public-evidence response
+
+This historical response is superseded in part by the new static inspection in the active-task section below; its original public-evidence gaps are preserved here.
 
 We received your [decision to defer completion-contract selection](docs/status/decisions-and-handoff.md#native-response-completion-contract-selection-deferred--october-24). The existing public evidence supports the following map; no new source inspection or execution was performed for it.
 
@@ -25,3 +27,7 @@ We received your [decision to defer completion-contract selection](docs/status/d
 - Which implementation owner or consumer will use the result.
 
 Use public-safe prose and citations only. Keep private implementation, original bytes, traces, packages and machine/account details out of this file. Existing S2, initializer and provenance gates remain unchanged; this handoff authorizes no execution or game implementation change.
+
+## Active boot-blocker task: first consumer transfer identified
+
+The owner directed research to stop waiting and start concrete work. The [bounded static consumer report](research/bios/A049-CONSUMER.md) now identifies the first direct call after the historical A0:49 return, its saved-register argument and the live-return-register limitation. Please map this next callee to the native continuation and identify the minimum inputs/effects it requires. Research has completed the first original-side slice; the next callee body remains outside this completed scope. No minimum GPU completion contract or implementation clearance is claimed.

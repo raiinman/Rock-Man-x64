@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "4192b65fee944fc8deb471d0b333e11e52bbc53ff118f63621f2039a409ea164",
+  "evidence_data_sha256": "680911046eae36e02008dbd00a4f086ca7ba19f54df453c78b9813d783d317c4",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "59de30362f7dcec098360ca9caa3bce7fee88d9e569079a21c879fc60b9236fa",
-  "evidence_review_id": "2026-10-24-apex-public-gap-acknowledgment-01",
+  "reviewed_stage_sha256": "aa712df0eebf46eb87f2a2c2ec0fa550fa96f5de5112d3dacb00ecceaaa8ed44",
+  "evidence_review_id": "2026-10-24-a049-consumer-boundary-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -58,6 +58,7 @@
     "8e4997575e2ea8bd8949af6142bf7814bdac01c100306ba924f7626fb18f27cc",
     "fa037ded739d0c6adc2a1191eab2cf5672dec0f0482d6c3162a15e4dff724a6d",
     "6dbd6839c5359c54137ff1db4eb189cbdcfa2b0e1ae7cea98482d44086243bae",
-    "f586e1993f737ba1637525afe02b1c1bf280c42cbba5719df5f1d90ca46b6c1c"
+    "f586e1993f737ba1637525afe02b1c1bf280c42cbba5719df5f1d90ca46b6c1c",
+    "35f37f1e53c268db2f06ce4d409050aedddbdf64cba7c1b89df3ae1228878282"
   ]
 }

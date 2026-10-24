@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` · [reviewed basis b994533](https://github.com/raiinman/Rock-Man-x64/commit/b99453317da43b04346551c0daa8fb46045e94be).
+**Last evidence review:** 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` · [reviewed basis 3e667f9](https://github.com/raiinman/Rock-Man-x64/commit/3e667f98c91e27b6cd1d94394a370c08f64c6221).
 **Latest repository change observed:** [56cb3a2](https://github.com/raiinman/Rock-Man-x64/commit/56cb3a2752d6f2b5da05ba29b39a26cd48b56dda) · 2026-10-23T17:36:47-07:00 — docs: acknowledge APEX public evidence gaps separately.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -218,17 +218,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | inspection v1 | 4 / 7 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | observation v1 | 2 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | loader v1 | 3 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | s2 v1 | 0 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | boot v1 | 0 / 1 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | roadmap v1 | 5 / 20 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
 
 
 ## Current explanation
 
 **Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Changed:** Reviewed at 2026-10-24 00:34 UTC: APEX-1 public-evidence gaps are acknowledged; A0:49 contract selection and further research assignment remain deferred. Reviewed at 2026-10-24 00:23 UTC: editor Reload/history, shared-edge coverage and border sample-center repairs passed bounded Linux checks, with Windows links only. Actual heatmap desktop QA found a minor arrow-glyph defect; the reviewed font-independent correction awaits deployed pixel checks.
+**Changed:** Identified the original caller’s first transfer after the historical A0:49 return and asked native development to map its next callee to the native continuation.
 
-**Why:** These repairs protect prior editor work and correct synthetic triangle coverage. Bounded browser QA distinguishes an observed documentation defect from repaired-pixel acceptance. Neither component evidence nor website delivery proves native boot. The handoff closes the outstanding clarification without treating an unresolved gap as an implementable contract or inventing another research task.
+**Why:** This replaces one acknowledged consumer-sequence unknown with bounded static evidence. The next callee may still read the live return register; GPU completion obligations remain unresolved.
 
-**Next:** Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection and further research assignment remain deferred; native development retains selection responsibility. Continue GitHub coordination at scheduled check-ins, using separate commits for meaningful changes rather than empty commits for unchanged checks. S2, initializer and provenance gates are unchanged.
+**Next:** Map the identified next callee to native consumer requirements, then select a bounded callee-entry investigation under the provenance policy. Preserve S2, initializer and execution gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

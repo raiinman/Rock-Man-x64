@@ -407,17 +407,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-apex-public-gap-acknowledgment-01",
-    "reviewed_through_commit": "b99453317da43b04346551c0daa8fb46045e94be",
-    "summary": "Reviewed at 2026-10-24 00:34 UTC: acknowledged the existing public DOT.md consumer/effect/request-binding/provenance gaps. A0:49 contract selection and further research assignment remain deferred. Coordination-only review; no new source inspection, execution or acceptance. All eleven prior observations and the published component/heatmap findings are preserved."
+    "review_id": "2026-10-24-a049-consumer-boundary-01",
+    "reviewed_through_commit": "3e667f98c91e27b6cd1d94394a370c08f64c6221",
+    "summary": "Bounded original-game static inspection identifies the first post-A049 caller transfer and argument preparation; independent decode review completed. No callee contract, runtime binding, native acceptance or implementation clearance."
   },
   "overview": {
     "now": "The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.",
-    "changed": "Reviewed at 2026-10-24 00:34 UTC: APEX-1 public-evidence gaps are acknowledged; A0:49 contract selection and further research assignment remain deferred. Reviewed at 2026-10-24 00:23 UTC: editor Reload/history, shared-edge coverage and border sample-center repairs passed bounded Linux checks, with Windows links only. Actual heatmap desktop QA found a minor arrow-glyph defect; the reviewed font-independent correction awaits deployed pixel checks.",
-    "why": "These repairs protect prior editor work and correct synthetic triangle coverage. Bounded browser QA distinguishes an observed documentation defect from repaired-pixel acceptance. Neither component evidence nor website delivery proves native boot. The handoff closes the outstanding clarification without treating an unresolved gap as an implementable contract or inventing another research task.",
-    "next": "Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection and further research assignment remain deferred; native development retains selection responsibility. Continue GitHub coordination at scheduled check-ins, using separate commits for meaningful changes rather than empty commits for unchanged checks. S2, initializer and provenance gates are unchanged."
+    "changed": "Identified the original caller’s first transfer after the historical A0:49 return and asked native development to map its next callee to the native continuation.",
+    "why": "This replaces one acknowledged consumer-sequence unknown with bounded static evidence. The next callee may still read the live return register; GPU completion obligations remain unresolved.",
+    "next": "Map the identified next callee to native consumer requirements, then select a bounded callee-entry investigation under the provenance policy. Preserve S2, initializer and execution gates."
   },
   "updates": [
+    {
+      "id": "a049-consumer-boundary-01",
+      "date": "2026-10-24",
+      "kind": "research",
+      "changed": "New original-game static evidence identifies the immediate post-return call and saved-register argument.",
+      "why": "Matching caller fields alone did not establish which continuation consumes service effects.",
+      "next": "Native development maps the next callee to its continuation; the original callee body and minimum effects remain open.",
+      "evidence": [
+        "research/bios/A049-CONSUMER.md"
+      ],
+      "capability_changed": false
+    },
     {
       "id": "apex-public-gap-acknowledgment-01",
       "date": "2026-10-24",
@@ -1802,6 +1814,68 @@
       "date": "2026-10-24",
       "basis_commit": "b99453317da43b04346551c0daa8fb46045e94be",
       "note": "Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-a049-consumer-boundary-01",
+      "date": "2026-10-24",
+      "basis_commit": "3e667f98c91e27b6cd1d94394a370c08f64c6221",
+      "note": "New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta.",
       "checklists": [
         {
           "id": "inspection",

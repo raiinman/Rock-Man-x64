@@ -1,6 +1,6 @@
 # Native MML1 research handoff and continuing queue
 
-This firmware investigation supports the independent port with bounded observations and questions. It does not resume implementation work or supersede the [current project handoff](../../docs/status/decisions-and-handoff.md). The game path, source generation and implementation on the other computer were not inspected here.
+This firmware investigation supports the independent port with bounded observations and questions. It does not resume implementation work or supersede the [current project handoff](../../docs/status/decisions-and-handoff.md). The native source generation and implementation on the other computer were not inspected here. The separately labeled [original caller inspection](A049-CONSUMER.md) now identifies the first static transfer after the historical A0:49 return coordinate.
 
 ## What the port agent can use now
 
@@ -91,3 +91,7 @@ A separately authorized [7,200-frame capture](ORIGINAL-GAME-STARTUP.md#past-load
 A subsequent [caller-focused capture](ORIGINAL-GAME-STARTUP.md#caller-focused-follow-up) separately observes the later occurrence's candidate target, bounded GPU accesses and context-matched zero return sample. It also reaches the opening story. The first-call result is no longer being used as evidence for the later occurrence. The next concrete coordination step is DOT's exact caller/input/generation match and a reviewed functional handoff identifying the actual native state producer and consumer. No fabricated ready bits, automatic initializer retry or controller enablement follows from the observed return. DMA/GP1 producer history and GPU payloads were not captured by this scope.
 
 The later [input/caller reconciliation](ORIGINAL-GAME-STARTUP.md#original-input-and-caller-correlation) closes two narrower comparisons: a separate executable contained in the supplied disc matches DOT's historical original-input size/digest, and three observed caller-context fields match its explicit handoff. Boot-file identity and game-file identity are different roles. Current native build/owner generation and active request remain unverified; do not promote the historical source/receipt identity into current-runtime proof. A bounded current-binding response is now the next coordination input, followed by selection of the actual missing producer/consumer contract. Existing GPU-history, parser, ABI, source-review and owner-lifecycle limits remain.
+
+## Immediate consumer investigation
+
+The [new bounded original-game inspection](A049-CONSUMER.md) identifies the immediate post-return direct call and its saved-register argument. The next callee may still read the live return register; neither global return-value discard nor minimum GPU completion follows. Native development has been asked to map that callee to its continuation contract while research closes the selected original-side evidence gap. This is new static research, not a current native execution or provenance clearance.

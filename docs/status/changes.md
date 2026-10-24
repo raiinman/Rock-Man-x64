@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · a049-consumer-boundary-01
+
+**Evidence class:** research. **Runtime capability advanced:** no.
+
+**Changed:** New original-game static evidence identifies the immediate post-return call and saved-register argument.
+
+**Why:** Matching caller fields alone did not establish which continuation consumes service effects.
+
+**Next:** Native development maps the next callee to its continuation; the original callee body and minimum effects remain open.
+
+**Evidence:** [source 1](../../research/bios/A049-CONSUMER.md).
+
 ## 2026-10-24 · apex-public-gap-acknowledgment-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -311,3 +323,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:34 UTC: public-gap acknowledgment and explicit further-assignment deferral only. Zero acceptance delta; all eleven prior observations, checklist definitions/versions/accepted IDs and published component/heatmap findings are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | inspection v1 | 4 / 7 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | observation v1 | 2 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | loader v1 | 3 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | s2 v1 | 0 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | boot v1 | 0 / 1 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | roadmap v1 | 5 / 20 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |

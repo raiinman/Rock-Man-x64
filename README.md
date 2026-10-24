@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Next useful step:** Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection and further research assignment remain deferred; native development retains selection responsibility. Continue GitHub coordination at scheduled check-ins, using separate commits for meaningful changes rather than empty commits for unchanged checks. S2, initializer and provenance gates are unchanged.
+**Next useful step:** Map the identified next callee to native consumer requirements, then select a bounded callee-entry investigation under the provenance policy. Preserve S2, initializer and execution gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-public-gap-acknowledgment-01` · [reviewed basis b994533](https://github.com/raiinman/Rock-Man-x64/commit/b99453317da43b04346551c0daa8fb46045e94be).
+**Last evidence review:** 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` · [reviewed basis 3e667f9](https://github.com/raiinman/Rock-Man-x64/commit/3e667f98c91e27b6cd1d94394a370c08f64c6221).
 **Latest repository change observed:** [56cb3a2](https://github.com/raiinman/Rock-Man-x64/commit/56cb3a2752d6f2b5da05ba29b39a26cd48b56dda) · 2026-10-23T17:36:47-07:00 — docs: acknowledge APEX public evidence gaps separately.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
