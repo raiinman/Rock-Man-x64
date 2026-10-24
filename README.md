@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-a049-callee-entry-01` · [reviewed basis 135b790](https://github.com/raiinman/Rock-Man-x64/commit/135b7901eb71830ff057bc865afb1dd6b428422f).
-**Latest repository change observed:** [a336b48](https://github.com/raiinman/Rock-Man-x64/commit/a336b480ec2aeecd84eb0dab00d46d206f99361d) · 2026-10-23T17:46:18-07:00 — research: identify first original A049 consumer transfer.
+**Latest repository change observed:** [9ccee5e](https://github.com/raiinman/Rock-Man-x64/commit/9ccee5e126da9fcbc5959830d19d12d4dcddb34a) · 2026-10-23T17:57:20-07:00 — research: bound next A049 callee entry through first helper.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
