@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "9be7fe234b932a85acc1617a0f293609ddbe909815ee234e0cbe596acdf6624f",
+  "evidence_data_sha256": "bc3b0735fd07fc89325247fdfb7b3b4b5c525c7a2c3ec0208cf62c010afe7572",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "cda6b878d8b3545c1609f02d06724c12854dce9bd7be0e0474b61d3841d92275",
-  "evidence_review_id": "2026-10-24-atlas-applicability-handoff-01",
+  "reviewed_stage_sha256": "18fb76adfa4be781cbc8e83fb47d40881b03eb780ea65b0a4f1081ba265c091f",
+  "evidence_review_id": "2026-10-24-continuous-substantive-work-policy-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -101,6 +101,7 @@
     "402006fea53d3f02b8ccc3d260867a9e8fd68ad30fdb4ffbadbdd6c863c92cc4",
     "3c249b46817d00c19b6b7cab999f8e1e3e41315d0c2ea0d5a957bc8b0ad7d122",
     "97149b290c681a19ba683052eb89049f374069342e5fdae55447434307f53dfa",
-    "c86363f3679ccba92988f7e6be1db0a87c31c973b5244824177a74bfc922bea5"
+    "c86363f3679ccba92988f7e6be1db0a87c31c973b5244824177a74bfc922bea5",
+    "66f08ae08f011ef4e29a5abda5c8ea653f8a8a564d129d07d8cca7dac186d853"
   ]
 }

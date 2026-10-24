@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** PSX-Atlas is the primary reference. One source-only applicability/provenance response is requested from APEX-1; no running worker or positive oracle is claimed.
+**Where we are:** Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.
 
-**Next useful step:** APEX-1 owns the requested reconciliation and should name any verified available, authorized reasoning GPT Sol cloud delegates. Native root will review a genuinely new retained assertion or an explicit no-new-answer result; do not repeat the completed gap card or collect a new experiment.
+**Next useful step:** Maintain the actionable queue and next substantive assignment; consume completed results promptly. Keep the existing Atlas applicability/provenance request pending without duplicating it, review the reply when available and continue independent authorized work. Preserve provenance, initializer, S2, access and publication limits.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` · [reviewed basis defc1f8](https://github.com/raiinman/Rock-Man-x64/commit/defc1f852ed8e89878c8a1e278ee320bc8aae47d).
+**Last evidence review:** 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` · [reviewed basis a96bd42](https://github.com/raiinman/Rock-Man-x64/commit/a96bd421fa9c1eed718db5d2bbf2cbbb207a99f0).
 **Latest repository change observed:** [3fd83d8](https://github.com/raiinman/Rock-Man-x64/commit/3fd83d822cf03d1f3871451762c70781923d1ec7) · 2026-10-24T10:57:27-07:00 — docs: request bounded Atlas-first reconciliation from APEX-1.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

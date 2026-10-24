@@ -20,6 +20,7 @@ This subtree owns research reports, source metadata, search records, and the age
 ## Work Guidance
 
 - Apply the root Atlas-first rule before other reference searches or escalation. Record the exact section and Atlas/upstream revisions, evidence class and unresolved claims; use independent cross-checks for gaps, not a second mirror of the same source. Coordinate remaining bounded questions through APEX-1 and named cloud-task owners without assuming worker or host access.
+- Support continuous substantive work with a named-owner research queue, bounded deliverables and prompt result reconciliation. For a parked gap, retain the exact missing fact, attempted checks, evidence limits, dependency and revisit trigger; pursue an independent permitted question instead of repeating the same search or observation. Keep pending APEX-1 assignments distinct from verified active work and do not duplicate unanswered requests.
 - Record separate broad-discovery, cross-check, and gap-search passes with actual queries and access failures.
 - Identify firmware by size and digest only in public notes. Keep its bytes and private local paths out of Git.
 - Native Windows guidance is a proposed investigation and validation agenda until supported by actual MML1 evidence.

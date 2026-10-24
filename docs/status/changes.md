@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · continuous-substantive-work-policy-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 18:08:16 UTC: the owner requires continuous substantive Rock Man work until told to stop, with at least one assigned authorized cloud workstream whenever resources allow. Root and research/status contracts now require bounded blocker investigation, a recorded revisit trigger, independent fallback work, prompt result reconciliation and concrete nonduplicate APEX-1 tasks.
+
+**Why:** A blocked workstream should not stop the project, but repeated status checks, invented running workers and bypassed evidence or permission gates are not progress.
+
+**Next:** Maintain the actionable queue and next substantive assignment; consume completed results promptly. Keep the existing Atlas applicability/provenance request pending without duplicating it, review the reply when available and continue independent authorized work. Preserve provenance, initializer, S2, access and publication limits.
+
+**Evidence:** [source 1](../../AGENTS.md#continuous-substantive-work) · [source 2](../../research/AGENTS.md#work-guidance) · [source 3](../../docs/status/AGENTS.md) · [source 4](../../docs/status/decisions-and-handoff.md#atlas-first-reconciliation-request-for-apex-1--october-24) · [source 5](../../docs/status/validation.md).
+
 ## 2026-10-24 · atlas-applicability-handoff-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1085,3 +1097,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
 | 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
 | 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |

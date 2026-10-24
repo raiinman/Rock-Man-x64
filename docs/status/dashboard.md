@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` · [reviewed basis defc1f8](https://github.com/raiinman/Rock-Man-x64/commit/defc1f852ed8e89878c8a1e278ee320bc8aae47d).
+**Last evidence review:** 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` · [reviewed basis a96bd42](https://github.com/raiinman/Rock-Man-x64/commit/a96bd421fa9c1eed718db5d2bbf2cbbb207a99f0).
 **Latest repository change observed:** [3fd83d8](https://github.com/raiinman/Rock-Man-x64/commit/3fd83d822cf03d1f3871451762c70781923d1ec7) · 2026-10-24T10:57:27-07:00 — docs: request bounded Atlas-first reconciliation from APEX-1.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -476,17 +476,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
 | 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
 | 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
+| 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone. |
 
 
 ## Current explanation
 
-**Now:** PSX-Atlas is the primary reference. One source-only applicability/provenance response is requested from APEX-1; no running worker or positive oracle is claimed.
+**Now:** Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.
 
-**Changed:** Reviewed at 2026-10-24 17:56:05 UTC: a separate Atlas-first handoff asks APEX-1 for one bounded source-only applicability/provenance reconciliation using pinned sections and retained evidence. Initial static platform mapping is reference evidence only, not a permitted project workload, effect/commit oracle or native acceptance.
+**Changed:** Reviewed at 2026-10-24 18:08:16 UTC: the owner requires continuous substantive Rock Man work until told to stop, with at least one assigned authorized cloud workstream whenever resources allow. Root and research/status contracts now require bounded blocker investigation, a recorded revisit trigger, independent fallback work, prompt result reconciliation and concrete nonduplicate APEX-1 tasks.
 
-**Why:** The newly prioritized reference can narrow the question without replacing the missing project-specific semantics or independent expected-result lineage.
+**Why:** A blocked workstream should not stop the project, but repeated status checks, invented running workers and bypassed evidence or permission gates are not progress.
 
-**Next:** APEX-1 owns the requested reconciliation and should name any verified available, authorized reasoning GPT Sol cloud delegates. Native root will review a genuinely new retained assertion or an explicit no-new-answer result; do not repeat the completed gap card or collect a new experiment.
+**Next:** Maintain the actionable queue and next substantive assignment; consume completed results promptly. Keep the existing Atlas applicability/provenance request pending without duplicating it, review the reply when available and continue independent authorized work. Preserve provenance, initializer, S2, access and publication limits.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

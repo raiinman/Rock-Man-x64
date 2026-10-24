@@ -408,17 +408,33 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-atlas-applicability-handoff-01",
-    "reviewed_through_commit": "defc1f852ed8e89878c8a1e278ee320bc8aae47d",
-    "summary": "Reviewed at 2026-10-24 17:56:05 UTC: a separate Atlas-first handoff asks APEX-1 for one bounded source-only applicability/provenance reconciliation using pinned sections and retained evidence. Initial static platform mapping is reference evidence only, not a permitted project workload, effect/commit oracle or native acceptance. Prior history, acceptance, ownership and provenance/initializer/S2 boundaries remain unchanged."
+    "review_id": "2026-10-24-continuous-substantive-work-policy-01",
+    "reviewed_through_commit": "a96bd421fa9c1eed718db5d2bbf2cbbb207a99f0",
+    "summary": "Reviewed at 2026-10-24 18:08:16 UTC: the owner requires continuous substantive Rock Man work until told to stop, with at least one assigned authorized cloud workstream whenever resources allow. Root and research/status contracts now require bounded blocker investigation, a recorded revisit trigger, independent fallback work, prompt result reconciliation and concrete nonduplicate APEX-1 tasks. This combined policy and hourly review checked current public head, saved native evidence, terminal outcomes and public handoffs. No new native acceptance or APEX reply is recorded; actual review time remains separate from repository activity."
   },
   "overview": {
-    "now": "PSX-Atlas is the primary reference. One source-only applicability/provenance response is requested from APEX-1; no running worker or positive oracle is claimed.",
-    "changed": "Reviewed at 2026-10-24 17:56:05 UTC: a separate Atlas-first handoff asks APEX-1 for one bounded source-only applicability/provenance reconciliation using pinned sections and retained evidence. Initial static platform mapping is reference evidence only, not a permitted project workload, effect/commit oracle or native acceptance.",
-    "why": "The newly prioritized reference can narrow the question without replacing the missing project-specific semantics or independent expected-result lineage.",
-    "next": "APEX-1 owns the requested reconciliation and should name any verified available, authorized reasoning GPT Sol cloud delegates. Native root will review a genuinely new retained assertion or an explicit no-new-answer result; do not repeat the completed gap card or collect a new experiment."
+    "now": "Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.",
+    "changed": "Reviewed at 2026-10-24 18:08:16 UTC: the owner requires continuous substantive Rock Man work until told to stop, with at least one assigned authorized cloud workstream whenever resources allow. Root and research/status contracts now require bounded blocker investigation, a recorded revisit trigger, independent fallback work, prompt result reconciliation and concrete nonduplicate APEX-1 tasks.",
+    "why": "A blocked workstream should not stop the project, but repeated status checks, invented running workers and bypassed evidence or permission gates are not progress.",
+    "next": "Maintain the actionable queue and next substantive assignment; consume completed results promptly. Keep the existing Atlas applicability/provenance request pending without duplicating it, review the reply when available and continue independent authorized work. Preserve provenance, initializer, S2, access and publication limits."
   },
   "updates": [
+    {
+      "id": "continuous-substantive-work-policy-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 18:08:16 UTC: the owner requires continuous substantive Rock Man work until told to stop, with at least one assigned authorized cloud workstream whenever resources allow. Root and research/status contracts now require bounded blocker investigation, a recorded revisit trigger, independent fallback work, prompt result reconciliation and concrete nonduplicate APEX-1 tasks.",
+      "why": "A blocked workstream should not stop the project, but repeated status checks, invented running workers and bypassed evidence or permission gates are not progress.",
+      "next": "Maintain the actionable queue and next substantive assignment; consume completed results promptly. Keep the existing Atlas applicability/provenance request pending without duplicating it, review the reply when available and continue independent authorized work. Preserve provenance, initializer, S2, access and publication limits.",
+      "evidence": [
+        "AGENTS.md#continuous-substantive-work",
+        "research/AGENTS.md#work-guidance",
+        "docs/status/AGENTS.md",
+        "docs/status/decisions-and-handoff.md#atlas-first-reconciliation-request-for-apex-1--october-24",
+        "docs/status/validation.md"
+      ]
+    },
     {
       "id": "atlas-applicability-handoff-01",
       "date": "2026-10-24",
@@ -5080,6 +5096,68 @@
       "date": "2026-10-24",
       "basis_commit": "defc1f852ed8e89878c8a1e278ee320bc8aae47d",
       "note": "Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-continuous-substantive-work-policy-01",
+      "date": "2026-10-24",
+      "basis_commit": "a96bd421fa9c1eed718db5d2bbf2cbbb207a99f0",
+      "note": "Reviewed at 2026-10-24 18:08:16 UTC: meaningful continuous-work policy and hourly evidence review combined once, with zero native acceptance delta. All 55 prior observations and 62 updates remain exact. Saved evidence and terminal results are unchanged; an assignment is not a new implementation, runtime result or milestone.",
       "checklists": [
         {
           "id": "inspection",
