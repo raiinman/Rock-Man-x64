@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-corrected-helper-gameplay-01",
-    "reviewed_through_commit": "709bf018d2caa4e13ba5571ca7a0dd2741a28ad8",
-    "summary": "Corrected original-game register chain completed; helper reaching pointer and delayed result measured for that occurrence. Separately bounded controller scope reaches a corridor with gameplay HUD. Independent receipt/source reviews retained; native boot, movement causality and implementation clearance not established."
+    "review_id": "2026-10-24-apex-corrected-chain-acknowledgment-01",
+    "reviewed_through_commit": "70521d516af99c613a8205a31de32d17b1c4fb1a",
+    "summary": "Reviewed at 2026-10-24 01:55 UTC: native coordination acknowledges the already-published corrected seven-stage helper chain and separate controller scope. Reaching pointer/result unknowns are closed for those emulator occurrences, not native state, GPU completion or provenance. No new run or acceptance; all twenty prior observations, failed measurements and newer research remain preserved."
   },
   "overview": {
     "now": "The supplied original game reached the opening dungeon with its gameplay HUD in the pinned emulator. The corrected helper chain is measured; native A0:49 remains unresolved.",
-    "changed": "Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.",
+    "changed": "Reviewed at 2026-10-24 01:55 UTC: native coordination acknowledges the corrected helper chain and controller-scope report; the new occurrence-specific pointer/result evidence supersedes the earlier missing-measurement finding. Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.",
     "why": "The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.",
     "next": "DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review."
   },
   "updates": [
+    {
+      "id": "apex-corrected-chain-acknowledgment-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 01:55 UTC: acknowledged the published seven-stage helper chain, reaching pointer 0x1f801074, delayed result 13 and matched callee resumption; the separate controller scope retains the chain before input and reaches the reported corridor/HUD endpoint.",
+      "why": "These occurrence-specific measurements supersede the earlier missing-pointer/result finding without replacing native state or retroactively diagnosing the preserved incomplete runs. Original-game emulator progress is not native acceptance.",
+      "next": "Native owner/continuation mapping and the GPU producer/completion decision remain separate. Do not substitute observed zero/13 for owned state. No further runtime window is requested; initializer, S2 and provenance gates remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-corrected-helper-chain-acknowledged--october-24",
+        "research/bios/A049-HELPER.md#corrected-original-game-observation",
+        "research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "corrected-helper-gameplay-01",
       "date": "2026-10-24",
@@ -2402,6 +2417,68 @@
       "date": "2026-10-24",
       "basis_commit": "709bf018d2caa4e13ba5571ca7a0dd2741a28ad8",
       "note": "Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-apex-corrected-chain-acknowledgment-01",
+      "date": "2026-10-24",
+      "basis_commit": "70521d516af99c613a8205a31de32d17b1c4fb1a",
+      "note": "Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance.",
       "checklists": [
         {
           "id": "inspection",

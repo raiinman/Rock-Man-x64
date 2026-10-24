@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` · [reviewed basis 709bf01](https://github.com/raiinman/Rock-Man-x64/commit/709bf018d2caa4e13ba5571ca7a0dd2741a28ad8).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` · [reviewed basis 70521d5](https://github.com/raiinman/Rock-Man-x64/commit/70521d516af99c613a8205a31de32d17b1c4fb1a).
 **Latest repository change observed:** [2438aa3](https://github.com/raiinman/Rock-Man-x64/commit/2438aa33a260a37402f990ed4467cb70d5fb61ef) · 2026-10-23T18:43:39-07:00 — research: measure corrected helper chain and reach original-game gameplay scene.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -266,13 +266,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | s2 v1 | 0 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
 | 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | boot v1 | 0 / 1 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
 | 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | roadmap v1 | 5 / 20 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
 
 
 ## Current explanation
 
 **Now:** The supplied original game reached the opening dungeon with its gameplay HUD in the pinned emulator. The corrected helper chain is measured; native A0:49 remains unresolved.
 
-**Changed:** Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.
+**Changed:** Reviewed at 2026-10-24 01:55 UTC: native coordination acknowledges the corrected helper chain and controller-scope report; the new occurrence-specific pointer/result evidence supersedes the earlier missing-measurement finding. Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.
 
 **Why:** The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.
 

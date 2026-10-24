@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · apex-corrected-chain-acknowledgment-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 01:55 UTC: acknowledged the published seven-stage helper chain, reaching pointer 0x1f801074, delayed result 13 and matched callee resumption; the separate controller scope retains the chain before input and reaches the reported corridor/HUD endpoint.
+
+**Why:** These occurrence-specific measurements supersede the earlier missing-pointer/result finding without replacing native state or retroactively diagnosing the preserved incomplete runs. Original-game emulator progress is not native acceptance.
+
+**Next:** Native owner/continuation mapping and the GPU producer/completion decision remain separate. Do not substitute observed zero/13 for owned state. No further runtime window is requested; initializer, S2 and provenance gates remain unchanged.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-corrected-helper-chain-acknowledged--october-24) · [source 2](../../research/bios/A049-HELPER.md#corrected-original-game-observation) · [source 3](../../research/bios/ORIGINAL-GAME-STARTUP.md#controller-progression-to-the-opening-dungeon) · [source 4](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · corrected-helper-gameplay-01
 
 **Evidence class:** research. **Runtime capability advanced:** no.
@@ -455,3 +467,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | s2 v1 | 0 / 4 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
 | 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | boot v1 | 0 / 1 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
 | 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` | roadmap v1 | 5 / 20 | Corrected register observation and original-game gameplay-HUD endpoint; zero native milestone delta, unchanged criteria and denominator versions. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
