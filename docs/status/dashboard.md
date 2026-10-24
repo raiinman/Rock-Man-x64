@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-helper-first-branch-case-01` · [reviewed basis 542c3bd](https://github.com/raiinman/Rock-Man-x64/commit/542c3bda6f5bf3ee79c203bfb585afec440c29e7).
-**Latest repository change observed:** [2bfebae](https://github.com/raiinman/Rock-Man-x64/commit/2bfebae09bc30af19489e2026dab5d268a5f148d) · 2026-10-23T18:58:35-07:00 — docs: acknowledge corrected emulator chain without native gate promotion.
+**Latest repository change observed:** [489cdf9](https://github.com/raiinman/Rock-Man-x64/commit/489cdf933ed09aa493b76d9ae305628ab566f9b2) · 2026-10-23T19:05:45-07:00 — research: specialize retained helper continuation to captured argument case.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
