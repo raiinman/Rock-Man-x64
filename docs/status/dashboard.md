@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-0610-01` · [reviewed basis b05321b](https://github.com/raiinman/Rock-Man-x64/commit/b05321bda79901d4e50097485c144398c52869f5).
-**Latest repository change observed:** [95997a0](https://github.com/raiinman/Rock-Man-x64/commit/95997a02e72310d6027833a1ebf66db1e9b485ef) · 2026-10-23T22:48:59-07:00 — docs: accept bounded APEX effect-oracle gap card.
+**Latest repository change observed:** [236967a](https://github.com/raiinman/Rock-Man-x64/commit/236967afaa344a565f15a595d74b0808d1092ae1) · 2026-10-23T23:13:16-07:00 — docs: record hourly evidence review without milestone delta.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

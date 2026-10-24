@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "95997a02e72310d6027833a1ebf66db1e9b485ef",
-    "committed_at": "2026-10-23T22:48:59-07:00",
-    "subject": "docs: accept bounded APEX effect-oracle gap card",
+    "sha": "236967afaa344a565f15a595d74b0808d1092ae1",
+    "committed_at": "2026-10-23T23:13:16-07:00",
+    "subject": "docs: record hourly evidence review without milestone delta",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
