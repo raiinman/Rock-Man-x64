@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` · [reviewed basis 1e4cefd](https://github.com/raiinman/Rock-Man-x64/commit/1e4cefd2e0d9712027011cae5dc9ceb221f378ee).
-**Latest repository change observed:** [2034ac4](https://github.com/raiinman/Rock-Man-x64/commit/2034ac487a991379021f007eccf24a1ba9706f28) · 2026-10-24T00:47:45-07:00 — docs: answer read-only Windows capture feasibility.
+**Latest repository change observed:** [0f95ae5](https://github.com/raiinman/Rock-Man-x64/commit/0f95ae585b5a57c3f3d271afb3716b8f62af3a38) · 2026-10-24T01:00:08-07:00 — docs: acknowledge APEX Windows capture planning answer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
