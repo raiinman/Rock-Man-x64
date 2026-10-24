@@ -408,17 +408,33 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-adapter-handoff-routing-correction-01",
-    "reviewed_through_commit": "5592463159ddb97f634f895ada13e95d1ce067bf",
-    "summary": "Reviewed at 2026-10-24 04:30 UTC: corrected root DOT handoff to require the actual adapter source, exact missing-function decision or named access/authority blocker. Public hourly reviews do not answer that request; the coordinator cause remains unverified. No native implementation, source receipt, execution, acceptance or provenance clearance."
+    "review_id": "2026-10-24-native-adapter-request-scope-01",
+    "reviewed_through_commit": "914ade14b56a0becc22354620113b15673698e75",
+    "summary": "Reviewed at 2026-10-24 04:42:24 UTC: public-only clarification of the concrete adapter source-or-missing-function request. Earlier hourly records establish documentation-review scope, not a verified cause for the unanswered source request. Public producer/consumer bindings remain unestablished; no private receipt, source-ready status, source absence or access failure is asserted. Private source transmission is outside this public coordination pass. Zero acceptance delta; prior history and ownership preserved."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.",
+    "changed": "Reviewed at 2026-10-24 04:42:24 UTC: acknowledged the concrete source-ready, exact missing-function or access-boundary request without treating this public clarification as its fulfillment. Prior hourly records were evidence reviews; they do not establish a source-access failure or the cause of the unanswered request. Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.",
     "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
     "next": "Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion."
   },
   "updates": [
+    {
+      "id": "native-adapter-request-scope-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 04:42:24 UTC: acknowledged the concrete source-ready, exact missing-function or access-boundary request without treating this public clarification as its fulfillment. Prior hourly records were evidence reviews; they do not establish a source-access failure or the cause of the unanswered request.",
+      "why": "The public record still lacks a bound native producer/consumer interface. That is not proof of absent private implementation, receipt of private source or readiness. This public-only authorization does not permit transmitting private declarations, mapping notes or packages.",
+      "next": "The concrete source-or-missing-function response remains with native development under the active request. This clarification does not fulfill or reassign it, invent a missing function or diagnose unavailable access. Preserve provenance, Windows, S2, initializer and native completion gates.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-concrete-adapter-request-and-public-response-scope--october-24",
+        "DOT.md#required-next-response-actual-adapter-source-or-exact-missing-function",
+        "AGENTS.md#documentation-and-publication-contract",
+        "research/bios/NATIVE-COMPLETION-CANDIDATE.md#native-integration-seam-still-required",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "adapter-handoff-routing-correction-01",
       "date": "2026-10-24",
@@ -3088,6 +3104,68 @@
       "date": "2026-10-24",
       "basis_commit": "5592463159ddb97f634f895ada13e95d1ce067bf",
       "note": "Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-native-adapter-request-scope-01",
+      "date": "2026-10-24",
+      "basis_commit": "914ade14b56a0becc22354620113b15673698e75",
+      "note": "Reviewed at 2026-10-24 04:42:24 UTC: public coordination clarification only; zero acceptance delta. All twenty-nine prior observations, thirty-six updates, definitions, accepted IDs, counts, research, active request and prior handoffs preserved. No private source-ready/receipt claim, source-absence or access-failure diagnosis, implementation, runtime test or provenance clearance.",
       "checklists": [
         {
           "id": "inspection",
