@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` · [reviewed basis 70521d5](https://github.com/raiinman/Rock-Man-x64/commit/70521d516af99c613a8205a31de32d17b1c4fb1a).
-**Latest repository change observed:** [2438aa3](https://github.com/raiinman/Rock-Man-x64/commit/2438aa33a260a37402f990ed4467cb70d5fb61ef) · 2026-10-23T18:43:39-07:00 — research: measure corrected helper chain and reach original-game gameplay scene.
+**Latest repository change observed:** [2bfebae](https://github.com/raiinman/Rock-Man-x64/commit/2bfebae09bc30af19489e2026dab5d268a5f148d) · 2026-10-23T18:58:35-07:00 — docs: acknowledge corrected emulator chain without native gate promotion.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
