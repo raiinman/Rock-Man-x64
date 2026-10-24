@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-hourly-zero-delta-0610-01",
-    "reviewed_through_commit": "b05321bda79901d4e50097485c144398c52869f5",
-    "summary": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly check of current public head/contracts, APEX replies, unchanged saved evidence and terminal native outcomes. No new Rock Man implementation/test result, workload oracle, accepted criterion or gate clearance. The completed negative-oracle card and all prior records are preserved. Actual review time is recorded separately from repository activity; no new assignment or execution authority is inferred."
+    "review_id": "2026-10-24-apex-blocker-questions-01",
+    "reviewed_through_commit": "d66f886e6d9dec225b391839ac2a1aff56df7a08",
+    "summary": "Reviewed at 2026-10-24 06:57:41 UTC: blocker-driven coordination questions and the corresponding communication contract are recorded. No new effect oracle, implementation/test result, access grant or accepted criterion. The completed negative-oracle card and all prior records remain preserved; zero native acceptance delta. Cross-tool questions do not change Rock Man progress. Actual review time stays separate from repository activity."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly review. Current public head, APEX replies, saved evidence and terminal native outcomes show no new Rock Man implementation, test result or accepted criterion since the last review. The completed gap card remains NOT A POSITIVE ORACLE; no repeat task is assigned. Reviewed at 2026-10-24 05:47:09 UTC: accepted APEX-1's returned gap card as completion of the bounded missing-assertion/evidence-specification task only. Its disposition remains NOT A POSITIVE ORACLE: the W/S, F-to-F-prime and correlated C assertion is specified, not established, and expected-result lineage is missing.",
+    "changed": "Reviewed at 2026-10-24 06:57:41 UTC: added direct blocker questions for APEX-1 rather than waiting for another scheduled status pass. The Rock Man question asks whether its separate existing research already supplies a permitted effect/commit specification beyond the public summary; if not, it asks for one bounded acquisition proposal only. Two explicitly scoped cross-tool questions are coordination, not Rock Man progress.",
     "why": "A clear missing state-transition assertion and minimal evidence specification complete the requested documentation task without supplying a permitted workload, justified graphics-state effect or commit predicate. Observed post-state and sampled return cannot supply their own expected-result oracle.",
-    "next": "No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged."
+    "next": "Review APEX-1's sanitized conclusions and provenance, then act only within existing permissions. Do not repeat the completed public-input card. Any evidence-acquisition suggestion is a proposal, not an experiment request; no new access, implementation, runtime or gate clearance follows. Native root retains patch ownership."
   },
   "updates": [
+    {
+      "id": "apex-blocker-questions-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 06:57:41 UTC: added direct blocker questions for APEX-1 rather than waiting for another scheduled status pass. The Rock Man question asks whether its separate existing research already supplies a permitted effect/commit specification beyond the public summary; if not, it asks for one bounded acquisition proposal only. Two explicitly scoped cross-tool questions are coordination, not Rock Man progress.",
+      "why": "The completed public-input gap card does not establish what additional permitted evidence may already exist in APEX-1's separate records. A specific question can resolve that distinction without repeating the card or treating communication as authority.",
+      "next": "Review APEX-1's sanitized conclusions and provenance, then act only within existing permissions. Do not repeat the completed public-input card. Any evidence-acquisition suggestion is a proposal, not an experiment request; no new access, implementation, runtime or gate clearance follows. Native root retains patch ownership.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#blocker-questions-for-apex-1--october-24",
+        "docs/status/decisions-and-handoff.md#native-response-effect-oracle-gap-card-completed--october-24",
+        "AGENTS.md#user-preferences",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "hourly-zero-delta-0610-01",
       "date": "2026-10-24",
@@ -3626,6 +3641,68 @@
       "date": "2026-10-24",
       "basis_commit": "b05321bda79901d4e50097485c144398c52869f5",
       "note": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly review; saved native evidence and terminal outcomes unchanged. All thirty-five prior observations, forty-two updates, definitions, accepted IDs, counts, research and handoffs preserved. The negative-oracle gap card stays complete; no repeated assignment, new native/game/research execution or gate clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-apex-blocker-questions-01",
+      "date": "2026-10-24",
+      "basis_commit": "d66f886e6d9dec225b391839ac2a1aff56df7a08",
+      "note": "Reviewed at 2026-10-24 06:57:41 UTC: direct blocker questions only; zero native acceptance delta. All thirty-six prior observations, forty-three updates, definitions, accepted IDs, counts, research and handoffs preserved. The public-input negative-oracle card stays complete. Cross-tool coordination, existing-record questions and proposal requests do not establish implementation, access, execution or gate clearance.",
       "checklists": [
         {
           "id": "inspection",

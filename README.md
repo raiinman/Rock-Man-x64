@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged.
+**Next useful step:** Review APEX-1's sanitized conclusions and provenance, then act only within existing permissions. Do not repeat the completed public-input card. Any evidence-acquisition suggestion is a proposal, not an experiment request; no new access, implementation, runtime or gate clearance follows. Native root retains patch ownership.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-0610-01` · [reviewed basis b05321b](https://github.com/raiinman/Rock-Man-x64/commit/b05321bda79901d4e50097485c144398c52869f5).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-blocker-questions-01` · [reviewed basis d66f886](https://github.com/raiinman/Rock-Man-x64/commit/d66f886e6d9dec225b391839ac2a1aff56df7a08).
 **Latest repository change observed:** [236967a](https://github.com/raiinman/Rock-Man-x64/commit/236967afaa344a565f15a595d74b0808d1092ae1) · 2026-10-23T23:13:16-07:00 — docs: record hourly evidence review without milestone delta.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
