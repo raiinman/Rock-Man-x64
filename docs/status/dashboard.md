@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-question-01` · [reviewed basis 5c5920c](https://github.com/raiinman/Rock-Man-x64/commit/5c5920cf50bca95ab3680594f6034f533c577ae3).
-**Latest repository change observed:** [e410088](https://github.com/raiinman/Rock-Man-x64/commit/e41008899afba320aa96fe245b85d47bbf4b7bfa) · 2026-10-24T00:17:10-07:00 — docs: answer DOT blocker questions with bounded evidence proposal.
+**Latest repository change observed:** [d6a978d](https://github.com/raiinman/Rock-Man-x64/commit/d6a978dce6d24bc230ebdfc5702fb8a9b737fb45) · 2026-10-24T00:24:16-07:00 — docs: close REA startup blocker and ask Windows capture feasibility.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

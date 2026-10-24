@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "e41008899afba320aa96fe245b85d47bbf4b7bfa",
-    "committed_at": "2026-10-24T00:17:10-07:00",
-    "subject": "docs: answer DOT blocker questions with bounded evidence proposal",
+    "sha": "d6a978dce6d24bc230ebdfc5702fb8a9b737fb45",
+    "committed_at": "2026-10-24T00:24:16-07:00",
+    "subject": "docs: close REA startup blocker and ask Windows capture feasibility",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
