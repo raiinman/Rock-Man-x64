@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-helper-callback-contract-01` · [reviewed basis 09df851](https://github.com/raiinman/Rock-Man-x64/commit/09df851638cc19432fc79869c16c954710282729).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` · [reviewed basis 814f25c](https://github.com/raiinman/Rock-Man-x64/commit/814f25cbce534283821897fa4c992398f1860234).
 **Latest repository change observed:** [769c4ad](https://github.com/raiinman/Rock-Man-x64/commit/769c4ad45897dde6304fa0fd487931b80225b550) · 2026-10-23T18:26:08-07:00 — research: correct helper observer callback lifetime contract.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -254,17 +254,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-helper-callback-contract-01` | s2 v1 | 0 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-callback-contract-01` | boot v1 | 0 / 1 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-callback-contract-01` | roadmap v1 | 5 / 20 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
 
 
 ## Current explanation
 
-**Now:** The helper observer now retains ignored breakpoints. Previous game windows reach opening story but have incomplete selected-call measurements; native A0:49 remains pending.
+**Now:** The helper observer has a host-tested callback correction; both selected-call measurements remain incomplete. The 2,400-frame run ended at loading and the 7,200-frame extension at opening story; native A0:49 remains pending.
 
-**Changed:** Reproduced an early-hit watch-loss defect with actual observer Lua under a host API mock and corrected callback lifetime policy.
+**Changed:** Reviewed at 2026-10-24 01:28 UTC: native coordination acknowledges the published helper/old-value findings and host-only observer correction, partially superseding the earlier helper-uninspected scope while preserving both incomplete emulator attempts.
 
-**Why:** An ignored callback returned false, which the documented debugger API treats as permanent breakpoint removal. This can lose a later selected occurrence.
+**Why:** Bounded direct return-register discard does not remove GPU effects. A file-initialized pointer is not runtime binding, and a host-reproduced watch-loss defect is not a measured diagnosis of the retained runs.
 
-**Next:** Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope.
+**Next:** Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

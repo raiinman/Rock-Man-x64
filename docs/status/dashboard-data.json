@@ -407,17 +407,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-helper-callback-contract-01",
-    "reviewed_through_commit": "09df851638cc19432fc79869c16c954710282729",
-    "summary": "Host audit corrected a documented breakpoint callback contract defect; sixteen host controls pass. Previous incomplete game captures remain incomplete; no new guest execution or native acceptance."
+    "review_id": "2026-10-24-apex-helper-acknowledgment-01",
+    "reviewed_through_commit": "814f25cbce534283821897fa4c992398f1860234",
+    "summary": "Reviewed at 2026-10-24 01:28 UTC: public-source acknowledgment of bounded helper/old-value dataflow, two incomplete selected-chain emulator measurements and a separately host-tested callback correction. Partially supersedes the earlier helper-uninspected scope and distinguishes the loading/opening-story endpoints. No new original-input analysis, execution, research assignment, provenance clearance or native acceptance."
   },
   "overview": {
-    "now": "The helper observer now retains ignored breakpoints. Previous game windows reach opening story but have incomplete selected-call measurements; native A0:49 remains pending.",
-    "changed": "Reproduced an early-hit watch-loss defect with actual observer Lua under a host API mock and corrected callback lifetime policy.",
-    "why": "An ignored callback returned false, which the documented debugger API treats as permanent breakpoint removal. This can lose a later selected occurrence.",
-    "next": "Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope."
+    "now": "The helper observer has a host-tested callback correction; both selected-call measurements remain incomplete. The 2,400-frame run ended at loading and the 7,200-frame extension at opening story; native A0:49 remains pending.",
+    "changed": "Reviewed at 2026-10-24 01:28 UTC: native coordination acknowledges the published helper/old-value findings and host-only observer correction, partially superseding the earlier helper-uninspected scope while preserving both incomplete emulator attempts.",
+    "why": "Bounded direct return-register discard does not remove GPU effects. A file-initialized pointer is not runtime binding, and a host-reproduced watch-loss defect is not a measured diagnosis of the retained runs.",
+    "next": "Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "apex-helper-acknowledgment-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 01:28 UTC: native coordination acknowledges the published helper/old-value findings and host-only observer correction, partially superseding the earlier helper-uninspected scope while preserving both incomplete emulator attempts.",
+      "why": "Bounded direct return-register discard does not remove GPU effects. A file-initialized pointer is not runtime binding, and a host-reproduced watch-loss defect is not a measured diagnosis of the retained runs.",
+      "next": "Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-helper-findings-and-observation-limits-acknowledged--october-24",
+        "research/bios/A049-HELPER.md",
+        "research/bios/A049-HELPER.md#observer-callback-contract-correction",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "helper-callback-contract-01",
       "date": "2026-10-24",
@@ -2249,6 +2264,68 @@
       "date": "2026-10-24",
       "basis_commit": "09df851638cc19432fc79869c16c954710282729",
       "note": "Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-apex-helper-acknowledgment-01",
+      "date": "2026-10-24",
+      "basis_commit": "814f25cbce534283821897fa4c992398f1860234",
+      "note": "Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance.",
       "checklists": [
         {
           "id": "inspection",

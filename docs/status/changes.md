@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · apex-helper-acknowledgment-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 01:28 UTC: native coordination acknowledges the published helper/old-value findings and host-only observer correction, partially superseding the earlier helper-uninspected scope while preserving both incomplete emulator attempts.
+
+**Why:** Bounded direct return-register discard does not remove GPU effects. A file-initialized pointer is not runtime binding, and a host-reproduced watch-loss defect is not a measured diagnosis of the retained runs.
+
+**Next:** Native contract selection remains deferred pending continuation/state-owner mapping, reaching state, minimum completion obligations, current request binding and permitted provenance. This check-in assigns no new research or execution; S2 and initializer gates remain unchanged.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-helper-findings-and-observation-limits-acknowledged--october-24) · [source 2](../../research/bios/A049-HELPER.md) · [source 3](../../research/bios/A049-HELPER.md#observer-callback-contract-correction) · [source 4](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · helper-callback-contract-01
 
 **Evidence class:** research. **Runtime capability advanced:** no.
@@ -419,3 +431,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-helper-callback-contract-01` | s2 v1 | 0 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-callback-contract-01` | boot v1 | 0 / 1 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
 | 2026-10-24 · `2026-10-24-helper-callback-contract-01` | roadmap v1 | 5 / 20 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:28 UTC: public-source coordination and current-summary corrections only. Zero acceptance delta; all eighteen prior observations, twenty-five prior updates, criteria, versions and accepted IDs preserved. No original-input analysis, execution, research assignment or implementation clearance. |
