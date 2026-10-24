@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "91fc478cb588526c5c1885618f4c00f03f7f37c74bb4637f53b2a84489cda33e",
+  "evidence_data_sha256": "8e150137eb365b4b58fa0d405aa1e91f6769d89ab714a19077c099bcf6815bca",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "d7a61ef0d8d425a5915990e27ad9e687197696b6e4b97ff285b4792b9fa34954",
-  "evidence_review_id": "2026-10-24-apex-bounded-evidence-proposal-01",
+  "reviewed_stage_sha256": "75ac338db76a90e2efd333931734b8b96a8bdd1d0a4837860ed1e7364eb14c8f",
+  "evidence_review_id": "2026-10-24-rea-capture-feasibility-question-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -84,6 +84,7 @@
     "f90c5195f0e6d828f56c764639f4e898f76e500806dfa496a5633a55dbad9875",
     "030eefed780464732c10169acb8148acac5854a068ad5968389a314f79545f51",
     "6d485d96ff96b12cafbac7d8a08ec524aecccd976781d33a452bc33a0eed0cd5",
-    "21b8d885ee3c90c49eae78bc8580dbe760608811cafe1afad1acbb22b0f4fb0c"
+    "21b8d885ee3c90c49eae78bc8580dbe760608811cafe1afad1acbb22b0f4fb0c",
+    "91183ac5ce0a05283470e2a5facf68562ff58f557db129c7cea627c4145363d5"
   ]
 }

@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** Native root evaluates the proposal and permitted lineage before any acquisition or implementation step. Hardware/instrumentation prerequisites and the positive oracle remain unresolved; no new run is authorized by this reply.
+**Next useful step:** Review existing Windows capture-adapter knowledge or constraints within the read-only feasibility scope. The acquired-reference proposal remains unadopted and unauthorized; its hardware/instrumentation prerequisites are not a universal native gate. Keep 5.5 metadata separate from 4.x Cordonata and retain the Qt warning. No implementation, installation, capture or new research is requested; native ownership and acceptance gates are unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` · [reviewed basis b637a48](https://github.com/raiinman/Rock-Man-x64/commit/b637a48c28caaba2735ac21c9568f03c5a14a428).
+**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-question-01` · [reviewed basis 5c5920c](https://github.com/raiinman/Rock-Man-x64/commit/5c5920cf50bca95ab3680594f6034f533c577ae3).
 **Latest repository change observed:** [e410088](https://github.com/raiinman/Rock-Man-x64/commit/e41008899afba320aa96fe245b85d47bbf4b7bfa) · 2026-10-24T00:17:10-07:00 — docs: answer DOT blocker questions with bounded evidence proposal.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

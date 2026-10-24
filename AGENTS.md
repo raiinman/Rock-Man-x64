@@ -103,6 +103,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - Controlled BIOS/emulator diagnostics are permitted as separately labeled research—not hardware or native-boot proof; the finished game must remain native Windows without a BIOS/emulator runtime dependency or reused port/mod/emulator implementation, and original bytes, captures and private packages remain excluded from publication.
 - Keep private notes, credentials, unrelated projects, original game data, and private validation packages out of this public repository.
 - Narrow coordination exception: the owner-requested sanitized REA startup-flow and Switchboard visual-reference questions may appear in `docs/status/decisions-and-handoff.md`. This does not admit their private material, assets, implementation history or progress metrics into the repository or Rock Man acceptance data.
+- The same narrow exception covers the requested sanitized, read-only REA Windows-capture feasibility question; it authorizes no implementation, installation, capture execution or private-file transfer.
 - The current deliverables are documentation, metadata, original explanatory graphics and the narrowly scoped documentation-maintenance tooling and read-only documentation UI. There is no game runtime or game build command here.
 
 ## Documentation and Publication Contract
