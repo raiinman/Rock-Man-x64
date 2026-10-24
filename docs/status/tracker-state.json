@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "6ae5f1877254ab6421604802fc7fcf05380a35ccf7f9e29be43f06908b6c20a5",
+  "evidence_data_sha256": "4a244646f3a41c60a388d1211ceaa998ead11e0b56b7661439873467684c14aa",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "7713427dcfa07e2812cf269315b757436656636d9dcd9d926ab68f9194312995",
-  "evidence_review_id": "2026-10-24-apex-effect-oracle-gap-receipt-01",
+  "reviewed_stage_sha256": "4029cd1ba66b1eda62e3075a928b58e7f180c2954ea229561325f51df81b30f6",
+  "evidence_review_id": "2026-10-24-hourly-zero-delta-0610-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -81,6 +81,7 @@
     "271fc3e6089d171186fb982ec77b1862b65d5067df67affd579ebb91171ead62",
     "ef6bd1a193df5d177ff5a9c436c220e20034e81f3816d1747d14d9a8d2010c0c",
     "c84b982993d2d1a7bf4360122116ad7312aa3bd197e29669c8708936840cd926",
-    "f90c5195f0e6d828f56c764639f4e898f76e500806dfa496a5633a55dbad9875"
+    "f90c5195f0e6d828f56c764639f4e898f76e500806dfa496a5633a55dbad9875",
+    "030eefed780464732c10169acb8148acac5854a068ad5968389a314f79545f51"
   ]
 }

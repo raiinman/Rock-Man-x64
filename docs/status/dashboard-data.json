@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-apex-effect-oracle-gap-receipt-01",
-    "reviewed_through_commit": "731b61c4babf1404bf7a4fd1433c70153f7cc7b9",
-    "summary": "Reviewed at 2026-10-24 05:47:09 UTC: accepted the returned public-only gap card as the requested missing-assertion/evidence-specification outcome, explicitly not a positive oracle. Expected-result lineage and a supported effect/commit predicate remain absent. No workload, private receipt, implementation, execution or gate clearance is inferred. All earlier records and counts remain exact; zero native acceptance delta. Actual review time stays separate from repository activity."
+    "review_id": "2026-10-24-hourly-zero-delta-0610-01",
+    "reviewed_through_commit": "b05321bda79901d4e50097485c144398c52869f5",
+    "summary": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly check of current public head/contracts, APEX replies, unchanged saved evidence and terminal native outcomes. No new Rock Man implementation/test result, workload oracle, accepted criterion or gate clearance. The completed negative-oracle card and all prior records are preserved. Actual review time is recorded separately from repository activity; no new assignment or execution authority is inferred."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 05:47:09 UTC: accepted APEX-1's returned gap card as completion of the bounded missing-assertion/evidence-specification task only. Its disposition remains NOT A POSITIVE ORACLE: the W/S, F-to-F-prime and correlated C assertion is specified, not established, and expected-result lineage is missing.",
+    "changed": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly review. Current public head, APEX replies, saved evidence and terminal native outcomes show no new Rock Man implementation, test result or accepted criterion since the last review. The completed gap card remains NOT A POSITIVE ORACLE; no repeat task is assigned. Reviewed at 2026-10-24 05:47:09 UTC: accepted APEX-1's returned gap card as completion of the bounded missing-assertion/evidence-specification task only. Its disposition remains NOT A POSITIVE ORACLE: the W/S, F-to-F-prime and correlated C assertion is specified, not established, and expected-result lineage is missing.",
     "why": "A clear missing state-transition assertion and minimal evidence specification complete the requested documentation task without supplying a permitted workload, justified graphics-state effect or commit predicate. Observed post-state and sampled return cannot supply their own expected-result oracle.",
     "next": "No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged."
   },
   "updates": [
+    {
+      "id": "hourly-zero-delta-0610-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly review. Current public head, APEX replies, saved evidence and terminal native outcomes show no new Rock Man implementation, test result or accepted criterion since the last review. The completed gap card remains NOT A POSITIVE ORACLE; no repeat task is assigned.",
+      "why": "An actual hourly check is recorded without treating documentation activity or elapsed time as native progress. Expected-result lineage and a supported graphics-state effect/commit predicate remain missing; the completed gap-card task is not a positive workload oracle.",
+      "next": "No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-effect-oracle-gap-card-completed--october-24",
+        "docs/status/current-status.md",
+        "docs/status/validation.md",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "apex-effect-oracle-gap-receipt-01",
       "date": "2026-10-24",
@@ -3549,6 +3564,68 @@
       "date": "2026-10-24",
       "basis_commit": "731b61c4babf1404bf7a4fd1433c70153f7cc7b9",
       "note": "Reviewed at 2026-10-24 05:47:09 UTC: accepted the completed gap card as a missing-assertion/evidence specification only; NOT A POSITIVE ORACLE and zero native acceptance delta. All thirty-four prior observations, forty-one updates, definitions, accepted IDs, counts, research and handoffs preserved. Expected-result lineage remains missing. No repeat task, new experiment, workload acceptance, implementation authority or gate clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-hourly-zero-delta-0610-01",
+      "date": "2026-10-24",
+      "basis_commit": "b05321bda79901d4e50097485c144398c52869f5",
+      "note": "Reviewed at 2026-10-24 06:10:57 UTC: genuine zero-delta hourly review; saved native evidence and terminal outcomes unchanged. All thirty-five prior observations, forty-two updates, definitions, accepted IDs, counts, research and handoffs preserved. The negative-oracle gap card stays complete; no repeated assignment, new native/game/research execution or gate clearance.",
       "checklists": [
         {
           "id": "inspection",
