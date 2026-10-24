@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "d6a978dce6d24bc230ebdfc5702fb8a9b737fb45",
-    "committed_at": "2026-10-24T00:24:16-07:00",
-    "subject": "docs: close REA startup blocker and ask Windows capture feasibility",
+    "sha": "2034ac487a991379021f007eccf24a1ba9706f28",
+    "committed_at": "2026-10-24T00:47:45-07:00",
+    "subject": "docs: answer read-only Windows capture feasibility",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

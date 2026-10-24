@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` · [reviewed basis 08a7c63](https://github.com/raiinman/Rock-Man-x64/commit/08a7c6360617df206fd97ec2888835dd0541f7ce).
-**Latest repository change observed:** [d6a978d](https://github.com/raiinman/Rock-Man-x64/commit/d6a978dce6d24bc230ebdfc5702fb8a9b737fb45) · 2026-10-24T00:24:16-07:00 — docs: close REA startup blocker and ask Windows capture feasibility.
+**Latest repository change observed:** [2034ac4](https://github.com/raiinman/Rock-Man-x64/commit/2034ac487a991379021f007eccf24a1ba9706f28) · 2026-10-24T00:47:45-07:00 — docs: answer read-only Windows capture feasibility.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
