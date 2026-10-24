@@ -203,3 +203,27 @@ The recorded hourly check-ins reviewed saved evidence and public handoffs; they 
 **Publication boundary:** this public coordination pass is authorized for already-public evidence only. It does not authorize sharing private declarations, source-mapping notes or packages through this repository or its comments, under the [existing publication contract](../../AGENTS.md#documentation-and-publication-contract). The concrete private-source answer cannot be transmitted by this public-only update. This is a publication-scope limit, not a claimed source-access failure or a prohibition on separately authorized private work.
 
 The exact source-or-missing-function response remains outstanding with native development under the active request; this clarification neither reassigns it nor substitutes more generic scaffolding. The [permitted-input/provenance review](../../research/bios/PROVENANCE-REVIEW.md) and all native completion, Windows, S2 and initializer gates remain unchanged. No new source inspection, implementation, execution, capture or acceptance is claimed.
+
+
+### Native response: sanitized missing-function answer — October 24
+
+Reviewed at **2026-10-24 04:50:38 UTC** against public main [`c560c86`](https://github.com/raiinman/Rock-Man-x64/commit/c560c861f12eb4a8f8a4b3fa69f7fa98618a5422). The owner approved this specific sanitized publication at **04:48:45 UTC**. The [earlier public-only clarification](#native-response-concrete-adapter-request-and-public-response-scope--october-24) remains historical; this later authorization permits the bounded explanation below, not private source or package transfer.
+
+**Outcome: producer absent; proposed missing function identified.** This answers the missing-function outcome of the [concrete DOT request](../../DOT.md#required-next-response-actual-adapter-source-or-exact-missing-function), not its source-ready outcome. Evidence class: sanitized native source-review attestation, not runtime acceptance or publicly reproducible source inspection.
+
+The next proposed native operation is **`Entry::fulfill_graphics_service49`**, attached to the existing pending-service boundary. **That is a proposed name, not an existing API or implemented adapter.** The reviewed native path lacks the real service submission/terminal-result producer and implemented post-return consumer. The existing GPU status owner is an observation journal, not that producer; clearing pending state or injecting sampled returns would not fulfill the service.
+
+| Boundary | Known from the reviewed source | Still missing |
+|---|---|---|
+| Pending occurrence and ownership | The pending request records call/return boundaries, stack pointer and three arguments with value/knownness; Session and Entry already own the relevant state. | An accepted connection from that owned occurrence to the actual service producer and continuation. |
+| Referenced workload | Argument values and knownness are retained. | Permitted workload interpretation and lifetime; a value alone does not define a valid workload. |
+| Producer and effects | The status journal records observations only. | Real submission acceptance/failure, genuine terminal delivery, required effects and their ordering. |
+| Consumer | The pending occurrence retains the continuation boundary. | An implemented post-return consumer and its completion contract. |
+
+**Smallest intended acceptance test:** pass one independently specified, permitted workload through the actual pending occurrence. Without a terminal result, retain that occurrence and its continuation. After the real producer commits the specified effects, resume the same continuation exactly once. Duplicate terminal delivery must not repeat submission, effects or continuation. **The permitted workload and expected-effect oracle are not yet established, so a complete positive integration test cannot honestly be written yet.** A fake terminal-success producer would test plumbing only; another retained-refusal test would duplicate existing coverage. No such new test was executed for this handoff.
+
+**Patch owner:** native development's root coordinator, covering the Session-owned service and Entry fulfillment/continuation. Implementation is pending the accepted producer/effect/consumer and [permitted-input/provenance contract](../../research/bios/PROVENANCE-REVIEW.md), **not blocked by access to the mapped native source**.
+
+**Why the earlier response was read-only:** source access is working. The reported **04:22 UTC** reply answered an explicitly bounded read-only recheck; the new actionable request was [committed at **04:32:37 UTC**](https://github.com/raiinman/Rock-Man-x64/commit/4c75c114c99e621a1be48df5ba388bff3e058c69) and read during the subsequent mapping response. That chronology explains the 04:22 reply, not every earlier check-in. Earlier mapping had already identified the absent producer/consumer and unresolved permitted semantics; no unread-request or access-failure diagnosis is substituted for those facts.
+
+This publication supplies a concrete proposed operation, known and missing inputs/effects, patch ownership and the smallest test boundary. It establishes no implementation, private-file receipt/transfer, original-input inspection, runtime testing, native boot or Windows acceptance. The publication approval does not clear provenance, initializer or S2 gates. All accepted counts remain unchanged.

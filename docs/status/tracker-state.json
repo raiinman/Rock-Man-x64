@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "df80ff8a7cd54edba1e24a0021bf206913327f3ced4f7fe97d4ec4109e9f4c3e",
+  "evidence_data_sha256": "52696c6ae797688f5cd9f47545d50af22c86228f0f97aaec9bbf62372e37534b",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "1c5c6a2a42a07569f942ea0c80463d77288244bf28a3c9079db70013430cf14e",
-  "evidence_review_id": "2026-10-24-native-adapter-request-scope-01",
+  "reviewed_stage_sha256": "0e09acdd381922af4fc6ad79b6ce5632cf4b55036a270b365d3659645c19da6c",
+  "evidence_review_id": "2026-10-24-native-missing-function-handoff-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -76,6 +76,7 @@
     "feab82fc2963337010315618c5019691decd8489351eb49205ea89663a746854",
     "e45f10fdbc57f0384ae5223cc667ab1ac3f41469ed69bb485c18086b006f55c4",
     "8c6839f9ba9dc628d3260f1d9cd33f6ec970c1a6ab446dbe01c02be2579ae76d",
-    "1448a3acb3cfd73606d1fc6691805e747a2ea5bc7901ce38d28686efcff0afe6"
+    "1448a3acb3cfd73606d1fc6691805e747a2ea5bc7901ce38d28686efcff0afe6",
+    "da8094803170d47ffc309fb2d842a200e2be33054ea4de7eb2139d37e2f1b6e8"
   ]
 }

@@ -5,6 +5,7 @@ Scope: checkpoint, validation and decision records in this directory. Maintain d
 Index: [visual dashboard and evidence ledger](dashboard.md), [dashboard metadata](dashboard-data.json), [current checkpoint](current-status.md), [validation and provenance](validation.md), [decisions and handoff](decisions-and-handoff.md).
 
 - While the direct coordination channel is unavailable, review public handoffs and revisions at each checkpoint and append only public-sourced coordination deltas for APEX-1. Preserve existing messages; this temporary coordination transfers neither ownership nor execution authority.
+- The owner approved the specific sanitized native missing-function handoff on 2026-10-24: its proposed operation, reviewed knowns/unknowns, smallest acceptance-test boundary and patch ownership may be summarized in original prose. This bounded exception excludes code, private paths, hashes, raw notes and packages; it grants no general private-source transfer, implementation/execution authority or provenance, initializer or S2 clearance.
 - Date each material checkpoint and identify its frozen/unfrozen, accepted/pending and execution-platform status.
 - Prefer terminal per-stage receipts over stale overviews. A runner exit 0 cannot erase failed child stages; missing-fixture repair is not a passed rerun.
 - Separate private project attestation, static analysis, synthetic checks, connected runtime, Windows execution and design proposals.

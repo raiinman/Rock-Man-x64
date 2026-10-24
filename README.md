@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
+**Where we are:** A concrete sanitized missing-function response is available. The proposed native fulfillment operation is not implemented; real service production and the post-return consumer remain absent from the reviewed path.
 
-**Next useful step:** Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion.
+**Next useful step:** Native development root owns the proposed service/continuation patch. Establish the permitted producer/effect/consumer contract and workload oracle before implementing and testing pending retention, real effects, one continuation resume and duplicate refusal. Publication approval does not clear provenance, initializer, S2 or execution gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-native-adapter-request-scope-01` · [reviewed basis 914ade1](https://github.com/raiinman/Rock-Man-x64/commit/914ade14b56a0becc22354620113b15673698e75).
+**Last evidence review:** 2026-10-24 · `2026-10-24-native-missing-function-handoff-01` · [reviewed basis c560c86](https://github.com/raiinman/Rock-Man-x64/commit/c560c861f12eb4a8f8a4b3fa69f7fa98618a5422).
 **Latest repository change observed:** [47bf330](https://github.com/raiinman/Rock-Man-x64/commit/47bf330bf1bdc9cab55f9e0e27cbc14137a12157) · 2026-10-23T21:44:48-07:00 — docs: clarify public scope of concrete adapter handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

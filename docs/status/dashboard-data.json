@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-native-adapter-request-scope-01",
-    "reviewed_through_commit": "914ade14b56a0becc22354620113b15673698e75",
-    "summary": "Reviewed at 2026-10-24 04:42:24 UTC: public-only clarification of the concrete adapter source-or-missing-function request. Earlier hourly records establish documentation-review scope, not a verified cause for the unanswered source request. Public producer/consumer bindings remain unestablished; no private receipt, source-ready status, source absence or access failure is asserted. Private source transmission is outside this public coordination pass. Zero acceptance delta; prior history and ownership preserved."
+    "review_id": "2026-10-24-native-missing-function-handoff-01",
+    "reviewed_through_commit": "c560c861f12eb4a8f8a4b3fa69f7fa98618a5422",
+    "summary": "Reviewed at 2026-10-24 04:50:38 UTC: owner-approved sanitized native source-review answer supplies the producer-absent/missing-function outcome. Entry::fulfill_graphics_service49 is proposed, not existing or implemented. The mapped producer and post-return consumer are absent; the permitted workload/effect oracle remains unresolved. Source access works; the 04:22 read-only reply preceded the 04:32:37 request. Zero acceptance delta; earlier public-only clarification and all history retained."
   },
   "overview": {
-    "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Reviewed at 2026-10-24 04:42:24 UTC: acknowledged the concrete source-ready, exact missing-function or access-boundary request without treating this public clarification as its fulfillment. Prior hourly records were evidence reviews; they do not establish a source-access failure or the cause of the unanswered request. Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.",
-    "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
-    "next": "Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion."
+    "now": "A concrete sanitized missing-function response is available. The proposed native fulfillment operation is not implemented; real service production and the post-return consumer remain absent from the reviewed path.",
+    "changed": "Reviewed at 2026-10-24 04:50:38 UTC: supplied the sanitized missing-function answer: proposed Entry::fulfill_graphics_service49 at the pending-service boundary, not an existing adapter. The real producer and post-return consumer are absent from the reviewed path; the status journal is not a producer.",
+    "why": "The pending occurrence already retains ownership and argument knownness, but permitted workload interpretation/lifetime and required effects/ordering remain unspecified. Without an accepted workload/effect oracle there is no honest complete positive integration test; a fake success would test plumbing only.",
+    "next": "Native development root owns the proposed service/continuation patch. Establish the permitted producer/effect/consumer contract and workload oracle before implementing and testing pending retention, real effects, one continuation resume and duplicate refusal. Publication approval does not clear provenance, initializer, S2 or execution gates."
   },
   "updates": [
+    {
+      "id": "native-missing-function-handoff-01",
+      "date": "2026-10-24",
+      "kind": "source-review",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 04:50:38 UTC: supplied the sanitized missing-function answer: proposed Entry::fulfill_graphics_service49 at the pending-service boundary, not an existing adapter. The real producer and post-return consumer are absent from the reviewed path; the status journal is not a producer.",
+      "why": "The pending occurrence already retains ownership and argument knownness, but permitted workload interpretation/lifetime and required effects/ordering remain unspecified. Without an accepted workload/effect oracle there is no honest complete positive integration test; a fake success would test plumbing only.",
+      "next": "Native development root owns the proposed service/continuation patch. Establish the permitted producer/effect/consumer contract and workload oracle before implementing and testing pending retention, real effects, one continuation resume and duplicate refusal. Publication approval does not clear provenance, initializer, S2 or execution gates.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-sanitized-missing-function-answer--october-24",
+        "DOT.md#required-next-response-actual-adapter-source-or-exact-missing-function",
+        "research/bios/NATIVE-COMPLETION-CANDIDATE.md#native-integration-seam-still-required",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "native-adapter-request-scope-01",
       "date": "2026-10-24",
@@ -3166,6 +3181,68 @@
       "date": "2026-10-24",
       "basis_commit": "914ade14b56a0becc22354620113b15673698e75",
       "note": "Reviewed at 2026-10-24 04:42:24 UTC: public coordination clarification only; zero acceptance delta. All twenty-nine prior observations, thirty-six updates, definitions, accepted IDs, counts, research, active request and prior handoffs preserved. No private source-ready/receipt claim, source-absence or access-failure diagnosis, implementation, runtime test or provenance clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-native-missing-function-handoff-01",
+      "date": "2026-10-24",
+      "basis_commit": "c560c861f12eb4a8f8a4b3fa69f7fa98618a5422",
+      "note": "Reviewed at 2026-10-24 04:50:38 UTC: sanitized source-review handoff only; zero acceptance delta. All thirty prior observations, thirty-seven updates, definitions, accepted IDs, counts, research and historical public-only clarification are preserved. Proposed function and intended test are not implementation or execution; provenance, initializer and S2 gates remain unchanged.",
       "checklists": [
         {
           "id": "inspection",
