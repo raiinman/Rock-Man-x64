@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "495394b7ac7fa680363ae4be38d0a8198a7ad0f4",
-    "committed_at": "2026-10-23T17:22:10-07:00",
-    "subject": "docs: add DOT handoff entry point and public evidence gaps",
+    "sha": "cb8c14c5d8d4ce398e752fced9aa071b5fee5720",
+    "committed_at": "2026-10-23T17:26:45-07:00",
+    "subject": "docs: record reviewed editor and renderer repairs; fix heatmap markers",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

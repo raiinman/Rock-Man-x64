@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` · [reviewed basis 9cf93db](https://github.com/raiinman/Rock-Man-x64/commit/9cf93dbd4940b50261c1c5267fc98b3ce5ad6975).
-**Latest repository change observed:** [495394b](https://github.com/raiinman/Rock-Man-x64/commit/495394b7ac7fa680363ae4be38d0a8198a7ad0f4) · 2026-10-23T17:22:10-07:00 — docs: add DOT handoff entry point and public evidence gaps.
+**Latest repository change observed:** [cb8c14c](https://github.com/raiinman/Rock-Man-x64/commit/cb8c14c5d8d4ce398e752fced9aa071b5fee5720) · 2026-10-23T17:26:45-07:00 — docs: record reviewed editor and renderer repairs; fix heatmap markers.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
