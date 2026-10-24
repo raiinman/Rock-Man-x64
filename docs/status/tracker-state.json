@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "42281d3d218fcb279ff8b51eea6c15e4508ca047",
-    "committed_at": "2026-10-24T07:09:11-07:00",
-    "subject": "docs: record hourly zero-delta evidence review at 14:07 UTC",
+    "sha": "7e1c609ffb72000c21da16909674d8bb3b5f4882",
+    "committed_at": "2026-10-24T08:06:18-07:00",
+    "subject": "docs: record hourly zero-delta evidence review at 15:04 UTC",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
