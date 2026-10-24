@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-a049-helper-state-01` · [reviewed basis 8068518](https://github.com/raiinman/Rock-Man-x64/commit/8068518e8932cbb524369a47e3f760d26709bb32).
-**Latest repository change observed:** [12f8d42](https://github.com/raiinman/Rock-Man-x64/commit/12f8d424897ff1aa441a7dbb5e79eea2fd084263) · 2026-10-23T18:08:18-07:00 — docs: record verified deployed heatmap repair and hourly evidence review.
+**Latest repository change observed:** [b711c28](https://github.com/raiinman/Rock-Man-x64/commit/b711c285d141c87cff391f0acc518782cc608ddb) · 2026-10-23T18:17:04-07:00 — research: identify helper halfword state and preserve targeted probe limits.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->

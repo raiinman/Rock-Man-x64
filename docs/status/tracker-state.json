@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "12f8d424897ff1aa441a7dbb5e79eea2fd084263",
-    "committed_at": "2026-10-23T18:08:18-07:00",
-    "subject": "docs: record verified deployed heatmap repair and hourly evidence review",
+    "sha": "b711c285d141c87cff391f0acc518782cc608ddb",
+    "committed_at": "2026-10-23T18:17:04-07:00",
+    "subject": "research: identify helper halfword state and preserve targeted probe limits",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
