@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-hourly-zero-delta-0309-01",
-    "reviewed_through_commit": "ef46f354499ca2419bf117847b970cc202f71730",
-    "summary": "Reviewed at 2026-10-24 03:09:45 UTC: genuine zero-delta hourly check of the current public tracker, retained final diagnostic-preview receipts and published coordination handoffs. No new implementation, game-build or runtime evidence was found. Windows presentation qualification, the real native request/frame-owner and GPU producer/consumer contract, A0:49 and provenance remain unresolved. All acceptance criteria, counts and prior records are unchanged; review time is separate from repository activity."
+    "review_id": "2026-10-24-hourly-zero-delta-0407-01",
+    "reviewed_through_commit": "d1279674c969f06ab53031d9f385096196dcf208",
+    "summary": "Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly check of the current public tracker, retained final diagnostic-preview receipts, terminal delegated outcomes and published coordination handoffs. No new implementation, game-build or runtime evidence was found. Windows presentation qualification, the real native request/frame-owner and GPU producer/consumer contract, A0:49 and provenance remain unresolved. All acceptance criteria, counts and prior records are unchanged; review time is separate from repository activity."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Hourly review at 2026-10-24 03:09:45 UTC: zero evidence and acceptance delta; retained receipts and public handoffs are unchanged. No new native/game/research execution or browser capture was performed. Reviewed at 2026-10-24 02:45 UTC: native coordination distinguishes the generic gate’s reported local obligations from the still-required real producer/consumer adapter contract. Windows results remain author-reported, private receipt is unconfirmed, and earlier research and diagnostic-preview findings are preserved without native integration credit.",
+    "changed": "Hourly review at 2026-10-24 04:07:15 UTC: zero evidence and acceptance delta; retained receipts and public handoffs are unchanged. No new native/game/research execution or browser capture was performed. Reviewed at 2026-10-24 02:45 UTC: native coordination distinguishes the generic gate’s reported local obligations from the still-required real producer/consumer adapter contract. Windows results remain author-reported, private receipt is unconfirmed, and earlier research and diagnostic-preview findings are preserved without native integration credit.",
     "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
     "next": "Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot."
   },
   "updates": [
+    {
+      "id": "hourly-zero-delta-0407-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 04:07:15 UTC: a genuine zero-delta hourly check found no new implementation, game-build or runtime evidence beyond the retained diagnostic-preview receipts, terminal delegated outcomes and already recorded public handoffs. The roadmap remains 5/20; every local checklist and validation count is unchanged.",
+      "why": "The hourly heatmap check-in records when the evidence was actually reviewed, not repository activity or invented progress. Saved results retain their original platform, provenance and execution limits; documentation checks do not add native acceptance.",
+      "next": "Keep actual Windows presentation/UI qualification, the real request/frame-owner and GPU producer/consumer adapter contract, A0:49, S2, initializer and provenance gates pending. No new capture, native/game/research test, implementation or execution is requested by this review.",
+      "evidence": [
+        "docs/status/current-status.md#diagnostic-preview-outcome-repair--october-24",
+        "docs/history/validation-history.md#diagnostic-preview-outcome-repair-evidence--october-24",
+        "docs/status/decisions-and-handoff.md#native-response-generic-completion-candidate-contract-review--october-24",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "hourly-zero-delta-0309-01",
       "date": "2026-10-24",
@@ -2935,6 +2950,68 @@
       "date": "2026-10-24",
       "basis_commit": "ef46f354499ca2419bf117847b970cc202f71730",
       "note": "Reviewed at 2026-10-24 03:09:45 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-six earlier observations, thirty-three updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-hourly-zero-delta-0407-01",
+      "date": "2026-10-24",
+      "basis_commit": "d1279674c969f06ab53031d9f385096196dcf208",
+      "note": "Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity.",
       "checklists": [
         {
           "id": "inspection",
