@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` · [reviewed basis d73ec0c](https://github.com/raiinman/Rock-Man-x64/commit/d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a).
+**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` · [reviewed basis defc1f8](https://github.com/raiinman/Rock-Man-x64/commit/defc1f852ed8e89878c8a1e278ee320bc8aae47d).
 **Latest repository change observed:** [5de2791](https://github.com/raiinman/Rock-Man-x64/commit/5de279148fde15098e574f7d0ab16d184a54f477) · 2026-10-24T10:54:16-07:00 — docs: make PSX-Atlas primary reference and coordinate bounded cloud gaps.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -470,17 +470,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
 | 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
 | 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
 
 
 ## Current explanation
 
-**Now:** PSX-Atlas is the primary reference. The completed APEX-1 gap card remains a missing-assertion/evidence specification, not a positive oracle or native acceptance.
+**Now:** PSX-Atlas is the primary reference. One source-only applicability/provenance response is requested from APEX-1; no running worker or positive oracle is claimed.
 
-**Changed:** Reviewed at 2026-10-24 17:52:02 UTC: PSX-Atlas is now the primary first reference for Rock Man x64. Root and research/status contracts require pinned section/revision/evidence-class citations, independent cross-checks for gaps and coordinated, named-owner cloud work through the existing APEX-1 handoff. This is a documentation policy change, not native acceptance.
+**Changed:** Reviewed at 2026-10-24 17:56:05 UTC: a separate Atlas-first handoff asks APEX-1 for one bounded source-only applicability/provenance reconciliation using pinned sections and retained evidence. Initial static platform mapping is reference evidence only, not a permitted project workload, effect/commit oracle or native acceptance.
 
-**Why:** Reference priority helps the team reuse existing answers without mistaking restricted-provenance reference material for a permitted native effect oracle or execution authority.
+**Why:** The newly prioritized reference can narrow the question without replacing the missing project-specific semantics or independent expected-result lineage.
 
-**Next:** Use Atlas first, then reconcile a precise unresolved question with APEX-1 retained research and verified available, already-authorized reasoning GPT Sol cloud tasks. Preserve the completed gap card and portability clarification; no duplicate task, assumed host access or native gate advance follows.
+**Next:** APEX-1 owns the requested reconciliation and should name any verified available, authorized reasoning GPT Sol cloud delegates. Native root will review a genuinely new retained assertion or an explicit no-new-answer result; do not repeat the completed gap card or collect a new experiment.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

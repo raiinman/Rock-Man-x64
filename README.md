@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** PSX-Atlas is the primary reference. The completed APEX-1 gap card remains a missing-assertion/evidence specification, not a positive oracle or native acceptance.
+**Where we are:** PSX-Atlas is the primary reference. One source-only applicability/provenance response is requested from APEX-1; no running worker or positive oracle is claimed.
 
-**Next useful step:** Use Atlas first, then reconcile a precise unresolved question with APEX-1 retained research and verified available, already-authorized reasoning GPT Sol cloud tasks. Preserve the completed gap card and portability clarification; no duplicate task, assumed host access or native gate advance follows.
+**Next useful step:** APEX-1 owns the requested reconciliation and should name any verified available, authorized reasoning GPT Sol cloud delegates. Native root will review a genuinely new retained assertion or an explicit no-new-answer result; do not repeat the completed gap card or collect a new experiment.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` · [reviewed basis d73ec0c](https://github.com/raiinman/Rock-Man-x64/commit/d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a).
+**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` · [reviewed basis defc1f8](https://github.com/raiinman/Rock-Man-x64/commit/defc1f852ed8e89878c8a1e278ee320bc8aae47d).
 **Latest repository change observed:** [5de2791](https://github.com/raiinman/Rock-Man-x64/commit/5de279148fde15098e574f7d0ab16d184a54f477) · 2026-10-24T10:54:16-07:00 — docs: make PSX-Atlas primary reference and coordinate bounded cloud gaps.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

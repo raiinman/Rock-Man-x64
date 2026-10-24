@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · atlas-applicability-handoff-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 17:56:05 UTC: a separate Atlas-first handoff asks APEX-1 for one bounded source-only applicability/provenance reconciliation using pinned sections and retained evidence. Initial static platform mapping is reference evidence only, not a permitted project workload, effect/commit oracle or native acceptance.
+
+**Why:** The newly prioritized reference can narrow the question without replacing the missing project-specific semantics or independent expected-result lineage.
+
+**Next:** APEX-1 owns the requested reconciliation and should name any verified available, authorized reasoning GPT Sol cloud delegates. Native root will review a genuinely new retained assertion or an explicit no-new-answer result; do not repeat the completed gap card or collect a new experiment.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#atlas-first-reconciliation-request-for-apex-1--october-24) · [source 2](../../AGENTS.md#primary-reference-and-coordinated-gaps) · [source 3](../../research/bios/ORIGINAL-GAME-STARTUP.md#caller-focused-follow-up) · [source 4](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · atlas-primary-reference-policy-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1067,3 +1079,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
 | 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
 | 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
+| 2026-10-24 · `2026-10-24-atlas-applicability-handoff-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:56:05 UTC: substantive Atlas-first coordination request with zero native acceptance delta. All 54 prior observations and 61 updates remain exact. Reference mapping is not a positive oracle, native implementation or runtime result. |
