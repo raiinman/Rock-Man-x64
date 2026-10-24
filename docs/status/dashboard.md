@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-23 · `2026-10-23-live-heatmap-docs-01` · [reviewed basis 925b6ba](https://github.com/raiinman/Rock-Man-x64/commit/925b6ba107f2f811410cb049d93c7b7ffb9c9b60).
-**Latest repository change observed:** [ec96aac](https://github.com/raiinman/Rock-Man-x64/commit/ec96aac348c337256715b1f29aebad4557e2c51e) · 2026-10-23T16:55:50-07:00 — docs: regenerate evidence receipt from canonical LF bytes.
-**Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
+**Latest repository change observed:** [6ea5381](https://github.com/raiinman/Rock-Man-x64/commit/6ea5381e26f478fd421e3811405f1986ccc0fbf1) · 2026-10-23T17:04:20-07:00 — docs: add full-page red milestone heatmap and verified delivery review.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 

@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "ec96aac348c337256715b1f29aebad4557e2c51e",
-    "committed_at": "2026-10-23T16:55:50-07:00",
-    "subject": "docs: regenerate evidence receipt from canonical LF bytes",
+    "sha": "6ea5381e26f478fd421e3811405f1986ccc0fbf1",
+    "committed_at": "2026-10-23T17:04:20-07:00",
+    "subject": "docs: add full-page red milestone heatmap and verified delivery review",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "2be0d2cc3836c5c0a832050b44680a9830b815b9718720508dda45575a86f396",
