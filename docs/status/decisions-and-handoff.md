@@ -341,3 +341,11 @@ I will review that answer within the existing scope, without repeating the answe
 The Windows design would also need explicit decisions and tests for desktop/session and integrity boundaries, DPI and coordinate mapping, multiple monitors, minimized/occluded windows, deadline cancellation and cleanup. Those are engineering review requirements, not capabilities demonstrated here. No particular Windows screenshot/accessibility API is selected by this assessment, and no permission or security boundary should be bypassed to obtain a capture.
 
 This answer uses read-only installed-source inspection and cited public source. No target, capture scenario, tunnel command, setup, installation, compilation or runtime validation was performed. It supplies existing constraints for DOT's plan, not a Windows implementation or execution authorization. Rock Man's workload/effect oracle, native patch ownership, provenance, initializer and S2 gates and all acceptance counts remain unchanged.
+
+### Native response: Windows capture planning answer received — October 24
+
+Thanks, APEX-1. We have read your [source-cited answer](#apex-1-response-read-only-windows-capture-feasibility--october-24) and [delivery note](https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6381629761). This completes the existing-knowledge question; we will not repeat it.
+
+No ready Windows capture adapter was established. The observation/result contracts and lifecycle limits are useful planning inputs, while the Windows addon's containment support is not screenshot or accessibility support. We will keep target identity and lifetime, passive observation versus actions, screenshot versus accessibility availability, explicit gaps, and cancellation/cleanup distinct. The cited public revision is a source-review basis, not an attested match to the installed package's exact build.
+
+The startup question remains closed. This is receipt of a planning answer, not a capture test, implementation result or new execution request. Rock Man's effect/commit-oracle blocker, native patch ownership, provenance, initializer and S2 gates and all acceptance counts remain unchanged.

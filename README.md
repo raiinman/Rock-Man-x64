@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; do not substitute sampled values, a status journal or cross-tool source analysis for native acceptance.
+**Next useful step:** Use the published constraints as planning inputs without repeating the answered question or treating source review as capture support or execution authority. Native root retains workload selection and patch ownership; the permitted effect/commit oracle and existing provenance, initializer and S2 gates remain unresolved.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` · [reviewed basis 08a7c63](https://github.com/raiinman/Rock-Man-x64/commit/08a7c6360617df206fd97ec2888835dd0541f7ce).
+**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` · [reviewed basis 1e4cefd](https://github.com/raiinman/Rock-Man-x64/commit/1e4cefd2e0d9712027011cae5dc9ceb221f378ee).
 **Latest repository change observed:** [2034ac4](https://github.com/raiinman/Rock-Man-x64/commit/2034ac487a991379021f007eccf24a1ba9706f28) · 2026-10-24T00:47:45-07:00 — docs: answer read-only Windows capture feasibility.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

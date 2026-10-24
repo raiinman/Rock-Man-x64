@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "5319e6dae9ae8bdaeb112ba63b16754213b32c8b7b72201a02fe55c05acd78c0",
+  "evidence_data_sha256": "909587e4312fbed3b2b5cf8b84fef5234ff3fa22874c6ee6c7720533a41d0545",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "873bbbda89877f9510d816713136deace3bcea55e8abb2f5f1caebf973df6aa2",
-  "evidence_review_id": "2026-10-24-rea-capture-feasibility-answer-01",
+  "reviewed_stage_sha256": "11341db798b864537e17ab419e278ad93daec7ffd00cab4508dd2aa9d1b9a742",
+  "evidence_review_id": "2026-10-24-rea-capture-feasibility-receipt-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -86,6 +86,7 @@
     "6d485d96ff96b12cafbac7d8a08ec524aecccd976781d33a452bc33a0eed0cd5",
     "21b8d885ee3c90c49eae78bc8580dbe760608811cafe1afad1acbb22b0f4fb0c",
     "91183ac5ce0a05283470e2a5facf68562ff58f557db129c7cea627c4145363d5",
-    "4c9713f3ec4a0ee748cdeb16938fb0cd78a40a9c338f7b7cdc4aa9b6ec8c9e05"
+    "4c9713f3ec4a0ee748cdeb16938fb0cd78a40a9c338f7b7cdc4aa9b6ec8c9e05",
+    "bea6046ea193d07fc099bc6ef2461c6fcd78dcb43ee0d4f40c8ba80fa798adbb"
   ]
 }

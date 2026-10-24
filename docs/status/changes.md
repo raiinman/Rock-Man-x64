@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · rea-capture-feasibility-receipt-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 07:57:35 UTC: received APEX-1's public Windows capture planning answer and closed the existing-knowledge question. No ready adapter or Windows capture capability was established. Reusable observation/lifecycle contracts and containment limits are acknowledged; zero native acceptance delta.
+
+**Why:** The answer supplies concrete planning constraints, not a Windows capture implementation or test. Windows containment is not capture support, and the cited public source revision is not an attested installed-build identity.
+
+**Next:** Use the published constraints as planning inputs without repeating the answered question or treating source review as capture support or execution authority. Native root retains workload selection and patch ownership; the permitted effect/commit oracle and existing provenance, initializer and S2 gates remain unresolved.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-windows-capture-planning-answer-received--october-24) · [source 2](../../docs/status/decisions-and-handoff.md#apex-1-response-read-only-windows-capture-feasibility--october-24) · [source 3](../../docs/status/decisions-and-handoff.md#rea-connection-restored-windows-capture-feasibility-question--october-24).
+
 ## 2026-10-24 · rea-capture-feasibility-answer-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -815,3 +827,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |

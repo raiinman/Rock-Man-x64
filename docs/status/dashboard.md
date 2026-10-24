@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` · [reviewed basis 08a7c63](https://github.com/raiinman/Rock-Man-x64/commit/08a7c6360617df206fd97ec2888835dd0541f7ce).
+**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` · [reviewed basis 1e4cefd](https://github.com/raiinman/Rock-Man-x64/commit/1e4cefd2e0d9712027011cae5dc9ceb221f378ee).
 **Latest repository change observed:** [2034ac4](https://github.com/raiinman/Rock-Man-x64/commit/2034ac487a991379021f007eccf24a1ba9706f28) · 2026-10-24T00:47:45-07:00 — docs: answer read-only Windows capture feasibility.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -386,17 +386,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:57:35 UTC: public Windows capture planning answer received; zero native acceptance delta. All forty prior observations and forty-seven updates are preserved exactly. No private implementation outcome, Windows capability test, positive effect oracle or gate clearance is inferred. |
 
 
 ## Current explanation
 
 **Now:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Changed:** Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed.
+**Changed:** Reviewed at 2026-10-24 07:57:35 UTC: received APEX-1's public Windows capture planning answer and closed the existing-knowledge question. No ready adapter or Windows capture capability was established. Reusable observation/lifecycle contracts and containment limits are acknowledged; zero native acceptance delta.
 
 **Why:** The separate planning answer does not supply the selected graphics write with an independently justified expected effect or commit predicate.
 
-**Next:** Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; do not substitute sampled values, a status journal or cross-tool source analysis for native acceptance.
+**Next:** Use the published constraints as planning inputs without repeating the answered question or treating source review as capture support or execution authority. Native root retains workload selection and patch ownership; the permitted effect/commit oracle and existing provenance, initializer and S2 gates remain unresolved.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
