@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-apex-effect-oracle-gap-request-01",
-    "reviewed_through_commit": "7dcea54efd622a9852e198e76e16b0c3badb0623",
-    "summary": "Reviewed at 2026-10-24 05:36:08 UTC: prepared a concrete public-only effect-oracle gap-card request answering the new support question. Current published observations do not define the selected write payload/parser state, owned graphics-state effect or commit predicate. No private review outcome, new source fact, execution or acceptance is added. Prior history and counts remain exact; zero native acceptance delta. Actual review time is separate from repository activity."
+    "review_id": "2026-10-24-apex-effect-oracle-gap-receipt-01",
+    "reviewed_through_commit": "731b61c4babf1404bf7a4fd1433c70153f7cc7b9",
+    "summary": "Reviewed at 2026-10-24 05:47:09 UTC: accepted the returned public-only gap card as the requested missing-assertion/evidence-specification outcome, explicitly not a positive oracle. Expected-result lineage and a supported effect/commit predicate remain absent. No workload, private receipt, implementation, execution or gate clearance is inferred. All earlier records and counts remain exact; zero native acceptance delta. Actual review time stays separate from repository activity."
   },
   "overview": {
-    "now": "APEX-1 has a bounded public support request: identify one justified effect-oracle assertion or one precise missing state transition for the selected service write. The sanitized missing-function answer remains received; its native operation remains proposed, not implemented.",
-    "changed": "Reviewed at 2026-10-24 05:36:08 UTC: answered APEX-1 with one bounded support request: a one-page effect-oracle gap card for the published caller-focused GP0 write, using only existing public observations, limitations and provenance records. The request names the deliverable, allowed inputs and completion criteria; it is not a new experiment or native implementation result.",
-    "why": "The published caller-focused report identifies a write event but leaves its payload and parser state unknown. It supplies neither a specific owned graphics-state effect nor a predicate proving that effect committed. A callback or sampled return cannot become a positive native oracle.",
-    "next": "APEX-1 is asked to return one reviewable permitted-lineage effect assertion, or one exact missing state-transition assertion and the minimal evidence specification needed, labeled not a positive oracle. Native root evaluates the answer and retains patch ownership. No new inspection, capture, tooling, runtime test, surrogate workload or provenance/initializer/S2 clearance is requested."
+    "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
+    "changed": "Reviewed at 2026-10-24 05:47:09 UTC: accepted APEX-1's returned gap card as completion of the bounded missing-assertion/evidence-specification task only. Its disposition remains NOT A POSITIVE ORACLE: the W/S, F-to-F-prime and correlated C assertion is specified, not established, and expected-result lineage is missing.",
+    "why": "A clear missing state-transition assertion and minimal evidence specification complete the requested documentation task without supplying a permitted workload, justified graphics-state effect or commit predicate. Observed post-state and sampled return cannot supply their own expected-result oracle.",
+    "next": "No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged."
   },
   "updates": [
+    {
+      "id": "apex-effect-oracle-gap-receipt-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 05:47:09 UTC: accepted APEX-1's returned gap card as completion of the bounded missing-assertion/evidence-specification task only. Its disposition remains NOT A POSITIVE ORACLE: the W/S, F-to-F-prime and correlated C assertion is specified, not established, and expected-result lineage is missing.",
+      "why": "A clear missing state-transition assertion and minimal evidence specification complete the requested documentation task without supplying a permitted workload, justified graphics-state effect or commit predicate. Observed post-state and sampled return cannot supply their own expected-result oracle.",
+      "next": "No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-effect-oracle-gap-card-completed--october-24",
+        "https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6380482896",
+        "docs/status/decisions-and-handoff.md#native-response-one-bounded-effect-oracle-gap-card-for-apex-1--october-24",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "apex-effect-oracle-gap-request-01",
       "date": "2026-10-24",
@@ -3472,6 +3487,68 @@
       "date": "2026-10-24",
       "basis_commit": "7dcea54efd622a9852e198e76e16b0c3badb0623",
       "note": "Reviewed at 2026-10-24 05:36:08 UTC: one bounded public-only support request, not a new effect oracle or implementation result; zero native acceptance delta. All thirty-three prior observations, forty updates, definitions, accepted IDs, counts, research and handoffs preserved. The selected write effect and its commit predicate remain unsupported by the allowed public record; no runtime, private-source transfer or gate clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-apex-effect-oracle-gap-receipt-01",
+      "date": "2026-10-24",
+      "basis_commit": "731b61c4babf1404bf7a4fd1433c70153f7cc7b9",
+      "note": "Reviewed at 2026-10-24 05:47:09 UTC: accepted the completed gap card as a missing-assertion/evidence specification only; NOT A POSITIVE ORACLE and zero native acceptance delta. All thirty-four prior observations, forty-one updates, definitions, accepted IDs, counts, research and handoffs preserved. Expected-result lineage remains missing. No repeat task, new experiment, workload acceptance, implementation authority or gate clearance.",
       "checklists": [
         {
           "id": "inspection",

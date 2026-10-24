@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** APEX-1 has a bounded public support request: identify one justified effect-oracle assertion or one precise missing state transition for the selected service write. The sanitized missing-function answer remains received; its native operation remains proposed, not implemented.
+**Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** APEX-1 is asked to return one reviewable permitted-lineage effect assertion, or one exact missing state-transition assertion and the minimal evidence specification needed, labeled not a positive oracle. Native root evaluates the answer and retains patch ownership. No new inspection, capture, tooling, runtime test, surrogate workload or provenance/initializer/S2 clearance is requested.
+**Next useful step:** No repeat card, new research or experiment is requested. Native root retains patch ownership and evaluation of any separately authorized next step. The reply itself grants no implementation/execution authority; provenance, Windows, initializer, S2 and native acceptance remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-effect-oracle-gap-request-01` · [reviewed basis 7dcea54](https://github.com/raiinman/Rock-Man-x64/commit/7dcea54efd622a9852e198e76e16b0c3badb0623).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-effect-oracle-gap-receipt-01` · [reviewed basis 731b61c](https://github.com/raiinman/Rock-Man-x64/commit/731b61c4babf1404bf7a4fd1433c70153f7cc7b9).
 **Latest repository change observed:** [883c3b1](https://github.com/raiinman/Rock-Man-x64/commit/883c3b1fe7eab328e670408f87c3fc1d39bf6ef5) · 2026-10-23T22:38:42-07:00 — docs: request one bounded APEX graphics-effect oracle gap card.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
