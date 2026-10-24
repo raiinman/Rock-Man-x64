@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Next useful step:** Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot.
+**Next useful step:** Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` · [reviewed basis d127967](https://github.com/raiinman/Rock-Man-x64/commit/d1279674c969f06ab53031d9f385096196dcf208).
+**Last evidence review:** 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` · [reviewed basis 5592463](https://github.com/raiinman/Rock-Man-x64/commit/5592463159ddb97f634f895ada13e95d1ce067bf).
 **Latest repository change observed:** [82f199f](https://github.com/raiinman/Rock-Man-x64/commit/82f199f67482e11367aeb184e217985275782b7a) · 2026-10-23T21:09:12-07:00 — docs: record hourly zero-delta evidence review.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

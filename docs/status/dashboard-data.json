@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-hourly-zero-delta-0407-01",
-    "reviewed_through_commit": "d1279674c969f06ab53031d9f385096196dcf208",
-    "summary": "Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly check of the current public tracker, retained final diagnostic-preview receipts, terminal delegated outcomes and published coordination handoffs. No new implementation, game-build or runtime evidence was found. Windows presentation qualification, the real native request/frame-owner and GPU producer/consumer contract, A0:49 and provenance remain unresolved. All acceptance criteria, counts and prior records are unchanged; review time is separate from repository activity."
+    "review_id": "2026-10-24-adapter-handoff-routing-correction-01",
+    "reviewed_through_commit": "5592463159ddb97f634f895ada13e95d1ce067bf",
+    "summary": "Reviewed at 2026-10-24 04:30 UTC: corrected root DOT handoff to require the actual adapter source, exact missing-function decision or named access/authority blocker. Public hourly reviews do not answer that request; the coordinator cause remains unverified. No native implementation, source receipt, execution, acceptance or provenance clearance."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Hourly review at 2026-10-24 04:07:15 UTC: zero evidence and acceptance delta; retained receipts and public handoffs are unchanged. No new native/game/research execution or browser capture was performed. Reviewed at 2026-10-24 02:45 UTC: native coordination distinguishes the generic gate’s reported local obligations from the still-required real producer/consumer adapter contract. Windows results remain author-reported, private receipt is unconfirmed, and earlier research and diagnostic-preview findings are preserved without native integration credit.",
+    "changed": "Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.",
     "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
-    "next": "Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot."
+    "next": "Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion."
   },
   "updates": [
+    {
+      "id": "adapter-handoff-routing-correction-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.",
+      "why": "Recent public commits record zero-delta evidence reviews while the source request remains unanswered. The old entry point still asked for broad task selection; its presence is verified, but its role in the coordinator behavior is not proved.",
+      "next": "Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion.",
+      "evidence": [
+        "DOT.md#required-next-response-actual-adapter-source-or-exact-missing-function",
+        "docs/status/decisions-and-handoff.md#native-response-generic-completion-candidate-contract-review--october-24",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "hourly-zero-delta-0407-01",
       "date": "2026-10-24",
@@ -3012,6 +3026,68 @@
       "date": "2026-10-24",
       "basis_commit": "d1279674c969f06ab53031d9f385096196dcf208",
       "note": "Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-adapter-handoff-routing-correction-01",
+      "date": "2026-10-24",
+      "basis_commit": "5592463159ddb97f634f895ada13e95d1ce067bf",
+      "note": "Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved.",
       "checklists": [
         {
           "id": "inspection",

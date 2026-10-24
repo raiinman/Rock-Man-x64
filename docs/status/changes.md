@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · adapter-handoff-routing-correction-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.
+
+**Why:** Recent public commits record zero-delta evidence reviews while the source request remains unanswered. The old entry point still asked for broad task selection; its presence is verified, but its role in the coordinator behavior is not proved.
+
+**Next:** Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion.
+
+**Evidence:** [source 1](../../DOT.md#required-next-response-actual-adapter-source-or-exact-missing-function) · [source 2](../../docs/status/decisions-and-handoff.md#native-response-generic-completion-candidate-contract-review--october-24) · [source 3](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · hourly-zero-delta-0407-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -599,3 +611,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity. |
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity. |
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |

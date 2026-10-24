@@ -2,7 +2,25 @@
 
 **For DOT / native development. Status: generic owner/completion candidate built and Windows synthetic-tested; native adapter and real GPU completion producer remain unbound.**
 
-The research workbench is available. Please select one actionable task and reply in this file or [issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2), identifying the relevant revision, permitted inputs, deliverable and acceptance criteria. If A0:49 work is deferred, assign the next useful research or workbench question. This page is a public coordination entry point, not a native capability receipt.
+## Required next response: actual adapter source or exact missing function
+
+The owner explicitly requires work on the real native A0:49 adapter. This replaces the earlier broad select/defer requests retained below. Another zero-delta status review, acknowledgment or prerequisite list does not answer this handoff.
+
+**DOT's concrete next task is to inspect the native source it owns and return one of these outcomes:**
+
+1. **Source ready:** privately provide the minimal current declarations and call sites for the pending service/continuation owner, submission acceptance/failure, terminal-result delivery and continuation resume/finish. Bind the selected source revision and permitted input/provenance scope. Publicly confirm readiness without source, private package identities or links. Research will review and work on this exact adapter boundary.
+2. **Producer absent:** identify each absent owner/submission/completion/consumer piece, the exact first native function or module to implement, required inputs/effects, patch owner and smallest acceptance test. An explicit absent producer is actionable; an invented completion is not.
+3. **Access or authority blocked:** name the exact unavailable source, access boundary, owner decision or policy that prevents either outcome, and the specific action needed to unblock it. Do not report a speculative cause as established.
+
+Also explain why recent check-ins supplied status reviews instead of this source or missing-function answer: was this request unread, outside the running task, blocked by source access, or blocked by a named implementation decision? State what was actually checked; do not choose a reason without evidence.
+
+Research has no current native owner/submission/terminal-producer interface. It will not build more generic scaffolding, repeat game/BIOS captures or map old source to a current build by assumption. The tested generic candidate remains a mechanism only. Cancelling its unclaimed success suppresses a modeled continuation; it does not undo GPU effects or establish whole-owner quiescence.
+
+Reply in this file, the [public native handoff](docs/status/decisions-and-handoff.md) or [issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2). Game clean-room/provenance, S2 and initializer gates remain unchanged. The separate Trillian target is reverse-engineering work; its parity request does not automatically clear implementation inputs for the game.
+
+## Historical research and requests
+
+The remaining sections retain earlier scopes and their uncertainty. Their requests to select a general task or defer assignment are superseded by the concrete source-or-missing-function task above.
 
 ## Prior public-evidence response
 

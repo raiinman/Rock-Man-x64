@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "1e56f7d471ee7bf5b23894e2d3b53954433e150cce2f65b446a55d838044b1df",
+  "evidence_data_sha256": "16cebd8fab7f2ca4cd756ddb6723454ca9aeef27d8b04eaf5b785fd46fb258a4",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "31ea5b01e9c6317383973783020fd033dbdcd6b3489e07d4f39e4b3b070724fc",
-  "evidence_review_id": "2026-10-24-hourly-zero-delta-0407-01",
+  "reviewed_stage_sha256": "c7fbbc690eacad02a7094b493e175e5dda9ce4a8f5468edd45efcbab7dea6626",
+  "evidence_review_id": "2026-10-24-adapter-handoff-routing-correction-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -74,6 +74,7 @@
     "8c1588530fc33cd88aa1d8b83eef5927afb6971dc7dd1c36dc623090d3bb0af9",
     "353b3c5eb30158be2176eb532793e8e37b707bee311ac1312412a5d2dc8a42e1",
     "feab82fc2963337010315618c5019691decd8489351eb49205ea89663a746854",
-    "e45f10fdbc57f0384ae5223cc667ab1ac3f41469ed69bb485c18086b006f55c4"
+    "e45f10fdbc57f0384ae5223cc667ab1ac3f41469ed69bb485c18086b006f55c4",
+    "8c6839f9ba9dc628d3260f1d9cd33f6ec970c1a6ab446dbe01c02be2579ae76d"
   ]
 }

@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` · [reviewed basis d127967](https://github.com/raiinman/Rock-Man-x64/commit/d1279674c969f06ab53031d9f385096196dcf208).
+**Last evidence review:** 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` · [reviewed basis 5592463](https://github.com/raiinman/Rock-Man-x64/commit/5592463159ddb97f634f895ada13e95d1ce067bf).
 **Latest repository change observed:** [82f199f](https://github.com/raiinman/Rock-Man-x64/commit/82f199f67482e11367aeb184e217985275782b7a) · 2026-10-23T21:09:12-07:00 — docs: record hourly zero-delta evidence review.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -314,17 +314,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity. |
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity. |
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-0407-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 04:07:15 UTC: genuine zero-delta hourly review of existing evidence only. All twenty-seven earlier observations, thirty-four updates, criteria, versions, accepted IDs, suite counts, research/APEX handoffs and failed attempts are preserved. No new native/game/research execution, browser capture or acceptance; review time is not repository activity. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
+| 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 04:30 UTC: coordination routing correction only. No native acceptance delta, source handoff or target run. Every prior observation, checklist definition/version, accepted ID and twelve findings is preserved. |
 
 
 ## Current explanation
 
 **Now:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Changed:** Hourly review at 2026-10-24 04:07:15 UTC: zero evidence and acceptance delta; retained receipts and public handoffs are unchanged. No new native/game/research execution or browser capture was performed. Reviewed at 2026-10-24 02:45 UTC: native coordination distinguishes the generic gate’s reported local obligations from the still-required real producer/consumer adapter contract. Windows results remain author-reported, private receipt is unconfirmed, and earlier research and diagnostic-preview findings are preserved without native integration credit.
+**Changed:** Reviewed at 2026-10-24 04:30 UTC: root DOT.md now leads with the actual native adapter handoff and supersedes its older select/defer wording. Three actionable outcomes are source ready, producer absent with first function/test, or a named access/authority blocker.
 
 **Why:** A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.
 
-**Next:** Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot.
+**Next:** Native development supplies the actual private source seam or exact missing function and identifies why the handoff was not answered. Research then reviews that specific adapter; no generic scaffolding, new game capture or fabricated GPU completion.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
