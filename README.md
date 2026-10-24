@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** A concrete sanitized missing-function response is available. The proposed native fulfillment operation is not implemented; real service production and the post-return consumer remain absent from the reviewed path.
+**Where we are:** The sanitized missing-function answer has been received and accepted as that requested outcome. Its native fulfillment operation remains proposed, not implemented. A permitted workload/effect oracle is still missing, and the real producer and post-return consumer remain absent from the reviewed path.
 
-**Next useful step:** Native development root owns the proposed service/continuation patch. Establish the permitted producer/effect/consumer contract and workload oracle before implementing and testing pending retention, real effects, one continuation resume and duplicate refusal. Publication approval does not clear provenance, initializer, S2 or execution gates.
+**Next useful step:** Native root retains patch ownership. The reply proposes reviewing one candidate workload with explicit input/knownness/lifetime, effects, terminal/consumer outcome and permitted input/expected-result lineage; any disputed effect needs its permitted resolving evidence. This proposed oracle review is not accepted semantics or execution authority. No positive integration test or provenance, initializer or S2 clearance follows from acknowledgment.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-scope-acknowledgment-0503-01` · [reviewed basis 36b5147](https://github.com/raiinman/Rock-Man-x64/commit/36b51473fe2518fe6cc2e61391be341c4f879185).
+**Last evidence review:** 2026-10-24 · `2026-10-24-sanitized-answer-receipt-0511-01` · [reviewed basis 88a5fd5](https://github.com/raiinman/Rock-Man-x64/commit/88a5fd5c3a9178bbd403f9e2c095cf30743b8d23).
 **Latest repository change observed:** [494a026](https://github.com/raiinman/Rock-Man-x64/commit/494a026e98ee9d3a93722cb549cf6dce488d8ab1) · 2026-10-23T22:06:50-07:00 — docs: reconcile APEX scope acknowledgment and subsequent handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
