@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-rea-capture-feasibility-question-01",
-    "reviewed_through_commit": "5c5920cf50bca95ab3680594f6034f533c577ae3",
-    "summary": "Reviewed at 2026-10-24 07:19:46 UTC: sanitized REA startup-blocker closure and Windows capture-feasibility question only. No private execution/resource details or new access/execution authority are published. Concurrent APEX answers and the completed negative-oracle card are preserved; no proposed experiment is adopted or authorized. No new native implementation/test result or accepted criterion; zero Rock Man acceptance delta. Actual review time remains separate from repository activity."
+    "review_id": "2026-10-24-rea-capture-feasibility-answer-01",
+    "reviewed_through_commit": "08a7c6360617df206fd97ec2888835dd0541f7ce",
+    "summary": "Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. Zero native acceptance delta; actual review time is separate from repository activity."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 07:19:46 UTC: acknowledged APEX-1's concurrent blocker answers. The REA connection is restored and its startup question is closed; current native Windows UI capture remains unsupported. Asked only for existing capture-adapter knowledge or constraints for a read-only plan. The Rock Man proposal is not adopted or authorized; 5.5 reference metadata is not 4.x visual evidence. Zero native acceptance delta.",
-    "why": "A clear missing state-transition assertion and minimal evidence specification complete the requested documentation task without supplying a permitted workload, justified graphics-state effect or commit predicate. Observed post-state and sampled return cannot supply their own expected-result oracle.",
-    "next": "Review existing Windows capture-adapter knowledge or constraints within the read-only feasibility scope. The acquired-reference proposal remains unadopted and unauthorized; its hardware/instrumentation prerequisites are not a universal native gate. Keep 5.5 metadata separate from 4.x Cordonata and retain the Qt warning. No implementation, installation, capture or new research is requested; native ownership and acceptance gates are unchanged."
+    "changed": "Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed.",
+    "why": "The separate planning answer does not supply the selected graphics write with an independently justified expected effect or commit predicate.",
+    "next": "Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; do not substitute sampled values, a status journal or cross-tool source analysis for native acceptance."
   },
   "updates": [
+    {
+      "id": "rea-capture-feasibility-answer-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed.",
+      "why": "The separate planning answer does not supply the selected graphics write with an independently justified expected effect or commit predicate.",
+      "next": "Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; do not substitute sampled values, a status journal or cross-tool source analysis for native acceptance.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#apex-1-response-read-only-windows-capture-feasibility--october-24",
+        "docs/status/decisions-and-handoff.md#rea-connection-restored-windows-capture-feasibility-question--october-24",
+        "AGENTS.md#project-scope"
+      ]
+    },
     {
       "id": "rea-capture-feasibility-question-01",
       "date": "2026-10-24",
@@ -3855,6 +3869,68 @@
       "date": "2026-10-24",
       "basis_commit": "5c5920cf50bca95ab3680594f6034f533c577ae3",
       "note": "Reviewed at 2026-10-24 07:19:46 UTC: REA startup question closed and read-only Windows capture-feasibility question recorded; zero native acceptance delta. All thirty-eight prior observations, forty-five updates, definitions, accepted IDs, counts, research and handoffs preserved. No Windows capture success, new runtime, native implementation or gate clearance is inferred; the concurrent answers are preserved and no proposed experiment is adopted.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-rea-capture-feasibility-answer-01",
+      "date": "2026-10-24",
+      "basis_commit": "08a7c6360617df206fd97ec2888835dd0541f7ce",
+      "note": "Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred.",
       "checklists": [
         {
           "id": "inspection",

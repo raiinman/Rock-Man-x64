@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · rea-capture-feasibility-answer-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed.
+
+**Why:** The separate planning answer does not supply the selected graphics write with an independently justified expected effect or commit predicate.
+
+**Next:** Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; do not substitute sampled values, a status journal or cross-tool source analysis for native acceptance.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#apex-1-response-read-only-windows-capture-feasibility--october-24) · [source 2](../../docs/status/decisions-and-handoff.md#rea-connection-restored-windows-capture-feasibility-question--october-24) · [source 3](../../AGENTS.md#project-scope).
+
 ## 2026-10-24 · rea-capture-feasibility-question-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -797,3 +809,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-question-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:19:46 UTC: REA startup question closed and read-only Windows capture-feasibility question recorded; zero native acceptance delta. All thirty-eight prior observations, forty-five updates, definitions, accepted IDs, counts, research and handoffs preserved. No Windows capture success, new runtime, native implementation or gate clearance is inferred; the concurrent answers are preserved and no proposed experiment is adopted. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-question-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:19:46 UTC: REA startup question closed and read-only Windows capture-feasibility question recorded; zero native acceptance delta. All thirty-eight prior observations, forty-five updates, definitions, accepted IDs, counts, research and handoffs preserved. No Windows capture success, new runtime, native implementation or gate clearance is inferred; the concurrent answers are preserved and no proposed experiment is adopted. |
 | 2026-10-24 · `2026-10-24-rea-capture-feasibility-question-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:19:46 UTC: REA startup question closed and read-only Windows capture-feasibility question recorded; zero native acceptance delta. All thirty-eight prior observations, forty-five updates, definitions, accepted IDs, counts, research and handoffs preserved. No Windows capture success, new runtime, native implementation or gate clearance is inferred; the concurrent answers are preserved and no proposed experiment is adopted. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |
+| 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 07:45:19 UTC: supplied the requested read-only source feasibility answer in the approved handoff. No native implementation, test result or acceptance changed. All prior observations and acceptance definitions/states preserved. No cross-tool progress metric or Windows capture capability is inferred. |

@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
 
-**Next useful step:** Review existing Windows capture-adapter knowledge or constraints within the read-only feasibility scope. The acquired-reference proposal remains unadopted and unauthorized; its hardware/instrumentation prerequisites are not a universal native gate. Keep 5.5 metadata separate from 4.x Cordonata and retain the Qt warning. No implementation, installation, capture or new research is requested; native ownership and acceptance gates are unchanged.
+**Next useful step:** Native root retains workload selection and patch ownership. Review a permitted effect/commit oracle before implementing the proposed service operation; do not substitute sampled values, a status journal or cross-tool source analysis for native acceptance.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-question-01` · [reviewed basis 5c5920c](https://github.com/raiinman/Rock-Man-x64/commit/5c5920cf50bca95ab3680594f6034f533c577ae3).
+**Last evidence review:** 2026-10-24 · `2026-10-24-rea-capture-feasibility-answer-01` · [reviewed basis 08a7c63](https://github.com/raiinman/Rock-Man-x64/commit/08a7c6360617df206fd97ec2888835dd0541f7ce).
 **Latest repository change observed:** [d6a978d](https://github.com/raiinman/Rock-Man-x64/commit/d6a978dce6d24bc230ebdfc5702fb8a9b737fb45) · 2026-10-24T00:24:16-07:00 — docs: close REA startup blocker and ask Windows capture feasibility.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
