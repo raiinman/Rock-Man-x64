@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · helper-first-branch-case-01
+
+**Evidence class:** research. **Runtime capability advanced:** no.
+
+**Changed:** Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.
+
+**Why:** The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.
+
+**Next:** Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
+
+**Evidence:** [source 1](../../research/bios/A049-HELPER.md#conditional-first-branch-case-from-retained-evidence).
+
 ## 2026-10-24 · apex-corrected-chain-acknowledgment-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -473,3 +485,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | inspection v1 | 4 / 7 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | observation v1 | 2 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | loader v1 | 3 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | s2 v1 | 0 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | boot v1 | 0 / 1 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | roadmap v1 | 5 / 20 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |

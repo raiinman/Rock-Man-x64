@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` · [reviewed basis 70521d5](https://github.com/raiinman/Rock-Man-x64/commit/70521d516af99c613a8205a31de32d17b1c4fb1a).
+**Last evidence review:** 2026-10-24 · `2026-10-24-helper-first-branch-case-01` · [reviewed basis 542c3bd](https://github.com/raiinman/Rock-Man-x64/commit/542c3bda6f5bf3ee79c203bfb585afec440c29e7).
 **Latest repository change observed:** [2bfebae](https://github.com/raiinman/Rock-Man-x64/commit/2bfebae09bc30af19489e2026dab5d268a5f148d) · 2026-10-23T18:58:35-07:00 — docs: acknowledge corrected emulator chain without native gate promotion.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -272,17 +272,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-corrected-chain-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:55 UTC: public corrected-chain acknowledgment only. Zero acceptance delta; all twenty prior observations, criteria, denominator versions and accepted IDs are preserved. No new execution or implementation clearance. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | inspection v1 | 4 / 7 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | observation v1 | 2 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | loader v1 | 3 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | s2 v1 | 0 / 4 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | boot v1 | 0 / 1 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-first-branch-case-01` | roadmap v1 | 5 / 20 | Retained-evidence conditional first-branch specialization; no target execution or native milestone delta; unchanged criteria/versions. |
 
 
 ## Current explanation
 
-**Now:** The supplied original game reached the opening dungeon with its gameplay HUD in the pinned emulator. The corrected helper chain is measured; native A0:49 remains unresolved.
+**Now:** DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.
 
-**Changed:** Reviewed at 2026-10-24 01:55 UTC: native coordination acknowledges the corrected helper chain and controller-scope report; the new occurrence-specific pointer/result evidence supersedes the earlier missing-measurement finding. Completed corrected 12000-frame observation and separate 18000-frame controller progression; captured pointer 0x1f801074, delayed halfword result 13 and matched callee resumption.
+**Changed:** Specialized the already inspected first continuation branch using both retained argument-three samples: it compares masked argument bits with one, not either sampled return value.
 
-**Why:** The earlier selected-chain measurement gap is now closed for this occurrence. Native state ownership and GPU completion still need a concrete implementation decision; measured values cannot fill native unknowns.
+**Why:** The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.
 
-**Next:** DOT maps the saved-mask continuation and selects the permitted state/effects contract or names its exact remaining producer gap. Keep original/emulator evidence separate from native acceptance and provenance review.
+**Next:** Native development maps this argument-three continuation and selects the permitted state-owner/GPU effects contract. Later branches, save/restore lifecycle and native binding remain open.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

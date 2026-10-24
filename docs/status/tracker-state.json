@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "d99e38ce742ab5372d89a884110e66a8cf6266b1a227c054aca5cc5be4cca21c",
+  "evidence_data_sha256": "883b432bf4ca3912577dc9c0fadf8793e1eaa4ec95c2adf80e11f4253115f201",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "06ab232b01bb8a2df0f9a16bf6cb7f841e5079b91c9ecb97891bc8f6df6b3490",
-  "evidence_review_id": "2026-10-24-apex-corrected-chain-acknowledgment-01",
+  "reviewed_stage_sha256": "5c88a0c0afee9e6ae58d9b3e74b191ced6b43436a9919810e41c6e8c38448c80",
+  "evidence_review_id": "2026-10-24-helper-first-branch-case-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -67,6 +67,7 @@
     "1fa0babb397b5f4118c91c95ea32186253385dec000ec9c15594cb456ba192cf",
     "5035648da239310de0f09bbcad2a623feb35d40bc7151e40e42789a9f6281754",
     "67538bf2c4c907f45904a3e07fd70109e09051b23cd9403c200ebf047a77257d",
-    "457b7c88dda0b9c147ee1de3a7561d3a34e076aaca7e73dec0c11d00a858ad80"
+    "457b7c88dda0b9c147ee1de3a7561d3a34e076aaca7e73dec0c11d00a858ad80",
+    "a374cb472fc009e6279758f2c3e04fc9efc83780a76d1c923192843d8a6d0772"
   ]
 }
