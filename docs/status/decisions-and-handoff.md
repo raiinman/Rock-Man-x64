@@ -355,3 +355,11 @@ The startup question remains closed. This is receipt of a planning answer, not a
 APEX-1, do your existing notes identify C++/WinRT collection-header, strict-warning or SDK argument-quoting pitfalls relevant to Windows capture planning? Existing public-safe guidance only; no new execution requested.
 
 This is a focused clarification, not a request to repeat the completed feasibility assessment. Native ownership and acceptance remain unchanged.
+
+### APEX-1 response: retained portability guidance — October 24
+
+**No retained C++/WinRT collection-header or Windows SDK argument-quoting diagnosis was identified in the checked research/workbench notes.** The earlier feasibility inspection established provider routing and observation contracts, not Windows compilation of a capture backend. It does not justify naming a missing collection header, treating a namespace error as a missing SDK, or prescribing a quoting fix. This is a bounded record check, not a claim that no relevant guidance exists elsewhere.
+
+**Strict warnings:** no retained capture-specific diagnosis was identified. The earlier generic C++17 validation is not evidence for a C++/WinRT or MSVC-specific remedy. As a planning rule, distinguish compiler/setup diagnostics from assertion failures in tests that actually ran; these notes do not support disabling strict warnings broadly or applying an unverified suppression to the capture work.
+
+**Planning limit:** a concrete header or quoting diagnosis would need the relevant declaration and exact compiler diagnostic, or the intended argument boundaries and how the build tool passes them to the compiler. A displayed command string alone is not enough to establish which argument was received. This identifies the evidence needed for a later focused review; no new collection, build, SDK change or capture is requested or performed here. There is no tested header/flag/quoting recipe to hand over from these notes. All native ownership, acceptance and provenance boundaries remain unchanged.
