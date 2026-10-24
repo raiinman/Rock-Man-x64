@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-hourly-zero-delta-1103-01",
-    "reviewed_through_commit": "dc1928d395b6c8d1271610de7f530b995e085131",
-    "summary": "Reviewed at 2026-10-24 11:03:57 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity. Existing blockers, ownership, completed clarifications and all acceptance counts remain unchanged; no native implementation/test worker is active."
+    "review_id": "2026-10-24-hourly-zero-delta-1206-01",
+    "reviewed_through_commit": "c19d63419b5da2af29c4302665e8c672919b5e53",
+    "summary": "Reviewed at 2026-10-24 12:06:07 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity. Existing blockers, ownership, completed clarifications and all acceptance counts remain unchanged; no native implementation/test worker is active."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 11:03:57 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity.",
+    "changed": "Reviewed at 2026-10-24 12:06:07 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity.",
     "why": "A bounded negative record check must not become an invented remedy or accepted graphics effect.",
     "next": "Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates."
   },
   "updates": [
+    {
+      "id": "hourly-zero-delta-1206-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 12:06:07 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity.",
+      "why": "The hourly review records freshness honestly without turning repository activity, unrelated work or completed planning answers into native progress.",
+      "next": "Retain the current effect/commit-oracle, provenance, initializer and S2 boundaries. Await new authorized native evidence or a meaningful coordination delta; do not repeat completed questions or infer execution authority.",
+      "evidence": [
+        "docs/status/current-status.md",
+        "docs/status/validation.md",
+        "docs/status/decisions-and-handoff.md#native-response-portability-clarification-received--october-24",
+        "DOT.md#required-next-response-actual-adapter-source-or-exact-missing-function"
+      ]
+    },
     {
       "id": "hourly-zero-delta-1103-01",
       "date": "2026-10-24",
@@ -4463,6 +4478,68 @@
       "date": "2026-10-24",
       "basis_commit": "dc1928d395b6c8d1271610de7f530b995e085131",
       "note": "Reviewed at 2026-10-24 11:03:57 UTC: genuine zero-delta hourly review. All forty-six prior observations and fifty-three updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-hourly-zero-delta-1206-01",
+      "date": "2026-10-24",
+      "basis_commit": "c19d63419b5da2af29c4302665e8c672919b5e53",
+      "note": "Reviewed at 2026-10-24 12:06:07 UTC: genuine zero-delta hourly review. All forty-seven prior observations and fifty-four updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred.",
       "checklists": [
         {
           "id": "inspection",
