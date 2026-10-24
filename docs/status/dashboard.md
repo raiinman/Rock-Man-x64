@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-1703-01` · [reviewed basis 26e85c7](https://github.com/raiinman/Rock-Man-x64/commit/26e85c7df05e73c39094271f32fcce65b6b1f2e4).
+**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` · [reviewed basis d73ec0c](https://github.com/raiinman/Rock-Man-x64/commit/d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a).
 **Latest repository change observed:** [e0478e5](https://github.com/raiinman/Rock-Man-x64/commit/e0478e55ac5f5dee609e42ede2d9ce4021f1bc38) · 2026-10-24T10:06:40-07:00 — docs: record hourly zero-delta evidence review at 17:03 UTC.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -464,17 +464,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-1703-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review. All fifty-two prior observations and fifty-nine updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred. |
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-1703-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review. All fifty-two prior observations and fifty-nine updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred. |
 | 2026-10-24 · `2026-10-24-hourly-zero-delta-1703-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review. All fifty-two prior observations and fifty-nine updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred. |
+| 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
+| 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed. |
 
 
 ## Current explanation
 
-**Now:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
+**Now:** PSX-Atlas is the primary reference. The completed APEX-1 gap card remains a missing-assertion/evidence specification, not a positive oracle or native acceptance.
 
-**Changed:** Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity.
+**Changed:** Reviewed at 2026-10-24 17:52:02 UTC: PSX-Atlas is now the primary first reference for Rock Man x64. Root and research/status contracts require pinned section/revision/evidence-class citations, independent cross-checks for gaps and coordinated, named-owner cloud work through the existing APEX-1 handoff. This is a documentation policy change, not native acceptance.
 
-**Why:** A bounded negative record check must not become an invented remedy or accepted graphics effect.
+**Why:** Reference priority helps the team reuse existing answers without mistaking restricted-provenance reference material for a permitted native effect oracle or execution authority.
 
-**Next:** Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates.
+**Next:** Use Atlas first, then reconcile a precise unresolved question with APEX-1 retained research and verified available, already-authorized reasoning GPT Sol cloud tasks. Preserve the completed gap card and portability clarification; no duplicate task, assumed host access or native gate advance follows.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

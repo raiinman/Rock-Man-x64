@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "c453e8b5c85e8a8d8d84e8565279c437640514ac02fedf225e6794d87cdca616",
+  "evidence_data_sha256": "2e95841e5c87cd809d2e21efef94d7c0b865e53f888b6fb11547a0a9eb528ae7",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "74268831efbf14c8fe3b903c225c47ec177ef87adae87ae82ce60ab65f9f699b",
-  "evidence_review_id": "2026-10-24-hourly-zero-delta-1703-01",
+  "reviewed_stage_sha256": "c1ad9efdf41dcfc978a28da5b718e0064051ce430a58221e304453ad0e70432b",
+  "evidence_review_id": "2026-10-24-atlas-primary-reference-policy-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -99,6 +99,7 @@
     "51f45e0dbfa0e6665df096d078d5686ff7ff274d335954630573c7cb98ee1b8a",
     "7ed66ba2a572cb8696e1d984a96108a6286ea17c9f8e1627e4d300d58f044d28",
     "402006fea53d3f02b8ccc3d260867a9e8fd68ad30fdb4ffbadbdd6c863c92cc4",
-    "3c249b46817d00c19b6b7cab999f8e1e3e41315d0c2ea0d5a957bc8b0ad7d122"
+    "3c249b46817d00c19b6b7cab999f8e1e3e41315d0c2ea0d5a957bc8b0ad7d122",
+    "97149b290c681a19ba683052eb89049f374069342e5fdae55447434307f53dfa"
   ]
 }

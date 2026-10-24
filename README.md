@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.
+**Where we are:** PSX-Atlas is the primary reference. The completed APEX-1 gap card remains a missing-assertion/evidence specification, not a positive oracle or native acceptance.
 
-**Next useful step:** Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates.
+**Next useful step:** Use Atlas first, then reconcile a precise unresolved question with APEX-1 retained research and verified available, already-authorized reasoning GPT Sol cloud tasks. Preserve the completed gap card and portability clarification; no duplicate task, assumed host access or native gate advance follows.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-1703-01` · [reviewed basis 26e85c7](https://github.com/raiinman/Rock-Man-x64/commit/26e85c7df05e73c39094271f32fcce65b6b1f2e4).
+**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` · [reviewed basis d73ec0c](https://github.com/raiinman/Rock-Man-x64/commit/d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a).
 **Latest repository change observed:** [e0478e5](https://github.com/raiinman/Rock-Man-x64/commit/e0478e55ac5f5dee609e42ede2d9ce4021f1bc38) · 2026-10-24T10:06:40-07:00 — docs: record hourly zero-delta evidence review at 17:03 UTC.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

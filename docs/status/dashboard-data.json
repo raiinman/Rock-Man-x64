@@ -408,17 +408,33 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-hourly-zero-delta-1703-01",
-    "reviewed_through_commit": "26e85c7df05e73c39094271f32fcce65b6b1f2e4",
-    "summary": "Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity. Existing blockers, ownership, completed clarifications and all acceptance counts remain unchanged; no native implementation/test worker is active."
+    "review_id": "2026-10-24-atlas-primary-reference-policy-01",
+    "reviewed_through_commit": "d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a",
+    "summary": "Reviewed at 2026-10-24 17:52:02 UTC: PSX-Atlas is now the primary first reference for Rock Man x64. Root and research/status contracts require pinned section/revision/evidence-class citations, independent cross-checks for gaps and coordinated, named-owner cloud work through the existing APEX-1 handoff. This is a documentation policy change, not native acceptance. No new native test result or accepted criterion is recorded; initializer, S2, provenance and no-BIOS/emulator-runtime boundaries remain unchanged."
   },
   "overview": {
-    "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes, DOT and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time remains separate from repository activity.",
-    "why": "A bounded negative record check must not become an invented remedy or accepted graphics effect.",
-    "next": "Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates."
+    "now": "PSX-Atlas is the primary reference. The completed APEX-1 gap card remains a missing-assertion/evidence specification, not a positive oracle or native acceptance.",
+    "changed": "Reviewed at 2026-10-24 17:52:02 UTC: PSX-Atlas is now the primary first reference for Rock Man x64. Root and research/status contracts require pinned section/revision/evidence-class citations, independent cross-checks for gaps and coordinated, named-owner cloud work through the existing APEX-1 handoff. This is a documentation policy change, not native acceptance.",
+    "why": "Reference priority helps the team reuse existing answers without mistaking restricted-provenance reference material for a permitted native effect oracle or execution authority.",
+    "next": "Use Atlas first, then reconcile a precise unresolved question with APEX-1 retained research and verified available, already-authorized reasoning GPT Sol cloud tasks. Preserve the completed gap card and portability clarification; no duplicate task, assumed host access or native gate advance follows."
   },
   "updates": [
+    {
+      "id": "atlas-primary-reference-policy-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 17:52:02 UTC: PSX-Atlas is now the primary first reference for Rock Man x64. Root and research/status contracts require pinned section/revision/evidence-class citations, independent cross-checks for gaps and coordinated, named-owner cloud work through the existing APEX-1 handoff. This is a documentation policy change, not native acceptance.",
+      "why": "Reference priority helps the team reuse existing answers without mistaking restricted-provenance reference material for a permitted native effect oracle or execution authority.",
+      "next": "Use Atlas first, then reconcile a precise unresolved question with APEX-1 retained research and verified available, already-authorized reasoning GPT Sol cloud tasks. Preserve the completed gap card and portability clarification; no duplicate task, assumed host access or native gate advance follows.",
+      "evidence": [
+        "AGENTS.md#primary-reference-and-coordinated-gaps",
+        "research/AGENTS.md#work-guidance",
+        "research/bios/AGENTS.md#work-guidance",
+        "docs/status/AGENTS.md",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "hourly-zero-delta-1703-01",
       "date": "2026-10-24",
@@ -4925,6 +4941,68 @@
       "date": "2026-10-24",
       "basis_commit": "26e85c7df05e73c39094271f32fcce65b6b1f2e4",
       "note": "Reviewed at 2026-10-24 17:03:23 UTC: genuine zero-delta hourly review. All fifty-two prior observations and fifty-nine updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-atlas-primary-reference-policy-01",
+      "date": "2026-10-24",
+      "basis_commit": "d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a",
+      "note": "Reviewed at 2026-10-24 17:52:02 UTC: meaningful Atlas-first reference and coordination policy update, with zero native acceptance delta. All 53 prior observations and 60 updates remain exact; no new runtime result, positive oracle or milestone is claimed.",
       "checklists": [
         {
           "id": "inspection",
