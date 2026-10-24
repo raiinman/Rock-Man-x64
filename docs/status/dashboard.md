@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` · [reviewed basis 680b893](https://github.com/raiinman/Rock-Man-x64/commit/680b893a94f3baf4233882b41d0d10db6fda45ed).
-**Latest repository change observed:** [d01b20f](https://github.com/raiinman/Rock-Man-x64/commit/d01b20f9036491796c26bc87e47d4cd1eedcd3ca) · 2026-10-23T17:09:04-07:00 — docs: defer A049 completion selection in separate public handoff.
+**Latest repository change observed:** [495394b](https://github.com/raiinman/Rock-Man-x64/commit/495394b7ac7fa680363ae4be38d0a8198a7ad0f4) · 2026-10-23T17:22:10-07:00 — docs: add DOT handoff entry point and public evidence gaps.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
