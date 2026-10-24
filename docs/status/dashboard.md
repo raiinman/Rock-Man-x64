@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` · [reviewed basis ed11c3b](https://github.com/raiinman/Rock-Man-x64/commit/ed11c3b43dac1a4facff30d908b4e8250239f881).
-**Latest repository change observed:** [9ccee5e](https://github.com/raiinman/Rock-Man-x64/commit/9ccee5e126da9fcbc5959830d19d12d4dcddb34a) · 2026-10-23T17:57:20-07:00 — research: bound next A049 callee entry through first helper.
+**Latest repository change observed:** [74bbb0b](https://github.com/raiinman/Rock-Man-x64/commit/74bbb0b13cebbd7dd3406be7228a540de62df7bc) · 2026-10-23T18:02:12-07:00 — docs: acknowledge bounded static consumer findings without gate advancement.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
