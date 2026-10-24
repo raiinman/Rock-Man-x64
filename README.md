@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-helper-acknowledgment-01` · [reviewed basis 814f25c](https://github.com/raiinman/Rock-Man-x64/commit/814f25cbce534283821897fa4c992398f1860234).
-**Latest repository change observed:** [769c4ad](https://github.com/raiinman/Rock-Man-x64/commit/769c4ad45897dde6304fa0fd487931b80225b550) · 2026-10-23T18:26:08-07:00 — research: correct helper observer callback lifetime contract.
+**Latest repository change observed:** [3a6e4f1](https://github.com/raiinman/Rock-Man-x64/commit/3a6e4f19774c2692ef47948e28fcb83732bfe88a) · 2026-10-23T18:33:17-07:00 — docs: acknowledge helper findings and bounded observer correction.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->

@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "769c4ad45897dde6304fa0fd487931b80225b550",
-    "committed_at": "2026-10-23T18:26:08-07:00",
-    "subject": "research: correct helper observer callback lifetime contract",
+    "sha": "3a6e4f19774c2692ef47948e28fcb83732bfe88a",
+    "committed_at": "2026-10-23T18:33:17-07:00",
+    "subject": "docs: acknowledge helper findings and bounded observer correction",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
