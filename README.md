@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-atlas-primary-reference-policy-01` · [reviewed basis d73ec0c](https://github.com/raiinman/Rock-Man-x64/commit/d73ec0c84ebe6a8b4f495efa3d8bdbf77efd383a).
-**Latest repository change observed:** [e0478e5](https://github.com/raiinman/Rock-Man-x64/commit/e0478e55ac5f5dee609e42ede2d9ce4021f1bc38) · 2026-10-24T10:06:40-07:00 — docs: record hourly zero-delta evidence review at 17:03 UTC.
+**Latest repository change observed:** [5de2791](https://github.com/raiinman/Rock-Man-x64/commit/5de279148fde15098e574f7d0ab16d184a54f477) · 2026-10-24T10:54:16-07:00 — docs: make PSX-Atlas primary reference and coordinate bounded cloud gaps.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
