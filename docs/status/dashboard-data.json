@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-native-missing-function-handoff-01",
-    "reviewed_through_commit": "c560c861f12eb4a8f8a4b3fa69f7fa98618a5422",
-    "summary": "Reviewed at 2026-10-24 04:50:38 UTC: owner-approved sanitized native source-review answer supplies the producer-absent/missing-function outcome. Entry::fulfill_graphics_service49 is proposed, not existing or implemented. The mapped producer and post-return consumer are absent; the permitted workload/effect oracle remains unresolved. Source access works; the 04:22 read-only reply preceded the 04:32:37 request. Zero acceptance delta; earlier public-only clarification and all history retained."
+    "review_id": "2026-10-24-hourly-scope-acknowledgment-0503-01",
+    "reviewed_through_commit": "36b51473fe2518fe6cc2e61391be341c4f879185",
+    "summary": "Reviewed at 2026-10-24 05:03:02 UTC: hourly review reconciled the public 04:53:35 acknowledgment of the older scope clarification with the sanitized missing-function answer committed afterward at 04:53:49. Receipt of the later answer is not established. Saved evidence, delegated native outcomes and all acceptance counts are unchanged; zero native acceptance delta. No new private-work dispatch, transfer, implementation or runtime test follows from the external reply. Actual review time remains separate from repository activity."
   },
   "overview": {
     "now": "A concrete sanitized missing-function response is available. The proposed native fulfillment operation is not implemented; real service production and the post-return consumer remain absent from the reviewed path.",
-    "changed": "Reviewed at 2026-10-24 04:50:38 UTC: supplied the sanitized missing-function answer: proposed Entry::fulfill_graphics_service49 at the pending-service boundary, not an existing adapter. The real producer and post-return consumer are absent from the reviewed path; the status journal is not a producer.",
+    "changed": "Reviewed at 2026-10-24 05:03:02 UTC: the public reply acknowledges the older scope clarification, not the sanitized missing-function answer published fourteen seconds later. That subsequent answer already supplies the proposed operation, native coordinator and intended test boundary; its receipt is not confirmed. Reviewed at 2026-10-24 04:50:38 UTC: supplied the sanitized missing-function answer: proposed Entry::fulfill_graphics_service49 at the pending-service boundary, not an existing adapter. The real producer and post-return consumer are absent from the reviewed path; the status journal is not a producer.",
     "why": "The pending occurrence already retains ownership and argument knownness, but permitted workload interpretation/lifetime and required effects/ordering remain unspecified. Without an accepted workload/effect oracle there is no honest complete positive integration test; a fake success would test plumbing only.",
     "next": "Native development root owns the proposed service/continuation patch. Establish the permitted producer/effect/consumer contract and workload oracle before implementing and testing pending retention, real effects, one continuation resume and duplicate refusal. Publication approval does not clear provenance, initializer, S2 or execution gates."
   },
   "updates": [
+    {
+      "id": "hourly-scope-acknowledgment-0503-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 05:03:02 UTC: the public reply acknowledges the older scope clarification, not the sanitized missing-function answer published fourteen seconds later. That subsequent answer already supplies the proposed operation, native coordinator and intended test boundary; its receipt is not confirmed.",
+      "why": "A communication receipt must be bound to the revision actually cited. The earlier reply cannot acknowledge a later commit or authorize private transfer/execution; repository activity and unrelated work do not advance Rock Man acceptance.",
+      "next": "Use the published sanitized missing-function answer as the current native outcome. Keep root patch ownership and the unresolved permitted workload/effect oracle; no new private-work dispatch is needed for this acknowledgment. Windows, provenance, initializer, S2 and native completion gates remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-scope-acknowledgment-reconciled-with-subsequent-answer--october-24",
+        "https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6380076209",
+        "docs/status/decisions-and-handoff.md#native-response-sanitized-missing-function-answer--october-24"
+      ]
+    },
     {
       "id": "native-missing-function-handoff-01",
       "date": "2026-10-24",
@@ -3243,6 +3257,68 @@
       "date": "2026-10-24",
       "basis_commit": "c560c861f12eb4a8f8a4b3fa69f7fa98618a5422",
       "note": "Reviewed at 2026-10-24 04:50:38 UTC: sanitized source-review handoff only; zero acceptance delta. All thirty prior observations, thirty-seven updates, definitions, accepted IDs, counts, research and historical public-only clarification are preserved. Proposed function and intended test are not implementation or execution; provenance, initializer and S2 gates remain unchanged.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-hourly-scope-acknowledgment-0503-01",
+      "date": "2026-10-24",
+      "basis_commit": "36b51473fe2518fe6cc2e61391be341c4f879185",
+      "note": "Reviewed at 2026-10-24 05:03:02 UTC: hourly communication-receipt review only; zero native acceptance delta. All thirty-one prior observations, thirty-eight updates, definitions, accepted IDs, counts, research and handoffs preserved. The older clarification was acknowledged; receipt of the subsequent sanitized answer remains unconfirmed. No new native/game/research execution, private transfer or gate clearance.",
       "checklists": [
         {
           "id": "inspection",

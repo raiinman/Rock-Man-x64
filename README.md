@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-native-missing-function-handoff-01` · [reviewed basis c560c86](https://github.com/raiinman/Rock-Man-x64/commit/c560c861f12eb4a8f8a4b3fa69f7fa98618a5422).
+**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-scope-acknowledgment-0503-01` · [reviewed basis 36b5147](https://github.com/raiinman/Rock-Man-x64/commit/36b51473fe2518fe6cc2e61391be341c4f879185).
 **Latest repository change observed:** [d10bddb](https://github.com/raiinman/Rock-Man-x64/commit/d10bddb31b228d486987f5009303333d847845fa) · 2026-10-23T21:53:49-07:00 — docs: publish approved sanitized native missing-function handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
