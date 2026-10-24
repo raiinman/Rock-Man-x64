@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "f8c1ef167bd2caf2fa3cbeec331f42e4af92497ec08099f652ceba386b7a72b5",
+  "evidence_data_sha256": "be80fc674e4d11fb7104d102d4e973e20fa5e25a6e9b431b8cc1a97d09278540",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "1ec8e617e8d5e47f3a0a031ec4758ea3c790b7b5e78d08e86e66f470e31af245",
-  "evidence_review_id": "2026-10-24-sanitized-answer-receipt-0511-01",
+  "reviewed_stage_sha256": "6964e8301aafa36bf9f16b736b66c070982ee1e9e707a628cf69d3be8d926f0d",
+  "evidence_review_id": "2026-10-24-apex-effect-oracle-gap-request-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -79,6 +79,7 @@
     "1448a3acb3cfd73606d1fc6691805e747a2ea5bc7901ce38d28686efcff0afe6",
     "da8094803170d47ffc309fb2d842a200e2be33054ea4de7eb2139d37e2f1b6e8",
     "271fc3e6089d171186fb982ec77b1862b65d5067df67affd579ebb91171ead62",
-    "ef6bd1a193df5d177ff5a9c436c220e20034e81f3816d1747d14d9a8d2010c0c"
+    "ef6bd1a193df5d177ff5a9c436c220e20034e81f3816d1747d14d9a8d2010c0c",
+    "c84b982993d2d1a7bf4360122116ad7312aa3bd197e29669c8708936840cd926"
   ]
 }

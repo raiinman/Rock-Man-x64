@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The sanitized missing-function answer has been received and accepted as that requested outcome. Its native fulfillment operation remains proposed, not implemented. A permitted workload/effect oracle is still missing, and the real producer and post-return consumer remain absent from the reviewed path.
+**Where we are:** APEX-1 has a bounded public support request: identify one justified effect-oracle assertion or one precise missing state transition for the selected service write. The sanitized missing-function answer remains received; its native operation remains proposed, not implemented.
 
-**Next useful step:** Native root retains patch ownership. The reply proposes reviewing one candidate workload with explicit input/knownness/lifetime, effects, terminal/consumer outcome and permitted input/expected-result lineage; any disputed effect needs its permitted resolving evidence. This proposed oracle review is not accepted semantics or execution authority. No positive integration test or provenance, initializer or S2 clearance follows from acknowledgment.
+**Next useful step:** APEX-1 is asked to return one reviewable permitted-lineage effect assertion, or one exact missing state-transition assertion and the minimal evidence specification needed, labeled not a positive oracle. Native root evaluates the answer and retains patch ownership. No new inspection, capture, tooling, runtime test, surrogate workload or provenance/initializer/S2 clearance is requested.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-sanitized-answer-receipt-0511-01` · [reviewed basis 88a5fd5](https://github.com/raiinman/Rock-Man-x64/commit/88a5fd5c3a9178bbd403f9e2c095cf30743b8d23).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-effect-oracle-gap-request-01` · [reviewed basis 7dcea54](https://github.com/raiinman/Rock-Man-x64/commit/7dcea54efd622a9852e198e76e16b0c3badb0623).
 **Latest repository change observed:** [c896bf1](https://github.com/raiinman/Rock-Man-x64/commit/c896bf18ce138d12e8c8745d0a5b3dbaf7354b3b) · 2026-10-23T22:13:47-07:00 — docs: record APEX receipt of sanitized missing-function answer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
