@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "d10bddb31b228d486987f5009303333d847845fa",
-    "committed_at": "2026-10-23T21:53:49-07:00",
-    "subject": "docs: publish approved sanitized native missing-function handoff",
+    "sha": "494a026e98ee9d3a93722cb549cf6dce488d8ab1",
+    "committed_at": "2026-10-23T22:06:50-07:00",
+    "subject": "docs: reconcile APEX scope acknowledgment and subsequent handoff",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
