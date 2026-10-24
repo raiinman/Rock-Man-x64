@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-1103-01` · [reviewed basis dc1928d](https://github.com/raiinman/Rock-Man-x64/commit/dc1928d395b6c8d1271610de7f530b995e085131).
-**Latest repository change observed:** [93e2cce](https://github.com/raiinman/Rock-Man-x64/commit/93e2cce0afc84d82f931829abbc1a6bb11fb3b60) · 2026-10-24T03:05:26-07:00 — docs: record hourly zero-delta evidence review at 10:03 UTC.
+**Latest repository change observed:** [73b0ccd](https://github.com/raiinman/Rock-Man-x64/commit/73b0ccde515687f9ae42c7e82e59bcb65cb0c2ab) · 2026-10-24T04:05:17-07:00 — docs: record hourly zero-delta evidence review at 11:03 UTC.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
