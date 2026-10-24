@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · a049-helper-state-01
+
+**Evidence class:** research. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed helper/old-value consumer and two new bounded register-probe windows: normal exits, extended opening-story image, selected-call coverage incomplete.
+
+**Why:** The helper replaces the old return register and performs a pointer-mediated halfword operation; its file initializer is not runtime binding.
+
+**Next:** Reconcile the observed/static dependencies with the native continuation under the permitted-input policy.
+
+**Evidence:** [source 1](../../research/bios/A049-HELPER.md).
+
 ## 2026-10-24 · heatmap-arrow-repair-verified-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -383,3 +395,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
 | 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
 | 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | inspection v1 | 4 / 7 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | observation v1 | 2 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | loader v1 | 3 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | s2 v1 | 0 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | boot v1 | 0 / 1 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | roadmap v1 | 5 / 20 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |

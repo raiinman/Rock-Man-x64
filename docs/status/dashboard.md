@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` · [reviewed basis d5a8c83](https://github.com/raiinman/Rock-Man-x64/commit/d5a8c83d9a83c6939692dcff9957a2ada69cde42).
+**Last evidence review:** 2026-10-24 · `2026-10-24-a049-helper-state-01` · [reviewed basis 8068518](https://github.com/raiinman/Rock-Man-x64/commit/8068518e8932cbb524369a47e3f760d26709bb32).
 **Latest repository change observed:** [12f8d42](https://github.com/raiinman/Rock-Man-x64/commit/12f8d424897ff1aa441a7dbb5e79eea2fd084263) · 2026-10-23T18:08:18-07:00 — docs: record verified deployed heatmap repair and hourly evidence review.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -242,17 +242,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
 | 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
 | 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | inspection v1 | 4 / 7 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | observation v1 | 2 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | loader v1 | 3 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | s2 v1 | 0 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | boot v1 | 0 / 1 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-a049-helper-state-01` | roadmap v1 | 5 / 20 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
 
 
 ## Current explanation
 
-**Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
+**Now:** The new original-game observation reaches the opening story, but its selected helper measurement remains incomplete. Native A0:49 is still pending. The public tracker remains a separately accepted documentation delivery.
 
-**Changed:** Reviewed at 2026-10-24 01:05 UTC: the saved deployed-heatmap receipt confirms repaired arrows and bounded keyboard detail navigation on b99453317da4 at 00:33–00:34 UTC; no new test or milestone acceptance. Reviewed at 2026-10-24 00:59 UTC: native coordination acknowledges both published static consumer scopes and qualifies the historical return-discard statement. The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.
+**Changed:** Identified the next helper’s halfword state operation and saved-value consumer; added separately bounded register-only game/BIOS observations. The prior heatmap-repair review remains preserved in its separate record.
 
-**Why:** Actual repaired browser pixels are now distinguished from the earlier source/mock pass and missing-glyph defect; they do not establish native Windows pixels or certify later snapshots. The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown. The prior public-gap acknowledgment is only partially superseded; identifying these boundaries does not establish the helper or complete service contract.
+**Why:** The old A0:49 return register is overwritten before explicit use on the inspected path, but GPU effects and the pointer’s reaching value remain distinct questions. Initializer-based I\_MASK interpretation is conditional.
 
-**Next:** Keep phone/touch, cross-browser and full accessibility coverage pending; this check-in does not rerun or broaden the saved desktop QA. A0:49 implementation-contract selection remains deferred: resolve the first helper and remaining callee requirements, minimum completion obligations, current binding and permitted provenance before selection. Native development retains selection responsibility; this check-in assigns no new research or execution. S2 and initializer gates remain unchanged.
+**Next:** Native development maps the stateful continuation and ownership; research evaluates the narrowly recorded pointer/result evidence without inventing GPU readiness or clearing provenance. Existing mobile/cross-browser/accessibility limits remain unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

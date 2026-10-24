@@ -407,17 +407,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-heatmap-arrow-repair-verified-01",
-    "reviewed_through_commit": "d5a8c83d9a83c6939692dcff9957a2ada69cde42",
-    "summary": "Reviewed at 2026-10-24 01:05 UTC: reconciled the saved 00:33–00:34 UTC supported cloud-browser receipt for b99453317da4. Repaired arrows and bounded keyboard detail navigation passed; no new browser test, native execution or milestone acceptance. Earlier failures and revision-scoped coverage remain recorded; mobile, cross-browser and full accessibility limits remain."
+    "review_id": "2026-10-24-a049-helper-state-01",
+    "reviewed_through_commit": "8068518e8932cbb524369a47e3f760d26709bb32",
+    "summary": "Reviewed original helper/old-value consumer with independent decoding; file initializer is not runtime binding. Two new bounded emulator windows exited normally, but selected-call measurements are incomplete; extended final screen reaches opening story. No native acceptance or clearance."
   },
   "overview": {
-    "now": "The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.",
-    "changed": "Reviewed at 2026-10-24 01:05 UTC: the saved deployed-heatmap receipt confirms repaired arrows and bounded keyboard detail navigation on b99453317da4 at 00:33–00:34 UTC; no new test or milestone acceptance. Reviewed at 2026-10-24 00:59 UTC: native coordination acknowledges both published static consumer scopes and qualifies the historical return-discard statement. The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.",
-    "why": "Actual repaired browser pixels are now distinguished from the earlier source/mock pass and missing-glyph defect; they do not establish native Windows pixels or certify later snapshots. The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown. The prior public-gap acknowledgment is only partially superseded; identifying these boundaries does not establish the helper or complete service contract.",
-    "next": "Keep phone/touch, cross-browser and full accessibility coverage pending; this check-in does not rerun or broaden the saved desktop QA. A0:49 implementation-contract selection remains deferred: resolve the first helper and remaining callee requirements, minimum completion obligations, current binding and permitted provenance before selection. Native development retains selection responsibility; this check-in assigns no new research or execution. S2 and initializer gates remain unchanged."
+    "now": "The new original-game observation reaches the opening story, but its selected helper measurement remains incomplete. Native A0:49 is still pending. The public tracker remains a separately accepted documentation delivery.",
+    "changed": "Identified the next helper’s halfword state operation and saved-value consumer; added separately bounded register-only game/BIOS observations. The prior heatmap-repair review remains preserved in its separate record.",
+    "why": "The old A0:49 return register is overwritten before explicit use on the inspected path, but GPU effects and the pointer’s reaching value remain distinct questions. Initializer-based I_MASK interpretation is conditional.",
+    "next": "Native development maps the stateful continuation and ownership; research evaluates the narrowly recorded pointer/result evidence without inventing GPU readiness or clearing provenance. Existing mobile/cross-browser/accessibility limits remain unchanged."
   },
   "updates": [
+    {
+      "id": "a049-helper-state-01",
+      "date": "2026-10-24",
+      "kind": "research",
+      "changed": "Reviewed helper/old-value consumer and two new bounded register-probe windows: normal exits, extended opening-story image, selected-call coverage incomplete.",
+      "why": "The helper replaces the old return register and performs a pointer-mediated halfword operation; its file initializer is not runtime binding.",
+      "next": "Reconcile the observed/static dependencies with the native continuation under the permitted-input policy.",
+      "evidence": [
+        "research/bios/A049-HELPER.md"
+      ],
+      "capability_changed": false
+    },
     {
       "id": "heatmap-arrow-repair-verified-01",
       "date": "2026-10-24",
@@ -2101,6 +2113,68 @@
       "date": "2026-10-24",
       "basis_commit": "d5a8c83d9a83c6939692dcff9957a2ada69cde42",
       "note": "Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-a049-helper-state-01",
+      "date": "2026-10-24",
+      "basis_commit": "8068518e8932cbb524369a47e3f760d26709bb32",
+      "note": "Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions.",
       "checklists": [
         {
           "id": "inspection",

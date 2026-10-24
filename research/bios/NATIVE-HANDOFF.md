@@ -95,3 +95,7 @@ The later [input/caller reconciliation](ORIGINAL-GAME-STARTUP.md#original-input-
 ## Immediate consumer investigation
 
 The [new bounded original-game inspection](A049-CONSUMER.md) identifies the immediate post-return direct call and its saved-register argument. The next callee may still read the live return register; neither global return-value discard nor minimum GPU completion follows. Native development has been asked to map that callee to its continuation contract while research closes the selected original-side evidence gap. This is new static research, not a current native execution or provenance clearance.
+
+## Helper state and targeted observation
+
+The [helper follow-up](A049-HELPER.md) identifies an ordered halfword read/write, the old-value consumer and a conditional interrupt-mask interpretation. The original service return register is replaced before any explicit read on the inspected normal path; that does not remove GPU synchronization/submission obligations. Targeted emulator observations are separately scoped, preserve incomplete measurements and do not populate native unknowns or clear provenance. Native development has been asked to map this stateful continuation in parallel.

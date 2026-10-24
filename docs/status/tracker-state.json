@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "71fcc3a9c5a6dd47a8641a542c36cca211609cc840306b1b83a7274a15e90d58",
+  "evidence_data_sha256": "0f5586438911b5df405ab3dcf3a838de8565763865f57b86d67bd72ae8ab4d48",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "98d43cde2fea782936c03826ed5692d77a4ecb3eb81cf374c7b201ab941bdaa4",
-  "evidence_review_id": "2026-10-24-heatmap-arrow-repair-verified-01",
+  "reviewed_stage_sha256": "ed35a07247b6100c13034f3db9d5a5307e6ab7ab8b44efef5b417d57ada0cc4b",
+  "evidence_review_id": "2026-10-24-a049-helper-state-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -62,6 +62,7 @@
     "35f37f1e53c268db2f06ce4d409050aedddbdf64cba7c1b89df3ae1228878282",
     "8b5c8e24d4bcc8cb4547a917607603edc8b56a716faa4c8e7e40ee99d0d26b0e",
     "000b5dce01a7bef3ed1bf86e8a44c480d9536e7837fc480bd41360dc36c5bfca",
-    "0b2675cc5e1cefbd445a2719781143df74b9babca8973dbde135ba3fb8af9111"
+    "0b2675cc5e1cefbd445a2719781143df74b9babca8973dbde135ba3fb8af9111",
+    "00f2cc36c2a4a3fcab10c69a899e52bbcba25dd9e3bb82f2281462a68407b0c1"
   ]
 }

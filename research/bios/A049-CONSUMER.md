@@ -37,3 +37,7 @@ For entry stack pointer S, the two stores address S−8 and S−4. Neither align
 None of the six entry instructions reads or writes `v0`. The register is still live when the uninspected helper begins. This narrows the consumer search one boundary further but still does not prove global discard, a complete consumer sequence, GPU completion or an implementable A0:49 service contract.
 
 The same original-file identity was rechecked and a separate private 256-byte contextual slice retained. REA returned the complete selected 24-byte window and corroborated the helper call and zero-argument delay slot. Independent manual and reviewer decoding agreed on the six instructions and stack arithmetic; the reviewer verified the retained slice digest, not the full executable digest. No target was executed, no complete-function extent is claimed and no deeper callee was followed. Original-source and decoder/test-design provenance remain unchanged.
+
+## Subsequent helper result
+
+The separate [helper investigation](A049-HELPER.md) now inspects the first helper and its immediate result consumer. It establishes a bounded direct register-dataflow discard before the old A0:49 value is replaced, and a conditional interrupt-mask interpretation from the original pointer initializer. Earlier statements above describe their narrower completed scopes; they do not override this follow-up or establish global effect-free behavior.

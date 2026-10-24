@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
+**Where we are:** The new original-game observation reaches the opening story, but its selected helper measurement remains incomplete. Native A0:49 is still pending. The public tracker remains a separately accepted documentation delivery.
 
-**Next useful step:** Keep phone/touch, cross-browser and full accessibility coverage pending; this check-in does not rerun or broaden the saved desktop QA. A0:49 implementation-contract selection remains deferred: resolve the first helper and remaining callee requirements, minimum completion obligations, current binding and permitted provenance before selection. Native development retains selection responsibility; this check-in assigns no new research or execution. S2 and initializer gates remain unchanged.
+**Next useful step:** Native development maps the stateful continuation and ownership; research evaluates the narrowly recorded pointer/result evidence without inventing GPU readiness or clearing provenance. Existing mobile/cross-browser/accessibility limits remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` · [reviewed basis d5a8c83](https://github.com/raiinman/Rock-Man-x64/commit/d5a8c83d9a83c6939692dcff9957a2ada69cde42).
+**Last evidence review:** 2026-10-24 · `2026-10-24-a049-helper-state-01` · [reviewed basis 8068518](https://github.com/raiinman/Rock-Man-x64/commit/8068518e8932cbb524369a47e3f760d26709bb32).
 **Latest repository change observed:** [12f8d42](https://github.com/raiinman/Rock-Man-x64/commit/12f8d424897ff1aa441a7dbb5e79eea2fd084263) · 2026-10-23T18:08:18-07:00 — docs: record verified deployed heatmap repair and hourly evidence review.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -35,3 +35,11 @@ The owner directed research to stop waiting and start concrete work. The [bounde
 ### Entry follow-up ready for native mapping
 
 The [callee-entry follow-up](research/bios/A049-CONSUMER.md#callee-entry-follow-up-first-helper-boundary) adds concrete stack/register prerequisites and the first helper boundary. Returned `v0` remains live through that entry; no global discard is established. Please map the native continuation through this boundary and identify the helper’s required state/effects. No native implementation change follows automatically.
+
+## Helper state follow-up
+
+The [helper report](research/bios/A049-HELPER.md) now identifies the pointer-mediated halfword operation and its saved-value consumer. The pointer initializer suggests I_MASK conditionally; runtime binding and device success remain separate. The A0:49 return register is overwritten before any explicit read along the inspected normal path, while its GPU side effects remain required questions. Please map the native continuation and its state ownership in parallel. Targeted game/BIOS observations, including incomplete windows, are recorded separately in that report.
+
+### Helper result and run outcomes ready
+
+The [new report](research/bios/A049-HELPER.md) identifies an ordered halfword operation, its old-value consumer and a conditional I_MASK interpretation from the file initializer. It narrows direct `v0` dataflow; it does not remove GPU effects. The new extended original-game run reaches the opening story, but both targeted windows lack the selected helper chain, so runtime binding remains unmeasured. Please map the helper/old-value consumer to native state ownership and permitted policy in parallel; research will audit measurement coverage before another run.
