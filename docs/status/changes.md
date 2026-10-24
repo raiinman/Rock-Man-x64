@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · heatmap-arrow-repair-verified-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 01:05 UTC: the saved 00:33–00:34 UTC supported cloud-browser receipt verifies repaired arrows, unchanged 20-tile counts and bounded Enter/Tab/Close detail navigation on b99453317da4. No new browser run was performed.
+
+**Why:** Closes the earlier pending repaired-pixel check without erasing the missing-glyph failure or reattributing earlier broader interactions to this revision. Documentation pixels are not native Windows/runtime acceptance; milestone states are not worker activity.
+
+**Next:** Phone/touch, cross-browser and full accessibility/screen-reader coverage remain unrun. Later snapshots are not certified by this receipt. Preserve all native/IDE acceptance limits and A0:49, S2, initializer and provenance gates; roadmap remains 5/20.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#live-heatmap-qa-and-decorative-arrow-correction--october-24) · [source 2](../../docs/history/validation-history.md#deployed-heatmap-arrow-repair-verification--october-24).
+
 ## 2026-10-24 · apex-static-consumer-acknowledgment-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -365,3 +377,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
 | 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |
+| 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 01:05 UTC: reconciled the retained, revision-bound heatmap arrow-repair browser receipt only; no new browser/native/game/research test. Zero acceptance delta; all fifteen prior observations and twenty-two updates, frozen criteria, versions and accepted IDs are preserved. Mobile, cross-browser, full accessibility and native Windows limits remain separate. |

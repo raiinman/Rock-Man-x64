@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "0d649ed5ccdc4362ca1f8b9fb7418d7d090d1c0cdb61aaccabd1a7c2e258e465",
+  "evidence_data_sha256": "71fcc3a9c5a6dd47a8641a542c36cca211609cc840306b1b83a7274a15e90d58",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "4db8b1ba492313b246662e9601ed7e9acf52b56016cd3395a51aaf6db6157ac8",
-  "evidence_review_id": "2026-10-24-apex-static-consumer-acknowledgment-01",
+  "reviewed_stage_sha256": "98d43cde2fea782936c03826ed5692d77a4ecb3eb81cf374c7b201ab941bdaa4",
+  "evidence_review_id": "2026-10-24-heatmap-arrow-repair-verified-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -61,6 +61,7 @@
     "f586e1993f737ba1637525afe02b1c1bf280c42cbba5719df5f1d90ca46b6c1c",
     "35f37f1e53c268db2f06ce4d409050aedddbdf64cba7c1b89df3ae1228878282",
     "8b5c8e24d4bcc8cb4547a917607603edc8b56a716faa4c8e7e40ee99d0d26b0e",
-    "000b5dce01a7bef3ed1bf86e8a44c480d9536e7837fc480bd41360dc36c5bfca"
+    "000b5dce01a7bef3ed1bf86e8a44c480d9536e7837fc480bd41360dc36c5bfca",
+    "0b2675cc5e1cefbd445a2719781143df74b9babca8973dbde135ba3fb8af9111"
   ]
 }
