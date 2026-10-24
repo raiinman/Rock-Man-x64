@@ -408,17 +408,32 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-research-generic-completion-candidate-01",
-    "reviewed_through_commit": "db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143",
-    "summary": "Reviewed at 2026-10-24 02:32 UTC: original generic completion gate passes Windows synthetic debug/release checks and independent source review; inert private text delivery checked. Native owner/consumer/GPU producer bindings, whole-owner retirement and provenance acceptance remain open. Prior history, all native criteria and twelve findings preserved."
+    "review_id": "2026-10-24-native-completion-gate-contract-review-01",
+    "reviewed_through_commit": "5ea3adf686164a4082c871c40444dbe1514eb62b",
+    "summary": "Reviewed at 2026-10-24 02:45 UTC: public-only review of the reported generic ownership gate. Token settlement and continuation obligations do not establish native producer effects, an actual consumer binding or whole-owner retirement. Windows synthetic results remain author-reported; private delivery is not acknowledged. All prior history and native criteria are preserved; zero acceptance delta."
   },
   "overview": {
     "now": "DOT has acknowledged the corrected original-side chain and gameplay-HUD endpoint. Native A0:49 state ownership and GPU completion remain unresolved.",
-    "changed": "Reviewed at 2026-10-24 02:32 UTC: a private generic owner/completion gate passed Windows synthetic debug/release checks and independent source review; inert text delivery checked. Native conditional-case acknowledgment and the separate diagnostic-preview repair remain preserved, without native integration credit.",
+    "changed": "Reviewed at 2026-10-24 02:45 UTC: native coordination distinguishes the generic gate’s reported local obligations from the still-required real producer/consumer adapter contract. Windows results remain author-reported, private receipt is unconfirmed, and earlier research and diagnostic-preview findings are preserved without native integration credit.",
     "why": "A partial image must not be presented as a completed raster; actual host display success remains unverified. The helper result is saved before the temporary return register is replaced. Treating this branch as a test of A0:49 success would map the wrong dependency.",
     "next": "Native development supplies the minimal actual request-owner, continuation and real GPU terminal-producer adapter contract. Keep Windows presentation/UI acceptance, S2, initializer and provenance gates pending; no sampled game values or candidate checks establish native boot."
   },
   "updates": [
+    {
+      "id": "native-completion-gate-contract-review-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 02:45 UTC: acknowledged the public generic completion candidate report, not private artifact receipt. The reported local policy retains unclaimed success and unfinished continuations; the separate source review and Windows debug/release synthetic results are not independently reproduced here.",
+      "why": "A valid token and trusted terminal assertion do not establish real GPU acceptance, required effects, actual continuation completion or whole-owner retirement. Cancellation of unclaimed success needs an explicit policy for effects already committed.",
+      "next": "Integration remains deferred pending the actual request-owner/token binding, real submission and terminal producer, required effects and ordering, continuation claim/finish boundary, cancellation and resource-retirement contract, and permitted provenance review. No new guest capture, native implementation, initializer or S2 enablement is requested.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-generic-completion-candidate-contract-review--october-24",
+        "research/bios/NATIVE-COMPLETION-CANDIDATE.md",
+        "DOT.md#generic-owner-completion-candidate-ready",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "research-generic-completion-candidate-01",
       "date": "2026-10-24",
@@ -2781,6 +2796,68 @@
       "date": "2026-10-24",
       "basis_commit": "db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143",
       "note": "Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-native-completion-gate-contract-review-01",
+      "date": "2026-10-24",
+      "basis_commit": "5ea3adf686164a4082c871c40444dbe1514eb62b",
+      "note": "Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance.",
       "checklists": [
         {
           "id": "inspection",

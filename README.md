@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` · [reviewed basis db3c7b5](https://github.com/raiinman/Rock-Man-x64/commit/db3c7b5c48bf5a8d2b53bd587e8e6fee4a0d5143).
+**Last evidence review:** 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` · [reviewed basis 5ea3adf](https://github.com/raiinman/Rock-Man-x64/commit/5ea3adf686164a4082c871c40444dbe1514eb62b).
 **Latest repository change observed:** [4b41365](https://github.com/raiinman/Rock-Man-x64/commit/4b413654006e93e9a9e00c143160302655866efa) · 2026-10-23T19:34:15-07:00 — docs: hand off tested generic completion ownership candidate.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

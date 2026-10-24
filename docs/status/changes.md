@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · native-completion-gate-contract-review-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 02:45 UTC: acknowledged the public generic completion candidate report, not private artifact receipt. The reported local policy retains unclaimed success and unfinished continuations; the separate source review and Windows debug/release synthetic results are not independently reproduced here.
+
+**Why:** A valid token and trusted terminal assertion do not establish real GPU acceptance, required effects, actual continuation completion or whole-owner retirement. Cancellation of unclaimed success needs an explicit policy for effects already committed.
+
+**Next:** Integration remains deferred pending the actual request-owner/token binding, real submission and terminal producer, required effects and ordering, continuation claim/finish boundary, cancellation and resource-retirement contract, and permitted provenance review. No new guest capture, native implementation, initializer or S2 enablement is requested.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-generic-completion-candidate-contract-review--october-24) · [source 2](../../research/bios/NATIVE-COMPLETION-CANDIDATE.md) · [source 3](../../DOT.md#generic-owner-completion-candidate-ready) · [source 4](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · research-generic-completion-candidate-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -545,3 +557,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
 | 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
 | 2026-10-24 · `2026-10-24-research-generic-completion-candidate-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:32 UTC: generic host candidate only, zero native acceptance delta. All prior observations, checklist definitions/versions/accepted IDs and twelve findings preserved. No native integration, game execution or provenance clearance. |
+| 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance. |
+| 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance. |
+| 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance. |
+| 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance. |
+| 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance. |
+| 2026-10-24 · `2026-10-24-native-completion-gate-contract-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 02:45 UTC: public-only generic completion candidate contract review; zero acceptance delta. All twenty-five earlier observations, criteria/versions/accepted IDs, reported Windows counts, research and diagnostic-preview findings are preserved. No independent reproduction, private delivery acknowledgment or native integration acceptance. |

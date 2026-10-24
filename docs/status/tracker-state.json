@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "5997b2933a2c6cdd286d38847ca15a1c56437cd924ca903acfd2f01a8480c3c6",
+  "evidence_data_sha256": "92c64cfb44e6a099259317b67ded298bea173f86b32374341c63caae0b6c88b5",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "f36afe5ad7c0aaf48b16c49fb6d6ef474848fe87cbae0892d2aa58ee57318afc",
-  "evidence_review_id": "2026-10-24-research-generic-completion-candidate-01",
+  "reviewed_stage_sha256": "36d7f2cd120ed7bac7b3d8b04d279f5a715f39b28ed8ebd3dad85ff8bf1b8f1c",
+  "evidence_review_id": "2026-10-24-native-completion-gate-contract-review-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -71,6 +71,7 @@
     "a374cb472fc009e6279758f2c3e04fc9efc83780a76d1c923192843d8a6d0772",
     "36e2e52673a2d6eccc5568eac0cff8ef4b62d1269ec81dc17dc19b616c642412",
     "20605a55ac8237aa738c8592afda3272ca38a90b828b833e6a7dd823af25acb3",
-    "8c1588530fc33cd88aa1d8b83eef5927afb6971dc7dd1c36dc623090d3bb0af9"
+    "8c1588530fc33cd88aa1d8b83eef5927afb6971dc7dd1c36dc623090d3bb0af9",
+    "353b3c5eb30158be2176eb532793e8e37b707bee311ac1312412a5d2dc8a42e1"
   ]
 }
