@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "236967afaa344a565f15a595d74b0808d1092ae1",
-    "committed_at": "2026-10-23T23:13:16-07:00",
-    "subject": "docs: record hourly evidence review without milestone delta",
+    "sha": "82d8d6f5115cd7afc8b738c0855b03a3889807ee",
+    "committed_at": "2026-10-24T00:01:02-07:00",
+    "subject": "docs: require direct APEX blocker coordination and request help",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

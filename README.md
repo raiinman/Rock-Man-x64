@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-blocker-questions-01` · [reviewed basis d66f886](https://github.com/raiinman/Rock-Man-x64/commit/d66f886e6d9dec225b391839ac2a1aff56df7a08).
-**Latest repository change observed:** [236967a](https://github.com/raiinman/Rock-Man-x64/commit/236967afaa344a565f15a595d74b0808d1092ae1) · 2026-10-23T23:13:16-07:00 — docs: record hourly evidence review without milestone delta.
+**Latest repository change observed:** [82d8d6f](https://github.com/raiinman/Rock-Man-x64/commit/82d8d6f5115cd7afc8b738c0855b03a3889807ee) · 2026-10-24T00:01:02-07:00 — docs: require direct APEX blocker coordination and request help.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
