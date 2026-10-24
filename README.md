@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` · [reviewed basis a96bd42](https://github.com/raiinman/Rock-Man-x64/commit/a96bd421fa9c1eed718db5d2bbf2cbbb207a99f0).
-**Latest repository change observed:** [3fd83d8](https://github.com/raiinman/Rock-Man-x64/commit/3fd83d822cf03d1f3871451762c70781923d1ec7) · 2026-10-24T10:57:27-07:00 — docs: request bounded Atlas-first reconciliation from APEX-1.
+**Latest repository change observed:** [1e89de4](https://github.com/raiinman/Rock-Man-x64/commit/1e89de49565092baf9b2afb470e80526d0ce9b09) · 2026-10-24T11:10:17-07:00 — docs: require continuous substantive work and bounded blocker rotation.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->

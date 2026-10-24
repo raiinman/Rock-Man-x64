@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "3fd83d822cf03d1f3871451762c70781923d1ec7",
-    "committed_at": "2026-10-24T10:57:27-07:00",
-    "subject": "docs: request bounded Atlas-first reconciliation from APEX-1",
+    "sha": "1e89de49565092baf9b2afb470e80526d0ce9b09",
+    "committed_at": "2026-10-24T11:10:17-07:00",
+    "subject": "docs: require continuous substantive work and bounded blocker rotation",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
