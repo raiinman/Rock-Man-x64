@@ -2,7 +2,7 @@
 
 ## Result and scope
 
-A new bounded static inspection of the owner-supplied original game identifies the first caller-side transfer after the historical return: conditional on returning to the historical continuation at `0x8007cc14`, the original caller immediately makes another direct call, preparing its first argument from the current saved register `s1` in the transfer delay slot. The next callee is at `0x8007f6b4`. That callee's body was not inspected in this task.
+A new bounded static inspection of the owner-supplied original game identifies the first caller-side transfer after the historical return: conditional on returning to the historical continuation at `0x8007cc14`, the original caller immediately makes another direct call, preparing its first argument from the current saved register `s1` in the transfer delay slot. The next callee is at `0x8007f6b4`. The initial pass stopped before that callee; the bounded entry follow-up below now covers its first helper boundary.
 
 The two immediate continuation instructions neither read nor overwrite `v0`. This is **not proof that the service's numeric result is globally discarded**: the next callee may consume the still-live register. Nor does a return or this transfer establish that GPU work completed. The next concrete evidence question is the callee's input/side-effect contract, including whether it reads `v0` and what it expects from earlier service effects.
 
@@ -26,4 +26,14 @@ No service fulfillment, ready bit, return value, GPU payload, completion rule or
 
 This is original-game static reverse-engineering research, with its source/exposure, mapping transform and prior address-selection dependencies retained privately. REA's generic MIPS32 decoder is an analysis aid; selected MIPS-I fields and delay-slot relationships were independently checked. No code was executed. Original bytes, extracted slices, disassembly and raw evidence remain private. Evidence is not implementation clearance; apply [provenance review](PROVENANCE-REVIEW.md).
 
-**Parallel task proposed to native development:** identify the native continuation corresponding to the next call and state its minimum required inputs/effects. Research's next bounded question is the selected original callee's entry contract. Any extension must keep its scope and permitted provenance explicit; the completed slice does not authorize native execution, initializer retries or S2 enablement.
+**Parallel task proposed to native development:** identify the native continuation corresponding to the next call and state its minimum required inputs/effects. Research's next bounded question is the first helper's entry/side-effect contract and the remaining callee continuation. Any extension must keep its scope and permitted provenance explicit; the completed slice does not authorize native execution, initializer retries or S2 enablement.
+
+## Callee-entry follow-up: first helper boundary
+
+A separate bounded follow-up inspects only the next callee's first six instructions, through its first call and delay slot. Conditional on ordinary nonfaulting execution, the entry allocates 24 stack bytes, saves the incoming `s0` and link value in two word stores, and retains its incoming first argument in `s0`. It then calls `0x80076de4`, setting its first argument to zero in the delay slot. The helper's body remains outside this scope.
+
+For entry stack pointer S, the two stores address S−8 and S−4. Neither aligned, mapped, writable stack memory nor successful stores follow from a file decode. The new link points to `0x8007f6cc`. These are concrete stack/register prerequisites that native continuation mapping must account for, rather than GPU status inferred from the earlier fixture.
+
+None of the six entry instructions reads or writes `v0`. The register is still live when the uninspected helper begins. This narrows the consumer search one boundary further but still does not prove global discard, a complete consumer sequence, GPU completion or an implementable A0:49 service contract.
+
+The same original-file identity was rechecked and a separate private 256-byte contextual slice retained. REA returned the complete selected 24-byte window and corroborated the helper call and zero-argument delay slot. Independent manual and reviewer decoding agreed on the six instructions and stack arithmetic; the reviewer verified the retained slice digest, not the full executable digest. No target was executed, no complete-function extent is claimed and no deeper callee was followed. Original-source and decoder/test-design provenance remain unchanged.

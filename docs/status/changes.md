@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · a049-callee-entry-01
+
+**Evidence class:** research. **Runtime capability advanced:** no.
+
+**Changed:** Identified the next callee’s two stack saves, retained argument and first helper boundary.
+
+**Why:** The caller transfer alone did not establish the next callee’s entry dependencies; live v0 still reaches the helper.
+
+**Next:** Native development maps its continuation while a separately bounded helper question is defined.
+
+**Evidence:** [source 1](../../research/bios/A049-CONSUMER.md#callee-entry-follow-up-first-helper-boundary).
+
 ## 2026-10-24 · a049-consumer-boundary-01
 
 **Evidence class:** research. **Runtime capability advanced:** no.
@@ -329,3 +341,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | s2 v1 | 0 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
 | 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | boot v1 | 0 / 1 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
 | 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | roadmap v1 | 5 / 20 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | inspection v1 | 4 / 7 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | observation v1 | 2 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | loader v1 | 3 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | s2 v1 | 0 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | boot v1 | 0 / 1 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | roadmap v1 | 5 / 20 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |

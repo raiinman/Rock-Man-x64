@@ -30,4 +30,8 @@ Use public-safe prose and citations only. Keep private implementation, original 
 
 ## Active boot-blocker task: first consumer transfer identified
 
-The owner directed research to stop waiting and start concrete work. The [bounded static consumer report](research/bios/A049-CONSUMER.md) now identifies the first direct call after the historical A0:49 return, its saved-register argument and the live-return-register limitation. Please map this next callee to the native continuation and identify the minimum inputs/effects it requires. Research has completed the first original-side slice; the next callee body remains outside this completed scope. No minimum GPU completion contract or implementation clearance is claimed.
+The owner directed research to stop waiting and start concrete work. The [bounded static consumer report](research/bios/A049-CONSUMER.md) now identifies the first direct call after the historical A0:49 return, its saved-register argument and the live-return-register limitation. Please map this next callee to the native continuation and identify the minimum inputs/effects it requires. Research has completed the first original-side slice; a follow-up now identifies that callee’s six-instruction entry through its first helper call, while the remaining body/helper contract stays open. No minimum GPU completion contract or implementation clearance is claimed.
+
+### Entry follow-up ready for native mapping
+
+The [callee-entry follow-up](research/bios/A049-CONSUMER.md#callee-entry-follow-up-first-helper-boundary) adds concrete stack/register prerequisites and the first helper boundary. Returned `v0` remains live through that entry; no global discard is established. Please map the native continuation through this boundary and identify the helper’s required state/effects. No native implementation change follows automatically.

@@ -407,17 +407,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-a049-consumer-boundary-01",
-    "reviewed_through_commit": "3e667f98c91e27b6cd1d94394a370c08f64c6221",
-    "summary": "Bounded original-game static inspection identifies the first post-A049 caller transfer and argument preparation; independent decode review completed. No callee contract, runtime binding, native acceptance or implementation clearance."
+    "review_id": "2026-10-24-a049-callee-entry-01",
+    "reviewed_through_commit": "135b7901eb71830ff057bc865afb1dd6b428422f",
+    "summary": "Reviewed original next-callee six-instruction entry through first helper/delay slot, with selected REA bytes and independent decoding. Stack/register prerequisites narrowed; no runtime, full consumer contract or implementation clearance."
   },
   "overview": {
     "now": "The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.",
-    "changed": "Identified the original caller’s first transfer after the historical A0:49 return and asked native development to map its next callee to the native continuation.",
-    "why": "This replaces one acknowledged consumer-sequence unknown with bounded static evidence. The next callee may still read the live return register; GPU completion obligations remain unresolved.",
-    "next": "Map the identified next callee to native consumer requirements, then select a bounded callee-entry investigation under the provenance policy. Preserve S2, initializer and execution gates."
+    "changed": "The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.",
+    "why": "The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown.",
+    "next": "Map the native continuation to this helper boundary and identify required helper state/effects. Keep full consumer, GPU completion, current binding and provenance questions open."
   },
   "updates": [
+    {
+      "id": "a049-callee-entry-01",
+      "date": "2026-10-24",
+      "kind": "research",
+      "changed": "Identified the next callee’s two stack saves, retained argument and first helper boundary.",
+      "why": "The caller transfer alone did not establish the next callee’s entry dependencies; live v0 still reaches the helper.",
+      "next": "Native development maps its continuation while a separately bounded helper question is defined.",
+      "evidence": [
+        "research/bios/A049-CONSUMER.md#callee-entry-follow-up-first-helper-boundary"
+      ],
+      "capability_changed": false
+    },
     {
       "id": "a049-consumer-boundary-01",
       "date": "2026-10-24",
@@ -1876,6 +1888,68 @@
       "date": "2026-10-24",
       "basis_commit": "3e667f98c91e27b6cd1d94394a370c08f64c6221",
       "note": "New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-a049-callee-entry-01",
+      "date": "2026-10-24",
+      "basis_commit": "135b7901eb71830ff057bc865afb1dd6b428422f",
+      "note": "Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions.",
       "checklists": [
         {
           "id": "inspection",

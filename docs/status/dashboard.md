@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` · [reviewed basis 3e667f9](https://github.com/raiinman/Rock-Man-x64/commit/3e667f98c91e27b6cd1d94394a370c08f64c6221).
+**Last evidence review:** 2026-10-24 · `2026-10-24-a049-callee-entry-01` · [reviewed basis 135b790](https://github.com/raiinman/Rock-Man-x64/commit/135b7901eb71830ff057bc865afb1dd6b428422f).
 **Latest repository change observed:** [a336b48](https://github.com/raiinman/Rock-Man-x64/commit/a336b480ec2aeecd84eb0dab00d46d206f99361d) · 2026-10-23T17:46:18-07:00 — research: identify first original A049 consumer transfer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -224,17 +224,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | s2 v1 | 0 / 4 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
 | 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | boot v1 | 0 / 1 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
 | 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` | roadmap v1 | 5 / 20 | New bounded original-game static consumer evidence only; no native acceptance, criterion or version changes. Zero milestone delta. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | inspection v1 | 4 / 7 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | observation v1 | 2 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | loader v1 | 3 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | s2 v1 | 0 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | boot v1 | 0 / 1 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-a049-callee-entry-01` | roadmap v1 | 5 / 20 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
 
 
 ## Current explanation
 
 **Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Changed:** Identified the original caller’s first transfer after the historical A0:49 return and asked native development to map its next callee to the native continuation.
+**Changed:** The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.
 
-**Why:** This replaces one acknowledged consumer-sequence unknown with bounded static evidence. The next callee may still read the live return register; GPU completion obligations remain unresolved.
+**Why:** The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown.
 
-**Next:** Map the identified next callee to native consumer requirements, then select a bounded callee-entry investigation under the provenance policy. Preserve S2, initializer and execution gates.
+**Next:** Map the native continuation to this helper boundary and identify required helper state/effects. Keep full consumer, GPU completion, current binding and provenance questions open.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

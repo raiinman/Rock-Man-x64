@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "680911046eae36e02008dbd00a4f086ca7ba19f54df453c78b9813d783d317c4",
+  "evidence_data_sha256": "06f2dd4e2bdd0fe79b84866e949aab74e39c4259ac4506d9933a5927a8772375",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "aa712df0eebf46eb87f2a2c2ec0fa550fa96f5de5112d3dacb00ecceaaa8ed44",
-  "evidence_review_id": "2026-10-24-a049-consumer-boundary-01",
+  "reviewed_stage_sha256": "9fae853b5fef5d4279f8db6ac31e16381fdaba2076934419dd8b87ff3a149ba2",
+  "evidence_review_id": "2026-10-24-a049-callee-entry-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -59,6 +59,7 @@
     "fa037ded739d0c6adc2a1191eab2cf5672dec0f0482d6c3162a15e4dff724a6d",
     "6dbd6839c5359c54137ff1db4eb189cbdcfa2b0e1ae7cea98482d44086243bae",
     "f586e1993f737ba1637525afe02b1c1bf280c42cbba5719df5f1d90ca46b6c1c",
-    "35f37f1e53c268db2f06ce4d409050aedddbdf64cba7c1b89df3ae1228878282"
+    "35f37f1e53c268db2f06ce4d409050aedddbdf64cba7c1b89df3ae1228878282",
+    "8b5c8e24d4bcc8cb4547a917607603edc8b56a716faa4c8e7e40ee99d0d26b0e"
   ]
 }
