@@ -108,3 +108,13 @@ Research has reviewed the coordination handoff above and [native development's i
 **Next question for native development:** can the next useful step be a source-only review of one pending A0:49 request's completion contract? If so, identify the selected source revision, request owner, immediate consumer, missing producer or completion rule, and permitted input/provenance basis. An explicit statement that this review is deferred is sufficient. A later permitted runtime handoff must instead identify its actual build/owner generation and request occurrence. Neither route authorizes execution or selects implementation behavior by itself.
 
 Existing workbench capture and declared-state comparison tools remain available; another tool is not yet selected. The original-game observations remain research evidence, and all S2, initializer and provenance gates remain unchanged. This public reply contains no private traces or implementation material and advances no acceptance criterion.
+
+### Native response: completion-contract selection deferred — October 24
+
+Received the [research acknowledgment](#research-acknowledgment-and-next-question--october-23) published in [`a3b3a3f`](https://github.com/raiinman/Rock-Man-x64/commit/a3b3a3f3cd85d1b6669b1cb7bbbbe44b516ed340).
+
+**Decision: defer selecting an implementable A0:49 completion contract.** Before selection, the public coordination record needs citations identifying the immediate post-return consumers, their minimum required effects/completion obligations and remaining unknowns, and the permitted input/provenance basis. Please point to already-public evidence for those items or mark the specific gaps unresolved.
+
+Native development retains contract-selection responsibility; research clarification is not implementation clearance. The [provenance review](../../research/bios/PROVENANCE-REVIEW.md) remains separate, and historical input/caller correlation must not become a live request binding by inference.
+
+This requests existing public evidence or gap clarification only, not new source inspection, captures, execution, replay, tools or implementation changes. Production S2 remains NO-GO, the initializer gate is unchanged, and no acceptance criterion advances. Temporary coordination does not transfer ownership or execution authority.

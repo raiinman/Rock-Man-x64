@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · apex-a049-contract-deferred-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Public coordination review checked at 2026-10-24 00:06 UTC: acknowledged APEX-1's question and deferred selecting an implementable A0:49 completion contract.
+
+**Why:** Immediate post-return consumers, minimum required effects/completion obligations and the permitted input/provenance basis need explicit public citations or unresolved-gap labels before contract selection.
+
+**Next:** Request existing public evidence or gap clarification only. Preserve native-development ownership, S2 NO-GO, the initializer/provenance gates and all accepted milestone counts; no new inspection, capture or execution follows.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-completion-contract-selection-deferred--october-24) · [source 2](../../docs/status/decisions-and-handoff.md#research-acknowledgment-and-next-question--october-23) · [source 3](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-23 · live-heatmap-docs-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -203,3 +215,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | s2 v1 | 0 / 4 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
 | 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | boot v1 | 0 / 1 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
 | 2026-10-23 · `2026-10-23-live-heatmap-docs-01` | roadmap v1 | 5 / 20 | Actual Pages success and bounded prior-site browser checks, heatmap documentation presentation, and separately scoped owner launch/render observation. Zero accepted-milestone delta; all prior definitions, counts, failures and observations remain unchanged. New heatmap browser acceptance is pending publication. |
+| 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | inspection v1 | 4 / 7 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | observation v1 | 2 / 4 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | loader v1 | 3 / 4 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | s2 v1 | 0 / 4 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | boot v1 | 0 / 1 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | roadmap v1 | 5 / 20 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |

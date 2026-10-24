@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-23 · `2026-10-23-live-heatmap-docs-01` · [reviewed basis 925b6ba](https://github.com/raiinman/Rock-Man-x64/commit/925b6ba107f2f811410cb049d93c7b7ffb9c9b60).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` · [reviewed basis b1afbcb](https://github.com/raiinman/Rock-Man-x64/commit/b1afbcb7a113c4b25b8c899ab5325b74eaf36961).
 **Latest repository change observed:** [6ea5381](https://github.com/raiinman/Rock-Man-x64/commit/6ea5381e26f478fd421e3811405f1986ccc0fbf1) · 2026-10-23T17:04:20-07:00 — docs: add full-page red milestone heatmap and verified delivery review.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
