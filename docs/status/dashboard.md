@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-heatmap-arrow-repair-verified-01` · [reviewed basis d5a8c83](https://github.com/raiinman/Rock-Man-x64/commit/d5a8c83d9a83c6939692dcff9957a2ada69cde42).
-**Latest repository change observed:** [74bbb0b](https://github.com/raiinman/Rock-Man-x64/commit/74bbb0b13cebbd7dd3406be7228a540de62df7bc) · 2026-10-23T18:02:12-07:00 — docs: acknowledge bounded static consumer findings without gate advancement.
+**Latest repository change observed:** [12f8d42](https://github.com/raiinman/Rock-Man-x64/commit/12f8d424897ff1aa441a7dbb5e79eea2fd084263) · 2026-10-23T18:08:18-07:00 — docs: record verified deployed heatmap repair and hourly evidence review.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

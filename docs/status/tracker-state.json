@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "74bbb0b13cebbd7dd3406be7228a540de62df7bc",
-    "committed_at": "2026-10-23T18:02:12-07:00",
-    "subject": "docs: acknowledge bounded static consumer findings without gate advancement",
+    "sha": "12f8d424897ff1aa441a7dbb5e79eea2fd084263",
+    "committed_at": "2026-10-23T18:08:18-07:00",
+    "subject": "docs: record verified deployed heatmap repair and hourly evidence review",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
