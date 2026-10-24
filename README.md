@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.
 
-**Next useful step:** Maintain the actionable queue and next substantive assignment; consume completed results promptly. Keep the existing Atlas applicability/provenance request pending without duplicating it, review the reply when available and continue independent authorized work. Preserve provenance, initializer, S2, access and publication limits.
+**Next useful step:** Native root evaluates the bounded reconciliation and retains patch ownership. Establish a permitted workload/effect/commit contract before the proposed native service implementation; no experiment or sampled-state substitution is implied.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-continuous-substantive-work-policy-01` · [reviewed basis a96bd42](https://github.com/raiinman/Rock-Man-x64/commit/a96bd421fa9c1eed718db5d2bbf2cbbb207a99f0).
+**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-reconciliation-01` · [reviewed basis 0402ce4](https://github.com/raiinman/Rock-Man-x64/commit/0402ce4b609f9641dedbe749974aa4dfb069a3bb).
 **Latest repository change observed:** [1e89de4](https://github.com/raiinman/Rock-Man-x64/commit/1e89de49565092baf9b2afb470e80526d0ce9b09) · 2026-10-24T11:10:17-07:00 — docs: require continuous substantive work and bounded blocker rotation.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

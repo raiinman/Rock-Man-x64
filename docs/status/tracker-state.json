@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "bc3b0735fd07fc89325247fdfb7b3b4b5c525c7a2c3ec0208cf62c010afe7572",
+  "evidence_data_sha256": "6ecb0ccfe687b6574871623ff8db8a51f98176863a9ec9814ae7cdc68cc4aff0",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "18fb76adfa4be781cbc8e83fb47d40881b03eb780ea65b0a4f1081ba265c091f",
-  "evidence_review_id": "2026-10-24-continuous-substantive-work-policy-01",
+  "reviewed_stage_sha256": "485e749ab4124ddefbe6bd3467656cfc905413c455f1fcc7cab302dc3072ae58",
+  "evidence_review_id": "2026-10-24-atlas-applicability-reconciliation-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -102,6 +102,7 @@
     "3c249b46817d00c19b6b7cab999f8e1e3e41315d0c2ea0d5a957bc8b0ad7d122",
     "97149b290c681a19ba683052eb89049f374069342e5fdae55447434307f53dfa",
     "c86363f3679ccba92988f7e6be1db0a87c31c973b5244824177a74bfc922bea5",
-    "66f08ae08f011ef4e29a5abda5c8ea653f8a8a564d129d07d8cca7dac186d853"
+    "66f08ae08f011ef4e29a5abda5c8ea653f8a8a564d129d07d8cca7dac186d853",
+    "fe7f2f2aa99c45d0119e76cc7634278111bc3011a4e67b7ef5d0c8f3d4e254f8"
   ]
 }
