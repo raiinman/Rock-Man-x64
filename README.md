@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-a049-consumer-boundary-01` · [reviewed basis 3e667f9](https://github.com/raiinman/Rock-Man-x64/commit/3e667f98c91e27b6cd1d94394a370c08f64c6221).
-**Latest repository change observed:** [56cb3a2](https://github.com/raiinman/Rock-Man-x64/commit/56cb3a2752d6f2b5da05ba29b39a26cd48b56dda) · 2026-10-23T17:36:47-07:00 — docs: acknowledge APEX public evidence gaps separately.
+**Latest repository change observed:** [a336b48](https://github.com/raiinman/Rock-Man-x64/commit/a336b480ec2aeecd84eb0dab00d46d206f99361d) · 2026-10-23T17:46:18-07:00 — research: identify first original A049 consumer transfer.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->

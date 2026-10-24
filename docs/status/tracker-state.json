@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "56cb3a2752d6f2b5da05ba29b39a26cd48b56dda",
-    "committed_at": "2026-10-23T17:36:47-07:00",
-    "subject": "docs: acknowledge APEX public evidence gaps separately",
+    "sha": "a336b480ec2aeecd84eb0dab00d46d206f99361d",
+    "committed_at": "2026-10-23T17:46:18-07:00",
+    "subject": "research: identify first original A049 consumer transfer",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
