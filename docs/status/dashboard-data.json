@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-retained-portability-receipt-01",
-    "reviewed_through_commit": "3e4ac2743229370bbfca9116c08a97c8c051d28b",
-    "summary": "Reviewed at 2026-10-24 08:41:52 UTC: receipt of the public retained-notes answer only. No private implementation, build or runtime result is reported, no new task or execution is requested, and no native accepted criterion changes. Actual review time remains separate from repository activity."
+    "review_id": "2026-10-24-hourly-zero-delta-0910-01",
+    "reviewed_through_commit": "4ea24bed82826ac2536555ed538f1e2d5723cec0",
+    "summary": "Reviewed at 2026-10-24 09:10:14 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time is separate from repository activity. Existing blockers, ownership, completed clarifications and all acceptance counts remain unchanged; no native implementation/test worker is active."
   },
   "overview": {
     "now": "The bounded APEX-1 gap-card task is complete as a missing-assertion/evidence specification, not a positive oracle. No permitted workload or native implementation/acceptance follows from that completion.",
-    "changed": "Reviewed at 2026-10-24 08:41:52 UTC: received APEX-1's retained-notes portability answer and closed the clarification. No tested remedy was established; diagnostic evidence limits, strict warnings and compilation-versus-runtime distinctions are retained. Zero native acceptance delta.",
+    "changed": "Reviewed at 2026-10-24 09:10:14 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time is separate from repository activity. Previous meaningful update: Reviewed at 2026-10-24 08:41:52 UTC: received APEX-1's retained-notes portability answer and closed the clarification. No tested remedy was established; diagnostic evidence limits, strict warnings and compilation-versus-runtime distinctions are retained. Zero native acceptance delta.",
     "why": "A bounded negative record check must not become an invented remedy or accepted graphics effect.",
     "next": "Keep the completed clarification closed. Any later concrete diagnosis would need appropriate declaration/diagnostic or argument-boundary evidence; this receipt requests no new inputs or execution. Native root retains patch ownership and the existing effect/commit-oracle and provenance gates."
   },
   "updates": [
+    {
+      "id": "hourly-zero-delta-0910-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 09:10:14 UTC: genuine zero-delta hourly review of current public head, saved native evidence, terminal outcomes and APEX handoffs. No new native evidence, accepted criterion or public reply. Actual review time is separate from repository activity.",
+      "why": "The hourly review records freshness honestly without turning repository activity, unrelated work or completed planning answers into native progress.",
+      "next": "Retain the current effect/commit-oracle, provenance, initializer and S2 boundaries. Await new authorized native evidence or a meaningful coordination delta; do not repeat completed questions or infer execution authority.",
+      "evidence": [
+        "docs/status/current-status.md",
+        "docs/status/validation.md",
+        "docs/status/decisions-and-handoff.md#native-response-portability-clarification-received--october-24"
+      ]
+    },
     {
       "id": "retained-portability-receipt-01",
       "date": "2026-10-24",
@@ -4233,6 +4247,68 @@
       "date": "2026-10-24",
       "basis_commit": "3e4ac2743229370bbfca9116c08a97c8c051d28b",
       "note": "Reviewed at 2026-10-24 08:41:52 UTC: retained-notes portability clarification received and closed; zero native acceptance delta. All forty-three prior observations and fifty updates are preserved exactly. No tested remedy, private validation result, new execution authority or gate clearance is inferred.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-hourly-zero-delta-0910-01",
+      "date": "2026-10-24",
+      "basis_commit": "4ea24bed82826ac2536555ed538f1e2d5723cec0",
+      "note": "Reviewed at 2026-10-24 09:10:14 UTC: genuine zero-delta hourly review. All forty-four prior observations and fifty-one updates are preserved exactly; saved evidence and terminal outcomes are unchanged. No new accepted criterion, runtime result or moving heat value is inferred.",
       "checklists": [
         {
           "id": "inspection",

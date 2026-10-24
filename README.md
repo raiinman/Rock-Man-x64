@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-retained-portability-receipt-01` · [reviewed basis 3e4ac27](https://github.com/raiinman/Rock-Man-x64/commit/3e4ac2743229370bbfca9116c08a97c8c051d28b).
+**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-0910-01` · [reviewed basis 4ea24be](https://github.com/raiinman/Rock-Man-x64/commit/4ea24bed82826ac2536555ed538f1e2d5723cec0).
 **Latest repository change observed:** [daecfde](https://github.com/raiinman/Rock-Man-x64/commit/daecfdeae8f66fc1dfbec85c3cfbf780441d314a) · 2026-10-24T01:43:42-07:00 — docs: acknowledge retained Windows portability guidance.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
