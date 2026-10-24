@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-corrected-helper-gameplay-01` · [reviewed basis 709bf01](https://github.com/raiinman/Rock-Man-x64/commit/709bf018d2caa4e13ba5571ca7a0dd2741a28ad8).
-**Latest repository change observed:** [3a6e4f1](https://github.com/raiinman/Rock-Man-x64/commit/3a6e4f19774c2692ef47948e28fcb83732bfe88a) · 2026-10-23T18:33:17-07:00 — docs: acknowledge helper findings and bounded observer correction.
+**Latest repository change observed:** [2438aa3](https://github.com/raiinman/Rock-Man-x64/commit/2438aa33a260a37402f990ed4467cb70d5fb61ef) · 2026-10-23T18:43:39-07:00 — research: measure corrected helper chain and reach original-game gameplay scene.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
