@@ -407,17 +407,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-a049-callee-entry-01",
-    "reviewed_through_commit": "135b7901eb71830ff057bc865afb1dd6b428422f",
-    "summary": "Reviewed original next-callee six-instruction entry through first helper/delay slot, with selected REA bytes and independent decoding. Stack/register prerequisites narrowed; no runtime, full consumer contract or implementation clearance."
+    "review_id": "2026-10-24-apex-static-consumer-acknowledgment-01",
+    "reviewed_through_commit": "ed11c3b43dac1a4facff30d908b4e8250239f881",
+    "summary": "Reviewed at 2026-10-24 00:59 UTC: acknowledged the two published static caller/callee-entry scopes and partially superseded the prior all-unknown consumer wording. Qualified historical global-return-discard language; helper/remaining-callee requirements, completion, current binding and provenance remain unresolved. Public-report coordination only, with no new original-input analysis, execution, research assignment or acceptance."
   },
   "overview": {
     "now": "The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.",
-    "changed": "The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.",
-    "why": "The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown.",
-    "next": "Map the native continuation to this helper boundary and identify required helper state/effects. Keep full consumer, GPU completion, current binding and provenance questions open."
+    "changed": "Reviewed at 2026-10-24 00:59 UTC: native coordination acknowledges both published static consumer scopes and qualifies the historical return-discard statement. The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.",
+    "why": "The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown. The prior public-gap acknowledgment is only partially superseded; identifying these boundaries does not establish the helper or complete service contract.",
+    "next": "A0:49 implementation-contract selection remains deferred: resolve the first helper and remaining callee requirements, minimum completion obligations, current binding and permitted provenance before selection. Native development retains selection responsibility; this check-in assigns no new research or execution. S2 and initializer gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "apex-static-consumer-acknowledgment-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 00:59 UTC: acknowledged the published immediate transfer and six-instruction callee entry, partially superseding the prior consumer-sequence gap. Qualified historical return-discard wording because the return register remains live into the uninspected helper.",
+      "why": "The public static research narrows two boundaries without establishing a complete consumer or GPU/service completion contract. Research findings, native implementation and provenance acceptance remain separate.",
+      "next": "Keep contract selection deferred while helper/remaining-callee state and effects, minimum completion obligations, current request binding and permitted provenance remain unresolved. Native development retains selection responsibility. No new research assignment, original-input inspection, execution or acceptance is authorized; S2 and initializer gates remain unchanged.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-response-static-consumer-boundaries-acknowledged--october-24",
+        "research/bios/A049-CONSUMER.md",
+        "research/bios/PROVENANCE-REVIEW.md"
+      ]
+    },
     {
       "id": "a049-callee-entry-01",
       "date": "2026-10-24",
@@ -1950,6 +1964,68 @@
       "date": "2026-10-24",
       "basis_commit": "135b7901eb71830ff057bc865afb1dd6b428422f",
       "note": "Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-apex-static-consumer-acknowledgment-01",
+      "date": "2026-10-24",
+      "basis_commit": "ed11c3b43dac1a4facff30d908b4e8250239f881",
+      "note": "Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance.",
       "checklists": [
         {
           "id": "inspection",

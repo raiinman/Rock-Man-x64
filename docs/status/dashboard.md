@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-a049-callee-entry-01` · [reviewed basis 135b790](https://github.com/raiinman/Rock-Man-x64/commit/135b7901eb71830ff057bc865afb1dd6b428422f).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` · [reviewed basis ed11c3b](https://github.com/raiinman/Rock-Man-x64/commit/ed11c3b43dac1a4facff30d908b4e8250239f881).
 **Latest repository change observed:** [9ccee5e](https://github.com/raiinman/Rock-Man-x64/commit/9ccee5e126da9fcbc5959830d19d12d4dcddb34a) · 2026-10-23T17:57:20-07:00 — research: bound next A049 callee entry through first helper.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -230,17 +230,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-a049-callee-entry-01` | s2 v1 | 0 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
 | 2026-10-24 · `2026-10-24-a049-callee-entry-01` | boot v1 | 0 / 1 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
 | 2026-10-24 · `2026-10-24-a049-callee-entry-01` | roadmap v1 | 5 / 20 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
 
 
 ## Current explanation
 
 **Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Changed:** The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.
+**Changed:** Reviewed at 2026-10-24 00:59 UTC: native coordination acknowledges both published static consumer scopes and qualifies the historical return-discard statement. The next original callee now has a bounded entry description: stack/register preparation and its first zero-argument helper call.
 
-**Why:** The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown.
+**Why:** The returned register remains live through this entry, so the numeric result still cannot be declared globally unused. Concrete stack prerequisites replace one narrower unknown. The prior public-gap acknowledgment is only partially superseded; identifying these boundaries does not establish the helper or complete service contract.
 
-**Next:** Map the native continuation to this helper boundary and identify required helper state/effects. Keep full consumer, GPU completion, current binding and provenance questions open.
+**Next:** A0:49 implementation-contract selection remains deferred: resolve the first helper and remaining callee requirements, minimum completion obligations, current binding and permitted provenance before selection. Native development retains selection responsibility; this check-in assigns no new research or execution. S2 and initializer gates remain unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

@@ -27,7 +27,7 @@ The accepted mode stage stops at `8001b44c`. Newer graphics-entry work has bound
 
 ## Next source boundary
 
-The diagnostic continuation performs one real diagnostic publication, a bounded RAM clear and guarded initialized callback, then stops at A0:49 (`8007cc0c`). Keep the actual continuation and pending obligations; do not skip the service because its numeric return is later discarded.
+The diagnostic continuation performs one real diagnostic publication, a bounded RAM clear and guarded initialized callback, then stops at A0:49 (`8007cc0c`). Keep the actual continuation and pending obligations; do not skip the service. Earlier native-project reporting described its numeric return as later discarded, but the [bounded caller and callee-entry inspections](../../research/bios/A049-CONSUMER.md) do not establish global discard: the return register remains live into an uninspected helper. Neither interpretation permits dropping service effects.
 
 The inspected Sony OS (1998) and Runtime 4.7 pages do not bind the exact service contract. Community documentation offers a provenance-limited lead, not implementation authority. This is not a universal absence-of-documentation claim. Establish applicable service effects, ownership, ordering, completion and failure semantics before implementation. No fabricated GPU readiness or successful no-op is acceptable.
 
@@ -128,3 +128,15 @@ Received the [research response at `495394b`](https://github.com/raiinman/Rock-M
 The [S2 and initializer gates](https://github.com/raiinman/Rock-Man-x64/blob/495394b7ac7fa680363ae4be38d0a8198a7ad0f4/docs/status/decisions-and-handoff.md) and [independent provenance-review requirements](https://github.com/raiinman/Rock-Man-x64/blob/495394b7ac7fa680363ae4be38d0a8198a7ad0f4/research/bios/PROVENANCE-REVIEW.md) remain unchanged. This acknowledgment authorizes no new inspection, execution or implementation and advances no acceptance criterion. Coordination does not transfer ownership.
 
 Meaningful coordination changes will receive separate GitHub handoff commits at scheduled check-ins; unchanged check-ins will not produce empty commits.
+
+### Native response: static consumer boundaries acknowledged — October 24
+
+Reviewed at **2026-10-24 00:59 UTC**: the [caller-transfer report at `a336b480`](https://github.com/raiinman/Rock-Man-x64/blob/a336b480ec2aeecd84eb0dab00d46d206f99361d/research/bios/A049-CONSUMER.md) and the [callee-entry follow-up at `9ccee5e`](https://github.com/raiinman/Rock-Man-x64/blob/9ccee5e126da9fcbc5959830d19d12d4dcddb34a/research/bios/A049-CONSUMER.md#callee-entry-follow-up-first-helper-boundary).
+
+**This partially supersedes the prior public-gap acknowledgment:** the immediate caller-side transfer and a bounded next-callee entry are now identified. Conditional on the historical return, the caller directly calls the next callee with its first argument prepared from `s1`. The follow-up adds conditional stack/register prerequisites through the first helper call, whose first argument is zero. These are published static original-game findings, not observed execution of those transfers or native acceptance.
+
+The immediate continuation and the six inspected callee-entry instructions leave `v0` live into the uninspected helper. They do **not** establish that the service's numeric return is globally discarded. Earlier discard wording remains a historical native-project statement, not a conclusion verified by these new reports. In either case, a return value does not justify skipping service effects.
+
+**Contract selection remains deferred.** The first helper's body and the remaining callee continuation are outside the completed scopes. Their state/effect requirements, valid reaching state and minimum service/device completion obligations remain unresolved. Historical input/caller correlation does not establish a current native build/owner generation or active request. Reported independent decoding is bounded evidence, not clearance under the [permitted-input and independent provenance-review requirements](https://github.com/raiinman/Rock-Man-x64/blob/9ccee5e126da9fcbc5959830d19d12d4dcddb34a/research/bios/PROVENANCE-REVIEW.md).
+
+This check-in acknowledges and maps already-public evidence only; it does not assign new research, approve original-input inspection, execution or captures, select implementation behavior, or clear provenance. Native development retains contract-selection responsibility. S2 remains NO-GO, the initializer gate is unchanged, and no acceptance criterion advances.

@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · apex-static-consumer-acknowledgment-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 00:59 UTC: acknowledged the published immediate transfer and six-instruction callee entry, partially superseding the prior consumer-sequence gap. Qualified historical return-discard wording because the return register remains live into the uninspected helper.
+
+**Why:** The public static research narrows two boundaries without establishing a complete consumer or GPU/service completion contract. Research findings, native implementation and provenance acceptance remain separate.
+
+**Next:** Keep contract selection deferred while helper/remaining-callee state and effects, minimum completion obligations, current request binding and permitted provenance remain unresolved. Native development retains selection responsibility. No new research assignment, original-input inspection, execution or acceptance is authorized; S2 and initializer gates remain unchanged.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#native-response-static-consumer-boundaries-acknowledged--october-24) · [source 2](../../research/bios/A049-CONSUMER.md) · [source 3](../../research/bios/PROVENANCE-REVIEW.md).
+
 ## 2026-10-24 · a049-callee-entry-01
 
 **Evidence class:** research. **Runtime capability advanced:** no.
@@ -347,3 +359,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-a049-callee-entry-01` | s2 v1 | 0 / 4 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
 | 2026-10-24 · `2026-10-24-a049-callee-entry-01` | boot v1 | 0 / 1 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
 | 2026-10-24 · `2026-10-24-a049-callee-entry-01` | roadmap v1 | 5 / 20 | Bounded original-callee entry research only; zero milestone delta, unchanged accepted criteria and versions. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |
+| 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:59 UTC: public-source coordination acknowledgment and narrower historical-discard wording only. Zero acceptance delta; all fourteen prior observations, prior research/component/heatmap updates, criteria, versions and accepted IDs are preserved. No new original-input analysis, execution, research assignment or implementation clearance. |

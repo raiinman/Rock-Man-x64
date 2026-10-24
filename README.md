@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Next useful step:** Map the native continuation to this helper boundary and identify required helper state/effects. Keep full consumer, GPU completion, current binding and provenance questions open.
+**Next useful step:** A0:49 implementation-contract selection remains deferred: resolve the first helper and remaining callee requirements, minimum completion obligations, current binding and permitted provenance before selection. Native development retains selection responsibility; this check-in assigns no new research or execution. S2 and initializer gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-a049-callee-entry-01` · [reviewed basis 135b790](https://github.com/raiinman/Rock-Man-x64/commit/135b7901eb71830ff057bc865afb1dd6b428422f).
+**Last evidence review:** 2026-10-24 · `2026-10-24-apex-static-consumer-acknowledgment-01` · [reviewed basis ed11c3b](https://github.com/raiinman/Rock-Man-x64/commit/ed11c3b43dac1a4facff30d908b4e8250239f881).
 **Latest repository change observed:** [9ccee5e](https://github.com/raiinman/Rock-Man-x64/commit/9ccee5e126da9fcbc5959830d19d12d4dcddb34a) · 2026-10-23T17:57:20-07:00 — research: bound next A049 callee entry through first helper.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
