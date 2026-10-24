@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-a049-helper-state-01` · [reviewed basis 8068518](https://github.com/raiinman/Rock-Man-x64/commit/8068518e8932cbb524369a47e3f760d26709bb32).
+**Last evidence review:** 2026-10-24 · `2026-10-24-helper-callback-contract-01` · [reviewed basis 09df851](https://github.com/raiinman/Rock-Man-x64/commit/09df851638cc19432fc79869c16c954710282729).
 **Latest repository change observed:** [b711c28](https://github.com/raiinman/Rock-Man-x64/commit/b711c285d141c87cff391f0acc518782cc608ddb) · 2026-10-23T18:17:04-07:00 — research: identify helper halfword state and preserve targeted probe limits.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -248,17 +248,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-a049-helper-state-01` | s2 v1 | 0 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-a049-helper-state-01` | boot v1 | 0 / 1 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-a049-helper-state-01` | roadmap v1 | 5 / 20 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | inspection v1 | 4 / 7 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | observation v1 | 2 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | loader v1 | 3 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | s2 v1 | 0 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | boot v1 | 0 / 1 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | roadmap v1 | 5 / 20 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
 
 
 ## Current explanation
 
-**Now:** The new original-game observation reaches the opening story, but its selected helper measurement remains incomplete. Native A0:49 is still pending. The public tracker remains a separately accepted documentation delivery.
+**Now:** The helper observer now retains ignored breakpoints. Previous game windows reach opening story but have incomplete selected-call measurements; native A0:49 remains pending.
 
-**Changed:** Identified the next helper’s halfword state operation and saved-value consumer; added separately bounded register-only game/BIOS observations. The prior heatmap-repair review remains preserved in its separate record.
+**Changed:** Reproduced an early-hit watch-loss defect with actual observer Lua under a host API mock and corrected callback lifetime policy.
 
-**Why:** The old A0:49 return register is overwritten before explicit use on the inspected path, but GPU effects and the pointer’s reaching value remain distinct questions. Initializer-based I\_MASK interpretation is conditional.
+**Why:** An ignored callback returned false, which the documented debugger API treats as permanent breakpoint removal. This can lose a later selected occurrence.
 
-**Next:** Native development maps the stateful continuation and ownership; research evaluates the narrowly recorded pointer/result evidence without inventing GPU readiness or clearing provenance. Existing mobile/cross-browser/accessibility limits remain unchanged.
+**Next:** Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

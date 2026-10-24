@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · helper-callback-contract-01
+
+**Evidence class:** research. **Runtime capability advanced:** no.
+
+**Changed:** Reproduced an early-hit watch-loss defect with actual observer Lua under a host API mock and corrected callback lifetime policy.
+
+**Why:** An ignored callback returned false, which the documented debugger API treats as permanent breakpoint removal. This can lose a later selected occurrence.
+
+**Next:** Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope.
+
+**Evidence:** [source 1](../../research/bios/A049-HELPER.md#observer-callback-contract-correction).
+
 ## 2026-10-24 · a049-helper-state-01
 
 **Evidence class:** research. **Runtime capability advanced:** no.
@@ -401,3 +413,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-a049-helper-state-01` | s2 v1 | 0 / 4 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-a049-helper-state-01` | boot v1 | 0 / 1 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
 | 2026-10-24 · `2026-10-24-a049-helper-state-01` | roadmap v1 | 5 / 20 | Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | inspection v1 | 4 / 7 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | observation v1 | 2 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | loader v1 | 3 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | s2 v1 | 0 / 4 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | boot v1 | 0 / 1 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |
+| 2026-10-24 · `2026-10-24-helper-callback-contract-01` | roadmap v1 | 5 / 20 | Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions. |

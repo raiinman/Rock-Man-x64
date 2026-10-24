@@ -407,17 +407,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-a049-helper-state-01",
-    "reviewed_through_commit": "8068518e8932cbb524369a47e3f760d26709bb32",
-    "summary": "Reviewed original helper/old-value consumer with independent decoding; file initializer is not runtime binding. Two new bounded emulator windows exited normally, but selected-call measurements are incomplete; extended final screen reaches opening story. No native acceptance or clearance."
+    "review_id": "2026-10-24-helper-callback-contract-01",
+    "reviewed_through_commit": "09df851638cc19432fc79869c16c954710282729",
+    "summary": "Host audit corrected a documented breakpoint callback contract defect; sixteen host controls pass. Previous incomplete game captures remain incomplete; no new guest execution or native acceptance."
   },
   "overview": {
-    "now": "The new original-game observation reaches the opening story, but its selected helper measurement remains incomplete. Native A0:49 is still pending. The public tracker remains a separately accepted documentation delivery.",
-    "changed": "Identified the next helper’s halfword state operation and saved-value consumer; added separately bounded register-only game/BIOS observations. The prior heatmap-repair review remains preserved in its separate record.",
-    "why": "The old A0:49 return register is overwritten before explicit use on the inspected path, but GPU effects and the pointer’s reaching value remain distinct questions. Initializer-based I_MASK interpretation is conditional.",
-    "next": "Native development maps the stateful continuation and ownership; research evaluates the narrowly recorded pointer/result evidence without inventing GPU readiness or clearing provenance. Existing mobile/cross-browser/accessibility limits remain unchanged."
+    "now": "The helper observer now retains ignored breakpoints. Previous game windows reach opening story but have incomplete selected-call measurements; native A0:49 remains pending.",
+    "changed": "Reproduced an early-hit watch-loss defect with actual observer Lua under a host API mock and corrected callback lifetime policy.",
+    "why": "An ignored callback returned false, which the documented debugger API treats as permanent breakpoint removal. This can lose a later selected occurrence.",
+    "next": "Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope."
   },
   "updates": [
+    {
+      "id": "helper-callback-contract-01",
+      "date": "2026-10-24",
+      "kind": "research",
+      "changed": "Reproduced an early-hit watch-loss defect with actual observer Lua under a host API mock and corrected callback lifetime policy.",
+      "why": "An ignored callback returned false, which the documented debugger API treats as permanent breakpoint removal. This can lose a later selected occurrence.",
+      "next": "Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope.",
+      "evidence": [
+        "research/bios/A049-HELPER.md#observer-callback-contract-correction"
+      ],
+      "capability_changed": false
+    },
     {
       "id": "a049-helper-state-01",
       "date": "2026-10-24",
@@ -2175,6 +2187,68 @@
       "date": "2026-10-24",
       "basis_commit": "8068518e8932cbb524369a47e3f760d26709bb32",
       "note": "Bounded helper-state research and separately classified emulator observations; zero native milestone delta, unchanged criteria/versions.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-helper-callback-contract-01",
+      "date": "2026-10-24",
+      "basis_commit": "09df851638cc19432fc79869c16c954710282729",
+      "note": "Host-only observer contract correction; zero native milestone delta and unchanged acceptance criteria/versions.",
       "checklists": [
         {
           "id": "inspection",

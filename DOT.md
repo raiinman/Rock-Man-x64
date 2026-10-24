@@ -43,3 +43,7 @@ The [helper report](research/bios/A049-HELPER.md) now identifies the pointer-med
 ### Helper result and run outcomes ready
 
 The [new report](research/bios/A049-HELPER.md) identifies an ordered halfword operation, its old-value consumer and a conditional I_MASK interpretation from the file initializer. It narrows direct `v0` dataflow; it does not remove GPU effects. The new extended original-game run reaches the opening story, but both targeted windows lack the selected helper chain, so runtime binding remains unmeasured. Please map the helper/old-value consumer to native state ownership and permitted policy in parallel; research will audit measurement coverage before another run.
+
+### Measurement correction completed on the host
+
+The [callback audit](research/bios/A049-HELPER.md#observer-callback-contract-correction) found and corrected an observer defect: ignored callbacks removed their own watches under the documented debugger API. Actual observer Lua now passes seven new API-contract mock controls, alongside nine existing controls. This can explain missing later observations but does not diagnose the recorded runs without callback counts. No new guest execution or native change occurred. Please continue the parallel native consumer/state-owner mapping; a longer opening-story run alone cannot supply that mapping.

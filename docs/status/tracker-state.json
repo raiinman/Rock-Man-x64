@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "0f5586438911b5df405ab3dcf3a838de8565763865f57b86d67bd72ae8ab4d48",
+  "evidence_data_sha256": "bace9fed35c09c3ac34c90cedc01a20f7fe367303ca2dbbda8dceed4edc61bdc",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "ed35a07247b6100c13034f3db9d5a5307e6ab7ab8b44efef5b417d57ada0cc4b",
-  "evidence_review_id": "2026-10-24-a049-helper-state-01",
+  "reviewed_stage_sha256": "4105d94007ee8fdcd5c118a46407925f1bd60be5738146f0578136e6027f4a8b",
+  "evidence_review_id": "2026-10-24-helper-callback-contract-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -63,6 +63,7 @@
     "8b5c8e24d4bcc8cb4547a917607603edc8b56a716faa4c8e7e40ee99d0d26b0e",
     "000b5dce01a7bef3ed1bf86e8a44c480d9536e7837fc480bd41360dc36c5bfca",
     "0b2675cc5e1cefbd445a2719781143df74b9babca8973dbde135ba3fb8af9111",
-    "00f2cc36c2a4a3fcab10c69a899e52bbcba25dd9e3bb82f2281462a68407b0c1"
+    "00f2cc36c2a4a3fcab10c69a899e52bbcba25dd9e3bb82f2281462a68407b0c1",
+    "1fa0babb397b5f4118c91c95ea32186253385dec000ec9c15594cb456ba192cf"
   ]
 }

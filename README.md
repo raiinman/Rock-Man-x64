@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The new original-game observation reaches the opening story, but its selected helper measurement remains incomplete. Native A0:49 is still pending. The public tracker remains a separately accepted documentation delivery.
+**Where we are:** The helper observer now retains ignored breakpoints. Previous game windows reach opening story but have incomplete selected-call measurements; native A0:49 remains pending.
 
-**Next useful step:** Native development maps the stateful continuation and ownership; research evaluates the narrowly recorded pointer/result evidence without inventing GPU readiness or clearing provenance. Existing mobile/cross-browser/accessibility limits remain unchanged.
+**Next useful step:** Keep prior results and locks; native development maps the saved helper value and state ownership while research prepares any separately reviewed future measurement scope.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-a049-helper-state-01` · [reviewed basis 8068518](https://github.com/raiinman/Rock-Man-x64/commit/8068518e8932cbb524369a47e3f760d26709bb32).
+**Last evidence review:** 2026-10-24 · `2026-10-24-helper-callback-contract-01` · [reviewed basis 09df851](https://github.com/raiinman/Rock-Man-x64/commit/09df851638cc19432fc79869c16c954710282729).
 **Latest repository change observed:** [b711c28](https://github.com/raiinman/Rock-Man-x64/commit/b711c285d141c87cff391f0acc518782cc608ddb) · 2026-10-23T18:17:04-07:00 — research: identify helper halfword state and preserve targeted probe limits.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
