@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "6ea5381e26f478fd421e3811405f1986ccc0fbf1",
-    "committed_at": "2026-10-23T17:04:20-07:00",
-    "subject": "docs: add full-page red milestone heatmap and verified delivery review",
+    "sha": "d01b20f9036491796c26bc87e47d4cd1eedcd3ca",
+    "committed_at": "2026-10-23T17:09:04-07:00",
+    "subject": "docs: defer A049 completion selection in separate public handoff",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
