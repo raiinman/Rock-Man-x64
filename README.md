@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-1608-01` · [reviewed basis e7719a1](https://github.com/raiinman/Rock-Man-x64/commit/e7719a1a859e54c70bede070fa1648b706673c02).
+**Last evidence review:** 2026-10-24 · `2026-10-24-hourly-zero-delta-1703-01` · [reviewed basis 26e85c7](https://github.com/raiinman/Rock-Man-x64/commit/26e85c7df05e73c39094271f32fcce65b6b1f2e4).
 **Latest repository change observed:** [0ddc57c](https://github.com/raiinman/Rock-Man-x64/commit/0ddc57cf3f6a780ccf7fe6f98cfc1e1fbab6433b) · 2026-10-24T09:10:33-07:00 — docs: record hourly zero-delta evidence review at 16:08 UTC.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
