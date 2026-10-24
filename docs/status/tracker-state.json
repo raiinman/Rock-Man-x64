@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "883c3b1fe7eab328e670408f87c3fc1d39bf6ef5",
-    "committed_at": "2026-10-23T22:38:42-07:00",
-    "subject": "docs: request one bounded APEX graphics-effect oracle gap card",
+    "sha": "95997a02e72310d6027833a1ebf66db1e9b485ef",
+    "committed_at": "2026-10-23T22:48:59-07:00",
+    "subject": "docs: accept bounded APEX effect-oracle gap card",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

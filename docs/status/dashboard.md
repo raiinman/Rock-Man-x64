@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-effect-oracle-gap-receipt-01` · [reviewed basis 731b61c](https://github.com/raiinman/Rock-Man-x64/commit/731b61c4babf1404bf7a4fd1433c70153f7cc7b9).
-**Latest repository change observed:** [883c3b1](https://github.com/raiinman/Rock-Man-x64/commit/883c3b1fe7eab328e670408f87c3fc1d39bf6ef5) · 2026-10-23T22:38:42-07:00 — docs: request one bounded APEX graphics-effect oracle gap card.
+**Latest repository change observed:** [95997a0](https://github.com/raiinman/Rock-Man-x64/commit/95997a02e72310d6027833a1ebf66db1e9b485ef) · 2026-10-23T22:48:59-07:00 — docs: accept bounded APEX effect-oracle gap card.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
