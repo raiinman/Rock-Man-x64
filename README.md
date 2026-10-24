@@ -23,7 +23,7 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-adapter-handoff-routing-correction-01` · [reviewed basis 5592463](https://github.com/raiinman/Rock-Man-x64/commit/5592463159ddb97f634f895ada13e95d1ce067bf).
-**Latest repository change observed:** [82f199f](https://github.com/raiinman/Rock-Man-x64/commit/82f199f67482e11367aeb184e217985275782b7a) · 2026-10-23T21:09:12-07:00 — docs: record hourly zero-delta evidence review.
+**Latest repository change observed:** [4c75c11](https://github.com/raiinman/Rock-Man-x64/commit/4c75c114c99e621a1be48df5ba388bff3e058c69) · 2026-10-23T21:32:37-07:00 — docs: require actionable native adapter handoff from DOT.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->

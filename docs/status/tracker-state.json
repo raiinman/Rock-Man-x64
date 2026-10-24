@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "82f199f67482e11367aeb184e217985275782b7a",
-    "committed_at": "2026-10-23T21:09:12-07:00",
-    "subject": "docs: record hourly zero-delta evidence review",
+    "sha": "4c75c114c99e621a1be48df5ba388bff3e058c69",
+    "committed_at": "2026-10-23T21:32:37-07:00",
+    "subject": "docs: require actionable native adapter handoff from DOT",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
