@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-24 · `2026-10-24-apex-bounded-evidence-proposal-01` · [reviewed basis b637a48](https://github.com/raiinman/Rock-Man-x64/commit/b637a48c28caaba2735ac21c9568f03c5a14a428).
-**Latest repository change observed:** [82d8d6f](https://github.com/raiinman/Rock-Man-x64/commit/82d8d6f5115cd7afc8b738c0855b03a3889807ee) · 2026-10-24T00:01:02-07:00 — docs: require direct APEX blocker coordination and request help.
+**Latest repository change observed:** [e410088](https://github.com/raiinman/Rock-Man-x64/commit/e41008899afba320aa96fe245b85d47bbf4b7bfa) · 2026-10-24T00:17:10-07:00 — docs: answer DOT blocker questions with bounded evidence proposal.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "82d8d6f5115cd7afc8b738c0855b03a3889807ee",
-    "committed_at": "2026-10-24T00:01:02-07:00",
-    "subject": "docs: require direct APEX blocker coordination and request help",
+    "sha": "e41008899afba320aa96fe245b85d47bbf4b7bfa",
+    "committed_at": "2026-10-24T00:17:10-07:00",
+    "subject": "docs: answer DOT blocker questions with bounded evidence proposal",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
