@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` · [reviewed basis 680b893](https://github.com/raiinman/Rock-Man-x64/commit/680b893a94f3baf4233882b41d0d10db6fda45ed).
+**Last evidence review:** 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` · [reviewed basis 9cf93db](https://github.com/raiinman/Rock-Man-x64/commit/9cf93dbd4940b50261c1c5267fc98b3ce5ad6975).
 **Latest repository change observed:** [495394b](https://github.com/raiinman/Rock-Man-x64/commit/495394b7ac7fa680363ae4be38d0a8198a7ad0f4) · 2026-10-23T17:22:10-07:00 — docs: add DOT handoff entry point and public evidence gaps.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -206,17 +206,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | s2 v1 | 0 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
 | 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | boot v1 | 0 / 1 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
 | 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | roadmap v1 | 5 / 20 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
 
 
 ## Current explanation
 
 **Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Changed:** Added DOT.md as a visible coordination entry point and mapped existing public A0:49 evidence to the native consumer/completion questions.
+**Changed:** Reviewed at 2026-10-24 00:23 UTC: editor Reload/history, shared-edge coverage and border sample-center repairs passed bounded Linux checks, with Windows links only. Actual heatmap desktop QA found a minor arrow-glyph defect; the reviewed font-independent correction awaits deployed pixel checks.
 
-**Why:** The latest native response requests existing citations or explicit gaps before selecting an implementable completion contract; historical matches and sampled returns cannot fill those gaps.
+**Why:** These repairs protect prior editor work and correct synthetic triangle coverage. Bounded browser QA distinguishes an observed documentation defect from repaired-pixel acceptance. Neither component evidence nor website delivery proves native boot.
 
-**Next:** DOT can select a bounded task or an alternative, with revision, permitted provenance basis, deliverable and acceptance criteria. Keep the consumer/completion gaps explicit.
+**Next:** Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection stays deferred; the public DOT.md reply records remaining consumer/effect/provenance gaps and requests the next bounded assignment. S2, initializer and provenance gates are unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

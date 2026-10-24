@@ -1,8 +1,22 @@
 # Current project status
 
-**Checkpoint: 2026-10-23, live tracker and bounded viewer observation.** Native mode-00 Windows validation is accepted. Newer graphics work has bounded Linux evidence only; A0:49 remains deliberately pending.
+**Checkpoint: 2026-10-24, reviewed at 00:23 UTC.** Three isolated editor/rasterizer repairs have bounded Linux evidence and Windows-target links only; native mode-00 retains its earlier Windows acceptance. Live heatmap desktop QA is separately scoped, with repaired arrow pixels still pending. A0:49 remains deliberately pending.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
+
+## Isolated editor and rasterizer repairs — October 24
+
+Three isolated, unfrozen candidates received independent source and Linux synthetic acceptance: **editor Reload/history failure preservation**, **unique shared-edge coverage** for adjacent opaque coplanar triangles with identical represented shared endpoints, and **sample-center bounds** admitting valid last-row/column and single-pixel-surface samples. These repair existing components; they are not installed replacements for frozen viewers or new game milestones.
+
+The respective author inventories contain **11, 11 and 9 scenarios**, each run in optimized and ASan/UBSan modes with affected synthetic regressions. Each candidate also passed **two independent focused controls** in both modes. Repeated modes and parameter sets are not extra unique scenarios. [Validation history](../history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24) retains the pre-fix failures, corrections and limits.
+
+Actual execution was cloud Linux with GCC 14.2.0. MinGW GCC 14-posix completed Windows-target application/test links; **none of these new candidates was executed on Windows or Wine**. LeakSanitizer was disabled. Editor rollback excludes earlier successful Save/field application and later display operations. Renderer coverage is not arbitrary-overlap order independence or hardware pixel fidelity; bounds changes can alter work counts and partial frames under the unchanged work cap. No original-input/game test or native boot was established. A0:49, S2, initializer and provenance gates, frozen criteria and accepted milestone counts remain unchanged.
+
+## Live heatmap QA and decorative-arrow correction — October 24
+
+Bounded actual desktop-browser checks of the [first checked heatmap snapshot](https://github.com/raiinman/Rock-Man-x64/commit/b1afbcb7a113c4b25b8c899ab5325b74eaf36961) passed filtering, detail navigation, keyboard/focus and Back/Forward interactions. A [later snapshot](https://github.com/raiinman/Rock-Man-x64/commit/680b893a94f3baf4233882b41d0d10db6fda45ed) received only the separately recorded fresh-load/revision, 20-tile/5-accepted count, skip-link and width checks—not a repeat of every interaction. See the [bounded QA record](../history/validation-history.md#live-heatmap-desktop-qa-and-marker-repair--october-24).
+
+A decorative arrow rendered as a missing-glyph box while text and navigation remained usable. The reviewed correction replaces only those markers with original font-independent CSS geometry. Source/mock and fixed-artifact checks passed; **repaired pixels remain pending deployment and browser inspection**. Phone/touch, cross-browser and full accessibility/screen-reader coverage remain unrun. This documentation UI work changes no native acceptance or milestone count.
 
 ## Live tracker and owner-observed Inspector — October 23
 
@@ -14,7 +28,7 @@ The earlier stalled launch request remains inconclusive rather than being reclas
 
 The default documentation view is now an equal-area categorical roadmap heatmap: one tile per named milestone, with visible status labels and linked criteria. It keeps the same accepted counts and does not measure effort or game completion. Publication and actual browser checks of this new presentation must be verified separately from the earlier site.
 
-A later coordination-only [run 40041118527](https://github.com/raiinman/Rock-Man-x64/actions/runs/40041118527) stopped before refresh/build/deploy because the generated receipt carried a stale JSON byte checksum. Its authored acknowledgment and evidence are preserved. A later canonical receipt-only repair passed updater, site build and deployment in [run 40042360611](https://github.com/raiinman/Rock-Man-x64/actions/runs/40042360611), followed by generated activity snapshot `925b6ba107f2f811410cb049d93c7b7ffb9c9b60`. The earlier failed refresh did not remove the deployed site. This new heatmap publication still needs its own actual workflow and browser checks.
+A later coordination-only [run 40041118527](https://github.com/raiinman/Rock-Man-x64/actions/runs/40041118527) stopped before refresh/build/deploy because the generated receipt carried a stale JSON byte checksum. Its authored acknowledgment and evidence are preserved. A later canonical receipt-only repair passed updater, site build and deployment in [run 40042360611](https://github.com/raiinman/Rock-Man-x64/actions/runs/40042360611), followed by generated activity snapshot `925b6ba107f2f811410cb049d93c7b7ffb9c9b60`. The earlier failed refresh did not remove the deployed site. Later bounded heatmap browser checks and the remaining arrow-repair visual check are recorded [above](#live-heatmap-qa-and-decorative-arrow-correction--october-24).
 
 ## Windows attempt and Pages delivery — October 23
 

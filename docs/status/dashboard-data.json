@@ -407,17 +407,69 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-dot-entrypoint-review-01",
-    "reviewed_through_commit": "680b893a94f3baf4233882b41d0d10db6fda45ed",
-    "summary": "Added owner-requested DOT.md coordination entry point and answered the native public-evidence question with citations and explicit consumer/completion/provenance gaps. No new runtime evidence or acceptance."
+    "review_id": "2026-10-24-component-repairs-heatmap-qa-01",
+    "reviewed_through_commit": "9cf93dbd4940b50261c1c5267fc98b3ce5ad6975",
+    "summary": "Reviewed at 2026-10-24 00:23 UTC: three isolated editor/rasterizer repairs have independently accepted Linux synthetic evidence and Windows-target links only. Bounded actual live-heatmap desktop QA passed with a decorative-glyph defect; its source-reviewed repair awaits deployed pixel checks. One zero-delta observation; all prior acceptance criteria, counts and APEX coordination records are preserved."
   },
   "overview": {
     "now": "The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.",
-    "changed": "Added DOT.md as a visible coordination entry point and mapped existing public A0:49 evidence to the native consumer/completion questions.",
-    "why": "The latest native response requests existing citations or explicit gaps before selecting an implementable completion contract; historical matches and sampled returns cannot fill those gaps.",
-    "next": "DOT can select a bounded task or an alternative, with revision, permitted provenance basis, deliverable and acceptance criteria. Keep the consumer/completion gaps explicit."
+    "changed": "Reviewed at 2026-10-24 00:23 UTC: editor Reload/history, shared-edge coverage and border sample-center repairs passed bounded Linux checks, with Windows links only. Actual heatmap desktop QA found a minor arrow-glyph defect; the reviewed font-independent correction awaits deployed pixel checks.",
+    "why": "These repairs protect prior editor work and correct synthetic triangle coverage. Bounded browser QA distinguishes an observed documentation defect from repaired-pixel acceptance. Neither component evidence nor website delivery proves native boot.",
+    "next": "Inspect repaired arrows after deployment. Keep new native candidates separate from frozen accepted viewers; controlled Windows qualification remains pending. A0:49 contract selection stays deferred; the public DOT.md reply records remaining consumer/effect/provenance gaps and requests the next bounded assignment. S2, initializer and provenance gates are unchanged."
   },
   "updates": [
+    {
+      "id": "editor-reload-history-repair-01",
+      "date": "2026-10-24",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Retained pre-fix failures became green after an isolated editor Reload/history repair: 11 author scenarios, affected regression and two independent controls passed optimized and ASan/UBSan modes; Windows-target links passed only.",
+      "why": "Preparation failure now preserves the tested prior editing state. Repeated modes and allocation cuts are not additional unique scenarios.",
+      "next": "Keep prior Save/field application and later display operations outside the rollback claim; Windows execution and runtime adoption remain pending.",
+      "evidence": [
+        "docs/status/current-status.md#isolated-editor-and-rasterizer-repairs--october-24",
+        "docs/history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24"
+      ]
+    },
+    {
+      "id": "renderer-shared-edge-repair-01",
+      "date": "2026-10-24",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An isolated shared-edge repair passed 11 author scenarios, affected raster regression and two independent controls in both Linux modes after retained double-ownership/order-color failures. Windows artifacts were linked, not executed.",
+      "why": "Adjacent opaque coplanar triangles with identical represented shared endpoints now have unique seam ownership. Inherited reporting labels were corrected without rerunning unchanged commands.",
+      "next": "Do not infer arbitrary-overlap order independence, hardware fidelity, a renderer allocation sweep or Windows pixel acceptance.",
+      "evidence": [
+        "docs/status/current-status.md#isolated-editor-and-rasterizer-repairs--october-24",
+        "docs/history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24"
+      ]
+    },
+    {
+      "id": "renderer-sample-center-bounds-01",
+      "date": "2026-10-24",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An isolated border sample-center repair passed nine new scenarios, the affected prior shared-edge inventory, existing raster regression and two independent controls in both Linux modes. Windows links passed only.",
+      "why": "Valid last-row/column and single-pixel-surface samples were previously culled before coverage. Parameter sets are not additional unique scenarios.",
+      "next": "The work cap is unchanged, but candidate counts and partial-frame pixels can change; no deadline, hardware fidelity or Windows execution is established.",
+      "evidence": [
+        "docs/status/current-status.md#isolated-editor-and-rasterizer-repairs--october-24",
+        "docs/history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24"
+      ]
+    },
+    {
+      "id": "heatmap-desktop-qa-arrow-repair-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-24 00:23 UTC: bounded actual heatmap desktop QA passed recorded interactions and found a missing decorative arrow glyph. The font-independent correction passed source/mock and artifact review, not repaired-pixel inspection.",
+      "why": "Actual browser observations are revision-scoped; most interactions precede the later fresh-load/count/skip-link/width snapshot. Text and navigation remained usable.",
+      "next": "Check repaired pixels after deployment. Phone/touch, cross-browser and full accessibility coverage remain unrun; all native acceptance and milestone counts stay unchanged.",
+      "evidence": [
+        "docs/status/current-status.md#live-heatmap-qa-and-decorative-arrow-correction--october-24",
+        "docs/history/validation-history.md#live-heatmap-desktop-qa-and-marker-repair--october-24"
+      ]
+    },
     {
       "id": "dot-entrypoint-review-01",
       "date": "2026-10-24",
@@ -1612,6 +1664,68 @@
       "date": "2026-10-24",
       "basis_commit": "680b893a94f3baf4233882b41d0d10db6fda45ed",
       "note": "Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-component-repairs-heatmap-qa-01",
+      "date": "2026-10-24",
+      "basis_commit": "9cf93dbd4940b50261c1c5267fc98b3ce5ad6975",
+      "note": "Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment.",
       "checklists": [
         {
           "id": "inspection",

@@ -4,6 +4,54 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · editor-reload-history-repair-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** Retained pre-fix failures became green after an isolated editor Reload/history repair: 11 author scenarios, affected regression and two independent controls passed optimized and ASan/UBSan modes; Windows-target links passed only.
+
+**Why:** Preparation failure now preserves the tested prior editing state. Repeated modes and allocation cuts are not additional unique scenarios.
+
+**Next:** Keep prior Save/field application and later display operations outside the rollback claim; Windows execution and runtime adoption remain pending.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#isolated-editor-and-rasterizer-repairs--october-24) · [source 2](../../docs/history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24).
+
+## 2026-10-24 · renderer-shared-edge-repair-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** An isolated shared-edge repair passed 11 author scenarios, affected raster regression and two independent controls in both Linux modes after retained double-ownership/order-color failures. Windows artifacts were linked, not executed.
+
+**Why:** Adjacent opaque coplanar triangles with identical represented shared endpoints now have unique seam ownership. Inherited reporting labels were corrected without rerunning unchanged commands.
+
+**Next:** Do not infer arbitrary-overlap order independence, hardware fidelity, a renderer allocation sweep or Windows pixel acceptance.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#isolated-editor-and-rasterizer-repairs--october-24) · [source 2](../../docs/history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24).
+
+## 2026-10-24 · renderer-sample-center-bounds-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** An isolated border sample-center repair passed nine new scenarios, the affected prior shared-edge inventory, existing raster regression and two independent controls in both Linux modes. Windows links passed only.
+
+**Why:** Valid last-row/column and single-pixel-surface samples were previously culled before coverage. Parameter sets are not additional unique scenarios.
+
+**Next:** The work cap is unchanged, but candidate counts and partial-frame pixels can change; no deadline, hardware fidelity or Windows execution is established.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#isolated-editor-and-rasterizer-repairs--october-24) · [source 2](../../docs/history/validation-history.md#editor-and-rasterizer-repair-evidence--october-24).
+
+## 2026-10-24 · heatmap-desktop-qa-arrow-repair-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-24 00:23 UTC: bounded actual heatmap desktop QA passed recorded interactions and found a missing decorative arrow glyph. The font-independent correction passed source/mock and artifact review, not repaired-pixel inspection.
+
+**Why:** Actual browser observations are revision-scoped; most interactions precede the later fresh-load/count/skip-link/width snapshot. Text and navigation remained usable.
+
+**Next:** Check repaired pixels after deployment. Phone/touch, cross-browser and full accessibility coverage remain unrun; all native acceptance and milestone counts stay unchanged.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#live-heatmap-qa-and-decorative-arrow-correction--october-24) · [source 2](../../docs/history/validation-history.md#live-heatmap-desktop-qa-and-marker-repair--october-24).
+
 ## 2026-10-24 · dot-entrypoint-review-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -239,3 +287,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | s2 v1 | 0 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
 | 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | boot v1 | 0 / 1 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
 | 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | roadmap v1 | 5 / 20 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
+| 2026-10-24 · `2026-10-24-component-repairs-heatmap-qa-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 00:23 UTC: three bounded Linux component repairs, Windows-link-only limits and actual heatmap QA/arrow source correction. Zero accepted-milestone delta; all ten prior observations, definitions, versions, accepted IDs and APEX handoff are preserved. Repaired pixels remain pending deployment. |
