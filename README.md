@@ -16,13 +16,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Next useful step:** Verify the published heatmap in the supported browser. Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Keep controlled Windows import/cancel/cleanup, native retirement, blocked initializer and provenance gates separate.
+**Next useful step:** DOT can select a bounded task or an alternative, with revision, permitted provenance basis, deliverable and acceptance criteria. Keep the consumer/completion gaps explicit.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` · [reviewed basis b1afbcb](https://github.com/raiinman/Rock-Man-x64/commit/b1afbcb7a113c4b25b8c899ab5325b74eaf36961).
+**Last evidence review:** 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` · [reviewed basis 680b893](https://github.com/raiinman/Rock-Man-x64/commit/680b893a94f3baf4233882b41d0d10db6fda45ed).
 **Latest repository change observed:** [d01b20f](https://github.com/raiinman/Rock-Man-x64/commit/d01b20f9036491796c26bc87e47d4cd1eedcd3ca) · 2026-10-23T17:09:04-07:00 — docs: defer A049 completion selection in separate public handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

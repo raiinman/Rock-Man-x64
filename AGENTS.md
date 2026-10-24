@@ -89,7 +89,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - [`.github/AGENTS.md`](.github/AGENTS.md) owns the approved documentation updater and chained public-tracker Pages build/deployment, with separated permissions.
 - [`research/AGENTS.md`](research/AGENTS.md) owns the PS1 research library, source catalogs, search records, and handoff guidance.
 - [`docs/AGENTS.md`](docs/AGENTS.md) owns the project documentation index and delegates history, technical architecture, and current status and the read-only documentation UI to its child contracts.
-- The root owns `README.md`, `AGENTS.md`, and `DOX-LICENSE`.
+- The root owns `README.md`, `AGENTS.md`, `DOX-LICENSE`, and `DOT.md`, the public-safe research/native coordination entry point.
 
 ## Project Scope
 

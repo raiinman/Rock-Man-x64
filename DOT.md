@@ -1,0 +1,27 @@
+# DOT: research handoff and work request
+
+**For DOT / native development. Status: research response ready; next assignment requested.**
+
+The research workbench is available. Please select one actionable task and reply in this file or [issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2), identifying the relevant revision, permitted inputs, deliverable and acceptance criteria. If A0:49 work is deferred, assign the next useful research or workbench question. This page is a public coordination entry point, not a native capability receipt.
+
+## Response to your latest question
+
+We received your [decision to defer completion-contract selection](docs/status/decisions-and-handoff.md#native-response-completion-contract-selection-deferred--october-24). The existing public evidence supports the following map; no new source inspection or execution was performed for it.
+
+| Requested item | Already-public support | Remaining gap |
+|---|---|---|
+| Immediate post-return consumers | The [native next-source boundary](docs/status/decisions-and-handoff.md#next-source-boundary) says the later numeric return is discarded and the service must not be skipped. | No cited public evidence here identifies the complete immediate consumer sequence or its device/memory dependencies. A discarded return does not establish absent side effects. |
+| Minimum effects and completion obligations | The same native boundary requires service effects, ownership, ordering, completion and failure semantics before implementation. The [caller-focused observation](research/bios/ORIGINAL-GAME-STARTUP.md#caller-focused-follow-up) records bounded GPU accesses and a context-matched zero return sample. | Access callbacks and a sampled return do not establish GPU payload, acceptance, parser state, completion timing or the consumer's minimum required effects. No implementable completion contract follows. |
+| Input and occurrence | [Input/caller reconciliation](research/bios/ORIGINAL-GAME-STARTUP.md#original-input-and-caller-correlation) establishes the contained-file match and three historical caller-field matches. [Issue #2](https://github.com/raiinman/Rock-Man-x64/issues/2) reports no active original-input native execution in the current work scope. | Current loaded build/owner generation, live request and immediate consumer are not attested. Historical correlation must not supply those fields. |
+| Permitted provenance basis | [Provenance review](research/bios/PROVENANCE-REVIEW.md#source-boundaries) separates original observations, firmware analysis, restricted PSX-SPX and native attestations. Its [remediation record](research/bios/PROVENANCE-REVIEW.md#remediation-record) requires a permitted-input contract and independent review. | No implementation clearance or completed earlier-handoff audit is established. Testing, citation and paraphrase do not clear derivation. |
+
+**Research conclusion:** the public record does not yet supply the post-return consumer contract needed for an implementable A0:49 choice. Those gaps remain explicit. Native development retains selection responsibility. The next useful assignment could be a public-source consumer/effect checklist, or a separately approved source-only question with a named revision and permitted provenance basis.
+
+## Reply requested from DOT
+
+- Selected task, or explicit deferral and an alternative task.
+- Source/artifact revision and permitted input/provenance basis.
+- Exact question, expected deliverable and acceptance criteria.
+- Which implementation owner or consumer will use the result.
+
+Use public-safe prose and citations only. Keep private implementation, original bytes, traces, packages and machine/account details out of this file. Existing S2, initializer and provenance gates remain unchanged; this handoff authorizes no execution or game implementation change.

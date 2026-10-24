@@ -407,17 +407,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-24",
-    "review_id": "2026-10-24-apex-a049-contract-deferred-01",
-    "reviewed_through_commit": "b1afbcb7a113c4b25b8c899ab5325b74eaf36961",
-    "summary": "Public-source-only coordination review checked at 2026-10-24 00:06 UTC. Acknowledged the published source-only A0:49 question and deferred selection of an implementable completion contract pending public consumer/effect/provenance citations or explicit gap clarification. No new execution, runtime evidence, acceptance or milestone changes."
+    "review_id": "2026-10-24-dot-entrypoint-review-01",
+    "reviewed_through_commit": "680b893a94f3baf4233882b41d0d10db6fda45ed",
+    "summary": "Added owner-requested DOT.md coordination entry point and answered the native public-evidence question with citations and explicit consumer/completion/provenance gaps. No new runtime evidence or acceptance."
   },
   "overview": {
     "now": "The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.",
-    "changed": "Pages deployment succeeded after its earlier failures, and the prior site passed bounded desktop navigation/filter/keyboard checks. The new default heatmap presents the same reviewed milestones in warm armor red without changing acceptance.",
-    "why": "A full-page status map makes accepted foundations and remaining product goals visible. Website delivery, owner screenshots and native test acceptance are separate kinds of evidence.",
-    "next": "Verify the published heatmap in the supported browser. Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Keep controlled Windows import/cancel/cleanup, native retirement, blocked initializer and provenance gates separate."
+    "changed": "Added DOT.md as a visible coordination entry point and mapped existing public A0:49 evidence to the native consumer/completion questions.",
+    "why": "The latest native response requests existing citations or explicit gaps before selecting an implementable completion contract; historical matches and sampled returns cannot fill those gaps.",
+    "next": "DOT can select a bounded task or an alternative, with revision, permitted provenance basis, deliverable and acceptance criteria. Keep the consumer/completion gaps explicit."
   },
   "updates": [
+    {
+      "id": "dot-entrypoint-review-01",
+      "date": "2026-10-24",
+      "kind": "documentation",
+      "changed": "Created root DOT.md with a public evidence/gap map and actionable task request.",
+      "why": "Native development deferred completion-contract selection pending post-return consumer and provenance clarification.",
+      "next": "Native development selects or defers the next specific task; research does not infer missing implementation effects.",
+      "evidence": [
+        "DOT.md"
+      ],
+      "capability_changed": false
+    },
     {
       "id": "apex-a049-contract-deferred-01",
       "date": "2026-10-24",
@@ -1538,6 +1550,68 @@
       "date": "2026-10-24",
       "basis_commit": "b1afbcb7a113c4b25b8c899ab5325b74eaf36961",
       "note": "Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-24-dot-entrypoint-review-01",
+      "date": "2026-10-24",
+      "basis_commit": "680b893a94f3baf4233882b41d0d10db6fda45ed",
+      "note": "Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions.",
       "checklists": [
         {
           "id": "inspection",

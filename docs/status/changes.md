@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-24 · dot-entrypoint-review-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Created root DOT.md with a public evidence/gap map and actionable task request.
+
+**Why:** Native development deferred completion-contract selection pending post-return consumer and provenance clarification.
+
+**Next:** Native development selects or defers the next specific task; research does not infer missing implementation effects.
+
+**Evidence:** [source 1](../../DOT.md).
+
 ## 2026-10-24 · apex-a049-contract-deferred-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -221,3 +233,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | s2 v1 | 0 / 4 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
 | 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | boot v1 | 0 / 1 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
 | 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | roadmap v1 | 5 / 20 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | inspection v1 | 4 / 7 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | observation v1 | 2 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | loader v1 | 3 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | s2 v1 | 0 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | boot v1 | 0 / 1 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | roadmap v1 | 5 / 20 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |

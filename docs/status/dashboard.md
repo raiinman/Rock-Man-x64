@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` · [reviewed basis b1afbcb](https://github.com/raiinman/Rock-Man-x64/commit/b1afbcb7a113c4b25b8c899ab5325b74eaf36961).
+**Last evidence review:** 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` · [reviewed basis 680b893](https://github.com/raiinman/Rock-Man-x64/commit/680b893a94f3baf4233882b41d0d10db6fda45ed).
 **Latest repository change observed:** [d01b20f](https://github.com/raiinman/Rock-Man-x64/commit/d01b20f9036491796c26bc87e47d4cd1eedcd3ca) · 2026-10-23T17:09:04-07:00 — docs: defer A049 completion selection in separate public handoff.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -200,17 +200,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | s2 v1 | 0 / 4 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
 | 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | boot v1 | 0 / 1 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
 | 2026-10-24 · `2026-10-24-apex-a049-contract-deferred-01` | roadmap v1 | 5 / 20 | Public coordination review checked at 2026-10-24 00:06 UTC. Contract selection deferred; no new native evidence or acceptance. All eight prior observations, checklist definitions, versions and accepted IDs are preserved; zero milestone delta. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | inspection v1 | 4 / 7 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | observation v1 | 2 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | loader v1 | 3 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | s2 v1 | 0 / 4 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | boot v1 | 0 / 1 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
+| 2026-10-24 · `2026-10-24-dot-entrypoint-review-01` | roadmap v1 | 5 / 20 | Public evidence/gap clarification and named coordination entry point only; zero milestone delta, unchanged criteria and versions. |
 
 
 ## Current explanation
 
 **Now:** The public interactive tracker is live. The roadmap has 5 of 20 milestones accepted; native game boot and the complete IDE remain unaccepted. An owner-observed Inspector window is limited launch/render evidence, not controlled runtime acceptance.
 
-**Changed:** Pages deployment succeeded after its earlier failures, and the prior site passed bounded desktop navigation/filter/keyboard checks. The new default heatmap presents the same reviewed milestones in warm armor red without changing acceptance.
+**Changed:** Added DOT.md as a visible coordination entry point and mapped existing public A0:49 evidence to the native consumer/completion questions.
 
-**Why:** A full-page status map makes accepted foundations and remaining product goals visible. Website delivery, owner screenshots and native test acceptance are separate kinds of evidence.
+**Why:** The latest native response requests existing citations or explicit gaps before selecting an implementable completion contract; historical matches and sampled returns cannot fill those gaps.
 
-**Next:** Verify the published heatmap in the supported browser. Native development can select or defer the source-only completion-contract review, naming its revision, owner, consumer and permitted provenance basis. Keep controlled Windows import/cancel/cleanup, native retirement, blocked initializer and provenance gates separate.
+**Next:** DOT can select a bounded task or an alternative, with revision, permitted provenance basis, deliverable and acceptance criteria. Keep the consumer/completion gaps explicit.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

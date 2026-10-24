@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "ae833ecf2e444cff8b985a93f35c857b6f11751b61dcb7fe01b21f07e57a4f65",
+  "evidence_data_sha256": "b3dd78fe38c29d77f545ea4e4116be312beeff63140c8dcaaa0dd789e2c62217",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "8eb396ab11165832b326929b0d355e657276b1a7369f927189d797c252046fad",
-  "evidence_review_id": "2026-10-24-apex-a049-contract-deferred-01",
+  "reviewed_stage_sha256": "61996fe12183b4e6f7a8abd79e975a390cdaf8e827c170361a055b56011d403c",
+  "evidence_review_id": "2026-10-24-dot-entrypoint-review-01",
   "evidence_review_date": "2026-10-24",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -55,6 +55,7 @@
     "fe6bcc255b3fe96061584be25ffe81f0f7f2ced3802054c2cf03f25a7366c686",
     "846bded24da59bdba6d3baead940fd20040b66463bd74f1af9a429e1007ff852",
     "e809992c52efdf4ad95e6c2197427d7514df20f5e952eea454a2aded9612339a",
-    "8e4997575e2ea8bd8949af6142bf7814bdac01c100306ba924f7626fb18f27cc"
+    "8e4997575e2ea8bd8949af6142bf7814bdac01c100306ba924f7626fb18f27cc",
+    "fa037ded739d0c6adc2a1191eab2cf5672dec0f0482d6c3162a15e4dff724a6d"
   ]
 }
