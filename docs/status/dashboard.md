@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-build-spec-plan-map-01` · [reviewed basis 0e7dbd6](https://github.com/raiinman/Rock-Man-x64/commit/0e7dbd6282de39f508abc0bcea00a3920e2c03ac).
+**Last evidence review:** 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` · [reviewed basis 4c89112](https://github.com/raiinman/Rock-Man-x64/commit/4c8911290482eb03075a9a8de75b6c48686ce241).
 **Latest repository change observed:** [dceb4c0](https://github.com/raiinman/Rock-Man-x64/commit/dceb4c0dd93fa8d11730d6950a41a4a1d2ab5700) · 2026-10-25T09:45:45-07:00 — docs: add a separate build and specification plan heatmap.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -530,13 +530,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
 | 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
 | 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-25 16:30:25 UTC.
+**Map reviewed:** 2026-10-25 16:51:57 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -597,9 +603,9 @@ Only the tested sequential loading and selection/display flow. Concurrent or int
 
 **Now:** Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.
 
-**Changed:** Added a separate build/spec-plan map. Reported Windows evidence covers two-file indexing, selection and distinct-content display, plus sequential A → B → A reload with counts 2 → 1 → 2; both ended with normal Close exit 0. No existing acceptance criterion changed.
+**Changed:** Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling.
 
-**Why:** Distinguish tested inspection interactions and proposed specification tasks from broader import, editing, runtime-control and playable-game goals.
+**Why:** Keep the new map current in hourly reports without treating plan checkboxes, repository activity or elapsed time as completion.
 
 **Next:** Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
 

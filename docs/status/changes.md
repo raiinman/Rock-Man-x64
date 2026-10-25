@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-25 · build-plan-hourly-policy-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling.
+
+**Why:** Keep the new map current in hourly reports without treating plan checkboxes, repository activity or elapsed time as completion.
+
+**Next:** Include canonical build/spec task states, dependencies, bounded evidence, blockers, next tasks and actual review time in each hourly documentation review; preserve historical acceptance and all existing native/provenance gates.
+
+**Evidence:** [source 1](../../docs/status/AGENTS.md#living-tracker-contract) · [source 2](../../docs/status/TRACKER.md#separate-build-and-specification-plan-map).
+
 ## 2026-10-25 · build-spec-plan-map-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1271,3 +1283,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
 | 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
 | 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |

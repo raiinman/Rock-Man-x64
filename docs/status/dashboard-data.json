@@ -408,17 +408,30 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-build-spec-plan-map-01",
-    "reviewed_through_commit": "0e7dbd6282de39f508abc0bcea00a3920e2c03ac",
-    "summary": "Reviewed at 2026-10-25 16:30:25 UTC: added a separate build/spec-plan map and integrated two separately reported bounded Windows synthetic Inspector checks. The first covers nonempty-directory indexing, selection/display and normal Close; the second covers sequential A → B → A reload. The earlier inconclusive attempt remains. All 30 task states remain planned pending their own criteria/Definition of Done review. No historical acceptance change; native game boot and complete IDE remain unestablished. Browser UI inspection remains policy-blocked and unverified."
+    "review_id": "2026-10-25-build-plan-hourly-policy-01",
+    "reviewed_through_commit": "4c8911290482eb03075a9a8de75b6c48686ce241",
+    "summary": "Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling."
   },
   "overview": {
     "now": "Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.",
-    "changed": "Added a separate build/spec-plan map. Reported Windows evidence covers two-file indexing, selection and distinct-content display, plus sequential A → B → A reload with counts 2 → 1 → 2; both ended with normal Close exit 0. No existing acceptance criterion changed.",
-    "why": "Distinguish tested inspection interactions and proposed specification tasks from broader import, editing, runtime-control and playable-game goals.",
+    "changed": "Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling.",
+    "why": "Keep the new map current in hourly reports without treating plan checkboxes, repository activity or elapsed time as completion.",
     "next": "Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "build-plan-hourly-policy-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling.",
+      "why": "Keep the new map current in hourly reports without treating plan checkboxes, repository activity or elapsed time as completion.",
+      "next": "Include canonical build/spec task states, dependencies, bounded evidence, blockers, next tasks and actual review time in each hourly documentation review; preserve historical acceptance and all existing native/provenance gates.",
+      "evidence": [
+        "docs/status/AGENTS.md#living-tracker-contract",
+        "docs/status/TRACKER.md#separate-build-and-specification-plan-map"
+      ]
+    },
     {
       "id": "build-spec-plan-map-01",
       "date": "2026-10-25",
@@ -5858,11 +5871,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-25-build-plan-hourly-policy-01",
+      "date": "2026-10-25",
+      "basis_commit": "4c8911290482eb03075a9a8de75b6c48686ce241",
+      "note": "Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-25 16:30:25 UTC",
+    "reviewed_at": "2026-10-25 16:51:57 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {

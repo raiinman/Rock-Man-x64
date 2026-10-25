@@ -18,6 +18,8 @@ Index: [visual dashboard and evidence ledger](dashboard.md), [dashboard metadata
 
 ## Living tracker contract
 
+- Hourly documentation reviews include `#build-plan`: canonical task states/dependencies, bounded build evidence, blockers/next tasks and actual review time. Review it separately from historical acceptance; preserve criteria/history, record honest zero-delta outcomes and never infer completion from checkboxes, commits or elapsed time.
+
 - The optional `build_plan` mapping in canonical JSON owns explicit build-check/task display states and review time. Stable task IDs and dependencies must match the cited specification task definitions; task checkboxes do not promote states. Build checks resolve cited update IDs and retain their exact bounded scope. This separate map never alters historical criteria, accepted sets or numerical validation records.
 
 - Own `dashboard-data.json` as the reviewed evidence source, `TRACKER.md` as the team upkeep contract, and the generated `dashboard.md`, `changes.md` and `tracker-state.json`. The root README tracker block is generated from this source too.
