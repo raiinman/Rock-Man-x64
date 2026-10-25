@@ -1,8 +1,10 @@
 /** Pure read-only projection of the reviewed public tracker. No storage or network writes. */
 export const REPOSITORY = 'https://github.com/raiinman/Rock-Man-x64';
-export const PAGES = ['overview','roadmap','workstreams','findings','history'];
+export const PAGES = ['overview','build-plan','roadmap','workstreams','findings','history'];
 export const STATUSES = ['accepted','in_progress','blocked','pending'];
 export const STATUS_LABELS = {accepted:'Accepted',in_progress:'In progress',blocked:'Blocked',pending:'Pending'};
+export const PLAN_STATES = ['planned','implemented','tested','blocked'];
+export const PLAN_LABELS = {planned:'Planned',implemented:'Implemented',tested:'Tested',blocked:'Blocked'};
 const IDS = ['inspection','observation','loader','s2','boot','roadmap'];
 const BLOCKED_CLASSES = new Set(['Source review NO-GO','Source-only NO-GO','Execution blocked; synthetic-only evidence','Blocked visual acceptance']);
 const safeId = value => typeof value === 'string' && /^[a-z0-9][a-z0-9-]{0,119}$/.test(value);
@@ -58,8 +60,33 @@ export function validateData(data,state) {
   }
   assert(/^[0-9a-f]{64}$/.test(state.evidence_data_sha256),'Missing evidence checksum.');
   assert(/^[0-9a-f]{40}$/.test(review.reviewed_through_commit)&&/^[0-9a-f]{40}$/.test(state.latest_repository_change.sha),'Invalid commit identity.');
+  if(data.build_plan!==undefined)validateBuildPlan(data);
   return data;
 }
+export function validateBuildPlan(data){
+  const plan=data.build_plan;
+  assert(plan?.schema_version===1&&/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} UTC$/.test(plan.reviewed_at),'Invalid build-plan review.');
+  assert(plan.reviewed_at.startsWith(data.last_evidence_review.date),'Build-plan review date mismatch.');
+  assert(sourceUrl(plan.plan_source)!==null&&!plan.plan_source.startsWith('https:')&&!plan.plan_source.includes('#')&&Array.isArray(plan.tasks)&&plan.tasks.length>0&&plan.tasks.length<=200,'Invalid build-plan source/tasks.');
+  const ids=new Set(plan.tasks.map(t=>t.id));assert(ids.size===plan.tasks.length,'Duplicate build-plan task.');
+  for(const task of plan.tasks){
+    assert(safeId(task.id)&&typeof task.label==='string'&&typeof task.state_reason==='string'&&PLAN_STATES.includes(task.state),'Invalid build-plan task state/text.');
+    assert(task.source===plan.plan_source+'#'+task.id&&sourceUrl(task.source)!==null,'Invalid build-plan task source.');
+    assert(Array.isArray(task.dependencies)&&new Set(task.dependencies).size===task.dependencies.length&&task.dependencies.every(id=>ids.has(id)&&id!==task.id),'Invalid plan dependency.');
+    assert(Array.isArray(task.evidence)&&task.evidence.every(ref=>sourceUrl(ref)!==null),'Invalid plan evidence.');
+    assert(task.state==='planned'||task.evidence.length>0,'Nonplanned task state requires specific evidence.');
+  }
+  const visited=new Set(),active=new Set(),byId=new Map(plan.tasks.map(t=>[t.id,t]));
+  function visit(id){assert(!active.has(id),'Build-plan dependency cycle.');if(visited.has(id))return;active.add(id);byId.get(id).dependencies.forEach(visit);active.delete(id);visited.add(id);}
+  plan.tasks.forEach(t=>visit(t.id));
+  assert(Array.isArray(plan.checks)&&new Set(plan.checks.map(c=>c.id)).size===plan.checks.length,'Invalid build-plan checks.');
+  for(const check of plan.checks){
+    assert(safeId(check.id)&&!ids.has(check.id)&&typeof check.label==='string'&&typeof check.limit==='string'&&PLAN_STATES.includes(check.state),'Invalid build-plan check.');
+    assert(data.updates.some(u=>u.id===check.update_id&&u.evidence.length>0),'Build-plan check requires cited update evidence.');
+  }
+  return plan;
+}
+export function planTasks(data,route){const q=route.q.trim().toLowerCase();return (data.build_plan?.tasks??[]).filter(t=>(route.status==='all'||t.state===route.status)&&(!q||[t.id,t.label,t.state_reason,...t.dependencies].join(' ').toLowerCase().includes(q)));}
 export async function verifyDocument(raw,state,subtle=globalThis.crypto?.subtle) {
   assert(subtle,'This browser cannot verify the tracker checksum.');
   const digest=await subtle.digest('SHA-256',new TextEncoder().encode(raw));
@@ -100,7 +127,7 @@ export function sourceUrl(ref) {
 }
 export function parseRoute(hash='') {
   const raw=hash.replace(/^#/,'');const [page,query='']=raw.split('?');const p=new URLSearchParams(query);
-  return {page:PAGES.includes(page)?page:'overview',status:STATUSES.includes(p.get('status'))?p.get('status'):'all',view:p.get('view')==='board'?'board':'list',q:(p.get('q')??'').slice(0,120),item:safeId(p.get('item'))?p.get('item'):'',group:['reconstruction','frontier'].includes(p.get('group'))?p.get('group'):'all'};
+  return {page:PAGES.includes(page)?page:'overview',status:(page==='build-plan'?PLAN_STATES:STATUSES).includes(p.get('status'))?p.get('status'):'all',view:p.get('view')==='board'?'board':'list',q:(p.get('q')??'').slice(0,120),item:safeId(p.get('item'))?p.get('item'):'',group:['reconstruction','frontier'].includes(p.get('group'))?p.get('group'):'all'};
 }
 export function routeHref(route) {
   const p=new URLSearchParams();for(const key of ['status','view','q','item','group'])if(route[key]&&route[key]!=='all'&&!(key==='view'&&route[key]==='list'))p.set(key,route[key]);

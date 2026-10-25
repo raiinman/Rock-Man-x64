@@ -105,7 +105,8 @@ test('player exploration links preserve roadmap routing and pin research/documen
   for(const [path,label] of [['research/README.md','Explore the research'],['docs/README.md','Read the documentation']]){
     assert.ok(links.includes(`href="https://github.com/raiinman/Rock-Man-x64/blob/${revision}/${path}"><strong>${label}</strong>`));
   }
-  assert.equal((links.match(/<a /g)||[]).length,3);
+  assert.match(links,/<a href="#build-plan"><strong>Build & spec plan<\/strong>/);
+  assert.equal((links.match(/<a /g)||[]).length,4);
 });
 test('overview percentage has its game-completion qualifier beside the number across filters and future counts',()=>{
   for(const changed of [false,true]){
@@ -124,5 +125,73 @@ test('all routes describe recorded evidence without asserting global worker inac
     const html=renderShell(data,state,route(page));
     assert.match(html,/This page displays recorded evidence, not live worker activity\./);
     assert.doesNotMatch(html,/No agents or tasks are running here/);
+  }
+});
+
+function buildPlanFixture(){
+  const d=copy(data);
+  d.updates.unshift({id:'fixture-build-check',kind:'windows',date:'2026-10-25',capability_changed:false,changed:'Synthetic fixture display and normal close passed.',why:'Fixture scope only.',next:'Review distinct remaining behavior.',evidence:['docs/status/current-status.md']});
+  d.build_plan={schema_version:1,reviewed_at:'2026-10-25 16:30:00 UTC',plan_source:'tasks/spec-implementation/todo.md',tasks:[
+    {id:'si-01',label:'Choose a bounded source slice',state:'planned',dependencies:[],source:'tasks/spec-implementation/todo.md#si-01',state_reason:'Proposal only; task-specific completion has not been reviewed.',evidence:[]},
+    {id:'si-02',label:'Qualify read-only media',state:'blocked',dependencies:['si-01'],source:'tasks/spec-implementation/todo.md#si-02',state_reason:'Fixture-specific provider unavailable.',evidence:['docs/status/current-status.md']}
+  ],checks:[{id:'fixture-check',label:'Synthetic directory interaction',state:'tested',update_id:'fixture-build-check',limit:'Fixture only; not native game boot or a complete IDE.'}]};
+  return d;
+}
+test('build-plan route is separate and preserves explicit plan status query',()=>{
+  const r=route('build-plan?status=blocked&item=si-02&q=media');
+  assert.equal(r.page,'build-plan');assert.equal(r.status,'blocked');assert.equal(r.item,'si-02');
+  assert.deepEqual(parseRoute(routeHref(r)),r);
+});
+test('build-plan renders bounded evidence and task dependencies without acceptance percentages',()=>{
+  const d=buildPlanFixture(),sha='c'.repeat(40),html=renderShell(d,state,route('build-plan?item=si-02'),false,sha);
+  assert.match(html,/Build &amp; spec plan|Build & spec plan/);
+  assert.match(html,/Synthetic fixture display and normal close passed/);
+  assert.match(html,/not native game boot or a complete IDE/);
+  assert.match(html,/id="plan-detail-si-02" tabindex="-1"/);
+  assert.match(html,/href="#build-plan\?item=si-01"/);
+  assert.match(html,/2026-10-25 16:30:00 UTC/);
+  assert.ok(html.includes('/blob/'+sha+'/tasks/spec-implementation/todo.md#si-02'));
+  assert.doesNotMatch(html,/\d+(?:\.\d+)?%|MILESTONES ACCEPTED/);
+});
+test('build-plan filters affect task tiles without rewriting states or historical acceptance',()=>{
+  const d=buildPlanFixture(),prior=JSON.stringify(d.checklists),html=renderShell(d,state,route('build-plan?status=blocked'));
+  assert.equal((html.match(/class="plan-cell /g)||[]).length,1);
+  assert.match(html,/Qualify read-only media/);assert.match(html,/Synthetic directory interaction/);
+  assert.equal(JSON.stringify(d.checklists),prior);
+  assert.equal((renderShell(d,state,route('overview')).match(/class="heat-cell /g)||[]).length,checklistById(d,'roadmap').items.length);
+});
+test('build-plan rejects unknown states, missing evidence, missing dependency, cycle and unknown update',()=>{
+  for(const change of [d=>d.build_plan.tasks[0].state='accepted',d=>{d.build_plan.tasks[0].state='implemented';},d=>d.build_plan.tasks[1].dependencies=['missing'],d=>d.build_plan.tasks[0].dependencies=['si-02'],d=>d.build_plan.checks[0].update_id='missing']){
+    const d=buildPlanFixture();change(d);assert.throws(()=>validateData(d,state),/build.plan|plan |dependency|evidence|state|cycle/i);
+  }
+});
+test('build-plan escapes labels, reasons and evidence text',()=>{
+  const d=buildPlanFixture();d.build_plan.tasks[0].label='<img src=x onerror=bad()>';d.build_plan.tasks[0].state_reason='</dd><script>bad()</script>';
+  const html=renderShell(d,state,route('build-plan?item=si-01'));
+  assert.doesNotMatch(html,/<img src=x|<script>bad/);assert.match(html,/&lt;img/);assert.match(html,/&lt;script&gt;bad/);
+});
+test('build-plan does not fabricate a map when canonical mapping is absent',()=>{
+  const d=copy(data);delete d.build_plan;
+  const html=renderShell(d,state,route('build-plan'));
+  assert.match(html,/Build and plan mapping is not recorded/);assert.doesNotMatch(html,/class="plan-cell /);
+});
+test('MOCK DOM: build-plan detail opens, Escape closes and restores its tile focus',async()=>{
+  const m=mockDOM();let opened=false,restored=false;m.elements['plan-detail-si-02']={scrollIntoView(){},focus(){opened=true;}};m.elements['plan-cell-si-02']={focus(){restored=true;}};
+  m.win.location.hash='#build-plan?item=si-02';const app=startApp(m.doc,m.win,async()=>({data:buildPlanFixture(),state}));await tick();assert.equal(opened,true);
+  m.listeners.keydown({key:'Escape',preventDefault(){}});m.windowListeners.hashchange();assert.equal(parseRoute(m.win.location.hash).item,'');assert.equal(restored,true);app.destroy();
+});
+
+test('build-plan accepts separately cited implementation/test states without promoting another task',()=>{
+  for(const status of ['implemented','tested']){
+    const d=buildPlanFixture();d.build_plan.tasks[0].state=status;d.build_plan.tasks[0].evidence=['docs/status/current-status.md'];
+    validateData(d,state);
+    const html=renderShell(d,state,route('build-plan?status='+status));
+    assert.equal((html.match(/class="plan-cell /g)||[]).length,1);assert.match(html,new RegExp('class="plan-state '+status));
+    assert.equal(d.build_plan.tasks[1].state,'blocked');assert.equal(d.checklists.find(c=>c.id==='boot').items[0].done,false);
+  }
+});
+test('build-plan records reject external definition sources and mismatched review dates',()=>{
+  for(const change of [d=>d.build_plan.plan_source='https://example.com/tasks.md',d=>d.build_plan.reviewed_at='2026-10-24 12:00:00 UTC']){
+    const d=buildPlanFixture();change(d);assert.throws(()=>validateData(d,state),/build.plan|plan|date/i);
   }
 });

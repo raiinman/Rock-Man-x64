@@ -408,17 +408,55 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-player-front-door-spec-plan-01",
-    "reviewed_through_commit": "9583bb09929b38fdcd61042e432bd74433910e76",
-    "summary": "Reviewed at 2026-10-25 11:24:51 UTC: player-facing README/Pages presentation and original concept illustration, plus a separate specifications-derived implementation plan and task list. Source-level review and all 152 offline documentation checks passed (67 UI/model/controller, 29 site/deployment, 56 tracker). Browser inspection was denied by administrator policy and remains unverified. No new research or native execution; no acceptance change."
+    "review_id": "2026-10-25-build-spec-plan-map-01",
+    "reviewed_through_commit": "0e7dbd6282de39f508abc0bcea00a3920e2c03ac",
+    "summary": "Reviewed at 2026-10-25 16:30:25 UTC: added a separate build/spec-plan map and integrated two separately reported bounded Windows synthetic Inspector checks. The first covers nonempty-directory indexing, selection/display and normal Close; the second covers sequential A → B → A reload. The earlier inconclusive attempt remains. All 30 task states remain planned pending their own criteria/Definition of Done review. No historical acceptance change; native game boot and complete IDE remain unestablished. Browser UI inspection remains policy-blocked and unverified."
   },
   "overview": {
-    "now": "Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.",
-    "changed": "Reviewed at 2026-10-25 11:24:51 UTC: player-facing README/Pages presentation and original concept illustration, plus a separate specifications-derived implementation plan and task list. Source-level review and all 152 offline documentation checks passed (67 UI/model/controller, 29 site/deployment, 56 tracker). Browser inspection was denied by administrator policy and remains unverified. No new research or native execution; no acceptance change.",
-    "why": "Give players clear project, availability and evidence navigation while adding a provider-first specifications-derived plan that preserves initial adoption records, existing owners and canonical acceptance.",
-    "next": "Parent reviews the exact combined diff before publication through the existing documentation workflow; actual browser acceptance remains pending without retrying the denied route. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged."
+    "now": "Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.",
+    "changed": "Added a separate build/spec-plan map. Reported Windows evidence covers two-file indexing, selection and distinct-content display, plus sequential A → B → A reload with counts 2 → 1 → 2; both ended with normal Close exit 0. No existing acceptance criterion changed.",
+    "why": "Distinguish tested inspection interactions and proposed specification tasks from broader import, editing, runtime-control and playable-game goals.",
+    "next": "Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "build-spec-plan-map-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Added a separate build/spec-plan route with explicit record states, task dependencies, evidence links and review time. The repository ledger projects the same canonical mapping; plan checkboxes do not promote states.",
+      "why": "Show the bounded working private IDE prototype and proposed spec work without repurposing the historical acceptance heatmap or inventing a game-completion percentage.",
+      "next": "Review the exact candidate before publication. Documentation UI pixels, touch and keyboard behavior remain unverified under the existing browser policy block; do not retry that denied route.",
+      "evidence": [
+        "docs/web/README.md#build-and-specification-plan",
+        "tasks/spec-implementation/todo.md",
+        "docs/status/dashboard.md#build-and-specification-plan"
+      ]
+    },
+    {
+      "id": "inspector-synthetic-directory-reload-01",
+      "date": "2026-10-25",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "Actual Windows sequential synthetic A → B → A loading passed with counts 2 → 1 → 2 and verified path/list/selected bytes after each load; normal Close exited 0 with cleanup confirmed.",
+      "why": "Adds evidence for this repeated sequential loading flow beyond the first nonempty-directory smoke check.",
+      "next": "Select a distinct remaining workflow. Other repeated-loading patterns, interruption, cancellation, dirty editing and import handoff retain their own unverified scopes.",
+      "evidence": [
+        "docs/status/current-status.md#sequential-synthetic-directory-reload-check--october-25"
+      ]
+    },
+    {
+      "id": "inspector-synthetic-directory-smoke-01",
+      "date": "2026-10-25",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "A reported Windows smoke check verified the tested executable/source identity, completed indexing of two harmless synthetic files, visibly displayed both entries, selected the second and showed its distinct contents using screenshot/accessibility evidence. Normal Close exited 0. Fixtures, source and executable remained unchanged; no cleanup remains pending.",
+      "why": "Adds bounded actual GUI indexing, selection, display and normal-shutdown evidence for the tested successor. It does not establish original-asset inspection, import handoff, cancellation, dirty-edit handling, actual owned-capture display, complete IDE acceptance or native game boot.",
+      "next": "Select a distinct remaining inspection workflow with its existing owner and verified source baseline. Preserve the earlier inconclusive attempt, frozen results, acceptance criteria and current native/provenance gates.",
+      "evidence": [
+        "docs/status/current-status.md#synthetic-nonempty-directory-inspector-smoke-check--october-25"
+      ]
+    },
     {
       "id": "player-front-door-spec-plan-01",
       "date": "2026-10-25",
@@ -5758,6 +5796,434 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-25-build-spec-plan-map-01",
+      "date": "2026-10-25",
+      "basis_commit": "0e7dbd6282de39f508abc0bcea00a3920e2c03ac",
+      "note": "Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "build_plan": {
+    "schema_version": 1,
+    "reviewed_at": "2026-10-25 16:30:25 UTC",
+    "plan_source": "tasks/spec-implementation/todo.md",
+    "tasks": [
+      {
+        "id": "si-01",
+        "label": "Choose a bounded source slice",
+        "state": "planned",
+        "dependencies": [],
+        "source": "tasks/spec-implementation/todo.md#si-01",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-02",
+        "label": "Qualify read-only media",
+        "state": "planned",
+        "dependencies": [
+          "si-01"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-02",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-03",
+        "label": "Review one retained research gap",
+        "state": "planned",
+        "dependencies": [
+          "si-01"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-03",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-25",
+        "label": "Review implementation provenance",
+        "state": "planned",
+        "dependencies": [
+          "si-01"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-25",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-04",
+        "label": "Review the startup producer boundary",
+        "state": "planned",
+        "dependencies": [
+          "si-02",
+          "si-03"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-04",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-05",
+        "label": "Implement one permitted startup continuation",
+        "state": "planned",
+        "dependencies": [
+          "si-04",
+          "si-25"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-05",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-06",
+        "label": "Verify the Windows startup path",
+        "state": "planned",
+        "dependencies": [
+          "si-05",
+          "si-25"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-06",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-07",
+        "label": "Verify the inspection launcher",
+        "state": "planned",
+        "dependencies": [
+          "si-02"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-07",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-08",
+        "label": "Verify actual-capture display",
+        "state": "planned",
+        "dependencies": [
+          "si-07"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-08",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-09",
+        "label": "Verify read-only Windows observation",
+        "state": "planned",
+        "dependencies": [
+          "si-02"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-09",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-10",
+        "label": "Connect a read-only observation endpoint",
+        "state": "planned",
+        "dependencies": [
+          "si-09"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-10",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-11",
+        "label": "Specify bounded production loading",
+        "state": "planned",
+        "dependencies": [
+          "si-04"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-11",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-12",
+        "label": "Specify whole-owner retirement",
+        "state": "planned",
+        "dependencies": [
+          "si-11"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-12",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-13",
+        "label": "Specify stop and fault behavior",
+        "state": "planned",
+        "dependencies": [
+          "si-12"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-13",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-14",
+        "label": "Specify controller endpoint lifetime",
+        "state": "planned",
+        "dependencies": [
+          "si-10",
+          "si-13"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-14",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-15",
+        "label": "Implement one permitted controller operation",
+        "state": "planned",
+        "dependencies": [
+          "si-05",
+          "si-14",
+          "si-25"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-15",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-16",
+        "label": "Plan the first production scene",
+        "state": "planned",
+        "dependencies": [
+          "si-01"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-16",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-17",
+        "label": "Plan production rendering",
+        "state": "planned",
+        "dependencies": [
+          "si-16"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-17",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-18",
+        "label": "Plan character animation",
+        "state": "planned",
+        "dependencies": [
+          "si-16"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-18",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-19",
+        "label": "Plan controls and camera",
+        "state": "planned",
+        "dependencies": [
+          "si-16"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-19",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-20",
+        "label": "Plan world interaction",
+        "state": "planned",
+        "dependencies": [
+          "si-16"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-20",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-21",
+        "label": "Plan a gameplay journey",
+        "state": "planned",
+        "dependencies": [
+          "si-18",
+          "si-19",
+          "si-20"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-21",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-22",
+        "label": "Plan decoded audio output",
+        "state": "planned",
+        "dependencies": [
+          "si-02"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-22",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-23",
+        "label": "Plan game save and restore",
+        "state": "planned",
+        "dependencies": [
+          "si-16"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-23",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-24",
+        "label": "Plan the integrated IDE journey",
+        "state": "planned",
+        "dependencies": [
+          "si-08",
+          "si-10",
+          "si-15"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-24",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-26",
+        "label": "Plan a Windows package journey",
+        "state": "planned",
+        "dependencies": [
+          "si-24",
+          "si-25"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-26",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-27",
+        "label": "Define end-to-end acceptance",
+        "state": "planned",
+        "dependencies": [
+          "si-06",
+          "si-17",
+          "si-21",
+          "si-22",
+          "si-23",
+          "si-24",
+          "si-26"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-27",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-28",
+        "label": "Review the planning documents",
+        "state": "planned",
+        "dependencies": [],
+        "source": "tasks/spec-implementation/todo.md#si-28",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-29",
+        "label": "Review the canonical documentation update",
+        "state": "planned",
+        "dependencies": [
+          "si-28"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-29",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      },
+      {
+        "id": "si-30",
+        "label": "Verify approved publication",
+        "state": "planned",
+        "dependencies": [
+          "si-29"
+        ],
+        "source": "tasks/spec-implementation/todo.md#si-30",
+        "state_reason": "Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply.",
+        "evidence": []
+      }
+    ],
+    "checks": [
+      {
+        "id": "inspector-directory-smoke",
+        "label": "Inspect and select synthetic files",
+        "state": "tested",
+        "update_id": "inspector-synthetic-directory-smoke-01",
+        "limit": "Only the reported two-file synthetic Windows indexing, display, selection and normal shutdown. No original assets, owned-capture display, complete IDE acceptance or native game boot."
+      },
+      {
+        "id": "inspector-directory-reload",
+        "label": "Reload synthetic folders A → B → A",
+        "state": "tested",
+        "update_id": "inspector-synthetic-directory-reload-01",
+        "limit": "Only the tested sequential loading and selection/display flow. Concurrent or interrupted loading, cancellation, dirty editing, import handoff and original-asset behavior remain separately unverified."
+      }
+    ]
+  }
 }

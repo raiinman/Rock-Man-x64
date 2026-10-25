@@ -14,6 +14,10 @@ Inputs are reviewed public-safe evidence about the other modules. Outputs are de
 
 Use the complete commands and actual public validation example in [SPEC.md](SPEC.md#verified-commands-and-flags). Python standard-library `unittest`, Node built-in mock-DOM/model tests and static artifact/workflow checks are the existing frameworks. No installs, network access or private fixtures are required. Source code and workflow behavior are unchanged by adoption.
 
+## Separate build/spec-plan view
+
+The separate build/spec-plan route projects explicit reviewed states from canonical `build_plan` metadata. Task IDs and dependencies must match their cited definitions; build checks resolve cited evidence updates. No task checkbox, dependency, test count or historical ratio supplies a state or overall game percentage. A bounded working private IDE interaction is distinct from full IDE, native boot and playable-game acceptance. The existing checksum receipt, five generated paths and eight-file Pages artifact remain in force.
+
 ## Success and failure semantics
 
 - Native acceptance flags, criteria, versions, stage evidence and historical observations cannot be changed merely to record this adoption.

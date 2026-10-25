@@ -23,6 +23,7 @@ Make the reviewed public roadmap understandable on a spacious, interactive canva
 
 ## Work Guidance
 
+- `#build-plan` is a separate read-only map of explicit canonical task states/dependencies and bounded build checks resolved by evidence-update ID. It has no completion percentage and never infers states from checkboxes, counts, dependencies or historical acceptance. Keep its review time, scope limits, text status symbols, dependency links and nonmodal open/close focus behavior accessible.
 - The player-facing overview leads with project purpose, honest playable/download availability and paths to roadmap, research and documentation. Keep technical evidence expandable and preserve hash routes; never imply concept illustration is game output.
 - Use original deep warm armor-red/charcoal/ivory/gold styling, restrained mechanical gloss and tiny cyan selection accents, never pink/magenta or invented telemetry. Overview is a full-page equal-area categorical milestone heatmap with large accepted/total counts; textual status and symbols must remain understandable without color. Tile area does not imply equal effort. Click/keyboard detail regions show exact criteria/evidence and restore focus when closed; retain Roadmap, Workstreams, Findings and Change history.
 - Support responsive heatmap and list/board views, search, status filters, keyboard-operated controls, native expandable criteria and shareable hash routes. Do not pretend dragging cards would change public project state.

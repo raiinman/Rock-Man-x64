@@ -18,6 +18,8 @@ Index: [visual dashboard and evidence ledger](dashboard.md), [dashboard metadata
 
 ## Living tracker contract
 
+- The optional `build_plan` mapping in canonical JSON owns explicit build-check/task display states and review time. Stable task IDs and dependencies must match the cited specification task definitions; task checkboxes do not promote states. Build checks resolve cited update IDs and retain their exact bounded scope. This separate map never alters historical criteria, accepted sets or numerical validation records.
+
 - Own `dashboard-data.json` as the reviewed evidence source, `TRACKER.md` as the team upkeep contract, and the generated `dashboard.md`, `changes.md` and `tracker-state.json`. The root README tracker block is generated from this source too.
 - Every meaningful Rock Man change must update plain-English changed/why/next, evidence class/source, blockers and actual review date/identifier/basis. Stable entry IDs preserve history. Research authors may update reference findings, never native capability acceptance by inference.
 - Generated files are not manually edited. Run the generator, bounded fixture tests and `--check`; inspect the exact diff and visible text. The publication owner verifies the actual Actions result and generated commit, or reports a failed/skipped/pending refresh.

@@ -47,6 +47,71 @@ def source(root, value):
     need(path and not path.startswith('/') and '..' not in Path(path).parts, 'source escapes repository')
     need((root / path).is_file(), f'missing source: {path}')
 
+PLAN_STATES = ('planned', 'implemented', 'tested', 'blocked')
+
+def validate_build_plan(root, data):
+    plan = data.get('build_plan')
+    if plan is None:
+        return
+    need(plan.get('schema_version') == 1, 'unsupported build-plan schema')
+    need(re.fullmatch(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} UTC', plan.get('reviewed_at', '')) is not None, 'invalid build-plan review time')
+    need(plan['reviewed_at'].startswith(data['last_evidence_review']['date']), 'build-plan review date mismatch')
+    source(root, plan['plan_source'])
+    need(not plan['plan_source'].startswith('https:') and '#' not in plan['plan_source'], 'build-plan definitions must be a repository file')
+    definitions = {}
+    raw = (root / plan['plan_source']).read_text()
+    for match in re.finditer(r'^## (SI-\d{2}): [^\n]+\n(.*?)(?=^## SI-\d{2}:|\Z)', raw, re.M | re.S):
+        row = re.search(r'^\*\*Dependencies:\*\*([^\n]+)', match[2], re.M)
+        need(row is not None, 'task definition lacks dependencies')
+        definitions[match[1].lower()] = sorted(set(v.lower() for v in re.findall(r'SI-\d{2}', row[1])))
+    tasks = plan['tasks']
+    need(isinstance(tasks, list) and 0 < len(tasks) <= 200, 'invalid build-plan task list')
+    ids = [t['id'] for t in tasks]
+    need(len(set(ids)) == len(ids) and set(ids) == set(definitions), 'build-plan task IDs differ from definitions')
+    for task in tasks:
+        need(task['state'] in PLAN_STATES, 'invalid build-plan task state')
+        text(task['label'], 'plan label', 150); text(task['state_reason'], 'plan state reason', 650)
+        need(task['source'] == plan['plan_source'] + '#' + task['id'], 'build-plan task source mismatch')
+        source(root, task['source'])
+        deps = task['dependencies']
+        need(isinstance(deps, list) and len(set(deps)) == len(deps) and sorted(deps) == definitions[task['id']], 'build-plan dependencies differ from definitions')
+        need(task['id'] not in deps and all(v in ids for v in deps), 'unknown/self plan dependency')
+        need(isinstance(task['evidence'], list), 'invalid plan evidence')
+        for ref in task['evidence']: source(root, ref)
+        need(task['state'] == 'planned' or bool(task['evidence']), 'nonplanned task state requires evidence')
+    by_id = {t['id']: t for t in tasks}; visited = set(); active = set()
+    def visit(id):
+        need(id not in active, 'build-plan dependency cycle')
+        if id in visited: return
+        active.add(id)
+        for dep in by_id[id]['dependencies']: visit(dep)
+        active.remove(id); visited.add(id)
+    for id in ids: visit(id)
+    checks = plan['checks']; updates = {u['id']: u for u in data['updates']}
+    need(isinstance(checks, list) and len({c['id'] for c in checks}) == len(checks), 'invalid build-plan checks')
+    for check in checks:
+        need(re.fullmatch(r'[a-z0-9][a-z0-9-]{0,119}', check['id']) is not None and check['id'] not in ids, 'invalid build check ID')
+        need(check['state'] in PLAN_STATES, 'invalid build check state')
+        text(check['label'], 'build check label', 150); text(check['limit'], 'build check limit', 650)
+        need(check['update_id'] in updates and bool(updates[check['update_id']]['evidence']), 'build check requires cited update')
+
+def build_plan_ledger(data):
+    plan = data.get('build_plan')
+    if plan is None: return []
+    lines = ['', '## Build and specification plan', '',
+             'Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.', '',
+             '**Map reviewed:** ' + md(plan['reviewed_at']) + '.', '',
+             '[Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · ' + link(plan['plan_source'], False, 'Full task definitions'), '']
+    updates = {u['id']: u for u in data['updates']}
+    for check in plan['checks']:
+        update = updates[check['update_id']]
+        lines += ['### ' + md(check['label']), '', '**Recorded state:** ' + check['state'] + '.', '', md(update['changed']), '', md(check['limit']), '',
+                  '**Evidence:** ' + ' · '.join(link(ref, False) for ref in update['evidence']), '']
+    lines += ['| Task | Recorded state | Task prerequisites | State explanation |', '|---|---|---|---|']
+    for task in plan['tasks']:
+        lines.append('| ' + link(task['source'], False, task['id'].upper() + ': ' + task['label']) + ' | ' + task['state'] + ' | ' + (', '.join(v.upper() for v in task['dependencies']) or 'None listed') + ' | ' + md(task['state_reason']) + ' |')
+    return lines
+
 def validate(root, data, state):
     def scan(value):
         if isinstance(value, str):
@@ -94,6 +159,7 @@ def validate(root, data, state):
         for key in ('title', 'found', 'why', 'unknown', 'class', 'metric', 'unit'): text(finding[key], f'finding.{key}', 900)
         for ref in finding['sources']: source(root, ref)
     validate_numbers(root, data)
+    validate_build_plan(root, data)
     need(state.get('schema_version') == 2, 'unsupported state schema')
     need(isinstance(state.get('reviewed_checklist_definitions'),dict) and set(state['reviewed_checklist_definitions'])==set(CHECKLIST_IDS),'missing prior checklist definitions')
     need(isinstance(state.get('recorded_observation_hashes'),list) and bool(state['recorded_observation_hashes']),'missing prior observation history')
@@ -276,6 +342,7 @@ def dashboard(data, state):
     lines=['# Living evidence tracker and findings', '', 'Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.', '']
     lines += activity_lines(data, state)
     lines += ['', '![Milestone checklist completion](visuals/progress-dashboard.svg)', ''] + checklist_ledger(data)
+    lines += build_plan_ledger(data)
     lines += ['', '## Current explanation', '', '**Now:** '+md(data['overview']['now']), '', '**Changed:** '+md(data['overview']['changed']), '', '**Why:** '+md(data['overview']['why']), '', '**Next:** '+md(data['overview']['next']), '',
               '[Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)', '',
               '## Evidence tracks', '', '| Workstream | Source | Synthetic | Linux | Windows | Full app | Scope / next |', '|---|---|---|---|---|---|---|']
@@ -395,12 +462,15 @@ def render(root, data, state):
         need(review['review_id'] != state['evidence_review_id'], 'changed stages/citations require a new evidence review identifier')
         need(review['date'] >= state['evidence_review_date'], 'evidence review date regressed')
     check_numeric_transition(state, data)
+    if digest(data.get('build_plan')) != state.get('reviewed_build_plan_sha256', digest(None)):
+        need(review['review_id'] != state['evidence_review_id'], 'changed build-plan mapping requires a new evidence review identifier')
     readme=(root/'README.md').read_text()
     need(readme.count(START)==1 and readme.count(END)==1, 'README must contain one ordered tracker marker pair')
     before,rest=readme.split(START);old,after=rest.split(END)
     state=dict(state)
     state['evidence_data_sha256']=hashlib.sha256((root/DATA).read_bytes()).hexdigest()
     state['reviewed_stage_sha256']=current_stages
+    state['reviewed_build_plan_sha256']=digest(data.get('build_plan'))
     state['evidence_review_id']=review['review_id']
     state['evidence_review_date']=review['date']
     state['generated_paths']=list(OUTPUTS)
@@ -423,6 +493,8 @@ def git_activity(root, sha):
         check_numeric_transition({'reviewed_checklist_definitions':definitions(old),'recorded_observation_hashes':[digest(o) for o in old['observations']]},current)
     else:
         need(len(current['observations'])==1,'initial numeric migration must contain one baseline only')
+    if digest(old.get('build_plan')) != digest(current.get('build_plan')):
+        need(old.get('last_evidence_review',{}).get('review_id') != current.get('last_evidence_review',{}).get('review_id'), 'commit changes build-plan mapping without a new review identifier')
     review_changed=old.get('last_evidence_review',{}).get('review_id') != current.get('last_evidence_review',{}).get('review_id')
     if old.get('workstreams') and stage_digest(old) != stage_digest(current):
         need(review_changed, 'commit changes stages/citations without a new evidence review identifier')

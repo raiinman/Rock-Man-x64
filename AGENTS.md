@@ -76,6 +76,8 @@ Default section order:
 
 ## User Preferences
 
+- Keep the build/spec-plan map separate from historical acceptance. Working build refers only to the bounded private native IDE prototype evidence, not a playable native game; plan checkboxes never imply implementation, testing or acceptance.
+
 - The public README and Pages entrance serve players first: explain the project, honest playability/download availability and useful exploration paths before technical evidence. Use clearly labeled original ImageGen concept artwork as documentation illustration, never game output; keep the reviewed Pages artifact boundary unchanged.
 
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md

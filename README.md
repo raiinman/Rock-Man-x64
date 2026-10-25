@@ -4,7 +4,7 @@ A project working toward an independent **native Windows x64 Mega Man Legends 1 
 
 **Can I play it today?** There is no public playable build or game download here. Native game boot has not been established. A private prototype exists; this repository shares the documentation and research behind the work.
 
-[**Explore the project and progress →**](https://raiinman.github.io/Rock-Man-x64/) · [Read the project story](docs/history/README.md) · [Browse the research](research/README.md)
+[**Explore the project and progress →**](https://raiinman.github.io/Rock-Man-x64/) · [**Build & spec plan**](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Read the project story](docs/history/README.md) · [Browse the research](research/README.md)
 
 ![Original concept illustration of a crimson mechanical workshop](docs/artwork/workshop-concept.png)
 *Original AI-generated concept illustration for this documentation. Not a screenshot or game output.*
@@ -25,15 +25,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
+**Where we are:** Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.
 
-**Next useful step:** Parent reviews the exact combined diff before publication through the existing documentation workflow; actual browser acceptance remains pending without retrying the denied route. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
+**Next useful step:** Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` · [reviewed basis 9583bb0](https://github.com/raiinman/Rock-Man-x64/commit/9583bb09929b38fdcd61042e432bd74433910e76).
+**Last evidence review:** 2026-10-25 · `2026-10-25-build-spec-plan-map-01` · [reviewed basis 0e7dbd6](https://github.com/raiinman/Rock-Man-x64/commit/0e7dbd6282de39f508abc0bcea00a3920e2c03ac).
 **Latest repository change observed:** [86bdae4](https://github.com/raiinman/Rock-Man-x64/commit/86bdae4c13810dcaa90b1b8caad6193b9c304281) · 2026-10-25T09:16:11-07:00 — docs: welcome players and map specification implementation work.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

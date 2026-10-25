@@ -4,6 +4,42 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-25 · build-spec-plan-map-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Added a separate build/spec-plan route with explicit record states, task dependencies, evidence links and review time. The repository ledger projects the same canonical mapping; plan checkboxes do not promote states.
+
+**Why:** Show the bounded working private IDE prototype and proposed spec work without repurposing the historical acceptance heatmap or inventing a game-completion percentage.
+
+**Next:** Review the exact candidate before publication. Documentation UI pixels, touch and keyboard behavior remain unverified under the existing browser policy block; do not retry that denied route.
+
+**Evidence:** [source 1](../../docs/web/README.md#build-and-specification-plan) · [source 2](../../tasks/spec-implementation/todo.md) · [source 3](../../docs/status/dashboard.md#build-and-specification-plan).
+
+## 2026-10-25 · inspector-synthetic-directory-reload-01
+
+**Evidence class:** windows. **Runtime capability advanced:** no.
+
+**Changed:** Actual Windows sequential synthetic A → B → A loading passed with counts 2 → 1 → 2 and verified path/list/selected bytes after each load; normal Close exited 0 with cleanup confirmed.
+
+**Why:** Adds evidence for this repeated sequential loading flow beyond the first nonempty-directory smoke check.
+
+**Next:** Select a distinct remaining workflow. Other repeated-loading patterns, interruption, cancellation, dirty editing and import handoff retain their own unverified scopes.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#sequential-synthetic-directory-reload-check--october-25).
+
+## 2026-10-25 · inspector-synthetic-directory-smoke-01
+
+**Evidence class:** windows. **Runtime capability advanced:** no.
+
+**Changed:** A reported Windows smoke check verified the tested executable/source identity, completed indexing of two harmless synthetic files, visibly displayed both entries, selected the second and showed its distinct contents using screenshot/accessibility evidence. Normal Close exited 0. Fixtures, source and executable remained unchanged; no cleanup remains pending.
+
+**Why:** Adds bounded actual GUI indexing, selection, display and normal-shutdown evidence for the tested successor. It does not establish original-asset inspection, import handoff, cancellation, dirty-edit handling, actual owned-capture display, complete IDE acceptance or native game boot.
+
+**Next:** Select a distinct remaining inspection workflow with its existing owner and verified source baseline. Preserve the earlier inconclusive attempt, frozen results, acceptance criteria and current native/provenance gates.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#synthetic-nonempty-directory-inspector-smoke-check--october-25).
+
 ## 2026-10-25 · player-front-door-spec-plan-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1229,3 +1265,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution. |
 | 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution. |
 | 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |

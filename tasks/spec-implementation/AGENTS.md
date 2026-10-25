@@ -17,6 +17,8 @@ Maintain the owner-requested dependency-aware breakdown of the shared specificat
 
 ## Work Guidance
 
+The separate documentation map reads stable IDs/dependencies from these definitions and uses reviewed canonical display states; task checkboxes remain independent. Definition changes must keep that validated mapping current without accepting milestones.
+
 Use stable task IDs, provider-first dependencies, focused vertical slices and checkpoints after two or three tasks. Resolve a consequential contract or evidence gap before dependent implementation. Record actual ownership and availability before assignment; do not duplicate existing work or unanswered handoffs.
 
 ## Verification

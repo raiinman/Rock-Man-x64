@@ -331,6 +331,48 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(svg.count('Δ +0 goals'),5)
         self.assertTrue(set(guard.check(self.root))<=set(u.OUTPUTS))
 
+    def test_56_build_plan_state_digest_requires_new_review(self):
+        d=self.data();self.save(d);u.run(self.root,False)
+        state=json.loads((self.root/u.STATE).read_text());state['reviewed_build_plan_sha256']='0'*64
+        (self.root/u.STATE).write_text(json.dumps(state))
+        with self.assertRaisesRegex(u.Invalid,'changed build-plan mapping requires a new evidence review identifier'):u.run(self.root,False)
+
+class BuildPlanValidationTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name)
+        (self.root/'tasks.md').write_text('## SI-01: First fixture task\n\n**Dependencies:** None.\n\n## SI-02: Second fixture task\n\n**Dependencies:** SI-01.\n')
+        (self.root/'evidence.md').write_text('# Owned synthetic evidence\n')
+        self.data={'last_evidence_review':{'date':'2026-01-01'},'updates':[{'id':'fixture-check','changed':'Owned synthetic interaction passed.','evidence':['evidence.md']}],
+            'build_plan':{'schema_version':1,'reviewed_at':'2026-01-01 01:00:00 UTC','plan_source':'tasks.md',
+                'tasks':[{'id':'si-01','label':'First fixture task','state':'planned','dependencies':[],'source':'tasks.md#si-01','state_reason':'Proposal only.','evidence':[]},
+                         {'id':'si-02','label':'Second fixture task','state':'planned','dependencies':['si-01'],'source':'tasks.md#si-02','state_reason':'Proposal only.','evidence':[]}],
+                'checks':[{'id':'bounded-check','label':'Bounded fixture check','state':'tested','update_id':'fixture-check','limit':'Only synthetic fixture coverage.'}]}}
+    def test_build_plan_matches_source_without_reading_checkbox_completion(self):
+        with (self.root/'tasks.md').open('a') as f:f.write('\n- [x] An irrelevant checkbox is not evidence.\n')
+        u.validate_build_plan(self.root,self.data)
+        self.assertTrue(all(t['state']=='planned' for t in self.data['build_plan']['tasks']))
+    def test_build_plan_rejects_dependency_drift_and_missing_task(self):
+        for change in (lambda d:d['build_plan']['tasks'][1].update(dependencies=[]),lambda d:d['build_plan']['tasks'].pop()):
+            d=copy.deepcopy(self.data);change(d)
+            with self.assertRaises(u.Invalid):u.validate_build_plan(self.root,d)
+    def test_build_plan_rejects_state_promotion_without_evidence(self):
+        d=copy.deepcopy(self.data);d['build_plan']['tasks'][0]['state']='implemented'
+        with self.assertRaisesRegex(u.Invalid,'requires evidence'):u.validate_build_plan(self.root,d)
+    def test_build_plan_rejects_missing_build_evidence(self):
+        d=copy.deepcopy(self.data);d['build_plan']['checks'][0]['update_id']='not-recorded'
+        with self.assertRaisesRegex(u.Invalid,'requires cited update'):u.validate_build_plan(self.root,d)
+    def test_build_plan_rejects_cycles_even_when_source_defines_them(self):
+        (self.root/'tasks.md').write_text('## SI-01: First\n**Dependencies:** SI-02.\n## SI-02: Second\n**Dependencies:** SI-01.\n')
+        self.data['build_plan']['tasks'][0]['dependencies']=['si-02']
+        with self.assertRaisesRegex(u.Invalid,'cycle'):u.validate_build_plan(self.root,self.data)
+    def test_build_plan_rejects_wrong_review_day(self):
+        self.data['build_plan']['reviewed_at']='2026-01-02 01:00:00 UTC'
+        with self.assertRaisesRegex(u.Invalid,'date mismatch'):u.validate_build_plan(self.root,self.data)
+    def test_build_plan_ledger_does_not_change_acceptance(self):
+        before=copy.deepcopy(self.data);text='\n'.join(u.build_plan_ledger(self.data))
+        self.assertIn('First fixture task',text);self.assertIn('Separate from historical acceptance',text)
+        self.assertNotIn('%',text);self.assertEqual(self.data,before)
+
 class CurrentDatasetTests(unittest.TestCase):
     def test_current_reviewed_data_renders_without_drift_or_mutation(self):
         # Deliberately separate from the synthetic mutation fixture. This reads

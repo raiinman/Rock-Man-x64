@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` · [reviewed basis 9583bb0](https://github.com/raiinman/Rock-Man-x64/commit/9583bb09929b38fdcd61042e432bd74433910e76).
+**Last evidence review:** 2026-10-25 · `2026-10-25-build-spec-plan-map-01` · [reviewed basis 0e7dbd6](https://github.com/raiinman/Rock-Man-x64/commit/0e7dbd6282de39f508abc0bcea00a3920e2c03ac).
 **Latest repository change observed:** [86bdae4](https://github.com/raiinman/Rock-Man-x64/commit/86bdae4c13810dcaa90b1b8caad6193b9c304281) · 2026-10-25T09:16:11-07:00 — docs: welcome players and map specification implementation work.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -524,17 +524,84 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution. |
 | 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution. |
 | 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
+| 2026-10-25 · `2026-10-25-build-spec-plan-map-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:30:25 UTC: separate build/spec-plan documentation and two bounded reported Windows synthetic interactions. Zero historical checklist, stage or native capability acceptance delta. Task states remain planned, numerical validation records and all earlier observations remain unchanged; no game execution or original inputs were involved. Browser UI inspection remains blocked and unverified. |
 
+
+## Build and specification plan
+
+Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
+
+**Map reviewed:** 2026-10-25 16:30:25 UTC.
+
+[Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
+
+### Inspect and select synthetic files
+
+**Recorded state:** tested.
+
+A reported Windows smoke check verified the tested executable/source identity, completed indexing of two harmless synthetic files, visibly displayed both entries, selected the second and showed its distinct contents using screenshot/accessibility evidence. Normal Close exited 0. Fixtures, source and executable remained unchanged; no cleanup remains pending.
+
+Only the reported two-file synthetic Windows indexing, display, selection and normal shutdown. No original assets, owned-capture display, complete IDE acceptance or native game boot.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#synthetic-nonempty-directory-inspector-smoke-check--october-25)
+
+### Reload synthetic folders A → B → A
+
+**Recorded state:** tested.
+
+Actual Windows sequential synthetic A → B → A loading passed with counts 2 → 1 → 2 and verified path/list/selected bytes after each load; normal Close exited 0 with cleanup confirmed.
+
+Only the tested sequential loading and selection/display flow. Concurrent or interrupted loading, cancellation, dirty editing, import handoff and original-asset behavior remain separately unverified.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#sequential-synthetic-directory-reload-check--october-25)
+
+| Task | Recorded state | Task prerequisites | State explanation |
+|---|---|---|---|
+| [SI-01: Choose a bounded source slice](../../tasks/spec-implementation/todo.md#si-01) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-02: Qualify read-only media](../../tasks/spec-implementation/todo.md#si-02) | planned | SI-01 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-03: Review one retained research gap](../../tasks/spec-implementation/todo.md#si-03) | planned | SI-01 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-25: Review implementation provenance](../../tasks/spec-implementation/todo.md#si-25) | planned | SI-01 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-04: Review the startup producer boundary](../../tasks/spec-implementation/todo.md#si-04) | planned | SI-02, SI-03 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-05: Implement one permitted startup continuation](../../tasks/spec-implementation/todo.md#si-05) | planned | SI-04, SI-25 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-06: Verify the Windows startup path](../../tasks/spec-implementation/todo.md#si-06) | planned | SI-05, SI-25 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-07: Verify the inspection launcher](../../tasks/spec-implementation/todo.md#si-07) | planned | SI-02 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-08: Verify actual-capture display](../../tasks/spec-implementation/todo.md#si-08) | planned | SI-07 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-09: Verify read-only Windows observation](../../tasks/spec-implementation/todo.md#si-09) | planned | SI-02 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-10: Connect a read-only observation endpoint](../../tasks/spec-implementation/todo.md#si-10) | planned | SI-09 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-11: Specify bounded production loading](../../tasks/spec-implementation/todo.md#si-11) | planned | SI-04 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-12: Specify whole-owner retirement](../../tasks/spec-implementation/todo.md#si-12) | planned | SI-11 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-13: Specify stop and fault behavior](../../tasks/spec-implementation/todo.md#si-13) | planned | SI-12 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-14: Specify controller endpoint lifetime](../../tasks/spec-implementation/todo.md#si-14) | planned | SI-10, SI-13 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-15: Implement one permitted controller operation](../../tasks/spec-implementation/todo.md#si-15) | planned | SI-05, SI-14, SI-25 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-16: Plan the first production scene](../../tasks/spec-implementation/todo.md#si-16) | planned | SI-01 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-17: Plan production rendering](../../tasks/spec-implementation/todo.md#si-17) | planned | SI-16 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-18: Plan character animation](../../tasks/spec-implementation/todo.md#si-18) | planned | SI-16 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-19: Plan controls and camera](../../tasks/spec-implementation/todo.md#si-19) | planned | SI-16 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-20: Plan world interaction](../../tasks/spec-implementation/todo.md#si-20) | planned | SI-16 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-21: Plan a gameplay journey](../../tasks/spec-implementation/todo.md#si-21) | planned | SI-18, SI-19, SI-20 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-22: Plan decoded audio output](../../tasks/spec-implementation/todo.md#si-22) | planned | SI-02 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-23: Plan game save and restore](../../tasks/spec-implementation/todo.md#si-23) | planned | SI-16 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-24: Plan the integrated IDE journey](../../tasks/spec-implementation/todo.md#si-24) | planned | SI-08, SI-10, SI-15 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-26: Plan a Windows package journey](../../tasks/spec-implementation/todo.md#si-26) | planned | SI-24, SI-25 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-27: Define end-to-end acceptance](../../tasks/spec-implementation/todo.md#si-27) | planned | SI-06, SI-17, SI-21, SI-22, SI-23, SI-24, SI-26 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-28: Review the planning documents](../../tasks/spec-implementation/todo.md#si-28) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-29: Review the canonical documentation update](../../tasks/spec-implementation/todo.md#si-29) | planned | SI-28 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
+| [SI-30: Verify approved publication](../../tasks/spec-implementation/todo.md#si-30) | planned | SI-29 | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
 
 ## Current explanation
 
-**Now:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
+**Now:** Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.
 
-**Changed:** Reviewed at 2026-10-25 11:24:51 UTC: player-facing README/Pages presentation and original concept illustration, plus a separate specifications-derived implementation plan and task list. Source-level review and all 152 offline documentation checks passed \(67 UI/model/controller, 29 site/deployment, 56 tracker\). Browser inspection was denied by administrator policy and remains unverified. No new research or native execution; no acceptance change.
+**Changed:** Added a separate build/spec-plan map. Reported Windows evidence covers two-file indexing, selection and distinct-content display, plus sequential A → B → A reload with counts 2 → 1 → 2; both ended with normal Close exit 0. No existing acceptance criterion changed.
 
-**Why:** Give players clear project, availability and evidence navigation while adding a provider-first specifications-derived plan that preserves initial adoption records, existing owners and canonical acceptance.
+**Why:** Distinguish tested inspection interactions and proposed specification tasks from broader import, editing, runtime-control and playable-game goals.
 
-**Next:** Parent reviews the exact combined diff before publication through the existing documentation workflow; actual browser acceptance remains pending without retrying the denied route. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
+**Next:** Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

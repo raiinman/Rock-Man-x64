@@ -24,6 +24,7 @@ Generate the living public tracker from reviewed evidence and exact repository m
 
 ## Work Guidance
 
+- Validate optional `build_plan` task IDs/dependencies against the cited task-definition file, explicit states against their evidence, and build-check update references. Bind mapping changes to `reviewed_build_plan_sha256` and a new review identifier; emit its nonpercentage repository ledger without extending the output allowlist.
 - Keep generated prose plain English, with changed/why/next, useful limits and sources.
 - Keep the fixed output contract synchronized with the workflow. Widening outputs or privileges needs explicit review and authority, not an incidental generator change.
 - Every meaningful tool change updates tests, applicable contracts and exact generated output; retain failed checks until corrected and rerun.

@@ -6,6 +6,14 @@ The entrance explains the project and its current lack of a public playable down
 
 A spacious, read-only view of the **same reviewed roadmap** used by the repository chart: Heatmap, Roadmap, Workstreams, Findings and Change history. It is original vanilla HTML/CSS/ES modules, without framework dependencies or external assets.
 
+## Build and specification plan
+
+[Open Build & spec plan](https://raiinman.github.io/Rock-Man-x64/#build-plan) for the separately reviewed private IDE build interactions and specification task map. The two reported synthetic Windows checks cover a first nonempty-directory interaction and a sequential A → B → A reload, each with its own scope and evidence. They do not complete SI-07/SI-08 or establish original-asset behavior, imports, cancellation, dirty editing, concurrent/interrupted loads, complete IDE acceptance or native game boot.
+
+Task display states are explicitly reviewed in canonical `build_plan` metadata. Labels and dependencies map to the published task IDs and are validated against their definitions. All current tasks remain Planned until their specific criteria and Definition of Done are reviewed; checkboxes and prerequisites never auto-promote states. Planned, Implemented, Tested and Blocked include text/symbols, shareable task details, dependency navigation and an actual review timestamp. Task filters do not hide the separate build evidence. There is no completion percentage; historical acceptance remains in its existing views.
+
+This route uses the existing canonical JSON/receipt and five UI files; the eight-file artifact and workflow do not change. Browser pixel, touch and real keyboard acceptance for this candidate remain unverified under the existing denied route. Model/render-string and mocked-DOM checks are separate evidence.
+
 ## Heatmap reading guide
 
 The default view fills the page with **equal-area milestone tiles**, not a weighted effort treemap or activity calendar. Warm armor red + ✓ means accepted; charcoal + ○ means pending; amber hatching + ! means explicitly blocked; ◐ appears only for an explicitly recorded in-progress state. Every tile also spells out its status. Pending does not mean untouched. Search and status filters never change the overall denominator.

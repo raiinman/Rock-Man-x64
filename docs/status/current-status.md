@@ -4,7 +4,26 @@ For the latest reviewed project-wide summary and public coordination, use the [l
 
 **Checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 
+The October 25 Windows validation entries below are separate from the October 24 source implementation checkpoint.
+
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
+
+
+## Sequential synthetic-directory reload check — October 25
+
+A separately reported Windows check loaded synthetic folder A, then B, then A again, with displayed entry counts 2 → 1 → 2. The path, file list and selected bytes were verified after each load. Returning to A restored its entries and expected displayed content. Normal Close exited 0 and cleanup was confirmed. Inputs, executable and source remained unchanged.
+
+Transient accessibility failures were retained and reconciled without duplicate input. This result covers the tested sequential A → B → A loading, selection/display and normal-shutdown flow. It does not establish cancellation, dirty-edit decisions, import handoff, concurrent or interrupted loading, original-asset behavior, complete IDE acceptance or native game boot. No source repair or game execution occurred.
+
+The earlier first-smoke result and its inconclusive preceding attempt retain their separate scopes. No existing acceptance criterion is marked complete by this record.
+
+## Synthetic nonempty-directory Inspector smoke check — October 25
+
+A separately reported Windows smoke check verified the tested executable/source identity, indexed a directory containing two harmless synthetic files and visibly displayed both entries. Selecting the second entry displayed its distinct contents, supported by screenshot and accessibility evidence. Normal Close exited successfully with code 0. Fixtures, source and executable remained unchanged; no cleanup remains pending.
+
+This establishes the tested successor's bounded synthetic indexing, display, selection and normal shutdown. It does not establish original-asset inspection, import handoff, cancellation, dirty-edit handling, actual owned-capture display, complete IDE acceptance or native game boot. Private inputs, identities and captures remain excluded from publication; the underlying private result is not independently reproducible from this documentation-only repository.
+
+The earlier attempt remains inconclusive because application-approval timeout prevented completion and its exit was not verified. The later success does not retroactively change that outcome. No existing acceptance criterion is marked complete by this record.
 
 ## Diagnostic preview outcome repair — October 24
 
