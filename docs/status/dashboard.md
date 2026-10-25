@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-documentation-housekeeping-01` · [reviewed basis efae53c](https://github.com/raiinman/Rock-Man-x64/commit/efae53cd9b48870e9ec146dd2764a03252904c43).
-**Latest repository change observed:** [c0b9c4a](https://github.com/raiinman/Rock-Man-x64/commit/c0b9c4a47f3cde9ec6e49827bcb3f95f12042682) · 2026-10-25T02:57:19-07:00 — docs: clarify reading paths and historical status labels.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-spec-adoption-01` · [reviewed basis f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82).
+**Latest repository change observed:** [f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82) · 2026-10-25T09:57:38Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -512,17 +512,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
 | 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
 | 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
 
 
 ## Current explanation
 
 **Now:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Changed:** Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance.
+**Changed:** Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain.
 
-**Why:** Prevent earlier requests and checkpoints from appearing current, while preserving their dated evidence, failures, ownership and unresolved gates.
+**Why:** Make provider contracts, acceptance references, scoped task mechanics and worker configuration explicit without replacing existing specifications or counting documentation as native progress.
 
-**Next:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
+**Next:** Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

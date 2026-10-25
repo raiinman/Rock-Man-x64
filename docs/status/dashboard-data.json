@@ -408,17 +408,33 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-documentation-housekeeping-01",
-    "reviewed_through_commit": "efae53cd9b48870e9ec146dd2764a03252904c43",
-    "summary": "Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance."
+    "review_id": "2026-10-25-spec-adoption-01",
+    "reviewed_through_commit": "f4f71d52413eb150f097cdaa5afd37045e044f82",
+    "summary": "Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain."
   },
   "overview": {
     "now": "Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.",
-    "changed": "Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance.",
-    "why": "Prevent earlier requests and checkpoints from appearing current, while preserving their dated evidence, failures, ownership and unresolved gates.",
-    "next": "Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes."
+    "changed": "Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain.",
+    "why": "Make provider contracts, acceptance references, scoped task mechanics and worker configuration explicit without replacing existing specifications or counting documentation as native progress.",
+    "next": "Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "spec-adoption-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain.",
+      "why": "Make provider contracts, acceptance references, scoped task mechanics and worker configuration explicit without replacing existing specifications or counting documentation as native progress.",
+      "next": "Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged.",
+      "evidence": [
+        "CAPABILITIES.md",
+        "SPEC.md",
+        "tasks/plan.md",
+        "AGENTS.md#spec-driven-development",
+        "AGENTS.md#user-preferences"
+      ]
+    },
     {
       "id": "documentation-housekeeping-01",
       "date": "2026-10-25",
@@ -5538,6 +5554,68 @@
       "date": "2026-10-25",
       "basis_commit": "efae53cd9b48870e9ec146dd2764a03252904c43",
       "note": "Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-25-spec-adoption-01",
+      "date": "2026-10-25",
+      "basis_commit": "f4f71d52413eb150f097cdaa5afd37045e044f82",
+      "note": "Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer.",
       "checklists": [
         {
           "id": "inspection",

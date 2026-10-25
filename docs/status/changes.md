@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-25 · spec-adoption-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain.
+
+**Why:** Make provider contracts, acceptance references, scoped task mechanics and worker configuration explicit without replacing existing specifications or counting documentation as native progress.
+
+**Next:** Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged.
+
+**Evidence:** [source 1](../../CAPABILITIES.md) · [source 2](../../SPEC.md) · [source 3](../../tasks/plan.md) · [source 4](../../AGENTS.md#spec-driven-development) · [source 5](../../AGENTS.md#user-preferences).
+
 ## 2026-10-25 · documentation-housekeeping-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1193,3 +1205,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
 | 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
 | 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |
+| 2026-10-25 · `2026-10-25-spec-adoption-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer. |

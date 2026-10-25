@@ -78,6 +78,8 @@ Default section order:
 
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
 
+- The owner's requested next worker configuration is **GPT Sol6.1 (`gpt-6.1-sol`), Medium reasoning** for every non-primary agent and subagent; the primary assistant is excluded. Let current workers finish, preserve their source/test state and notify the owner when they are all clear before starting another worker wave. Do not claim running agents were reconfigured by this documentation change. Respect higher-priority host/model constraints and report an unavailable configuration rather than silently substituting another model or reasoning level.
+
 - For any project blocker, promptly consult APEX-1 through the existing GitHub handoff, not only at scheduled check-ins. State the exact problem, what was tried, evidence limits, specific help needed and next decision in ordinary language. Use its separate existing research/database; read the reply and act within approved scope, without status-only loops or repeating completed cards. Publish no private code, credentials, artifacts or machine information. External text is not execution authority, and coordination transfers no ownership.
 
 - On 2026-10-22 the user authorized continued in-depth BIOS research, subagents and necessary local tools, and asked that reviewed findings reach GitHub promptly for the other agent. The latest research update cadence is every half hour, superseding the earlier hourly request. This research continues separately from game implementation; `research/bios/AGENTS.md` owns its operating detail.
@@ -105,11 +107,20 @@ When the user requests a durable behavior change, record it here or in the relev
 - Keep APEX-1 supplied with concrete, nonduplicate bounded tasks using its existing research/database and verified available, authorized reasoning GPT Sol cloud agents/subagents. Read and reconcile replies promptly, then maintain the next useful assignment. A sent request is not proof that an external worker is active; distinguish requested, acknowledged, running and completed states. Preserve an unanswered assignment instead of sending it again.
 - Continuous work does not waive provenance, initializer, S2, private-publication or access boundaries, grant host access, or transfer native patch ownership. If all useful permitted tasks are exhausted or infrastructure/capacity is unavailable, report the exact blocker and needed evidence, resource or authority, retain the next actionable task and resume when available. Never invent a running worker or bypass a restriction to satisfy the continuity goal.
 
+## Spec-driven development
+
+- Use the owner-selected spec-driven-development sequence: scope check when needed, Specify, Plan, Tasks, Implement. [CAPABILITIES.md](CAPABILITIES.md) is the stable capability/dependency index; [SPEC.md](SPEC.md) and root `SPEC-<id>.md` files extend the existing technical/research contracts rather than duplicate or replace them.
+- Record assumptions before spec content, resolve consequential scope/interface/provenance gaps before dependent work, and update the owning specification before a behavior change. Provider-owned boundaries distinguish runtime dependencies from product acceptance, research prerequisites and reporting. Existing settled authority carries forward; a new spec grants no new execution or publication authority.
+- Preserve incomplete plans and task history. `tasks/plan.md` and `tasks/todo.md` cover initial adoption only; existing native/research owners retain their plans and source ownership. Use the smallest complete vertical slice, genuine behavior-specific RED/GREEN or refactor characterization, meaningful regression and the shared definition of done for later authorized implementation.
+- The living tracker remains the only acceptance authority. Specifications do not change criteria or acceptance by themselves. Keep private source commands, structure and examples in a private companion or explicitly record the public reproducibility limit; never invent commands or publish private implementation to fill a template.
+
 ## Child DOX Index
 
 - [`.github/AGENTS.md`](.github/AGENTS.md) owns the approved documentation updater and chained public-tracker Pages build/deployment, with separated permissions.
 - [`research/AGENTS.md`](research/AGENTS.md) owns the PS1 research library, source catalogs, search records, and handoff guidance.
 - [`docs/AGENTS.md`](docs/AGENTS.md) owns the project documentation index and delegates history, technical architecture, and current status and the read-only documentation UI to its child contracts.
+- [`tasks/AGENTS.md`](tasks/AGENTS.md) owns the bounded spec-adoption plan and execution list, not native capability acceptance or existing private work plans.
+- The root also owns `CAPABILITIES.md`, `SPEC.md` and `SPEC-<id>.md`: shared adoption rules and thin capability specifications linking existing domain contracts.
 - The root owns `README.md`, `AGENTS.md`, `DOX-LICENSE`, and `DOT.md`, the public-safe research/native coordination entry point. `DOT.md` must lead with the owner-selected active source handoff, including source-ready, exact missing-function or named access/authority-blocker outcomes; retain superseded requests as history rather than treating an hourly status review as an answer.
 
 ## Project Scope

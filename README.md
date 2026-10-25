@@ -16,15 +16,15 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Next useful step:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
+**Next useful step:** Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-documentation-housekeeping-01` · [reviewed basis efae53c](https://github.com/raiinman/Rock-Man-x64/commit/efae53cd9b48870e9ec146dd2764a03252904c43).
-**Latest repository change observed:** [c0b9c4a](https://github.com/raiinman/Rock-Man-x64/commit/c0b9c4a47f3cde9ec6e49827bcb3f95f12042682) · 2026-10-25T02:57:19-07:00 — docs: clarify reading paths and historical status labels.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-spec-adoption-01` · [reviewed basis f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82).
+**Latest repository change observed:** [f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82) · 2026-10-25T09:57:38Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 
@@ -38,6 +38,7 @@ This public repository contains documentation, research metadata and original ex
 | Exact current blockers and test scopes | [Current status](docs/status/current-status.md) · [Validation](docs/status/validation.md) |
 | The full story, including failures and corrections | [Project history](docs/history/README.md) |
 | Architecture and investigated capabilities | [Technical guide](docs/technical/architecture.md) · [Capability matrix](docs/technical/capability-matrix.md) |
+| Capability boundaries and spec-driven workflow | [Capability map](CAPABILITIES.md) · [Shared specification](SPEC.md) |
 | PS1 research and its implementation restrictions | [Research library](research/README.md) · [Provenance review](research/bios/PROVENANCE-REVIEW.md) |
 
 Private results are summarized in sanitized prose and are **not independently reproducible from this repository**. Executed emulator research is not native-game boot. Source references, test oracles and implementation lineage remain separate; PSX-SPX is a restricted-provenance research reference, not cleared implementation authority. Independent implementation is the project constraint, not a legally certified clean-room claim.

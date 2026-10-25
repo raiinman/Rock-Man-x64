@@ -1,15 +1,13 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "c0b9c4a47f3cde9ec6e49827bcb3f95f12042682",
-    "committed_at": "2026-10-25T02:57:19-07:00",
-    "subject": "docs: clarify reading paths and historical status labels",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "f4f71d52413eb150f097cdaa5afd37045e044f82",
+    "committed_at": "2026-10-25T09:57:38Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact public GitHub connector commit metadata; no capability inference"
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "92da124a170bf0ed6ba174e509ed09d063b9d79998acc13c4efa8327aaabc721",
+  "evidence_data_sha256": "b0675dab7cb450b6eda293f8ab6b51ea50e60077718572859079cc2b18e14feb",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +15,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "6a851259e7646b6bb4ea94a1d000493f0c3c057d4bbe6eae7a6e3a539714708c",
-  "evidence_review_id": "2026-10-25-documentation-housekeeping-01",
+  "reviewed_stage_sha256": "aa4fb65c9c114e0dc13d1ab2960cfab0fd9a3e27308f36b17cc8f088e09e9093",
+  "evidence_review_id": "2026-10-25-spec-adoption-01",
   "evidence_review_date": "2026-10-25",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -107,6 +105,7 @@
     "f484df5293b759355d62a13e21c4b4bde766fcf364f72ad8c1a35613dfeb4f01",
     "179d1c8dcdd24b9908498d3f3797b84d3f88721812cfce682593dc17fbe616e3",
     "b34d54a744947dcf111348a4e2a9cfe6f419d0a078c60d9a4606881754037b02",
-    "4108a175d76b815a1e1ab601b4ca060c5c29767b695eb63d62b4c69a3babfb0c"
+    "4108a175d76b815a1e1ab601b4ca060c5c29767b695eb63d62b4c69a3babfb0c",
+    "c361bf17fbd4d846e0de489eb71e0120e2548413bfa94098b0f0c26a7a3aa143"
   ]
 }
