@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-25 · bounded-existing-tunnel-policy-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged.
+
+**Why:** Keep the recovery scope explicit without treating tunnel connectivity as Windows UI support, native game boot or stopped-host wake evidence.
+
+**Next:** Keep the existing Rock Man progress heatmap active. If the existing tunnel later fails, apply the bounded recovery contract; request the applicable authority for uncertain identity or any scope expansion. Existing technical blockers and native acceptance gates remain unchanged.
+
+**Evidence:** [source 1](../../AGENTS.md#bounded-existing-tunnel-recovery).
+
 ## 2026-10-25 · retained-packet-framing-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1157,3 +1169,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-retained-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
 | 2026-10-25 · `2026-10-25-retained-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
 | 2026-10-25 · `2026-10-25-retained-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |

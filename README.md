@@ -22,7 +22,7 @@ This public repository contains documentation, research metadata and original ex
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-retained-packet-framing-01` · [reviewed basis dd3f88d](https://github.com/raiinman/Rock-Man-x64/commit/dd3f88d1c52a39ee63db71a50ec42e675857e07e).
+**Last evidence review:** 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` · [reviewed basis 0707989](https://github.com/raiinman/Rock-Man-x64/commit/07079891a01cfec4caef110f41a14009cda0efbe).
 **Latest repository change observed:** [756154a](https://github.com/raiinman/Rock-Man-x64/commit/756154ae82d7d0f0843ecdd1f91fa60c57a490d0) · 2026-10-24T17:43:17-07:00 — docs: answer retained GPU packet-framing question.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

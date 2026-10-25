@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-retained-packet-framing-01` · [reviewed basis dd3f88d](https://github.com/raiinman/Rock-Man-x64/commit/dd3f88d1c52a39ee63db71a50ec42e675857e07e).
+**Last evidence review:** 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` · [reviewed basis 0707989](https://github.com/raiinman/Rock-Man-x64/commit/07079891a01cfec4caef110f41a14009cda0efbe).
 **Latest repository change observed:** [756154a](https://github.com/raiinman/Rock-Man-x64/commit/756154ae82d7d0f0843ecdd1f91fa60c57a490d0) · 2026-10-24T17:43:17-07:00 — docs: answer retained GPU packet-framing question.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -500,15 +500,21 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-retained-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
 | 2026-10-25 · `2026-10-25-retained-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
 | 2026-10-25 · `2026-10-25-retained-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
 
 
 ## Current explanation
 
 **Now:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Changed:** Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.
+**Changed:** Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged.
 
-**Why:** Known packet phase distinguishes parameters and pixels from command candidates; unknown stream state cannot be supplied by opcode-shaped bits.
+**Why:** Keep the recovery scope explicit without treating tunnel connectivity as Windows UI support, native game boot or stopped-host wake evidence.
 
 **Next:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
 

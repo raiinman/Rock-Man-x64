@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "d185d7799215ba4d142825b09bd11ad58e5c47260c1695ec380b4715fea0eb5e",
+  "evidence_data_sha256": "4a34f078b231c701ea224e7d2417d5d9362418d37674cd55cb3fd5c3873cef21",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "5f31eb9f16be2824a906e18e9b10a01673f924076734d2d669bf858da48542ac",
-  "evidence_review_id": "2026-10-25-retained-packet-framing-01",
+  "reviewed_stage_sha256": "e2faee6662e510a9958f9c088102d62b3d58096b15c5597f40cec5844a9f82b1",
+  "evidence_review_id": "2026-10-25-bounded-existing-tunnel-policy-01",
   "evidence_review_date": "2026-10-25",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -105,6 +105,7 @@
     "66f08ae08f011ef4e29a5abda5c8ea653f8a8a564d129d07d8cca7dac186d853",
     "fe7f2f2aa99c45d0119e76cc7634278111bc3011a4e67b7ef5d0c8f3d4e254f8",
     "f484df5293b759355d62a13e21c4b4bde766fcf364f72ad8c1a35613dfeb4f01",
-    "179d1c8dcdd24b9908498d3f3797b84d3f88721812cfce682593dc17fbe616e3"
+    "179d1c8dcdd24b9908498d3f3797b84d3f88721812cfce682593dc17fbe616e3",
+    "b34d54a744947dcf111348a4e2a9cfe6f419d0a078c60d9a4606881754037b02"
   ]
 }

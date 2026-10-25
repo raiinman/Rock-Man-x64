@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-retained-packet-framing-01",
-    "reviewed_through_commit": "dd3f88d1c52a39ee63db71a50ec42e675857e07e",
-    "summary": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta."
+    "review_id": "2026-10-25-bounded-existing-tunnel-policy-01",
+    "reviewed_through_commit": "07079891a01cfec4caef110f41a14009cda0efbe",
+    "summary": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged."
   },
   "overview": {
     "now": "Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.",
-    "changed": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.",
-    "why": "Known packet phase distinguishes parameters and pixels from command candidates; unknown stream state cannot be supplied by opcode-shaped bits.",
+    "changed": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged.",
+    "why": "Keep the recovery scope explicit without treating tunnel connectivity as Windows UI support, native game boot or stopped-host wake evidence.",
     "next": "Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes."
   },
   "updates": [
+    {
+      "id": "bounded-existing-tunnel-policy-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged.",
+      "why": "Keep the recovery scope explicit without treating tunnel connectivity as Windows UI support, native game boot or stopped-host wake evidence.",
+      "next": "Keep the existing Rock Man progress heatmap active. If the existing tunnel later fails, apply the bounded recovery contract; request the applicable authority for uncertain identity or any scope expansion. Existing technical blockers and native acceptance gates remain unchanged.",
+      "evidence": [
+        "AGENTS.md#bounded-existing-tunnel-recovery"
+      ]
+    },
     {
       "id": "retained-packet-framing-01",
       "date": "2026-10-25",
@@ -5384,6 +5396,68 @@
       "date": "2026-10-25",
       "basis_commit": "dd3f88d1c52a39ee63db71a50ec42e675857e07e",
       "note": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-25-bounded-existing-tunnel-policy-01",
+      "date": "2026-10-25",
+      "basis_commit": "07079891a01cfec4caef110f41a14009cda0efbe",
+      "note": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged.",
       "checklists": [
         {
           "id": "inspection",
