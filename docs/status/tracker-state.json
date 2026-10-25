@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "86bdae4c13810dcaa90b1b8caad6193b9c304281",
-    "committed_at": "2026-10-25T09:16:11-07:00",
-    "subject": "docs: welcome players and map specification implementation work",
+    "sha": "dceb4c0dd93fa8d11730d6950a41a4a1d2ab5700",
+    "committed_at": "2026-10-25T09:45:45-07:00",
+    "subject": "docs: add a separate build and specification plan heatmap",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

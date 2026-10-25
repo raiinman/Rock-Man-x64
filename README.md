@@ -34,7 +34,7 @@ The goal includes a native game and editor. Documentation, research results and 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-25 · `2026-10-25-build-spec-plan-map-01` · [reviewed basis 0e7dbd6](https://github.com/raiinman/Rock-Man-x64/commit/0e7dbd6282de39f508abc0bcea00a3920e2c03ac).
-**Latest repository change observed:** [86bdae4](https://github.com/raiinman/Rock-Man-x64/commit/86bdae4c13810dcaa90b1b8caad6193b9c304281) · 2026-10-25T09:16:11-07:00 — docs: welcome players and map specification implementation work.
+**Latest repository change observed:** [dceb4c0](https://github.com/raiinman/Rock-Man-x64/commit/dceb4c0dd93fa8d11730d6950a41a4a1d2ab5700) · 2026-10-25T09:45:45-07:00 — docs: add a separate build and specification plan heatmap.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
