@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` · [reviewed basis 9583bb0](https://github.com/raiinman/Rock-Man-x64/commit/9583bb09929b38fdcd61042e432bd74433910e76).
-**Latest repository change observed:** [05e77f3](https://github.com/raiinman/Rock-Man-x64/commit/05e77f3330a6077bc8659a73e557a985d8722532) · 2026-10-25T03:43:49-07:00 — docs: adopt capability specs and future worker model policy.
+**Latest repository change observed:** [86bdae4](https://github.com/raiinman/Rock-Man-x64/commit/86bdae4c13810dcaa90b1b8caad6193b9c304281) · 2026-10-25T09:16:11-07:00 — docs: welcome players and map specification implementation work.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

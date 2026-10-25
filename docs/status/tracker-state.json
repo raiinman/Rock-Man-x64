@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "05e77f3330a6077bc8659a73e557a985d8722532",
-    "committed_at": "2026-10-25T03:43:49-07:00",
-    "subject": "docs: adopt capability specs and future worker model policy",
+    "sha": "86bdae4c13810dcaa90b1b8caad6193b9c304281",
+    "committed_at": "2026-10-25T09:16:11-07:00",
+    "subject": "docs: welcome players and map specification implementation work",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
