@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "27dd5bdfca710b3913c24428a8600da4a581d6a0",
-    "committed_at": "2026-10-24T18:16:10Z",
-    "subject": "docs: refresh generated progress tracker",
-    "source": "Exact GitHub connector-observed commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "sha": "471ff9bc37ca2e7cde9636b448cb32cede2aa078",
+    "committed_at": "2026-10-24T17:38:36-07:00",
+    "subject": "docs: acknowledge Atlas reconciliation and request retained packet framing",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "50d6d7a73d6b82a6eaad3bc56db11cb925796628fdc3bbe5c6efbf5a1bf34eee",

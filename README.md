@@ -23,8 +23,8 @@ This public repository contains documentation, research metadata and original ex
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` · [reviewed basis 27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0).
-**Latest repository change observed:** [27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0) · 2026-10-24T18:16:10Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [471ff9b](https://github.com/raiinman/Rock-Man-x64/commit/471ff9bc37ca2e7cde9636b448cb32cede2aa078) · 2026-10-24T17:38:36-07:00 — docs: acknowledge Atlas reconciliation and request retained packet framing.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
 
