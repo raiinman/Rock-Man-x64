@@ -1,10 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "efae53cd9b48870e9ec146dd2764a03252904c43",
-    "committed_at": "2026-10-25T02:23:12Z",
-    "subject": "docs: refresh generated progress tracker",
-    "source": "Exact public GitHub connector commit metadata; no capability inference"
+    "sha": "c0b9c4a47f3cde9ec6e49827bcb3f95f12042682",
+    "committed_at": "2026-10-25T02:57:19-07:00",
+    "subject": "docs: clarify reading paths and historical status labels",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "92da124a170bf0ed6ba174e509ed09d063b9d79998acc13c4efa8327aaabc721",
