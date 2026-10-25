@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "32d77841abcdc403ae791bab874931225101d68f",
-    "committed_at": "2026-10-25T09:53:57-07:00",
-    "subject": "docs: include build plan heatmap in hourly reviews",
+    "sha": "837d8215a88ad802face4999f3a3b9e822b4ebbe",
+    "committed_at": "2026-10-25T10:29:43-07:00",
+    "subject": "docs: record zero-delta review of both progress maps",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
