@@ -408,17 +408,41 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-spec-adoption-01",
-    "reviewed_through_commit": "f4f71d52413eb150f097cdaa5afd37045e044f82",
-    "summary": "Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain."
+    "review_id": "2026-10-25-player-front-door-spec-plan-01",
+    "reviewed_through_commit": "9583bb09929b38fdcd61042e432bd74433910e76",
+    "summary": "Reviewed at 2026-10-25 11:24:51 UTC: player-facing README/Pages presentation and original concept illustration, plus a separate specifications-derived implementation plan and task list. Source-level review and all 152 offline documentation checks passed (67 UI/model/controller, 29 site/deployment, 56 tracker). Browser inspection was denied by administrator policy and remains unverified. No new research or native execution; no acceptance change."
   },
   "overview": {
     "now": "Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.",
-    "changed": "Reviewed at 2026-10-25 10:35:33 UTC: added the spec-driven capability map, provider-first contracts and scoped adoption tasks, and recorded the owner's next non-primary-worker configuration: GPT Sol6.1 with Medium reasoning. No native implementation, research result, execution or acceptance change; existing gates and ownership remain.",
-    "why": "Make provider contracts, acceptance references, scoped task mechanics and worker configuration explicit without replacing existing specifications or counting documentation as native progress.",
-    "next": "Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged."
+    "changed": "Reviewed at 2026-10-25 11:24:51 UTC: player-facing README/Pages presentation and original concept illustration, plus a separate specifications-derived implementation plan and task list. Source-level review and all 152 offline documentation checks passed (67 UI/model/controller, 29 site/deployment, 56 tracker). Browser inspection was denied by administrator policy and remains unverified. No new research or native execution; no acceptance change.",
+    "why": "Give players clear project, availability and evidence navigation while adding a provider-first specifications-derived plan that preserves initial adoption records, existing owners and canonical acceptance.",
+    "next": "Parent reviews the exact combined diff before publication through the existing documentation workflow; actual browser acceptance remains pending without retrying the denied route. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "player-front-door-spec-plan-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 11:24:51 UTC: player-facing README/Pages presentation and original concept illustration, plus a separate specifications-derived implementation plan and task list. Source-level review and all 152 offline documentation checks passed (67 UI/model/controller, 29 site/deployment, 56 tracker). Browser inspection was denied by administrator policy and remains unverified. No new research or native execution; no acceptance change.",
+      "why": "Give players clear project, availability and evidence navigation while adding a provider-first specifications-derived plan that preserves initial adoption records, existing owners and canonical acceptance.",
+      "next": "Parent reviews the exact combined diff before publication through the existing documentation workflow; actual browser acceptance remains pending without retrying the denied route. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.",
+      "evidence": [
+        "README.md#what-you-can-explore-today",
+        "docs/web/README.md",
+        "docs/web/views.mjs",
+        "docs/web/tests/site.test.mjs",
+        "docs/web/tests/test_build.py",
+        "docs/web/tests/test_pages.py",
+        "docs/status/tools/test_tracker.py",
+        "docs/artwork/README.md",
+        "tasks/AGENTS.md",
+        "tasks/spec-implementation/plan.md",
+        "tasks/spec-implementation/todo.md",
+        "SPEC.md",
+        "AGENTS.md#spec-driven-development"
+      ]
+    },
     {
       "id": "spec-adoption-01",
       "date": "2026-10-25",
@@ -5616,6 +5640,68 @@
       "date": "2026-10-25",
       "basis_commit": "f4f71d52413eb150f097cdaa5afd37045e044f82",
       "note": "Reviewed at 2026-10-25 10:35:33 UTC: specification adoption and worker-model policy only; zero native capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records, blockers and ownership remain unchanged. No new native/research execution or coordination answer.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-25-player-front-door-spec-plan-01",
+      "date": "2026-10-25",
+      "basis_commit": "9583bb09929b38fdcd61042e432bd74433910e76",
+      "note": "Reviewed at 2026-10-25 11:24:51 UTC: source-level player-facing presentation and specifications-derived planning review, with 152 passed offline documentation checks. Browser inspection remains denied and unverified. Zero native capability, stage or checklist acceptance delta. Preserve prior observations, definitions, accepted IDs, validation records, blockers and ownership; no new research or native execution.",
       "checklists": [
         {
           "id": "inspection",

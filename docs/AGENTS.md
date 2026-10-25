@@ -12,7 +12,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Local Contracts
 
-- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized living status tracker also accepts original SVG explanations, sanitized JSON evidence metadata and its documentation-only generator/tests. The requested `web/` interface also accepts original static HTML/CSS/ES modules, its local artifact builder and bounded tests, using canonical status data without a second authored snapshot. These do not authorize game/runtime implementation code, game assets, private runtime captures or services.
+- Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized living status tracker also accepts original SVG explanations, clearly labeled original concept artwork, sanitized JSON evidence metadata and its documentation-only generator/tests. The requested `web/` interface also accepts original static HTML/CSS/ES modules, its local artifact builder and bounded tests, using canonical status data without a second authored snapshot. These do not authorize game/runtime implementation code, game assets, private runtime captures or services.
 - Use sanitized original summaries, not raw private logs, transcripts, code excerpts, or extracted content.
 - Separate the current checkpoint from historical stages. Preserve failed approaches and corrections in history while removing stale claims from current summaries.
 - Describe private results as reported evidence with explicit scope; the public repository does not contain the inputs or implementation needed to reproduce them.
@@ -37,6 +37,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 
 ## Child DOX Index
 
+- [artwork/AGENTS.md](artwork/AGENTS.md) owns original documentation-only concept imagery and its provenance.
 - [history/AGENTS.md](history/AGENTS.md) owns start-to-current chronology and decision history.
 - [technical/AGENTS.md](technical/AGENTS.md) owns architecture, component explanations, and technical limits.
 - [status/AGENTS.md](status/AGENTS.md) owns the latest checkpoint, evidence matrix, unfinished work, and next-step conditions.

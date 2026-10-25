@@ -1,10 +1,21 @@
 # Rock Man x64
 
-An independent effort toward a **native Windows x64 Mega Man Legends 1 + integrated IDE/editor**. The goal is not finished: **native game boot is not established, and the production S2 controller remains NO-GO.**
+A project working toward an independent **native Windows x64 Mega Man Legends 1 experience**, with an integrated editor for exploring and working with game data.
 
-This public repository contains documentation, research metadata and original explanatory graphics—not the private prototype, game assets, a source release or a playable build.
+**Can I play it today?** There is no public playable build or game download here. Native game boot has not been established. A private prototype exists; this repository shares the documentation and research behind the work.
 
-**[Open the interactive project tracker](https://raiinman.github.io/Rock-Man-x64/)** — roadmap, workstreams, findings and recorded changes.
+[**Explore the project and progress →**](https://raiinman.github.io/Rock-Man-x64/) · [Read the project story](docs/history/README.md) · [Browse the research](research/README.md)
+
+![Original concept illustration of a crimson mechanical workshop](docs/artwork/workshop-concept.png)
+*Original AI-generated concept illustration for this documentation. Not a screenshot or game output.*
+
+## What you can explore today
+
+- **Progress:** a readable roadmap with accepted, pending and blocked milestones. Open any tile for the exact evidence.
+- **The story so far:** decisions, experiments, corrections and the work still ahead.
+- **Under the hood:** technical explanations and a sourced PS1 research library.
+
+The goal includes a native game and editor. Documentation, research results and component tests are useful steps toward it; they do not establish playable gameplay, native boot or a release date.
 
 <!-- ROCK-MAN-TRACKER:START -->
 
@@ -16,13 +27,13 @@ This public repository contains documentation, research metadata and original ex
 
 **Where we are:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Next useful step:** Use the reviewed contracts for the next authorized slice; let current workers finish and notify the owner before another worker wave. Native root retains workload/effect/commit ownership; S2 and initializer gates remain unchanged.
+**Next useful step:** Parent reviews the exact combined diff before publication through the existing documentation workflow; actual browser acceptance remains pending without retrying the denied route. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-spec-adoption-01` · [reviewed basis f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82).
+**Last evidence review:** 2026-10-25 · `2026-10-25-player-front-door-spec-plan-01` · [reviewed basis 9583bb0](https://github.com/raiinman/Rock-Man-x64/commit/9583bb09929b38fdcd61042e432bd74433910e76).
 **Latest repository change observed:** [05e77f3](https://github.com/raiinman/Rock-Man-x64/commit/05e77f3330a6077bc8659a73e557a985d8722532) · 2026-10-25T03:43:49-07:00 — docs: adopt capability specs and future worker model policy.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -15,7 +15,7 @@ export function startApp(doc,win,loader=fetchReviewed,options={}) {
   const mount=doc.getElementById('app');let snapshot=null,request=0,controller=null,timer=null,pendingQuery=null,lastPage=null,lastItem=null,disposed=false;
   function draw(){if(!snapshot||disposed)return;const route=parseRoute(win.location.hash);const active=doc.activeElement,restore=active?.id==='tracker-search'?{start:active.selectionStart,end:active.selectionEnd}:null;const control=active?.dataset?.route?{key:active.dataset.route,value:active.dataset.value}:null;
     mount.innerHTML=renderShell(snapshot.data,snapshot.state,route,Boolean(options.preview),options.sourceRevision??snapshot.sourceRevision??'');
-    doc.title=`Rock Man x64 — ${route.page==='overview'?'Project tracker':route.page[0].toUpperCase()+route.page.slice(1)}`;
+    doc.title=`Rock Man x64 — ${route.page==='overview'?'Project & progress':route.page[0].toUpperCase()+route.page.slice(1)}`;
     if(restore){const input=doc.getElementById('tracker-search');input?.focus({preventScroll:true});input?.setSelectionRange?.(restore.start,restore.end);}
     else if(lastPage!==null&&lastPage!==route.page){doc.getElementById('page-title')?.focus({preventScroll:true});win.scrollTo?.({top:0,behavior:'instant'});}
     else if(control){[...(mount.querySelectorAll?.('[data-route]')??[])].find(el=>el.dataset.route===control.key&&el.dataset.value===control.value)?.focus({preventScroll:true});}

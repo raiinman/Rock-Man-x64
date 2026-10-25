@@ -1,6 +1,8 @@
-# Interactive project tracker
+# Project and progress
 
 **[Open the public tracker](https://raiinman.github.io/Rock-Man-x64/).** The [live-delivery record](../history/validation-history.md#live-tracker-and-owner-observed-inspector-evidence--october-23) separates actual hosting/browser evidence from offline checks.
+
+The entrance explains the project and its current lack of a public playable download, then offers direct paths to the roadmap, research and documentation. Its navigation takes the owner’s Atlas control-center approach: clear destinations first, technical detail on demand. The README’s original concept illustration is labeled as documentation art and is deliberately excluded from the fixed Pages artifact.
 
 A spacious, read-only view of the **same reviewed roadmap** used by the repository chart: Heatmap, Roadmap, Workstreams, Findings and Change history. It is original vanilla HTML/CSS/ES modules, without framework dependencies or external assets.
 

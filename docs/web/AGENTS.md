@@ -23,6 +23,7 @@ Make the reviewed public roadmap understandable on a spacious, interactive canva
 
 ## Work Guidance
 
+- The player-facing overview leads with project purpose, honest playable/download availability and paths to roadmap, research and documentation. Keep technical evidence expandable and preserve hash routes; never imply concept illustration is game output.
 - Use original deep warm armor-red/charcoal/ivory/gold styling, restrained mechanical gloss and tiny cyan selection accents, never pink/magenta or invented telemetry. Overview is a full-page equal-area categorical milestone heatmap with large accepted/total counts; textual status and symbols must remain understandable without color. Tile area does not imply equal effort. Click/keyboard detail regions show exact criteria/evidence and restore focus when closed; retain Roadmap, Workstreams, Findings and Change history.
 - Support responsive heatmap and list/board views, search, status filters, keyboard-operated controls, native expandable criteria and shareable hash routes. Do not pretend dragging cards would change public project state.
 - Draw decorative diagonal direction markers with CSS geometry, not a font-specific Unicode glyph; retain link text and hide decorative geometry from assistive technology.

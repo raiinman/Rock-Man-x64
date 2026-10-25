@@ -85,3 +85,44 @@ test('decorative arrow: each heat tile uses font-independent aria-hidden geometr
 test('decorative arrow: all routes avoid the unsupported diagonal Unicode glyph',()=>{for(const page of ['overview','roadmap','workstreams','findings','history']){const html=renderShell(data,state,route(page));assert.doesNotMatch(html,/\u2197/);assert.match(html,/Provenance & evidence limits <span class="arrow-icon" aria-hidden="true"><\/span>/);assert.match(html,/Open the repository <span class="arrow-icon" aria-hidden="true"><\/span>/);}});
 test('decorative arrow: CSS draws the arrow without a font or remote resource',()=>{const css=fs.readFileSync(new URL('../styles.css',import.meta.url),'utf8');const head=css.match(/\.arrow-icon\s*\{([^}]+)\}/)?.[1]??'',shaft=css.match(/\.arrow-icon::before\s*\{([^}]+)\}/)?.[1]??'';assert.match(head,/border-top:\s*1\.5px solid currentColor/);assert.match(head,/border-right:\s*1\.5px solid currentColor/);assert.match(shaft,/content:\s*""/);assert.match(shaft,/transform:\s*rotate\(-45deg\)/);assert.match(shaft,/border-top:\s*1\.5px solid currentColor/);assert.doesNotMatch(head+shaft,/url\(|font-family|content:\s*["'][^"']+/);});
 test('decorative arrow: selected evidence retains link identity and plain-English name',()=>{const sha='b'.repeat(40),item=checklistById(data,'roadmap').items.find(i=>i.id==='native-boot'),html=renderShell(data,state,route('overview?item=native-boot'),false,sha),href=sourceUrl(item.source).replace('/blob/main/',`/blob/${sha}/`);assert.ok(html.includes(`href="${escapeHTML(href)}" target="_blank" rel="noopener noreferrer">Read the evidence <span class="arrow-icon" aria-hidden="true"></span>`));assert.match(html,/Close criterion details and return to Native original-game boot/);});
+
+
+test('player entrance states availability before the roadmap without offering a playable download',()=>{
+  const html=renderShell(data,state,route('overview'));
+  const entrance=html.slice(html.indexOf('<section class="welcome"'),html.indexOf('<header class="page-top heatmap-mast"'));
+  assert.match(entrance,/<h1 id="page-title" tabindex="-1">/);
+  assert.match(entrance,/independent native Windows x64 Mega Man Legends 1 experience/);
+  assert.match(entrance,/<strong>No public playable build or download yet\.<\/strong>/);
+  assert.match(entrance,/Native game boot is not established/);
+  assert.match(html,/Evidence review dates record when the cited evidence was reviewed/);
+  assert.doesNotMatch(html,/Evidence review dates record a human review/);
+  assert.doesNotMatch(entrance,/<a[^>]+href="[^" ]*(?:releases|download|\.exe|\.zip)/i);
+});
+test('player exploration links preserve roadmap routing and pin research/documentation to the site snapshot',()=>{
+  const revision='b'.repeat(40),html=renderShell(data,state,route('overview'),false,revision);
+  const links=html.match(/<nav class="explore-links"[^>]*>([\s\S]*?)<\/nav>/)?.[1]??'';
+  assert.match(links,/<a href="#roadmap"><strong>Follow the roadmap<\/strong>/);
+  for(const [path,label] of [['research/README.md','Explore the research'],['docs/README.md','Read the documentation']]){
+    assert.ok(links.includes(`href="https://github.com/raiinman/Rock-Man-x64/blob/${revision}/${path}"><strong>${label}</strong>`));
+  }
+  assert.equal((links.match(/<a /g)||[]).length,3);
+});
+test('overview percentage has its game-completion qualifier beside the number across filters and future counts',()=>{
+  for(const changed of [false,true]){
+    const fixture=copy(data),roadmap=checklistById(fixture,'roadmap');
+    if(changed)roadmap.items.find(i=>!i.done).done=true;
+    const n=counts(roadmap);
+    for(const query of ['overview','overview?status=accepted','overview?q=no-matches']){
+      const html=renderShell(fixture,state,route(query));
+      assert.ok(html.includes(`<span>${n.percent}%<small class="milestone-qualifier">of named milestones; not game completion</small></span>`));
+      assert.ok(html.includes(`${n.accepted} / ${n.total}`));
+    }
+  }
+});
+test('all routes describe recorded evidence without asserting global worker inactivity',()=>{
+  for(const page of ['overview','roadmap','workstreams','findings','history']){
+    const html=renderShell(data,state,route(page));
+    assert.match(html,/This page displays recorded evidence, not live worker activity\./);
+    assert.doesNotMatch(html,/No agents or tasks are running here/);
+  }
+});

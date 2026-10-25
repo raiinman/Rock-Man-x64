@@ -1,12 +1,12 @@
-# Spec adoption tasks
+# Specification planning tasks
 
 ## Purpose
 
-Track the bounded initial spec-driven-development adoption without replacing ongoing native/research work or the canonical acceptance tracker.
+Own specification planning records without replacing ongoing native/research work or the canonical acceptance tracker.
 
 ## Ownership
 
-`plan.md` owns the adoption sequence and checkpoints. `todo.md` records only that plan's execution state. Root capability/spec files own the adoption contract; existing domain owners retain implementation and evidence acceptance.
+`plan.md` and `todo.md` retain the initial adoption sequence and execution state verbatim. `spec-implementation/` owns the separately requested specifications-derived implementation breakdown. Root capability/spec files own the shared contract; existing domain owners retain implementation and evidence acceptance.
 
 ## Local Contracts
 
@@ -20,8 +20,8 @@ Use dependency-ordered vertical checkpoints with observable completion evidence.
 
 ## Verification
 
-Check links, checkbox truthfulness, exact changed paths, whitespace and the public documentation commands in `../SPEC.md`. No native execution is required for this adoption.
+Check links, checkbox truthfulness, exact changed paths, whitespace and the public documentation commands in `../SPEC.md`. No native execution is required to validate planning documents.
 
 ## Child DOX Index
 
-None.
+- [spec-implementation/AGENTS.md](spec-implementation/AGENTS.md) owns the separate specifications-derived plan and task list.

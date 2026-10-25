@@ -76,6 +76,8 @@ Default section order:
 
 ## User Preferences
 
+- The public README and Pages entrance serve players first: explain the project, honest playability/download availability and useful exploration paths before technical evidence. Use clearly labeled original ImageGen concept artwork as documentation illustration, never game output; keep the reviewed Pages artifact boundary unchanged.
+
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
 
 - The owner's requested next worker configuration is **GPT Sol6.1 (`gpt-6.1-sol`), Medium reasoning** for every non-primary agent and subagent; the primary assistant is excluded. Let current workers finish, preserve their source/test state and notify the owner when they are all clear before starting another worker wave. Do not claim running agents were reconfigured by this documentation change. Respect higher-priority host/model constraints and report an unavailable configuration rather than silently substituting another model or reasoning level.
@@ -111,7 +113,7 @@ When the user requests a durable behavior change, record it here or in the relev
 
 - Use the owner-selected spec-driven-development sequence: scope check when needed, Specify, Plan, Tasks, Implement. [CAPABILITIES.md](CAPABILITIES.md) is the stable capability/dependency index; [SPEC.md](SPEC.md) and root `SPEC-<id>.md` files extend the existing technical/research contracts rather than duplicate or replace them.
 - Record assumptions before spec content, resolve consequential scope/interface/provenance gaps before dependent work, and update the owning specification before a behavior change. Provider-owned boundaries distinguish runtime dependencies from product acceptance, research prerequisites and reporting. Existing settled authority carries forward; a new spec grants no new execution or publication authority.
-- Preserve incomplete plans and task history. `tasks/plan.md` and `tasks/todo.md` cover initial adoption only; existing native/research owners retain their plans and source ownership. Use the smallest complete vertical slice, genuine behavior-specific RED/GREEN or refactor characterization, meaningful regression and the shared definition of done for later authorized implementation.
+- Preserve incomplete plans and task history. `tasks/plan.md` and `tasks/todo.md` retain initial adoption only; [tasks/spec-implementation/plan.md](tasks/spec-implementation/plan.md) and [tasks/spec-implementation/todo.md](tasks/spec-implementation/todo.md) hold the separate adopted-spec breakdown without replacing existing owners or acceptance. Existing native/research owners retain their plans and source ownership. Use the smallest complete vertical slice, genuine behavior-specific RED/GREEN or refactor characterization, meaningful regression and the shared definition of done for later authorized implementation.
 - The living tracker remains the only acceptance authority. Specifications do not change criteria or acceptance by themselves. Keep private source commands, structure and examples in a private companion or explicitly record the public reproducibility limit; never invent commands or publish private implementation to fill a template.
 
 ## Child DOX Index
@@ -119,7 +121,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - [`.github/AGENTS.md`](.github/AGENTS.md) owns the approved documentation updater and chained public-tracker Pages build/deployment, with separated permissions.
 - [`research/AGENTS.md`](research/AGENTS.md) owns the PS1 research library, source catalogs, search records, and handoff guidance.
 - [`docs/AGENTS.md`](docs/AGENTS.md) owns the project documentation index and delegates history, technical architecture, and current status and the read-only documentation UI to its child contracts.
-- [`tasks/AGENTS.md`](tasks/AGENTS.md) owns the bounded spec-adoption plan and execution list, not native capability acceptance or existing private work plans.
+- [`tasks/AGENTS.md`](tasks/AGENTS.md) owns preserved adoption records plus the specifications-derived planning subtree, not native capability acceptance or existing private work plans.
 - The root also owns `CAPABILITIES.md`, `SPEC.md` and `SPEC-<id>.md`: shared adoption rules and thin capability specifications linking existing domain contracts.
 - The root owns `README.md`, `AGENTS.md`, `DOX-LICENSE`, and `DOT.md`, the public-safe research/native coordination entry point. `DOT.md` must lead with the owner-selected active source handoff, including source-ready, exact missing-function or named access/authority-blocker outcomes; retain superseded requests as history rather than treating an hourly status review as an answer.
 

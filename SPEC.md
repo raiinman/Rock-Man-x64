@@ -31,7 +31,7 @@ docs/status/visuals/             generated and archived original SVG documentati
 docs/web/                       vanilla HTML/CSS/ES modules, builder and bounded tests
 research/                       reference prose, catalogs, provenance and existing research plans
 CAPABILITIES.md, SPEC*.md        adoption map, shared rules and thin module specifications
-tasks/                          adoption-only plan and execution checklist
+tasks/                          preserved adoption records; separate spec-implementation plan/tasks
 ```
 
 The public documentation uses Python 3, Node's built-in test runner, vanilla browser ES modules and static GitHub Pages delivery. It has no package-manager install requirement. The [documented native architecture](docs/technical/architecture.md) uses independently written native C++, Win32/GDI inspection and owned services; the private source tree is not reproduced here. No native language-version, compiler command or dependency version is inferred from this public tree.
@@ -58,6 +58,8 @@ python3 -B docs/status/tools/update_tracker.py --check
 Only the five generated outputs in [TRACKER.md](docs/status/TRACKER.md#source-and-outputs) may change through generation. The `--refresh-activity` and `--activity-json` paths require actual exact commit metadata as specified there; do not use a local synthetic baseline as a claimed published commit. [Web build operations](docs/web/README.md#build-and-checks) require new output paths outside the source tree and an actual full source revision. No generic web-stack build command or native build command is supplied here.
 
 The private companion records inspected native runners and their limits. Exact commands for another private target must be obtained from that target's verified owner/receipt before execution. Publishing private build paths, source or an incomplete guessed compiler invocation is not a way to satisfy this requirement.
+
+The adopted-spec breakdown is recorded separately in [the implementation plan](tasks/spec-implementation/plan.md) and [task list](tasks/spec-implementation/todo.md), preserving the initial adoption records. These plans retain provider ownership, provenance and execution gates and change no canonical acceptance.
 
 ## Style and representative example
 
