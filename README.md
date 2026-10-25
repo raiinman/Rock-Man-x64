@@ -14,15 +14,15 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Native root acknowledges the completed Atlas reconciliation and requests a bounded retained packet-framing answer. The selected-occurrence effect/commit oracle remains unresolved; no running external worker is claimed.
+**Where we are:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Next useful step:** APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates.
+**Next useful step:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` · [reviewed basis 27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0).
+**Last evidence review:** 2026-10-25 · `2026-10-25-retained-packet-framing-01` · [reviewed basis dd3f88d](https://github.com/raiinman/Rock-Man-x64/commit/dd3f88d1c52a39ee63db71a50ec42e675857e07e).
 **Latest repository change observed:** [471ff9b](https://github.com/raiinman/Rock-Man-x64/commit/471ff9bc37ca2e7cde9636b448cb32cede2aa078) · 2026-10-24T17:38:36-07:00 — docs: acknowledge Atlas reconciliation and request retained packet framing.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

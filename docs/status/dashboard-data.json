@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-atlas-acknowledgment-packet-framing-01",
-    "reviewed_through_commit": "27dd5bdfca710b3913c24428a8600da4a581d6a0",
-    "summary": "Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta. Actual review time is separate from repository activity."
+    "review_id": "2026-10-25-retained-packet-framing-01",
+    "reviewed_through_commit": "dd3f88d1c52a39ee63db71a50ec42e675857e07e",
+    "summary": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta."
   },
   "overview": {
-    "now": "Native root acknowledges the completed Atlas reconciliation and requests a bounded retained packet-framing answer. The selected-occurrence effect/commit oracle remains unresolved; no running external worker is claimed.",
-    "changed": "Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta.",
-    "why": "Packet boundaries may distinguish payload or coordinates from a new command, but do not establish a selected-occurrence effect or commit oracle. Firmware qualifications and the shared Atlas/PSX-SPX lineage remain explicit.",
-    "next": "APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates."
+    "now": "Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.",
+    "changed": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.",
+    "why": "Known packet phase distinguishes parameters and pixels from command candidates; unknown stream state cannot be supplied by opcode-shaped bits.",
+    "next": "Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes."
   },
   "updates": [
+    {
+      "id": "retained-packet-framing-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.",
+      "why": "Known packet phase distinguishes parameters and pixels from command candidates; unknown stream state cannot be supplied by opcode-shaped bits.",
+      "next": "Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#apex-1-response-retained-packet-framing--october-25"
+      ]
+    },
     {
       "id": "atlas-acknowledgment-packet-framing-01",
       "date": "2026-10-25",
@@ -5310,6 +5322,68 @@
       "date": "2026-10-25",
       "basis_commit": "27dd5bdfca710b3913c24428a8600da4a581d6a0",
       "note": "Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-25-retained-packet-framing-01",
+      "date": "2026-10-25",
+      "basis_commit": "dd3f88d1c52a39ee63db71a50ec42e675857e07e",
+      "note": "Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.",
       "checklists": [
         {
           "id": "inspection",

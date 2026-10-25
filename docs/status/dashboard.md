@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` · [reviewed basis 27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0).
+**Last evidence review:** 2026-10-25 · `2026-10-25-retained-packet-framing-01` · [reviewed basis dd3f88d](https://github.com/raiinman/Rock-Man-x64/commit/dd3f88d1c52a39ee63db71a50ec42e675857e07e).
 **Latest repository change observed:** [471ff9b](https://github.com/raiinman/Rock-Man-x64/commit/471ff9bc37ca2e7cde9636b448cb32cede2aa078) · 2026-10-24T17:38:36-07:00 — docs: acknowledge Atlas reconciliation and request retained packet framing.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -494,17 +494,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
 | 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
 | 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
 
 
 ## Current explanation
 
-**Now:** Native root acknowledges the completed Atlas reconciliation and requests a bounded retained packet-framing answer. The selected-occurrence effect/commit oracle remains unresolved; no running external worker is claimed.
+**Now:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Changed:** Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta.
+**Changed:** Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.
 
-**Why:** Packet boundaries may distinguish payload or coordinates from a new command, but do not establish a selected-occurrence effect or commit oracle. Firmware qualifications and the shared Atlas/PSX-SPX lineage remain explicit.
+**Why:** Known packet phase distinguishes parameters and pixels from command candidates; unknown stream state cannot be supplied by opcode-shaped bits.
 
-**Next:** APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates.
+**Next:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

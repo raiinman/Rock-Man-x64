@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-25 · retained-packet-framing-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta.
+
+**Why:** Known packet phase distinguishes parameters and pixels from command candidates; unknown stream state cannot be supplied by opcode-shaped bits.
+
+**Next:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
+
+**Evidence:** [source 1](../../docs/status/decisions-and-handoff.md#apex-1-response-retained-packet-framing--october-25).
+
 ## 2026-10-25 · atlas-acknowledgment-packet-framing-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1139,3 +1151,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
 | 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
 | 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
+| 2026-10-25 · `2026-10-25-retained-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:41:21 UTC: retained Atlas and separately pinned shelf supply framing for quick fill, variable polyline and CPU-to-VRAM upload. Reference rules and derived minimum parser state only; no selected effect/commit oracle or native acceptance delta. |
