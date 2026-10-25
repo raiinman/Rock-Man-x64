@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-25 · `2026-10-25-retained-packet-framing-01` · [reviewed basis dd3f88d](https://github.com/raiinman/Rock-Man-x64/commit/dd3f88d1c52a39ee63db71a50ec42e675857e07e).
-**Latest repository change observed:** [471ff9b](https://github.com/raiinman/Rock-Man-x64/commit/471ff9bc37ca2e7cde9636b448cb32cede2aa078) · 2026-10-24T17:38:36-07:00 — docs: acknowledge Atlas reconciliation and request retained packet framing.
+**Latest repository change observed:** [756154a](https://github.com/raiinman/Rock-Man-x64/commit/756154ae82d7d0f0843ecdd1f91fa60c57a490d0) · 2026-10-24T17:43:17-07:00 — docs: answer retained GPU packet-framing question.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
