@@ -1,10 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "f4f71d52413eb150f097cdaa5afd37045e044f82",
-    "committed_at": "2026-10-25T09:57:38Z",
-    "subject": "docs: refresh generated progress tracker",
-    "source": "Exact public GitHub connector commit metadata; no capability inference"
+    "sha": "05e77f3330a6077bc8659a73e557a985d8722532",
+    "committed_at": "2026-10-25T03:43:49-07:00",
+    "subject": "docs: adopt capability specs and future worker model policy",
+    "source": "Exact local Git commit metadata; no prose-based capability inference",
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "b0675dab7cb450b6eda293f8ab6b51ea50e60077718572859079cc2b18e14feb",

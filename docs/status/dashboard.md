@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-25 · `2026-10-25-spec-adoption-01` · [reviewed basis f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82).
-**Latest repository change observed:** [f4f71d5](https://github.com/raiinman/Rock-Man-x64/commit/f4f71d52413eb150f097cdaa5afd37045e044f82) · 2026-10-25T09:57:38Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [05e77f3](https://github.com/raiinman/Rock-Man-x64/commit/05e77f3330a6077bc8659a73e557a985d8722532) · 2026-10-25T03:43:49-07:00 — docs: adopt capability specs and future worker model policy.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
