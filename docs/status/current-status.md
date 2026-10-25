@@ -2,12 +2,24 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
+**Latest source/component checkpoint: 2026-10-25.** The reported byte-page display-state successor below has bounded Linux/component evidence; no full current-program build or Windows validation is established for it.
 
-The October 25 Windows validation entries below are separate from the October 24 source implementation checkpoint.
+**Earlier source implementation checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
+
+The October 25 Linux/component successor and Windows validation entries below retain separate scopes from that earlier source checkpoint.
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
+
+## Byte-page display-state guard — October 25
+
+A separately reported Linux/component successor checks the byte-page text-display result before committing page/file identity. On display failure, Find, Next and Previous retain their matched-page cursors and report the display state as unconfirmed. This does not claim that already rendered text was rolled back. Successful reset retains correct preview ownership. Only one production function changed; the retained baselines and failures remain preserved.
+
+The genuine baseline failed 39 of 106 intended assertions. The final changed-path checks passed 106 display assertions, 212 highlight assertions and 181 Previous assertions in each of optimized and ASan/UBSan configurations. Independent review passed 54 assertions in each configuration, killed six behavioral mutants and reported no blocking finding. The two configurations total **1,106 assertion executions, not 1,106 distinct tests**; the mutant results are reported separately. The intermediate preview-path regression and superseded expectation correction remain part of the retained history rather than being erased by the passing successor.
+
+The full historical unchanged-region compatibility regression exited 0. This is explicitly **not a full current-program build**. No Windows build, display or pixel evidence is established for this successor; no PC input or game execution occurred in this result. Earlier bounded Windows checks retain their separate scopes. Complete IDE acceptance, native boot, implementation-provenance, S2 and initializer gates do not advance, and no broader task is completed by this record.
+
+Windows validation remains pending under the applicable bounded procedure and current owner availability; no current UI execution is claimed. Private implementation, identities, captures and packages remain excluded. The underlying private results are not independently reproducible from this documentation-only repository.
 
 ## Sequential synthetic-directory reload check — October 25
 

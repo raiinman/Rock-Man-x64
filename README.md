@@ -25,15 +25,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.
+**Where we are:** A bounded Linux/component display-state guard passed reported checks; the earlier Windows interaction/reload checks retain their separate scopes. Native game boot and the complete IDE remain unestablished.
 
-**Next useful step:** Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
+**Next useful step:** Windows validation remains pending under the applicable bounded procedure and current owner availability; no current UI execution is claimed. Preserve existing native ownership, provenance, S2 and initializer gates and continue independent authorized source work.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-1725` · [reviewed basis 85ece65](https://github.com/raiinman/Rock-Man-x64/commit/85ece65632831a82ac9d55b6c0b0b9cdeda057db).
+**Last evidence review:** 2026-10-25 · `2026-10-25-inspector-display-guard-01` · [reviewed basis 93a4fe7](https://github.com/raiinman/Rock-Man-x64/commit/93a4fe7918ad404f93f1065a5343187377510bc9).
 **Latest repository change observed:** [837d821](https://github.com/raiinman/Rock-Man-x64/commit/837d8215a88ad802face4999f3a3b9e822b4ebbe) · 2026-10-25T10:29:43-07:00 — docs: record zero-delta review of both progress maps.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

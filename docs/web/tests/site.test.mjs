@@ -195,3 +195,16 @@ test('build-plan records reject external definition sources and mismatched revie
     const d=buildPlanFixture();change(d);assert.throws(()=>validateData(d,state),/build.plan|plan|date/i);
   }
 });
+
+test('build-plan keeps Linux/component and Windows build checks separately scoped',()=>{
+  const d=buildPlanFixture();d.updates.unshift({id:'fixture-linux-display',kind:'synthetic-linux',date:'2026-10-25',capability_changed:false,changed:'Linux/component display-state assertions passed.',why:'No Windows display or full current-program build.',next:'Future owner-permitted validation only.',evidence:['docs/status/current-status.md']});
+  d.build_plan.checks.push({id:'fixture-linux',label:'Linux/component byte-page guard',state:'tested',update_id:'fixture-linux-display',limit:'Assertion executions, not distinct tests; no Windows pixel proof.'});
+  validateData(d,state);const html=renderShell(d,state,route('build-plan'));
+  assert.match(html,/Each result below covers only its stated platform and scope/);
+  assert.match(html,/Synthetic fixture display and normal close passed/);
+  assert.match(html,/Linux\/component display-state assertions passed/);
+  assert.match(html,/No Windows display or full current-program build/);
+  assert.match(html,/Assertion executions, not distinct tests/);
+  assert.equal((html.match(/class="plain-panel build-check"/g)||[]).length,2);
+  assert.equal(d.build_plan.tasks[0].state,'planned');
+});
