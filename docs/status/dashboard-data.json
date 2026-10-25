@@ -408,17 +408,33 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-build-plan-hourly-policy-01",
-    "reviewed_through_commit": "4c8911290482eb03075a9a8de75b6c48686ce241",
-    "summary": "Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling."
+    "review_id": "2026-10-25-hourly-both-maps-1725",
+    "reviewed_through_commit": "85ece65632831a82ac9d55b6c0b0b9cdeda057db",
+    "summary": "Reviewed at 2026-10-25 17:25:03 UTC against the current public head and saved canonical evidence: historical acceptance remains unchanged; the build/spec map retains 30 planned tasks and two separately bounded tested Windows records. Task dependencies, evidence scopes, blockers and next tasks are unchanged. The previous publication workflow succeeded. This is a saved-evidence review, not new native/research execution or acceptance; documentation browser inspection remains unverified."
   },
   "overview": {
     "now": "Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.",
-    "changed": "Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling.",
-    "why": "Keep the new map current in hourly reports without treating plan checkboxes, repository activity or elapsed time as completion.",
+    "changed": "Reviewed at 2026-10-25 17:25:03 UTC against the current public head and saved canonical evidence: historical acceptance remains unchanged; the build/spec map retains 30 planned tasks and two separately bounded tested Windows records. Task dependencies, evidence scopes, blockers and next tasks are unchanged. The previous publication workflow succeeded. This is a saved-evidence review, not new native/research execution or acceptance; documentation browser inspection remains unverified.",
+    "why": "Keep both hourly-reviewed maps current while distinguishing an honest zero-delta evidence review from repository activity, task completion and new execution.",
     "next": "Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "hourly-both-maps-1725",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 17:25:03 UTC against the current public head and saved canonical evidence: historical acceptance remains unchanged; the build/spec map retains 30 planned tasks and two separately bounded tested Windows records. Task dependencies, evidence scopes, blockers and next tasks are unchanged. The previous publication workflow succeeded. This is a saved-evidence review, not new native/research execution or acceptance; documentation browser inspection remains unverified.",
+      "why": "Keep both hourly-reviewed maps current while distinguishing an honest zero-delta evidence review from repository activity, task completion and new execution.",
+      "next": "Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.",
+      "evidence": [
+        "docs/status/TRACKER.md#separate-build-and-specification-plan-map",
+        "tasks/spec-implementation/todo.md",
+        "docs/status/current-status.md#synthetic-nonempty-directory-inspector-smoke-check--october-25",
+        "docs/status/current-status.md#sequential-synthetic-directory-reload-check--october-25",
+        "https://github.com/raiinman/Rock-Man-x64/actions/runs/40213889294"
+      ]
+    },
     {
       "id": "build-plan-hourly-policy-01",
       "date": "2026-10-25",
@@ -5933,11 +5949,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-25-hourly-both-maps-1725",
+      "date": "2026-10-25",
+      "basis_commit": "85ece65632831a82ac9d55b6c0b0b9cdeda057db",
+      "note": "Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-25 16:51:57 UTC",
+    "reviewed_at": "2026-10-25 17:25:03 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {

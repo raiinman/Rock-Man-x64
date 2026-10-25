@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` · [reviewed basis 4c89112](https://github.com/raiinman/Rock-Man-x64/commit/4c8911290482eb03075a9a8de75b6c48686ce241).
+**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-1725` · [reviewed basis 85ece65](https://github.com/raiinman/Rock-Man-x64/commit/85ece65632831a82ac9d55b6c0b0b9cdeda057db).
 **Latest repository change observed:** [32d7784](https://github.com/raiinman/Rock-Man-x64/commit/32d77841abcdc403ae791bab874931225101d68f) · 2026-10-25T09:53:57-07:00 — docs: include build plan heatmap in hourly reviews.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -536,13 +536,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
 | 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
 | 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 16:51:57 UTC: hourly coverage policy and actual build/spec-map review only. All 30 task states/dependencies, two bounded build records, historical criteria, accepted sets, validation records and earlier observations remain unchanged. Zero native capability, stage or checklist acceptance delta; no new execution or schedule. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-1725` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-1725` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-1725` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-1725` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-1725` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-1725` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 17:25:03 UTC: current public head/contracts and saved evidence checked for both maps. Historical criteria, accepted sets, stages and validation records are unchanged; 30 tasks remain planned and two bounded Windows checks retain their earlier tested scopes. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new native/research test or browser inspection. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-25 16:51:57 UTC.
+**Map reviewed:** 2026-10-25 17:25:03 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -603,9 +609,9 @@ Only the tested sequential loading and selection/display flow. Concurrent or int
 
 **Now:** Bounded Windows synthetic Inspector interaction and sequential reload passed; native game boot and the complete IDE remain unestablished.
 
-**Changed:** Reviewed at 2026-10-25 16:51:57 UTC: added the build/spec-plan map to the existing hourly documentation-review contract. Checked canonical task states/dependencies, the two bounded Windows evidence records, blockers and next tasks separately from historical acceptance. No task state, criterion, acceptance or native behavior changed; the existing cadence owns scheduling.
+**Changed:** Reviewed at 2026-10-25 17:25:03 UTC against the current public head and saved canonical evidence: historical acceptance remains unchanged; the build/spec map retains 30 planned tasks and two separately bounded tested Windows records. Task dependencies, evidence scopes, blockers and next tasks are unchanged. The previous publication workflow succeeded. This is a saved-evidence review, not new native/research execution or acceptance; documentation browser inspection remains unverified.
 
-**Why:** Keep the new map current in hourly reports without treating plan checkboxes, repository activity or elapsed time as completion.
+**Why:** Keep both hourly-reviewed maps current while distinguishing an honest zero-delta evidence review from repository activity, task completion and new execution.
 
 **Next:** Select a distinct remaining inspection workflow with its existing owner. Native root retains workload/effect/commit selection and patch ownership; provenance, initializer and S2 gates remain unchanged.
 

@@ -33,7 +33,7 @@ The goal includes a native game and editor. Documentation, research results and 
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-build-plan-hourly-policy-01` · [reviewed basis 4c89112](https://github.com/raiinman/Rock-Man-x64/commit/4c8911290482eb03075a9a8de75b6c48686ce241).
+**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-1725` · [reviewed basis 85ece65](https://github.com/raiinman/Rock-Man-x64/commit/85ece65632831a82ac9d55b6c0b0b9cdeda057db).
 **Latest repository change observed:** [32d7784](https://github.com/raiinman/Rock-Man-x64/commit/32d77841abcdc403ae791bab874931225101d68f) · 2026-10-25T09:53:57-07:00 — docs: include build plan heatmap in hourly reviews.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
