@@ -1,15 +1,13 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "c13883c2b3fe62d9807bc731198d796ddda7f1d9",
-    "committed_at": "2026-10-24T19:22:52-07:00",
-    "subject": "docs: clarify bounded existing-tunnel recovery policy",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "efae53cd9b48870e9ec146dd2764a03252904c43",
+    "committed_at": "2026-10-25T02:23:12Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact public GitHub connector commit metadata; no capability inference"
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "4a34f078b231c701ea224e7d2417d5d9362418d37674cd55cb3fd5c3873cef21",
+  "evidence_data_sha256": "92da124a170bf0ed6ba174e509ed09d063b9d79998acc13c4efa8327aaabc721",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +15,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "e2faee6662e510a9958f9c088102d62b3d58096b15c5597f40cec5844a9f82b1",
-  "evidence_review_id": "2026-10-25-bounded-existing-tunnel-policy-01",
+  "reviewed_stage_sha256": "6a851259e7646b6bb4ea94a1d000493f0c3c057d4bbe6eae7a6e3a539714708c",
+  "evidence_review_id": "2026-10-25-documentation-housekeeping-01",
   "evidence_review_date": "2026-10-25",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -106,6 +104,7 @@
     "fe7f2f2aa99c45d0119e76cc7634278111bc3011a4e67b7ef5d0c8f3d4e254f8",
     "f484df5293b759355d62a13e21c4b4bde766fcf364f72ad8c1a35613dfeb4f01",
     "179d1c8dcdd24b9908498d3f3797b84d3f88721812cfce682593dc17fbe616e3",
-    "b34d54a744947dcf111348a4e2a9cfe6f419d0a078c60d9a4606881754037b02"
+    "b34d54a744947dcf111348a4e2a9cfe6f419d0a078c60d9a4606881754037b02",
+    "4108a175d76b815a1e1ab601b4ca060c5c29767b695eb63d62b4c69a3babfb0c"
   ]
 }

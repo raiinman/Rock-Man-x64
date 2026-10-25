@@ -408,17 +408,35 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-bounded-existing-tunnel-policy-01",
-    "reviewed_through_commit": "07079891a01cfec4caef110f41a14009cda0efbe",
-    "summary": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged."
+    "review_id": "2026-10-25-documentation-housekeeping-01",
+    "reviewed_through_commit": "efae53cd9b48870e9ec146dd2764a03252904c43",
+    "summary": "Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance."
   },
   "overview": {
     "now": "Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.",
-    "changed": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged.",
-    "why": "Keep the recovery scope explicit without treating tunnel connectivity as Windows UI support, native game boot or stopped-host wake evidence.",
+    "changed": "Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance.",
+    "why": "Prevent earlier requests and checkpoints from appearing current, while preserving their dated evidence, failures, ownership and unresolved gates.",
     "next": "Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes."
   },
   "updates": [
+    {
+      "id": "documentation-housekeeping-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance.",
+      "why": "Prevent earlier requests and checkpoints from appearing current, while preserving their dated evidence, failures, ownership and unresolved gates.",
+      "next": "Use the documentation guide and canonical tracker for current navigation; keep any later APEX coordination response separate. Native root retains the unresolved workload/effect/commit review and patch ownership; no gate or acceptance change.",
+      "evidence": [
+        "README.md#follow-the-evidence",
+        "docs/README.md#reading-paths",
+        "docs/history/README.md",
+        "docs/history/milestones.md",
+        "docs/history/AGENTS.md",
+        "docs/status/current-status.md",
+        "DOT.md#current-disposition-of-the-earlier-request"
+      ]
+    },
     {
       "id": "bounded-existing-tunnel-policy-01",
       "date": "2026-10-25",
@@ -5458,6 +5476,68 @@
       "date": "2026-10-25",
       "basis_commit": "07079891a01cfec4caef110f41a14009cda0efbe",
       "note": "Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-25-documentation-housekeeping-01",
+      "date": "2026-10-25",
+      "basis_commit": "efae53cd9b48870e9ec146dd2764a03252904c43",
+      "note": "Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response.",
       "checklists": [
         {
           "id": "inspection",

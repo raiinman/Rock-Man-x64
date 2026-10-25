@@ -1,25 +1,27 @@
 # Project documentation
 
-This is the public, sanitized record of Rock Man x64 from its initial goal through resumed development on **2026-10-22**, following the documentation pause. It documents a private prototype and its limits; it does not distribute that prototype or supply a reproducible game build.
+This is the public, sanitized record of Rock Man x64: its initial goal, documentation pause, resumed development, and later dated research, validation and coordination records. It documents a private prototype and its limits; it does not distribute that prototype or supply a reproducible game build.
 
 ## Reading paths
 
 | Question | Start here |
 |---|---|
-| Where are we, visually, and what did we learn? | [Living tracker and findings ledger](status/dashboard.md) |
+| What is the latest reviewed project status? | [Interactive tracker](https://raiinman.github.io/Rock-Man-x64/) · [Living tracker and findings ledger](status/dashboard.md) |
+| Which public request is current, and what has already been answered? | [Coordination entry point](../DOT.md) · [Dated decisions and handoff](status/decisions-and-handoff.md) |
 | How did the project begin, and how did the plan change? | [History](history/README.md) |
 | What was investigated or implemented, and how do the pieces relate? | [Technical documentation](technical/architecture.md) |
-| What actually passed, what is pending, and what is the next boundary? | [Current status](status/current-status.md) |
+| Which implementation checkpoints passed, and what remains unaccepted? | [Dated implementation checkpoints and acceptance limits](status/current-status.md) |
 | Which PS1 references were found, and what are their provenance limits? | [Research library](../research/README.md) |
 | How should these documents be maintained? | [Documentation contract](AGENTS.md) and [root contract](../AGENTS.md) |
 
-Read history first for chronology, technical pages for mechanisms, and status last for the exact current boundary. Historical counts belong to their dated stage and must not be substituted for the latest validation result.
+Start with the reviewed tracker for the latest project-wide summary, then the dated handoff for public coordination. Use implementation checkpoints for their stated acceptance limits, history for chronology and technical pages for mechanisms. A later coordination review is not a new implementation test. Historical counts belong to their dated stage and must not be substituted for a later validation result.
 
 ## Detailed map
 
 - **History:** [milestone ledger](history/milestones.md), [decisions and recoveries](history/decisions-and-recoveries.md), [validation history](history/validation-history.md).
 - **Technical:** [architecture](technical/architecture.md), [capability matrix](technical/capability-matrix.md), [native service contracts](technical/native-service-contracts.md).
 - **Tracker upkeep:** [team completion contract](status/TRACKER.md), [plain-English change ledger](status/changes.md).
+- **Interactive tracker:** [reading guide](web/README.md), [deployment and revision-verification guide](web/DEPLOYMENT.md).
 - **Status:** [living tracker and findings ledger](status/dashboard.md), [current checkpoint](status/current-status.md), [validation and provenance](status/validation.md), [decisions and handoff](status/decisions-and-handoff.md).
 
 ## Evidence vocabulary

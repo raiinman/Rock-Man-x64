@@ -1,6 +1,6 @@
 # Chronological milestone ledger
 
-All entries belong to the project history available on **2026-10-22**. Unless an exact UTC time appears, an entry is sequence/date-only. Related research and validation proceeded in parallel.
+The initial sequence is dated **2026-10-22**; subsequent sections retain their later checkpoint dates. Unless an exact UTC time appears, an entry is sequence/date-only. Related research and validation proceeded in parallel. This chronological ledger preserves what was known at each stage; the [living tracker](../status/dashboard.md) owns the latest reviewed project summary.
 
 ## 0. Initial comparison and explicit change of direction
 

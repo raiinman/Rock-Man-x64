@@ -1,6 +1,6 @@
 # Project history
 
-**Coverage:** the original project request through the documentation pause on **2026-10-22 at 21:37:34 UTC**, with the already-running validation drain recorded at **21:39:13 UTC**. This is a retrospective reconstructed from retained project records, validation reports and the project conversation—not a contemporaneous public commit history.
+**Coverage:** the initial project record through the documentation pause on **2026-10-22 at 21:37:34 UTC**, the already-running validation drain at **21:39:13 UTC**, and the later dated resumed-development checkpoints below. This is a retrospective reconstructed from retained project records, validation reports and the project conversation—not a contemporaneous public commit history. For the latest reviewed project summary and coordination, use the [living tracker](../status/dashboard.md) and [dated handoff](../status/decisions-and-handoff.md).
 
 - [Chronological milestone ledger](milestones.md): the work from source acquisition to the latest candidate.
 - [Decisions, failures and recoveries](decisions-and-recoveries.md): what changed, what failed, and what remains unresolved.

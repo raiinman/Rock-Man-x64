@@ -1,5 +1,9 @@
 # DOT: research handoff and work request
 
+## Current disposition of the earlier request
+
+The [sanitized missing-function answer](docs/status/decisions-and-handoff.md#native-response-sanitized-missing-function-answer--october-24) was [publicly acknowledged](docs/status/decisions-and-handoff.md#native-response-sanitized-answer-receipt-confirmed--october-24). The earlier source-or-missing-function request below is retained for chronology; its missing-function outcome is no longer awaiting a response. That answer does not establish an implemented adapter or an accepted workload/effect contract. For subsequent public coordination and remaining decisions, continue to the [later dated handoff](docs/status/decisions-and-handoff.md#apex-1-response-retained-packet-framing--october-25).
+
 **For DOT / native development. Status: generic owner/completion candidate built and Windows synthetic-tested; native adapter and real GPU completion producer remain unbound.**
 
 ## Required next response: actual adapter source or exact missing function

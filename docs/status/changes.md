@@ -4,6 +4,18 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-25 · documentation-housekeeping-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance.
+
+**Why:** Prevent earlier requests and checkpoints from appearing current, while preserving their dated evidence, failures, ownership and unresolved gates.
+
+**Next:** Use the documentation guide and canonical tracker for current navigation; keep any later APEX coordination response separate. Native root retains the unresolved workload/effect/commit review and patch ownership; no gate or acceptance change.
+
+**Evidence:** [source 1](../../README.md#follow-the-evidence) · [source 2](../../docs/README.md#reading-paths) · [source 3](../../docs/history/README.md) · [source 4](../../docs/history/milestones.md) · [source 5](../../docs/history/AGENTS.md) · [source 6](../../docs/status/current-status.md) · [source 7](../../DOT.md#current-disposition-of-the-earlier-request).
+
 ## 2026-10-25 · bounded-existing-tunnel-policy-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1175,3 +1187,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
 | 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
 | 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |

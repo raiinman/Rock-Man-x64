@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` · [reviewed basis 0707989](https://github.com/raiinman/Rock-Man-x64/commit/07079891a01cfec4caef110f41a14009cda0efbe).
-**Latest repository change observed:** [c13883c](https://github.com/raiinman/Rock-Man-x64/commit/c13883c2b3fe62d9807bc731198d796ddda7f1d9) · 2026-10-24T19:22:52-07:00 — docs: clarify bounded existing-tunnel recovery policy.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-documentation-housekeeping-01` · [reviewed basis efae53c](https://github.com/raiinman/Rock-Man-x64/commit/efae53cd9b48870e9ec146dd2764a03252904c43).
+**Latest repository change observed:** [efae53c](https://github.com/raiinman/Rock-Man-x64/commit/efae53cd9b48870e9ec146dd2764a03252904c43) · 2026-10-25T02:23:12Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -506,15 +506,21 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
 | 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
 | 2026-10-25 · `2026-10-25-bounded-existing-tunnel-policy-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification only; no new execution, connectivity result or native acceptance. Zero delta for every checklist; all earlier observations, definitions, accepted IDs, validation records and blockers remain unchanged. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
+| 2026-10-25 · `2026-10-25-documentation-housekeeping-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 09:52:50 UTC: public navigation and historical-label correction only; zero capability, stage or checklist acceptance delta. All earlier observations, criteria, accepted IDs, validation records and blockers remain unchanged. No new native/research execution or public coordination response. |
 
 
 ## Current explanation
 
 **Now:** Retained packet-framing answer delivered for native review; workload/effect/commit contract remains open.
 
-**Changed:** Reviewed at 2026-10-25 02:18:33 UTC: owner-policy clarification permits only bounded recovery of the already approved existing tunnel after verified failure and identity. No recovery was executed, no new connectivity result was established, and native acceptance is unchanged.
+**Changed:** Reviewed at 2026-10-25 09:52:50 UTC: corrected public documentation reading paths and historical coverage labels, separated the dated implementation checkpoint from later coordination reviews, and linked the already-published missing-function answer and receipt. No new coordination response, implementation evidence or acceptance.
 
-**Why:** Keep the recovery scope explicit without treating tunnel connectivity as Windows UI support, native game boot or stopped-host wake evidence.
+**Why:** Prevent earlier requests and checkpoints from appearing current, while preserving their dated evidence, failures, ownership and unresolved gates.
 
 **Next:** Native root reviews the three bounded framing answers and retains workload/terminal-contract selection and patch ownership; no new collection or gate changes.
 

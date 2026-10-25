@@ -4,7 +4,7 @@ Scope: this `docs/history/` subtree only. Keep it a sanitized retrospective, not
 
 ## Index
 - `README.md`: scope, latest historical boundary and navigation.
-- `milestones.md`: beginning-to-pause chronological ledger.
+- `milestones.md`: chronological ledger of initial development, the pause and later dated milestones.
 - `decisions-and-recoveries.md`: errors, changed decisions, recoveries and unresolved limits.
 - `validation-history.md`: evidence classes, actual Windows progression and selected identities.
 
