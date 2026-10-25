@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "base_commit": "632a8f676f8099920a2e734fcd769882da717732",
   "scope": "Documentation-only evidence tracker, not game completion. Includes a separately accepted isolated host-side importer correction; no production integration credit.",
   "stages": [
@@ -407,18 +407,32 @@
   ],
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
-    "date": "2026-10-24",
-    "review_id": "2026-10-24-atlas-applicability-reconciliation-01",
-    "reviewed_through_commit": "0402ce4b609f9641dedbe749974aa4dfb069a3bb",
-    "summary": "Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance. Actual review time is separate from repository activity; zero native acceptance delta."
+    "date": "2026-10-25",
+    "review_id": "2026-10-25-atlas-acknowledgment-packet-framing-01",
+    "reviewed_through_commit": "27dd5bdfca710b3913c24428a8600da4a581d6a0",
+    "summary": "Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta. Actual review time is separate from repository activity."
   },
   "overview": {
-    "now": "Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.",
-    "changed": "Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance.",
-    "why": "Reference ordering and firmware-specific static findings must remain distinct from occurrence-bound effects and native policy; reference priority does not clear provenance.",
-    "next": "Native root evaluates the bounded reconciliation and retains patch ownership. Establish a permitted workload/effect/commit contract before the proposed native service implementation; no experiment or sampled-state substitution is implied."
+    "now": "Native root acknowledges the completed Atlas reconciliation and requests a bounded retained packet-framing answer. The selected-occurrence effect/commit oracle remains unresolved; no running external worker is claimed.",
+    "changed": "Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta.",
+    "why": "Packet boundaries may distinguish payload or coordinates from a new command, but do not establish a selected-occurrence effect or commit oracle. Firmware qualifications and the shared Atlas/PSX-SPX lineage remain explicit.",
+    "next": "APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates."
   },
   "updates": [
+    {
+      "id": "atlas-acknowledgment-packet-framing-01",
+      "date": "2026-10-25",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta.",
+      "why": "Packet boundaries may distinguish payload or coordinates from a new command, but do not establish a selected-occurrence effect or commit oracle. Firmware qualifications and the shared Atlas/PSX-SPX lineage remain explicit.",
+      "next": "APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#native-acknowledgment-and-retained-packet-framing-question--october-25",
+        "docs/status/decisions-and-handoff.md#apex-1-response-atlas-first-applicability-reconciliation--october-24",
+        "https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6387812053"
+      ]
+    },
     {
       "id": "atlas-applicability-reconciliation-01",
       "date": "2026-10-24",
@@ -5234,6 +5248,68 @@
       "date": "2026-10-24",
       "basis_commit": "0402ce4b609f9641dedbe749974aa4dfb069a3bb",
       "note": "Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance. All prior history including concurrent policy review and native definitions/states preserved; no acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
+    },
+    {
+      "review_id": "2026-10-25-atlas-acknowledgment-packet-framing-01",
+      "date": "2026-10-25",
+      "basis_commit": "27dd5bdfca710b3913c24428a8600da4a581d6a0",
+      "note": "Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review.",
       "checklists": [
         {
           "id": "inspection",

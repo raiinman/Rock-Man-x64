@@ -14,17 +14,17 @@ This public repository contains documentation, research metadata and original ex
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.
+**Where we are:** Native root acknowledges the completed Atlas reconciliation and requests a bounded retained packet-framing answer. The selected-occurrence effect/commit oracle remains unresolved; no running external worker is claimed.
 
-**Next useful step:** Native root evaluates the bounded reconciliation and retains patch ownership. Establish a permitted workload/effect/commit contract before the proposed native service implementation; no experiment or sampled-state substitution is implied.
+**Next useful step:** APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-reconciliation-01` · [reviewed basis 0402ce4](https://github.com/raiinman/Rock-Man-x64/commit/0402ce4b609f9641dedbe749974aa4dfb069a3bb).
-**Latest repository change observed:** [a03af12](https://github.com/raiinman/Rock-Man-x64/commit/a03af1217c6098afe0c14471af85c0085969e263) · 2026-10-24T11:15:57-07:00 — docs: reconcile Atlas A49 claims with retained applicability limits.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` · [reviewed basis 27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0).
+**Latest repository change observed:** [27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0) · 2026-10-24T18:16:10Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

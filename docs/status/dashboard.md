@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-24 · `2026-10-24-atlas-applicability-reconciliation-01` · [reviewed basis 0402ce4](https://github.com/raiinman/Rock-Man-x64/commit/0402ce4b609f9641dedbe749974aa4dfb069a3bb).
-**Latest repository change observed:** [a03af12](https://github.com/raiinman/Rock-Man-x64/commit/a03af1217c6098afe0c14471af85c0085969e263) · 2026-10-24T11:15:57-07:00 — docs: reconcile Atlas A49 claims with retained applicability limits.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` · [reviewed basis 27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0).
+**Latest repository change observed:** [27dd5bd](https://github.com/raiinman/Rock-Man-x64/commit/27dd5bdfca710b3913c24428a8600da4a581d6a0) · 2026-10-24T18:16:10Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -488,17 +488,23 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-24 · `2026-10-24-atlas-applicability-reconciliation-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance. All prior history including concurrent policy review and native definitions/states preserved; no acceptance delta. |
 | 2026-10-24 · `2026-10-24-atlas-applicability-reconciliation-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance. All prior history including concurrent policy review and native definitions/states preserved; no acceptance delta. |
 | 2026-10-24 · `2026-10-24-atlas-applicability-reconciliation-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance. All prior history including concurrent policy review and native definitions/states preserved; no acceptance delta. |
+| 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
+| 2026-10-25 · `2026-10-25-atlas-acknowledgment-packet-framing-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 00:20:51 UTC: public coordination acknowledgment and retained packet-framing request only. Zero native acceptance delta; prior observations, definitions, acceptance flags and validation records preserved. This is not a new private-build review. |
 
 
 ## Current explanation
 
-**Now:** Continuous substantive work is required, with Atlas first and bounded APEX-1 coordination. The existing source-only reconciliation request awaits a reply; no external running worker or positive oracle is claimed.
+**Now:** Native root acknowledges the completed Atlas reconciliation and requests a bounded retained packet-framing answer. The selected-occurrence effect/commit oracle remains unresolved; no running external worker is claimed.
 
-**Changed:** Reviewed at 2026-10-24 18:15:43 UTC: reconciled the pinned Atlas A49/A4E/readiness sections with retained firmware-specific research and caller observation. Clarified the post-DMA mask discrepancy and pre-write versus post-write completion; no new selected-write oracle or native acceptance.
+**Changed:** Reviewed at 2026-10-25 00:20:51 UTC: native root acknowledges the public Atlas applicability answer and asks APEX-1 one bounded retained packet-framing question. Public coordination only; no fresh review or acceptance of private builds, and zero native acceptance delta.
 
-**Why:** Reference ordering and firmware-specific static findings must remain distinct from occurrence-bound effects and native policy; reference priority does not clear provenance.
+**Why:** Packet boundaries may distinguish payload or coordinates from a new command, but do not establish a selected-occurrence effect or commit oracle. Firmware qualifications and the shared Atlas/PSX-SPX lineage remain explicit.
 
-**Next:** Native root evaluates the bounded reconciliation and retains patch ownership. Establish a permitted workload/effect/commit contract before the proposed native service implementation; no experiment or sampled-state substitution is implied.
+**Next:** APEX-1 should return exact already-public sections/revisions, framing rules, minimum parser classification state and uncertainty for the three named cases, or state that no retained answer exists. Native root reviews the reply; no new collection or changed gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

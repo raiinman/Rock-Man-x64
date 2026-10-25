@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "a03af1217c6098afe0c14471af85c0085969e263",
-    "committed_at": "2026-10-24T11:15:57-07:00",
-    "subject": "docs: reconcile Atlas A49 claims with retained applicability limits",
-    "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "sha": "27dd5bdfca710b3913c24428a8600da4a581d6a0",
+    "committed_at": "2026-10-24T18:16:10Z",
+    "subject": "docs: refresh generated progress tracker",
+    "source": "Exact GitHub connector-observed commit metadata; no prose-based capability inference",
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "6ecb0ccfe687b6574871623ff8db8a51f98176863a9ec9814ae7cdc68cc4aff0",
+  "evidence_data_sha256": "50d6d7a73d6b82a6eaad3bc56db11cb925796628fdc3bbe5c6efbf5a1bf34eee",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,9 +17,9 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "485e749ab4124ddefbe6bd3467656cfc905413c455f1fcc7cab302dc3072ae58",
-  "evidence_review_id": "2026-10-24-atlas-applicability-reconciliation-01",
-  "evidence_review_date": "2026-10-24",
+  "reviewed_stage_sha256": "ed9851291b429398b7d70883ff74d042ca5dc4bb8738b8f4adbcaa8e92f64c81",
+  "evidence_review_id": "2026-10-25-atlas-acknowledgment-packet-framing-01",
+  "evidence_review_date": "2026-10-25",
   "reviewed_checklist_definitions": {
     "inspection": {
       "version": 1,
@@ -103,6 +103,7 @@
     "97149b290c681a19ba683052eb89049f374069342e5fdae55447434307f53dfa",
     "c86363f3679ccba92988f7e6be1db0a87c31c973b5244824177a74bfc922bea5",
     "66f08ae08f011ef4e29a5abda5c8ea653f8a8a564d129d07d8cca7dac186d853",
-    "fe7f2f2aa99c45d0119e76cc7634278111bc3011a4e67b7ef5d0c8f3d4e254f8"
+    "fe7f2f2aa99c45d0119e76cc7634278111bc3011a4e67b7ef5d0c8f3d4e254f8",
+    "f484df5293b759355d62a13e21c4b4bde766fcf364f72ad8c1a35613dfeb4f01"
   ]
 }
