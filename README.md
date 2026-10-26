@@ -25,17 +25,17 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Original Linux diagnostic rendering now has separately reviewed camera/frame, file-to-image and executable evidence, plus source/component filled-preview integration and an action repair. These are private diagnostic foundations; no playable native game or complete IDE is established.
+**Where we are:** Two Linux integration characterizations connect actual file and sidecar workers to owned filled Image output; a separate standalone OBJ reader adds delivered-byte and line containment. These remain bounded private diagnostic results, not Windows UI, complete IDE or native game acceptance.
 
-**Next useful step:** Review subsequent authored-file worker-to-snapshot integration only after its own terminal evidence is available. Keep Windows readiness, full-application provenance and actual controls/display acceptance separate; retain initializer and S2 gates. The later Windows WAV result awaits a separate exact sanitized receipt and is outside this review.
+**Next useful step:** Reconcile any future platform-host or frozen-IDE adoption against its own admitted scope and terminal result. This review establishes neither. Preserve native API/display, file-identity and operating-system time limits, and provenance, initializer and S2 gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-26 · `2026-10-26-original-render-chain-review-01` · [reviewed basis 6191349](https://github.com/raiinman/Rock-Man-x64/commit/61913492ab0afa4bd833761bae84c48b98efd0e6).
-**Latest repository change observed:** [ede3eaf](https://github.com/raiinman/Rock-Man-x64/commit/ede3eaf2425f73f155b5840f8fa41b700ceaca5d) · 2026-10-26T15:36:27-07:00 — docs: record nine bounded original rendering stages.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-26 · `2026-10-26-worker-reader-review-01` · [reviewed basis 92c778a](https://github.com/raiinman/Rock-Man-x64/commit/92c778ac93bf8e1629e4ac0a0b27155a1ae07d80).
+**Latest repository change observed:** [92c778a](https://github.com/raiinman/Rock-Man-x64/commit/92c778ac93bf8e1629e4ac0a0b27155a1ae07d80) · 2026-10-26T22:36:54Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

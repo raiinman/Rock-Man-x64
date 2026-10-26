@@ -408,17 +408,53 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-26",
-    "review_id": "2026-10-26-original-render-chain-review-01",
-    "reviewed_through_commit": "61913492ab0afa4bd833761bae84c48b98efd0e6",
-    "summary": "Reviewed at 2026-10-26 22:14:47 UTC: nine separately reviewed original Linux stages cover camera/frame ownership, synthetic P6 output, PPM compatibility, OBJ/Image consumers, opt-in filled-source integration, action consistency and authored-file CLI output. Terminal review bindings were checked by the native reviewer; this documentation consolidation ran no native tests/builds. No Windows, device, native controls/pixels, complete IDE or native game-boot acceptance follows. All 30 broad tasks and historical criteria, accepted sets, stages, validation counters and prior observations remain unchanged."
+    "review_id": "2026-10-26-worker-reader-review-01",
+    "reviewed_through_commit": "92c778ac93bf8e1629e4ac0a0b27155a1ae07d80",
+    "summary": "Reviewed at 2026-10-26 23:08:21 UTC: three completed Linux receipt sets cover actual file-worker-to-filled-Image characterization, sidecar restoration through the same workers, and a stronger standalone OBJ delivered-byte/line reader. Metadata bindings were independently checked; this documentation pass ran no native tests/builds/research. Native API/history effects remain modeled where stated, and frozen IDE behavior does not acquire standalone-reader guarantees. All 30 broad task states, historical criteria/accepted sets, stages, numerical validation records and earlier observations remain unchanged; no Windows/device/game-boot acceptance follows."
   },
   "overview": {
-    "now": "Original Linux diagnostic rendering now has separately reviewed camera/frame, file-to-image and executable evidence, plus source/component filled-preview integration and an action repair. These are private diagnostic foundations; no playable native game or complete IDE is established.",
-    "changed": "Reviewed at 2026-10-26 22:14:47 UTC: recorded nine bounded original Linux results, including actual diagnostic P6 process output, unchanged PPM characterization and source/component integration. Historical failures, superseded acceptance and modeled/native boundaries remain explicit.",
-    "why": "Make completed diagnostic rendering and integration work visible without treating overlapping assertion cohorts, private images, source applicability or modeled native calls as Windows controls, device output or game acceptance.",
-    "next": "Review subsequent authored-file worker-to-snapshot integration only after its own terminal evidence is available. Keep Windows readiness, full-application provenance and actual controls/display acceptance separate; retain initializer and S2 gates. The later Windows WAV result awaits a separate exact sanitized receipt and is outside this review."
+    "now": "Two Linux integration characterizations connect actual file and sidecar workers to owned filled Image output; a separate standalone OBJ reader adds delivered-byte and line containment. These remain bounded private diagnostic results, not Windows UI, complete IDE or native game acceptance.",
+    "changed": "Reviewed at 2026-10-26 23:08:21 UTC: recorded three completed Linux evidence sets, distinguishing unchanged integration compatibility from a new standalone input guarantee. Historical failures, modeled boundaries, unchanged-source applicability and recorded retention stamps remain explicit.",
+    "why": "Check real worker composition without inventing a parser defect, artificial RED stage, whole-application test, or automatic transfer of standalone guarantees into the frozen IDE. Assertion cohorts and complete pixel comparisons remain separate measures.",
+    "next": "Reconcile any future platform-host or frozen-IDE adoption against its own admitted scope and terminal result. This review establishes neither. Preserve native API/display, file-identity and operating-system time limits, and provenance, initializer and S2 gates."
   },
   "updates": [
+    {
+      "id": "authored-file-worker-chain-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The existing authored-file worker/parser/adoption and manual filled-render worker chain was characterized without production changes. Primary 68 and independent 42 assertions per optimized/sanitized configuration passed, with complete original-fixture pixel comparisons. Real parser, standard threads, source polling and joining were used; sidecars were absent and the loader stub was not called.",
+      "why": "Test-design race corrected before execution; setup warning and metadata-observation limits retained. Destructor readiness is not OS exit/retirement. Native APIs/history/clear effects remain modeled; no selection/Refresh/Undo/Save/display or whole-app validation, and no finite I/O guarantee.",
+      "next": "Keep this absent-sidecar record distinct from the separately reviewed sidecar chain; any platform or broader workflow validation needs its own authority and evidence. No explicit final freeze UTC was supplied for this terminal set; no time is inferred from names or file modification times.",
+      "evidence": [
+        "docs/status/current-status.md#actual-authored-file-through-existing-workers-to-filled-image"
+      ]
+    },
+    {
+      "id": "sidecar-worker-image-chain-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Existing valid sidecar translations flowed through the real file worker, adoption and filled rendering without production changes. Mismatch and malformed-tail cases retained defaults and logical warnings without partial merge. Primary 78 and independent 68 assertions per configuration passed; 460,800 pixel comparisons per configuration are a separate measure, not extra assertions.",
+      "why": "Missing contract and wrapper-newline identity issues corrected as setup, not source failures. Real isolated loader/threads with modeled native warning/control/history effects; no actual Save, GUI paint, coherent snapshots, leak-clean or finite-time guarantee. Frozen IDE gains no standalone-reader guarantee.",
+      "next": "Keep the subsequent standalone input-reader improvement separate: the unchanged frozen IDE does not automatically acquire its guarantees. The retention manifest records 2026-10-26 22:34:05 UTC; this is a recorded retention freeze, not a new test time or automatically advanced evidence review.",
+      "evidence": [
+        "docs/status/current-status.md#existing-sidecar-restoration-through-workers-to-filled-image"
+      ]
+    },
+    {
+      "id": "standalone-obj-read-containment-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Standalone reader adds one-pass chunked read/parse/fingerprint containment: 64 MiB admission, at most one detector byte, 65,536-byte non-linefeed lines and explicit close before adoption. Growth refusal passed; final post-close cancellation repair passed two modeled-close assertions/config. Final actual replay covered six primary file cases and five independent executable cases plus four composition assertions/config.",
+      "why": "Thirty primary/eighteen independent stream assertions apply by unchanged prefix, not whole-final rerun. Stronger-budget baseline, corrected oracle/setup, close-order defect and manually interrupted invalid mutation retained; exit 130 is not a kill. No kernel read-ahead, memory, snapshot or OS-time guarantee. Frozen IDE unchanged.",
+      "next": "Any platform host or frozen-IDE adoption requires a separate admitted scope and result; none is established by this receipt. The retention manifest records 2026-10-26 22:46:24 UTC; this is a recorded retention freeze, not a new test time or automatically advanced evidence review.",
+      "evidence": [
+        "docs/status/current-status.md#standalone-obj-source-and-line-containment"
+      ]
+    },
     {
       "id": "generic-camera-projection-linux-01",
       "date": "2026-10-26",
@@ -6742,11 +6778,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-26-worker-reader-review-01",
+      "date": "2026-10-26",
+      "basis_commit": "92c778ac93bf8e1629e4ac0a0b27155a1ae07d80",
+      "note": "Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-26 22:14:47 UTC",
+    "reviewed_at": "2026-10-26 23:08:21 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -7261,6 +7359,27 @@
         "state": "tested",
         "update_id": "authored-obj-cli-linux-01",
         "limit": "Actual old-mode refusal is the absence baseline; empty-file oracle/setup issues retained. POSIX path coverage is not a Windows host: new narrow-argument mode refuses Windows before read, source-reviewed only. Parsing/OS/output-prefix limits remain; no GUI, device or gameplay claim."
+      },
+      {
+        "id": "authored-file-worker-chain-linux",
+        "label": "Authored file → workers → filled Image — Linux/integration",
+        "state": "tested",
+        "update_id": "authored-file-worker-chain-linux-01",
+        "limit": "Test-design race corrected before execution; setup warning and metadata-observation limits retained. Destructor readiness is not OS exit/retirement. Native APIs/history/clear effects remain modeled; no selection/Refresh/Undo/Save/display or whole-app validation, and no finite I/O guarantee."
+      },
+      {
+        "id": "sidecar-worker-image-chain-linux",
+        "label": "Sidecar → workers → filled Image — Linux/integration",
+        "state": "tested",
+        "update_id": "sidecar-worker-image-chain-linux-01",
+        "limit": "Missing contract and wrapper-newline identity issues corrected as setup, not source failures. Real isolated loader/threads with modeled native warning/control/history effects; no actual Save, GUI paint, coherent snapshots, leak-clean or finite-time guarantee. Frozen IDE gains no standalone-reader guarantee."
+      },
+      {
+        "id": "standalone-obj-read-containment-linux",
+        "label": "Standalone OBJ read/line containment — Linux/component",
+        "state": "tested",
+        "update_id": "standalone-obj-read-containment-linux-01",
+        "limit": "Thirty primary/eighteen independent stream assertions apply by unchanged prefix, not whole-final rerun. Stronger-budget baseline, corrected oracle/setup, close-order defect and manually interrupted invalid mutation retained; exit 130 is not a kill. No kernel read-ahead, memory, snapshot or OS-time guarantee. Frozen IDE unchanged."
       }
     ]
   }

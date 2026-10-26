@@ -4,6 +4,42 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-26 · authored-file-worker-chain-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** The existing authored-file worker/parser/adoption and manual filled-render worker chain was characterized without production changes. Primary 68 and independent 42 assertions per optimized/sanitized configuration passed, with complete original-fixture pixel comparisons. Real parser, standard threads, source polling and joining were used; sidecars were absent and the loader stub was not called.
+
+**Why:** Test-design race corrected before execution; setup warning and metadata-observation limits retained. Destructor readiness is not OS exit/retirement. Native APIs/history/clear effects remain modeled; no selection/Refresh/Undo/Save/display or whole-app validation, and no finite I/O guarantee.
+
+**Next:** Keep this absent-sidecar record distinct from the separately reviewed sidecar chain; any platform or broader workflow validation needs its own authority and evidence. No explicit final freeze UTC was supplied for this terminal set; no time is inferred from names or file modification times.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#actual-authored-file-through-existing-workers-to-filled-image).
+
+## 2026-10-26 · sidecar-worker-image-chain-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** Existing valid sidecar translations flowed through the real file worker, adoption and filled rendering without production changes. Mismatch and malformed-tail cases retained defaults and logical warnings without partial merge. Primary 78 and independent 68 assertions per configuration passed; 460,800 pixel comparisons per configuration are a separate measure, not extra assertions.
+
+**Why:** Missing contract and wrapper-newline identity issues corrected as setup, not source failures. Real isolated loader/threads with modeled native warning/control/history effects; no actual Save, GUI paint, coherent snapshots, leak-clean or finite-time guarantee. Frozen IDE gains no standalone-reader guarantee.
+
+**Next:** Keep the subsequent standalone input-reader improvement separate: the unchanged frozen IDE does not automatically acquire its guarantees. The retention manifest records 2026-10-26 22:34:05 UTC; this is a recorded retention freeze, not a new test time or automatically advanced evidence review.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#existing-sidecar-restoration-through-workers-to-filled-image).
+
+## 2026-10-26 · standalone-obj-read-containment-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** Standalone reader adds one-pass chunked read/parse/fingerprint containment: 64 MiB admission, at most one detector byte, 65,536-byte non-linefeed lines and explicit close before adoption. Growth refusal passed; final post-close cancellation repair passed two modeled-close assertions/config. Final actual replay covered six primary file cases and five independent executable cases plus four composition assertions/config.
+
+**Why:** Thirty primary/eighteen independent stream assertions apply by unchanged prefix, not whole-final rerun. Stronger-budget baseline, corrected oracle/setup, close-order defect and manually interrupted invalid mutation retained; exit 130 is not a kill. No kernel read-ahead, memory, snapshot or OS-time guarantee. Frozen IDE unchanged.
+
+**Next:** Any platform host or frozen-IDE adoption requires a separate admitted scope and result; none is established by this receipt. The retention manifest records 2026-10-26 22:46:24 UTC; this is a recorded retention freeze, not a new test time or automatically advanced evidence review.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#standalone-obj-source-and-line-containment).
+
 ## 2026-10-26 · generic-camera-projection-linux-01
 
 **Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
@@ -1637,3 +1673,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-26 · `2026-10-26-original-render-chain-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-original-render-chain-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-original-render-chain-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-worker-reader-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
+| 2026-10-26 · `2026-10-26-worker-reader-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
+| 2026-10-26 · `2026-10-26-worker-reader-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
+| 2026-10-26 · `2026-10-26-worker-reader-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
+| 2026-10-26 · `2026-10-26-worker-reader-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
+| 2026-10-26 · `2026-10-26-worker-reader-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |

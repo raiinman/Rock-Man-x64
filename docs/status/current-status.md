@@ -2,7 +2,7 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Latest native evidence review: 2026-10-26 22:14:47 UTC.** Nine original Linux stages below have separately reviewed component, process or source-integration evidence. This review grants no Windows build, observed native controls/pixels, device output, complete IDE or native game-boot acceptance. Earlier checkpoints retain their original scopes.
+**Latest native evidence review: 2026-10-26 23:08:21 UTC.** Three completed Linux integration/reader sets below distinguish compatible existing worker composition from a stronger standalone reader. This review establishes no actual Windows controls/display, full-application build, device output, native game boot or provenance clearance. Earlier checkpoints retain their original scopes.
 
 **Earlier source implementation checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 
@@ -10,6 +10,54 @@ The October 25 Linux/component successor and Windows validation entries below re
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
+
+## Worker composition and standalone input — reviewed October 26
+
+**Documentation review:** 2026-10-26 23:08:21 UTC. These original summaries consolidate three completed terminal receipt sets whose metadata bindings were independently checked. This documentation pass read sanitized metadata only and ran no native tests, builds or research. Broad task states and historical acceptance are unchanged. The underlying private tests and implementation cannot be independently reproduced from this documentation-only repository.
+
+All evidence is Linux source/component or integration evidence. Primary and independent cohorts remain separate; optimized and ASan/UBSan configurations overlap. Counts are assertion executions, not unique-test, effort or game-completion totals. Leak detection was disabled, not passed. Recorded retention freeze stamps below are distinct from test times and this evidence-review time. No actual Windows controls/display, full-application build, device output, native game boot or provenance clearance follows.
+
+### Actual authored file through existing workers to filled Image
+
+The existing authored-file loading worker and parser, source adoption, then manual filled-render worker, fit and Image adoption were exercised together. Existing behavior was compatible: no production change, presumed defect or artificial failing-test stage was needed. The filled renderer was excluded while the file slot was occupied. A parser-valid quad loaded successfully but was refused before launching the triangle-only renderer, preserving loaded source state. A later malformed file cleared old modeled state and ended Failed without adopting stale output.
+
+**Why:** This closes a specific integration-test boundary. Earlier caller tests modeled decoding; earlier executable tests did not exercise the IDE's worker-slot adoption chain. The new characterization used the real parser, standard threads, fit, owned mesh/snapshot/Image data and actual source polling and joining, while native APIs and history/clear-related boundaries remained explicit models.
+
+**Evidence:** Primary checks passed 68 assertions in each strict optimized and sanitized configuration. Every one of 153,600 pixels for each original triangle and open-frame fixture matched the previously reviewed output at the same adopted default view. Independent checks passed 42 assertions per configuration, with all 153,600 open-frame BGRA pixels and opaque alpha matching. The independent scenarios were separately authored but used attributed primary compilation scaffolding. These overlapping cohorts are not summed. Sidecars were actually absent and the absent-sidecar loader stub was not called.
+
+**Failures and corrections:** Review caught a possible fast-worker race in the initial test design before behavioral execution. A deterministic pre-stage condition-variable hold corrected the test, not production behavior. An initial primary test-only indentation warning was retained as setup evidence. No independent setup, oracle or source failure was reported. The first primary optimized run established byte identity without a backfilled pre-run metadata snapshot; later identified configurations also checked unchanged size and filesystem metadata.
+
+**Limits:** A thread-local destructor notification observed readiness; it was not operating-system thread-exit or retirement proof. The next actual source poll performed the join before adoption. Native controls, history, old clearing and part-field effects remain models. Selection, paging, Refresh, Undo, Save, actual wireframe/display pixels and the whole application were not validated. File I/O can block without a wall-clock bound.
+
+**Next:** Keep this absent-sidecar record distinct from the separately reviewed sidecar chain; any platform or broader workflow validation needs its own authority and evidence. No explicit final freeze UTC was supplied for this terminal set; no time is inferred from names or file modification times.
+
+### Existing sidecar restoration through workers to filled Image
+
+The existing parser and isolated sidecar loader restored valid per-part translations through the actual file worker and adoption path, followed by filled rendering. Existing behavior was compatible, with no production changes or reproduced defect. Fingerprint mismatch and a malformed final record both retained all source-default translations, a logical warning and Ready source state; neither partially merged earlier staged transforms.
+
+**Why:** This characterizes the actual sidecar-to-loaded-model-to-Image chain rather than assuming that separately passing parser, loader and renderer results compose correctly. Rendering reparsed neither source nor sidecar.
+
+**Evidence:** Primary checks passed 78 assertions per optimized and sanitized configuration. Independent checks passed 68 per configuration in a separate replay. Each run compared all 153,600 BGRA pixels, including opaque alpha, for each of three cohorts: 460,800 pixel comparisons per configuration, not extra assertion totals. An independent literal geometry oracle verified 54 vertices and seven parts, with exactly eight exclusively owned base vertices each translated by X plus 0.5 once. Other coordinates, faces and part order stayed unchanged. A separate frozen-executable replay matched the equivalent-geometry reference. Fifteen retained provider/caller/interface/setup records remained unchanged; the admitted loader matched its separately reviewed predecessors.
+
+**Failures and corrections:** An initial document request named a review contract that had not yet been created; the contract was subsequently supplied. An initial metadata extraction wrapper appended a newline to a function whose admitted bytes ended at its closing brace. Correcting the wrapper recovered exact identity. Both were contract/setup issues, not production discrepancies, functional failures or fabricated failing-test stages.
+
+**Limits:** Native warning delivery, controls, selection rows, history, old clearing and part-field effects remain models. This proves adopted warning data and owned Image compatibility, not visible native warnings or GUI painting. It does not execute actual Save/history implementation or establish coherent file snapshots, leak-clean behavior or finite I/O/cleanup time. Deterministic worker observation still precedes actual source joining; it does not substitute for retirement.
+
+**Next:** Keep the subsequent standalone input-reader improvement separate: the unchanged frozen IDE does not automatically acquire its guarantees. The retention manifest records 2026-10-26 22:34:05 UTC; this is a recorded retention freeze, not a new test time or automatically advanced evidence review.
+
+### Standalone OBJ source and line containment
+
+The original standalone reader now performs one chunked read/parse/fingerprint pass. It admits at most 64 MiB, reads at most one additional detector byte into application chunks, bounds non-linefeed line accumulation to 65,536 bytes before append, refuses stream errors and explicitly closes owned input before exposing the decoded mesh. Only the standalone provider changed; ten other executable inputs remained unchanged. The frozen IDE was not changed and does not acquire this guarantee.
+
+**Why:** This adds a stronger delivered-byte and line-containment capability than the old metadata-size preflight. It is not a retrospective claim that the old documented contract was defective. A deterministic test grew a task-owned file after old size metadata was read; the exact old source admitted 67,108,865 bytes and failed the intended stronger-budget assertion. That mutating callback was test instrumentation outside the production read-only callback contract.
+
+**Evidence:** The candidate refused the same growth in optimized and sanitized configurations. Thirty primary stream assertions per configuration and eighteen independent stream assertions per configuration remain applicable through exact unchanged helper-prefix identity; they were not rerun as whole-final-provider suites. Independent review found that the first candidate's final cancellation check occurred before close. The preserved modeled-close baseline failed one of two assertions; the final repair added a check after successful explicit close while keeping close-error precedence. Two final primary modeled-close assertions passed per configuration. Actual final primary executable replay covered six file cases per configuration. Independent final replay covered five executable cases plus four composition assertions per configuration. Earlier no-argument output evidence retained exact unchanged-body applicability, not a new primary final replay.
+
+**Failures and corrections:** The initial primary executable oracle incorrectly expected empty success diagnostics even though the unchanged fixed notice and image matched; the oracle was corrected without a production repair for that issue. Independent test-only indentation and reference-location errors were retained separately. Two finite optimized off-by-one mutations were killed by normal assertion failures. An earlier invalid mutation destroyed a required arithmetic invariant and spun on a wrapped zero-sized request; it was manually interrupted with exit 130. That interruption is not a mutation kill, production defect, timeout-retirement or cleanup proof. A final metadata addendum corrected a guessed receipt location and bound the actual final source identity without rerunning behavior; the initial candidate receipt remains preserved.
+
+**Limits:** The byte bound concerns application-delivered chunks, not file-buffer or kernel read-ahead. It does not bound aggregate decoded-mesh memory, allocator capacity or operating-system time, and it is not snapshot authenticity. Stream errors and close-triggered cancellation controls were modeled, not observed operating-system fault behavior. Caller-owned streams and callbacks remain borrowed and synchronous; unexpected read/callback exceptions propagate to the existing composition boundary. Earlier exceptional exits use ordinary resource unwinding without separately observed close success. Read and close operations may block indefinitely. Existing output-write failures can leave a prefix or complete delivered output.
+
+**Next:** Any platform host or frozen-IDE adoption requires a separate admitted scope and result; none is established by this receipt. The retention manifest records 2026-10-26 22:46:24 UTC; this is a recorded retention freeze, not a new test time or automatically advanced evidence review.
 
 ## Original diagnostic rendering chain — reviewed October 26
 
