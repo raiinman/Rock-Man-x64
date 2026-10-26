@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-26 · `2026-10-26-native-component-review-01` · [reviewed basis c4497c7](https://github.com/raiinman/Rock-Man-x64/commit/c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f).
-**Latest repository change observed:** [aae4981](https://github.com/raiinman/Rock-Man-x64/commit/aae49815a918dd5215df77567d83387528d232ee) · 2026-10-26T14:36:19-07:00 — docs: record four bounded Linux component results.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-26 · `2026-10-26-original-render-chain-review-01` · [reviewed basis 6191349](https://github.com/raiinman/Rock-Man-x64/commit/61913492ab0afa4bd833761bae84c48b98efd0e6).
+**Latest repository change observed:** [6191349](https://github.com/raiinman/Rock-Man-x64/commit/61913492ab0afa4bd833761bae84c48b98efd0e6) · 2026-10-26T21:36:49Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -578,13 +578,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-26 · `2026-10-26-native-component-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-native-component-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-native-component-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-original-render-chain-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-original-render-chain-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-original-render-chain-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-original-render-chain-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-original-render-chain-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-original-render-chain-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-26 11:54:03 UTC.
+**Map reviewed:** 2026-10-26 22:14:47 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -738,6 +744,96 @@ Bytes-only strict RIFF/WAVE PCM16 stereo subset; 1 MiB input/65,536 frames. No f
 
 **Evidence:** [evidence](../../docs/status/current-status.md#bounded-wave-stager-component-check--october-26)
 
+### Original camera projection — Linux/component
+
+**Recorded state:** tested.
+
+Original near-plane clipping and projection provider independently accepted at Linux/component scope: 91 primary and 126 independent assertions per configuration, with 13 optimized assertion-killed causal mutations. Default orthographic caller and prior renderer behavior stayed unchanged.
+
+Absence baselines are missing-capability evidence, not historical renderer defects. Conservative numeric refusal, affine interpolation, depth ties and shared-camera/depth preconditions remain; output-mesh preservation is not image rollback.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#original-generic-camera-projection)
+
+### Owned complete camera frame — Linux/component
+
+**Recorded state:** tested.
+
+Original complete-frame owner independently accepted at Linux/component scope: 56 primary and 64 independent assertions per configuration, with nine optimized assertion-killed mutations. Actual rasterizer-budget refusal preserved the prior frame rather than adopting a partial draw.
+
+Harness setup error and initially ineffective accounting mutation retained. Complete-frame ownership is not concurrent-input safety, a physical-memory/time guarantee or GUI/display acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#owned-complete-camera-frame)
+
+### Original synthetic scene → P6 — Linux/executable
+
+**Recorded state:** tested.
+
+An actual original Linux diagnostic scene executable produced a 480 by 320 P6 image, 460,815 bytes, and successful exit. Primary 75 and independent 48 assertions per configuration passed, with nine optimized assertion-killed mutations; actual usage refusal emitted zero image bytes.
+
+Setup and diagnostics-oracle failures retained. Stream/flush failure may leave prefix or full bytes; no filesystem rollback, signal-handling, GUI display, calibrated color or game-output claim.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#original-synthetic-scene-and-p6-executable)
+
+### Existing PPM provider compatibility — Linux/component
+
+**Recorded state:** tested.
+
+The unchanged isolated current PPM provider accepted the exact synthetic scene output: all 153,600 pixels mapped to 614,400 opaque BGRA bytes. Primary nine and independent eleven characterization assertions per configuration passed; no parser repair or historical-suite replay was performed.
+
+Initial lineage refusal preceded explicit reviewed-successor admission. Documentation race/wrapper assumptions retained as setup failures. Image-data compatibility is not selection, painting, Windows display or P6 alpha preservation.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#existing-ppm-provider-compatibility)
+
+### Original OBJ file → complete P6 — Linux/component
+
+**Recorded state:** tested.
+
+Original authored-file/parser/triangle adapter/complete-frame/P6 chain independently accepted. Primary focused six plus regression 87 optimized or 86 sanitized gives 93/92 assertions, with differing actual allocation positions. Independent 50 per configuration and nine optimized assertion-killed mutations passed.
+
+Parser-valid nontriangle polygons refused; parser unchanged. Parsing-only cancellation, mutable file observations and OS/growth/memory/time limits remain. Owned output data is not CLI execution, displayed pixels or Windows acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#original-obj-file-to-complete-p6-consumer)
+
+### Mesh → owned Image bridge — Linux/component
+
+**Recorded state:** tested.
+
+Original current-layout Mesh-to-Image bridge independently accepted without redefining caller types or a P6 round trip. Primary Image 36 and independent Image 25 assertions per configuration passed; four independent affected-file checks stay separate, as do retained file-route 93/92 counts. Eight optimized mutations were assertion-killed.
+
+Unsupported-layout refusals and old duplicate-type conflict retained as bounded compile evidence, not whole-app build. Caller storage/ownership/no-invalid-aliasing preconditions remain; no GUI adoption, painting or Windows acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#dto-independent-mesh-to-image-bridge)
+
+### Opt-in filled snapshot — Linux/source integration
+
+**Recorded state:** tested.
+
+Opt-in generic-OBJ filled snapshot independently accepted as Linux component/source integration. Primary fit seven and modeled action six, independent math/Image 28,894 and final lifecycle/join/paint 21/seven/18 per configuration remain separate. Historical 168 caller and 36 report assertions apply only through exactly unchanged fragments, not a whole-final-application rerun.
+
+Actual standard threads and Image math; native APIs/history/clear/sidecar/decoder effects modeled. Intermediate owner/toggle/Close/paint failures retained. No bounded Close, guaranteed native rollback, observed controls/pixels or Windows build.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#opt-in-filled-snapshot-ide-source-integration)
+
+### Filled-action consistency repair — Linux/source
+
+**Recorded state:** tested.
+
+Narrow stale-cache/clear Render-action consistency repair independently accepted after superseding an earlier acceptance. Final primary action/toggle/affected-caller cohorts passed 23/five/168 and separate native-return model eleven per configuration; independent callback/paint/toggle passed 47/25/seven. Cohorts remain separate.
+
+Baseline/intermediate failures, superseded acceptance and surviving historical mutation retained; no final-source mutation rerun inferred. False-caption-return branch has source review plus primary model, not independent execution. Native delivery, effects and pixels unconfirmed; no transfer/execution authority.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#filled-action-consistency-repair)
+
+### Authored OBJ diagnostic executable — Linux/process
+
+**Recorded state:** tested.
+
+Actual Linux diagnostic executable accepts authored generic OBJ input; the old no-argument demo stays byte-identical. Primary 77 assertions plus separate feature oracle/process runs and independent 54 component plus ten executable checks across nine cases per configuration passed; eight optimized mutations were assertion-killed. All 153,600 pixels were classified independently.
+
+Actual old-mode refusal is the absence baseline; empty-file oracle/setup issues retained. POSIX path coverage is not a Windows host: new narrow-argument mode refuses Windows before read, source-reviewed only. Parsing/OS/output-prefix limits remain; no GUI, device or gameplay claim.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#authored-obj-input-for-the-existing-diagnostic-executable)
+
 | Task | Recorded state | Task prerequisites | State explanation |
 |---|---|---|---|
 | [SI-01: Choose a bounded source slice](../../tasks/spec-implementation/todo.md#si-01) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
@@ -773,13 +869,13 @@ Bytes-only strict RIFF/WAVE PCM16 stereo subset; 1 MiB input/65,536 frames. No f
 
 ## Current explanation
 
-**Now:** Four additional Linux/component results cover selected-file Refresh, standalone PCM control, rasterizer edge coverage and bounded WAV staging. Their Windows/device behavior remains separately unverified. Earlier Windows build and partial-observation records retain their own scopes. No playable native game or complete IDE is established.
+**Now:** Original Linux diagnostic rendering now has separately reviewed camera/frame, file-to-image and executable evidence, plus source/component filled-preview integration and an action repair. These are private diagnostic foundations; no playable native game or complete IDE is established.
 
-**Changed:** Reviewed at 2026-10-26 11:54:03 UTC: recorded four independently reviewed component results and retained their genuine failures, fixture corrections and remaining boundaries. No broad specification task or historical milestone was promoted.
+**Changed:** Reviewed at 2026-10-26 22:14:47 UTC: recorded nine bounded original Linux results, including actual diagnostic P6 process output, unchanged PPM characterization and source/component integration. Historical failures, superseded acceptance and modeled/native boundaries remain explicit.
 
-**Why:** Make substantive source progress visible without equating component checks, overlapping assertion counts or source completion with Windows execution, audio output, game fidelity or native boot.
+**Why:** Make completed diagnostic rendering and integration work visible without treating overlapping assertion cohorts, private images, source applicability or modeled native calls as Windows controls, device output or game acceptance.
 
-**Next:** The native owner continues a read-only WAV file-provider specification/review using the frozen decoder; no provider implementation or acceptance is established in this record. A bounded Windows PCM compile/tone task is admitted but has no execution result. Preserve unresolved newer OBJ reopen/cleanup, provenance, initializer and S2 gates.
+**Next:** Review subsequent authored-file worker-to-snapshot integration only after its own terminal evidence is available. Keep Windows readiness, full-application provenance and actual controls/display acceptance separate; retain initializer and S2 gates. The later Windows WAV result awaits a separate exact sanitized receipt and is outside this review.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "aae49815a918dd5215df77567d83387528d232ee",
-    "committed_at": "2026-10-26T14:36:19-07:00",
-    "subject": "docs: record four bounded Linux component results",
+    "sha": "61913492ab0afa4bd833761bae84c48b98efd0e6",
+    "committed_at": "2026-10-26T21:36:49Z",
+    "subject": "docs: refresh generated progress tracker",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "cc2d40bffe7bdc5c28ba6db8d8e264a6befa62a030bed066bc03daa5978bf5c6",
+  "evidence_data_sha256": "3465c23d697e7019ec7db2ca859dd698686d85d1ee7dc36a9164a822d976dc85",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "a360c6783972a687297635b4850f84eb2dd50118a29c3b842f76de09a75b2378",
-  "evidence_review_id": "2026-10-26-native-component-review-01",
+  "reviewed_stage_sha256": "7abb9172b02e206257a5cfd1ae49185a9c8564d8c6370999206f82f74711df22",
+  "evidence_review_id": "2026-10-26-original-render-chain-review-01",
   "evidence_review_date": "2026-10-26",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -118,7 +118,8 @@
     "cddb964d4123e236d7ec06a6bcb57b468b310cf152c66e97efb3b473f62b4abf",
     "171079afecc9ed1926c5bedcf5268bdc923dc37e65bcafbd24710fa88cca9d0a",
     "ecd52cb5505d82e3d2fd45a034c51e6ade940d301bdfd27701a9e5fe8b59c2e9",
-    "0c538e7f3dc83cd8065bc261086816b496f703874c500830206a42b7f975b1b0"
+    "0c538e7f3dc83cd8065bc261086816b496f703874c500830206a42b7f975b1b0",
+    "b0804de4eccf963d39e43f076506c9af04fc266d92232436a6eff5e33d12b88a"
   ],
-  "reviewed_build_plan_sha256": "e4c698ed9c53953df8e45997e8223c316b5751bce33d2d450915bd5544170db4"
+  "reviewed_build_plan_sha256": "93ce7d3f0082346d11ced9da78b5e0a60e8bf10fe9115b8666aca0d637451fb1"
 }

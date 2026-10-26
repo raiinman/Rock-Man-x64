@@ -2,7 +2,7 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Latest native evidence review: 2026-10-26 11:54:03 UTC.** Four additional Linux/component results are recorded below. These checks do not establish Windows compilation, device/audio behavior, pixels or native game boot for the new source stages. Earlier Windows results retain their separate scopes, including inconclusive synchronous OBJ reopening and unverified closure.
+**Latest native evidence review: 2026-10-26 22:14:47 UTC.** Nine original Linux stages below have separately reviewed component, process or source-integration evidence. This review grants no Windows build, observed native controls/pixels, device output, complete IDE or native game-boot acceptance. Earlier checkpoints retain their original scopes.
 
 **Earlier source implementation checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 
@@ -10,6 +10,104 @@ The October 25 Linux/component successor and Windows validation entries below re
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
+
+## Original diagnostic rendering chain — reviewed October 26
+
+**Documentation review:** 2026-10-26 22:14:47 UTC. The native reviewer checked terminal source-bound verdicts for all nine stages. This is an evidence-review time, not an invented implementation-freeze timestamp. No terminal timestamps are supplied for the first six stages. These are original sanitized summaries, not raw private reports. Underlying private tests and implementation cannot be independently reproduced from this documentation-only repository. This documentation consolidation ran no native tests or builds.
+
+Counts are assertion executions in named cohorts, not unique-test or project-completion totals. Optimized and ASan/UBSan configurations overlap; leak detection was disabled, not passed. Primary and independent cohorts stay separate. Actual process execution, injected failures, modeled effects and unchanged-source applicability are identified explicitly. All historical acceptance and 30 broad task states remain unchanged. No images, private identities, paths, packages or source are published.
+
+### Original generic camera projection
+
+An original portable provider clips camera-space triangles at a positive near plane, projects them and feeds the real diagnostic CPU rasterizer. Existing renderer behavior and the default orthographic caller stayed unchanged. Independent mathematical and source review accepted this bounded component.
+
+**Evidence:** Primary current checks passed 91 assertions per configuration. Independent current checks passed 126 per configuration; 13 optimized causal mutations failed normally through assertions. The executable absence baseline failed the intended capability checks: primary six failures in ten optimized assertions; independent five in eight per configuration. Absence is not a historical renderer defect.
+
+**Failures and limits:** A pre-implementation numeric design concern led to an explicit conservative refusal policy before behavior. A later shared-camera usage clarification was recorded after the passing result, without changing source or rerunning tests. Extreme floating-point cancellation and depth ties remain possible. Texture interpolation remains affine, not perspective-correct. Meshes sharing uncleared depth storage require the same camera parameters and depth units. Output-mesh preservation is not rendered-image rollback.
+
+**Next:** Preserve these limits when citing the later complete-frame consumer; no additional camera feature or production-camera acceptance is implied.
+
+### Owned complete camera frame
+
+A new original component validates bounded textures and materials, owns texture data during rendering and adopts only a complete frame. A real budget-stopped partial draw returns diagnostics while leaving the caller's prior frame unchanged. Independent review accepted the isolated component, not the whole application.
+
+**Evidence:** Primary checks passed 56 assertions per configuration, including seven injected allocation-failure positions. Independent checks passed 64 per configuration; nine optimized causal mutations were assertion-killed. Absence baselines retained six intended failures in seven primary checks and seven in eight independent checks per configuration. Distinct actual rasterizer-budget fixtures reached the fixed candidate-visit boundary and verified refusal without prior-output replacement.
+
+**Failures and limits:** A primary harness compilation setup error was corrected without changing production source. An initial accounting mutation survived because it did not create the intended fault; that control-design failure was retained, and the corrected mutation was killed. Output lifetime checks do not authorize concurrent input mutation. Logical resource bounds are not physical-memory or wall-clock guarantees.
+
+**Next:** Keep complete-frame ownership and partial-draw refusal separate from any later producer, display or platform acceptance.
+
+### Original synthetic scene and P6 executable
+
+An actual Linux executable renders an original synthetic camera-space scene through the reviewed camera and complete-frame chain, then emits owned P6 bytes. This is diagnostic geometry output, not game data, a game screenshot or a playable build.
+
+**Evidence:** Primary checks passed 75 assertions per configuration, including 20 injected allocation positions. Independent checks passed 48 per configuration, with nine optimized assertion-killed mutations. Absence checks retained seven intended failures in seven primary assertions and seven in eight independent assertions per configuration. Separately, the actual executable produced 460,815 bytes and exited successfully with no arguments; an extra argument exited with usage refusal and zero image output. External byte and five independently derived pixel checks verified the 480 by 320 result.
+
+**Failures and limits:** Independent setup initially used the wrong executable source location. An initial 48-check oracle incorrectly required empty success diagnostics, producing one failure per configuration; the allowed fixed-text policy corrected the oracle without changing production source. Output-write or flush failure can leave a prefix or a complete delivered image. Injected C++ stream failures do not prove operating-system signal handling or filesystem rollback. RGB values are diagnostic, not calibrated colorimetry.
+
+**Next:** Cite subsequent PPM-provider compatibility separately; process output does not establish GUI display.
+
+### Existing PPM provider compatibility
+
+The unchanged isolated current PPM provider already accepts the exact synthetic scene output. It returns the expected 480 by 320 image, all 153,600 pixels correctly reordered into 614,400 BGRA bytes with opaque alpha. No production repair or artificial failing-test stage was needed.
+
+**Evidence:** Primary characterization passed nine assertions per configuration; independent characterization passed eleven per configuration, including complete pixel comparison, analytic anchors and unchanged-input checks. Historical parser suites were not replayed.
+
+**Failures and limits:** The initial source-lineage equality check correctly refused a different later provider revision. Exact reviewed successor metadata was explicitly accepted before dependent inspection or execution. A concurrent documentation read/hash race and a wrapper whitespace assumption were retained as setup/documentation failures, not source defects. This proves file-to-image-data compatibility, not selection callbacks, painting, Windows display or alpha preservation through P6.
+
+**Next:** Keep successful provider characterization separate from later GUI consumer evidence and its platform limits.
+
+### Original OBJ file to complete P6 consumer
+
+An original authored-file consumer connects the retained generic OBJ parser to a checked triangle-and-translation adapter, complete CPU frame and owned P6 bytes. Independent review accepted the isolated file/component chain. It does not repair or broaden the parser.
+
+**Evidence:** Primary focused checks passed six assertions per configuration. Regression passed 87 optimized assertions with 36 allocation-failure positions and 86 sanitized assertions with 35 positions: totals are therefore 93 optimized and 92 sanitized, not an equalized count. Independent checks passed 50 per configuration; nine optimized mutations were assertion-killed. Both absence baselines retained four intended failures in six assertions while real-parser controls passed. No primary or independent setup, oracle or source failure was reported.
+
+**Failures and limits:** Only positive-index triangle input is supported by this consumer; otherwise parser-valid polygons are refused rather than silently triangulated. Part translations and all admitted coordinates are checked. Cancellation covers existing parsing checkpoints, not rendering, blocked operating-system calls or retirement. File observations are not immutable snapshots, growth containment, aggregate-memory bounds or bounded execution time. Output is data, not a CLI or displayed-window result.
+
+**Next:** Keep the later shared-type Image bridge and executable consumer as separate stages rather than retroactively broadening this result.
+
+### DTO-independent Mesh to Image bridge
+
+An original direct Image consumer accepts supported current generic mesh and image field layouts without redefining caller-owned types. It stages a complete frame and explicit BGRA bytes before adoption, avoiding an encode/decode round trip. Independent review accepted the bounded bridge and affected file-route delegation.
+
+**Evidence:** Primary Image checks passed 36 assertions per configuration, including 14 allocation positions. The affected file route retained 93 optimized and 92 sanitized assertions. Independent Image checks passed 25 per configuration, with four affected-file checks recorded separately; eight optimized mutations were assertion-killed. The missing Image consumer produced five intended failures in five assertions. Separate primary and independent compile-refusal controls exercised different unsupported layouts. A real old duplicate-type compile conflict and the new supported entrypoint's successful compilation were retained as bounded integration evidence, not a full-application build.
+
+**Failures and limits:** Passing oracle cohorts were strengthened without a production-source correction; no independent setup, oracle or source failure was reported. The bridge avoids duplicate ownership at its new Image entrypoint; it does not globally deduplicate the old standalone file wrapper. Caller storage validity, ownership and no-invalid-aliasing remain preconditions. This produces owned Image data, not GUI adoption, painting or Windows acceptance.
+
+**Next:** Assess the actual filled-snapshot caller through its own lifecycle and display-boundary evidence.
+
+### Opt-in filled-snapshot IDE source integration
+
+Source-level integration adds an explicit Render filled snapshot / Show wireframe action for loaded generic OBJ data, using the existing owned offline job slot and thread. It captures mesh and view data, renders away from the UI owner and adopts only a matching complete Image under immutable shared ownership. Default wireframe remains; rendering does not reload, save or reset the model, history or drafts. Independent review accepted scoped Linux component/source integration, not observed Windows UI behavior.
+
+**Evidence:** The missing fit capability retained seven intended failures in seven assertions; the exact old command boundary retained one intended failure in three checks. Primary current fit and modeled-action cohorts passed seven and six assertions respectively. Independent math/Image checks passed 28,894 per configuration. The 168-assertion primary caller cohort applies through exact unchanged final caller fragments; it was not rerun as a whole-final-application test. Likewise, the 36-assertion independent report cohort applies only to exact unchanged reporting and no-Close cleanup fragments. Independent final-source lifecycle, join-boundary and paint cohorts passed 21, seven and 18 assertions per configuration, separately. Actual standard threads, joining and product Image math were used; native APIs and history, clear, sidecar and decoder effects were explicit models.
+
+**Failures and limits:** Genuine intermediate failures included callback-owner status overwrite, busy-entry toggling, declined-Close availability and a parent-versus-preview-child paint guard. Historical report and paint cohorts retained nine failures in 36 and two in 18; setup/extractor/build issues were distinguished. One query-reentry case is conservative modeled coverage, not documented native reachability. Cancellation is between stages, with no bounded Close time; join failure retains ownership rather than declaring retirement. Native drawing may be partial or uncertain, and same-key display-only changes during an arbitrarily reentrant drawing model are not separately guaranteed. No whole-window rollback is claimed.
+
+**Next:** Keep the later action-consistency correction distinct. Any actual Windows build, controls or pixel validation requires its own authorized result.
+
+### Filled-action consistency repair
+
+A narrow source-level repair reconciles the existing action after stale-cache fallback and ordinary clear/control synchronization. A stale filled view returns to Render filled snapshot; a non-generic cleared source cannot render. No automatic render, new controller or renderer, input-math, model or history algorithm was added. Final independent review accepted bounded Linux component/source behavior.
+
+**Evidence:** Final primary cohorts passed 23 action, five toggle-continuation and 168 affected-caller assertions per configuration, separately. A separate eleven-assertion native-return policy model passed per configuration. Independent final callback, paint and toggle cohorts passed 47, 25 and seven assertions per configuration. The primary baseline retained three failures in 23 assertions. The exact independent earlier baseline retained six failures in 47 callback and nine in 25 paint assertions; dependent expectations are not separate defects.
+
+**Failures and limits:** An initial acceptance was explicitly superseded after the toggle caller was found to overwrite a legitimate successor's status after its helper had already stopped. Primary and independent intermediate toggle checks retained one failure in five and two in seven respectively; final caller guards corrected the continuation. Three historical optimized mutations were killed and one redundant path-guard mutation survived; none is represented as a final-source mutation rerun. Receipt/inverse setup errors and an interrupted diagnostic remain separate. The independent native-return shim did not execute the false-caption-return branch; that branch has source review plus the separate primary policy model. Caption or enable delivery, originating native-call effects and pixels remain unconfirmed. Later stale continuation prevention is not native rollback or delivery confirmation. One summary cross-link was absent, but a separately checked terminal record independently bound the matching final review; consolidation did not run a new test.
+
+**Next:** Reconcile any separately approved Windows readiness or validation evidence without treating this source/component result as permission to transfer or execute.
+
+### Authored OBJ input for the existing diagnostic executable
+
+The actual Linux diagnostic executable now accepts a newly authored generic OBJ file and follows the reviewed parser, owned snapshot, fit, complete CPU frame and P6 output chain. The old no-argument demo remains byte-identical. Independent review accepted the eligible standalone executable, not a game or Windows host.
+
+**Evidence:** Primary checks passed 77 assertions per configuration, with a separate two-check feature oracle and eight actual process runs. Independent checks passed 54 component assertions plus ten executable checks across nine process cases per configuration. All 153,600 output pixels were classified against independently derived geometry. Eight optimized mutations were assertion-killed. The actual old-executable mode refusal supplied the intended missing-capability baseline: primary two intended failures in two assertions; independent two in three per configuration, with the old no-argument identity control passing. This was not a compiler/setup surrogate.
+
+**Failures and limits:** A primary empty-file oracle was corrected to the unchanged parser's explicit vertex requirement, retaining its failed record and a vertex-only clear control. A test-only build warning and an independent metadata-wording setup failure were separately retained; no production-source change followed first success. POSIX native paths, including raw non-UTF8 bytes and spaces, were tested. The new narrow-argument file mode deliberately refuses on Windows before conversion/read; this is source-reviewed, not a Windows build or a wide-path host. Parser read/growth/special-file limitations persist. Cancellation is parsing-only; failed output may leave prefix or full bytes, and fixed diagnostics can be lost.
+
+**Next:** A stronger input-read contract, if selected, needs separate evidence. This result does not establish snapshot authenticity, bounded operating-system time, display, device output or gameplay.
+
+## Earlier four-component review — October 26
 
 These are sanitized summaries of source-bound final evidence and independent verdicts reviewed by the native coordinator. This documentation preparation did not execute native/component tests or independently retrieve private receipts. Private source, paths, identities, packages and captures remain excluded; the results cannot be independently reproduced from this documentation-only repository. Assertion counts describe each stated configuration and scope, not additional historical acceptance. The sanitizer checks used ASan/UBSan with leak detection disabled; counts stated as "per reported configuration" refer to optimized and sanitizer Linux builds, not Windows builds. Current-runtime readiness, provenance, initializer and S2 gates remain unchanged.
 

@@ -408,17 +408,125 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-26",
-    "review_id": "2026-10-26-native-component-review-01",
-    "reviewed_through_commit": "c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f",
-    "summary": "Reviewed at 2026-10-26 11:54:03 UTC: four separately reviewed Linux/component results cover selected-file Refresh, a standalone original PCM controller, rasterizer edge coverage and a bounded bytes-only WAV stager. Windows compilation, device/audio and pixel validation for these source stages are not established by these component checks. All 30 broad task states, historical criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. No native game boot or new execution by this documentation review."
+    "review_id": "2026-10-26-original-render-chain-review-01",
+    "reviewed_through_commit": "61913492ab0afa4bd833761bae84c48b98efd0e6",
+    "summary": "Reviewed at 2026-10-26 22:14:47 UTC: nine separately reviewed original Linux stages cover camera/frame ownership, synthetic P6 output, PPM compatibility, OBJ/Image consumers, opt-in filled-source integration, action consistency and authored-file CLI output. Terminal review bindings were checked by the native reviewer; this documentation consolidation ran no native tests/builds. No Windows, device, native controls/pixels, complete IDE or native game-boot acceptance follows. All 30 broad tasks and historical criteria, accepted sets, stages, validation counters and prior observations remain unchanged."
   },
   "overview": {
-    "now": "Four additional Linux/component results cover selected-file Refresh, standalone PCM control, rasterizer edge coverage and bounded WAV staging. Their Windows/device behavior remains separately unverified. Earlier Windows build and partial-observation records retain their own scopes. No playable native game or complete IDE is established.",
-    "changed": "Reviewed at 2026-10-26 11:54:03 UTC: recorded four independently reviewed component results and retained their genuine failures, fixture corrections and remaining boundaries. No broad specification task or historical milestone was promoted.",
-    "why": "Make substantive source progress visible without equating component checks, overlapping assertion counts or source completion with Windows execution, audio output, game fidelity or native boot.",
-    "next": "The native owner continues a read-only WAV file-provider specification/review using the frozen decoder; no provider implementation or acceptance is established in this record. A bounded Windows PCM compile/tone task is admitted but has no execution result. Preserve unresolved newer OBJ reopen/cleanup, provenance, initializer and S2 gates."
+    "now": "Original Linux diagnostic rendering now has separately reviewed camera/frame, file-to-image and executable evidence, plus source/component filled-preview integration and an action repair. These are private diagnostic foundations; no playable native game or complete IDE is established.",
+    "changed": "Reviewed at 2026-10-26 22:14:47 UTC: recorded nine bounded original Linux results, including actual diagnostic P6 process output, unchanged PPM characterization and source/component integration. Historical failures, superseded acceptance and modeled/native boundaries remain explicit.",
+    "why": "Make completed diagnostic rendering and integration work visible without treating overlapping assertion cohorts, private images, source applicability or modeled native calls as Windows controls, device output or game acceptance.",
+    "next": "Review subsequent authored-file worker-to-snapshot integration only after its own terminal evidence is available. Keep Windows readiness, full-application provenance and actual controls/display acceptance separate; retain initializer and S2 gates. The later Windows WAV result awaits a separate exact sanitized receipt and is outside this review."
   },
   "updates": [
+    {
+      "id": "generic-camera-projection-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Original near-plane clipping and projection provider independently accepted at Linux/component scope: 91 primary and 126 independent assertions per configuration, with 13 optimized assertion-killed causal mutations. Default orthographic caller and prior renderer behavior stayed unchanged.",
+      "why": "Absence baselines are missing-capability evidence, not historical renderer defects. Conservative numeric refusal, affine interpolation, depth ties and shared-camera/depth preconditions remain; output-mesh preservation is not image rollback.",
+      "next": "Preserve these limits when citing the later complete-frame consumer; no additional camera feature or production-camera acceptance is implied.",
+      "evidence": [
+        "docs/status/current-status.md#original-generic-camera-projection"
+      ]
+    },
+    {
+      "id": "owned-camera-frame-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Original complete-frame owner independently accepted at Linux/component scope: 56 primary and 64 independent assertions per configuration, with nine optimized assertion-killed mutations. Actual rasterizer-budget refusal preserved the prior frame rather than adopting a partial draw.",
+      "why": "Harness setup error and initially ineffective accounting mutation retained. Complete-frame ownership is not concurrent-input safety, a physical-memory/time guarantee or GUI/display acceptance.",
+      "next": "Keep complete-frame ownership and partial-draw refusal separate from any later producer, display or platform acceptance.",
+      "evidence": [
+        "docs/status/current-status.md#owned-complete-camera-frame"
+      ]
+    },
+    {
+      "id": "synthetic-scene-p6-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An actual original Linux diagnostic scene executable produced a 480 by 320 P6 image, 460,815 bytes, and successful exit. Primary 75 and independent 48 assertions per configuration passed, with nine optimized assertion-killed mutations; actual usage refusal emitted zero image bytes.",
+      "why": "Setup and diagnostics-oracle failures retained. Stream/flush failure may leave prefix or full bytes; no filesystem rollback, signal-handling, GUI display, calibrated color or game-output claim.",
+      "next": "Cite subsequent PPM-provider compatibility separately; process output does not establish GUI display.",
+      "evidence": [
+        "docs/status/current-status.md#original-synthetic-scene-and-p6-executable"
+      ]
+    },
+    {
+      "id": "scene-ppm-provider-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The unchanged isolated current PPM provider accepted the exact synthetic scene output: all 153,600 pixels mapped to 614,400 opaque BGRA bytes. Primary nine and independent eleven characterization assertions per configuration passed; no parser repair or historical-suite replay was performed.",
+      "why": "Initial lineage refusal preceded explicit reviewed-successor admission. Documentation race/wrapper assumptions retained as setup failures. Image-data compatibility is not selection, painting, Windows display or P6 alpha preservation.",
+      "next": "Keep successful provider characterization separate from later GUI consumer evidence and its platform limits.",
+      "evidence": [
+        "docs/status/current-status.md#existing-ppm-provider-compatibility"
+      ]
+    },
+    {
+      "id": "obj-complete-p6-consumer-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Original authored-file/parser/triangle adapter/complete-frame/P6 chain independently accepted. Primary focused six plus regression 87 optimized or 86 sanitized gives 93/92 assertions, with differing actual allocation positions. Independent 50 per configuration and nine optimized assertion-killed mutations passed.",
+      "why": "Parser-valid nontriangle polygons refused; parser unchanged. Parsing-only cancellation, mutable file observations and OS/growth/memory/time limits remain. Owned output data is not CLI execution, displayed pixels or Windows acceptance.",
+      "next": "Keep the later shared-type Image bridge and executable consumer as separate stages rather than retroactively broadening this result.",
+      "evidence": [
+        "docs/status/current-status.md#original-obj-file-to-complete-p6-consumer"
+      ]
+    },
+    {
+      "id": "mesh-image-bridge-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Original current-layout Mesh-to-Image bridge independently accepted without redefining caller types or a P6 round trip. Primary Image 36 and independent Image 25 assertions per configuration passed; four independent affected-file checks stay separate, as do retained file-route 93/92 counts. Eight optimized mutations were assertion-killed.",
+      "why": "Unsupported-layout refusals and old duplicate-type conflict retained as bounded compile evidence, not whole-app build. Caller storage/ownership/no-invalid-aliasing preconditions remain; no GUI adoption, painting or Windows acceptance.",
+      "next": "Assess the actual filled-snapshot caller through its own lifecycle and display-boundary evidence.",
+      "evidence": [
+        "docs/status/current-status.md#dto-independent-mesh-to-image-bridge"
+      ]
+    },
+    {
+      "id": "filled-snapshot-integration-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Opt-in generic-OBJ filled snapshot independently accepted as Linux component/source integration. Primary fit seven and modeled action six, independent math/Image 28,894 and final lifecycle/join/paint 21/seven/18 per configuration remain separate. Historical 168 caller and 36 report assertions apply only through exactly unchanged fragments, not a whole-final-application rerun.",
+      "why": "Actual standard threads and Image math; native APIs/history/clear/sidecar/decoder effects modeled. Intermediate owner/toggle/Close/paint failures retained. No bounded Close, guaranteed native rollback, observed controls/pixels or Windows build.",
+      "next": "Keep the later action-consistency correction distinct. Any actual Windows build, controls or pixel validation requires its own authorized result.",
+      "evidence": [
+        "docs/status/current-status.md#opt-in-filled-snapshot-ide-source-integration"
+      ]
+    },
+    {
+      "id": "filled-action-consistency-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Narrow stale-cache/clear Render-action consistency repair independently accepted after superseding an earlier acceptance. Final primary action/toggle/affected-caller cohorts passed 23/five/168 and separate native-return model eleven per configuration; independent callback/paint/toggle passed 47/25/seven. Cohorts remain separate.",
+      "why": "Baseline/intermediate failures, superseded acceptance and surviving historical mutation retained; no final-source mutation rerun inferred. False-caption-return branch has source review plus primary model, not independent execution. Native delivery, effects and pixels unconfirmed; no transfer/execution authority.",
+      "next": "Reconcile any separately approved Windows readiness or validation evidence without treating this source/component result as permission to transfer or execute.",
+      "evidence": [
+        "docs/status/current-status.md#filled-action-consistency-repair"
+      ]
+    },
+    {
+      "id": "authored-obj-cli-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Actual Linux diagnostic executable accepts authored generic OBJ input; the old no-argument demo stays byte-identical. Primary 77 assertions plus separate feature oracle/process runs and independent 54 component plus ten executable checks across nine cases per configuration passed; eight optimized mutations were assertion-killed. All 153,600 pixels were classified independently.",
+      "why": "Actual old-mode refusal is the absence baseline; empty-file oracle/setup issues retained. POSIX path coverage is not a Windows host: new narrow-argument mode refuses Windows before read, source-reviewed only. Parsing/OS/output-prefix limits remain; no GUI, device or gameplay claim.",
+      "next": "A stronger input-read contract, if selected, needs separate evidence. This result does not establish snapshot authenticity, bounded operating-system time, display, device output or gameplay.",
+      "evidence": [
+        "docs/status/current-status.md#authored-obj-input-for-the-existing-diagnostic-executable"
+      ]
+    },
     {
       "id": "selected-file-refresh-linux-01",
       "date": "2026-10-26",
@@ -6572,11 +6680,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-26-original-render-chain-review-01",
+      "date": "2026-10-26",
+      "basis_commit": "61913492ab0afa4bd833761bae84c48b98efd0e6",
+      "note": "Reviewed at 2026-10-26 22:14:47 UTC: nine bounded Linux evidence records added, bringing the separate build map to 24 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Assertion cohorts, actual Linux process output, source applicability and modeled native effects remain distinct; failures and superseded acceptance retained. No Windows/game/device acceptance or new native test by this documentation review; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-26 11:54:03 UTC",
+    "reviewed_at": "2026-10-26 22:14:47 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -7028,6 +7198,69 @@
         "state": "tested",
         "update_id": "bounded-wave-stager-linux-01",
         "limit": "Bytes-only strict RIFF/WAVE PCM16 stereo subset; 1 MiB input/65,536 frames. No filesystem, CLI, device or game-format support. Some otherwise valid WAV variants rejected; corrected fixture error and non-killing mutant compile error retained."
+      },
+      {
+        "id": "generic-camera-projection-linux",
+        "label": "Original camera projection — Linux/component",
+        "state": "tested",
+        "update_id": "generic-camera-projection-linux-01",
+        "limit": "Absence baselines are missing-capability evidence, not historical renderer defects. Conservative numeric refusal, affine interpolation, depth ties and shared-camera/depth preconditions remain; output-mesh preservation is not image rollback."
+      },
+      {
+        "id": "owned-camera-frame-linux",
+        "label": "Owned complete camera frame — Linux/component",
+        "state": "tested",
+        "update_id": "owned-camera-frame-linux-01",
+        "limit": "Harness setup error and initially ineffective accounting mutation retained. Complete-frame ownership is not concurrent-input safety, a physical-memory/time guarantee or GUI/display acceptance."
+      },
+      {
+        "id": "synthetic-scene-p6-linux",
+        "label": "Original synthetic scene → P6 — Linux/executable",
+        "state": "tested",
+        "update_id": "synthetic-scene-p6-linux-01",
+        "limit": "Setup and diagnostics-oracle failures retained. Stream/flush failure may leave prefix or full bytes; no filesystem rollback, signal-handling, GUI display, calibrated color or game-output claim."
+      },
+      {
+        "id": "scene-ppm-provider-linux",
+        "label": "Existing PPM provider compatibility — Linux/component",
+        "state": "tested",
+        "update_id": "scene-ppm-provider-linux-01",
+        "limit": "Initial lineage refusal preceded explicit reviewed-successor admission. Documentation race/wrapper assumptions retained as setup failures. Image-data compatibility is not selection, painting, Windows display or P6 alpha preservation."
+      },
+      {
+        "id": "obj-complete-p6-consumer-linux",
+        "label": "Original OBJ file → complete P6 — Linux/component",
+        "state": "tested",
+        "update_id": "obj-complete-p6-consumer-linux-01",
+        "limit": "Parser-valid nontriangle polygons refused; parser unchanged. Parsing-only cancellation, mutable file observations and OS/growth/memory/time limits remain. Owned output data is not CLI execution, displayed pixels or Windows acceptance."
+      },
+      {
+        "id": "mesh-image-bridge-linux",
+        "label": "Mesh → owned Image bridge — Linux/component",
+        "state": "tested",
+        "update_id": "mesh-image-bridge-linux-01",
+        "limit": "Unsupported-layout refusals and old duplicate-type conflict retained as bounded compile evidence, not whole-app build. Caller storage/ownership/no-invalid-aliasing preconditions remain; no GUI adoption, painting or Windows acceptance."
+      },
+      {
+        "id": "filled-snapshot-integration-linux",
+        "label": "Opt-in filled snapshot — Linux/source integration",
+        "state": "tested",
+        "update_id": "filled-snapshot-integration-linux-01",
+        "limit": "Actual standard threads and Image math; native APIs/history/clear/sidecar/decoder effects modeled. Intermediate owner/toggle/Close/paint failures retained. No bounded Close, guaranteed native rollback, observed controls/pixels or Windows build."
+      },
+      {
+        "id": "filled-action-consistency-linux",
+        "label": "Filled-action consistency repair — Linux/source",
+        "state": "tested",
+        "update_id": "filled-action-consistency-linux-01",
+        "limit": "Baseline/intermediate failures, superseded acceptance and surviving historical mutation retained; no final-source mutation rerun inferred. False-caption-return branch has source review plus primary model, not independent execution. Native delivery, effects and pixels unconfirmed; no transfer/execution authority."
+      },
+      {
+        "id": "authored-obj-cli-linux",
+        "label": "Authored OBJ diagnostic executable — Linux/process",
+        "state": "tested",
+        "update_id": "authored-obj-cli-linux-01",
+        "limit": "Actual old-mode refusal is the absence baseline; empty-file oracle/setup issues retained. POSIX path coverage is not a Windows host: new narrow-argument mode refuses Windows before read, source-reviewed only. Parsing/OS/output-prefix limits remain; no GUI, device or gameplay claim."
       }
     ]
   }
