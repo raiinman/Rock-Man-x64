@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-26 · `2026-10-26-original-render-chain-review-01` · [reviewed basis 6191349](https://github.com/raiinman/Rock-Man-x64/commit/61913492ab0afa4bd833761bae84c48b98efd0e6).
-**Latest repository change observed:** [6191349](https://github.com/raiinman/Rock-Man-x64/commit/61913492ab0afa4bd833761bae84c48b98efd0e6) · 2026-10-26T21:36:49Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [ede3eaf](https://github.com/raiinman/Rock-Man-x64/commit/ede3eaf2425f73f155b5840f8fa41b700ceaca5d) · 2026-10-26T15:36:27-07:00 — docs: record nine bounded original rendering stages.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
