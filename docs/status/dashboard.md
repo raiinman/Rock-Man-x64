@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-26 · `2026-10-26-worker-reader-review-01` · [reviewed basis 92c778a](https://github.com/raiinman/Rock-Man-x64/commit/92c778ac93bf8e1629e4ac0a0b27155a1ae07d80).
-**Latest repository change observed:** [92c778a](https://github.com/raiinman/Rock-Man-x64/commit/92c778ac93bf8e1629e4ac0a0b27155a1ae07d80) · 2026-10-26T22:36:54Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [3fa7047](https://github.com/raiinman/Rock-Man-x64/commit/3fa7047a961812c23d39babca45d6f9242095bad) · 2026-10-26T16:17:15-07:00 — docs: record bounded worker composition and OBJ reader evidence.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 

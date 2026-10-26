@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "92c778ac93bf8e1629e4ac0a0b27155a1ae07d80",
-    "committed_at": "2026-10-26T22:36:54Z",
-    "subject": "docs: refresh generated progress tracker",
+    "sha": "3fa7047a961812c23d39babca45d6f9242095bad",
+    "committed_at": "2026-10-26T16:17:15-07:00",
+    "subject": "docs: record bounded worker composition and OBJ reader evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "514dc07cbb208d3efcdaa387983a42616b7fdcd14609f0112f28f5cc822d8b65",
