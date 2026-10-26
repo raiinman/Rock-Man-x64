@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-26 · `2026-10-26-bounded-build-component-review-01` · [reviewed basis 5f83d18](https://github.com/raiinman/Rock-Man-x64/commit/5f83d18d425ffd4922008626b981fcbdbae892af).
-**Latest repository change observed:** [5f83d18](https://github.com/raiinman/Rock-Man-x64/commit/5f83d18d425ffd4922008626b981fcbdbae892af) · 2026-10-26T03:55:09Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [1758cdb](https://github.com/raiinman/Rock-Man-x64/commit/1758cdbf82e8073574eb548c8acc60c522cb26ea) · 2026-10-25T21:14:43-07:00 — docs: reconcile bounded Windows and Linux component evidence.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 

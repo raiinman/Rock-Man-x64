@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "5f83d18d425ffd4922008626b981fcbdbae892af",
-    "committed_at": "2026-10-26T03:55:09Z",
-    "subject": "docs: refresh generated progress tracker",
+    "sha": "1758cdbf82e8073574eb548c8acc60c522cb26ea",
+    "committed_at": "2026-10-25T21:14:43-07:00",
+    "subject": "docs: reconcile bounded Windows and Linux component evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "3b7effb37e6952d12dc978582afa648f9f7b18481e3cf83459991bcdc17a30bd",
