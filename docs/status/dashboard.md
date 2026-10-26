@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-26 · `2026-10-26-retained-framing-receipt-01` · [reviewed basis 991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c).
-**Latest repository change observed:** [991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c) · 2026-10-26T04:17:57Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [373deef](https://github.com/raiinman/Rock-Man-x64/commit/373deef502653b20def8ad2349dee1189405f5c2) · 2026-10-26T04:48:36-07:00 — docs: acknowledge retained APEX packet-framing answer.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 

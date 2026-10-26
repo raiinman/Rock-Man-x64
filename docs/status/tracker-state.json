@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "991f03c6aa4b53366df4ed31cd32188237258f3c",
-    "committed_at": "2026-10-26T04:17:57Z",
-    "subject": "docs: refresh generated progress tracker",
+    "sha": "373deef502653b20def8ad2349dee1189405f5c2",
+    "committed_at": "2026-10-26T04:48:36-07:00",
+    "subject": "docs: acknowledge retained APEX packet-framing answer",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "2b54a7dfedf83d3d47f7e5bdb735ca728f7c80920385f9caa0d5644b3c16175b",
