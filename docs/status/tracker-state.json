@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "7fbece22dbaaed5c69172a407285a1663e076325",
-    "committed_at": "2026-10-25T12:52:43-07:00",
-    "subject": "docs: record bounded Linux component display-state evidence",
+    "sha": "cdabe02281eb89a8f5ff4a3c3be7378566627102",
+    "committed_at": "2026-10-25T20:47:40-07:00",
+    "subject": "docs: record zero-delta hourly review of both maps",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
