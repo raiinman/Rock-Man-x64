@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "1758cdbf82e8073574eb548c8acc60c522cb26ea",
-    "committed_at": "2026-10-25T21:14:43-07:00",
-    "subject": "docs: reconcile bounded Windows and Linux component evidence",
+    "sha": "991f03c6aa4b53366df4ed31cd32188237258f3c",
+    "committed_at": "2026-10-26T04:17:57Z",
+    "subject": "docs: refresh generated progress tracker",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "3b7effb37e6952d12dc978582afa648f9f7b18481e3cf83459991bcdc17a30bd",
+  "evidence_data_sha256": "2b54a7dfedf83d3d47f7e5bdb735ca728f7c80920385f9caa0d5644b3c16175b",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "a99b51ea920df4645b339dcc2db38b36514f293ed7169d494d2a530c3c2dba61",
-  "evidence_review_id": "2026-10-26-bounded-build-component-review-01",
+  "reviewed_stage_sha256": "25f99ef2c6167edbcbaff8e7fa4c47925da5b0e8741fbaaf904afc4bb541d50a",
+  "evidence_review_id": "2026-10-26-retained-framing-receipt-01",
   "evidence_review_date": "2026-10-26",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -116,7 +116,8 @@
     "4e2bd80761c7ad31e24d83c939a66ceaaaa8e7523c18d15fc6d3c9d132004d33",
     "c42622d799ea75d16915ec9022b6ad5132a2a9a30ea710c74e4e8cf095497ae5",
     "cddb964d4123e236d7ec06a6bcb57b468b310cf152c66e97efb3b473f62b4abf",
-    "171079afecc9ed1926c5bedcf5268bdc923dc37e65bcafbd24710fa88cca9d0a"
+    "171079afecc9ed1926c5bedcf5268bdc923dc37e65bcafbd24710fa88cca9d0a",
+    "ecd52cb5505d82e3d2fd45a034c51e6ade940d301bdfd27701a9e5fe8b59c2e9"
   ],
-  "reviewed_build_plan_sha256": "736d9dcf271602be0db99b7a5081a5cab3bb9e7533760a357f5d2c6cec0e367a"
+  "reviewed_build_plan_sha256": "a1665b27bc0762433767687a18dd26f6acd63894c38962f73dbc3c98191b0336"
 }

@@ -33,9 +33,9 @@ The goal includes a native game and editor. Documentation, research results and 
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-26 · `2026-10-26-bounded-build-component-review-01` · [reviewed basis 5f83d18](https://github.com/raiinman/Rock-Man-x64/commit/5f83d18d425ffd4922008626b981fcbdbae892af).
-**Latest repository change observed:** [1758cdb](https://github.com/raiinman/Rock-Man-x64/commit/1758cdbf82e8073574eb548c8acc60c522cb26ea) · 2026-10-25T21:14:43-07:00 — docs: reconcile bounded Windows and Linux component evidence.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-26 · `2026-10-26-retained-framing-receipt-01` · [reviewed basis 991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c).
+**Latest repository change observed:** [991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c) · 2026-10-26T04:17:57Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

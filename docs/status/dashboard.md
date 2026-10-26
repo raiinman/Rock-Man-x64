@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-26 · `2026-10-26-bounded-build-component-review-01` · [reviewed basis 5f83d18](https://github.com/raiinman/Rock-Man-x64/commit/5f83d18d425ffd4922008626b981fcbdbae892af).
-**Latest repository change observed:** [1758cdb](https://github.com/raiinman/Rock-Man-x64/commit/1758cdbf82e8073574eb548c8acc60c522cb26ea) · 2026-10-25T21:14:43-07:00 — docs: reconcile bounded Windows and Linux component evidence.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-26 · `2026-10-26-retained-framing-receipt-01` · [reviewed basis 991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c).
+**Latest repository change observed:** [991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c) · 2026-10-26T04:17:57Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -566,13 +566,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
 | 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
 | 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
+| 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-26 04:02:34 UTC.
+**Map reviewed:** 2026-10-26 04:19:14 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -723,9 +729,9 @@ Deterministic component fixtures and source-owned join only. Optimized/ASan/UBSa
 
 **Now:** An older combined Windows successor has bounded reported build/runtime evidence; a newer OBJ-reopen build has partial observations but inconclusive reopening and unverified closure. Five newer Linux/component results retain separate scopes. No playable native game or complete IDE is established.
 
-**Changed:** Recorded strict Windows builds, distinct older synthetic flow/Close evidence, newer automatic sidecar and source-only page-zero observations with inconclusive reopen/cleanup, and five reviewed Linux/component fixes. Earlier failed attempts retain their scopes.
+**Changed:** Reviewed at 2026-10-26 04:19:14 UTC: native root acknowledges the completed public retained packet-framing answer for quick fill, variable polyline and CPU-to-VRAM upload. The answer retains its shared-source/provenance and parser-deduction limits. No new research assignment, parser, native test or acceptance follows.
 
-**Why:** Keep useful build and component evidence visible without inheriting runtime coverage across successors, hiding failed attempts, summing overlapping test inventories or promoting task/milestone acceptance.
+**Why:** Close the specific public coordination loop without repeating its completed question. Shared PSX-SPX lineage is not independent corroboration or implementation clearance; framing does not supply the selected write/state/effect/commit oracle.
 
 **Next:** Keep newer reopen-after-switch and normal shutdown/cleanup unverified; no further input or denied-process-check workaround is claimed. Obtain a distinct bounded executor outcome. Review planned Refresh selected file contract separately; preserve native ownership, provenance, S2 and initializer gates.
 
