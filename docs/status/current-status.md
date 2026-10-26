@@ -2,7 +2,7 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Latest evidence review: 2026-10-26, 04:02:34 UTC.** Separate Windows build/runtime outcomes and five Linux/component results are recorded below. The newer synchronous OBJ-reopen instance has narrow partial observations, inconclusive reopen testing and unverified closure. Earlier checkpoints retain their original scopes.
+**Latest native evidence review: 2026-10-26 11:54:03 UTC.** Four additional Linux/component results are recorded below. These checks do not establish Windows compilation, device/audio behavior, pixels or native game boot for the new source stages. Earlier Windows results retain their separate scopes, including inconclusive synchronous OBJ reopening and unverified closure.
 
 **Earlier source implementation checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 
@@ -10,6 +10,40 @@ The October 25 Linux/component successor and Windows validation entries below re
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
+
+These are sanitized summaries of source-bound final evidence and independent verdicts reviewed by the native coordinator. This documentation preparation did not execute native/component tests or independently retrieve private receipts. Private source, paths, identities, packages and captures remain excluded; the results cannot be independently reproduced from this documentation-only repository. Assertion counts describe each stated configuration and scope, not additional historical acceptance. The sanitizer checks used ASan/UBSan with leak detection disabled; counts stated as "per reported configuration" refer to optimized and sanitizer Linux builds, not Windows builds. Current-runtime readiness, provenance, initializer and S2 gates remain unchanged.
+
+## Selected-file Refresh component check — October 26
+
+The explicit selected-file Refresh successor is implemented and independently accepted within Linux/component scope. It requires fresh-size and page-zero acceptance before commit, preserves folder/filter membership, and retains existing Save/Discard/Cancel and asynchronous OBJ ownership. Primary checks passed 154 assertions per optimized and ASan/UBSan configuration; independent checks passed 51 workflow plus 46 layout assertions per configuration, with eight final causal mutants killed.
+
+Refresh now has bounded source/component evidence beyond the earlier planned contract. Overlapping primary, independent and repeated-configuration inventories are not summed as distinct tests.
+
+Keep Windows build and pixel behavior unverified. Operating-system reads and deferred Close may block; logical path binding is not file-snapshot identity. Review the next independent slice without promoting complete IDE or native boot acceptance.
+
+## Standalone PCM controller component check — October 26
+
+The original standalone PCM controller, real WinMM adapter and console-host source are complete, with source-bound lifetime/cleanup review. Portable primary checks passed 52 controller plus four diagnostic assertions per reported configuration; independent checks passed 206 plus 15 per configuration, with six mutants killed. A genuine failed-Write fast-DONE error was fixed; fixture/setup failures remain retained.
+
+Separates portable controller correctness and source review from compilation and actual device behavior. Only original synthetic PCM is covered; this is not runtime or mixer integration. Overlapping assertion inventories are not a distinct-test total.
+
+A bounded Windows compile/tone task is admitted, but no execution evidence exists in this review. Windows compilation, device cleanup and audible output remain unverified until an actual separately scoped result is recorded.
+
+## Rasterizer edge coverage component check — October 26
+
+The original CPU rasterizer right/bottom pixel-centre coverage defect was repaired and independently frozen. Against existing source, 32 assertions produced 18 intended RED failures; the successor passed all 32. Primary regression passed 43 assertions per reported configuration; independent checks passed 203 per configuration, with seven assertion-killed mutants. Only the rasterizer changed; 17 other source files remained unchanged.
+
+Records a reproduced defect and causal repair with unaffected-source preservation. Repeated configurations and reviewer inventories overlap; their counts are not summed into unique tests or game-fidelity evidence.
+
+Retain the frozen component result. No Windows build, device rendering, original-game fidelity or native boot is established by this rasterizer check.
+
+## Bounded WAVE stager component check — October 26
+
+A new bytes-only RIFF/WAVE PCM16 stereo stager is independently frozen, bounded to 1 MiB input and 65,536 frames. It validates complete chunks and tails and preserves prior output atomically on failure. The missing-capability RED check had five intended failures in eight assertions. Primary checks passed 196 assertions per reported configuration; independent checks passed 506 per configuration, with nine assertion-killed controls.
+
+Establishes a bounded strict decoder subset without filesystem, CLI, device or game-format support. An oversized reviewer fixture caused one test error among 362 assertions and was corrected; a mutant-format compilation error was not counted as a kill. Overlapping inventories are not summed.
+
+The native owner is specifying/reviewing a read-only WAV file provider using the frozen decoder. It is not implemented or accepted in this record. Preserve the strict-subset limit: some otherwise valid WAV variants are rejected.
 
 ## Combined successor build and synthetic flow — October 26
 
@@ -47,7 +81,7 @@ The four component results above are independently reviewed and frozen. Each has
 
 The reviewed generic OBJ background-loading result is frozen. Deterministic fixtures checked decoding away from the UI owner and the exact source-owned join: **provider 106 per configuration**, **primary job 66**, **independent 65 plus six targeted per configuration**, and **13 mutants killed**. Optimized and ASan/UBSan evidence has leak detection disabled. These inventories overlap and are not summed; intermediate source/test/race failures remain preserved.
 
-This result does not establish native GUI responsiveness or a bounded wall-clock Close guarantee. A blocked operating-system I/O operation may delay joining the worker. The separate Refresh selected file contract remains planned: no implementation or acceptance is claimed for it.
+This result does not establish native GUI responsiveness or a bounded wall-clock Close guarantee. A blocked operating-system I/O operation may delay joining the worker. At that checkpoint, the separate Refresh selected file contract was planned. The later [selected-file Refresh component record](#selected-file-refresh-component-check--october-26) above supersedes that planning status within its stated Linux/component scope.
 
 All these records leave historical acceptance, stage states, validation counters and all **30 planned specification tasks** unchanged. Private source, paths, identities, packages, download links and captures remain excluded. The private results are not independently reproducible from this documentation-only repository. Native boot, complete IDE acceptance, provenance, S2 and initializer gates do not advance.
 

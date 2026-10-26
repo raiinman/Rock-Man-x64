@@ -4,6 +4,54 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-26 · selected-file-refresh-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** The explicit selected-file Refresh successor is implemented and independently accepted within Linux/component scope. It requires fresh-size and page-zero acceptance before commit, preserves folder/filter membership, and retains existing Save/Discard/Cancel and asynchronous OBJ ownership. Primary checks passed 154 assertions per optimized and ASan/UBSan configuration; independent checks passed 51 workflow plus 46 layout assertions per configuration, with eight final causal mutants killed.
+
+**Why:** Refresh now has bounded source/component evidence beyond the earlier planned contract. Overlapping primary, independent and repeated-configuration inventories are not summed as distinct tests.
+
+**Next:** Keep Windows build and pixel behavior unverified. Operating-system reads and deferred Close may block; logical path binding is not file-snapshot identity. Review the next independent slice without promoting complete IDE or native boot acceptance.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#selected-file-refresh-component-check--october-26).
+
+## 2026-10-26 · standalone-pcm-controller-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** The original standalone PCM controller, real WinMM adapter and console-host source are complete, with source-bound lifetime/cleanup review. Portable primary checks passed 52 controller plus four diagnostic assertions per reported configuration; independent checks passed 206 plus 15 per configuration, with six mutants killed. A genuine failed-Write fast-DONE error was fixed; fixture/setup failures remain retained.
+
+**Why:** Separates portable controller correctness and source review from compilation and actual device behavior. Only original synthetic PCM is covered; this is not runtime or mixer integration. Overlapping assertion inventories are not a distinct-test total.
+
+**Next:** A bounded Windows compile/tone task is admitted, but no execution evidence exists in this review. Windows compilation, device cleanup and audible output remain unverified until an actual separately scoped result is recorded.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#standalone-pcm-controller-component-check--october-26).
+
+## 2026-10-26 · rasterizer-edge-coverage-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** The original CPU rasterizer right/bottom pixel-centre coverage defect was repaired and independently frozen. Against existing source, 32 assertions produced 18 intended RED failures; the successor passed all 32. Primary regression passed 43 assertions per reported configuration; independent checks passed 203 per configuration, with seven assertion-killed mutants. Only the rasterizer changed; 17 other source files remained unchanged.
+
+**Why:** Records a reproduced defect and causal repair with unaffected-source preservation. Repeated configurations and reviewer inventories overlap; their counts are not summed into unique tests or game-fidelity evidence.
+
+**Next:** Retain the frozen component result. No Windows build, device rendering, original-game fidelity or native boot is established by this rasterizer check.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#rasterizer-edge-coverage-component-check--october-26).
+
+## 2026-10-26 · bounded-wave-stager-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** A new bytes-only RIFF/WAVE PCM16 stereo stager is independently frozen, bounded to 1 MiB input and 65,536 frames. It validates complete chunks and tails and preserves prior output atomically on failure. The missing-capability RED check had five intended failures in eight assertions. Primary checks passed 196 assertions per reported configuration; independent checks passed 506 per configuration, with nine assertion-killed controls.
+
+**Why:** Establishes a bounded strict decoder subset without filesystem, CLI, device or game-format support. An oversized reviewer fixture caused one test error among 362 assertions and was corrected; a mutant-format compilation error was not counted as a kill. Overlapping inventories are not summed.
+
+**Next:** The native owner is specifying/reviewing a read-only WAV file provider using the frozen decoder. It is not implemented or accepted in this record. Preserve the strict-subset limit: some otherwise valid WAV variants are rejected.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#bounded-wave-stager-component-check--october-26).
+
 ## 2026-10-26 · retained-framing-receipt-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1469,3 +1517,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |

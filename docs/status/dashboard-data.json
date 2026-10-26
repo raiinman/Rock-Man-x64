@@ -408,17 +408,65 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-26",
-    "review_id": "2026-10-26-retained-framing-receipt-01",
-    "reviewed_through_commit": "991f03c6aa4b53366df4ed31cd32188237258f3c",
-    "summary": "Reviewed at 2026-10-26 04:19:14 UTC: native root acknowledges the completed public retained packet-framing answer for quick fill, variable polyline and CPU-to-VRAM upload. The answer retains its shared-source/provenance and parser-deduction limits. No new research assignment, parser, native test or acceptance follows. Both saved maps were reviewed: 30 tasks and 11 bounded build records, historical criteria, stages, validation counters and acceptance remain unchanged. No new private-build review or execution occurred."
+    "review_id": "2026-10-26-native-component-review-01",
+    "reviewed_through_commit": "c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f",
+    "summary": "Reviewed at 2026-10-26 11:54:03 UTC: four separately reviewed Linux/component results cover selected-file Refresh, a standalone original PCM controller, rasterizer edge coverage and a bounded bytes-only WAV stager. Windows compilation, device/audio and pixel validation for these source stages are not established by these component checks. All 30 broad task states, historical criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. No native game boot or new execution by this documentation review."
   },
   "overview": {
-    "now": "An older combined Windows successor has bounded reported build/runtime evidence; a newer OBJ-reopen build has partial observations but inconclusive reopening and unverified closure. Five newer Linux/component results retain separate scopes. No playable native game or complete IDE is established.",
-    "changed": "Reviewed at 2026-10-26 04:19:14 UTC: native root acknowledges the completed public retained packet-framing answer for quick fill, variable polyline and CPU-to-VRAM upload. The answer retains its shared-source/provenance and parser-deduction limits. No new research assignment, parser, native test or acceptance follows.",
-    "why": "Close the specific public coordination loop without repeating its completed question. Shared PSX-SPX lineage is not independent corroboration or implementation clearance; framing does not supply the selected write/state/effect/commit oracle.",
-    "next": "Keep newer reopen-after-switch and normal shutdown/cleanup unverified; no further input or denied-process-check workaround is claimed. Obtain a distinct bounded executor outcome. Review planned Refresh selected file contract separately; preserve native ownership, provenance, S2 and initializer gates."
+    "now": "Four additional Linux/component results cover selected-file Refresh, standalone PCM control, rasterizer edge coverage and bounded WAV staging. Their Windows/device behavior remains separately unverified. Earlier Windows build and partial-observation records retain their own scopes. No playable native game or complete IDE is established.",
+    "changed": "Reviewed at 2026-10-26 11:54:03 UTC: recorded four independently reviewed component results and retained their genuine failures, fixture corrections and remaining boundaries. No broad specification task or historical milestone was promoted.",
+    "why": "Make substantive source progress visible without equating component checks, overlapping assertion counts or source completion with Windows execution, audio output, game fidelity or native boot.",
+    "next": "The native owner continues a read-only WAV file-provider specification/review using the frozen decoder; no provider implementation or acceptance is established in this record. A bounded Windows PCM compile/tone task is admitted but has no execution result. Preserve unresolved newer OBJ reopen/cleanup, provenance, initializer and S2 gates."
   },
   "updates": [
+    {
+      "id": "selected-file-refresh-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The explicit selected-file Refresh successor is implemented and independently accepted within Linux/component scope. It requires fresh-size and page-zero acceptance before commit, preserves folder/filter membership, and retains existing Save/Discard/Cancel and asynchronous OBJ ownership. Primary checks passed 154 assertions per optimized and ASan/UBSan configuration; independent checks passed 51 workflow plus 46 layout assertions per configuration, with eight final causal mutants killed.",
+      "why": "Refresh now has bounded source/component evidence beyond the earlier planned contract. Overlapping primary, independent and repeated-configuration inventories are not summed as distinct tests.",
+      "next": "Keep Windows build and pixel behavior unverified. Operating-system reads and deferred Close may block; logical path binding is not file-snapshot identity. Review the next independent slice without promoting complete IDE or native boot acceptance.",
+      "evidence": [
+        "docs/status/current-status.md#selected-file-refresh-component-check--october-26"
+      ]
+    },
+    {
+      "id": "standalone-pcm-controller-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The original standalone PCM controller, real WinMM adapter and console-host source are complete, with source-bound lifetime/cleanup review. Portable primary checks passed 52 controller plus four diagnostic assertions per reported configuration; independent checks passed 206 plus 15 per configuration, with six mutants killed. A genuine failed-Write fast-DONE error was fixed; fixture/setup failures remain retained.",
+      "why": "Separates portable controller correctness and source review from compilation and actual device behavior. Only original synthetic PCM is covered; this is not runtime or mixer integration. Overlapping assertion inventories are not a distinct-test total.",
+      "next": "A bounded Windows compile/tone task is admitted, but no execution evidence exists in this review. Windows compilation, device cleanup and audible output remain unverified until an actual separately scoped result is recorded.",
+      "evidence": [
+        "docs/status/current-status.md#standalone-pcm-controller-component-check--october-26"
+      ]
+    },
+    {
+      "id": "rasterizer-edge-coverage-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The original CPU rasterizer right/bottom pixel-centre coverage defect was repaired and independently frozen. Against existing source, 32 assertions produced 18 intended RED failures; the successor passed all 32. Primary regression passed 43 assertions per reported configuration; independent checks passed 203 per configuration, with seven assertion-killed mutants. Only the rasterizer changed; 17 other source files remained unchanged.",
+      "why": "Records a reproduced defect and causal repair with unaffected-source preservation. Repeated configurations and reviewer inventories overlap; their counts are not summed into unique tests or game-fidelity evidence.",
+      "next": "Retain the frozen component result. No Windows build, device rendering, original-game fidelity or native boot is established by this rasterizer check.",
+      "evidence": [
+        "docs/status/current-status.md#rasterizer-edge-coverage-component-check--october-26"
+      ]
+    },
+    {
+      "id": "bounded-wave-stager-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "A new bytes-only RIFF/WAVE PCM16 stereo stager is independently frozen, bounded to 1 MiB input and 65,536 frames. It validates complete chunks and tails and preserves prior output atomically on failure. The missing-capability RED check had five intended failures in eight assertions. Primary checks passed 196 assertions per reported configuration; independent checks passed 506 per configuration, with nine assertion-killed controls.",
+      "why": "Establishes a bounded strict decoder subset without filesystem, CLI, device or game-format support. An oversized reviewer fixture caused one test error among 362 assertions and was corrected; a mutant-format compilation error was not counted as a kill. Overlapping inventories are not summed.",
+      "next": "The native owner is specifying/reviewing a read-only WAV file provider using the frozen decoder. It is not implemented or accepted in this record. Preserve the strict-subset limit: some otherwise valid WAV variants are rejected.",
+      "evidence": [
+        "docs/status/current-status.md#bounded-wave-stager-component-check--october-26"
+      ]
+    },
     {
       "id": "retained-framing-receipt-01",
       "date": "2026-10-26",
@@ -6462,11 +6510,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-26-native-component-review-01",
+      "date": "2026-10-26",
+      "basis_commit": "c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f",
+      "note": "Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-26 04:19:14 UTC",
+    "reviewed_at": "2026-10-26 11:54:03 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -6890,6 +7000,34 @@
         "state": "tested",
         "update_id": "generic-obj-background-linux-01",
         "limit": "Deterministic component fixtures and source-owned join only. Optimized/ASan/UBSan evidence, leak detection disabled; overlapping counts not summed. No native GUI or bounded wall-clock Close guarantee; blocked OS I/O may delay join."
+      },
+      {
+        "id": "selected-file-refresh-linux",
+        "label": "Refresh the selected file — Linux/component",
+        "state": "tested",
+        "update_id": "selected-file-refresh-linux-01",
+        "limit": "Linux/component scope only; no Windows build or pixels. OS reads/deferred Close may block; logical path binding is not snapshot identity. Existing Save/Discard/Cancel and async OBJ ownership retained."
+      },
+      {
+        "id": "standalone-pcm-controller-linux",
+        "label": "Standalone original PCM controller — Linux/component",
+        "state": "tested",
+        "update_id": "standalone-pcm-controller-linux-01",
+        "limit": "Portable Linux/component and source review only; Windows-facing adapter/console source is not a Windows build or device/audio pass. Original synthetic PCM only; no runtime/mixer integration. Admitted compile/tone task has no execution result."
+      },
+      {
+        "id": "rasterizer-edge-coverage-linux",
+        "label": "Rasterizer right/bottom coverage — Linux/component",
+        "state": "tested",
+        "update_id": "rasterizer-edge-coverage-linux-01",
+        "limit": "Original CPU rasterizer component fixtures only; 18 intended RED failures retained. No Windows/device rendering, game-fidelity or native-boot claim; 17 other source files unchanged."
+      },
+      {
+        "id": "bounded-wave-stager-linux",
+        "label": "Bounded bytes-only WAV staging — Linux/component",
+        "state": "tested",
+        "update_id": "bounded-wave-stager-linux-01",
+        "limit": "Bytes-only strict RIFF/WAVE PCM16 stereo subset; 1 MiB input/65,536 frames. No filesystem, CLI, device or game-format support. Some otherwise valid WAV variants rejected; corrected fixture error and non-killing mutant compile error retained."
       }
     ]
   }

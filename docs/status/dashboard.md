@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-26 · `2026-10-26-retained-framing-receipt-01` · [reviewed basis 991f03c](https://github.com/raiinman/Rock-Man-x64/commit/991f03c6aa4b53366df4ed31cd32188237258f3c).
-**Latest repository change observed:** [373deef](https://github.com/raiinman/Rock-Man-x64/commit/373deef502653b20def8ad2349dee1189405f5c2) · 2026-10-26T04:48:36-07:00 — docs: acknowledge retained APEX packet-framing answer.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-26 · `2026-10-26-native-component-review-01` · [reviewed basis c4497c7](https://github.com/raiinman/Rock-Man-x64/commit/c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f).
+**Latest repository change observed:** [c4497c7](https://github.com/raiinman/Rock-Man-x64/commit/c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f) · 2026-10-26T11:49:06Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -572,13 +572,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
 | 2026-10-26 · `2026-10-26-retained-framing-receipt-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 04:19:14 UTC: public retained packet-framing receipt only. Shared-source/provenance and selected-write/state/effect/commit-oracle limits remain; no new research assignment, private-build review or execution. All prior observations, stages, criteria/versions/accepted IDs and numerical validation records remain unchanged; 30 tasks and 11 bounded build records retain their scopes. Zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
+| 2026-10-26 · `2026-10-26-native-component-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 11:54:03 UTC: four bounded Linux/component evidence records added; 15 build records retain separate platform/scope limits. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and prior observations are unchanged. Genuine failures and corrected fixture outcomes remain recorded. No new Windows execution, device/audio acceptance, game fidelity or native boot; zero historical acceptance delta. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-26 04:19:14 UTC.
+**Map reviewed:** 2026-10-26 11:54:03 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -692,6 +698,46 @@ Deterministic component fixtures and source-owned join only. Optimized/ASan/UBSa
 
 **Evidence:** [evidence](../../docs/status/current-status.md#generic-obj-background-loading-component-check--october-26)
 
+### Refresh the selected file — Linux/component
+
+**Recorded state:** tested.
+
+The explicit selected-file Refresh successor is implemented and independently accepted within Linux/component scope. It requires fresh-size and page-zero acceptance before commit, preserves folder/filter membership, and retains existing Save/Discard/Cancel and asynchronous OBJ ownership. Primary checks passed 154 assertions per optimized and ASan/UBSan configuration; independent checks passed 51 workflow plus 46 layout assertions per configuration, with eight final causal mutants killed.
+
+Linux/component scope only; no Windows build or pixels. OS reads/deferred Close may block; logical path binding is not snapshot identity. Existing Save/Discard/Cancel and async OBJ ownership retained.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#selected-file-refresh-component-check--october-26)
+
+### Standalone original PCM controller — Linux/component
+
+**Recorded state:** tested.
+
+The original standalone PCM controller, real WinMM adapter and console-host source are complete, with source-bound lifetime/cleanup review. Portable primary checks passed 52 controller plus four diagnostic assertions per reported configuration; independent checks passed 206 plus 15 per configuration, with six mutants killed. A genuine failed-Write fast-DONE error was fixed; fixture/setup failures remain retained.
+
+Portable Linux/component and source review only; Windows-facing adapter/console source is not a Windows build or device/audio pass. Original synthetic PCM only; no runtime/mixer integration. Admitted compile/tone task has no execution result.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#standalone-pcm-controller-component-check--october-26)
+
+### Rasterizer right/bottom coverage — Linux/component
+
+**Recorded state:** tested.
+
+The original CPU rasterizer right/bottom pixel-centre coverage defect was repaired and independently frozen. Against existing source, 32 assertions produced 18 intended RED failures; the successor passed all 32. Primary regression passed 43 assertions per reported configuration; independent checks passed 203 per configuration, with seven assertion-killed mutants. Only the rasterizer changed; 17 other source files remained unchanged.
+
+Original CPU rasterizer component fixtures only; 18 intended RED failures retained. No Windows/device rendering, game-fidelity or native-boot claim; 17 other source files unchanged.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#rasterizer-edge-coverage-component-check--october-26)
+
+### Bounded bytes-only WAV staging — Linux/component
+
+**Recorded state:** tested.
+
+A new bytes-only RIFF/WAVE PCM16 stereo stager is independently frozen, bounded to 1 MiB input and 65,536 frames. It validates complete chunks and tails and preserves prior output atomically on failure. The missing-capability RED check had five intended failures in eight assertions. Primary checks passed 196 assertions per reported configuration; independent checks passed 506 per configuration, with nine assertion-killed controls.
+
+Bytes-only strict RIFF/WAVE PCM16 stereo subset; 1 MiB input/65,536 frames. No filesystem, CLI, device or game-format support. Some otherwise valid WAV variants rejected; corrected fixture error and non-killing mutant compile error retained.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#bounded-wave-stager-component-check--october-26)
+
 | Task | Recorded state | Task prerequisites | State explanation |
 |---|---|---|---|
 | [SI-01: Choose a bounded source slice](../../tasks/spec-implementation/todo.md#si-01) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
@@ -727,13 +773,13 @@ Deterministic component fixtures and source-owned join only. Optimized/ASan/UBSa
 
 ## Current explanation
 
-**Now:** An older combined Windows successor has bounded reported build/runtime evidence; a newer OBJ-reopen build has partial observations but inconclusive reopening and unverified closure. Five newer Linux/component results retain separate scopes. No playable native game or complete IDE is established.
+**Now:** Four additional Linux/component results cover selected-file Refresh, standalone PCM control, rasterizer edge coverage and bounded WAV staging. Their Windows/device behavior remains separately unverified. Earlier Windows build and partial-observation records retain their own scopes. No playable native game or complete IDE is established.
 
-**Changed:** Reviewed at 2026-10-26 04:19:14 UTC: native root acknowledges the completed public retained packet-framing answer for quick fill, variable polyline and CPU-to-VRAM upload. The answer retains its shared-source/provenance and parser-deduction limits. No new research assignment, parser, native test or acceptance follows.
+**Changed:** Reviewed at 2026-10-26 11:54:03 UTC: recorded four independently reviewed component results and retained their genuine failures, fixture corrections and remaining boundaries. No broad specification task or historical milestone was promoted.
 
-**Why:** Close the specific public coordination loop without repeating its completed question. Shared PSX-SPX lineage is not independent corroboration or implementation clearance; framing does not supply the selected write/state/effect/commit oracle.
+**Why:** Make substantive source progress visible without equating component checks, overlapping assertion counts or source completion with Windows execution, audio output, game fidelity or native boot.
 
-**Next:** Keep newer reopen-after-switch and normal shutdown/cleanup unverified; no further input or denied-process-check workaround is claimed. Obtain a distinct bounded executor outcome. Review planned Refresh selected file contract separately; preserve native ownership, provenance, S2 and initializer gates.
+**Next:** The native owner continues a read-only WAV file-provider specification/review using the frozen decoder; no provider implementation or acceptance is established in this record. A bounded Windows PCM compile/tone task is admitted but has no execution result. Preserve unresolved newer OBJ reopen/cleanup, provenance, initializer and S2 gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

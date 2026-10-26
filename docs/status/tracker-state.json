@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "373deef502653b20def8ad2349dee1189405f5c2",
-    "committed_at": "2026-10-26T04:48:36-07:00",
-    "subject": "docs: acknowledge retained APEX packet-framing answer",
+    "sha": "c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f",
+    "committed_at": "2026-10-26T11:49:06Z",
+    "subject": "docs: refresh generated progress tracker",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "2b54a7dfedf83d3d47f7e5bdb735ca728f7c80920385f9caa0d5644b3c16175b",
+  "evidence_data_sha256": "cc2d40bffe7bdc5c28ba6db8d8e264a6befa62a030bed066bc03daa5978bf5c6",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "25f99ef2c6167edbcbaff8e7fa4c47925da5b0e8741fbaaf904afc4bb541d50a",
-  "evidence_review_id": "2026-10-26-retained-framing-receipt-01",
+  "reviewed_stage_sha256": "a360c6783972a687297635b4850f84eb2dd50118a29c3b842f76de09a75b2378",
+  "evidence_review_id": "2026-10-26-native-component-review-01",
   "evidence_review_date": "2026-10-26",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -117,7 +117,8 @@
     "c42622d799ea75d16915ec9022b6ad5132a2a9a30ea710c74e4e8cf095497ae5",
     "cddb964d4123e236d7ec06a6bcb57b468b310cf152c66e97efb3b473f62b4abf",
     "171079afecc9ed1926c5bedcf5268bdc923dc37e65bcafbd24710fa88cca9d0a",
-    "ecd52cb5505d82e3d2fd45a034c51e6ade940d301bdfd27701a9e5fe8b59c2e9"
+    "ecd52cb5505d82e3d2fd45a034c51e6ade940d301bdfd27701a9e5fe8b59c2e9",
+    "0c538e7f3dc83cd8065bc261086816b496f703874c500830206a42b7f975b1b0"
   ],
-  "reviewed_build_plan_sha256": "a1665b27bc0762433767687a18dd26f6acd63894c38962f73dbc3c98191b0336"
+  "reviewed_build_plan_sha256": "e4c698ed9c53953df8e45997e8223c316b5751bce33d2d450915bd5544170db4"
 }
