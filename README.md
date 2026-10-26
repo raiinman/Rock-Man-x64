@@ -34,8 +34,8 @@ The goal includes a native game and editor. Documentation, research results and 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-26 · `2026-10-26-native-component-review-01` · [reviewed basis c4497c7](https://github.com/raiinman/Rock-Man-x64/commit/c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f).
-**Latest repository change observed:** [c4497c7](https://github.com/raiinman/Rock-Man-x64/commit/c4497c76f54fb0d4c9e301cec59ea1cd5bd01d6f) · 2026-10-26T11:49:06Z — docs: refresh generated progress tracker.
-**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
+**Latest repository change observed:** [aae4981](https://github.com/raiinman/Rock-Man-x64/commit/aae49815a918dd5215df77567d83387528d232ee) · 2026-10-26T14:36:19-07:00 — docs: record four bounded Linux component results.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
 
