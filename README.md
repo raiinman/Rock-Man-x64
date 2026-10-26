@@ -25,17 +25,17 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** A bounded Linux/component display-state guard passed reported checks; the earlier Windows interaction/reload checks retain their separate scopes. Native game boot and the complete IDE remain unestablished.
+**Where we are:** A reported Windows synthetic selected-part edit and Undo check adds bounded UI evidence on the unchanged earlier executable. The newer Linux/component successor, complete IDE and native game boot remain separately unverified on Windows.
 
-**Next useful step:** Windows validation remains pending under the applicable bounded procedure and current owner availability; no current UI execution is claimed. Preserve existing native ownership, provenance, S2 and initializer gates and continue independent authorized source work.
+**Next useful step:** Review a distinct remaining workflow with its existing owner. Windows validation of the Linux/component display-state successor remains pending; this check used the unchanged earlier executable. Preserve native ownership, provenance, S2 and initializer gates.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-2008` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
-**Latest repository change observed:** [cdabe02](https://github.com/raiinman/Rock-Man-x64/commit/cdabe02281eb89a8f5ff4a3c3be7378566627102) · 2026-10-25T20:47:40-07:00 — docs: record zero-delta hourly review of both maps.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-inspector-slider-undo-01` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
+**Latest repository change observed:** [5a820af](https://github.com/raiinman/Rock-Man-x64/commit/5a820af80a5d61193b6a84cba4e951195dbf7071) · 2026-10-26T03:48:07Z — docs: refresh generated progress tracker.
+**Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
 
 <!-- ROCK-MAN-TRACKER:END -->
 

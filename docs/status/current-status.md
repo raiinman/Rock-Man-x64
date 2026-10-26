@@ -11,6 +11,14 @@ The October 25 Linux/component successor and Windows validation entries below re
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
 
+## Synthetic selected-part edit and Undo check — October 25
+
+A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part. Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0. The input, source and executable remained unchanged; no Save occurred and no sidecar was created.
+
+The optional exact-pixel check failed. This result is limited to the reported UI and visual observations; it does not establish exact-pixel fidelity. It covers only this selected-part Apply/Undo and normal-shutdown flow, not general dirty-edit decisions, saving, import handoff, original-asset behavior, complete IDE acceptance or native game boot. No new build or broader task completion is claimed.
+
+The tested executable predates the separately reported Linux/component display-state successor below and does not validate that successor on Windows. Earlier checks, failures and inconclusive attempts retain their separate scopes. Historical acceptance and all 30 specification-task states remain unchanged. Private implementation, paths, identities and captures are excluded; the underlying private result is not independently reproducible from this documentation-only repository. This documentation review records the reported result without performing any PC input or native, research or game tests.
+
 ## Byte-page display-state guard — October 25
 
 A separately reported Linux/component successor checks the byte-page text-display result before committing page/file identity. On display failure, Find, Next and Previous retain their matched-page cursors and report the display state as unconfirmed. This does not claim that already rendered text was rolled back. Successful reset retains correct preview ownership. Only one production function changed; the retained baselines and failures remain preserved.

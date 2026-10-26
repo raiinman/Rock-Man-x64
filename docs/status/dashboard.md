@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-2008` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
-**Latest repository change observed:** [cdabe02](https://github.com/raiinman/Rock-Man-x64/commit/cdabe02281eb89a8f5ff4a3c3be7378566627102) · 2026-10-25T20:47:40-07:00 — docs: record zero-delta hourly review of both maps.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-25 · `2026-10-25-inspector-slider-undo-01` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
+**Latest repository change observed:** [5a820af](https://github.com/raiinman/Rock-Man-x64/commit/5a820af80a5d61193b6a84cba4e951195dbf7071) · 2026-10-26T03:48:07Z — docs: refresh generated progress tracker.
+**Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -554,13 +554,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
 | 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
 | 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
+| 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
+| 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
+| 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
+| 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
+| 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
+| 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-25 20:08:02 UTC.
+**Map reviewed:** 2026-10-25 21:08:13 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -593,6 +599,16 @@ A separately reported Linux/component successor checks byte-page text display be
 Linux/component assertion evidence only, not a full current-program build or Windows display/pixel validation. No rendered-text rollback, complete IDE, native-boot or broader task acceptance claim.
 
 **Evidence:** [evidence](../../docs/status/current-status.md#byte-page-display-state-guard--october-25)
+
+### Edit and undo one synthetic part — Windows
+
+**Recorded state:** tested.
+
+A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part; Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0; input, source and executable were unchanged, with no Save or sidecar. The optional exact-pixel check failed; the result is limited to reported UI and visual observations.
+
+Reported selected-carriage Apply X = 0.6, Undo and normal Close on the unchanged earlier executable only. Optional exact-pixel check failed; no Save, sidecar, new build, Linux-successor validation, complete IDE or task/game acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#synthetic-selected-part-edit-and-undo-check--october-25)
 
 | Task | Recorded state | Task prerequisites | State explanation |
 |---|---|---|---|
@@ -629,13 +645,13 @@ Linux/component assertion evidence only, not a full current-program build or Win
 
 ## Current explanation
 
-**Now:** A bounded Linux/component display-state guard passed reported checks; the earlier Windows interaction/reload checks retain their separate scopes. Native game boot and the complete IDE remain unestablished.
+**Now:** A reported Windows synthetic selected-part edit and Undo check adds bounded UI evidence on the unchanged earlier executable. The newer Linux/component successor, complete IDE and native game boot remain separately unverified on Windows.
 
-**Changed:** Reviewed at 2026-10-25 20:08:02 UTC following the independent 20:04:36–20:05:57 UTC audit: current public head/contracts and saved evidence remain consistent. Historical acceptance stays unchanged; the build/spec map retains 30 planned tasks and three separately bounded tested records: two Windows interactions and one Linux/component guard. Criteria, acceptance, dependencies, blockers and next tasks are unchanged. The prior publication workflow succeeded; issue \#2 still has 26 comments. This saved-evidence review claims no new implementation, research/game test or UI execution.
+**Changed:** A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part; Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0; input, source and executable were unchanged, with no Save or sidecar. The optional exact-pixel check failed; the result is limited to reported UI and visual observations.
 
-**Why:** Record an actual no-change hourly review of both maps independently of repository activity, without manufacturing milestones or extending the saved evidence scopes.
+**Why:** Adds a bounded synthetic selected-part editing and Undo check, separately from indexing/reload and Linux/component evidence. It establishes no new build, exact-pixel fidelity, save behavior, complete IDE, broader task completion or native game boot.
 
-**Next:** Windows validation remains pending under the applicable bounded procedure and current owner availability; no current UI execution is claimed. Preserve existing native ownership, provenance, S2 and initializer gates and continue independent authorized source work.
+**Next:** Review a distinct remaining workflow with its existing owner. Windows validation of the Linux/component display-state successor remains pending; this check used the unchanged earlier executable. Preserve native ownership, provenance, S2 and initializer gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-25",
-    "review_id": "2026-10-25-hourly-both-maps-2008",
+    "review_id": "2026-10-25-inspector-slider-undo-01",
     "reviewed_through_commit": "8ac645243309dec45a48f6e96079eb283ef82126",
-    "summary": "Reviewed at 2026-10-25 20:08:02 UTC following the independent 20:04:36–20:05:57 UTC audit: current public head/contracts and saved evidence remain consistent. Historical acceptance stays unchanged; the build/spec map retains 30 planned tasks and three separately bounded tested records: two Windows interactions and one Linux/component guard. Criteria, acceptance, dependencies, blockers and next tasks are unchanged. The prior publication workflow succeeded; issue #2 still has 26 comments. This saved-evidence review claims no new implementation, research/game test or UI execution."
+    "summary": "Reviewed at 2026-10-25 21:08:13 UTC: added one separately reported Windows selected-part Apply/Undo check and retained the failed optional exact-pixel check. All 30 task states remain planned; the three earlier build checks retain their scopes. Historical criteria, accepted sets, stages, validation records and prior observations are unchanged. This documentation review performed no PC input or native, research or game tests."
   },
   "overview": {
-    "now": "A bounded Linux/component display-state guard passed reported checks; the earlier Windows interaction/reload checks retain their separate scopes. Native game boot and the complete IDE remain unestablished.",
-    "changed": "Reviewed at 2026-10-25 20:08:02 UTC following the independent 20:04:36–20:05:57 UTC audit: current public head/contracts and saved evidence remain consistent. Historical acceptance stays unchanged; the build/spec map retains 30 planned tasks and three separately bounded tested records: two Windows interactions and one Linux/component guard. Criteria, acceptance, dependencies, blockers and next tasks are unchanged. The prior publication workflow succeeded; issue #2 still has 26 comments. This saved-evidence review claims no new implementation, research/game test or UI execution.",
-    "why": "Record an actual no-change hourly review of both maps independently of repository activity, without manufacturing milestones or extending the saved evidence scopes.",
-    "next": "Windows validation remains pending under the applicable bounded procedure and current owner availability; no current UI execution is claimed. Preserve existing native ownership, provenance, S2 and initializer gates and continue independent authorized source work."
+    "now": "A reported Windows synthetic selected-part edit and Undo check adds bounded UI evidence on the unchanged earlier executable. The newer Linux/component successor, complete IDE and native game boot remain separately unverified on Windows.",
+    "changed": "A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part; Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0; input, source and executable were unchanged, with no Save or sidecar. The optional exact-pixel check failed; the result is limited to reported UI and visual observations.",
+    "why": "Adds a bounded synthetic selected-part editing and Undo check, separately from indexing/reload and Linux/component evidence. It establishes no new build, exact-pixel fidelity, save behavior, complete IDE, broader task completion or native game boot.",
+    "next": "Review a distinct remaining workflow with its existing owner. Windows validation of the Linux/component display-state successor remains pending; this check used the unchanged earlier executable. Preserve native ownership, provenance, S2 and initializer gates."
   },
   "updates": [
+    {
+      "id": "inspector-synthetic-slider-undo-01",
+      "date": "2026-10-25",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part; Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0; input, source and executable were unchanged, with no Save or sidecar. The optional exact-pixel check failed; the result is limited to reported UI and visual observations.",
+      "why": "Adds a bounded synthetic selected-part editing and Undo check, separately from indexing/reload and Linux/component evidence. It establishes no new build, exact-pixel fidelity, save behavior, complete IDE, broader task completion or native game boot.",
+      "next": "Review a distinct remaining workflow with its existing owner. Windows validation of the Linux/component display-state successor remains pending; this check used the unchanged earlier executable. Preserve native ownership, provenance, S2 and initializer gates.",
+      "evidence": [
+        "docs/status/current-status.md#synthetic-selected-part-edit-and-undo-check--october-25"
+      ]
+    },
     {
       "id": "hourly-both-maps-2008",
       "date": "2026-10-25",
@@ -6165,11 +6177,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-25-inspector-slider-undo-01",
+      "date": "2026-10-25",
+      "basis_commit": "8ac645243309dec45a48f6e96079eb283ef82126",
+      "note": "Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-25 20:08:02 UTC",
+    "reviewed_at": "2026-10-25 21:08:13 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -6537,6 +6611,13 @@
         "state": "tested",
         "update_id": "inspector-byte-page-display-guard-01",
         "limit": "Linux/component assertion evidence only, not a full current-program build or Windows display/pixel validation. No rendered-text rollback, complete IDE, native-boot or broader task acceptance claim."
+      },
+      {
+        "id": "inspector-slider-undo",
+        "label": "Edit and undo one synthetic part — Windows",
+        "state": "tested",
+        "update_id": "inspector-synthetic-slider-undo-01",
+        "limit": "Reported selected-carriage Apply X = 0.6, Undo and normal Close on the unchanged earlier executable only. Optional exact-pixel check failed; no Save, sidecar, new build, Linux-successor validation, complete IDE or task/game acceptance."
       }
     ]
   }

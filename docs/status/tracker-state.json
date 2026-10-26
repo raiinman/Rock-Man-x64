@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "cdabe02281eb89a8f5ff4a3c3be7378566627102",
-    "committed_at": "2026-10-25T20:47:40-07:00",
-    "subject": "docs: record zero-delta hourly review of both maps",
+    "sha": "5a820af80a5d61193b6a84cba4e951195dbf7071",
+    "committed_at": "2026-10-26T03:48:07Z",
+    "subject": "docs: refresh generated progress tracker",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "fc2b4a95817d891cf090c28c3d2548104b8d6a830262405e74ed53c29c5feb12",
+  "evidence_data_sha256": "46f87ae9366d37dfc31ff70a2151f6bf2ea6a8838a760bd7fe22a601ef0cf6e6",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "910c64ca089ce3f722f7c63741146599d0cf1d6e0ae4dfc87873f5cb043b112e",
-  "evidence_review_id": "2026-10-25-hourly-both-maps-2008",
+  "reviewed_stage_sha256": "7aac322e4f69a5274aefc03502bcec69c9a027e8e083d7dc27b4b9a34b120632",
+  "evidence_review_id": "2026-10-25-inspector-slider-undo-01",
   "evidence_review_date": "2026-10-25",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -114,7 +114,8 @@
     "45d4ae2d2af9669d16dc46da4c2ecd3dbbcf1323a78aebec92d00304e2f42952",
     "526c9fac1dd990d1c82af21df91966de145a6c5ae1860953adbd5ead6c31e9f9",
     "4e2bd80761c7ad31e24d83c939a66ceaaaa8e7523c18d15fc6d3c9d132004d33",
-    "c42622d799ea75d16915ec9022b6ad5132a2a9a30ea710c74e4e8cf095497ae5"
+    "c42622d799ea75d16915ec9022b6ad5132a2a9a30ea710c74e4e8cf095497ae5",
+    "cddb964d4123e236d7ec06a6bcb57b468b310cf152c66e97efb3b473f62b4abf"
   ],
-  "reviewed_build_plan_sha256": "2dfcc11f99afbcdab6fe4f4cb241e7c5ab80fee28eeaa654b97e4c93769b12d1"
+  "reviewed_build_plan_sha256": "ce620c37938630c5cf4fbdecb515cf88e8b32f83d84a6addeb3e44293212ae88"
 }
