@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "5a820af80a5d61193b6a84cba4e951195dbf7071",
-    "committed_at": "2026-10-26T03:48:07Z",
-    "subject": "docs: refresh generated progress tracker",
+    "sha": "cb100c98596ad6f8a0f3d990841bbeb10a51add8",
+    "committed_at": "2026-10-25T20:54:40-07:00",
+    "subject": "docs: record bounded historical Windows part edit and Undo",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "46f87ae9366d37dfc31ff70a2151f6bf2ea6a8838a760bd7fe22a601ef0cf6e6",

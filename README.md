@@ -34,8 +34,8 @@ The goal includes a native game and editor. Documentation, research results and 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-25 · `2026-10-25-inspector-slider-undo-01` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
-**Latest repository change observed:** [5a820af](https://github.com/raiinman/Rock-Man-x64/commit/5a820af80a5d61193b6a84cba4e951195dbf7071) · 2026-10-26T03:48:07Z — docs: refresh generated progress tracker.
-**Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
+**Latest repository change observed:** [cb100c9](https://github.com/raiinman/Rock-Man-x64/commit/cb100c98596ad6f8a0f3d990841bbeb10a51add8) · 2026-10-25T20:54:40-07:00 — docs: record bounded historical Windows part edit and Undo.
+**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
 
