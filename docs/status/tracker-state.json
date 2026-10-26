@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "b037ef2bb14e5379fff3e83475c3363cb80607752e542d86119f0e69d08d64f3",
+  "evidence_data_sha256": "fc2b4a95817d891cf090c28c3d2548104b8d6a830262405e74ed53c29c5feb12",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "07a575866d7fbdf1e2a7fb3a4e55a361652b763ac6d9c8eb0f24cc7a0039eec5",
-  "evidence_review_id": "2026-10-25-inspector-display-guard-01",
+  "reviewed_stage_sha256": "910c64ca089ce3f722f7c63741146599d0cf1d6e0ae4dfc87873f5cb043b112e",
+  "evidence_review_id": "2026-10-25-hourly-both-maps-2008",
   "evidence_review_date": "2026-10-25",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -113,7 +113,8 @@
     "227b504b4413df4ccef3b76874a480ccdcfe5cf41fc3e5ebb6aca709153f223d",
     "45d4ae2d2af9669d16dc46da4c2ecd3dbbcf1323a78aebec92d00304e2f42952",
     "526c9fac1dd990d1c82af21df91966de145a6c5ae1860953adbd5ead6c31e9f9",
-    "4e2bd80761c7ad31e24d83c939a66ceaaaa8e7523c18d15fc6d3c9d132004d33"
+    "4e2bd80761c7ad31e24d83c939a66ceaaaa8e7523c18d15fc6d3c9d132004d33",
+    "c42622d799ea75d16915ec9022b6ad5132a2a9a30ea710c74e4e8cf095497ae5"
   ],
-  "reviewed_build_plan_sha256": "573defb78318a14910f9ca717005ea212787be8db27210c9409da9a7abdc666b"
+  "reviewed_build_plan_sha256": "2dfcc11f99afbcdab6fe4f4cb241e7c5ab80fee28eeaa654b97e4c93769b12d1"
 }

@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-inspector-display-guard-01` · [reviewed basis 93a4fe7](https://github.com/raiinman/Rock-Man-x64/commit/93a4fe7918ad404f93f1065a5343187377510bc9).
+**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-2008` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
 **Latest repository change observed:** [7fbece2](https://github.com/raiinman/Rock-Man-x64/commit/7fbece22dbaaed5c69172a407285a1663e076325) · 2026-10-25T12:52:43-07:00 — docs: record bounded Linux component display-state evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -548,13 +548,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-inspector-display-guard-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 19:26:30 UTC: separately reported Linux/component byte-page display-state correction added to the build map. All 30 task states, criteria, accepted sets, historical validation counters and earlier observations remain unchanged; the two Windows checks retain their own scopes. Zero historical acceptance delta; no Windows build/display or PC input for this successor. No full current-program build is claimed. |
 | 2026-10-25 · `2026-10-25-inspector-display-guard-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 19:26:30 UTC: separately reported Linux/component byte-page display-state correction added to the build map. All 30 task states, criteria, accepted sets, historical validation counters and earlier observations remain unchanged; the two Windows checks retain their own scopes. Zero historical acceptance delta; no Windows build/display or PC input for this successor. No full current-program build is claimed. |
 | 2026-10-25 · `2026-10-25-inspector-display-guard-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 19:26:30 UTC: separately reported Linux/component byte-page display-state correction added to the build map. All 30 task states, criteria, accepted sets, historical validation counters and earlier observations remain unchanged; the two Windows checks retain their own scopes. Zero historical acceptance delta; no Windows build/display or PC input for this successor. No full current-program build is claimed. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | inspection v1 | 4 / 7 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | observation v1 | 2 / 4 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | loader v1 | 3 / 4 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
+| 2026-10-25 · `2026-10-25-hourly-both-maps-2008` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 20:08:02 UTC: both-map current-head/contracts and saved-evidence check after the independent 20:05 audit. Historical criteria, accepted sets, stages and validation records remain unchanged; 30 tasks remain planned and three earlier bounded checks retain their platform/scope limits. Dependencies, blockers and next tasks are unchanged. Zero acceptance delta; no new implementation, research/game test, PC input or browser inspection. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-25 19:26:30 UTC.
+**Map reviewed:** 2026-10-25 20:08:02 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -625,9 +631,9 @@ Linux/component assertion evidence only, not a full current-program build or Win
 
 **Now:** A bounded Linux/component display-state guard passed reported checks; the earlier Windows interaction/reload checks retain their separate scopes. Native game boot and the complete IDE remain unestablished.
 
-**Changed:** The byte-page successor now reports unconfirmed display failures before committing page/file identity, preserving matched-page cursors and correct reset preview ownership. Reported checks cover the targeted Linux/component scope only; no Windows build or current full-program build is established.
+**Changed:** Reviewed at 2026-10-25 20:08:02 UTC following the independent 20:04:36–20:05:57 UTC audit: current public head/contracts and saved evidence remain consistent. Historical acceptance stays unchanged; the build/spec map retains 30 planned tasks and three separately bounded tested records: two Windows interactions and one Linux/component guard. Criteria, acceptance, dependencies, blockers and next tasks are unchanged. The prior publication workflow succeeded; issue \#2 still has 26 comments. This saved-evidence review claims no new implementation, research/game test or UI execution.
 
-**Why:** Records one bounded component correction with retained baseline failures and review limits, separately from the existing Windows checks. No Windows build/display/pixels, broader task acceptance, native boot or provenance/S2/initializer advancement follows.
+**Why:** Record an actual no-change hourly review of both maps independently of repository activity, without manufacturing milestones or extending the saved evidence scopes.
 
 **Next:** Windows validation remains pending under the applicable bounded procedure and current owner availability; no current UI execution is claimed. Preserve existing native ownership, provenance, S2 and initializer gates and continue independent authorized source work.
 

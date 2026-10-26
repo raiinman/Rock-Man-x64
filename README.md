@@ -33,7 +33,7 @@ The goal includes a native game and editor. Documentation, research results and 
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-inspector-display-guard-01` · [reviewed basis 93a4fe7](https://github.com/raiinman/Rock-Man-x64/commit/93a4fe7918ad404f93f1065a5343187377510bc9).
+**Last evidence review:** 2026-10-25 · `2026-10-25-hourly-both-maps-2008` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
 **Latest repository change observed:** [7fbece2](https://github.com/raiinman/Rock-Man-x64/commit/7fbece22dbaaed5c69172a407285a1663e076325) · 2026-10-25T12:52:43-07:00 — docs: record bounded Linux component display-state evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
