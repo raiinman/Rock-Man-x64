@@ -407,18 +407,103 @@
   ],
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
-    "date": "2026-10-25",
-    "review_id": "2026-10-25-inspector-slider-undo-01",
-    "reviewed_through_commit": "8ac645243309dec45a48f6e96079eb283ef82126",
-    "summary": "Reviewed at 2026-10-25 21:08:13 UTC: added one separately reported Windows selected-part Apply/Undo check and retained the failed optional exact-pixel check. All 30 task states remain planned; the three earlier build checks retain their scopes. Historical criteria, accepted sets, stages, validation records and prior observations are unchanged. This documentation review performed no PC input or native, research or game tests."
+    "date": "2026-10-26",
+    "review_id": "2026-10-26-bounded-build-component-review-01",
+    "reviewed_through_commit": "5f83d18d425ffd4922008626b981fcbdbae892af",
+    "summary": "Reviewed at 2026-10-26 04:02:34 UTC: separate reported Windows build/runtime outcomes, a newer build with partial observations and unresolved closure, and five reviewed Linux/component results. Earlier failed/inconclusive attempts remain retained. All 30 tasks remain planned; historical criteria, acceptance, stage states, validation records and prior observations are unchanged. Private raw receipts were not independently downloaded. This documentation review performed no PC input or native/research/game tests."
   },
   "overview": {
-    "now": "A reported Windows synthetic selected-part edit and Undo check adds bounded UI evidence on the unchanged earlier executable. The newer Linux/component successor, complete IDE and native game boot remain separately unverified on Windows.",
-    "changed": "A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part; Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0; input, source and executable were unchanged, with no Save or sidecar. The optional exact-pixel check failed; the result is limited to reported UI and visual observations.",
-    "why": "Adds a bounded synthetic selected-part editing and Undo check, separately from indexing/reload and Linux/component evidence. It establishes no new build, exact-pixel fidelity, save behavior, complete IDE, broader task completion or native game boot.",
-    "next": "Review a distinct remaining workflow with its existing owner. Windows validation of the Linux/component display-state successor remains pending; this check used the unchanged earlier executable. Preserve native ownership, provenance, S2 and initializer gates."
+    "now": "An older combined Windows successor has bounded reported build/runtime evidence; a newer OBJ-reopen build has partial observations but inconclusive reopening and unverified closure. Five newer Linux/component results retain separate scopes. No playable native game or complete IDE is established.",
+    "changed": "Recorded strict Windows builds, distinct older synthetic flow/Close evidence, newer automatic sidecar and source-only page-zero observations with inconclusive reopen/cleanup, and five reviewed Linux/component fixes. Earlier failed attempts retain their scopes.",
+    "why": "Keep useful build and component evidence visible without inheriting runtime coverage across successors, hiding failed attempts, summing overlapping test inventories or promoting task/milestone acceptance.",
+    "next": "Keep newer reopen-after-switch and normal shutdown/cleanup unverified; no further input or denied-process-check workaround is claimed. Obtain a distinct bounded executor outcome. Review planned Refresh selected file contract separately; preserve native ownership, provenance, S2 and initializer gates."
   },
   "updates": [
+    {
+      "id": "combined-windows-build-flow-01",
+      "date": "2026-10-26",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "The combined successor passed reported strict Windows compilation/linking and static AMD64 Windows-GUI executable checks. Two earlier UI attempts completed zero functional cases because of app-binding and target/geometry errors; neither verified normal shutdown. A distinct third attempt later observed a valid synthetic sidecar with X = 0.25, a page advance (1,024) preserving saved state, malformed-record refusal, expected-dialog dismissal and normal process exit 0.",
+      "why": "Separates a bounded later runtime observation from compile-only evidence and earlier inconclusive attempts. No assertion count, full-suite pass, exact-pixel accuracy, complete IDE or game acceptance is inferred.",
+      "next": "Keep the earlier attempts inconclusive. Select a distinct remaining workflow with its owner; do not transfer this runtime result to newer successors.",
+      "evidence": [
+        "docs/status/current-status.md#combined-successor-build-and-synthetic-flow--october-26"
+      ]
+    },
+    {
+      "id": "synchronous-obj-reopen-windows-build-01",
+      "date": "2026-10-26",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "The newer synchronous OBJ-reopen successor passed reported strict Windows compile/link/static-format checks. On the same launched instance, visible/accessibility evidence later showed automatic valid-sidecar Carriage X = 0.25 without Reload, and source-only OBJ page 0/clean state. Reopen-after-switch became inconclusive after a foreground-window binding error; input/read-only recovery failed. The observer ended with no child exit result. Later window absence and a denied read-only process check did not verify cleanup or normal shutdown.",
+      "why": "Adds narrow partial observations to this distinct newer build, superseding its earlier access-pending/zero-input snapshot for the same attempt. It does not establish reopen-after-switch, a full suite, normal exit, cleanup, complete IDE or game boot.",
+      "next": "Retain reopen-after-switch and cleanup/exit as unverified. Stop on the denied process check; do not infer process exit from window absence or repeat failed input. Obtain a distinct bounded verified outcome before advancing the record.",
+      "evidence": [
+        "docs/status/current-status.md#synchronous-obj-reopen-partial-windows-observation--october-26"
+      ]
+    },
+    {
+      "id": "xyz-text-precision-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The reviewed XYZ text-precision correction preserves untouched axes during a one-axis edit. The primary baseline failed 23/83 intended assertions; the successor passed 83 per configuration. Independent baseline failed 26/118; successor passed 118 per configuration, with eight compiled mutants killed. Synthetic Save/sidecar round-trip was covered; the actual history boundary was stubbed, not audited.",
+      "why": "Adds bounded source/component evidence while retaining genuine baseline and corrected test-oracle failures. Optimized and ASan/UBSan runs overlap; their counts are not distinct-test totals.",
+      "next": "Retain the frozen result and its history-model limit. Do not infer Windows compilation/UI validation or broader task acceptance for this individual source stage.",
+      "evidence": [
+        "docs/status/current-status.md#xyz-text-precision-component-check--october-26"
+      ]
+    },
+    {
+      "id": "preview-drag-cancellation-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The reviewed interrupted-drag correction clears local dragging on capture loss/cancel and releases capture on mouse-up only with ownership. Primary predecessor failed 17/27 assertions; successor passed 27 per configuration. Independent predecessor failed 26/68; successor passed 68 per configuration, with nine mutants killed.",
+      "why": "Checks bounded cancellation/ownership behavior under source/component fixtures. Retained oracle corrections and overlapping optimized/sanitized counts do not establish native GUI behavior.",
+      "next": "Keep this frozen component scope separate from Windows UI and broader input-lifecycle acceptance; review a distinct remaining contract.",
+      "evidence": [
+        "docs/status/current-status.md#interrupted-preview-drag-component-check--october-26"
+      ]
+    },
+    {
+      "id": "proportional-wheel-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The separately reviewed proportional-wheel component passed 37 primary and 224 independent assertions per configuration, with seven mutants killed. Optimized and ASan/UBSan configurations overlap and leak detection was disabled; counts are not summed into distinct tests.",
+      "why": "Records bounded source/component correctness while retaining intermediate source/test and corrected-oracle failures. This is not a Windows scrolling or pixel result.",
+      "next": "Retain the frozen component result; Windows compilation/UI validation for this individual source stage remains unestablished.",
+      "evidence": [
+        "docs/status/current-status.md#proportional-wheel-component-check--october-26"
+      ]
+    },
+    {
+      "id": "generic-obj-restore-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The separately reviewed generic OBJ saved-edit restoration passed 76 primary and 127 independent assertions per configuration, with seven mutants killed. Optimized and ASan/UBSan checks used synthetic inputs with leak detection disabled; overlapping counts are not summed. Ordinary history was modeled rather than audited.",
+      "why": "Adds bounded saved-edit restoration evidence with intermediate source/test and corrected-oracle failures retained. A modeled history boundary is not an audit of the ordinary history implementation.",
+      "next": "Preserve the frozen component result and modeled-history limit. Consult the distinct cumulative Windows build/partial-observation record; it does not turn this Linux component suite into Windows validation or complete save/history acceptance.",
+      "evidence": [
+        "docs/status/current-status.md#generic-obj-saved-edit-restore-component-check--october-26",
+        "docs/status/current-status.md#synchronous-obj-reopen-partial-windows-observation--october-26"
+      ]
+    },
+    {
+      "id": "generic-obj-background-linux-01",
+      "date": "2026-10-26",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The reviewed generic OBJ background-loading result is frozen. Reported checks cover the exact source-owned join and decoding away from the UI owner under deterministic fixtures: provider 106 per configuration, primary job 66, independent 65 plus six targeted per configuration, and 13 mutants killed. Intermediate source/test/race failures remain preserved; these overlapping inventories are not summed.",
+      "why": "Establishes a bounded deterministic source/component result, not native GUI responsiveness or a wall-clock Close bound. A blocked operating-system I/O operation may delay joining the worker.",
+      "next": "Keep native GUI and shutdown timing unverified. Refresh selected file contract work remains planned; no implementation or acceptance is claimed for it.",
+      "evidence": [
+        "docs/status/current-status.md#generic-obj-background-loading-component-check--october-26"
+      ]
+    },
     {
       "id": "inspector-synthetic-slider-undo-01",
       "date": "2026-10-25",
@@ -6239,11 +6324,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-26-bounded-build-component-review-01",
+      "date": "2026-10-26",
+      "basis_commit": "5f83d18d425ffd4922008626b981fcbdbae892af",
+      "note": "Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-25 21:08:13 UTC",
+    "reviewed_at": "2026-10-26 04:02:34 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -6618,6 +6765,55 @@
         "state": "tested",
         "update_id": "inspector-synthetic-slider-undo-01",
         "limit": "Reported selected-carriage Apply X = 0.6, Undo and normal Close on the unchanged earlier executable only. Optional exact-pixel check failed; no Save, sidecar, new build, Linux-successor validation, complete IDE or task/game acceptance."
+      },
+      {
+        "id": "combined-windows-build-flow",
+        "label": "Combined build and later synthetic flow — Windows",
+        "state": "tested",
+        "update_id": "combined-windows-build-flow-01",
+        "limit": "Only reported strict build/static-format checks and the distinct third synthetic sidecar/page/rejection/Close flow. The first two attempts remain inconclusive; no full-suite, complete-IDE, exact-pixel or native-game acceptance."
+      },
+      {
+        "id": "synchronous-obj-reopen-windows-build",
+        "label": "Synchronous OBJ reopen — partial Windows observation",
+        "state": "tested",
+        "update_id": "synchronous-obj-reopen-windows-build-01",
+        "limit": "Strict build plus narrow automatic sidecar X = 0.25 and source-only page 0/clean-state observations only. Reopen-after-switch inconclusive; no verified normal shutdown/cleanup. No full-suite, complete-IDE or game acceptance."
+      },
+      {
+        "id": "xyz-text-precision-linux",
+        "label": "Preserve untouched XYZ axes — Linux/component",
+        "state": "tested",
+        "update_id": "xyz-text-precision-linux-01",
+        "limit": "Optimized and ASan/UBSan component checks; leak detection disabled. Synthetic round-trip only; actual history boundary stubbed. No Windows compile/UI proof for this individual fix."
+      },
+      {
+        "id": "preview-drag-cancellation-linux",
+        "label": "Cancel interrupted preview drags — Linux/component",
+        "state": "tested",
+        "update_id": "preview-drag-cancellation-linux-01",
+        "limit": "Optimized and ASan/UBSan component checks; leak detection disabled. No Windows compile/UI validation of this individual fix or complete input-lifecycle acceptance."
+      },
+      {
+        "id": "proportional-wheel-linux",
+        "label": "Proportional wheel handling — Linux/component",
+        "state": "tested",
+        "update_id": "proportional-wheel-linux-01",
+        "limit": "Source/component fixtures only, optimized plus ASan/UBSan with leak detection disabled. No Windows compile/UI proof, broad input acceptance or distinct-test total inferred."
+      },
+      {
+        "id": "generic-obj-restore-linux",
+        "label": "Restore saved generic OBJ edits — Linux/component",
+        "state": "tested",
+        "update_id": "generic-obj-restore-linux-01",
+        "limit": "Synthetic component/source evidence only; optimized and ASan/UBSan, leak detection disabled. Ordinary history modeled, not audited. The later cumulative Windows build and partial observations are recorded separately, with inconclusive reopen and unverified cleanup; no complete save/history acceptance."
+      },
+      {
+        "id": "generic-obj-background-linux",
+        "label": "Load generic OBJ off the UI owner — Linux/component",
+        "state": "tested",
+        "update_id": "generic-obj-background-linux-01",
+        "limit": "Deterministic component fixtures and source-owned join only. Optimized/ASan/UBSan evidence, leak detection disabled; overlapping counts not summed. No native GUI or bounded wall-clock Close guarantee; blocked OS I/O may delay join."
       }
     ]
   }

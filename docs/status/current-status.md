@@ -2,7 +2,7 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Latest source/component checkpoint: 2026-10-25.** The reported byte-page display-state successor below has bounded Linux/component evidence; no full current-program build or Windows validation is established for it.
+**Latest evidence review: 2026-10-26, 04:02:34 UTC.** Separate Windows build/runtime outcomes and five Linux/component results are recorded below. The newer synchronous OBJ-reopen instance has narrow partial observations, inconclusive reopen testing and unverified closure. Earlier checkpoints retain their original scopes.
 
 **Earlier source implementation checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 
@@ -10,6 +10,46 @@ The October 25 Linux/component successor and Windows validation entries below re
 
 Rock Man x64 is **not a playable game, complete IDE or full native boot**. This repository is documentation-only. Reported private results cannot be independently reproduced from it.
 
+
+## Combined successor build and synthetic flow — October 26
+
+An executor-reported combined successor passed strict Windows compilation/linking and static AMD64 Windows-GUI executable-format checks. Its two earlier UI attempts completed zero functional cases because of application binding and coordinate/target errors. Neither established normal shutdown; conflicting process-presence observations did not establish cleanup. These attempts remain inconclusive and are not source-defect findings.
+
+A distinct third attempt later reported a valid synthetic sidecar with X = 0.25, a page advance (1,024) preserving saved state, and refusal of a malformed record. After the expected dialog was dismissed, the retained process closed normally with exit 0. This establishes only that later bounded synthetic flow, not a full suite, exact-pixel accuracy, complete IDE or native game boot. No assertion count is invented. Frozen inputs and earlier outputs were preserved. The earlier executable's selected-part demo remains a separate result and is not substituted for this successor.
+
+## Synchronous OBJ reopen partial Windows observation — October 26
+
+The newer synchronous OBJ-reopen successor separately passed reported strict Windows compilation/linking and static executable-format checks. At the initial 03:57:49 UTC documentation assessment, the launched instance awaited application access and had no verified functional input/result. A later executor report, integrated at **2026-10-26 04:02:34 UTC**, supersedes that pending snapshot for the same attempt: actual visible/accessibility evidence showed automatic valid-sidecar Carriage X = 0.25 without Reload and source-only OBJ page 0 with clean state.
+
+Reopen-after-switch became inconclusive after a foreground-window process-binding error. Input/read-only recovery failed and no further test input was performed. The retained observer ended after 600 seconds with no child-exit result. Later absence of a matching window and of the earlier window handle did not establish process exit; a read-only process check returned access denied and was stopped without an alternate route. No normal Close, force-stop or verified cleanup occurred. Source, frozen baselines, executable and synthetic fixtures remained unchanged.
+
+These narrow partial observations do not establish reopen-after-switch, a full suite, exact-pixel accuracy, complete IDE or game boot. Cleanup and normal exit remain unverified. The older combined successor's success is separate and does not validate this newer build. These Windows outcomes are executor-reported evidence, not an independent download/review of raw receipts. No new Windows execution was performed by this documentation review. Later results require a new dated record rather than rewriting this as-of outcome.
+
+## XYZ text precision component check — October 26
+
+The separately reviewed XYZ text-precision correction preserves untouched axes when one axis is edited. The exact-source primary baseline failed **23/83** intended assertions; the successor passed **83 per configuration**. The independent baseline failed **26/118**; the successor passed **118 per configuration**, with **eight compiled mutants killed**. Synthetic Save/sidecar round-trip was covered. The actual history boundary was stubbed, so this is not a history audit.
+
+## Interrupted preview drag component check — October 26
+
+The separately reviewed interrupted-drag correction clears local dragging on capture loss/cancel and guards mouse-up release by ownership. The primary predecessor failed **17/27** assertions; the successor passed **27 per configuration**. The independent predecessor failed **26/68**; the successor passed **68 per configuration**, with **nine mutants killed**. This is component/source evidence, not native GUI capture validation.
+
+## Proportional wheel component check — October 26
+
+The separately reviewed proportional-wheel result passed **37 primary** and **224 independent assertions per configuration**, with **seven mutants killed**. This establishes the reviewed synthetic component scope, not Windows scrolling behavior, pixels or broad input-lifecycle acceptance.
+
+## Generic OBJ saved edit restore component check — October 26
+
+The separately reviewed generic OBJ saved-edit restoration passed **76 primary** and **127 independent assertions per configuration**, with **seven mutants killed**. Synthetic restoration was covered; ordinary history was modeled rather than audited. This does not establish the real history implementation, complete save workflow or Windows UI behavior.
+
+The four component results above are independently reviewed and frozen. Each has optimized and ASan/UBSan evidence with leak detection disabled. Primary, independent and repeated-configuration inventories overlap; they are not summed as distinct tests. Genuine predecessor failures, corrected test-oracle failures and intermediate source/test failures remain part of the retained evidence. These Linux component checks alone do not establish Windows behavior. Intermediate source stages were not individually Windows-built. The later cumulative synchronous OBJ-reopen source has separately reported Windows compilation and narrow partial observations; see the [distinct Windows record](#synchronous-obj-reopen-partial-windows-observation--october-26), including its inconclusive reopen and unverified cleanup limits.
+
+## Generic OBJ background loading component check — October 26
+
+The reviewed generic OBJ background-loading result is frozen. Deterministic fixtures checked decoding away from the UI owner and the exact source-owned join: **provider 106 per configuration**, **primary job 66**, **independent 65 plus six targeted per configuration**, and **13 mutants killed**. Optimized and ASan/UBSan evidence has leak detection disabled. These inventories overlap and are not summed; intermediate source/test/race failures remain preserved.
+
+This result does not establish native GUI responsiveness or a bounded wall-clock Close guarantee. A blocked operating-system I/O operation may delay joining the worker. The separate Refresh selected file contract remains planned: no implementation or acceptance is claimed for it.
+
+All these records leave historical acceptance, stage states, validation counters and all **30 planned specification tasks** unchanged. Private source, paths, identities, packages, download links and captures remain excluded. The private results are not independently reproducible from this documentation-only repository. Native boot, complete IDE acceptance, provenance, S2 and initializer gates do not advance.
 
 ## Synthetic selected-part edit and Undo check — October 25
 

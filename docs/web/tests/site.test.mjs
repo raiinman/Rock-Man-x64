@@ -128,15 +128,23 @@ test('all routes describe recorded evidence without asserting global worker inac
   }
 });
 
-function buildPlanFixture(){
-  const d=copy(data);
-  d.updates.unshift({id:'fixture-build-check',kind:'windows',date:'2026-10-25',capability_changed:false,changed:'Synthetic fixture display and normal close passed.',why:'Fixture scope only.',next:'Review distinct remaining behavior.',evidence:['docs/status/current-status.md']});
-  d.build_plan={schema_version:1,reviewed_at:'2026-10-25 16:30:00 UTC',plan_source:'tasks/spec-implementation/todo.md',tasks:[
+function buildPlanFixture(base=data){
+  const d=copy(base),date=d.last_evidence_review.date;
+  d.updates.unshift({id:'fixture-build-check',kind:'windows',date,capability_changed:false,changed:'Synthetic fixture display and normal close passed.',why:'Fixture scope only.',next:'Review distinct remaining behavior.',evidence:['docs/status/current-status.md']});
+  d.build_plan={schema_version:1,reviewed_at:date+' 16:30:00 UTC',plan_source:'tasks/spec-implementation/todo.md',tasks:[
     {id:'si-01',label:'Choose a bounded source slice',state:'planned',dependencies:[],source:'tasks/spec-implementation/todo.md#si-01',state_reason:'Proposal only; task-specific completion has not been reviewed.',evidence:[]},
     {id:'si-02',label:'Qualify read-only media',state:'blocked',dependencies:['si-01'],source:'tasks/spec-implementation/todo.md#si-02',state_reason:'Fixture-specific provider unavailable.',evidence:['docs/status/current-status.md']}
   ],checks:[{id:'fixture-check',label:'Synthetic directory interaction',state:'tested',update_id:'fixture-build-check',limit:'Fixture only; not native game boot or a complete IDE.'}]};
   return d;
 }
+test('build-plan fixtures survive review-day rollover while mismatched mapping dates fail closed',()=>{
+  const base=copy(data),receipt=copy(state),date='2099-12-31';
+  base.last_evidence_review.date=date;base.observations.at(-1).date=date;receipt.evidence_review_date=date;
+  const d=buildPlanFixture(base);
+  assert.equal(d.build_plan.reviewed_at,date+' 16:30:00 UTC');assert.equal(d.updates[0].date,date);
+  validateData(d,receipt);
+  d.build_plan.reviewed_at='2099-12-30 16:30:00 UTC';assert.throws(()=>validateData(d,receipt),/review date mismatch/i);
+});
 test('build-plan route is separate and preserves explicit plan status query',()=>{
   const r=route('build-plan?status=blocked&item=si-02&q=media');
   assert.equal(r.page,'build-plan');assert.equal(r.status,'blocked');assert.equal(r.item,'si-02');
@@ -149,7 +157,7 @@ test('build-plan renders bounded evidence and task dependencies without acceptan
   assert.match(html,/not native game boot or a complete IDE/);
   assert.match(html,/id="plan-detail-si-02" tabindex="-1"/);
   assert.match(html,/href="#build-plan\?item=si-01"/);
-  assert.match(html,/2026-10-25 16:30:00 UTC/);
+  assert.ok(html.includes(d.last_evidence_review.date+' 16:30:00 UTC'));
   assert.ok(html.includes('/blob/'+sha+'/tasks/spec-implementation/todo.md#si-02'));
   assert.doesNotMatch(html,/\d+(?:\.\d+)?%|MILESTONES ACCEPTED/);
 });

@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "cb100c98596ad6f8a0f3d990841bbeb10a51add8",
-    "committed_at": "2026-10-25T20:54:40-07:00",
-    "subject": "docs: record bounded historical Windows part edit and Undo",
+    "sha": "5f83d18d425ffd4922008626b981fcbdbae892af",
+    "committed_at": "2026-10-26T03:55:09Z",
+    "subject": "docs: refresh generated progress tracker",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "46f87ae9366d37dfc31ff70a2151f6bf2ea6a8838a760bd7fe22a601ef0cf6e6",
+  "evidence_data_sha256": "3b7effb37e6952d12dc978582afa648f9f7b18481e3cf83459991bcdc17a30bd",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,9 +17,9 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "7aac322e4f69a5274aefc03502bcec69c9a027e8e083d7dc27b4b9a34b120632",
-  "evidence_review_id": "2026-10-25-inspector-slider-undo-01",
-  "evidence_review_date": "2026-10-25",
+  "reviewed_stage_sha256": "a99b51ea920df4645b339dcc2db38b36514f293ed7169d494d2a530c3c2dba61",
+  "evidence_review_id": "2026-10-26-bounded-build-component-review-01",
+  "evidence_review_date": "2026-10-26",
   "reviewed_checklist_definitions": {
     "inspection": {
       "version": 1,
@@ -115,7 +115,8 @@
     "526c9fac1dd990d1c82af21df91966de145a6c5ae1860953adbd5ead6c31e9f9",
     "4e2bd80761c7ad31e24d83c939a66ceaaaa8e7523c18d15fc6d3c9d132004d33",
     "c42622d799ea75d16915ec9022b6ad5132a2a9a30ea710c74e4e8cf095497ae5",
-    "cddb964d4123e236d7ec06a6bcb57b468b310cf152c66e97efb3b473f62b4abf"
+    "cddb964d4123e236d7ec06a6bcb57b468b310cf152c66e97efb3b473f62b4abf",
+    "171079afecc9ed1926c5bedcf5268bdc923dc37e65bcafbd24710fa88cca9d0a"
   ],
-  "reviewed_build_plan_sha256": "ce620c37938630c5cf4fbdecb515cf88e8b32f83d84a6addeb3e44293212ae88"
+  "reviewed_build_plan_sha256": "736d9dcf271602be0db99b7a5081a5cab3bb9e7533760a357f5d2c6cec0e367a"
 }

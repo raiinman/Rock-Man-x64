@@ -2,9 +2,9 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-25 · `2026-10-25-inspector-slider-undo-01` · [reviewed basis 8ac6452](https://github.com/raiinman/Rock-Man-x64/commit/8ac645243309dec45a48f6e96079eb283ef82126).
-**Latest repository change observed:** [cb100c9](https://github.com/raiinman/Rock-Man-x64/commit/cb100c98596ad6f8a0f3d990841bbeb10a51add8) · 2026-10-25T20:54:40-07:00 — docs: record bounded historical Windows part edit and Undo.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Last evidence review:** 2026-10-26 · `2026-10-26-bounded-build-component-review-01` · [reviewed basis 5f83d18](https://github.com/raiinman/Rock-Man-x64/commit/5f83d18d425ffd4922008626b981fcbdbae892af).
+**Latest repository change observed:** [5f83d18](https://github.com/raiinman/Rock-Man-x64/commit/5f83d18d425ffd4922008626b981fcbdbae892af) · 2026-10-26T03:55:09Z — docs: refresh generated progress tracker.
+**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 
@@ -560,13 +560,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
 | 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
 | 2026-10-25 · `2026-10-25-inspector-slider-undo-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-25 21:08:13 UTC: separately reported Windows synthetic selected-part Apply/Undo and normal-shutdown evidence; optional exact-pixel verification failed and remains recorded. The unchanged earlier executable does not validate the Linux/component successor. All 30 task states, dependencies, historical criteria, acceptance flags, validation records and earlier observations remain unchanged. Zero historical acceptance delta; no new build, complete IDE, native boot or PC action by this documentation review. |
+| 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
+| 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
+| 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
+| 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
+| 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
+| 2026-10-26 · `2026-10-26-bounded-build-component-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 04:02:34 UTC: distinct reported Windows compile/runtime outcomes, newer partial observations with inconclusive reopen and unresolved cleanup, plus five reviewed Linux/component results; seven bounded build-map records added. Earlier attempts retain their failed/inconclusive scopes. All 30 task states/dependencies, criteria, accepted sets, stages, numerical validation records and prior observations are unchanged. Zero historical acceptance delta; no new PC input or native/research/game test by this documentation review. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-25 21:08:13 UTC.
+**Map reviewed:** 2026-10-26 04:02:34 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -610,6 +616,76 @@ Reported selected-carriage Apply X = 0.6, Undo and normal Close on the unchanged
 
 **Evidence:** [evidence](../../docs/status/current-status.md#synthetic-selected-part-edit-and-undo-check--october-25)
 
+### Combined build and later synthetic flow — Windows
+
+**Recorded state:** tested.
+
+The combined successor passed reported strict Windows compilation/linking and static AMD64 Windows-GUI executable checks. Two earlier UI attempts completed zero functional cases because of app-binding and target/geometry errors; neither verified normal shutdown. A distinct third attempt later observed a valid synthetic sidecar with X = 0.25, a page advance \(1,024\) preserving saved state, malformed-record refusal, expected-dialog dismissal and normal process exit 0.
+
+Only reported strict build/static-format checks and the distinct third synthetic sidecar/page/rejection/Close flow. The first two attempts remain inconclusive; no full-suite, complete-IDE, exact-pixel or native-game acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#combined-successor-build-and-synthetic-flow--october-26)
+
+### Synchronous OBJ reopen — partial Windows observation
+
+**Recorded state:** tested.
+
+The newer synchronous OBJ-reopen successor passed reported strict Windows compile/link/static-format checks. On the same launched instance, visible/accessibility evidence later showed automatic valid-sidecar Carriage X = 0.25 without Reload, and source-only OBJ page 0/clean state. Reopen-after-switch became inconclusive after a foreground-window binding error; input/read-only recovery failed. The observer ended with no child exit result. Later window absence and a denied read-only process check did not verify cleanup or normal shutdown.
+
+Strict build plus narrow automatic sidecar X = 0.25 and source-only page 0/clean-state observations only. Reopen-after-switch inconclusive; no verified normal shutdown/cleanup. No full-suite, complete-IDE or game acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#synchronous-obj-reopen-partial-windows-observation--october-26)
+
+### Preserve untouched XYZ axes — Linux/component
+
+**Recorded state:** tested.
+
+The reviewed XYZ text-precision correction preserves untouched axes during a one-axis edit. The primary baseline failed 23/83 intended assertions; the successor passed 83 per configuration. Independent baseline failed 26/118; successor passed 118 per configuration, with eight compiled mutants killed. Synthetic Save/sidecar round-trip was covered; the actual history boundary was stubbed, not audited.
+
+Optimized and ASan/UBSan component checks; leak detection disabled. Synthetic round-trip only; actual history boundary stubbed. No Windows compile/UI proof for this individual fix.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#xyz-text-precision-component-check--october-26)
+
+### Cancel interrupted preview drags — Linux/component
+
+**Recorded state:** tested.
+
+The reviewed interrupted-drag correction clears local dragging on capture loss/cancel and releases capture on mouse-up only with ownership. Primary predecessor failed 17/27 assertions; successor passed 27 per configuration. Independent predecessor failed 26/68; successor passed 68 per configuration, with nine mutants killed.
+
+Optimized and ASan/UBSan component checks; leak detection disabled. No Windows compile/UI validation of this individual fix or complete input-lifecycle acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#interrupted-preview-drag-component-check--october-26)
+
+### Proportional wheel handling — Linux/component
+
+**Recorded state:** tested.
+
+The separately reviewed proportional-wheel component passed 37 primary and 224 independent assertions per configuration, with seven mutants killed. Optimized and ASan/UBSan configurations overlap and leak detection was disabled; counts are not summed into distinct tests.
+
+Source/component fixtures only, optimized plus ASan/UBSan with leak detection disabled. No Windows compile/UI proof, broad input acceptance or distinct-test total inferred.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#proportional-wheel-component-check--october-26)
+
+### Restore saved generic OBJ edits — Linux/component
+
+**Recorded state:** tested.
+
+The separately reviewed generic OBJ saved-edit restoration passed 76 primary and 127 independent assertions per configuration, with seven mutants killed. Optimized and ASan/UBSan checks used synthetic inputs with leak detection disabled; overlapping counts are not summed. Ordinary history was modeled rather than audited.
+
+Synthetic component/source evidence only; optimized and ASan/UBSan, leak detection disabled. Ordinary history modeled, not audited. The later cumulative Windows build and partial observations are recorded separately, with inconclusive reopen and unverified cleanup; no complete save/history acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#generic-obj-saved-edit-restore-component-check--october-26) · [evidence](../../docs/status/current-status.md#synchronous-obj-reopen-partial-windows-observation--october-26)
+
+### Load generic OBJ off the UI owner — Linux/component
+
+**Recorded state:** tested.
+
+The reviewed generic OBJ background-loading result is frozen. Reported checks cover the exact source-owned join and decoding away from the UI owner under deterministic fixtures: provider 106 per configuration, primary job 66, independent 65 plus six targeted per configuration, and 13 mutants killed. Intermediate source/test/race failures remain preserved; these overlapping inventories are not summed.
+
+Deterministic component fixtures and source-owned join only. Optimized/ASan/UBSan evidence, leak detection disabled; overlapping counts not summed. No native GUI or bounded wall-clock Close guarantee; blocked OS I/O may delay join.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#generic-obj-background-loading-component-check--october-26)
+
 | Task | Recorded state | Task prerequisites | State explanation |
 |---|---|---|---|
 | [SI-01: Choose a bounded source slice](../../tasks/spec-implementation/todo.md#si-01) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
@@ -645,13 +721,13 @@ Reported selected-carriage Apply X = 0.6, Undo and normal Close on the unchanged
 
 ## Current explanation
 
-**Now:** A reported Windows synthetic selected-part edit and Undo check adds bounded UI evidence on the unchanged earlier executable. The newer Linux/component successor, complete IDE and native game boot remain separately unverified on Windows.
+**Now:** An older combined Windows successor has bounded reported build/runtime evidence; a newer OBJ-reopen build has partial observations but inconclusive reopening and unverified closure. Five newer Linux/component results retain separate scopes. No playable native game or complete IDE is established.
 
-**Changed:** A separately reported Windows check used the unchanged earlier executable and an original two-part synthetic OBJ. Applying X = 0.6 to the selected carriage moved only that part; Undo restored zero X/Y/Z, a clean editor state and the observed geometry. Normal Close exited 0; input, source and executable were unchanged, with no Save or sidecar. The optional exact-pixel check failed; the result is limited to reported UI and visual observations.
+**Changed:** Recorded strict Windows builds, distinct older synthetic flow/Close evidence, newer automatic sidecar and source-only page-zero observations with inconclusive reopen/cleanup, and five reviewed Linux/component fixes. Earlier failed attempts retain their scopes.
 
-**Why:** Adds a bounded synthetic selected-part editing and Undo check, separately from indexing/reload and Linux/component evidence. It establishes no new build, exact-pixel fidelity, save behavior, complete IDE, broader task completion or native game boot.
+**Why:** Keep useful build and component evidence visible without inheriting runtime coverage across successors, hiding failed attempts, summing overlapping test inventories or promoting task/milestone acceptance.
 
-**Next:** Review a distinct remaining workflow with its existing owner. Windows validation of the Linux/component display-state successor remains pending; this check used the unchanged earlier executable. Preserve native ownership, provenance, S2 and initializer gates.
+**Next:** Keep newer reopen-after-switch and normal shutdown/cleanup unverified; no further input or denied-process-check workaround is claimed. Obtain a distinct bounded executor outcome. Review planned Refresh selected file contract separately; preserve native ownership, provenance, S2 and initializer gates.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
