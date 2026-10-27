@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "3fa7047a961812c23d39babca45d6f9242095bad",
-    "committed_at": "2026-10-26T16:17:15-07:00",
-    "subject": "docs: record bounded worker composition and OBJ reader evidence",
+    "sha": "1a8e2a95694d0eb125a63b9deef24bb50f52bfbd",
+    "committed_at": "2026-10-27T15:23:47-07:00",
+    "subject": "docs: record bounded room and resource evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
