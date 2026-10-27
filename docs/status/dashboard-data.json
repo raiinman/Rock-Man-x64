@@ -408,17 +408,31 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-27",
-    "review_id": "2026-10-27-room-resource-review-01",
-    "reviewed_through_commit": "bc27fb0903091125a3a32581e9daf94065b92563",
-    "summary": "Reviewed at 2026-10-27 22:13:52 UTC: bound existing owner-reported V4 image-material and V5 per-corner UV Linux primary optimized/ASan/UBSan results (leak detection disabled), strict Windows cross-builds/inert inspection, the distinct earlier V3 Windows run with normal exit/owner-observed movement, and later 30-check-per-configuration unchanged-production UV characterization. Coordinator bounded source inspection is not independent execution. Retained failures/oracle corrections and overlapping configurations remain explicit. Lens work excluded from completed records. All 30 task states/dependencies, historical acceptance, numerical validation records and prior observations remain unchanged."
+    "review_id": "2026-10-27-coordinator-receipt-review-01",
+    "reviewed_through_commit": "cfcabd669933bdc5b6644ab52e1729d847b5daf5",
+    "summary": "Reviewed at 2026-10-27 22:39:23 UTC: public handoff requests/cleanup closeout and coordinator receipt attestation distinguish verified custody/document access from reviewed workbench tests and unverified fresh UI/live-service usability. This is documentation coordination, not a native implementation, research execution or test result. The research/workbench package did not supply current native game source. All 31 bounded build checks, 30 task states/dependencies, historical criteria/accepted sets, stages, validation records and prior observations remain unchanged. No ownership, provenance, initializer or S2 gate changes."
   },
   "overview": {
     "now": "Original room/resource successors add optional image material and per-corner UV, with Linux checks and Windows cross-builds. The separate earlier V3 executable ran on Windows with normal exit and owner-observed movement; V4/V5 did not.",
-    "changed": "Reviewed at 2026-10-27 22:13:52 UTC: four scoped records separate V4/V5 implementation/component checks and builds, earlier V3 Windows execution, and later 30-check-per-configuration UV characterization without production changes. Historical acceptance and all 30 broad task states are unchanged.",
+    "changed": "Documentation coordination reviewed at 2026-10-27 22:39:23 UTC: coordinator custody/document receipt is acknowledged; fresh workbench UI/live-service usability remains unverified. The four current-day room/resource records, all 31 bounded checks and 30 task states are unchanged; no historical acceptance advances.",
     "why": "Keep the public record current while preserving failure history and distinguishing primary tests, bounded source inspection, cross-compilation, owner observation and actual platform execution. No earlier runtime result transfers to later successors.",
     "next": "Lens control remains outside completed records in this catch-up; finish and review it separately. Future Windows successor validation needs its own admitted procedure and terminal outcome. Pixel/focus/audio/full IDE/game acceptance and provenance, initializer and S2 gates remain separate."
   },
   "updates": [
+    {
+      "id": "coordinator-research-workbench-receipt-01",
+      "date": "2026-10-27",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "The native coordinator acknowledges receipt and document access for delivered research/workbench material: established intake verified the archive and extracted inventory, and the takeover guide/contracts were read. Public transfer cleanup is reported complete.",
+      "why": "Custody and guide access are distinct from fresh operational usability. Recorded workbench tests were reviewed, but no fresh coordinator UI exercise or current live-service attestation is established. The package did not supply current native game implementation source.",
+      "next": "Keep fresh operational usability unverified until an applicable bounded check has its own result; no access failure or full access is inferred. This acknowledgment grants no access or execution authority. Existing native implementation work and all acceptance boundaries remain separate.",
+      "evidence": [
+        "docs/status/decisions-and-handoff.md#coordinator-receipt-acknowledgment-researchworkbench-handoff--october-27",
+        "https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6454778677",
+        "https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6452652069"
+      ]
+    },
     {
       "id": "room-resource-material-v4-linux-01",
       "date": "2026-10-27",
@@ -6950,11 +6964,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-27-coordinator-receipt-review-01",
+      "date": "2026-10-27",
+      "basis_commit": "cfcabd669933bdc5b6644ab52e1729d847b5daf5",
+      "note": "Reviewed at 2026-10-27 22:39:23 UTC: separate coordinator receipt/cleanup handoff clarification only. Both tracker views reviewed: all 31 bounded checks, 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and validation records unchanged. Earlier observations retained. Custody/document access is not fresh UI/live-service usability, current native-source delivery or native development progress; zero acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-27 22:13:52 UTC",
+    "reviewed_at": "2026-10-27 22:39:23 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {

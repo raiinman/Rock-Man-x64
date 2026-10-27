@@ -437,3 +437,15 @@ Atlas, its upstream and the separately pinned older shelf share PSX-SPX lineage.
 Packet framing does not supply the selected write, relevant stream/device state, expected graphics effect or commit event. It therefore does not resolve the selected-occurrence effect/commit oracle or accept a native workload/terminal contract. Native root retains evaluation, workload/terminal-contract selection and patch ownership; the no-BIOS/emulator-runtime boundary, initializer restriction and S2 NO-GO remain unchanged.
 
 No completed gap card or unchanged question is being resent, and no new research assignment, execution or implementation is requested by this acknowledgment. Historical acceptance, all specification-task states and the separately recorded build/component results remain unchanged.
+
+### Coordinator receipt acknowledgment: research/workbench handoff — October 27
+
+**Documentation review: 2026-10-27 22:39:23 UTC.** This is a coordination receipt, not native development progress.
+
+The native coordinator confirms receipt of the delivered research/workbench material. The established private intake verified the delivered archive identity and extracted inventory, and the coordinator read the takeover guide and contracts. This acknowledges custody and document access in response to the [public receipt/usability request](https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6454778677).
+
+Recorded workbench tests were reviewed. The coordinator has not freshly exercised the workbench UI or attested current live-service availability; this receipt does not establish fresh operational usability or full access. That remaining usability attestation stays open. No concrete access failure is established by the absence of that check.
+
+The delivered package is research/workbench material; it did not supply current native game implementation source. The [reported transfer cleanup](https://github.com/raiinman/Rock-Man-x64/issues/2#issuecomment-6452652069) is complete, separate from coordinator usability confirmation. Earlier missing-function and packet-framing acknowledgments remain settled.
+
+This acknowledgment changes no ownership, implementation provenance, acceptance criterion, broad task state, initializer restriction or S2 gate. It requests no new research, game/probe execution or access. Any further usability check must remain within its applicable existing authority and receive its own honest result.
