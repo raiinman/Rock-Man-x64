@@ -2,7 +2,39 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Latest native evidence review: 2026-10-26 23:08:21 UTC.** Three completed Linux integration/reader sets below distinguish compatible existing worker composition from a stronger standalone reader. This review establishes no actual Windows controls/display, full-application build, device output, native game boot or provenance clearance. Earlier checkpoints retain their original scopes.
+**Latest documentation evidence review: 2026-10-27 22:13:52 UTC.** Current-day records below separate original image-material/per-corner UV successors and their Linux checks/Windows cross-compiles from an earlier bounded Windows execution and later unchanged-production UV characterization. All 30 broad task states and historical acceptance remain unchanged; earlier checkpoints retain their original scopes.
+
+## Current-day room and resource work — October 27
+
+**Documentation review: 2026-10-27 22:13:52 UTC.** These original summaries bind the implementation owner's existing result/configuration reports and the coordinator's review. This documentation pass ran no native tests or builds and did not independently download raw Windows receipts. Private implementation and inputs cannot be independently reproduced from this documentation-only repository. No private source, identities, paths, captures or packages are published.
+
+### Optional image material — V4
+
+The original room/resource/window successor added optional image material. Primary checks passed on Linux in strict optimized and ASan/UBSan configurations. Genuine predecessor failures for the material capacity and solid-background pixels were retained before passing checks for typed inputs, refusals, allocation and sensitivity. A test allocator/inlining warning was corrected with a no-inline annotation without weakening strict flags; it was a test setup correction.
+
+The tested configurations were optimized O2 and O1 with ASan/UBSan; leak detection was disabled, not passed. Strict Windows cross-compilation and linking with LLVM-MinGW/UCRT, followed by inert executable-format inspection, passed. V4 was never executed on Windows. Evidence consists of primary tests/self-review plus the coordinator's bounded image-material/resource source inspection, not separate independent execution or broad acceptance.
+
+### Authored per-corner UV — V5
+
+The next original successor added authored per-corner UV support. Primary Linux checks passed in the same optimized and sanitized configurations, with leak detection disabled. Genuine predecessor syntax refusals and declared ignored-UV pixel failures were retained. Formatting warnings were corrected. An initial positive-V overflow expectation was a test-oracle error and was corrected to negative-V; that correction was not a production fix.
+
+Strict Windows cross-compilation/linking and inert executable inspection passed; V5 was not executed on Windows. Primary tests/self-review and the coordinator's bounded provider, mapping, specification and literal-seam source inspection are distinct from an independent test rerun. V4 and V5 build evidence does not inherit the earlier V3 Windows runtime result.
+
+### Earlier bounded resource-window execution — V3
+
+The separate earlier V3 resource-window executable ran once on Windows, completing October 27 at 21:04 UTC with exit 0. The expected window was observed at 480 by 320; output drains completed and the window retired. The owner separately confirmed scene movement. The coordinator consumed the existing executor result and later owner testimony; this documentation review performed no new run, capture or automated input.
+
+This establishes the bounded earlier execution, normal exit and owner observation only. No pixel, focus, audio, complete IDE or native game-boot acceptance follows, and no runtime evidence transfers to V4 or V5.
+
+### Varying UV characterization
+
+Later primary characterization passed 30 checks per optimized and ASan/UBSan configuration for varying UV through clipping, depth and owned-frame lifetime. Leak detection was disabled. Initial runs passed: no artificial failing baseline or production change is claimed. Rational pixel/depth expectations were specified before execution; opposite face orders produced identical images, and owned-frame/lease behavior was checked.
+
+The V5 production source stayed unchanged. Its existing target-build evidence applies by source identity, not by a new target build or Windows run. Configuration counts overlap and are not summed into unique-test totals. There was no separate independent oracle execution. These component checks establish neither Windows execution nor visual-fidelity acceptance.
+
+**Why this matters:** new original component behavior, Windows cross-compiles, one earlier actual Windows execution and later unchanged-production characterization have different scopes. Neither source inspection nor one executable's runtime result validates every successor.
+
+**Next:** lens control remains outside completed records in this catch-up and needs its separate completion/review. Future Windows successor validation needs its own admitted procedure and terminal outcome. All 30 broad task states, dependencies, historical criteria, accepted sets, validation records and prior observations remain unchanged. Provenance, initializer and S2 gates remain unchanged.
 
 **Earlier source implementation checkpoint: 2026-10-24, reviewed at 02:07 UTC.** The isolated diagnostic-preview caller now withholds budget-stopped or failed raster output from ordinary completed-frame presentation. Independent source/synthetic review passed; Windows artifacts were linked, not executed. Earlier editor/rasterizer repairs, native mode-00 acceptance and revision-scoped heatmap browser evidence retain their separate limits. Native boot and A0:49 remain unresolved; the roadmap stays 5/20.
 

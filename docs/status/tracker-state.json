@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "514dc07cbb208d3efcdaa387983a42616b7fdcd14609f0112f28f5cc822d8b65",
+  "evidence_data_sha256": "888ed175141cf4b670db9e106c6cd7f8326c018a0fe7cfc9a1c1ba18510ef83c",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,9 +17,9 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "22a16970ce1e8368b3c96c76f62a485fe0f52d685335cdcda3afca9b3d2b30df",
-  "evidence_review_id": "2026-10-26-worker-reader-review-01",
-  "evidence_review_date": "2026-10-26",
+  "reviewed_stage_sha256": "0018fac3f5c05705de39625426a8cd57e13eb56f8433d37b86808331cc5220f3",
+  "evidence_review_id": "2026-10-27-room-resource-review-01",
+  "evidence_review_date": "2026-10-27",
   "reviewed_checklist_definitions": {
     "inspection": {
       "version": 1,
@@ -120,7 +120,8 @@
     "ecd52cb5505d82e3d2fd45a034c51e6ade940d301bdfd27701a9e5fe8b59c2e9",
     "0c538e7f3dc83cd8065bc261086816b496f703874c500830206a42b7f975b1b0",
     "b0804de4eccf963d39e43f076506c9af04fc266d92232436a6eff5e33d12b88a",
-    "1ee3d7e95808a288fe32854e09427170bbe9acdf39268c72ae41e6657f62b606"
+    "1ee3d7e95808a288fe32854e09427170bbe9acdf39268c72ae41e6657f62b606",
+    "e2b09a6584f4b7945050ee927663ce691e4e34a4f4d73b294a48bb5b04e40d51"
   ],
-  "reviewed_build_plan_sha256": "66d29b8ba4714f8d6e2b90bca86b7d8a47ecac0ac86921b42bb12ff20a6d328d"
+  "reviewed_build_plan_sha256": "29477b484a73dddd9516c56aab0d313941897ef0585905f2163989aab83b6334"
 }

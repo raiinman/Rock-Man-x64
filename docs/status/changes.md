@@ -4,6 +4,54 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-27 · room-resource-material-v4-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** The original V4 room/resource/window successor added optional image material. Primary strict Linux optimized and ASan/UBSan checks passed; strict Windows cross-compile/link and inert format inspection passed. V4 never ran on Windows.
+
+**Why:** Preserves genuine material-capacity/background-pixel predecessor failures, passing typed/refusal/allocation/sensitivity checks and a corrected test allocator/inlining warning. Leak detection was disabled. Primary/self-review and bounded coordinator source inspection are not independent execution.
+
+**Next:** Keep V4 component/build evidence separate from V3 runtime and V5. Any Windows execution or broader acceptance requires its own reviewed outcome.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#optional-image-material--v4).
+
+## 2026-10-27 · room-resource-corner-uv-v5-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** The original V5 successor added authored per-corner UV. Primary Linux optimized and ASan/UBSan checks and strict Windows cross-compile/link/inert inspection passed; no V5 Windows run occurred.
+
+**Why:** Retains genuine old syntax/ignored-UV pixel failures, formatting corrections and a corrected positive-V versus negative-V test oracle, not a production fix. Leak detection was disabled. Bounded coordinator source inspection was not an independent test rerun.
+
+**Next:** Keep primary component results, source inspection and target builds separate from runtime validation. Lens control is outside completed records in this catch-up.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#authored-per-corner-uv--v5).
+
+## 2026-10-27 · resource-window-v3-windows-01
+
+**Evidence class:** windows. **Runtime capability advanced:** no.
+
+**Changed:** The earlier V3 resource-window run completed October 27 at 21:04 UTC with exit 0, the expected 480 by 320 window, complete output drains and window retirement. The owner separately confirmed scene movement.
+
+**Why:** Records actual bounded Windows execution and owner observation for V3 only. The coordinator consumed the existing executor result/testimony; this documentation pass ran no new execution, capture or automated input.
+
+**Next:** No V4/V5 runtime, pixel, focus, audio, complete IDE or native game-boot acceptance follows. Any later Windows successor needs its own admitted procedure and terminal result.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#earlier-bounded-resource-window-execution--v3).
+
+## 2026-10-27 · varying-uv-clip-characterization-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** Later primary characterization passed 30 checks per optimized/ASan/UBSan configuration for varying UV through clipping, depth and owned-frame lifetime. Initial runs passed and V5 production source remained unchanged.
+
+**Why:** Retains pre-execution rational pixel/depth expectations, opposite-face-order image identity and frame/lease checks. Counts overlap; leak detection was disabled. There was no artificial RED, production change or independent oracle execution.
+
+**Next:** Existing V5 target-build evidence applies by unchanged source identity, not a new build or Windows run. Lens control completion remains separately reviewable.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#varying-uv-characterization).
+
 ## 2026-10-26 · authored-file-worker-chain-linux-01
 
 **Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
@@ -1679,3 +1727,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-26 · `2026-10-26-worker-reader-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
 | 2026-10-26 · `2026-10-26-worker-reader-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
 | 2026-10-26 · `2026-10-26-worker-reader-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-26 23:08:21 UTC: three bounded Linux integration/reader records added, bringing the separate build map to 27 records. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, numerical validation records and earlier observations are unchanged. Actual threads/parser/pixels, modeled native effects, inherited helper-prefix evidence and final executable replays remain distinct. Failures and interrupted invalid mutation retained; zero historical acceptance delta. No Windows, full-application, device or game-boot acceptance. |
+| 2026-10-27 · `2026-10-27-room-resource-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta. |
+| 2026-10-27 · `2026-10-27-room-resource-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta. |
+| 2026-10-27 · `2026-10-27-room-resource-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta. |
+| 2026-10-27 · `2026-10-27-room-resource-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta. |
+| 2026-10-27 · `2026-10-27-room-resource-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta. |
+| 2026-10-27 · `2026-10-27-room-resource-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta. |

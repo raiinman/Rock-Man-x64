@@ -407,18 +407,66 @@
   ],
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
-    "date": "2026-10-26",
-    "review_id": "2026-10-26-worker-reader-review-01",
-    "reviewed_through_commit": "92c778ac93bf8e1629e4ac0a0b27155a1ae07d80",
-    "summary": "Reviewed at 2026-10-26 23:08:21 UTC: three completed Linux receipt sets cover actual file-worker-to-filled-Image characterization, sidecar restoration through the same workers, and a stronger standalone OBJ delivered-byte/line reader. Metadata bindings were independently checked; this documentation pass ran no native tests/builds/research. Native API/history effects remain modeled where stated, and frozen IDE behavior does not acquire standalone-reader guarantees. All 30 broad task states, historical criteria/accepted sets, stages, numerical validation records and earlier observations remain unchanged; no Windows/device/game-boot acceptance follows."
+    "date": "2026-10-27",
+    "review_id": "2026-10-27-room-resource-review-01",
+    "reviewed_through_commit": "bc27fb0903091125a3a32581e9daf94065b92563",
+    "summary": "Reviewed at 2026-10-27 22:13:52 UTC: bound existing owner-reported V4 image-material and V5 per-corner UV Linux primary optimized/ASan/UBSan results (leak detection disabled), strict Windows cross-builds/inert inspection, the distinct earlier V3 Windows run with normal exit/owner-observed movement, and later 30-check-per-configuration unchanged-production UV characterization. Coordinator bounded source inspection is not independent execution. Retained failures/oracle corrections and overlapping configurations remain explicit. Lens work excluded from completed records. All 30 task states/dependencies, historical acceptance, numerical validation records and prior observations remain unchanged."
   },
   "overview": {
-    "now": "Two Linux integration characterizations connect actual file and sidecar workers to owned filled Image output; a separate standalone OBJ reader adds delivered-byte and line containment. These remain bounded private diagnostic results, not Windows UI, complete IDE or native game acceptance.",
-    "changed": "Reviewed at 2026-10-26 23:08:21 UTC: recorded three completed Linux evidence sets, distinguishing unchanged integration compatibility from a new standalone input guarantee. Historical failures, modeled boundaries, unchanged-source applicability and recorded retention stamps remain explicit.",
-    "why": "Check real worker composition without inventing a parser defect, artificial RED stage, whole-application test, or automatic transfer of standalone guarantees into the frozen IDE. Assertion cohorts and complete pixel comparisons remain separate measures.",
-    "next": "Reconcile any future platform-host or frozen-IDE adoption against its own admitted scope and terminal result. This review establishes neither. Preserve native API/display, file-identity and operating-system time limits, and provenance, initializer and S2 gates."
+    "now": "Original room/resource successors add optional image material and per-corner UV, with Linux checks and Windows cross-builds. The separate earlier V3 executable ran on Windows with normal exit and owner-observed movement; V4/V5 did not.",
+    "changed": "Reviewed at 2026-10-27 22:13:52 UTC: four scoped records separate V4/V5 implementation/component checks and builds, earlier V3 Windows execution, and later 30-check-per-configuration UV characterization without production changes. Historical acceptance and all 30 broad task states are unchanged.",
+    "why": "Keep the public record current while preserving failure history and distinguishing primary tests, bounded source inspection, cross-compilation, owner observation and actual platform execution. No earlier runtime result transfers to later successors.",
+    "next": "Lens control remains outside completed records in this catch-up; finish and review it separately. Future Windows successor validation needs its own admitted procedure and terminal outcome. Pixel/focus/audio/full IDE/game acceptance and provenance, initializer and S2 gates remain separate."
   },
   "updates": [
+    {
+      "id": "room-resource-material-v4-linux-01",
+      "date": "2026-10-27",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The original V4 room/resource/window successor added optional image material. Primary strict Linux optimized and ASan/UBSan checks passed; strict Windows cross-compile/link and inert format inspection passed. V4 never ran on Windows.",
+      "why": "Preserves genuine material-capacity/background-pixel predecessor failures, passing typed/refusal/allocation/sensitivity checks and a corrected test allocator/inlining warning. Leak detection was disabled. Primary/self-review and bounded coordinator source inspection are not independent execution.",
+      "next": "Keep V4 component/build evidence separate from V3 runtime and V5. Any Windows execution or broader acceptance requires its own reviewed outcome.",
+      "evidence": [
+        "docs/status/current-status.md#optional-image-material--v4"
+      ]
+    },
+    {
+      "id": "room-resource-corner-uv-v5-linux-01",
+      "date": "2026-10-27",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The original V5 successor added authored per-corner UV. Primary Linux optimized and ASan/UBSan checks and strict Windows cross-compile/link/inert inspection passed; no V5 Windows run occurred.",
+      "why": "Retains genuine old syntax/ignored-UV pixel failures, formatting corrections and a corrected positive-V versus negative-V test oracle, not a production fix. Leak detection was disabled. Bounded coordinator source inspection was not an independent test rerun.",
+      "next": "Keep primary component results, source inspection and target builds separate from runtime validation. Lens control is outside completed records in this catch-up.",
+      "evidence": [
+        "docs/status/current-status.md#authored-per-corner-uv--v5"
+      ]
+    },
+    {
+      "id": "resource-window-v3-windows-01",
+      "date": "2026-10-27",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "The earlier V3 resource-window run completed October 27 at 21:04 UTC with exit 0, the expected 480 by 320 window, complete output drains and window retirement. The owner separately confirmed scene movement.",
+      "why": "Records actual bounded Windows execution and owner observation for V3 only. The coordinator consumed the existing executor result/testimony; this documentation pass ran no new execution, capture or automated input.",
+      "next": "No V4/V5 runtime, pixel, focus, audio, complete IDE or native game-boot acceptance follows. Any later Windows successor needs its own admitted procedure and terminal result.",
+      "evidence": [
+        "docs/status/current-status.md#earlier-bounded-resource-window-execution--v3"
+      ]
+    },
+    {
+      "id": "varying-uv-clip-characterization-linux-01",
+      "date": "2026-10-27",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Later primary characterization passed 30 checks per optimized/ASan/UBSan configuration for varying UV through clipping, depth and owned-frame lifetime. Initial runs passed and V5 production source remained unchanged.",
+      "why": "Retains pre-execution rational pixel/depth expectations, opposite-face-order image identity and frame/lease checks. Counts overlap; leak detection was disabled. There was no artificial RED, production change or independent oracle execution.",
+      "next": "Existing V5 target-build evidence applies by unchanged source identity, not a new build or Windows run. Lens control completion remains separately reviewable.",
+      "evidence": [
+        "docs/status/current-status.md#varying-uv-characterization"
+      ]
+    },
     {
       "id": "authored-file-worker-chain-linux-01",
       "date": "2026-10-26",
@@ -6840,11 +6888,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-27-room-resource-review-01",
+      "date": "2026-10-27",
+      "basis_commit": "bc27fb0903091125a3a32581e9daf94065b92563",
+      "note": "Reviewed at 2026-10-27 22:13:52 UTC: four distinct room/resource implementation/build/runtime/characterization records bring the separate map to 31 bounded checks. All 30 broad task states/dependencies, historical criteria/versions/accepted IDs, stages, validation records and earlier observations remain unchanged. Linux configurations overlap with leak detection disabled; bounded source inspection is not independent execution. V3 Windows runtime does not cover V4/V5. Failures and oracle corrections retained; lens completion excluded; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-26 23:08:21 UTC",
+    "reviewed_at": "2026-10-27 22:13:52 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -7380,6 +7490,34 @@
         "state": "tested",
         "update_id": "standalone-obj-read-containment-linux-01",
         "limit": "Thirty primary/eighteen independent stream assertions apply by unchanged prefix, not whole-final rerun. Stronger-budget baseline, corrected oracle/setup, close-order defect and manually interrupted invalid mutation retained; exit 130 is not a kill. No kernel read-ahead, memory, snapshot or OS-time guarantee. Frozen IDE unchanged."
+      },
+      {
+        "id": "room-resource-material-v4-linux",
+        "label": "Optional image material V4 — Linux/component + Windows cross-build",
+        "state": "tested",
+        "update_id": "room-resource-material-v4-linux-01",
+        "limit": "Primary optimized/ASan/UBSan checks with leak detection disabled; retained predecessor/setup failures. Coordinator source inspection, no independent execution. Windows built/inspected only; V4 never executed there."
+      },
+      {
+        "id": "room-resource-corner-uv-v5-linux",
+        "label": "Per-corner UV V5 — Linux/component + Windows cross-build",
+        "state": "tested",
+        "update_id": "room-resource-corner-uv-v5-linux-01",
+        "limit": "Primary optimized/ASan/UBSan checks, leak detection disabled; old failures and corrected test oracle retained. Coordinator bounded source inspection, no independent rerun. No V5 Windows execution."
+      },
+      {
+        "id": "resource-window-v3-windows",
+        "label": "Earlier resource window V3 — bounded Windows execution",
+        "state": "tested",
+        "update_id": "resource-window-v3-windows-01",
+        "limit": "V3 only: normal exit/window retirement and owner-observed movement. No pixel/focus/audio/full IDE/game acceptance and no V4/V5 runtime coverage."
+      },
+      {
+        "id": "varying-uv-clip-characterization-linux",
+        "label": "Varying UV clipping — Linux/unchanged-source characterization",
+        "state": "tested",
+        "update_id": "varying-uv-clip-characterization-linux-01",
+        "limit": "30 primary checks per overlapping configuration; no new production code, artificial RED or independent oracle run. Leak detection disabled. Existing V5 target build applies by identity, not a fresh build or Windows run."
       }
     ]
   }
