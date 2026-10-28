@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-27 · `2026-10-27-coordinator-receipt-review-01` · [reviewed basis cfcabd6](https://github.com/raiinman/Rock-Man-x64/commit/cfcabd669933bdc5b6644ab52e1729d847b5daf5).
+**Last evidence review:** 2026-10-28 · `2026-10-28-approved-gallery-review-01` · [reviewed basis dd56dac](https://github.com/raiinman/Rock-Man-x64/commit/dd56dacc03611e48bf5a703250e7819e146288d9).
 **Latest repository change observed:** [ef4cadb](https://github.com/raiinman/Rock-Man-x64/commit/ef4cadb649502049c737ec671dc219ef09fac7ce) · 2026-10-27T15:44:19-07:00 — docs: acknowledge coordinator research-workbench receipt.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -602,13 +602,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-27 · `2026-10-27-coordinator-receipt-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-27 22:39:23 UTC: separate coordinator receipt/cleanup handoff clarification only. Both tracker views reviewed: all 31 bounded checks, 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and validation records unchanged. Earlier observations retained. Custody/document access is not fresh UI/live-service usability, current native-source delivery or native development progress; zero acceptance delta. |
 | 2026-10-27 · `2026-10-27-coordinator-receipt-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-27 22:39:23 UTC: separate coordinator receipt/cleanup handoff clarification only. Both tracker views reviewed: all 31 bounded checks, 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and validation records unchanged. Earlier observations retained. Custody/document access is not fresh UI/live-service usability, current native-source delivery or native development progress; zero acceptance delta. |
 | 2026-10-27 · `2026-10-27-coordinator-receipt-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-27 22:39:23 UTC: separate coordinator receipt/cleanup handoff clarification only. Both tracker views reviewed: all 31 bounded checks, 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and validation records unchanged. Earlier observations retained. Custody/document access is not fresh UI/live-service usability, current native-source delivery or native development progress; zero acceptance delta. |
+| 2026-10-28 · `2026-10-28-approved-gallery-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
+| 2026-10-28 · `2026-10-28-approved-gallery-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
+| 2026-10-28 · `2026-10-28-approved-gallery-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
+| 2026-10-28 · `2026-10-28-approved-gallery-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
+| 2026-10-28 · `2026-10-28-approved-gallery-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
+| 2026-10-28 · `2026-10-28-approved-gallery-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-27 22:39:23 UTC.
+**Map reviewed:** 2026-10-28 14:27:03 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -959,9 +965,9 @@ Later primary characterization passed 30 checks per optimized/ASan/UBSan configu
 
 **Now:** Original room/resource successors add optional image material and per-corner UV, with Linux checks and Windows cross-builds. The separate earlier V3 executable ran on Windows with normal exit and owner-observed movement; V4/V5 did not.
 
-**Changed:** Documentation coordination reviewed at 2026-10-27 22:39:23 UTC: coordinator custody/document receipt is acknowledged; fresh workbench UI/live-service usability remains unverified. The four current-day room/resource records, all 31 bounded checks and 30 task states are unchanged; no historical acceptance advances.
+**Changed:** Three specifically approved prototype images now have a repository gallery with explicit portable-frame and earlier static-inspection labels. This documentation presentation change adds no build check, task completion or historical acceptance.
 
-**Why:** Keep the public record current while preserving failure history and distinguishing primary tests, bounded source inspection, cross-compilation, owner observation and actual platform execution. No earlier runtime result transfers to later successors.
+**Why:** Let visitors see original prototype work while keeping actual image type, historical scope and unverified Windows/game-fidelity claims clear. The public repository still distributes no playable build.
 
 **Next:** Lens control remains outside completed records in this catch-up; finish and review it separately. Future Windows successor validation needs its own admitted procedure and terminal outcome. Pixel/focus/audio/full IDE/game acceptance and provenance, initializer and S2 gates remain separate.
 

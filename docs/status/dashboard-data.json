@@ -407,18 +407,31 @@
   ],
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
-    "date": "2026-10-27",
-    "review_id": "2026-10-27-coordinator-receipt-review-01",
-    "reviewed_through_commit": "cfcabd669933bdc5b6644ab52e1729d847b5daf5",
-    "summary": "Reviewed at 2026-10-27 22:39:23 UTC: public handoff requests/cleanup closeout and coordinator receipt attestation distinguish verified custody/document access from reviewed workbench tests and unverified fresh UI/live-service usability. This is documentation coordination, not a native implementation, research execution or test result. The research/workbench package did not supply current native game source. All 31 bounded build checks, 30 task states/dependencies, historical criteria/accepted sets, stages, validation records and prior observations remain unchanged. No ownership, provenance, initializer or S2 gate changes."
+    "date": "2026-10-28",
+    "review_id": "2026-10-28-approved-gallery-review-01",
+    "reviewed_through_commit": "dd56dacc03611e48bf5a703250e7819e146288d9",
+    "summary": "Reviewed at 2026-10-28 14:27:03 UTC: documentation-only preparation of the three specifically owner-approved repository gallery images and safe captions. The coordinator verified exact image bytes, PNG integrity, empty embedded metadata and visible content. H1 progression and Legacy96/Detail192 comparison are actual portable frames; the actor sheet is an earlier actor-only static inspection, with historical embedded status notes. No new runtime or test execution is claimed. Both trackers were reviewed: all 31 bounded checks, 30 task states/dependencies, historical criteria/accepted sets, stages, validation records and prior observations remain unchanged. Gallery media stays outside the fixed Pages artifact; all other private publication boundaries remain unchanged."
   },
   "overview": {
     "now": "Original room/resource successors add optional image material and per-corner UV, with Linux checks and Windows cross-builds. The separate earlier V3 executable ran on Windows with normal exit and owner-observed movement; V4/V5 did not.",
-    "changed": "Documentation coordination reviewed at 2026-10-27 22:39:23 UTC: coordinator custody/document receipt is acknowledged; fresh workbench UI/live-service usability remains unverified. The four current-day room/resource records, all 31 bounded checks and 30 task states are unchanged; no historical acceptance advances.",
-    "why": "Keep the public record current while preserving failure history and distinguishing primary tests, bounded source inspection, cross-compilation, owner observation and actual platform execution. No earlier runtime result transfers to later successors.",
+    "changed": "Three specifically approved prototype images now have a repository gallery with explicit portable-frame and earlier static-inspection labels. This documentation presentation change adds no build check, task completion or historical acceptance.",
+    "why": "Let visitors see original prototype work while keeping actual image type, historical scope and unverified Windows/game-fidelity claims clear. The public repository still distributes no playable build.",
     "next": "Lens control remains outside completed records in this catch-up; finish and review it separately. Future Windows successor validation needs its own admitted procedure and terminal outcome. Pixel/focus/audio/full IDE/game acceptance and provenance, initializer and S2 gates remain separate."
   },
   "updates": [
+    {
+      "id": "approved-prototype-gallery-01",
+      "date": "2026-10-28",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Added a repository/README gallery for exactly three owner-approved images: actual portable H1 mission progression, earlier original actor-only inspection, and actual portable Legacy96/Detail192 comparison. The actor sheet retains historical embedded loader/chamber notes, explicitly distinguished from current mission status.",
+      "why": "Make original prototype work visible with accurate labels and limits. The coordinator reviewed exact image bytes, format, metadata and visible content. These images do not establish Windows presentation, faithful Mega Man Legends behavior, native game boot or a playable release.",
+      "next": "Keep this gallery outside the unchanged eight-file Pages artifact and five generated output paths. Additional captures need their own approval and review; no task, bounded build record, historical acceptance or stopped publication action is promoted by these images.",
+      "evidence": [
+        "docs/gallery/README.md",
+        "docs/gallery/AGENTS.md"
+      ]
+    },
     {
       "id": "coordinator-research-workbench-receipt-01",
       "date": "2026-10-27",
@@ -7026,11 +7039,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-28-approved-gallery-review-01",
+      "date": "2026-10-28",
+      "basis_commit": "dd56dacc03611e48bf5a703250e7819e146288d9",
+      "note": "Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-27 22:39:23 UTC",
+    "reviewed_at": "2026-10-28 14:27:03 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {

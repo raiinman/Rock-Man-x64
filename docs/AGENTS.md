@@ -13,6 +13,7 @@ Maintain an approachable, comprehensive public record of the project's history, 
 ## Local Contracts
 
 - Follow the root publication boundary. This subtree accepts reviewed Markdown documentation; the authorized living status tracker also accepts original SVG explanations, clearly labeled original concept artwork, sanitized JSON evidence metadata and its documentation-only generator/tests. The requested `web/` interface also accepts original static HTML/CSS/ES modules, its local artifact builder and bounded tests, using canonical status data without a second authored snapshot. These do not authorize game/runtime implementation code, game assets, private runtime captures or services.
+- The root bounded image exception permits only the three reviewed owner-delivered images in `gallery/`, with captions and provenance limits. They are public repository/README media, excluded from the fixed Pages artifact; this does not admit other private captures, source or packages.
 - Use sanitized original summaries, not raw private logs, transcripts, code excerpts, or extracted content.
 - Separate the current checkpoint from historical stages. Preserve failed approaches and corrections in history while removing stale claims from current summaries.
 - Describe private results as reported evidence with explicit scope; the public repository does not contain the inputs or implementation needed to reproduce them.
@@ -37,6 +38,8 @@ Maintain an approachable, comprehensive public record of the project's history, 
 - Preserve untouched research and DOX license blobs when publishing; verify exact remote contents after the commit.
 
 ## Child DOX Index
+
+- [gallery/AGENTS.md](gallery/AGENTS.md) owns the three specifically approved public prototype images and their captions, outside Pages delivery.
 
 - [artwork/AGENTS.md](artwork/AGENTS.md) owns original documentation-only concept imagery and its provenance.
 - [history/AGENTS.md](history/AGENTS.md) owns start-to-current chronology and decision history.

@@ -6,8 +6,37 @@ A project working toward an independent **native Windows x64 Mega Man Legends 1 
 
 [**Explore the project and progress →**](https://raiinman.github.io/Rock-Man-x64/) · [**Build & spec plan**](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Read the project story](docs/history/README.md) · [Browse the research](research/README.md)
 
+## Prototype gallery
+
+Three owner-approved images from original prototype work. These images do not establish native Mega Man Legends boot, a playable release or faithful game behavior.
+
+### H1 progression
+
+[![H1 progression](docs/gallery/h1-progression.png)](docs/gallery/h1-progression.png)
+
+Original fan-recreation player and pillar-room mission: spawn, practice target cleared, returned-home complete. Actual portable rendered frames; Windows presentation and faithful MML behavior remain unverified.
+
+### Original actor inspection
+
+[![Original actor inspection](docs/gallery/actor-inspection.png)](docs/gallery/actor-inspection.png)
+
+Originally authored Volnutt-inspired actor, earlier actor-only static offscreen inspection. The embedded loader refusal and chamber-not-authored notes describe that earlier inspection, not current integrated mission status. Original mesh and painted atlas; skeletal/fire animation and Windows gameplay are not demonstrated by this sheet.
+
+### Legacy96 and Detail192 comparison
+
+[![Legacy96 and Detail192 comparison](docs/gallery/render-comparison.png)](docs/gallery/render-comparison.png)
+
+Legacy96 (96×64) versus Detail192 (192×128), the same original player/room and saved mission stages at equivalent continuous FOV. Actual portable frames displayed with nearest-neighbor scaling. Windows presentation remains unverified.
+
+[Open the gallery and scope notes](docs/gallery/README.md)
+
+<details>
+<summary>Original concept illustration</summary>
+
 ![Original concept illustration of a crimson mechanical workshop](docs/artwork/workshop-concept.png)
 *Original AI-generated concept illustration for this documentation. Not a screenshot or game output.*
+
+</details>
 
 ## What you can explore today
 
@@ -33,7 +62,7 @@ The goal includes a native game and editor. Documentation, research results and 
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-27 · `2026-10-27-coordinator-receipt-review-01` · [reviewed basis cfcabd6](https://github.com/raiinman/Rock-Man-x64/commit/cfcabd669933bdc5b6644ab52e1729d847b5daf5).
+**Last evidence review:** 2026-10-28 · `2026-10-28-approved-gallery-review-01` · [reviewed basis dd56dac](https://github.com/raiinman/Rock-Man-x64/commit/dd56dacc03611e48bf5a703250e7819e146288d9).
 **Latest repository change observed:** [ef4cadb](https://github.com/raiinman/Rock-Man-x64/commit/ef4cadb649502049c737ec671dc219ef09fac7ce) · 2026-10-27T15:44:19-07:00 — docs: acknowledge coordinator research-workbench receipt.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
