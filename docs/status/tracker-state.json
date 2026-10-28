@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "d7310771487e27a56109e2dc0fdfb7164b4ef5ce",
-    "committed_at": "2026-10-28T07:44:52-07:00",
-    "subject": "docs: showcase three approved prototype images",
+    "sha": "e0f2e382c8c85fde23383dfc0140cfdb7213235c",
+    "committed_at": "2026-10-28T08:31:51-07:00",
+    "subject": "docs: reconcile runtime evidence and living trackers",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` · [reviewed basis b2b023d](https://github.com/raiinman/Rock-Man-x64/commit/b2b023dcffc4c6307dacee9205864394cf1704b8).
-**Latest repository change observed:** [d731077](https://github.com/raiinman/Rock-Man-x64/commit/d7310771487e27a56109e2dc0fdfb7164b4ef5ce) · 2026-10-28T07:44:52-07:00 — docs: showcase three approved prototype images.
+**Latest repository change observed:** [e0f2e38](https://github.com/raiinman/Rock-Man-x64/commit/e0f2e382c8c85fde23383dfc0140cfdb7213235c) · 2026-10-28T08:31:51-07:00 — docs: reconcile runtime evidence and living trackers.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
