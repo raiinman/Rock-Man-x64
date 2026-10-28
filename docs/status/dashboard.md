@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-retaliation-review-01` · [reviewed basis e7fd63f](https://github.com/raiinman/Rock-Man-x64/commit/e7fd63f20ff743a88aafdc268812ccc6100f6c5c).
+**Last evidence review:** 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` · [reviewed basis 792abb3](https://github.com/raiinman/Rock-Man-x64/commit/792abb37cd2429f85adabba53d0d59de9ea6ab1e).
 **Latest repository change observed:** [200b149](https://github.com/raiinman/Rock-Man-x64/commit/200b14916d713cc67e83b262436d52cb6f1318b9) · 2026-10-28T09:47:09-07:00 — docs: record bounded original retaliation evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -620,13 +620,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-28 · `2026-10-28-retaliation-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
 | 2026-10-28 · `2026-10-28-retaliation-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
 | 2026-10-28 · `2026-10-28-retaliation-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` | inspection v1 | 4 / 7 | Reviewed October 28, 2026, 11:16:27 AM Arizona \(MST\): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` | observation v1 | 2 / 4 | Reviewed October 28, 2026, 11:16:27 AM Arizona \(MST\): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` | loader v1 | 3 / 4 | Reviewed October 28, 2026, 11:16:27 AM Arizona \(MST\): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` | s2 v1 | 0 / 4 | Reviewed October 28, 2026, 11:16:27 AM Arizona \(MST\): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` | boot v1 | 0 / 1 | Reviewed October 28, 2026, 11:16:27 AM Arizona \(MST\): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` | roadmap v1 | 5 / 20 | Reviewed October 28, 2026, 11:16:27 AM Arizona \(MST\): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-28 15:56:40 UTC.
+**Map reviewed:** October 28, 2026, 11:16:27 AM Arizona \(MST\).
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -1000,6 +1006,36 @@ Three-health original placeholder, every64accepted HOME steps; refused/canceled/
 
 **Evidence:** [evidence](../../docs/status/current-status.md#original-accepted-step-retaliation-encounter--october-28)
 
+### Original combat cues — Linux/component \+ inert Windows-target build
+
+**Recorded state:** tested.
+
+Independent selected-scope combat-cue checks passed for the current-state lane, countdown/terminal priority, query purity, callbacks and Close. The lane describes accepted current state, not a future-hit guarantee.
+
+Accepted-current-state lane, not a future-hit guarantee. Independent priority/purity/callback/Close checks; corrected label and compiler/harness failures retained. Optimized/ASan/UBSan with leaks disabled; native effects modeled, no Windows execution or fidelity acceptance.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#current-state-combat-cues)
+
+### Original Replay v2 notification repair — Linux/component \+ inert Windows-target build
+
+**Recorded state:** tested.
+
+Replay v2 narrowly repairs a real notification defect after defeat/focus loss: Replay became unavailable without requesting the repaint to clear its formerly eligible cue. Compiled C\+\+ with modeled notifications reproduced the failure; the identical consumer passed after repair without assertion changes.
+
+Original mechanics passed but display defect kept predecessor blocked. Same failing consumer passes after narrow repair; unchanged-source mechanics/budget/allocation evidence inherited, not all rerun. Modeled native effects, leaks disabled; optional delivery is not Windows execution.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#terminal-replay-and-its-notification-repair) · [evidence](../../docs/status/current-status.md#platform-image-and-next-step-limits)
+
+### Original four-way facing and fire — Linux/component \+ inert Windows-target build
+
+**Recorded state:** tested.
+
+Final scoped independent review passed four-way cardinal rotations and shot boundaries, UV/winding preservation, accepted-movement facing, room-owned parked headings, Replay resetting both headings and retaliation staying world-forward rather than player-aimed.
+
+Scoped rotation/shot/UV/winding/room/Replay and accepted-state review. Real late throwing-callback termination repaired/retested; native input/UI modeled, leaks disabled. Assertion counts not progress; no Windows run, MML fidelity or new public imagery.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#four-way-facing-and-firing) · [evidence](../../docs/status/current-status.md#platform-image-and-next-step-limits)
+
 | Task | Recorded state | Task prerequisites | State explanation |
 |---|---|---|---|
 | [SI-01: Choose a bounded source slice](../../tasks/spec-implementation/todo.md#si-01) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
@@ -1035,13 +1071,13 @@ Three-health original placeholder, every64accepted HOME steps; refused/canceled/
 
 ## Current explanation
 
-**Now:** An original three-health retaliation encounter passed bounded Linux actual-consumer and independent checks plus a strict Windows cross-build. Its target responds every 64 accepted HOME steps; it has not run on Windows. Earlier H1, Detail192, HUD, bounded IDE and Windows shooting records keep their separate scopes.
+**Now:** Original combat cues, Replay v2 notification repair and four-way facing/fire have scoped portable optimized/sanitizer evidence and inert Windows-target build/inspection. UI, GDI and input are modeled; these successors have not run on Windows. The earlier original shooting demo retains its separate Windows result.
 
-**Changed:** Added one terminal retaliation build record after the earlier in-progress snapshot: accepted-step timing, no-heal room persistence, defeat/view/Close, budget/allocation retention and independent boundary coverage. Unselected defaults are preserved. No broad task or historical acceptance changed.
+**Changed:** Integrated three bounded portable/component records from the earlier reviewed combat snapshot and added Arizona-primary build-map review display. Replay predecessor failure, inherited-proof limits and four-way callback repair remain explicit. No new image, aggregate native assertion total, task completion or historical acceptance change.
 
-**Why:** Describe the tested original encounter accurately without converting accepted world steps into real-time AI or transferring an earlier executable's Windows result. Preserve the earlier dated queue statement and keep component evidence distinct from faithful game or native-boot acceptance.
+**Why:** Keep current-state cues, blocked predecessor/display repair and inherited unchanged-component proofs distinct, while displaying the recorded review in the owner-selected timezone. Canonical UTC, historical records and repository activity remain intact; formatting and documentation tests do not establish Windows or faithful-game acceptance.
 
-**Next:** As of this review, a separate original combat-cues successor is mutable and under testing. Await its terminal verification and independent review; no completion or Windows execution is claimed. Broader IDE work and provenance, initializer, S2 and native-game acceptance remain separate.
+**Next:** At the October 28, 2026, 10:51:53 AM Arizona \(MST\) evidence snapshot, hold-facing strafe was selected and underway as a development assignment only. No later implementation result is added by this formatter integration. Await actual completed evidence before advancing that dated queue statement; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 

@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "48b94f12c59dbfcdce52b00a964c1db86c7f4f5ab6829f26ce33ea9ad8bb7d0d",
+  "evidence_data_sha256": "5a961d18a22873aa0a943d4a20e128c104f76591261d5318f21be6174fdc9193",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "f7edc2bcc6bcb46d052a7ae88d7597093f75e9eb5a5b423267475ced75e47b46",
-  "evidence_review_id": "2026-10-28-retaliation-review-01",
+  "reviewed_stage_sha256": "70165c7fc4596c4a91580926cd1c7ba497dcccaf77740f1bdff4595853762ca5",
+  "evidence_review_id": "2026-10-28-combat-arizona-integration-review-01",
   "evidence_review_date": "2026-10-28",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -125,7 +125,8 @@
     "5244ed4ae1adba0b06b0eb1ccb96668ea151b6cbffe4455a4046e277c741fa9b",
     "33c897c9fd236e4bc4b7f6efbd4c863a4c4697e1c4dc2fef7f2b630f583a4653",
     "e6c89cc7305ffd469a3d953be128411fa4fefe60092cdfb81c9d8ddf990f4d66",
-    "6a4c6e4a30cc45b485d8cbfd74a63dbebc15bbbf87ce0fae7b7b09217a60dbe1"
+    "6a4c6e4a30cc45b485d8cbfd74a63dbebc15bbbf87ce0fae7b7b09217a60dbe1",
+    "a3cf3e9e138b4700f09c885925caf0e7165a32396af7f44a86873efdd553d113"
   ],
-  "reviewed_build_plan_sha256": "1b3f92cfb2168058fadfbebb08e6c8456292e121e8fabf9e3378e6e261edb654"
+  "reviewed_build_plan_sha256": "825b26c2bfed0bd397a23aff25822c1245a5ee72738be544a8e58389e8aadc64"
 }

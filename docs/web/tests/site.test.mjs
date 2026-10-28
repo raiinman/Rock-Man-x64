@@ -2,9 +2,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
 import {webcrypto,createHash} from 'node:crypto';
 import {validateData,verifyDocument,verifyManifest,counts,statusOf,sourceUrl,parseRoute,routeHref,filteredItems,deltaFor,deltaText,filterFindings,checklistById} from '../model.mjs';
 import {renderShell,renderError,escapeHTML} from '../views.mjs';
+import * as reviewView from '../views.mjs';
 import {fetchReviewed,startApp} from '../app.mjs';
 const raw=fs.readFileSync(new URL('../../status/dashboard-data.json',import.meta.url),'utf8');
 const receiptRaw=fs.readFileSync(new URL('../../status/tracker-state.json',import.meta.url),'utf8');
@@ -157,9 +159,39 @@ test('build-plan renders bounded evidence and task dependencies without acceptan
   assert.match(html,/not native game boot or a complete IDE/);
   assert.match(html,/id="plan-detail-si-02" tabindex="-1"/);
   assert.match(html,/href="#build-plan\?item=si-01"/);
-  assert.ok(html.includes(d.last_evidence_review.date+' 16:30:00 UTC'));
+  assert.match(html,/Map reviewed: [^<]+ [AP]M Arizona \(MST\)\./);
+  assert.doesNotMatch(html,/Map reviewed: [^<]* UTC/);
   assert.ok(html.includes('/blob/'+sha+'/tasks/spec-implementation/todo.md#si-02'));
   assert.doesNotMatch(html,/\d+(?:\.\d+)?%|MILESTONES ACCEPTED/);
+});
+test('Arizona review display handles midnight, noon and calendar boundaries without changing canonical UTC',()=>{
+  const cases=[
+    ['2026-10-28 17:51:53 UTC','October 28, 2026, 10:51:53 AM Arizona (MST)'],
+    ['2026-10-28 07:00:00 UTC','October 28, 2026, 12:00:00 AM Arizona (MST)'],
+    ['2026-10-28 19:00:00 UTC','October 28, 2026, 12:00:00 PM Arizona (MST)'],
+    ['2026-10-28 06:59:59 UTC','October 27, 2026, 11:59:59 PM Arizona (MST)'],
+    ['2026-01-01 06:59:59 UTC','December 31, 2025, 11:59:59 PM Arizona (MST)'],
+    ['2024-03-01 06:30:00 UTC','February 29, 2024, 11:30:00 PM Arizona (MST)'],
+    ['2026-07-01 19:00:00 UTC','July 1, 2026, 12:00:00 PM Arizona (MST)'],
+    ['2026-01-01 19:00:00 UTC','January 1, 2026, 12:00:00 PM Arizona (MST)']
+  ];
+  for(const [value,expected]of cases)assert.equal(reviewView.formatReviewTime(value),expected,value);
+  const d=buildPlanFixture();d.build_plan.reviewed_at=cases[0][0];const before=JSON.stringify(d);
+  assert.ok(renderShell(d,state,route('build-plan')).includes('Map reviewed: '+cases[0][1]+'.'));
+  assert.equal(JSON.stringify(d),before);
+  d.build_plan.reviewed_at=cases[0][1];assert.throws(()=>validateData(d,state),/Invalid build-plan review/);
+});
+test('Arizona review display rejects malformed or normalized dates',()=>{
+  for(const value of [null,{},'','2026-02-30 12:00:00 UTC','2026-13-01 12:00:00 UTC','2026-10-28 24:00:00 UTC','2026-10-28T17:51:53Z','October 28, 2026, 10:51:53 AM Arizona (MST)'])
+    assert.throws(()=>reviewView.formatReviewTime(value),/Invalid canonical UTC review time/);
+});
+test('Arizona review display ignores the viewer host timezone',()=>{
+  const moduleUrl=new URL('../views.mjs',import.meta.url).href;
+  const code=`import {formatReviewTime} from ${JSON.stringify(moduleUrl)};console.log(formatReviewTime('2026-10-28 17:51:53 UTC'));`;
+  for(const zone of ['UTC','Asia/Tokyo','America/New_York']){
+    const actual=execFileSync(process.execPath,['--input-type=module','-e',code],{env:{...process.env,TZ:zone},encoding:'utf8'}).trim();
+    assert.equal(actual,'October 28, 2026, 10:51:53 AM Arizona (MST)',zone);
+  }
 });
 test('build-plan filters affect task tiles without rewriting states or historical acceptance',()=>{
   const d=buildPlanFixture(),prior=JSON.stringify(d.checklists),html=renderShell(d,state,route('build-plan?status=blocked'));

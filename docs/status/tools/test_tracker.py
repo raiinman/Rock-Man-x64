@@ -3,9 +3,11 @@ from pathlib import Path
 import copy
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -372,6 +374,48 @@ class BuildPlanValidationTests(unittest.TestCase):
         before=copy.deepcopy(self.data);text='\n'.join(u.build_plan_ledger(self.data))
         self.assertIn('First fixture task',text);self.assertIn('Separate from historical acceptance',text)
         self.assertNotIn('%',text);self.assertEqual(self.data,before)
+
+    def test_build_plan_ledger_localizes_display_only(self):
+        before=copy.deepcopy(self.data)
+        rendered='\n'.join(u.build_plan_ledger(self.data))
+        self.assertIn('**Map reviewed:** December 31, 2025, 6:00:00 PM Arizona \\(MST\\).',rendered)
+        self.assertEqual(self.data,before)
+        u.validate_build_plan(self.root,self.data)
+        self.data['build_plan']['reviewed_at']='December 31, 2025, 6:00:00 PM Arizona (MST)'
+        with self.assertRaisesRegex(u.Invalid,'invalid build-plan review time'):
+            u.validate_build_plan(self.root,self.data)
+
+class ReviewTimeFormattingTests(unittest.TestCase):
+    def test_arizona_review_time_boundaries(self):
+        cases=(
+            ('2026-10-28 17:51:53 UTC','October 28, 2026, 10:51:53 AM Arizona (MST)'),
+            ('2026-10-28 07:00:00 UTC','October 28, 2026, 12:00:00 AM Arizona (MST)'),
+            ('2026-10-28 19:00:00 UTC','October 28, 2026, 12:00:00 PM Arizona (MST)'),
+            ('2026-10-28 06:59:59 UTC','October 27, 2026, 11:59:59 PM Arizona (MST)'),
+            ('2026-01-01 06:59:59 UTC','December 31, 2025, 11:59:59 PM Arizona (MST)'),
+            ('2024-03-01 06:30:00 UTC','February 29, 2024, 11:30:00 PM Arizona (MST)'),
+            ('2026-07-01 19:00:00 UTC','July 1, 2026, 12:00:00 PM Arizona (MST)'),
+            ('2026-01-01 19:00:00 UTC','January 1, 2026, 12:00:00 PM Arizona (MST)'),
+        )
+        for value,expected in cases:
+            with self.subTest(value=value):
+                self.assertEqual(u.format_review_time(value),expected)
+
+    def test_arizona_review_time_rejects_noncanonical_or_invalid_dates(self):
+        for value in (None,{},'', '2026-02-30 12:00:00 UTC','2026-13-01 12:00:00 UTC',
+                      '2026-10-28 24:00:00 UTC','2026-10-28T17:51:53Z',
+                      'October 28, 2026, 10:51:53 AM Arizona (MST)'):
+            with self.subTest(value=value):
+                with self.assertRaises(u.Invalid):u.format_review_time(value)
+
+    def test_arizona_review_time_ignores_host_timezone(self):
+        code=('import sys;sys.path.insert(0,'+repr(str(Path(u.__file__).parent))+');'
+              'import update_tracker as u;print(u.format_review_time("2026-10-28 17:51:53 UTC"))')
+        for zone in ('UTC','Asia/Tokyo','America/New_York'):
+            with self.subTest(zone=zone):
+                actual=subprocess.check_output([sys.executable,'-B','-c',code],
+                                              env={**os.environ,'TZ':zone},text=True)
+                self.assertEqual(actual.strip(),'October 28, 2026, 10:51:53 AM Arizona (MST)')
 
 class CurrentDatasetTests(unittest.TestCase):
     def test_current_reviewed_data_renders_without_drift_or_mutation(self):

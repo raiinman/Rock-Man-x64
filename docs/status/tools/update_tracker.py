@@ -12,6 +12,8 @@ import subprocess
 import sys
 import tempfile
 import textwrap
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[3]
 DATA = 'docs/status/dashboard-data.json'
@@ -95,12 +97,26 @@ def validate_build_plan(root, data):
         text(check['label'], 'build check label', 150); text(check['limit'], 'build check limit', 650)
         need(check['update_id'] in updates and bool(updates[check['update_id']]['evidence']), 'build check requires cited update')
 
+def format_review_time(value):
+    """Display a recorded UTC instant in America/Phoenix; never refresh it."""
+    need(isinstance(value, str) and re.fullmatch(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} UTC', value) is not None,
+         'invalid canonical UTC review time')
+    try:
+        local = datetime.strptime(value, '%Y-%m-%d %H:%M:%S UTC').replace(tzinfo=timezone.utc).astimezone(ZoneInfo('America/Phoenix'))
+    except (ValueError, OverflowError) as error:
+        raise Invalid('invalid canonical UTC review time') from error
+    months = ('January', 'February', 'March', 'April', 'May', 'June',
+              'July', 'August', 'September', 'October', 'November', 'December')
+    return (f'{months[local.month - 1]} {local.day}, {local.year}, '
+            f'{local.hour % 12 or 12}:{local.minute:02d}:{local.second:02d} '
+            f'{"AM" if local.hour < 12 else "PM"} Arizona ({local.tzname()})')
+
 def build_plan_ledger(data):
     plan = data.get('build_plan')
     if plan is None: return []
     lines = ['', '## Build and specification plan', '',
              'Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.', '',
-             '**Map reviewed:** ' + md(plan['reviewed_at']) + '.', '',
+             '**Map reviewed:** ' + md(format_review_time(plan['reviewed_at'])) + '.', '',
              '[Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · ' + link(plan['plan_source'], False, 'Full task definitions'), '']
     updates = {u['id']: u for u in data['updates']}
     for check in plan['checks']:

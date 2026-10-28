@@ -2,6 +2,48 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Documentation integration review — October 28
+
+**Review: October 28, 2026, 11:16:27 AM Arizona (MST).** This local documentation review integrates the separately reviewed original combat-cue, Replay v2 and four-way evidence snapshot below with an Arizona display formatter. The implementation evidence remains the October 28, 2026, 10:51:53 AM Arizona (MST) snapshot; no later gameplay or Windows result is added by this integration.
+
+The build/spec map now displays its recorded review instant in `America/Phoenix`, using an English date, explicit AM/PM and Arizona timezone label. Canonical UTC values and validation remain internal and unchanged in format; repository activity, historical prose and acceptance are not converted or advanced by this formatter. Python standard-library timezone support and the web view's built-in formatter introduce no dependency or asset. The updater retains five output paths and Pages retains eight artifact files.
+
+Formatter verification covers midnight, noon, date/year/leap-day rollover, summer/winter, invalid dates and host-timezone independence. These are documentation checks, not native game, research, platform or browser execution. Source-level rendering and local artifact checks do not replace the existing unverified served-view/browser checks.
+
+The dated development-assignment statement below is retained as a snapshot, not live activity or a later implementation result. All 30 task states/dependencies, criteria, accepted sets, workstream stages, numerical validation records and previously published observations remain unchanged. The three-image gallery exception stays narrow; no new image, private source, package or file identity is published by this documentation candidate.
+
+## Original combat cues, Replay and four-way facing — October 28
+
+**Documentation review: October 28, 2026, 10:51:53 AM Arizona (MST).** The coordinator reviewed the evidence-owner summaries for these selected original prototype slices. The documentation lane ran no native tests, game tests, builds, research or Windows execution. Private implementation and inputs cannot be independently reproduced from this public repository.
+
+### Current-state combat cues
+
+Independent scoped checks passed for the current-state lane, countdown and terminal-state priority, query purity, callbacks and Close. The lane reports accepted current state, not a guarantee that a later shot will hit. Earlier failing label checks were corrected and retained. Compiler and test-harness setup failures remain distinct from behavior failures.
+
+### Terminal Replay and its notification repair
+
+The original Replay mechanics and ownership checks passed, including victory through both rooms, global action consumption, fresh room state, cancellation and Close safety. Independent review nevertheless found a real display defect: after defeat, losing focus made Replay unavailable without requesting the repaint needed to clear its formerly eligible cue. Compiled C++ with modeled platform notifications reproduced that defect. The original candidate remained blocked despite passing mechanics checks.
+
+Replay v2 applied a narrow notification repair. The identical failing consumer then passed without assertion changes. Additional checks covered callback reentry, deferred freshness, unchanged-status churn, painting-borrow/Close safety, retirement, failure retention and default-off behavior. Gameplay and the existing window-title comparison remained unchanged.
+
+Earlier mechanics, budget and allocation proofs apply only through separately reviewed unchanged-source/component bindings. They are inherited evidence, not a newly rerun full suite for the repaired successor. This distinction remains explicit rather than adding all configurations, cohorts or scalar assertions into a headline test total.
+
+### Four-way facing and firing
+
+Final scoped independent review passed cardinal rotations and shot boundaries, UV and winding preservation, facing from accepted movement, room-owned parked headings, Replay resetting both headings, and retaliation remaining world-forward rather than player-aimed.
+
+A real late throwing-callback termination was retained, narrowly repaired and retested with the same consumer. Independent late lens/fire cancellation and exception checks retained accepted state. Passing geometry assertions or joined checks does not establish character-animation fidelity or a completed native game.
+
+### Platform, image and next-step limits
+
+The selected checks used portable optimized and ASan/UBSan C++ with leak detection disabled. UI, GDI and input were modeled. Source/input bindings were reviewed separately. Windows-target compilation and binary inspection were inert; none of these successors has executed on Windows. The earlier original shooting demo remains the latest separately reviewed Windows-tested baseline; the privately delivered optional Replay v2 remains untested on Windows.
+
+Actual private portable frames exist, but no new images are admitted for publication. The existing repository gallery retains its exact three-image exception and stays outside the fixed Pages artifact. These results do not establish native original-game boot, production acceptance, faithful MML behavior or broad task completion.
+
+**Next, as of this review:** hold-facing strafe is selected and underway as a development assignment only. No completed implementation or test result is claimed for it here. Await its actual evidence before changing that queue statement. All 30 task states/dependencies, historical acceptance definitions/denominators/accepted sets, stages, numerical validation records and earlier observations remain unchanged. Provenance, initializer and S2 gates remain separate.
+
+Earlier dated snapshots below retain their original in-progress statements and failed/inconclusive outcomes. This later review does not rewrite those records or transfer one executable's Windows result to another successor.
+
 ## Original accepted-step retaliation encounter — October 28
 
 **Documentation review: 2026-10-28 15:56:40 UTC (8:56:40 AM Arizona).** The coordinator consumed the final independent review and supplied this sanitized terminal evidence summary. The documentation lane ran no new native tests, game tests, research, builds or Windows execution. Private implementation and inputs are not independently reproducible from this public repository.

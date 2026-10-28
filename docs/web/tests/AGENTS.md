@@ -19,6 +19,7 @@ Check the read-only tracker's projection, safe artifact construction and control
 
 ## Work Guidance
 
+- Check UTC-to-Arizona review display at midnight, noon, date/year/leap-day boundaries and in summer/winter, independent of host timezone. Verify renderer integration and non-mutation of canonical UTC; localized strings must still fail canonical validation. These are offline formatter/render-string checks, not browser or clock/activity evidence.
 - Check heatmap tile identities/counts against canonical milestones, categorical labels independent of color, filtered totals without denominator drift, focused open/close behavior, evidence escaping/pinning and future-data changes. Static layout assertions are not browser acceptance.
 - Check separate build-plan routing, explicit state validation, no checkbox/acceptance inference, dependency cycles, source pinning, escaping, filters and mock-DOM focus restoration. Confirm its artifact still has exactly eight files.
 - Cover strict acceptance/counts, overall independence, real deltas/rebaseline, review consistency, safe URLs/escaping, filter/navigation behavior, cancellation/races and fail-closed error states.

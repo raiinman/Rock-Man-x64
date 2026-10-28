@@ -408,17 +408,71 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-28",
-    "review_id": "2026-10-28-retaliation-review-01",
-    "reviewed_through_commit": "e7fd63f20ff743a88aafdc268812ccc6100f6c5c",
-    "summary": "Reviewed at 2026-10-28 15:56:40 UTC (8:56:40 AM Arizona): coordinator-consumed final independent retaliation review and sanitized terminal actual-consumer/budget/allocation evidence add one bounded original Linux/component record with Windows cross-build only. The documentation lane ran no native tests, builds, research or platform execution. Build records increase from 36 to 37; all 30 task states/dependencies, historical criteria/versions/denominators/accepted sets, stages, numerical validation records and prior observations remain unchanged. Earlier 8:18:31 AM retaliation status is preserved as history; combat cues are in progress as of this review, not completed. Private source/artifact identities and other unapproved captures remain excluded."
+    "review_id": "2026-10-28-combat-arizona-integration-review-01",
+    "reviewed_through_commit": "792abb37cd2429f85adabba53d0d59de9ea6ab1e",
+    "summary": "Reviewed October 28, 2026, 11:16:27 AM Arizona (MST): local documentation integration combines the coordinator-reviewed 10:51:53 AM Arizona combat-cue, Replay v2 and four-way snapshot with an America/Phoenix Map review formatter. Underlying evidence records and original failures/inherited-proof limits remain exact; no later native outcome is added. Canonical UTC format/validation, historical records and repository activity remain separate from display. This documentation lane runs no native/game/research/platform tests. Build checks increase from the public 37 to 40, with all 30 task states/dependencies, criteria/versions/denominators/accepted sets, stages, numerical validation records and published observations unchanged. No new images/private identities, Windows execution or production/fidelity/native-boot acceptance. Formatter/source-render and artifact checks are documentation verification, not browser or platform acceptance."
   },
   "overview": {
-    "now": "An original three-health retaliation encounter passed bounded Linux actual-consumer and independent checks plus a strict Windows cross-build. Its target responds every 64 accepted HOME steps; it has not run on Windows. Earlier H1, Detail192, HUD, bounded IDE and Windows shooting records keep their separate scopes.",
-    "changed": "Added one terminal retaliation build record after the earlier in-progress snapshot: accepted-step timing, no-heal room persistence, defeat/view/Close, budget/allocation retention and independent boundary coverage. Unselected defaults are preserved. No broad task or historical acceptance changed.",
-    "why": "Describe the tested original encounter accurately without converting accepted world steps into real-time AI or transferring an earlier executable's Windows result. Preserve the earlier dated queue statement and keep component evidence distinct from faithful game or native-boot acceptance.",
-    "next": "As of this review, a separate original combat-cues successor is mutable and under testing. Await its terminal verification and independent review; no completion or Windows execution is claimed. Broader IDE work and provenance, initializer, S2 and native-game acceptance remain separate."
+    "now": "Original combat cues, Replay v2 notification repair and four-way facing/fire have scoped portable optimized/sanitizer evidence and inert Windows-target build/inspection. UI, GDI and input are modeled; these successors have not run on Windows. The earlier original shooting demo retains its separate Windows result.",
+    "changed": "Integrated three bounded portable/component records from the earlier reviewed combat snapshot and added Arizona-primary build-map review display. Replay predecessor failure, inherited-proof limits and four-way callback repair remain explicit. No new image, aggregate native assertion total, task completion or historical acceptance change.",
+    "why": "Keep current-state cues, blocked predecessor/display repair and inherited unchanged-component proofs distinct, while displaying the recorded review in the owner-selected timezone. Canonical UTC, historical records and repository activity remain intact; formatting and documentation tests do not establish Windows or faithful-game acceptance.",
+    "next": "At the October 28, 2026, 10:51:53 AM Arizona (MST) evidence snapshot, hold-facing strafe was selected and underway as a development assignment only. No later implementation result is added by this formatter integration. Await actual completed evidence before advancing that dated queue statement; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate."
   },
   "updates": [
+    {
+      "id": "arizona-map-review-display-01",
+      "date": "2026-10-28",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "The Python Markdown renderer and read-only web view display the recorded build-map review in America/Phoenix with an English date, explicit AM/PM and Arizona timezone label. Canonical UTC format/validation, recorded evidence and repository activity stay separate.",
+      "why": "Make the existing review instant readable in the owner-selected timezone without reading a current clock or inferring native progress. Literal boundary checks cover midnight/noon, date/year/leap rollover, summer/winter, invalid dates and host-timezone independence. Standard-library/built-in formatters add no dependency, asset or output path.",
+      "next": "Preserve canonical UTC and source-bound evidence limits in future updates; verify actual remote files and updater/build/deploy for any authorized publication. Native implementation retains its existing owner and terminal evidence. Formatting establishes no runtime, Windows, browser or acceptance result.",
+      "evidence": [
+        "docs/status/current-status.md#documentation-integration-review--october-28",
+        "docs/status/tools/update_tracker.py",
+        "docs/status/tools/test_tracker.py",
+        "docs/web/views.mjs",
+        "docs/web/tests/site.test.mjs"
+      ]
+    },
+    {
+      "id": "original-combat-cues-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Independent selected-scope combat-cue checks passed for the current-state lane, countdown/terminal priority, query purity, callbacks and Close. The lane describes accepted current state, not a future-hit guarantee.",
+      "why": "Retains corrected failing label checks separately from compiler/harness setup failures. Portable optimized/ASan/UBSan checks used modeled UI/GDI/input with leak detection disabled; source/input binding and inert Windows-target compilation/binary inspection are separate from platform execution.",
+      "next": "No successor Windows run, native original-game boot, production acceptance or fidelity result is established. Preserve the exact current-state meaning and review later behavior on its own source and evidence; no new public images are approved.",
+      "evidence": [
+        "docs/status/current-status.md#current-state-combat-cues"
+      ]
+    },
+    {
+      "id": "original-replay-notification-v2-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Replay v2 narrowly repairs a real notification defect after defeat/focus loss: Replay became unavailable without requesting the repaint to clear its formerly eligible cue. Compiled C++ with modeled notifications reproduced the failure; the identical consumer passed after repair without assertion changes.",
+      "why": "The original candidate stayed blocked despite passing mechanics/ownership checks through both-room victory, global action consumption, fresh state, cancellation and Close. Repair checks cover reentry, deferred freshness, unchanged-status churn, painting-borrow/Close, retirement, failure retention and default-off behavior. Gameplay and the existing title comparison are unchanged. Earlier mechanics/budget/allocation proofs are inherited only through reviewed unchanged-source/component binding, not claimed rerun on the whole repaired successor.",
+      "next": "Keep portable optimized/ASan/UBSan checks, leak detection disabled and modeled native effects distinct from inert Windows-target build/inspection. The delivered optional Replay v2 has not run on Windows; retain the original failing outcome and exact inherited-proof limits. No full IDE, native-game or fidelity acceptance follows.",
+      "evidence": [
+        "docs/status/current-status.md#terminal-replay-and-its-notification-repair",
+        "docs/status/current-status.md#platform-image-and-next-step-limits"
+      ]
+    },
+    {
+      "id": "original-four-way-facing-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Final scoped independent review passed four-way cardinal rotations and shot boundaries, UV/winding preservation, accepted-movement facing, room-owned parked headings, Replay resetting both headings and retaliation staying world-forward rather than player-aimed.",
+      "why": "A real late throwing-callback termination was preserved, narrowly repaired and retested with the same consumer. Independent late lens/fire cancellation and exception checks retained accepted state. Portable optimized/ASan/UBSan checks used modeled UI/GDI/input with leak detection disabled; source/input bindings were reviewed separately. Assertion volume is not a feature or completion count.",
+      "next": "Windows-target compilation/binary inspection is inert, not a Windows run or MML fidelity result. As of review, hold-facing strafe is selected and underway as an assignment only; await its actual completed evidence. Existing private frames do not expand the public three-image exception.",
+      "evidence": [
+        "docs/status/current-status.md#four-way-facing-and-firing",
+        "docs/status/current-status.md#platform-image-and-next-step-limits"
+      ]
+    },
     {
       "id": "original-retaliation-linux-01",
       "date": "2026-10-28",
@@ -7312,11 +7366,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-28-combat-arizona-integration-review-01",
+      "date": "2026-10-28",
+      "basis_commit": "792abb37cd2429f85adabba53d0d59de9ea6ab1e",
+      "note": "Reviewed October 28, 2026, 11:16:27 AM Arizona (MST): integrated three original combat-cue, Replay notification-repair and four-way component records from the earlier 10:51:53 AM Arizona snapshot plus display-only America/Phoenix formatting. Public build checks increase from 37 to 40; all 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages, numerical validation records and previously published observations remain unchanged. The Replay display failure, late throwing-callback termination and inherited-proof boundaries are preserved. One new bound integration observation is appended; unpublished draft points are not fabricated as public history. No new images, later strafe outcome, Windows run, production/fidelity/native-boot acceptance or aggregate native assertion progress. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-28 15:56:40 UTC",
+    "reviewed_at": "2026-10-28 18:16:27 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -7922,6 +8038,27 @@
         "state": "tested",
         "update_id": "original-retaliation-linux-01",
         "limit": "Three-health original placeholder, every64accepted HOME steps; refused/canceled/fire/transition/pause/away do not advance clock. Health/phase park without healing. Actual-consumer/budget/allocation and independent final-source cohorts passed; counts overlap. No Windows execution, real-time AI, faithful MML gameplay or game boot."
+      },
+      {
+        "id": "original-combat-cues-linux",
+        "label": "Original combat cues — Linux/component + inert Windows-target build",
+        "state": "tested",
+        "update_id": "original-combat-cues-linux-01",
+        "limit": "Accepted-current-state lane, not a future-hit guarantee. Independent priority/purity/callback/Close checks; corrected label and compiler/harness failures retained. Optimized/ASan/UBSan with leaks disabled; native effects modeled, no Windows execution or fidelity acceptance."
+      },
+      {
+        "id": "original-replay-notification-v2-linux",
+        "label": "Original Replay v2 notification repair — Linux/component + inert Windows-target build",
+        "state": "tested",
+        "update_id": "original-replay-notification-v2-linux-01",
+        "limit": "Original mechanics passed but display defect kept predecessor blocked. Same failing consumer passes after narrow repair; unchanged-source mechanics/budget/allocation evidence inherited, not all rerun. Modeled native effects, leaks disabled; optional delivery is not Windows execution."
+      },
+      {
+        "id": "original-four-way-facing-linux",
+        "label": "Original four-way facing and fire — Linux/component + inert Windows-target build",
+        "state": "tested",
+        "update_id": "original-four-way-facing-linux-01",
+        "limit": "Scoped rotation/shot/UV/winding/room/Replay and accepted-state review. Real late throwing-callback termination repaired/retested; native input/UI modeled, leaks disabled. Assertion counts not progress; no Windows run, MML fidelity or new public imagery."
       }
     ]
   }
