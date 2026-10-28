@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "e0f2e382c8c85fde23383dfc0140cfdb7213235c",
-    "committed_at": "2026-10-28T08:31:51-07:00",
-    "subject": "docs: reconcile runtime evidence and living trackers",
+    "sha": "200b14916d713cc67e83b262436d52cb6f1318b9",
+    "committed_at": "2026-10-28T09:47:09-07:00",
+    "subject": "docs: record bounded original retaliation evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

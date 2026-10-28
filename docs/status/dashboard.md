@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-retaliation-review-01` · [reviewed basis e7fd63f](https://github.com/raiinman/Rock-Man-x64/commit/e7fd63f20ff743a88aafdc268812ccc6100f6c5c).
-**Latest repository change observed:** [e0f2e38](https://github.com/raiinman/Rock-Man-x64/commit/e0f2e382c8c85fde23383dfc0140cfdb7213235c) · 2026-10-28T08:31:51-07:00 — docs: reconcile runtime evidence and living trackers.
+**Latest repository change observed:** [200b149](https://github.com/raiinman/Rock-Man-x64/commit/200b14916d713cc67e83b262436d52cb6f1318b9) · 2026-10-28T09:47:09-07:00 — docs: record bounded original retaliation evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
