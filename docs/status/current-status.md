@@ -2,6 +2,34 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Bounded IDE geometry and textured profiles — October 28
+
+**Documentation review: October 28, 2026, 1:00:50 PM Arizona (MST).** The evidence owner supplied terminal independently reviewed summaries for two selected component profiles. This documentation lane runs no new native tests, builds, research, game or platform execution. Private source and inputs are not independently reproducible from this public repository.
+
+### Authored-mission geometry profile
+
+Independent profile and lifecycle checks passed in optimized and sanitized configurations across ten bounded file/render scenarios. The checks exercised the actual parser, rasterizer and standard-thread return followed by polling and joining. An invalid profile had no effects. The selected profile stayed owned by its submitted request through reentry; sidecar and Mesh lifetimes were checked after temporary source copies were removed. Warning/default-path isolation, cancellation, stale-result refusal and Close were exercised.
+
+UV coordinates were validated, then deliberately rendered as a flat diagnostic image. This geometry profile does not claim textured output. Its clearance is for the component with explicit modeled boundaries, not full GUI or Windows execution. Earlier frozen IDE UNKNOWN outcomes and unresolved gaps remain unchanged; these new bounded results do not retroactively validate the whole application.
+
+### Owned textured file and manual-render profile
+
+The actual portable file/material decoding and manual-render path preserves owned corner UV, sidecar edits and textures without rereading removed input copies. Optimized/sanitized ownership and lifecycle checks passed across eleven bounded scenarios, using real worker return/join and stable guards. The final source received independent scoped review.
+
+Earlier optimized author results retain their original source-map applicability. The final sanitized and independent results bind to the repaired final source; an earlier author result is not silently relabeled as a new full-final-source rerun. An extra cancellation checkpoint on the default path was a source-compatibility finding, not an observed runtime failure.
+
+Reset while destroying a non-null current resource is source-reviewed only. Actual destruction checks followed a Plain-profile reset and do not exercise that non-null case. This limitation remains separate from the executed ownership and lifecycle checks.
+
+### Scope and next authoring decision
+
+These are selected portable components with explicit modeled native boundaries. Scenario and assertion counts describe bounded checks, not features, broad coverage or completion; overlapping configurations are not added into a headline total. Neither profile establishes full GUI, held Character propagation, Windows execution, game-import acceptance, native game boot or faithful game behavior. Historical failures, UNKNOWN outcomes and scope gaps remain preserved.
+
+An actual private preview was delivered, but it is outside the existing three-image public exception. This update adds no image, package, private source, input path or artifact identity. Windows testing is deferred; this record requests no Windows test or reminder.
+
+**Next, as of this review:** an authoring bridge is being assessed. No selected implementation, completed result or Windows outcome for that bridge is claimed here. Await its bounded contract and actual evidence rather than inferring a complete integrated IDE journey from these two component profiles.
+
+All 30 task states/dependencies, historical criteria/definitions/denominators/accepted sets, workstream stages, numerical validation records and prior observations remain unchanged. Earlier dated assignment statements below retain their original scope. Provenance, initializer and S2 gates remain separate.
+
 ## Original strafe and two-encounter extensions — October 28
 
 **Documentation review: October 28, 2026, 11:46:16 AM Arizona (MST).** The evidence owner supplied final independently reviewed summaries for these original prototype extensions. This documentation pass runs no native tests, builds, research or platform execution. Private source and inputs are not independently reproducible from this repository; no new package, capture or private identity is published.

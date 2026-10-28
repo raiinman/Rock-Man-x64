@@ -408,17 +408,43 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-28",
-    "review_id": "2026-10-28-strafe-encounters-review-01",
-    "reviewed_through_commit": "26589300f2daca36edbe2bc8221622ac2e573d59",
-    "summary": "Reviewed October 28, 2026, 11:46:16 AM Arizona (MST): final independent scoped strafe and two-encounter summaries add two bounded original portable/component records with inert Windows binary build/inspection. Executed lifecycle/clock/health/order/query/paint/Close outcomes remain distinct from source-only exhaustion/aggregate-cap limits and inherited original-version geometry/allocation/action-limit proofs. Genuine missing-behavior baselines and setup failures retained. Build checks increase from 40 to 42; all 30 task states/dependencies, criteria/versions/denominators/accepted sets, workstream stages, numerical validation records and prior observations remain unchanged. This documentation lane runs no native tests/builds/research/platform execution; no new images/private identities/package or Windows/fidelity/native-boot/production acceptance. The authored-mission IDE profile is an assignment only as of review."
+    "review_id": "2026-10-28-ide-profiles-review-01",
+    "reviewed_through_commit": "721b6286b5b6c690bb834832f9ea8e2ce62bcb53",
+    "summary": "Reviewed October 28, 2026, 1:00:50 PM Arizona (MST): evidence-owner terminal summaries add bounded authored-geometry and owned-textured portable IDE profile records. Actual parser/raster/material/worker-return-poll-join and ownership/lifecycle outcomes remain distinct from explicit native models, earlier optimized source-map applicability and source-only non-null current-resource destruction/reset; actual destruction followed Plain reset. Geometry validates UV but intentionally renders flat diagnostic output. Frozen IDE UNKNOWN/gaps and historical outcomes remain unchanged. Build checks increase from 42 to 44; all 30 task states/dependencies, criteria/versions/denominators/accepted sets, workstream stages, numerical validation records and prior observations preserved. This lane runs no native/game/research/build/platform tests. No new images/private identities or full-GUI/Windows/game-import/native-boot/fidelity acceptance. Authoring bridge is assessment only; Windows testing deferred, no prompt."
   },
   "overview": {
-    "now": "Original held-facing strafe and two room-owned encounters passed final independent scoped portable checks, with inert Windows binary build/inspection. Native input/UI are modeled; these extensions have not run on Windows. Inherited geometry/allocation/action-limit proofs and source-only safety limits remain distinct.",
-    "changed": "Added two bounded original-prototype records after genuine missing-behavior baselines: held-facing movement/lifecycle semantics and room-local targets/clocks with shared health and return-gated completion. No headline native assertion total, broad task completion, new image or historical acceptance changes.",
-    "why": "Separate executed behavior from source-reviewed exhaustion/aggregate-cap limits and inherited unchanged-component proofs. Preserve baseline failures and distinguish fixture/compiler/audit/inverse/metadata setup failures from product defects; portable/model checks and inert binaries do not establish Windows or faithful-game acceptance.",
-    "next": "As of this review, a bounded authored-mission geometry input profile for the existing IDE file-to-mesh-to-manual-render path is selected, not completed. The assignment preserves the default plain parser and excludes held Character/full-GUI/Windows execution. Await actual evidence; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate."
+    "now": "Two bounded IDE component profiles have terminal portable optimized/sanitized results and independent review: authored-mission geometry with intentionally flat diagnostic output, and owned textured file/manual rendering. Actual parser/raster/worker behavior is separate from modeled native UI boundaries; neither profile establishes full GUI or Windows execution.",
+    "changed": "Added two terminal profile records with request ownership, source-copy removal, cancellation/stale/Close and texture/sidecar lifetime evidence. Historical UNKNOWN/gaps, earlier optimized-result applicability and source-only non-null destruction limits remain explicit. No new images, broad task completion or historical acceptance changes.",
+    "why": "Distinguish validated UV with flat output from actual owned textured rendering, and final-source-bound independent/sanitized results from earlier author-map applicability. Preserve source-compatibility findings as source findings rather than invented runtime failures; component profiles do not complete the integrated IDE journey.",
+    "next": "As of this review, an authoring bridge is being assessed. Await its bounded contract and actual evidence; no selected implementation, completed bridge or Windows outcome is claimed. Windows testing remains deferred without a test/reminder request. Broader IDE, provenance, initializer, S2 and native-game acceptance remain separate."
   },
   "updates": [
+    {
+      "id": "ide-authored-geometry-profile-portable-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "A bounded authored-mission geometry profile passed independent optimized/sanitized profile and lifecycle checks across ten file/render scenarios, using the actual parser/rasterizer and standard-thread return, poll and join. Invalid profiles had no effects; request-owned profile selection/reentry, sidecar/Mesh lifetime after source copies were removed, warning/default isolation, cancellation, stale results and Close were exercised.",
+      "why": "UV is validated before deliberately flat diagnostic rendering; this profile does not claim textured output. Component clearance includes explicit modeled boundaries only. Earlier frozen IDE UNKNOWN outcomes and unresolved full-application gaps remain unchanged. Scenario/assertion counts are not feature totals or broad acceptance.",
+      "next": "Keep this profile separate from the later textured path. No full GUI, held Character, Windows execution, game import, native boot or fidelity acceptance follows. Windows testing remains deferred; the next authoring bridge is being assessed, not implemented or completed.",
+      "evidence": [
+        "docs/status/current-status.md#authored-mission-geometry-profile",
+        "docs/status/current-status.md#scope-and-next-authoring-decision"
+      ]
+    },
+    {
+      "id": "ide-owned-textured-profile-portable-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The actual portable file/material decoding and manual-render profile preserves owned corner UV, sidecar edits and textures without rereading removed input copies. Optimized/sanitized ownership and lifecycle checks passed across eleven bounded scenarios with real worker return/join and stable guards; final-source independent review remains separately identified.",
+      "why": "Earlier optimized author results keep original source-map applicability, while final sanitized and independent receipts bind to repaired final source. A default-path cancellation checkpoint is a source-compatibility finding, not an observed runtime failure. Non-null current-resource destruction/reset is source-reviewed only; actual destruction followed Plain reset. Do not broaden those distinct proofs.",
+      "next": "Retain modeled native boundaries and the unexercised non-null destruction case. A private preview does not expand the public three-image exception or establish Windows/full-GUI/game-import/native-boot/fidelity acceptance. No Windows test/reminder is requested; the next authoring bridge remains assessment only as of review.",
+      "evidence": [
+        "docs/status/current-status.md#owned-textured-file-and-manual-render-profile",
+        "docs/status/current-status.md#scope-and-next-authoring-decision"
+      ]
+    },
     {
       "id": "original-held-facing-strafe-linux-01",
       "date": "2026-10-28",
@@ -7516,11 +7542,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-28-ide-profiles-review-01",
+      "date": "2026-10-28",
+      "basis_commit": "721b6286b5b6c690bb834832f9ea8e2ce62bcb53",
+      "note": "Reviewed October 28, 2026, 1:00:50 PM Arizona (MST): two bounded IDE portable/component profile records (42 to 44 checks) preserve actual file/parser/raster/material/worker and ownership/lifecycle scope, intentionally flat geometry output versus owned texture, earlier author optimized applicability versus final sanitized/independent source binding, and source-only non-null destruction/reset with actual destroy after Plain reset. Historical UNKNOWN/gaps and prior observations/status snapshots retained. All 30 task states/dependencies, criteria/versions/accepted IDs, stages and numerical validation records unchanged. No new images, Windows/full-GUI/game-import/native-boot/fidelity acceptance or assertion-volume progress. Authoring bridge assessment only; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-28 18:46:16 UTC",
+    "reviewed_at": "2026-10-28 20:00:50 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8161,6 +8249,20 @@
         "state": "tested",
         "update_id": "original-two-encounters-linux-01",
         "limit": "Executed room clocks/shared health/completion order/Replay/query/paint/fault scope; canceled return cannot complete. Aggregate-cap reservation source-reviewed only; unchanged proofs inherited. Leaks disabled, native input/UI modeled; no new platform/native-boot/fidelity acceptance."
+      },
+      {
+        "id": "ide-authored-geometry-profile-portable",
+        "label": "Bounded IDE authored-geometry profile — portable/component",
+        "state": "tested",
+        "update_id": "ide-authored-geometry-profile-portable-01",
+        "limit": "Actual parser/raster/thread return-poll-join; request/profile/lifetime/cancel/stale/Close scope. UV validated but image intentionally flat diagnostic. Explicit models, frozen IDE UNKNOWN/gaps retained; no full GUI, held Character, Windows or game-import acceptance."
+      },
+      {
+        "id": "ide-owned-textured-profile-portable",
+        "label": "Bounded IDE owned textured profile — portable/component",
+        "state": "tested",
+        "update_id": "ide-owned-textured-profile-portable-01",
+        "limit": "Owned UV/sidecar/texture after source-copy removal, real worker return/join. Earlier author optimized map applicability retained; final sanitized/independent source bound separately. Default cancel checkpoint source finding; non-null destroy/reset source-only, actual destroy after Plain reset. No full GUI/Windows/game-import acceptance."
       }
     ]
   }

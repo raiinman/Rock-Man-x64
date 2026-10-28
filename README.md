@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Original held-facing strafe and two room-owned encounters passed final independent scoped portable checks, with inert Windows binary build/inspection. Native input/UI are modeled; these extensions have not run on Windows. Inherited geometry/allocation/action-limit proofs and source-only safety limits remain distinct.
+**Where we are:** Two bounded IDE component profiles have terminal portable optimized/sanitized results and independent review: authored-mission geometry with intentionally flat diagnostic output, and owned textured file/manual rendering. Actual parser/raster/worker behavior is separate from modeled native UI boundaries; neither profile establishes full GUI or Windows execution.
 
-**Next useful step:** As of this review, a bounded authored-mission geometry input profile for the existing IDE file-to-mesh-to-manual-render path is selected, not completed. The assignment preserves the default plain parser and excludes held Character/full-GUI/Windows execution. Await actual evidence; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate.
+**Next useful step:** As of this review, an authoring bridge is being assessed. Await its bounded contract and actual evidence; no selected implementation, completed bridge or Windows outcome is claimed. Windows testing remains deferred without a test/reminder request. Broader IDE, provenance, initializer, S2 and native-game acceptance remain separate.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-strafe-encounters-review-01` · [reviewed basis 2658930](https://github.com/raiinman/Rock-Man-x64/commit/26589300f2daca36edbe2bc8221622ac2e573d59).
+**Last evidence review:** 2026-10-28 · `2026-10-28-ide-profiles-review-01` · [reviewed basis 721b628](https://github.com/raiinman/Rock-Man-x64/commit/721b6286b5b6c690bb834832f9ea8e2ce62bcb53).
 **Latest repository change observed:** [d47481f](https://github.com/raiinman/Rock-Man-x64/commit/d47481f8b33aed92ed3e680801dcc5cc5d7bf9eb) · 2026-10-28T12:27:40-07:00 — docs: record scoped strafe and encounter evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

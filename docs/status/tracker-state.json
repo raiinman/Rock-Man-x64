@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "b520adf008aabf4e87b90b3470c9ee3ce229946a2f9a5a5f9c8dd8add74c2254",
+  "evidence_data_sha256": "089bd4d5fd02a9f3c56b79a4710ace752816ee7ee32ec3983ae2c0b07c51af1f",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "c03818a7f444dc1264ae0187a5eb703d600b107b025cce6960f272eef6afd799",
-  "evidence_review_id": "2026-10-28-strafe-encounters-review-01",
+  "reviewed_stage_sha256": "caabb795f7382c33c0bbfebbb343b09df14d34d6272664607c0a71392a27ae50",
+  "evidence_review_id": "2026-10-28-ide-profiles-review-01",
   "evidence_review_date": "2026-10-28",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -127,7 +127,8 @@
     "e6c89cc7305ffd469a3d953be128411fa4fefe60092cdfb81c9d8ddf990f4d66",
     "6a4c6e4a30cc45b485d8cbfd74a63dbebc15bbbf87ce0fae7b7b09217a60dbe1",
     "a3cf3e9e138b4700f09c885925caf0e7165a32396af7f44a86873efdd553d113",
-    "2b1c840dd0f9d4ca925acc6610bb5ee221f331b74b299ce792f18807bde393d5"
+    "2b1c840dd0f9d4ca925acc6610bb5ee221f331b74b299ce792f18807bde393d5",
+    "e80f98d05ae05116b324a1883f8ac6113ff5fb997c834a6369e2d7964d408182"
   ],
-  "reviewed_build_plan_sha256": "50ea1042c6f1e03de80544ba2113e7e07cae527d1ed5ec0140416dd6458b40d4"
+  "reviewed_build_plan_sha256": "7cb88a4f1ec2219f858f2ac19c50d22bdca37e41c75c02318a216a183409eb6e"
 }
