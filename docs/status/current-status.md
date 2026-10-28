@@ -2,6 +2,22 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original accepted-step retaliation encounter — October 28
+
+**Documentation review: 2026-10-28 15:56:40 UTC (8:56:40 AM Arizona).** The coordinator consumed the final independent review and supplied this sanitized terminal evidence summary. The documentation lane ran no new native tests, game tests, research, builds or Windows execution. Private implementation and inputs are not independently reproducible from this public repository.
+
+The selected original placeholder encounter has a three-health player. While the player is in HOME and the target is living, the target evaluates the existing firing lane every 64 accepted HOME world steps. Accepted idle and collision-blocked steps count; refused or canceled operations do not. Fire, room transitions, pause and time away do not advance this step clock. This is accepted-step behavior, not a real-time AI timer or faithful Mega Man Legends behavior.
+
+Health and encounter phase park across rooms without healing. Defeat retains the normal view and Close path. Unselected default frame and state bytes remain unchanged.
+
+Primary optimized and ASan/UBSan actual-consumer checks passed, including the 32,768 budget boundary and 163 allocation retentions. Independent final-source-bound cohorts passed for off-lane and inclusive-boundary behavior, occlusion ties, the collision-blocked 64th turn, late cancellation, reentry and stop, no-heal/away-freeze, defeat, view, painting and Close. The final independent review found no actionable defect within this selected boundary. Configuration coverage overlaps and is not summed into unique-test or game-completion totals.
+
+Strict LLVM-MinGW/UCRT Windows cross-compilation passed; this retaliation successor has not executed on Windows. The earlier Windows shooting demo remains separately scoped and supplies no Windows execution, presentation or input acceptance for this successor. No real-time AI, full IDE, faithful MML gameplay or native game-boot acceptance is established.
+
+**Next, as of this review:** an original combat-cues successor is mutable and under testing. It has no completed evidence record or Windows result here. Await its terminal verification and independent review before advancing that queue statement. All 30 task states/dependencies, historical definitions/denominators/accepted sets, stages and numerical validation records remain unchanged; provenance, initializer and S2 gates remain separate.
+
+The earlier 8:18:31 AM snapshot below retains its then-current retaliation status. This later terminal record does not retroactively rewrite it. Gallery publication remains verified complete, its three-image exception stays narrow, and older stopped publication candidates remain untouched.
+
 ## Current original prototype and integrated IDE work — October 28
 
 **Documentation review: 2026-10-28 15:18:31 UTC (8:18:31 AM Arizona).** The coordinator checked these sanitized evidence-owner summaries against existing final results and independent reviews. This documentation pass did not run native tests or builds and did not independently download raw Windows receipts. Private implementation and test inputs remain outside this repository; its public documentation cannot independently reproduce the reported results. Counts across configurations overlap and are not added into distinct-test or completion totals.

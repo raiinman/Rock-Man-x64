@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-28",
-    "review_id": "2026-10-28-runtime-housekeeping-review-01",
-    "reviewed_through_commit": "b2b023dcffc4c6307dacee9205864394cf1704b8",
-    "summary": "Reviewed at 2026-10-28 15:18:31 UTC (8:18:31 AM Arizona): coordinator-checked evidence-owner final results and independent scope reviews support four bounded Linux/component records and one distinct earlier Windows shooting record. The documentation lane ran no native implementation, game, research or platform tests. Current Now/Next and reporting scope were reconciled; the gallery is verified published and its three-image exception remains narrow. Build records increase from 31 to 36; all 30 task states/dependencies, historical definitions/denominators/accepted sets, stages, numerical validation records and older observations remain unchanged. The retaliation encounter is in progress as of review, not completed. Private inputs and implementation are not independently reproducible from public docs; no private identities/source/packages are published."
+    "review_id": "2026-10-28-retaliation-review-01",
+    "reviewed_through_commit": "e7fd63f20ff743a88aafdc268812ccc6100f6c5c",
+    "summary": "Reviewed at 2026-10-28 15:56:40 UTC (8:56:40 AM Arizona): coordinator-consumed final independent retaliation review and sanitized terminal actual-consumer/budget/allocation evidence add one bounded original Linux/component record with Windows cross-build only. The documentation lane ran no native tests, builds, research or platform execution. Build records increase from 36 to 37; all 30 task states/dependencies, historical criteria/versions/denominators/accepted sets, stages, numerical validation records and prior observations remain unchanged. Earlier 8:18:31 AM retaliation status is preserved as history; combat cues are in progress as of this review, not completed. Private source/artifact identities and other unapproved captures remain excluded."
   },
   "overview": {
-    "now": "Original player/two-room mission integration, Detail192 and an opt-in mission HUD passed bounded Linux checks and Windows cross-builds; these successors have not run on Windows. A bounded IDE OBJ worker also passed Linux checks. The earlier shooting demo has its own bounded Windows result.",
-    "changed": "Added five separately scoped build records from coordinator-reviewed evidence-owner results: actor/scene integration, Detail192, HUD, bounded IDE worker and the earlier Windows shooting interaction. The repository gallery is published; current reporting guidance is updated. No broad task or historical acceptance changes.",
-    "why": "Keep current implementation evidence, source scope, primary/independent checks, cross-compilation, actual Windows interaction and portable imagery distinct. Preserve failures and earlier historical checkpoints without presenting them as the current queue.",
-    "next": "As of this review, a separate original retaliation encounter is mutable: initial optimized/sanitized checks passed and independent boundary review is running. Await terminal verification and review; no completion or Windows result is claimed. Broader IDE propagation/reader work and provenance, initializer, S2 and native-game acceptance remain separate."
+    "now": "An original three-health retaliation encounter passed bounded Linux actual-consumer and independent checks plus a strict Windows cross-build. Its target responds every 64 accepted HOME steps; it has not run on Windows. Earlier H1, Detail192, HUD, bounded IDE and Windows shooting records keep their separate scopes.",
+    "changed": "Added one terminal retaliation build record after the earlier in-progress snapshot: accepted-step timing, no-heal room persistence, defeat/view/Close, budget/allocation retention and independent boundary coverage. Unselected defaults are preserved. No broad task or historical acceptance changed.",
+    "why": "Describe the tested original encounter accurately without converting accepted world steps into real-time AI or transferring an earlier executable's Windows result. Preserve the earlier dated queue statement and keep component evidence distinct from faithful game or native-boot acceptance.",
+    "next": "As of this review, a separate original combat-cues successor is mutable and under testing. Await its terminal verification and independent review; no completion or Windows execution is claimed. Broader IDE work and provenance, initializer, S2 and native-game acceptance remain separate."
   },
   "updates": [
+    {
+      "id": "original-retaliation-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "The selected original three-health placeholder encounter evaluates the living HOME target firing lane every 64 accepted HOME world steps, including accepted idle/collision-blocked steps but excluding refused/canceled operations. Fire, room transitions, pause and time away do not advance its clock. Health/phase park across rooms without healing; defeat retains view and normal Close.",
+      "why": "Primary optimized/ASan/UBSan actual-consumer checks passed, including the 32,768 budget boundary and 163 allocation retentions. Independent final-source-bound cohorts covered off-lane and inclusive boundaries, occlusion ties, the collision-blocked 64th turn, late cancellation, reentry, stop, no-heal/away-freeze, defeat, view, painting and Close. No actionable defect was found within scope. Unselected default frame/state bytes remain unchanged; configuration counts overlap.",
+      "next": "Strict LLVM-MinGW/UCRT Windows cross-build passed, but this successor has not run on Windows. Keep accepted-step behavior distinct from real-time AI, faithful MML gameplay and native boot. The separate combat-cues successor is mutable and testing as of review, not completed or Windows-tested; await its own terminal result.",
+      "evidence": [
+        "docs/status/current-status.md#original-accepted-step-retaliation-encounter--october-28"
+      ]
+    },
     {
       "id": "runtime-tracker-housekeeping-01",
       "date": "2026-10-28",
@@ -7238,11 +7250,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-28-retaliation-review-01",
+      "date": "2026-10-28",
+      "basis_commit": "e7fd63f20ff743a88aafdc268812ccc6100f6c5c",
+      "note": "Reviewed at 2026-10-28 15:56:40 UTC (8:56:40 AM Arizona): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence (36 to 37 checks). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-28 15:18:31 UTC",
+    "reviewed_at": "2026-10-28 15:56:40 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -7841,6 +7915,13 @@
         "state": "tested",
         "update_id": "original-shooting-demo-windows-01",
         "limit": "One earlier owner run: HP3→2→1→cleared, normal exit 0 and owner confirmation. No later H1/Detail192/HUD/IDE Windows coverage, faithful MML gameplay or native game boot."
+      },
+      {
+        "id": "original-retaliation-linux",
+        "label": "Original step-based retaliation — Linux/component + Windows cross-build",
+        "state": "tested",
+        "update_id": "original-retaliation-linux-01",
+        "limit": "Three-health original placeholder, every64accepted HOME steps; refused/canceled/fire/transition/pause/away do not advance clock. Health/phase park without healing. Actual-consumer/budget/allocation and independent final-source cohorts passed; counts overlap. No Windows execution, real-time AI, faithful MML gameplay or game boot."
       }
     ]
   }

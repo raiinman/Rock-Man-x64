@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Original player/two-room mission integration, Detail192 and an opt-in mission HUD passed bounded Linux checks and Windows cross-builds; these successors have not run on Windows. A bounded IDE OBJ worker also passed Linux checks. The earlier shooting demo has its own bounded Windows result.
+**Where we are:** An original three-health retaliation encounter passed bounded Linux actual-consumer and independent checks plus a strict Windows cross-build. Its target responds every 64 accepted HOME steps; it has not run on Windows. Earlier H1, Detail192, HUD, bounded IDE and Windows shooting records keep their separate scopes.
 
-**Next useful step:** As of this review, a separate original retaliation encounter is mutable: initial optimized/sanitized checks passed and independent boundary review is running. Await terminal verification and review; no completion or Windows result is claimed. Broader IDE propagation/reader work and provenance, initializer, S2 and native-game acceptance remain separate.
+**Next useful step:** As of this review, a separate original combat-cues successor is mutable and under testing. Await its terminal verification and independent review; no completion or Windows execution is claimed. Broader IDE work and provenance, initializer, S2 and native-game acceptance remain separate.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` · [reviewed basis b2b023d](https://github.com/raiinman/Rock-Man-x64/commit/b2b023dcffc4c6307dacee9205864394cf1704b8).
+**Last evidence review:** 2026-10-28 · `2026-10-28-retaliation-review-01` · [reviewed basis e7fd63f](https://github.com/raiinman/Rock-Man-x64/commit/e7fd63f20ff743a88aafdc268812ccc6100f6c5c).
 **Latest repository change observed:** [e0f2e38](https://github.com/raiinman/Rock-Man-x64/commit/e0f2e382c8c85fde23383dfc0140cfdb7213235c) · 2026-10-28T08:31:51-07:00 — docs: reconcile runtime evidence and living trackers.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

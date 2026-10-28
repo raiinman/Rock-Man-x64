@@ -2,7 +2,7 @@
 
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` · [reviewed basis b2b023d](https://github.com/raiinman/Rock-Man-x64/commit/b2b023dcffc4c6307dacee9205864394cf1704b8).
+**Last evidence review:** 2026-10-28 · `2026-10-28-retaliation-review-01` · [reviewed basis e7fd63f](https://github.com/raiinman/Rock-Man-x64/commit/e7fd63f20ff743a88aafdc268812ccc6100f6c5c).
 **Latest repository change observed:** [e0f2e38](https://github.com/raiinman/Rock-Man-x64/commit/e0f2e382c8c85fde23383dfc0140cfdb7213235c) · 2026-10-28T08:31:51-07:00 — docs: reconcile runtime evidence and living trackers.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
@@ -614,13 +614,19 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
 | 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
 | 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-retaliation-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-retaliation-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-retaliation-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-retaliation-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-retaliation-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-retaliation-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-28 15:56:40 UTC \(8:56:40 AM Arizona\): one original accepted-step retaliation terminal record adds bounded Linux/component and strict Windows-cross-build evidence \(36 to 37 checks\). Actual-consumer, budget/allocation and independent final-source boundary cohorts passed; no Windows execution or real-time/fidelity/game-boot acceptance. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations and earlier in-progress snapshot retained. Combat cues remain in progress as of review; zero historical acceptance delta. |
 
 
 ## Build and specification plan
 
 Separate from historical acceptance. Explicit reviewed states, not task-checkbox inference, equal effort or game completion.
 
-**Map reviewed:** 2026-10-28 15:18:31 UTC.
+**Map reviewed:** 2026-10-28 15:56:40 UTC.
 
 [Open the separate heatmap](https://raiinman.github.io/Rock-Man-x64/#build-plan) · [Full task definitions](../../tasks/spec-implementation/todo.md)
 
@@ -984,6 +990,16 @@ One earlier owner run: HP3→2→1→cleared, normal exit 0 and owner confirmati
 
 **Evidence:** [evidence](../../docs/status/current-status.md#earlier-original-shooting-demo--bounded-windows-result)
 
+### Original step-based retaliation — Linux/component \+ Windows cross-build
+
+**Recorded state:** tested.
+
+The selected original three-health placeholder encounter evaluates the living HOME target firing lane every 64 accepted HOME world steps, including accepted idle/collision-blocked steps but excluding refused/canceled operations. Fire, room transitions, pause and time away do not advance its clock. Health/phase park across rooms without healing; defeat retains view and normal Close.
+
+Three-health original placeholder, every64accepted HOME steps; refused/canceled/fire/transition/pause/away do not advance clock. Health/phase park without healing. Actual-consumer/budget/allocation and independent final-source cohorts passed; counts overlap. No Windows execution, real-time AI, faithful MML gameplay or game boot.
+
+**Evidence:** [evidence](../../docs/status/current-status.md#original-accepted-step-retaliation-encounter--october-28)
+
 | Task | Recorded state | Task prerequisites | State explanation |
 |---|---|---|---|
 | [SI-01: Choose a bounded source slice](../../tasks/spec-implementation/todo.md#si-01) | planned | None listed | Proposed plan task. No task-specific completion or Definition of Done is promoted by this map; required provider, provenance and execution gates still apply. |
@@ -1019,13 +1035,13 @@ One earlier owner run: HP3→2→1→cleared, normal exit 0 and owner confirmati
 
 ## Current explanation
 
-**Now:** Original player/two-room mission integration, Detail192 and an opt-in mission HUD passed bounded Linux checks and Windows cross-builds; these successors have not run on Windows. A bounded IDE OBJ worker also passed Linux checks. The earlier shooting demo has its own bounded Windows result.
+**Now:** An original three-health retaliation encounter passed bounded Linux actual-consumer and independent checks plus a strict Windows cross-build. Its target responds every 64 accepted HOME steps; it has not run on Windows. Earlier H1, Detail192, HUD, bounded IDE and Windows shooting records keep their separate scopes.
 
-**Changed:** Added five separately scoped build records from coordinator-reviewed evidence-owner results: actor/scene integration, Detail192, HUD, bounded IDE worker and the earlier Windows shooting interaction. The repository gallery is published; current reporting guidance is updated. No broad task or historical acceptance changes.
+**Changed:** Added one terminal retaliation build record after the earlier in-progress snapshot: accepted-step timing, no-heal room persistence, defeat/view/Close, budget/allocation retention and independent boundary coverage. Unselected defaults are preserved. No broad task or historical acceptance changed.
 
-**Why:** Keep current implementation evidence, source scope, primary/independent checks, cross-compilation, actual Windows interaction and portable imagery distinct. Preserve failures and earlier historical checkpoints without presenting them as the current queue.
+**Why:** Describe the tested original encounter accurately without converting accepted world steps into real-time AI or transferring an earlier executable's Windows result. Preserve the earlier dated queue statement and keep component evidence distinct from faithful game or native-boot acceptance.
 
-**Next:** As of this review, a separate original retaliation encounter is mutable: initial optimized/sanitized checks passed and independent boundary review is running. Await terminal verification and review; no completion or Windows result is claimed. Broader IDE propagation/reader work and provenance, initializer, S2 and native-game acceptance remain separate.
+**Next:** As of this review, a separate original combat-cues successor is mutable and under testing. Await its terminal verification and independent review; no completion or Windows execution is claimed. Broader IDE work and provenance, initializer, S2 and native-game acceptance remain separate.
 
 [Plain-English change ledger](changes.md) · [Update contract](TRACKER.md) · [Reviewed source data](dashboard-data.json)
 
