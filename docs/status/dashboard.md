@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-strafe-encounters-review-01` · [reviewed basis 2658930](https://github.com/raiinman/Rock-Man-x64/commit/26589300f2daca36edbe2bc8221622ac2e573d59).
-**Latest repository change observed:** [5498c39](https://github.com/raiinman/Rock-Man-x64/commit/5498c394e646390120bb0fb93e5ea30b3dd48f73) · 2026-10-28T11:30:45-07:00 — docs: record combat evidence and Arizona review display.
+**Latest repository change observed:** [d47481f](https://github.com/raiinman/Rock-Man-x64/commit/d47481f8b33aed92ed3e680801dcc5cc5d7bf9eb) · 2026-10-28T12:27:40-07:00 — docs: record scoped strafe and encounter evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "5498c394e646390120bb0fb93e5ea30b3dd48f73",
-    "committed_at": "2026-10-28T11:30:45-07:00",
-    "subject": "docs: record combat evidence and Arizona review display",
+    "sha": "d47481f8b33aed92ed3e680801dcc5cc5d7bf9eb",
+    "committed_at": "2026-10-28T12:27:40-07:00",
+    "subject": "docs: record scoped strafe and encounter evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
