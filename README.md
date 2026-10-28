@@ -63,7 +63,7 @@ The goal includes a native game and editor. Documentation, research results and 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-approved-gallery-review-01` · [reviewed basis dd56dac](https://github.com/raiinman/Rock-Man-x64/commit/dd56dacc03611e48bf5a703250e7819e146288d9).
-**Latest repository change observed:** [ef4cadb](https://github.com/raiinman/Rock-Man-x64/commit/ef4cadb649502049c737ec671dc219ef09fac7ce) · 2026-10-27T15:44:19-07:00 — docs: acknowledge coordinator research-workbench receipt.
+**Latest repository change observed:** [d731077](https://github.com/raiinman/Rock-Man-x64/commit/d7310771487e27a56109e2dc0fdfb7164b4ef5ce) · 2026-10-28T07:44:52-07:00 — docs: showcase three approved prototype images.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
