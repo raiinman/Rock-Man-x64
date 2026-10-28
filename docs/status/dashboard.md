@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-ide-profiles-review-01` · [reviewed basis 721b628](https://github.com/raiinman/Rock-Man-x64/commit/721b6286b5b6c690bb834832f9ea8e2ce62bcb53).
-**Latest repository change observed:** [d47481f](https://github.com/raiinman/Rock-Man-x64/commit/d47481f8b33aed92ed3e680801dcc5cc5d7bf9eb) · 2026-10-28T12:27:40-07:00 — docs: record scoped strafe and encounter evidence.
+**Latest repository change observed:** [126906d](https://github.com/raiinman/Rock-Man-x64/commit/126906d143e8258545b4f21da20dd5c84a0c947d) · 2026-10-28T13:42:19-07:00 — docs: record bounded IDE geometry and texture profiles.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)

@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "d47481f8b33aed92ed3e680801dcc5cc5d7bf9eb",
-    "committed_at": "2026-10-28T12:27:40-07:00",
-    "subject": "docs: record scoped strafe and encounter evidence",
+    "sha": "126906d143e8258545b4f21da20dd5c84a0c947d",
+    "committed_at": "2026-10-28T13:42:19-07:00",
+    "subject": "docs: record bounded IDE geometry and texture profiles",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
