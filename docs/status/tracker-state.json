@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "200b14916d713cc67e83b262436d52cb6f1318b9",
-    "committed_at": "2026-10-28T09:47:09-07:00",
-    "subject": "docs: record bounded original retaliation evidence",
+    "sha": "5498c394e646390120bb0fb93e5ea30b3dd48f73",
+    "committed_at": "2026-10-28T11:30:45-07:00",
+    "subject": "docs: record combat evidence and Arizona review display",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

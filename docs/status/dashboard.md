@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` · [reviewed basis 792abb3](https://github.com/raiinman/Rock-Man-x64/commit/792abb37cd2429f85adabba53d0d59de9ea6ab1e).
-**Latest repository change observed:** [200b149](https://github.com/raiinman/Rock-Man-x64/commit/200b14916d713cc67e83b262436d52cb6f1318b9) · 2026-10-28T09:47:09-07:00 — docs: record bounded original retaliation evidence.
+**Latest repository change observed:** [5498c39](https://github.com/raiinman/Rock-Man-x64/commit/5498c394e646390120bb0fb93e5ea30b3dd48f73) · 2026-10-28T11:30:45-07:00 — docs: record combat evidence and Arizona review display.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
