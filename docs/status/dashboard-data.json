@@ -408,17 +408,43 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-28",
-    "review_id": "2026-10-28-combat-arizona-integration-review-01",
-    "reviewed_through_commit": "792abb37cd2429f85adabba53d0d59de9ea6ab1e",
-    "summary": "Reviewed October 28, 2026, 11:16:27 AM Arizona (MST): local documentation integration combines the coordinator-reviewed 10:51:53 AM Arizona combat-cue, Replay v2 and four-way snapshot with an America/Phoenix Map review formatter. Underlying evidence records and original failures/inherited-proof limits remain exact; no later native outcome is added. Canonical UTC format/validation, historical records and repository activity remain separate from display. This documentation lane runs no native/game/research/platform tests. Build checks increase from the public 37 to 40, with all 30 task states/dependencies, criteria/versions/denominators/accepted sets, stages, numerical validation records and published observations unchanged. No new images/private identities, Windows execution or production/fidelity/native-boot acceptance. Formatter/source-render and artifact checks are documentation verification, not browser or platform acceptance."
+    "review_id": "2026-10-28-strafe-encounters-review-01",
+    "reviewed_through_commit": "26589300f2daca36edbe2bc8221622ac2e573d59",
+    "summary": "Reviewed October 28, 2026, 11:46:16 AM Arizona (MST): final independent scoped strafe and two-encounter summaries add two bounded original portable/component records with inert Windows binary build/inspection. Executed lifecycle/clock/health/order/query/paint/Close outcomes remain distinct from source-only exhaustion/aggregate-cap limits and inherited original-version geometry/allocation/action-limit proofs. Genuine missing-behavior baselines and setup failures retained. Build checks increase from 40 to 42; all 30 task states/dependencies, criteria/versions/denominators/accepted sets, workstream stages, numerical validation records and prior observations remain unchanged. This documentation lane runs no native tests/builds/research/platform execution; no new images/private identities/package or Windows/fidelity/native-boot/production acceptance. The authored-mission IDE profile is an assignment only as of review."
   },
   "overview": {
-    "now": "Original combat cues, Replay v2 notification repair and four-way facing/fire have scoped portable optimized/sanitizer evidence and inert Windows-target build/inspection. UI, GDI and input are modeled; these successors have not run on Windows. The earlier original shooting demo retains its separate Windows result.",
-    "changed": "Integrated three bounded portable/component records from the earlier reviewed combat snapshot and added Arizona-primary build-map review display. Replay predecessor failure, inherited-proof limits and four-way callback repair remain explicit. No new image, aggregate native assertion total, task completion or historical acceptance change.",
-    "why": "Keep current-state cues, blocked predecessor/display repair and inherited unchanged-component proofs distinct, while displaying the recorded review in the owner-selected timezone. Canonical UTC, historical records and repository activity remain intact; formatting and documentation tests do not establish Windows or faithful-game acceptance.",
-    "next": "At the October 28, 2026, 10:51:53 AM Arizona (MST) evidence snapshot, hold-facing strafe was selected and underway as a development assignment only. No later implementation result is added by this formatter integration. Await actual completed evidence before advancing that dated queue statement; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate."
+    "now": "Original held-facing strafe and two room-owned encounters passed final independent scoped portable checks, with inert Windows binary build/inspection. Native input/UI are modeled; these extensions have not run on Windows. Inherited geometry/allocation/action-limit proofs and source-only safety limits remain distinct.",
+    "changed": "Added two bounded original-prototype records after genuine missing-behavior baselines: held-facing movement/lifecycle semantics and room-local targets/clocks with shared health and return-gated completion. No headline native assertion total, broad task completion, new image or historical acceptance changes.",
+    "why": "Separate executed behavior from source-reviewed exhaustion/aggregate-cap limits and inherited unchanged-component proofs. Preserve baseline failures and distinguish fixture/compiler/audit/inverse/metadata setup failures from product defects; portable/model checks and inert binaries do not establish Windows or faithful-game acceptance.",
+    "next": "As of this review, a bounded authored-mission geometry input profile for the existing IDE file-to-mesh-to-manual-render path is selected, not completed. The assignment preserves the default plain parser and excludes held Character/full-GUI/Windows execution. Await actual evidence; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate."
   },
   "updates": [
+    {
+      "id": "original-held-facing-strafe-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Held-facing strafe retains accepted facing/fire while movement, gait, camera, shared health and world-forward threat match unheld sessions. Release does not turn in place; firing/idle retain heading until the next accepted nonzero movement. Executed lifecycle checks cover room refusal/cancellation, meaningful/no-op callbacks, parked headings without modifier parking, Replay clearing, fault/defeat cleanup and Close.",
+      "why": "Pending queries preserve accepted frames/actions, and the instruction stays static rather than acting as a live-held indicator. Final independent scoped review passed with genuine missing-behavior baseline failures retained. Legacy bytes/source changes were independently reviewed; unchanged geometry/allocation/action-limit proofs are inherited at original versions, not newly rerun wholesale. Strafe exhaustion cleanup is source-reviewed only.",
+      "next": "Keep executed defeat/shared-health/lifecycle evidence distinct from source-only exhaustion coverage. Portable O2/ASan/UBSan had leaks disabled and modeled input/UI; Windows binaries were compiled/inspected, not executed. No new package, platform, fidelity, native-boot or broad task acceptance follows.",
+      "evidence": [
+        "docs/status/current-status.md#held-facing-strafe",
+        "docs/status/current-status.md#review-inherited-proofs-and-platform-limits"
+      ]
+    },
+    {
+      "id": "original-two-encounters-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Each room owns a stationary target and local clock, sharing player health and global action consumption. In the reviewed order HOME is killed first and the prior return goal met, then AWAY is killed last; completion waits a successful HOME return and a canceled return does not latch. Executed checks cover clock parking, shared damage/no entry healing, defeat, one-action Replay reset of both rooms, indexed pure queries, painting borrows and fault retention.",
+      "why": "Final independent scoped review passed without an actionable defect; genuine missing-behavior baselines and separate fixture/compiler/audit/inverse/metadata setup failures remain retained. Unchanged geometry/allocation/action-limit proofs stay inherited at original versions. The new two-target aggregate-cap reservation is source-reviewed only, while actual defeat/shared health were executed. Assertion counts are not feature totals.",
+      "next": "No Windows execution or production/MML-fidelity/native-boot acceptance: portable O2/ASan/UBSan used leaks disabled and modeled input/UI, with inert Windows binary build/inspection. The bounded authored-mission geometry IDE profile is selected, not completed; default plain parser and held Character/full-GUI/Windows exclusions remain its stated assignment limits.",
+      "evidence": [
+        "docs/status/current-status.md#two-room-owned-encounters",
+        "docs/status/current-status.md#review-inherited-proofs-and-platform-limits"
+      ]
+    },
     {
       "id": "arizona-map-review-display-01",
       "date": "2026-10-28",
@@ -7428,11 +7454,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-28-strafe-encounters-review-01",
+      "date": "2026-10-28",
+      "basis_commit": "26589300f2daca36edbe2bc8221622ac2e573d59",
+      "note": "Reviewed October 28, 2026, 11:46:16 AM Arizona (MST): two original strafe/encounter terminal records add portable/model and inert-binary evidence (40 to 42 checks). Actual lifecycle/shared-health/clock/order/Replay/query/paint/Close evidence is distinct from source-only strafe exhaustion and aggregate-cap reservation; unchanged proofs inherited at original versions, not rerun wholesale. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; old observations/snapshots and genuine baseline/setup failures retained. No new package/platform/images, Windows run, production/fidelity/native-boot acceptance or native assertion-total progress. Authored-mission IDE profile remains selected, not completed; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-28 18:16:27 UTC",
+    "reviewed_at": "2026-10-28 18:46:16 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8059,6 +8147,20 @@
         "state": "tested",
         "update_id": "original-four-way-facing-linux-01",
         "limit": "Scoped rotation/shot/UV/winding/room/Replay and accepted-state review. Real late throwing-callback termination repaired/retested; native input/UI modeled, leaks disabled. Assertion counts not progress; no Windows run, MML fidelity or new public imagery."
+      },
+      {
+        "id": "original-held-facing-strafe-linux",
+        "label": "Original held-facing strafe — Linux/component + inert Windows build",
+        "state": "tested",
+        "update_id": "original-held-facing-strafe-linux-01",
+        "limit": "Executed accepted-heading and lifecycle scope; pending queries preserve frames/actions, instruction not live-held state. Exhaustion cleanup source-reviewed only; unchanged proofs inherited at original versions. Leaks disabled, native input/UI modeled; no Windows run or production acceptance."
+      },
+      {
+        "id": "original-two-encounters-linux",
+        "label": "Original two-room encounters — Linux/component + inert Windows build",
+        "state": "tested",
+        "update_id": "original-two-encounters-linux-01",
+        "limit": "Executed room clocks/shared health/completion order/Replay/query/paint/fault scope; canceled return cannot complete. Aggregate-cap reservation source-reviewed only; unchanged proofs inherited. Leaks disabled, native input/UI modeled; no new platform/native-boot/fidelity acceptance."
       }
     ]
   }

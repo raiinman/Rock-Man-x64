@@ -2,6 +2,34 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original strafe and two-encounter extensions — October 28
+
+**Documentation review: October 28, 2026, 11:46:16 AM Arizona (MST).** The evidence owner supplied final independently reviewed summaries for these original prototype extensions. This documentation pass runs no native tests, builds, research or platform execution. Private source and inputs are not independently reproducible from this repository; no new package, capture or private identity is published.
+
+### Held-facing strafe
+
+A held modifier retains accepted facing and firing direction while movement, gait, camera, shared player health and the world-forward threat match unheld sessions. Releasing the modifier does not turn in place. Firing and idle retain heading until the next accepted nonzero movement.
+
+Distinct executed lifecycle checks cover room refusal/cancellation, meaningful versus no-op callback changes, parked headings without parking the modifier, Replay clearing, fault/defeat cleanup and Close. Pending queries do not change accepted frames or action counts. The instruction is static guidance, not a live-held indicator.
+
+### Two room-owned encounters
+
+Each room owns a stationary target and local update clock, with shared player health and global action consumption. In the reviewed completion order, HOME is killed first and the prior return goal is met; AWAY is killed last. Completion then waits for a successful return to HOME. A canceled return does not latch completion.
+
+Executed checks cover local clock parking, shared damage without healing on room entry, defeat, Replay resetting both rooms in one action, indexed pure queries, painting borrows and fault retention.
+
+### Review, inherited proofs and platform limits
+
+Both extensions passed final independent scoped review with no actionable defect within their selected boundaries. Genuine missing-behavior baseline failures remain retained. Fixture, compiler, audit, inverse-scope and metadata setup failures remain separate from product failures. Assertions include setup, steps and repeated reads; their volumes are not feature counts or a headline coverage total.
+
+Legacy byte equality and source changes were independently reviewed. Unchanged geometry, allocation and action-limit proofs are inherited at their original versions, not newly rerun wholesale. Strafe exhaustion cleanup and the new two-target aggregate-cap reservation are source-reviewed only; actual defeat and shared-health behavior were executed. Do not turn those source-only limits into exercised failure-path claims.
+
+The selected checks used portable optimized O2 and ASan/UBSan builds with leak detection disabled. Native input and UI were modeled. Windows binaries were compiled and inspected, never executed. There is no new package/platform, native original-game boot, fidelity or production acceptance. The earlier original shooting demo retains its own separate Windows result.
+
+**Next, as of this review:** a bounded authored-mission geometry input profile for the existing IDE file-to-mesh-to-manual-render path is selected, not completed. Its intended scope preserves the default plain parser and does not admit held Character propagation, full GUI or Windows execution. This is a development assignment, not an implementation/test result. Await its actual evidence before changing the queue statement.
+
+All 30 task states/dependencies, historical acceptance definitions/denominators/accepted sets, workstream stages, numerical validation records and previously published observations remain unchanged. Prior dated assignment statements and failed/inconclusive outcomes below retain their original scopes. No new image exception, provenance, initializer or S2 clearance is inferred.
+
 ## Documentation integration review — October 28
 
 **Review: October 28, 2026, 11:16:27 AM Arizona (MST).** This local documentation review integrates the separately reviewed original combat-cue, Replay v2 and four-way evidence snapshot below with an Arizona display formatter. The implementation evidence remains the October 28, 2026, 10:51:53 AM Arizona (MST) snapshot; no later gameplay or Windows result is added by this integration.

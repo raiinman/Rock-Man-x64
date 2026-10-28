@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Original combat cues, Replay v2 notification repair and four-way facing/fire have scoped portable optimized/sanitizer evidence and inert Windows-target build/inspection. UI, GDI and input are modeled; these successors have not run on Windows. The earlier original shooting demo retains its separate Windows result.
+**Where we are:** Original held-facing strafe and two room-owned encounters passed final independent scoped portable checks, with inert Windows binary build/inspection. Native input/UI are modeled; these extensions have not run on Windows. Inherited geometry/allocation/action-limit proofs and source-only safety limits remain distinct.
 
-**Next useful step:** At the October 28, 2026, 10:51:53 AM Arizona \(MST\) evidence snapshot, hold-facing strafe was selected and underway as a development assignment only. No later implementation result is added by this formatter integration. Await actual completed evidence before advancing that dated queue statement; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate.
+**Next useful step:** As of this review, a bounded authored-mission geometry input profile for the existing IDE file-to-mesh-to-manual-render path is selected, not completed. The assignment preserves the default plain parser and excludes held Character/full-GUI/Windows execution. Await actual evidence; broader IDE, provenance, initializer, S2 and native-game acceptance remain separate.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-combat-arizona-integration-review-01` · [reviewed basis 792abb3](https://github.com/raiinman/Rock-Man-x64/commit/792abb37cd2429f85adabba53d0d59de9ea6ab1e).
+**Last evidence review:** 2026-10-28 · `2026-10-28-strafe-encounters-review-01` · [reviewed basis 2658930](https://github.com/raiinman/Rock-Man-x64/commit/26589300f2daca36edbe2bc8221622ac2e573d59).
 **Latest repository change observed:** [5498c39](https://github.com/raiinman/Rock-Man-x64/commit/5498c394e646390120bb0fb93e5ea30b3dd48f73) · 2026-10-28T11:30:45-07:00 — docs: record combat evidence and Arizona review display.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
