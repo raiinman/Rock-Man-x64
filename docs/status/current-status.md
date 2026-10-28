@@ -2,7 +2,55 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
-**Latest documentation evidence review: 2026-10-27 22:13:52 UTC.** Current-day records below separate original image-material/per-corner UV successors and their Linux checks/Windows cross-compiles from an earlier bounded Windows execution and later unchanged-production UV characterization. All 30 broad task states and historical acceptance remain unchanged; earlier checkpoints retain their original scopes.
+## Current original prototype and integrated IDE work — October 28
+
+**Documentation review: 2026-10-28 15:18:31 UTC (8:18:31 AM Arizona).** The coordinator checked these sanitized evidence-owner summaries against existing final results and independent reviews. This documentation pass did not run native tests or builds and did not independently download raw Windows receipts. Private implementation and test inputs remain outside this repository; its public documentation cannot independently reproduce the reported results. Counts across configurations overlap and are not added into distinct-test or completion totals.
+
+### H1 original actor and scene integration
+
+An explicitly selected visual envelope admits the originally authored player into the owned resource, movement/frame, target/gate and two-room mission pipeline. The collision body and old defaults remain unchanged. Strict optimized Linux C++ and ASan/UBSan joined checks passed with leak detection disabled. Independent review covered geometry, UV and material identity, visual-envelope/lift boundaries, original scene collision and no-bypass behavior, and joined retention.
+
+The predecessor's actor-envelope refusal was the intended failing baseline. A test-namespace compilation failure was repaired and retained as a test setup failure. Strict LLVM-MinGW/UCRT Windows cross-compilation passed; this integrated successor has not run on Windows. Originally authored placeholder behavior is not faithful Mega Man Legends behavior or native game-boot acceptance.
+
+### Detail192 presentation profile
+
+An explicit 192 by 128 profile preserves continuous field of view, logical lens controls, world state and old default/state bytes. Optimized and sanitized Linux mission and transactional-failure checks passed, including 163 allocation-retention cases. Independent checks covered rational sampling/clipping, modeled native painting, paired world state and actual draw-budget rollback.
+
+Test and adapter compilation failures were repaired and retained. Bounded cloud CPU/memory measurements are not Windows frame-rate measurements. Windows cross-compilation passed; this successor has not executed on Windows. The [published comparison](../gallery/README.md#legacy96-and-detail192-comparison) shows actual portable frames, not Windows presentation or fidelity acceptance.
+
+### Opt-in mission HUD
+
+Existing mission health, mode, actions, exit state and controls feed an opt-in native paint overlay using stock text, while world/frame pixels and viewport remain unchanged. Actual-consumer optimized and sanitized checks and a strict Windows cross-build passed.
+
+Independent tests at the first text callback reproduced a stale exit cue after focus, Close and fault transitions. Per-row refresh repaired it with the same-consumer failing/passing evidence retained. A mode-only repaint omission was repaired; a route-test clock setup failure was retained separately. The coordinator consumed the final independent scope pass. Native text/GDI effects were modeled: this is not Windows font/display execution or HUD screenshot evidence. A privately prepared package is not a public build or an executed Windows result.
+
+### Bounded IDE OBJ file-worker integration
+
+An admitted parser region integrates the actual file thread, mesh, render snapshot and Image, covering growth refusal, sidecar handling, failures and prevention of stale images. Optimized and ASan/UBSan checks passed with leak detection disabled. Independent region, closure and inverse-scope review passed.
+
+This bounded integrated path does not establish full mixed-core, Character or GUI propagation, Windows IDE execution or complete IDE acceptance. Historical runtime-outcome and specification-body binding limits remain. Keep this admitted region distinct from broader unfinished reader/IDE work and the separately reviewed exporter; no historical standalone-reader record silently validates the full IDE.
+
+### Earlier original shooting demo — bounded Windows result
+
+A separately reported earlier original shooting executable completed one approved Windows owner run. The observed health caption progressed from 3 to 2 to 1 to target cleared, normal exit returned code 0, and the owner confirmed completion. This validates only that earlier bounded original shooting interaction. It does not validate the later H1 integration, Detail192, HUD or IDE successors, establish faithful Mega Man Legends gameplay, or accept native game boot.
+
+### Current review limits and next implementation slice
+
+The bounded original rendering, controls, world and gameplay results are relevant evidence for [SI-16 through SI-21](../../tasks/spec-implementation/todo.md#si-16), and the authoring/inspection work is relevant to [SI-07](../../tasks/spec-implementation/todo.md#si-07) and [SI-24](../../tasks/spec-implementation/todo.md#si-24). They do not complete those production/refinement tasks or their Definition of Done. All 30 canonical task states/dependencies, historical criteria, denominators, accepted sets, workstream stages and numerical validation records remain unchanged. Provenance, initializer and S2 gates remain separate.
+
+**As of this review:** the next original implementation slice is a step-based retaliation encounter with a three-health player, a periodic firing-lane target response, room-preserved state and defeat. It is mutable: initial optimized/sanitized checks have passed and independent boundary review is running. This is an in-progress queue statement, not completion, Windows execution or live worker telemetry. Its terminal verification and owner review remain the next evidence dependency.
+
+### Repository gallery and publication status
+
+The [three-image prototype gallery](../gallery/README.md) is published in the repository and root README. Exact image bytes, metadata and links were verified after non-force publication; the existing [documentation updater, build and deployment](https://github.com/raiinman/Rock-Man-x64/actions/runs/40709049495) succeeded. Images remain outside the unchanged eight-file Pages artifact and five generated output paths. Gallery publication is complete; this repository still provides no playable-game download.
+
+The actor sheet is an earlier actor-only static inspection, whose embedded loader/chamber notes are historical. H1 mission progression and Legacy96/Detail192 comparison are actual portable frames. Only these three images have the bounded publication exception; other captures, private source/builds/packages and private identities remain excluded. Direct served-view/browser verification limits remain distinct from the successful workflow and exact repository-byte verification. Older stopped candidates remain untouched, without a retry or acceptance claim.
+
+Current reporting covers Rock Man and its integrated IDE, with meaningful-change notifications, concise :30 and full :00 reports in Arizona time; owner-closed standalone work is excluded. The October 27 checkpoint and its then-current next step below remain dated history rather than the complete current implementation queue.
+
+## Earlier implementation documentation checkpoint — October 27
+
+**Implementation documentation review: 2026-10-27 22:13:52 UTC.** Current-day records below separate original image-material/per-corner UV successors and their Linux checks/Windows cross-compiles from an earlier bounded Windows execution and later unchanged-production UV characterization. All 30 broad task states and historical acceptance remain unchanged; earlier checkpoints retain their original scopes.
 
 ## Current-day room and resource work — October 27
 

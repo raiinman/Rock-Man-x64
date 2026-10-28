@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Original room/resource successors add optional image material and per-corner UV, with Linux checks and Windows cross-builds. The separate earlier V3 executable ran on Windows with normal exit and owner-observed movement; V4/V5 did not.
+**Where we are:** Original player/two-room mission integration, Detail192 and an opt-in mission HUD passed bounded Linux checks and Windows cross-builds; these successors have not run on Windows. A bounded IDE OBJ worker also passed Linux checks. The earlier shooting demo has its own bounded Windows result.
 
-**Next useful step:** Lens control remains outside completed records in this catch-up; finish and review it separately. Future Windows successor validation needs its own admitted procedure and terminal outcome. Pixel/focus/audio/full IDE/game acceptance and provenance, initializer and S2 gates remain separate.
+**Next useful step:** As of this review, a separate original retaliation encounter is mutable: initial optimized/sanitized checks passed and independent boundary review is running. Await terminal verification and review; no completion or Windows result is claimed. Broader IDE propagation/reader work and provenance, initializer, S2 and native-game acceptance remain separate.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-approved-gallery-review-01` · [reviewed basis dd56dac](https://github.com/raiinman/Rock-Man-x64/commit/dd56dacc03611e48bf5a703250e7819e146288d9).
+**Last evidence review:** 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` · [reviewed basis b2b023d](https://github.com/raiinman/Rock-Man-x64/commit/b2b023dcffc4c6307dacee9205864394cf1704b8).
 **Latest repository change observed:** [d731077](https://github.com/raiinman/Rock-Man-x64/commit/d7310771487e27a56109e2dc0fdfb7164b4ef5ce) · 2026-10-28T07:44:52-07:00 — docs: showcase three approved prototype images.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -76,6 +76,8 @@ Default section order:
 
 ## User Preferences
 
+- Current check-ins, reviews and assignments cover Rock Man x64 and its integrated IDE. Owner-closed standalone work is excluded from current queues and reminders; retain dated historical records without reopening that work. Perform work checks every 15 minutes, notify for meaningful changes, provide a concise all-active report at :30 and a full report at :00, and fold hourly documentation findings into those reports where possible. Use Arizona time and keep evidence-review time separate from repository activity. Existing automation owns scheduling; this policy does not create or change schedules.
+
 - Keep the build/spec-plan map separate from historical acceptance. Working build refers only to the bounded private native IDE prototype evidence, not a playable native game; plan checkboxes never imply implementation, testing or acceptance.
 
 - The public README and Pages entrance serve players first: explain the project, honest playability/download availability and useful exploration paths before technical evidence. Use clearly labeled original ImageGen concept artwork as documentation illustration, never game output; keep the reviewed Pages artifact boundary unchanged.

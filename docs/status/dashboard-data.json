@@ -408,17 +408,92 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-28",
-    "review_id": "2026-10-28-approved-gallery-review-01",
-    "reviewed_through_commit": "dd56dacc03611e48bf5a703250e7819e146288d9",
-    "summary": "Reviewed at 2026-10-28 14:27:03 UTC: documentation-only preparation of the three specifically owner-approved repository gallery images and safe captions. The coordinator verified exact image bytes, PNG integrity, empty embedded metadata and visible content. H1 progression and Legacy96/Detail192 comparison are actual portable frames; the actor sheet is an earlier actor-only static inspection, with historical embedded status notes. No new runtime or test execution is claimed. Both trackers were reviewed: all 31 bounded checks, 30 task states/dependencies, historical criteria/accepted sets, stages, validation records and prior observations remain unchanged. Gallery media stays outside the fixed Pages artifact; all other private publication boundaries remain unchanged."
+    "review_id": "2026-10-28-runtime-housekeeping-review-01",
+    "reviewed_through_commit": "b2b023dcffc4c6307dacee9205864394cf1704b8",
+    "summary": "Reviewed at 2026-10-28 15:18:31 UTC (8:18:31 AM Arizona): coordinator-checked evidence-owner final results and independent scope reviews support four bounded Linux/component records and one distinct earlier Windows shooting record. The documentation lane ran no native implementation, game, research or platform tests. Current Now/Next and reporting scope were reconciled; the gallery is verified published and its three-image exception remains narrow. Build records increase from 31 to 36; all 30 task states/dependencies, historical definitions/denominators/accepted sets, stages, numerical validation records and older observations remain unchanged. The retaliation encounter is in progress as of review, not completed. Private inputs and implementation are not independently reproducible from public docs; no private identities/source/packages are published."
   },
   "overview": {
-    "now": "Original room/resource successors add optional image material and per-corner UV, with Linux checks and Windows cross-builds. The separate earlier V3 executable ran on Windows with normal exit and owner-observed movement; V4/V5 did not.",
-    "changed": "Three specifically approved prototype images now have a repository gallery with explicit portable-frame and earlier static-inspection labels. This documentation presentation change adds no build check, task completion or historical acceptance.",
-    "why": "Let visitors see original prototype work while keeping actual image type, historical scope and unverified Windows/game-fidelity claims clear. The public repository still distributes no playable build.",
-    "next": "Lens control remains outside completed records in this catch-up; finish and review it separately. Future Windows successor validation needs its own admitted procedure and terminal outcome. Pixel/focus/audio/full IDE/game acceptance and provenance, initializer and S2 gates remain separate."
+    "now": "Original player/two-room mission integration, Detail192 and an opt-in mission HUD passed bounded Linux checks and Windows cross-builds; these successors have not run on Windows. A bounded IDE OBJ worker also passed Linux checks. The earlier shooting demo has its own bounded Windows result.",
+    "changed": "Added five separately scoped build records from coordinator-reviewed evidence-owner results: actor/scene integration, Detail192, HUD, bounded IDE worker and the earlier Windows shooting interaction. The repository gallery is published; current reporting guidance is updated. No broad task or historical acceptance changes.",
+    "why": "Keep current implementation evidence, source scope, primary/independent checks, cross-compilation, actual Windows interaction and portable imagery distinct. Preserve failures and earlier historical checkpoints without presenting them as the current queue.",
+    "next": "As of this review, a separate original retaliation encounter is mutable: initial optimized/sanitized checks passed and independent boundary review is running. Await terminal verification and review; no completion or Windows result is claimed. Broader IDE propagation/reader work and provenance, initializer, S2 and native-game acceptance remain separate."
   },
   "updates": [
+    {
+      "id": "runtime-tracker-housekeeping-01",
+      "date": "2026-10-28",
+      "kind": "documentation",
+      "capability_changed": false,
+      "changed": "Reconciled the current runtime Now/Next summary with coordinator-reviewed original actor/scene, Detail192, opt-in HUD and bounded IDE worker results. Gallery publication is verified complete, while older stopped candidates remain separate and untouched. Current reporting uses meaningful-change notifications, concise :30 and full :00 Arizona reports; owner-closed standalone work stays excluded.",
+      "why": "Replace stale V3–V5-only current prose and its former lens next step without rewriting history or treating images, assignments, cross-builds or repository activity as broad acceptance. The three-image public exception remains narrow; no playable public build is supplied.",
+      "next": "Keep the original retaliation encounter labeled in progress as of this review until terminal verification and review arrive. Future successor-specific Windows checks retain their applicable procedure and evidence limits. Preserve the completed gallery, all older failed/inconclusive records, task states and historical acceptance.",
+      "evidence": [
+        "docs/status/current-status.md#current-review-limits-and-next-implementation-slice",
+        "docs/status/current-status.md#repository-gallery-and-publication-status",
+        "AGENTS.md",
+        "docs/status/AGENTS.md"
+      ]
+    },
+    {
+      "id": "h1-actor-scene-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An explicitly selected visual envelope admits an originally authored player into the owned resource, movement/frame, target/gate and two-room mission path while retaining the collision body and old defaults. Strict optimized Linux and ASan/UBSan joined checks passed with leak detection disabled; independent review covered geometry/UV/material identity, envelope/lift bounds, scene collision/no bypass and joined retention.",
+      "why": "Adds bounded original actor/scene integration evidence. Intended old-loader envelope refusal and corrected test-namespace compilation failure remain recorded separately. Strict LLVM-MinGW/UCRT Windows cross-compilation passed, but this integrated successor has not run on Windows.",
+      "next": "Preserve the selected envelope and unchanged collision/default contracts. Review subsequent behavior on its own source stage; an earlier Windows demo or a portable gallery frame does not establish this successor's Windows presentation, faithful game behavior or native boot.",
+      "evidence": [
+        "docs/status/current-status.md#h1-original-actor-and-scene-integration"
+      ]
+    },
+    {
+      "id": "detail192-profile-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An explicit 192 by 128 profile preserves continuous field of view, logical lens controls, world state and old default/state bytes. Optimized/sanitized Linux mission and transactional-failure checks passed, including 163 allocation retentions. Independent rational sampling/clipping, modeled native painting, paired-world and actual draw-budget rollback checks passed.",
+      "why": "Adds a separately tested higher-resolution presentation profile without changing the logical world or lens contract. Repaired test/adapter compilation failures remain recorded. Bounded cloud CPU/memory measurements are not Windows FPS, and overlapping configurations are not distinct-test progress.",
+      "next": "Keep strict Windows cross-build success separate from execution: this successor has not run on Windows. Future platform checks must bind their exact successor; neither comparison images nor bounded cloud measurements establish Windows presentation or fidelity.",
+      "evidence": [
+        "docs/status/current-status.md#detail192-presentation-profile"
+      ]
+    },
+    {
+      "id": "mission-hud-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An opt-in stock-text native paint overlay reads existing mission health, mode, actions, exit and controls, retaining world/frame pixels and viewport. Actual-consumer optimized/sanitized checks and a strict Windows cross-build passed. Independent first-text-callback tests reproduced a stale exit cue after focus/Close/fault; per-row refresh repaired it with same-consumer RED/GREEN retained.",
+      "why": "Adds bounded HUD integration and recovery evidence, including a repaired mode-only repaint omission and a separately retained route-test clock setup failure. The coordinator consumed the final independent scope pass; native text/GDI effects remain modeled.",
+      "next": "No Windows font/display execution or HUD screenshot is established. A prepared private package is not a public build or Windows run; validate any future platform result separately without importing later private implementation into these records.",
+      "evidence": [
+        "docs/status/current-status.md#opt-in-mission-hud"
+      ]
+    },
+    {
+      "id": "bounded-ide-obj-worker-linux-01",
+      "date": "2026-10-28",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An admitted parser region joins the actual file-thread, mesh, render snapshot and Image path with growth refusal, sidecar, failure and no-stale-image checks. Optimized and ASan/UBSan checks passed with leak detection disabled; independent region/closure/inverse-scope review passed.",
+      "why": "Establishes this bounded IDE file-worker integration, not full mixed-core, Character or GUI propagation. Historical runtime-outcome and specification-body binding limits remain; broader unfinished reader/IDE work and the separate exporter keep distinct scopes.",
+      "next": "Keep full Windows IDE execution and broad task acceptance unestablished. Review remaining propagation and reader boundaries with their current owner, exact source and specific criteria; do not infer full IDE coverage from a standalone reader or this admitted region.",
+      "evidence": [
+        "docs/status/current-status.md#bounded-ide-obj-file-worker-integration"
+      ]
+    },
+    {
+      "id": "original-shooting-demo-windows-01",
+      "date": "2026-10-28",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "A separately reported earlier original shooting demo completed one approved Windows owner run. The observed health caption progressed 3 to 2 to 1 to target cleared, normal exit returned code 0 and the owner confirmed completion.",
+      "why": "Records actual bounded Windows interaction distinctly from later Linux-tested/cross-built successors. This original placeholder shooting result is not native Mega Man Legends boot or faithful gameplay.",
+      "next": "Retain this earlier executable's exact scope. No Windows execution or display acceptance transfers to the later H1, Detail192, HUD or IDE successors; each needs its own outcome before a platform claim.",
+      "evidence": [
+        "docs/status/current-status.md#earlier-original-shooting-demo--bounded-windows-result"
+      ]
+    },
     {
       "id": "approved-prototype-gallery-01",
       "date": "2026-10-28",
@@ -7101,11 +7176,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-28-runtime-housekeeping-review-01",
+      "date": "2026-10-28",
+      "basis_commit": "b2b023dcffc4c6307dacee9205864394cf1704b8",
+      "note": "Reviewed at 2026-10-28 15:18:31 UTC (8:18:31 AM Arizona): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records (31 to 36). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-28 14:27:03 UTC",
+    "reviewed_at": "2026-10-28 15:18:31 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -7669,6 +7806,41 @@
         "state": "tested",
         "update_id": "varying-uv-clip-characterization-linux-01",
         "limit": "30 primary checks per overlapping configuration; no new production code, artificial RED or independent oracle run. Leak detection disabled. Existing V5 target build applies by identity, not a fresh build or Windows run."
+      },
+      {
+        "id": "h1-actor-scene-linux",
+        "label": "Original player and two-room mission — Linux/component + Windows cross-build",
+        "state": "tested",
+        "update_id": "h1-actor-scene-linux-01",
+        "limit": "Selected visual envelope, unchanged collision/defaults. Primary optimized/ASan/UBSan with leaks disabled; independent geometry/envelope/collision/retention review. Intended old refusal and test-namespace failure retained. No successor Windows run or faithful MML acceptance."
+      },
+      {
+        "id": "detail192-profile-linux",
+        "label": "Detail192 higher-resolution profile — Linux/component + Windows cross-build",
+        "state": "tested",
+        "update_id": "detail192-profile-linux-01",
+        "limit": "Preserves continuous FOV/lens/world/default state. 163 allocation retentions, rational sampling/clipping and rollback checks; native paint modeled. Test/adapter failures retained. Cloud measurements are not Windows FPS; no Windows execution."
+      },
+      {
+        "id": "mission-hud-linux",
+        "label": "Opt-in mission HUD — Linux/component + Windows cross-build",
+        "state": "tested",
+        "update_id": "mission-hud-linux-01",
+        "limit": "Actual consumer, modeled GDI/text. Stale cue RED/GREEN, mode-only repaint repair and clock setup failure retained. Frame pixels/viewport unchanged; no Windows font/display, HUD screenshot, public build or runtime acceptance."
+      },
+      {
+        "id": "bounded-ide-obj-worker-linux",
+        "label": "Bounded IDE OBJ worker — Linux/component",
+        "state": "tested",
+        "update_id": "bounded-ide-obj-worker-linux-01",
+        "limit": "Admitted parser/file-thread/mesh/snapshot/Image region; optimized/ASan/UBSan, leaks disabled, independent scope review. Full mixed-core/Character/GUI propagation and Windows IDE execution unestablished; broader reader work and exporter remain separate."
+      },
+      {
+        "id": "original-shooting-demo-windows",
+        "label": "Earlier original shooting demo — bounded Windows interaction",
+        "state": "tested",
+        "update_id": "original-shooting-demo-windows-01",
+        "limit": "One earlier owner run: HP3→2→1→cleared, normal exit 0 and owner confirmation. No later H1/Detail192/HUD/IDE Windows coverage, faithful MML gameplay or native game boot."
       }
     ]
   }

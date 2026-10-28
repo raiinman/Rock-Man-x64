@@ -4,6 +4,78 @@ Generated from reviewed evidence data. Entries describe actual reviewed changes;
 
 [Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)
 
+## 2026-10-28 · runtime-tracker-housekeeping-01
+
+**Evidence class:** documentation. **Runtime capability advanced:** no.
+
+**Changed:** Reconciled the current runtime Now/Next summary with coordinator-reviewed original actor/scene, Detail192, opt-in HUD and bounded IDE worker results. Gallery publication is verified complete, while older stopped candidates remain separate and untouched. Current reporting uses meaningful-change notifications, concise :30 and full :00 Arizona reports; owner-closed standalone work stays excluded.
+
+**Why:** Replace stale V3–V5-only current prose and its former lens next step without rewriting history or treating images, assignments, cross-builds or repository activity as broad acceptance. The three-image public exception remains narrow; no playable public build is supplied.
+
+**Next:** Keep the original retaliation encounter labeled in progress as of this review until terminal verification and review arrive. Future successor-specific Windows checks retain their applicable procedure and evidence limits. Preserve the completed gallery, all older failed/inconclusive records, task states and historical acceptance.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#current-review-limits-and-next-implementation-slice) · [source 2](../../docs/status/current-status.md#repository-gallery-and-publication-status) · [source 3](../../AGENTS.md) · [source 4](../../docs/status/AGENTS.md).
+
+## 2026-10-28 · h1-actor-scene-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** An explicitly selected visual envelope admits an originally authored player into the owned resource, movement/frame, target/gate and two-room mission path while retaining the collision body and old defaults. Strict optimized Linux and ASan/UBSan joined checks passed with leak detection disabled; independent review covered geometry/UV/material identity, envelope/lift bounds, scene collision/no bypass and joined retention.
+
+**Why:** Adds bounded original actor/scene integration evidence. Intended old-loader envelope refusal and corrected test-namespace compilation failure remain recorded separately. Strict LLVM-MinGW/UCRT Windows cross-compilation passed, but this integrated successor has not run on Windows.
+
+**Next:** Preserve the selected envelope and unchanged collision/default contracts. Review subsequent behavior on its own source stage; an earlier Windows demo or a portable gallery frame does not establish this successor's Windows presentation, faithful game behavior or native boot.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#h1-original-actor-and-scene-integration).
+
+## 2026-10-28 · detail192-profile-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** An explicit 192 by 128 profile preserves continuous field of view, logical lens controls, world state and old default/state bytes. Optimized/sanitized Linux mission and transactional-failure checks passed, including 163 allocation retentions. Independent rational sampling/clipping, modeled native painting, paired-world and actual draw-budget rollback checks passed.
+
+**Why:** Adds a separately tested higher-resolution presentation profile without changing the logical world or lens contract. Repaired test/adapter compilation failures remain recorded. Bounded cloud CPU/memory measurements are not Windows FPS, and overlapping configurations are not distinct-test progress.
+
+**Next:** Keep strict Windows cross-build success separate from execution: this successor has not run on Windows. Future platform checks must bind their exact successor; neither comparison images nor bounded cloud measurements establish Windows presentation or fidelity.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#detail192-presentation-profile).
+
+## 2026-10-28 · mission-hud-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** An opt-in stock-text native paint overlay reads existing mission health, mode, actions, exit and controls, retaining world/frame pixels and viewport. Actual-consumer optimized/sanitized checks and a strict Windows cross-build passed. Independent first-text-callback tests reproduced a stale exit cue after focus/Close/fault; per-row refresh repaired it with same-consumer RED/GREEN retained.
+
+**Why:** Adds bounded HUD integration and recovery evidence, including a repaired mode-only repaint omission and a separately retained route-test clock setup failure. The coordinator consumed the final independent scope pass; native text/GDI effects remain modeled.
+
+**Next:** No Windows font/display execution or HUD screenshot is established. A prepared private package is not a public build or Windows run; validate any future platform result separately without importing later private implementation into these records.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#opt-in-mission-hud).
+
+## 2026-10-28 · bounded-ide-obj-worker-linux-01
+
+**Evidence class:** synthetic-linux. **Runtime capability advanced:** no.
+
+**Changed:** An admitted parser region joins the actual file-thread, mesh, render snapshot and Image path with growth refusal, sidecar, failure and no-stale-image checks. Optimized and ASan/UBSan checks passed with leak detection disabled; independent region/closure/inverse-scope review passed.
+
+**Why:** Establishes this bounded IDE file-worker integration, not full mixed-core, Character or GUI propagation. Historical runtime-outcome and specification-body binding limits remain; broader unfinished reader/IDE work and the separate exporter keep distinct scopes.
+
+**Next:** Keep full Windows IDE execution and broad task acceptance unestablished. Review remaining propagation and reader boundaries with their current owner, exact source and specific criteria; do not infer full IDE coverage from a standalone reader or this admitted region.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#bounded-ide-obj-file-worker-integration).
+
+## 2026-10-28 · original-shooting-demo-windows-01
+
+**Evidence class:** windows. **Runtime capability advanced:** no.
+
+**Changed:** A separately reported earlier original shooting demo completed one approved Windows owner run. The observed health caption progressed 3 to 2 to 1 to target cleared, normal exit returned code 0 and the owner confirmed completion.
+
+**Why:** Records actual bounded Windows interaction distinctly from later Linux-tested/cross-built successors. This original placeholder shooting result is not native Mega Man Legends boot or faithful gameplay.
+
+**Next:** Retain this earlier executable's exact scope. No Windows execution or display acceptance transfers to the later H1, Detail192, HUD or IDE successors; each needs its own outcome before a platform claim.
+
+**Evidence:** [source 1](../../docs/status/current-status.md#earlier-original-shooting-demo--bounded-windows-result).
+
 ## 2026-10-28 · approved-prototype-gallery-01
 
 **Evidence class:** documentation. **Runtime capability advanced:** no.
@@ -1769,3 +1841,9 @@ Only recorded observations appear here. The first entry is a baseline, not a new
 | 2026-10-28 · `2026-10-28-approved-gallery-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
 | 2026-10-28 · `2026-10-28-approved-gallery-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
 | 2026-10-28 · `2026-10-28-approved-gallery-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-28 14:27:03 UTC: the exact three-image repository gallery and bounded publication exception were reviewed, separately from native implementation evidence. Both tracker views retain 31 bounded checks, 30 task states/dependencies, unchanged criteria/versions/accepted IDs, workstream stages and validation records. Earlier observations preserved; zero acceptance delta. Portable imagery and an earlier actor-only inspection establish no Windows presentation, native game boot or release acceptance. |
+| 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | inspection v1 | 4 / 7 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | observation v1 | 2 / 4 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | loader v1 | 3 / 4 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | s2 v1 | 0 / 4 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | boot v1 | 0 / 1 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
+| 2026-10-28 · `2026-10-28-runtime-housekeeping-review-01` | roadmap v1 | 5 / 20 | Reviewed at 2026-10-28 15:18:31 UTC \(8:18:31 AM Arizona\): sanitized original actor/scene, Detail192, HUD and bounded IDE worker evidence plus an earlier separate Windows shooting outcome add five bounded records \(31 to 36\). Current prose/reporting guidance reconciled; gallery publication verified. All 30 task states/dependencies, criteria/versions/accepted IDs, workstream stages and numerical validation records unchanged; prior observations retained. No later successor Windows execution, full IDE, faithful MML gameplay or native boot inferred. Retaliation remains in progress; zero historical acceptance delta. |
