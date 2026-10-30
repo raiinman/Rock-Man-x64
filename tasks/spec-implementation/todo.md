@@ -6,6 +6,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Bounded evidence note (October 30, 2026, 7:01:12 AM Arizona (MST)):** [Original mission front-door portable/model checks and inert Windows-target builds](../../docs/status/current-status.md#original-mission-front-door--october-30) supplement the canonical build evidence only. No Windows execution for this successor, production startup/gameplay/save acceptance or broad task completion is inferred; all task checkboxes and dependencies remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 8:57:26 AM Arizona (MST)):** separate [Save & Return](../../docs/status/current-status.md#original-save--return--october-30) and [shot-audio](../../docs/status/current-status.md#original-accepted-shot-audio--october-30) portable/model checks and inert Windows targets supplement canonical evidence only. No successor Windows execution, audibility, production save/audio/game-boot acceptance or task completion is inferred; all checkboxes and dependencies remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

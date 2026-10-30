@@ -408,17 +408,41 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-30",
-    "review_id": "2026-10-30-owner-repository-links-review-01",
-    "reviewed_through_commit": "0f61b03da4e090ff7d15dbbd4593807b371bb42c",
-    "summary": "Reviewed October 30, 2026, 7:39:08 AM Arizona (MST): added two owner-suggested MML1 repository links and bounded assessments to the existing research landing page and source-link catalog. GitHub README/archive notes are preliminary PS1-decompilation reference leads; GitLab asset-tool description is listing-only with README/tree/license/revision unavailable through cache/loading. No implementation or assets adopted, license grant or Atlas relationship established, new research assignment or APEX ownership change. Both trackers retain 47 bounded checks, all 30 planned task states/dependencies, historical criteria/versions/accepted sets, roadmap 5/20, prior observations, stages and numerical validation. No native capability or acceptance advances."
+    "review_id": "2026-10-30-original-save-return-audio-review-01",
+    "reviewed_through_commit": "7b02e621b67ad3d65c403c1e122084fa6a73dee9",
+    "summary": "Reviewed October 30, 2026, 8:57:26 AM Arizona (MST): two independently reviewed original slices add focused paused Save & Return and optional accepted-shot tone audio. Portable optimized/executed sanitizer checks and explicit platform models cover save settlement/reentry, audio worker cleanup/retry and quit propagation at recorded source applicability. Adapted file-publisher checks are not unmodified native-platform proof. Inert Windows-target builds passed; no new Windows execution or audibility/visual/accessibility acceptance. Genuine callback, caption/drain/quit/input-refusal failures and setup/resource errors remain preserved. Build checks increase from 47 to 49; all 30 task states/dependencies, historical criteria/versions/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No production game boot, faithful behavior, full IDE, provenance or S2 acceptance."
   },
   "overview": {
-    "now": "The original mission front door now has reported independent portable/model review: explicit New and Continue enter the existing authored mission and return to the same start screen. Two Windows-target binaries passed inert build/inspection only; neither was executed for this successor.",
-    "changed": "Added two owner-suggested external repository pointers and bounded usefulness/access assessments in the existing research catalog. This is reference navigation only; no build-check record, task state, native capability or historical acceptance changed.",
-    "why": "A PS1 decompilation and a listing-only asset-tool lead have different verified scopes. Preliminary archive hypotheses and public availability do not authenticate provenance, grant a license or authorize implementation reuse.",
-    "next": "Keep these references as catalog leads under the existing no-decompilation-construction rule. No new research assignment, source adoption or game test is dispatched. Runtime evidence and its existing owners remain separate; provenance, initializer and production S2 gates are unchanged."
+    "now": "Original Save & Return and optional accepted-shot tone audio now have reported independent portable/model review. Save returns only after clean committed success; audio has owned worker cleanup and explicit retry. Windows targets were built/inspected inertly; no successor executable was run on Windows.",
+    "changed": "Added two separately scoped records, preserving save callback RED/GREEN, audio caption/drain/quit/input-refusal failures, resource/harness errors and source-applicability limits. Earlier Windows results remain tied to their earlier build; all broad task states and historical acceptance are unchanged.",
+    "why": "A committed save with cleanup pending must not masquerade as a clean return, and an accepted shot must not depend on audio availability. Modeled cleanup, adapted file publication, inert native linking and actual Windows audibility are distinct evidence classes.",
+    "next": "Complete exact-diff review of this separate documentation candidate. As of this review, next gameplay scope is under read-only assessment, not completed work. Any Windows execution or audibility check needs separately scoped evidence; provenance, initializer, native workload/source-binding and production S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "original-save-return-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Focused paused F6 explicitly uses the existing native state-save path and returns to the same start screen only after actual clean committed success. Failed or nonclean results retain the paused mission with truthful committed/cleanup status. Ordinary Close/Quit remains no-save.",
+      "why": "Portable optimized and sanitizer checks covered progressed world/frame save-return-Continue, no-op, failure and reentry. An actual callback RED exposed nested F5/Space write/resume; a narrow settlement mutation guard repaired it. A separately adapted real file-publisher boundary checked committed-cleanup-pending and intentional Close, not unmodified native-platform behavior. Legacy/F5/report characterization and inert Windows targets passed at their recorded scopes.",
+      "next": "Preserve the adapted-publisher/model and source-applicability limits. No Windows execution, full IDE, production save/game boot, faithful behavior, provenance or S2 acceptance follows. Earlier Windows evidence stays tied to its earlier build.",
+      "evidence": [
+        "docs/status/current-status.md#original-save--return--october-30"
+      ]
+    },
+    {
+      "id": "original-shot-audio-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An explicitly selected optional original tone supplies one owned cue request for each visible accepted shot. Blank selection is disclosed silent mode; invalid or unreadable selected input refuses before child launch. Busy cue requests are dropped without reversing gameplay.",
+      "why": "A dedicated worker owns native audio resources. Focused F8 explicitly retries current blocked cleanup; Close waits for proven cleanup and a joined worker while the modeled message pump remains responsive. Optimized/executed sanitizer checks covered accepted/busy/refused shots, device failures, natural completion, pause/close, retry generations and quit propagation. Final focused optional-control reads passed. Earlier source variants and final focused applicability were reviewed separately; compiler resource interruption, harness mistakes and genuine caption/drain/quit/input-refusal REDs and corrections remain preserved.",
+      "next": "Native targets linked the real audio API but were not run. This is no Windows audibility, visual/accessibility, hardware audio, faithful MML behavior, production game boot, full IDE, provenance or S2 acceptance. Keep existing source-applicability limits and earlier-build Windows evidence distinct.",
+      "evidence": [
+        "docs/status/current-status.md#original-accepted-shot-audio--october-30"
+      ]
+    },
     {
       "id": "owner-mml1-repository-links-01",
       "date": "2026-10-30",
@@ -7901,11 +7925,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-30-original-save-return-audio-review-01",
+      "date": "2026-10-30",
+      "basis_commit": "7b02e621b67ad3d65c403c1e122084fa6a73dee9",
+      "note": "Reviewed October 30, 2026, 8:57:26 AM Arizona (MST): two independently reviewed original slices add focused paused Save & Return and optional accepted-shot tone audio. Portable optimized/executed sanitizer checks and explicit platform models cover save settlement/reentry, audio worker cleanup/retry and quit propagation at recorded source applicability. Adapted file-publisher checks are not unmodified native-platform proof. Inert Windows-target builds passed; no new Windows execution or audibility/visual/accessibility acceptance. Genuine callback, caption/drain/quit/input-refusal failures and setup/resource errors remain preserved. Build checks increase from 47 to 49; all 30 task states/dependencies, historical criteria/versions/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No production game boot, faithful behavior, full IDE, provenance or S2 acceptance. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-30 14:39:08 UTC",
+    "reviewed_at": "2026-10-30 15:57:26 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8581,6 +8667,20 @@
         "state": "tested",
         "update_id": "original-mission-frontdoor-portable-01",
         "limit": "Reported scoped optimized/sanitizer execution and explicit operating-system modeling, including the actual outer loop; two Windows-target binaries built/inspected inertly. Audio object reuse is dependency-bound, not fresh compilation. No Windows execution, visual/accessibility, native original-game boot, faithful behavior, full IDE, provenance or production S2 acceptance. Earlier failures/corrections and earlier-build platform applicability retained."
+      },
+      {
+        "id": "original-save-return-portable",
+        "label": "Original Save & Return — portable settlement and adapted publisher checks",
+        "state": "tested",
+        "update_id": "original-save-return-portable-01",
+        "limit": "Reported optimized/sanitizer paused-save/continuation and callback RED/GREEN; explicit OS model and separately adapted real file publisher. Inert Windows targets only; no Windows execution or full IDE/production save/game-boot/provenance/S2 acceptance. Earlier failures and source applicability retained."
+      },
+      {
+        "id": "original-shot-audio-portable",
+        "label": "Original accepted-shot audio — portable owned-worker cleanup and inert native linking",
+        "state": "tested",
+        "update_id": "original-shot-audio-portable-01",
+        "limit": "Reported optimized/executed sanitizer checks at reviewed earlier-variant/final-focused applicability, including optional reads, device failure, cleanup/retry and quit. Modeled platform; real native audio API linked inertly. No Windows execution/audibility, visual/accessibility, production game boot, full IDE, provenance or S2 acceptance."
       }
     ]
   }

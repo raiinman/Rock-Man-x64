@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The original mission front door now has reported independent portable/model review: explicit New and Continue enter the existing authored mission and return to the same start screen. Two Windows-target binaries passed inert build/inspection only; neither was executed for this successor.
+**Where we are:** Original Save &amp; Return and optional accepted-shot tone audio now have reported independent portable/model review. Save returns only after clean committed success; audio has owned worker cleanup and explicit retry. Windows targets were built/inspected inertly; no successor executable was run on Windows.
 
-**Next useful step:** Keep these references as catalog leads under the existing no-decompilation-construction rule. No new research assignment, source adoption or game test is dispatched. Runtime evidence and its existing owners remain separate; provenance, initializer and production S2 gates are unchanged.
+**Next useful step:** Complete exact-diff review of this separate documentation candidate. As of this review, next gameplay scope is under read-only assessment, not completed work. Any Windows execution or audibility check needs separately scoped evidence; provenance, initializer, native workload/source-binding and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-owner-repository-links-review-01` · [reviewed basis 0f61b03](https://github.com/raiinman/Rock-Man-x64/commit/0f61b03da4e090ff7d15dbbd4593807b371bb42c).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-save-return-audio-review-01` · [reviewed basis 7b02e62](https://github.com/raiinman/Rock-Man-x64/commit/7b02e621b67ad3d65c403c1e122084fa6a73dee9).
 **Latest repository change observed:** [282055d](https://github.com/raiinman/Rock-Man-x64/commit/282055db41b8bbb6c3038251032260c9795e7286) · 2026-10-30T07:43:41-07:00 — docs: catalog owner-suggested MML1 repository references.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

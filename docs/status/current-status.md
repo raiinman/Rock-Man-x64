@@ -2,6 +2,28 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original Save & Return — October 30
+
+**Documentation review: October 30, 2026, 8:57:26 AM Arizona (MST).** The evidence owner supplied two separately completed, independently reviewed original slices below. These are reported private results; the public repository does not contain the source, fixtures or raw receipts. This documentation lane runs no implementation, research, game tests or PC actions.
+
+An explicit focused, paused **F6 Save & Return** uses the existing native state-save path. It requires an actual clean committed success before returning to the same start screen. Failure or a nonclean result retains the paused mission and reports committed/cleanup status truthfully. Ordinary Close and Quit remain no-save operations.
+
+Portable optimized and sanitizer checks exercised an actually progressed world/frame through save, return and Continue, plus no-op, failure and reentry cases. An actual callback RED exposed nested F5/Space write/resume during settlement; a narrow settlement mutation guard repaired that behavior with RED/GREEN retained.
+
+A separate explicitly adapted real file-publisher boundary checked committed-cleanup-pending results and intentional Close. This is adapted boundary evidence, not proof of the unmodified native operating-system path. Legacy automatic entry, F5 and report behavior were characterized; inert Windows targets passed their bounded build checks. No Windows executable ran for this successor, and earlier Windows evidence remains applicable only to its earlier build.
+
+## Original accepted-shot audio — October 30
+
+**Documentation review: October 30, 2026, 8:57:26 AM Arizona (MST).** Optional audio requires explicit selection of an original tone. A blank selection is disclosed silent mode; invalid or unreadable selected input refuses before a child starts. Each visible accepted shot requests one owned cue. Requests while busy are dropped without reversing accepted gameplay.
+
+A dedicated worker owns native audio resources. Focused **F8** explicitly retries the current blocked cleanup generation. Close waits for proven cleanup and a joined worker while the modeled message pump remains responsive. Portable optimized and executed sanitizer checks covered accepted, busy and refused shots; device failures; natural completion; pause/close; retry generations; and quit propagation. Final focused optional-control read checks passed.
+
+Earlier source variants and final focused applicability were reviewed explicitly; earlier checks are not relabeled as wholesale final-source execution. Preserve the compiler resource interruption and harness mistakes separately from genuine caption, drain, quit and input-refusal REDs and their corrections. Subsequent passes do not erase those failures. Native Windows targets linked the real audio API but were never run; linking does not demonstrate device output or audibility.
+
+Together these two separate bounded records increase build checks from 47 to 49. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations remain unchanged. Neither record establishes Windows audibility, visual/accessibility acceptance, faithful MML behavior, production game boot, full integrated IDE, provenance clearance or production S2 acceptance. Existing initializer and native workload/source-binding gates remain separate.
+
+**Next:** exact-diff documentation review. As of this review, the next gameplay scope is under read-only assessment, not a completed implementation. No Windows run, audio test, transfer or new research assignment is requested by this record. Earlier dated results and queue statements below retain their original applicability.
+
 ## Original mission front door — October 30
 
 **Documentation review: October 30, 2026, 7:01:12 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original mission front-door slice. This records reported private evidence; the public repository does not contain its source, fixtures or raw receipts. This documentation lane runs no implementation, research, game tests or PC actions.

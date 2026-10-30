@@ -16,6 +16,8 @@ As reviewed October 30, 2026, 3:31:38 AM Arizona (MST), a [separate bounded Wind
 
 As reviewed October 30, 2026, 7:01:12 AM Arizona (MST), the [original mission front door](../../docs/status/current-status.md#original-mission-front-door--october-30) has reported independently reviewed portable/model integration and two inert Windows-target builds. New/Continue state intent, saved continuation and outer-loop lifecycle evidence stay distinct from actual Windows execution. The canonical build map owns the bounded check; no production startup, gameplay/save refinement, integrated-IDE task, dependency or historical acceptance is completed by this support record.
 
+As reviewed October 30, 2026, 8:57:26 AM Arizona (MST), [Save & Return](../../docs/status/current-status.md#original-save--return--october-30) and [accepted-shot audio](../../docs/status/current-status.md#original-accepted-shot-audio--october-30) have separate reported portable/model reviews and inert Windows-target evidence. Adapted publication, callback settlement, owned-worker cleanup and earlier-variant/final-focused applicability remain bounded. No Windows execution, production save/audio/runtime acceptance, broad task state or dependency changes. The canonical build map owns the two checks.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.
