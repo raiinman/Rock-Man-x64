@@ -2,6 +2,24 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original IDE existing-file play Windows check — October 30
+
+**Documentation review: October 30, 2026, 3:31:38 AM Arizona (MST).** This is a later, separately scoped reported Windows result on the previously reviewed build. It supplements the earlier portable/model/inert-build record without rewriting what was known then. The public repository does not contain the private build, fixtures or raw receipts needed to reproduce these checks. This documentation lane performs no PC actions, native tests, research or game execution.
+
+The editor launched empty, with the new existing-file command available and old receipt-bound Playtest disabled. The first paused original-room child launched and returned normally, leaving the editor empty without fabricating an export receipt. One new original export then completed.
+
+A later unexported target edit remained retained across the second child, launched through existing-file play, and the third child, launched through old receipt-bound Playtest. Both returned normally to the editor, with Undo and the completed export receipt retained. The automated scope was capped at one executable launch, three paused children, two edits and one export. These are bounded workflow observations, not an exhaustive behavior matrix.
+
+At final-close revalidation, an extra active child was found outside that automated three-child scope. Automation stopped without touching it. The owner subsequently reported personally opening and playing it, with movement and controls behaving according to the on-screen directions. Keep this owner report separate from the automated paused-child/editor-state checks; it does not establish an exhaustive key, focus-loss or input matrix.
+
+The owner was asked to close the game and then editor normally when finished and later stated “closed.” Keep that statement separate from the subsequent observed result: one read-only check found the prior process absent, and the retained original launch session explicitly returned exit code 0. No new test-state file appeared, and both exported files retained their verified contents. This closeout issued no new launch, input or close. It resolves the recorded final-exit uncertainty within that bounded check, without retroactively erasing the interrupted extra-child revalidation or establishing full production owner-retirement behavior.
+
+This record does not complete SI-24, production S2, provenance review, production runtime, native original-game boot, faithful game behavior or release. Eligible original content remains distinct from authenticated provenance. The existing initializer and source-binding gates remain unchanged. No private source, package, identity, machine detail or capture is published.
+
+One separately scoped Windows build check is added (45 to 46), with owner testimony and observed final-exit evidence separately labeled. A tested bounded check does not accept the full integrated-IDE journey. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations remain unchanged. The earlier portable record and its failure/applicability history retain their original scope.
+
+**Next:** preserve the completed bounded checks and read-only closeout; broader input/focus/accessibility and full IDE claims require their own evidence under the existing owner. No completed flow is repeated and no new PC action or test is dispatched by this documentation record.
+
 ## Original IDE existing-file play — October 30
 
 **Documentation review: October 30, 2026, 12:55:26 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original-IDE support slice. This public summary records reported private evidence; the source, inputs and full receipts are not independently reproducible from this documentation-only repository. No implementation, research, game, platform or native tests are run by this documentation lane.

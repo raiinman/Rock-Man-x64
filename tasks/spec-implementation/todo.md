@@ -598,6 +598,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Bounded evidence note (October 30, 2026, 12:55:26 AM Arizona):** [Original IDE existing-file play](../../docs/status/current-status.md#original-ide-existing-file-play--october-30) is one reviewed portable integration/inert-target support slice. Its modeled native boundaries, failure history, reused-object build applicability and unproven Windows/production scopes remain explicit in the [canonical record](../../docs/status/dashboard.md#build-and-specification-plan). This task and all acceptance checkboxes remain planned/unchecked; no dependency, provenance or execution gate is cleared.
 
+**Later bounded Windows note (October 30, 2026, 3:31:38 AM Arizona):** [Existing-file play Windows checks](../../docs/status/current-status.md#original-ide-existing-file-play-windows-check--october-30) cover paused-child returns and retained editor state. Owner movement/close testimony remains separate from later read-only process absence and original-session exit 0; extra-child interruption history, retained exports and absent new test-state file stay explicit. This does not complete SI-24 or change any checkbox, dependency or production/provenance gate.
+
 **Dependencies:** SI-08, SI-10, SI-15.
 
 **Files likely touched:** Private IDE integration specification, owning plan and focused test design.

@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "62ef8df6aabb5c89a26d4e6d7dd3c38585cefd9c08000b1b00beea9f0afc72a4",
+  "evidence_data_sha256": "7b373eaeec04d0c6ac9872856be1d1a75665a2987c80c7ebb2501d0169e4e282",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "ee5d0747b9edf5e1f13ac4b50c92437ccce768140d93b872913d0c5a936f3d35",
-  "evidence_review_id": "2026-10-30-ide-existing-file-play-review-01",
+  "reviewed_stage_sha256": "31ce739e2833c7f776b9cfc3628bd0cc4d14e43347a7d667e602997c03559f27",
+  "evidence_review_id": "2026-10-30-ide-existing-file-windows-review-01",
   "evidence_review_date": "2026-10-30",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -129,7 +129,8 @@
     "a3cf3e9e138b4700f09c885925caf0e7165a32396af7f44a86873efdd553d113",
     "2b1c840dd0f9d4ca925acc6610bb5ee221f331b74b299ce792f18807bde393d5",
     "e80f98d05ae05116b324a1883f8ac6113ff5fb997c834a6369e2d7964d408182",
-    "1b776ce9338fedef997b0e02f71acb30056880b8a278163ef70941678e898482"
+    "1b776ce9338fedef997b0e02f71acb30056880b8a278163ef70941678e898482",
+    "1294963cefe57cb98ac7d89440eb40c7228fe7823507f95ef5aad4c1cce37ab5"
   ],
-  "reviewed_build_plan_sha256": "568a64263f788fb9ea7f8d4039717d1c7d73be9a00e976f5bc189e6a4c5d60ad"
+  "reviewed_build_plan_sha256": "c1542957f32c616b89b313907194f153b00afa7ba98296dae9c851085e77221a"
 }
