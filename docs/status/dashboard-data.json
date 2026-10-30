@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-30",
-    "review_id": "2026-10-30-original-ide-play-policy-review-01",
-    "reviewed_through_commit": "58fee250b4199e630e03e876643148b6be9b8146",
-    "summary": "Reviewed October 30, 2026, 1:01:27 PM Arizona (MST): independently reviewed original IDE selection integrates fixed, reactive and patrol/V2 policies into receipt-bound Playtest and Export+Play. Joined export receipts remain geometry authority; captured owned selection and live-change supersession prevent stale-policy handoff without undoing completed publication. Existing-file play remains fixed. Reported modeled-native author/independent optimized and executed O0 ASan/UBSan cohorts passed with leaks disabled; legacy checks and inert Windows-target builds passed. Preserve stale-policy callback RED/fix, prior missing-selection/report behavior REDs, setup and post-scheduling Image-oracle corrections. No Windows executable ran. One record increases checks 51 to 52; all 30 task states/dependencies, historical criteria/acceptance, roadmap 5/20 and history remain unchanged. No device/audibility, MML fidelity, production startup/gameplay/save, full IDE, provenance or S2 acceptance; later slices excluded."
+    "review_id": "2026-10-30-original-ide-shot-cue-review-01",
+    "reviewed_through_commit": "ae3a9bb7ba0394ee70c43c804436a3764f30ec82",
+    "summary": "Reviewed October 30, 2026, 2:48:32 PM Arizona (MST): independently reviewed original IDE receipt-bound Playtest/Export+Play accepts an optional explicit original shot-cue WAV, blank silent mode and refusal of invalid selected input before a child starts. Owned capture, callback/handoff changes and historical metadata retain their bounds; existing policy/receipt gates and silent existing-file play remain. Reported portable modeled-native optimized and executed O0 ASan/UBSan cohorts passed with leaks disabled; legacy/front-door and inert-target checks passed, no Windows execution. Preserve feature RED/GREEN, extraction/lifetime-oracle corrections, compiler kills and earlier HOLD. Exact frozen checks later passed after separately authorized temporary-data reclamation; no OOM diagnosis or new backup-completion claim. Checks increase 52 to 53; all 30 task states/dependencies, historical acceptance, roadmap 5/20 and history remain unchanged. No Windows audibility/device, MML fidelity, production boot/provenance/S2; unfinished contact excluded."
   },
   "overview": {
-    "now": "The original IDE now has reported independent portable/model review of explicit fixed, reactive and patrol/V2 play-policy selection for receipt-bound Playtest and Export+Play. Existing-file play remains fixed. Targets were linked/inspected inertly; no Windows executable ran for this successor.",
-    "changed": "Added one bounded integration record. Owned selection capture and live policy-change supersession retain geometry publication while preventing stale-policy child launch. Genuine behavior RED/fixes, setup/oracle corrections and O0 sanitizer limits remain explicit; broad tasks and historical acceptance are unchanged.",
-    "why": "A joined export receipt authenticates the checked geometry result, not an invented policy receipt. Pending handoff, completed publication and historical reports have distinct ownership; an intentional image-cache retag must be compared at the correct post-scheduling boundary.",
-    "next": "Complete exact-diff review of this separate documentation candidate. Later unaccepted work is excluded. Any Windows GUI/device/user validation needs separately scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
+    "now": "The original IDE now has reported independent portable/model review for optional explicit shot-cue WAV selection in receipt-bound Playtest and Export+Play. Blank means silent; invalid selected input refuses before child launch. Existing-file play remains independently silent. No successor executable ran on Windows.",
+    "changed": "Added one bounded IDE audio-integration record, preserving owned capture, historical metadata and existing policies/receipts. Genuine feature RED/GREEN, setup/oracle corrections, compiler kills, earlier HOLD and the later exact-source passes remain distinct. Broad tasks and historical acceptance are unchanged.",
+    "why": "Accepting an editor-selected cue is separate from the earlier runtime audio worker. A passing portable native-boundary model or inert API link does not demonstrate device output. Later passes after a resource change do not prove OOM causation or retroactively change backup/HOLD history.",
+    "next": "Complete exact-diff review of this separate documentation candidate. Unfinished contact work is excluded. Actual Windows/device/audibility acceptance needs separate scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "original-ide-shot-cue-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Receipt-bound original IDE Playtest and Export+Play accept an optional explicit original shot-cue WAV. Blank is disclosed silent mode; missing, malformed, oversized or unreadable selected input refuses before a child starts. Existing policies 22/23/24, checked-export receipt/model/path/draft gates and independent silent existing-file play remain. Owned capture resists callback/export-handoff changes; historical reports retain the original cue/silent metadata.",
+      "why": "Reported portable native-boundary modeling used admitted original fixtures and a cleared mathematical triangle-wave WAV, real checked export, strict loader/session, worker/editor and reports. Optimized author/independent and separately executed O0 ASan/UBSan cohorts passed with leak detection disabled, alongside legacy runtime/front-door cohorts. The integration reuses the accepted-shot predicate and owned worker: one outstanding cue, busy drops, nonfatal device failure, explicit generation cleanup retry and responsive Close. Contact and nonshots were not newly sonified. Preserve genuine capture/control feature RED/GREEN, test extraction and retirement-borrow lifetime-oracle corrections, earlier compiler kills and HOLD, and exact frozen rerun applicability.",
+      "next": "After separately authorized temporary-data reclamation and measured resource change, previously missing checks passed under exclusive ownership with source/tests/assertions/flags unchanged. Compiler kills do not prove OOM; earlier backup chronology is not rewritten. Targets freshly compiled three translation units, reused three dependency-checked objects and passed inert linking/inspection; neither ran. No new provider/codec/asset/gameplay/F6, Windows/device/audibility, production boot, provenance/S2 or backup-completion claim; unfinished contact is excluded.",
+      "evidence": [
+        "docs/status/current-status.md#original-ide-optional-shot-cue--october-30"
+      ]
+    },
     {
       "id": "original-ide-play-policy-portable-01",
       "date": "2026-10-30",
@@ -8209,11 +8221,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-30-original-ide-shot-cue-review-01",
+      "date": "2026-10-30",
+      "basis_commit": "ae3a9bb7ba0394ee70c43c804436a3764f30ec82",
+      "note": "Reviewed October 30, 2026, 2:48:32 PM Arizona (MST): independently reviewed original IDE receipt-bound Playtest/Export+Play accepts an optional explicit original shot-cue WAV, blank silent mode and refusal of invalid selected input before a child starts. Owned capture, callback/handoff changes and historical metadata retain their bounds; existing policy/receipt gates and silent existing-file play remain. Reported portable modeled-native optimized and executed O0 ASan/UBSan cohorts passed with leaks disabled; legacy/front-door and inert-target checks passed, no Windows execution. Preserve feature RED/GREEN, extraction/lifetime-oracle corrections, compiler kills and earlier HOLD. Exact frozen checks later passed after separately authorized temporary-data reclamation; no OOM diagnosis or new backup-completion claim. Checks increase 52 to 53; all 30 task states/dependencies, historical acceptance, roadmap 5/20 and history remain unchanged. No Windows audibility/device, MML fidelity, production boot/provenance/S2; unfinished contact excluded. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-30 20:01:27 UTC",
+    "reviewed_at": "2026-10-30 21:48:32 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8924,6 +8998,13 @@
         "state": "tested",
         "update_id": "original-ide-play-policy-portable-01",
         "limit": "Reported real portable workers/joins and modeled-native author/independent optimized and executed O0 ASan/UBSan cohorts; leak detection disabled. Geometry receipts separate from captured play policy; live supersession RED/fix and setup/oracle history retained. Existing-file fixed policy unchanged. Three fresh translation units/three dependency-checked reused objects; inert targets only. No Windows/full IDE/production/provenance/S2 acceptance."
+      },
+      {
+        "id": "original-ide-shot-cue-portable",
+        "label": "Original IDE optional shot cue — portable captured-input integration and inert targets",
+        "state": "tested",
+        "update_id": "original-ide-shot-cue-portable-01",
+        "limit": "Reported portable native-boundary model, optimized/O0 ASan-UBSan cohorts with leaks disabled and legacy checks. Owned cue/silent metadata, existing receipt/policy gates and accepted-shot worker preserved. Earlier HOLD/compiler kills/setup-oracle history and later exact-source passes kept separate; no OOM diagnosis. Inert targets only; no Windows/device/audibility, MML fidelity, production boot, provenance/S2 or new backup claim. Contact excluded."
       }
     ]
   }

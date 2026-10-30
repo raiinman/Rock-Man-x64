@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "e738dc3181dfe189f697db8aa6cf1220388f8e341904c6d8e951513b612286fe",
+  "evidence_data_sha256": "203962b3a24553690f12c1312d9c75c019aec93c096d9c6c92e53444a2921a9b",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "cfc862d79cc5d41a019eb96aee1f70e1dda511470bd7a7423afa92b408f5d9c3",
-  "evidence_review_id": "2026-10-30-original-ide-play-policy-review-01",
+  "reviewed_stage_sha256": "4db05b648ed51d175718bc3871c63fa86a0a8015d9195277f526be1808d0696c",
+  "evidence_review_id": "2026-10-30-original-ide-shot-cue-review-01",
   "evidence_review_date": "2026-10-30",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -136,7 +136,8 @@
     "625c5ed4a34cb1f4ad2d4067413aaf295c81f73750025eabcc6c717d3f2795a5",
     "18b0a309a60a021df82dc53eeda701576cb76cd23aead274da157f5b487530af",
     "61c226b88d4a07b163909bf6714ebca459e3781ebffb7bde0ed29699cb133852",
-    "86d961fa857b9cff2c8ec5e01250d9c4ac03f20cb313d9b4a4b24a172ed51fcd"
+    "86d961fa857b9cff2c8ec5e01250d9c4ac03f20cb313d9b4a4b24a172ed51fcd",
+    "db43ebbf72fdac97b369248cd7723ce7b6642ab364e6e1246f1f0eb3af405da1"
   ],
-  "reviewed_build_plan_sha256": "0f2664c40b3a016b321457e89d17b077c9b0f21d78c8e1e5fd550d18192fef9d"
+  "reviewed_build_plan_sha256": "38d74341c88686e84ec57fd846036017494887463b85c81d642a1faee857546b"
 }

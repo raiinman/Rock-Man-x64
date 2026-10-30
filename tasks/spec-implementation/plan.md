@@ -24,6 +24,8 @@ As reviewed October 30, 2026, 11:52:33 AM Arizona (MST), [optional original late
 
 As reviewed October 30, 2026, 1:01:27 PM Arizona (MST), [original IDE published-play policy selection](../../docs/status/current-status.md#original-ide-published-play-policy-selection--october-30) has reported independent portable/model integration and inert Windows-target evidence. Geometry receipts, captured play policy and completed publication remain separate; callback supersession RED/fix and setup/oracle history are preserved. O0 sanitizers excluded leak detection. No Windows/full IDE or production acceptance, task state or dependency changes. The canonical build map owns the bounded record.
 
+As reviewed October 30, 2026, 2:48:32 PM Arizona (MST), [original IDE optional shot-cue integration](../../docs/status/current-status.md#original-ide-optional-shot-cue--october-30) has reported independent portable/model review, legacy checks and inert targets. Owned capture and existing receipt/policy/worker gates retain their limits; O0 sanitizers excluded leak detection. Feature RED/GREEN, setup/oracle corrections, compiler kills/HOLD and exact frozen later passes stay distinct. No Windows/device/audibility, production or task-state/dependency changes. The canonical build map owns the bounded record.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.

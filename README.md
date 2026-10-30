@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The original IDE now has reported independent portable/model review of explicit fixed, reactive and patrol/V2 play-policy selection for receipt-bound Playtest and Export\+Play. Existing-file play remains fixed. Targets were linked/inspected inertly; no Windows executable ran for this successor.
+**Where we are:** The original IDE now has reported independent portable/model review for optional explicit shot-cue WAV selection in receipt-bound Playtest and Export\+Play. Blank means silent; invalid selected input refuses before child launch. Existing-file play remains independently silent. No successor executable ran on Windows.
 
-**Next useful step:** Complete exact-diff review of this separate documentation candidate. Later unaccepted work is excluded. Any Windows GUI/device/user validation needs separately scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Complete exact-diff review of this separate documentation candidate. Unfinished contact work is excluded. Actual Windows/device/audibility acceptance needs separate scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-ide-play-policy-review-01` · [reviewed basis 58fee25](https://github.com/raiinman/Rock-Man-x64/commit/58fee250b4199e630e03e876643148b6be9b8146).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-ide-shot-cue-review-01` · [reviewed basis ae3a9bb](https://github.com/raiinman/Rock-Man-x64/commit/ae3a9bb7ba0394ee70c43c804436a3764f30ec82).
 **Latest repository change observed:** [bd8bddf](https://github.com/raiinman/Rock-Man-x64/commit/bd8bddf7287bbc9d5eb24a5feb926d051d433a5b) · 2026-10-30T13:41:35-07:00 — docs: record bounded original IDE play-policy integration evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

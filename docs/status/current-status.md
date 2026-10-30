@@ -2,6 +2,26 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original IDE optional shot cue — October 30
+
+**Documentation review: October 30, 2026, 2:48:32 PM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original IDE optional-cue slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
+
+Receipt-bound Playtest and Export+Play accept an optional, explicitly selected original shot-cue WAV. Blank selection is disclosed silent mode. Missing, malformed, oversized or unreadable selected input refuses before a child starts. Existing policies 22/23/24, checked-export receipt/model/path/draft gates and the independently silent existing-file command remain unchanged.
+
+Owned cue capture resists callback/export-handoff changes, and historical reports retain the cue/silent metadata actually selected. The integration reuses the existing accepted-shot predicate and owned audio worker: one outstanding cue, busy drops, nonfatal device failures, explicit generation cleanup retry and responsive Close. Contact and other nonshot events were not newly sonified.
+
+Actual Linux portable native-boundary modeling used admitted originally authored geometry, actor and texture fixtures plus a cleared mathematical triangle-wave WAV. It exercised real checked export, strict loaders/session, worker/editor boundaries and reports. Strict optimized author and independent cohorts passed; separately executed **O0 ASan/UBSan** cohorts passed with **leak detection disabled**. Legacy runtime and front-door optimized cohorts passed. These overlapping configurations are not summed into features, optimized sanitizer, leak-detector, performance or race-freedom proof.
+
+Preserve the genuine captured-cue/control feature RED followed by GREEN. Test extraction initially omitted a new shared helper, and retirement-borrow lifetime oracles were corrected; those setup/oracle issues are not described as production defects. Earlier author/reviewer sanitizer and legacy/front-door compiler kills remain failed attempts, not proof of OOM or completed checks.
+
+After separately authorized temporary-data reclamation with a measured resource change, the exact frozen source, tests, assertions and flags reran under exclusive ownership and the missing checks passed. The observed contrast does not establish the cause of the earlier kills. Earlier HOLD and backup history remain dated facts; a backup made before recovery acceptance is not reclassified as containing that later acceptance. This record claims no new backup/recovery completion.
+
+Inert targets freshly compiled three translation units and reused three objects only after exact identity and unchanged dependency-closure checks. Two links passed import/header/symbol inspection; neither executable ran. Independent final review and clean local metadata review passed. This integrates an existing cue path; it adds no new provider, codec, asset, gameplay or F6 feature.
+
+One separate bounded record increases build checks from 52 to 53. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No Windows device/audibility, faithful MML behavior, native game boot, production acceptance, provenance clearance, production S2, owner-save payload or PC/public-source transfer claim follows. Existing initializer and native workload/source-binding gates remain separate.
+
+**Next:** exact-diff documentation review. Unfinished contact work is separate and excluded. Any actual Windows/device/audibility check requires its separately scoped procedure and evidence; no run, transfer or new research assignment is requested here. Earlier dated results and queue statements retain their original applicability.
+
 ## Original IDE published-play policy selection — October 30
 
 **Documentation review: October 30, 2026, 1:01:27 PM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original IDE integration slice. This is reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
