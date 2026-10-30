@@ -16,6 +16,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Later bounded evidence note (October 30, 2026, 2:48:32 PM Arizona (MST)):** [Original IDE optional shot-cue checks](../../docs/status/current-status.md#original-ide-optional-shot-cue--october-30) add portable/model and inert-target evidence only, with owned-capture, O0 sanitizer/leak and failed-attempt chronology limits. No broad IDE/audio, Windows/device/audibility, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 3:36:19 PM Arizona (MST)):** [Original contact-patrol checks](../../docs/status/current-status.md#original-contact-patrol--october-30) add portable/model and inert-target evidence only, with prior-binary/seeded/inherited-proof limits and gate-specific obstruction unexecuted. No broad gameplay/save/IDE, Windows/device, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

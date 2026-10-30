@@ -2,6 +2,28 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original contact patrol — October 30
+
+**Documentation review: October 30, 2026, 3:36:19 PM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original contact-patrol slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
+
+Explicitly selected policy 25 integrates the front door and receipt-bound IDE Playtest/Export+Play. At the existing eight accepted local-step cadence, a living guard's attempted swept move may cause at most one HP of contact damage on player overlap if no static or resulting-gate obstruction blocks it. The guard holds and reverses. Contact takes priority over a coincident 64-step ranged pulse. Strict touching, dead guards, paused/parked rooms and refused steps do not attack. HUD distinguishes body hazard from ranged preview. Contact does not create shots or audio.
+
+Actual production-path native-boundary modeling drove natural movement/contact/evasion, three accepted shots, dead-clock freeze, natural gate/exit traversal and a parked home phase. Paused Save & Return wrote progressed state; Continue restored identical state/frame and its next step matched an uninterrupted native reference. A selected cue without a shot made no device submission in that modeled case, not an actual device or audibility observation.
+
+Optimized natural journeys passed. Additional control, Close, reentry, crossed-policy and save-failure cases passed using the exact prior binary. IDE policy/cue and typed live-restore/high-water/map cohorts passed within their recorded scope. These checks are modeled native production paths, not actual Windows execution, and overlapping cohorts are not summed into features.
+
+Independent explicitly seeded checks covered touch, noncadence, contact/pulse cap, lethal terminal and ordinary/prepared state-frame equality. A separately identified actual checked-export fixture of originally authored actor and pillar geometry checked obstruction and absence of contact damage; it is not commercial-game evidence. **Gate-specific contact obstruction remains UNEXECUTED.** Natural gate traversal does not close that distinct test boundary; direct obstruction evidence here is the pillar.
+
+Independent O0-g0 ASan/UBSan boundary and obstruction cohorts passed, along with native O0-g0 diagnostic cases; leak detection was disabled. Historical component proofs remain separately scoped through exact unchanged dependency closure, not claimed as newly executed. Seeded boundaries do not become natural journeys, and these configurations do not prove leak-detector, optimized-sanitizer, performance or race-freedom acceptance.
+
+The distinct sealed policy 25 keeps the 528-byte version-2 save layout. Existing policies 22/23/24 remain unchanged; policies 24 and 25 refuse across policies without migration or fallback. Opposite-policy Continue preserves disk and creates no child. Existing cue capture/history, receipt/model/path/draft gates, focused cleanup retry and owned Close remain.
+
+Inert builds freshly compiled three translation units and reused three objects only after exact compiler/object/dependency checks. Both executable links and inspection passed; neither ran. Preserve earlier compiler terminations and unexecuted attempts, the exporter include-order setup failure, the genuine new admission RED and corrected read-only metadata/discovery setup errors as distinct outcomes. No OOM cause is established. Independent terminal and clean local metadata review passed; this is not Windows execution or release.
+
+One separate bounded record increases build checks from 53 to 54. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No live Windows/audibility, faithful MML behavior, native game boot, production acceptance, provenance clearance, production S2 or PC/private publication claim follows. Existing initializer and native workload/source-binding gates remain separate.
+
+**Next:** exact-diff documentation review. Gate-specific obstruction remains a separately unexecuted check; any later Windows/device or obstruction validation needs its own scoped evidence. No run, transfer or new research assignment is requested here. Earlier dated results and queue statements retain their original applicability.
+
 ## Original IDE optional shot cue — October 30
 
 **Documentation review: October 30, 2026, 2:48:32 PM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original IDE optional-cue slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.

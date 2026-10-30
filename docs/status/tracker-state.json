@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "203962b3a24553690f12c1312d9c75c019aec93c096d9c6c92e53444a2921a9b",
+  "evidence_data_sha256": "fb71c002df747680f73c3614330b4af48d97554a973bd126b1c7f22b2211a778",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "4db05b648ed51d175718bc3871c63fa86a0a8015d9195277f526be1808d0696c",
-  "evidence_review_id": "2026-10-30-original-ide-shot-cue-review-01",
+  "reviewed_stage_sha256": "e6f87d6770f83cbdcd32d36f56889938100aa1ae86e52a838edb05ce8a35ca55",
+  "evidence_review_id": "2026-10-30-original-contact-patrol-review-01",
   "evidence_review_date": "2026-10-30",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -137,7 +137,8 @@
     "18b0a309a60a021df82dc53eeda701576cb76cd23aead274da157f5b487530af",
     "61c226b88d4a07b163909bf6714ebca459e3781ebffb7bde0ed29699cb133852",
     "86d961fa857b9cff2c8ec5e01250d9c4ac03f20cb313d9b4a4b24a172ed51fcd",
-    "db43ebbf72fdac97b369248cd7723ce7b6642ab364e6e1246f1f0eb3af405da1"
+    "db43ebbf72fdac97b369248cd7723ce7b6642ab364e6e1246f1f0eb3af405da1",
+    "88c07863c2e5b999748ef307dc33b5e06002acd54e7e8d21a469a15810290a3e"
   ],
-  "reviewed_build_plan_sha256": "38d74341c88686e84ec57fd846036017494887463b85c81d642a1faee857546b"
+  "reviewed_build_plan_sha256": "264da88df575486ea07c8ac3551b4a3bc1ffcbfa85493dbc4cd53e8f1af6b705"
 }

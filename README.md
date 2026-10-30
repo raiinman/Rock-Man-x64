@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The original IDE now has reported independent portable/model review for optional explicit shot-cue WAV selection in receipt-bound Playtest and Export\+Play. Blank means silent; invalid selected input refuses before child launch. Existing-file play remains independently silent. No successor executable ran on Windows.
+**Where we are:** The explicitly selected original contact-patrol policy now has reported independent portable/model review across the front door and receipt-bound IDE play. Contact damage, hold/reversal, ranged-pulse priority and save continuation are bounded; direct pillar obstruction was checked, gate-specific obstruction remains unexecuted.
 
-**Next useful step:** Complete exact-diff review of this separate documentation candidate. Unfinished contact work is excluded. Actual Windows/device/audibility acceptance needs separate scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Complete exact-diff review of this separate documentation candidate. Gate-specific obstruction is still unexecuted; any later check requires separately scoped evidence. Native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-ide-shot-cue-review-01` · [reviewed basis ae3a9bb](https://github.com/raiinman/Rock-Man-x64/commit/ae3a9bb7ba0394ee70c43c804436a3764f30ec82).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-contact-patrol-review-01` · [reviewed basis 1d77d40](https://github.com/raiinman/Rock-Man-x64/commit/1d77d40597e42c99dcbb62e20ffd9d7d07831aff).
 **Latest repository change observed:** [df2536c](https://github.com/raiinman/Rock-Man-x64/commit/df2536c083bc80f54b8d33e5a31e0c94d26e7054) · 2026-10-30T15:05:09-07:00 — docs: record bounded original IDE optional shot-cue evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

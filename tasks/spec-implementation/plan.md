@@ -26,6 +26,8 @@ As reviewed October 30, 2026, 1:01:27 PM Arizona (MST), [original IDE published-
 
 As reviewed October 30, 2026, 2:48:32 PM Arizona (MST), [original IDE optional shot-cue integration](../../docs/status/current-status.md#original-ide-optional-shot-cue--october-30) has reported independent portable/model review, legacy checks and inert targets. Owned capture and existing receipt/policy/worker gates retain their limits; O0 sanitizers excluded leak detection. Feature RED/GREEN, setup/oracle corrections, compiler kills/HOLD and exact frozen later passes stay distinct. No Windows/device/audibility, production or task-state/dependency changes. The canonical build map owns the bounded record.
 
+As reviewed October 30, 2026, 3:36:19 PM Arizona (MST), [original contact patrol](../../docs/status/current-status.md#original-contact-patrol--october-30) has reported independent portable/model contact/save and IDE integration evidence plus inert targets. Natural journeys, seeded checks, prior-binary applicability and inherited component proofs remain separate; pillar obstruction was checked, gate-specific obstruction remains unexecuted. No Windows/device, production or task-state/dependency changes. The canonical build map owns the bounded record.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.
