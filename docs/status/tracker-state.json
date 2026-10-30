@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "efb9f4b78dc7034bcef4f8339bcf084bf8cd1513",
-    "committed_at": "2026-10-30T12:18:16-07:00",
-    "subject": "docs: record bounded original lateral-patrol evidence",
+    "sha": "bd8bddf7287bbc9d5eb24a5feb926d051d433a5b",
+    "committed_at": "2026-10-30T13:41:35-07:00",
+    "subject": "docs: record bounded original IDE play-policy integration evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true

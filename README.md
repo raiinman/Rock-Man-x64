@@ -63,7 +63,7 @@ The goal includes a native game and editor. Documentation, research results and 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-30 · `2026-10-30-original-ide-play-policy-review-01` · [reviewed basis 58fee25](https://github.com/raiinman/Rock-Man-x64/commit/58fee250b4199e630e03e876643148b6be9b8146).
-**Latest repository change observed:** [efb9f4b](https://github.com/raiinman/Rock-Man-x64/commit/efb9f4b78dc7034bcef4f8339bcf084bf8cd1513) · 2026-10-30T12:18:16-07:00 — docs: record bounded original lateral-patrol evidence.
+**Latest repository change observed:** [bd8bddf](https://github.com/raiinman/Rock-Man-x64/commit/bd8bddf7287bbc9d5eb24a5feb926d051d433a5b) · 2026-10-30T13:41:35-07:00 — docs: record bounded original IDE play-policy integration evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
