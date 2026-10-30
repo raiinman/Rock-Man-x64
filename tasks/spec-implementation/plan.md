@@ -12,6 +12,10 @@ As reviewed October 30, 2026, 12:55:26 AM Arizona (MST), [one original-IDE exist
 
 As reviewed October 30, 2026, 3:31:38 AM Arizona (MST), a [separate bounded Windows existing-file play record](../../docs/status/current-status.md#original-ide-existing-file-play-windows-check--october-30) adds paused-child/editor-state observations and distinct owner movement/close testimony. Extra-child final revalidation stopped automation; later read-only follow-up observed process absence and the original launch session exit 0, with retained exported contents and no new test-state file. This supplements the earlier portable/inert-build record without accepting SI-24, changing dependencies or clearing production/provenance gates. The canonical build map remains the sole evidence-state authority.
 
+## Bounded original mission evidence: front door
+
+As reviewed October 30, 2026, 7:01:12 AM Arizona (MST), the [original mission front door](../../docs/status/current-status.md#original-mission-front-door--october-30) has reported independently reviewed portable/model integration and two inert Windows-target builds. New/Continue state intent, saved continuation and outer-loop lifecycle evidence stay distinct from actual Windows execution. The canonical build map owns the bounded check; no production startup, gameplay/save refinement, integrated-IDE task, dependency or historical acceptance is completed by this support record.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.

@@ -4,6 +4,8 @@ This is the task list target for [the plan](plan.md). All tasks are proposed and
 
 Private file names are unavailable publicly. “Files likely touched” therefore names **roles/evidence dependencies**, not claimed paths. S/M are provisional focused-session budgets (S: 1–2 roles, M: 3–5); actual files and commands must be verified privately before implementation. Split a task that cannot fit one focused session or these boundaries. Refinement tasks produce a spec/test proposal and private child tasks; they do not implement their entire roadmap domain.
 
+**Bounded evidence note (October 30, 2026, 7:01:12 AM Arizona (MST)):** [Original mission front-door portable/model checks and inert Windows-target builds](../../docs/status/current-status.md#original-mission-front-door--october-30) supplement the canonical build evidence only. No Windows execution for this successor, production startup/gameplay/save acceptance or broad task completion is inferred; all task checkboxes and dependencies remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

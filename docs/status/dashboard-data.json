@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-30",
-    "review_id": "2026-10-30-ide-existing-file-windows-review-01",
-    "reviewed_through_commit": "1689777c066d2067f177189bf579ff94354b3f8b",
-    "summary": "Reviewed October 30, 2026, 3:31:38 AM Arizona (MST): reported bounded Windows existing-file play checks cover empty-editor launch, three paused-child returns, one completed original export, and preservation of later unexported edits, Undo and the completed receipt across existing-file and old receipt-bound play. Owner-reported movement/controls remain separate from automated checks. Extra-child final revalidation stopped automation without touching it. The owner later reported closing; a read-only check observed the prior process absent and the retained original launch session explicitly returned exit 0. No new test-state file appeared and both exported files retained verified contents. One separate Windows record increases build checks from 45 to 46; earlier portable evidence, all 30 task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No exhaustive input/focus, broad SI-24, production S2, provenance or native original-game boot acceptance. This documentation lane performs no PC actions or native tests."
+    "review_id": "2026-10-30-original-mission-frontdoor-review-01",
+    "reviewed_through_commit": "fb6254008752b00fa1d068984d49d403d63498dd",
+    "summary": "Reviewed October 30, 2026, 7:01:12 AM Arizona (MST): reported independently reviewed original mission front door provides explicit New and Continue into the existing authored mission and return to the same start screen. Portable optimized and executed sanitizer checks cover state-read intent, paused entry, explicit save, saved world/frame continuation, return/reentry, failures, quit propagation and the actual outer entry/message loop through an explicit operating-system model. Legacy automatic entry/report was characterized. Two Windows-target binaries compiled, linked and passed inert inspection; reused audio objects are dependency-bound, not freshly compiled. No Windows executable was run for this successor. Setup/include, indentation, test callback-lifetime sanitizer and inert-build include-order failures and their scoped corrections remain preserved. One bounded record increases checks from 46 to 47; all 30 task states/dependencies, historical criteria/versions/accepted sets, roadmap 5/20, prior observations, stages and numerical validation remain unchanged. No native original-game boot, faithful behavior, full IDE, provenance or production S2 acceptance."
   },
   "overview": {
-    "now": "Reported Windows existing-file play checks exercised an empty editor, three paused-child returns and preserved edits/Undo/receipts across two play paths. Owner movement/controls testimony is separate. After an extra-child interruption, the owner reported closing; read-only follow-up verified process absence and the original launch session exit 0.",
-    "changed": "Added one separately scoped Windows record and its final read-only closeout: no new test-state file appeared and both exported files retained verified contents. Earlier cloud checks and the interrupted final-close attempt remain preserved. No broad task or historical acceptance changed.",
-    "why": "Empty-editor play, retained edited sessions, owner testimony and final exit are distinct evidence scopes. The extra-child observation stopped automation rather than expanding its cap; subsequent verification issued no new launch, input or close. No exhaustive controls/focus matrix or native original-game boot is inferred.",
-    "next": "Preserve the existing-file result and closeout without replaying completed tests. Any broader Windows input/focus/accessibility or full IDE acceptance needs its own bounded evidence and existing owner. Provider, provenance, initializer and production S2 gates remain unchanged."
+    "now": "The original mission front door now has reported independent portable/model review: explicit New and Continue enter the existing authored mission and return to the same start screen. Two Windows-target binaries passed inert build/inspection only; neither was executed for this successor.",
+    "changed": "Added one bounded front-door record, including actual state-read intent checks, saved world/frame continuation and modeled outer-loop lifecycle evidence. Earlier existing-file Windows checks and separate owner testimony retain their earlier-build applicability. Broad tasks and historical acceptance are unchanged.",
+    "why": "A New/Continue choice must follow the actual state-read result rather than a menu-only preflight or silent fresh fallback. Portable execution, modeled operating-system behavior, reused-object build applicability and real Windows execution are separate evidence classes.",
+    "next": "Review this separate documentation candidate through the existing exact-diff procedure. Actual Windows appearance, accessibility and front-door behavior need separately scoped execution evidence; none is dispatched by this record. Native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "original-mission-frontdoor-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Reported independently reviewed original front door provides explicit New and Continue into the existing authored mission, with return to the same start screen. New requires absent native state; Continue requires existing compatible state. Intent is checked on the actual state-read result, with no menu-only preflight or silent fresh fallback.",
+      "why": "Portable optimized and executed sanitizer checks cover paused entry, explicit save, exact saved world/frame continuation, return/reentry, failures and quit propagation. The actual outer entry/message loop ran through an explicit operating-system model; legacy automatic entry/report was characterized. Two inert Windows-target builds passed compilation, linking and inspection, with dependency-bound reused audio objects rather than a claim that all objects were freshly compiled. Setup/include errors, indentation diagnostics, a test callback-lifetime sanitizer error with focused optimized/sanitized reruns, and a corrected inert-build include-order error remain preserved; runtime-source constraints were not weakened.",
+      "next": "Keep modeled execution and inert builds separate from actual Windows execution or visual/accessibility acceptance. Earlier Windows evidence applies only to its earlier build. No production game boot, faithful behavior, full IDE, provenance or production S2 acceptance follows; exact-diff documentation review precedes publication.",
+      "evidence": [
+        "docs/status/current-status.md#original-mission-front-door--october-30"
+      ]
+    },
     {
       "id": "ide-existing-file-play-windows-01",
       "date": "2026-10-30",
@@ -7752,11 +7764,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-30-original-mission-frontdoor-review-01",
+      "date": "2026-10-30",
+      "basis_commit": "fb6254008752b00fa1d068984d49d403d63498dd",
+      "note": "Reviewed October 30, 2026, 7:01:12 AM Arizona (MST): reported independently reviewed original mission front door provides explicit New and Continue into the existing authored mission and return to the same start screen. Portable optimized and executed sanitizer checks cover state-read intent, paused entry, explicit save, saved world/frame continuation, return/reentry, failures, quit propagation and the actual outer entry/message loop through an explicit operating-system model. Legacy automatic entry/report was characterized. Two Windows-target binaries compiled, linked and passed inert inspection; reused audio objects are dependency-bound, not freshly compiled. No Windows executable was run for this successor. Setup/include, indentation, test callback-lifetime sanitizer and inert-build include-order failures and their scoped corrections remain preserved. One bounded record increases checks from 46 to 47; all 30 task states/dependencies, historical criteria/versions/accepted sets, roadmap 5/20, prior observations, stages and numerical validation remain unchanged. No native original-game boot, faithful behavior, full IDE, provenance or production S2 acceptance. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-30 10:31:38 UTC",
+    "reviewed_at": "2026-10-30 14:01:12 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8425,6 +8499,13 @@
         "state": "tested",
         "update_id": "ide-existing-file-play-windows-01",
         "limit": "Reported paused-child/editor-state checks; automated cap one executable, three paused children, two edits, one export. Extra-child observation stopped automation. Owner controls/closed reports separate from read-only process absence and original-session exit 0. Exported files retained, new test-state file absent. No exhaustive input/focus, full SI-24, S2, provenance or game-boot acceptance."
+      },
+      {
+        "id": "original-mission-frontdoor-portable",
+        "label": "Original mission front door — portable modeled integration and inert Windows-target builds",
+        "state": "tested",
+        "update_id": "original-mission-frontdoor-portable-01",
+        "limit": "Reported scoped optimized/sanitizer execution and explicit operating-system modeling, including the actual outer loop; two Windows-target binaries built/inspected inertly. Audio object reuse is dependency-bound, not fresh compilation. No Windows execution, visual/accessibility, native original-game boot, faithful behavior, full IDE, provenance or production S2 acceptance. Earlier failures/corrections and earlier-build platform applicability retained."
       }
     ]
   }

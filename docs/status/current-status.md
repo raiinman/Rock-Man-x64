@@ -2,6 +2,22 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original mission front door — October 30
+
+**Documentation review: October 30, 2026, 7:01:12 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original mission front-door slice. This records reported private evidence; the public repository does not contain its source, fixtures or raw receipts. This documentation lane runs no implementation, research, game tests or PC actions.
+
+The original native front door offers explicit **New** and **Continue** into the existing authored mission, then returns to the same start screen. New requires absent native state; Continue requires existing compatible state. Intent is checked against the actual state-read result, with no menu-only preflight or silent fallback to a fresh mission.
+
+Portable optimized and executed sanitizer checks covered paused entry, explicit save, exact saved world/frame continuation, return, reentry, failures and quit propagation. The actual outer entry/message loop was exercised through an explicit operating-system model. Legacy automatic entry and its report were characterized. These are executed portable/model checks, not actual Windows operating-system or user-interface execution. Overlapping suites are not summed into feature or acceptance counts.
+
+Two Windows-target binaries compiled, linked and passed inert inspection. Reused audio objects were explicitly dependency-bound; this does not claim fresh compilation of those objects. **No Windows executable was run for this successor.** Earlier Windows evidence applies only to its earlier build, not this front door. Windows appearance, accessibility and owner acceptance remain unverified here.
+
+Preserve the setup/include errors and indentation diagnostics, the test callback-lifetime sanitizer error and its correction with focused optimized/sanitized reruns, and the inert-build include-order error corrected without weakening runtime source. Later passes do not erase those failures. Independent scoped review is complete; a local implementation commit is not public publication or platform execution.
+
+One bounded record is added (46 to 47). All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations remain unchanged. This original mission support slice does not establish native original-game boot, faithful behavior, full integrated-IDE acceptance, provenance clearance or production S2 acceptance. Existing workload/source-binding and initializer gates remain separate.
+
+**Next:** exact-diff review of this separate documentation candidate; any actual Windows front-door check requires its separately scoped procedure and evidence. No new test, transfer or execution is requested by this record. Earlier dated results and queue statements below retain their original applicability.
+
 ## Original IDE existing-file play Windows check — October 30
 
 **Documentation review: October 30, 2026, 3:31:38 AM Arizona (MST).** This is a later, separately scoped reported Windows result on the previously reviewed build. It supplements the earlier portable/model/inert-build record without rewriting what was known then. The public repository does not contain the private build, fixtures or raw receipts needed to reproduce these checks. This documentation lane performs no PC actions, native tests, research or game execution.

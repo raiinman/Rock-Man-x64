@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Reported Windows existing-file play checks exercised an empty editor, three paused-child returns and preserved edits/Undo/receipts across two play paths. Owner movement/controls testimony is separate. After an extra-child interruption, the owner reported closing; read-only follow-up verified process absence and the original launch session exit 0.
+**Where we are:** The original mission front door now has reported independent portable/model review: explicit New and Continue enter the existing authored mission and return to the same start screen. Two Windows-target binaries passed inert build/inspection only; neither was executed for this successor.
 
-**Next useful step:** Preserve the existing-file result and closeout without replaying completed tests. Any broader Windows input/focus/accessibility or full IDE acceptance needs its own bounded evidence and existing owner. Provider, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Review this separate documentation candidate through the existing exact-diff procedure. Actual Windows appearance, accessibility and front-door behavior need separately scoped execution evidence; none is dispatched by this record. Native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-ide-existing-file-windows-review-01` · [reviewed basis 1689777](https://github.com/raiinman/Rock-Man-x64/commit/1689777c066d2067f177189bf579ff94354b3f8b).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-mission-frontdoor-review-01` · [reviewed basis fb62540](https://github.com/raiinman/Rock-Man-x64/commit/fb6254008752b00fa1d068984d49d403d63498dd).
 **Latest repository change observed:** [f29b096](https://github.com/raiinman/Rock-Man-x64/commit/f29b09656b9b0c20ec94df489177024cd6bdcf39) · 2026-10-30T04:19:33-07:00 — docs: record bounded existing-file Windows workflow and exit evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
