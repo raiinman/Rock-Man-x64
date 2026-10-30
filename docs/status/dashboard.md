@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-30 · `2026-10-30-original-mission-frontdoor-review-01` · [reviewed basis fb62540](https://github.com/raiinman/Rock-Man-x64/commit/fb6254008752b00fa1d068984d49d403d63498dd).
-**Latest repository change observed:** [f29b096](https://github.com/raiinman/Rock-Man-x64/commit/f29b09656b9b0c20ec94df489177024cd6bdcf39) · 2026-10-30T04:19:33-07:00 — docs: record bounded existing-file Windows workflow and exit evidence.
+**Latest repository change observed:** [b01d6b9](https://github.com/raiinman/Rock-Man-x64/commit/b01d6b90bae3734d0bfffcf16709e57f1c6e667b) · 2026-10-30T07:11:37-07:00 — docs: record bounded original mission front-door evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
