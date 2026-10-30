@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-30",
-    "review_id": "2026-10-30-original-save-return-audio-review-01",
-    "reviewed_through_commit": "7b02e621b67ad3d65c403c1e122084fa6a73dee9",
-    "summary": "Reviewed October 30, 2026, 8:57:26 AM Arizona (MST): two independently reviewed original slices add focused paused Save & Return and optional accepted-shot tone audio. Portable optimized/executed sanitizer checks and explicit platform models cover save settlement/reentry, audio worker cleanup/retry and quit propagation at recorded source applicability. Adapted file-publisher checks are not unmodified native-platform proof. Inert Windows-target builds passed; no new Windows execution or audibility/visual/accessibility acceptance. Genuine callback, caption/drain/quit/input-refusal failures and setup/resource errors remain preserved. Build checks increase from 47 to 49; all 30 task states/dependencies, historical criteria/versions/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No production game boot, faithful behavior, full IDE, provenance or S2 acceptance."
+    "review_id": "2026-10-30-original-reactive-guard-review-01",
+    "reviewed_through_commit": "dbfe109c3631d42ee78ef1668dcfe3e0890ee2f7",
+    "summary": "Reviewed October 30, 2026, 10:12:08 AM Arizona (MST): one independently reviewed original reactive stationary-guard mode adds dominant horizontal cardinal selection toward the accepted player, with Z ties, existing reciprocal range/cover trace and the existing 64 accepted-local-step pulse. Portable optimized/executed sanitizer evidence separates actual modeled shown-window journeys from analytic and explicitly seeded scene/parking checks. Fixed-direction default and save layout/version remain; distinct sealed policy identity strictly refuses crossed-policy state without migration. Cross-policy proof is owner/state nonadoption, not direct live-pixel comparison. Legacy checks and two inert Windows-target builds passed with reused dependencies disclosed. Baseline behavior RED and setup/strict-compile failures remain preserved. Checks increase 49 to 50; all 30 task states/dependencies and historical criteria/acceptance, roadmap 5/20 and prior history remain unchanged. No Windows/user, general LOS/moving AI, MML fidelity, production boot, provenance or S2 acceptance."
   },
   "overview": {
-    "now": "Original Save & Return and optional accepted-shot tone audio now have reported independent portable/model review. Save returns only after clean committed success; audio has owned worker cleanup and explicit retry. Windows targets were built/inspected inertly; no successor executable was run on Windows.",
-    "changed": "Added two separately scoped records, preserving save callback RED/GREEN, audio caption/drain/quit/input-refusal failures, resource/harness errors and source-applicability limits. Earlier Windows results remain tied to their earlier build; all broad task states and historical acceptance are unchanged.",
-    "why": "A committed save with cleanup pending must not masquerade as a clean return, and an accepted shot must not depend on audio availability. Modeled cleanup, adapted file publication, inert native linking and actual Windows audibility are distinct evidence classes.",
-    "next": "Complete exact-diff review of this separate documentation candidate. As of this review, next gameplay scope is under read-only assessment, not completed work. Any Windows execution or audibility check needs separately scoped evidence; provenance, initializer, native workload/source-binding and production S2 gates remain unchanged."
+    "now": "The optional original reactive stationary guard now has reported independent portable/model review. It selects a dominant horizontal cardinal toward accepted player state and reuses existing range/cover and local-step pulse behavior. Two Windows-target builds passed inert checks only; no executable ran on Windows.",
+    "changed": "Added one bounded guard record, retaining genuine baseline RED, setup/strict-compile failures, natural versus seeded test distinctions and exact reused-dependency applicability. Fixed-direction default and save layout/version remain; crossed-policy state refuses without migration. Broad tasks and historical acceptance are unchanged.",
+    "why": "A cardinal stationary response is narrower than general line of sight or moving AI. Natural flank/cover journeys, seeded scene/parking checks and owner/state nonadoption prove different boundaries; none establishes direct cross-policy live-pixel equality or faithful game behavior.",
+    "next": "Complete exact-diff review of this separate documentation candidate. Any successor Windows/user validation needs separately scoped evidence. No follow-on gameplay implementation is accepted by this record; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "original-reactive-guard-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "An optional original reactive stationary guard derives the dominant horizontal cardinal toward the accepted player, choosing Z on ties. It reuses the existing reciprocal range/cover trace and 64 accepted-local-step pulse; the fixed-direction default remains unchanged.",
+      "why": "Portable actual shown-window key/timer paths under an explicit native-platform model exercised both reachable side flanks, natural gate/divider cover, killed-target silence, progressed F6 Save & Return then Continue, the old default and UI refusal/reentry. Author optimized and executed sanitizer checks, independent optimized/sanitized review and legacy checks passed at recorded scopes. Independent evidence separates analytic axes/tie/range from explicitly seeded strict-scene/parking boundaries and natural traversal. Baseline behavior RED and setup/strict-compile failures remain preserved. Two Windows targets compiled, linked and passed inert inspection with exact reused dependencies disclosed, never executed.",
+      "next": "Save layout/version remains unchanged but uses distinct sealed policy identity and strict crossed-policy refusal, with no migration. Cross-policy evidence directly proves owner/state nonadoption, not direct live-pixel comparison. No Windows/user acceptance, general LOS/moving AI, MML fidelity, production game boot, provenance or S2 acceptance follows.",
+      "evidence": [
+        "docs/status/current-status.md#original-reactive-stationary-guard--october-30"
+      ]
+    },
     {
       "id": "original-save-return-portable-01",
       "date": "2026-10-30",
@@ -7987,11 +7999,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-30-original-reactive-guard-review-01",
+      "date": "2026-10-30",
+      "basis_commit": "dbfe109c3631d42ee78ef1668dcfe3e0890ee2f7",
+      "note": "Reviewed October 30, 2026, 10:12:08 AM Arizona (MST): one independently reviewed original reactive stationary-guard mode adds dominant horizontal cardinal selection toward the accepted player, with Z ties, existing reciprocal range/cover trace and the existing 64 accepted-local-step pulse. Portable optimized/executed sanitizer evidence separates actual modeled shown-window journeys from analytic and explicitly seeded scene/parking checks. Fixed-direction default and save layout/version remain; distinct sealed policy identity strictly refuses crossed-policy state without migration. Cross-policy proof is owner/state nonadoption, not direct live-pixel comparison. Legacy checks and two inert Windows-target builds passed with reused dependencies disclosed. Baseline behavior RED and setup/strict-compile failures remain preserved. Checks increase 49 to 50; all 30 task states/dependencies and historical criteria/acceptance, roadmap 5/20 and prior history remain unchanged. No Windows/user, general LOS/moving AI, MML fidelity, production boot, provenance or S2 acceptance. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-30 15:57:26 UTC",
+    "reviewed_at": "2026-10-30 17:12:08 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8681,6 +8755,13 @@
         "state": "tested",
         "update_id": "original-shot-audio-portable-01",
         "limit": "Reported optimized/executed sanitizer checks at reviewed earlier-variant/final-focused applicability, including optional reads, device failure, cleanup/retry and quit. Modeled platform; real native audio API linked inertly. No Windows execution/audibility, visual/accessibility, production game boot, full IDE, provenance or S2 acceptance."
+      },
+      {
+        "id": "original-reactive-guard-portable",
+        "label": "Original reactive stationary guard — portable cardinal/cover journeys and inert Windows builds",
+        "state": "tested",
+        "update_id": "original-reactive-guard-portable-01",
+        "limit": "Reported optimized/executed sanitizer and independent portable/model checks; analytic/seeded scene/parking boundaries distinct from natural traversal. Legacy and two inert Windows-target builds with disclosed reused dependencies. No Windows/user acceptance, general LOS/moving AI, MML fidelity, production boot/provenance/S2. Cross-policy owner/state nonadoption only; no direct live-pixel comparison or migration."
       }
     ]
   }

@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "231b6f85e8d34d27feb54d490d2a0d9d8d4d2d1b48d7946085f7061412a3cf67",
+  "evidence_data_sha256": "f641537e91c4c777abc9714089d02dd5f611ae618ab00344d6ccc7f1a06c6fc7",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,8 +17,8 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "e54a2cb2b74df8cebba074cb0e4f7302191ecf89013437bc7cc07f7286347f22",
-  "evidence_review_id": "2026-10-30-original-save-return-audio-review-01",
+  "reviewed_stage_sha256": "25ed19117c371ed65ad1777e3895a577a8e7ca2f8f631281b415eece2a0e0b1b",
+  "evidence_review_id": "2026-10-30-original-reactive-guard-review-01",
   "evidence_review_date": "2026-10-30",
   "reviewed_checklist_definitions": {
     "inspection": {
@@ -133,7 +133,8 @@
     "1294963cefe57cb98ac7d89440eb40c7228fe7823507f95ef5aad4c1cce37ab5",
     "6d3a608c9f9e124c51f072bea64a57ece9e43f1e87740c7557eecc07c6f6227f",
     "cf03ee289cca9db7a076fd32d94f18397f1ecfcea049bc95a42b5bd853a97012",
-    "625c5ed4a34cb1f4ad2d4067413aaf295c81f73750025eabcc6c717d3f2795a5"
+    "625c5ed4a34cb1f4ad2d4067413aaf295c81f73750025eabcc6c717d3f2795a5",
+    "18b0a309a60a021df82dc53eeda701576cb76cd23aead274da157f5b487530af"
   ],
-  "reviewed_build_plan_sha256": "3f57276a4fe92013ce4a01f1dbe1d031bd73b6e44c80fbdb1a530c83c3f2a8d8"
+  "reviewed_build_plan_sha256": "831def7624f73086022ed883c0320275386e14721a5c6ecefdb58a3783a1ec53"
 }

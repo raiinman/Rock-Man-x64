@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Original Save &amp; Return and optional accepted-shot tone audio now have reported independent portable/model review. Save returns only after clean committed success; audio has owned worker cleanup and explicit retry. Windows targets were built/inspected inertly; no successor executable was run on Windows.
+**Where we are:** The optional original reactive stationary guard now has reported independent portable/model review. It selects a dominant horizontal cardinal toward accepted player state and reuses existing range/cover and local-step pulse behavior. Two Windows-target builds passed inert checks only; no executable ran on Windows.
 
-**Next useful step:** Complete exact-diff review of this separate documentation candidate. As of this review, next gameplay scope is under read-only assessment, not completed work. Any Windows execution or audibility check needs separately scoped evidence; provenance, initializer, native workload/source-binding and production S2 gates remain unchanged.
+**Next useful step:** Complete exact-diff review of this separate documentation candidate. Any successor Windows/user validation needs separately scoped evidence. No follow-on gameplay implementation is accepted by this record; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-save-return-audio-review-01` · [reviewed basis 7b02e62](https://github.com/raiinman/Rock-Man-x64/commit/7b02e621b67ad3d65c403c1e122084fa6a73dee9).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-reactive-guard-review-01` · [reviewed basis dbfe109](https://github.com/raiinman/Rock-Man-x64/commit/dbfe109c3631d42ee78ef1668dcfe3e0890ee2f7).
 **Latest repository change observed:** [04b4082](https://github.com/raiinman/Rock-Man-x64/commit/04b40823175c0b6acd1647ea55acf9bbb3b93003) · 2026-10-30T09:10:46-07:00 — docs: record bounded original save-return and shot-audio evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -8,6 +8,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Later bounded evidence note (October 30, 2026, 8:57:26 AM Arizona (MST)):** separate [Save & Return](../../docs/status/current-status.md#original-save--return--october-30) and [shot-audio](../../docs/status/current-status.md#original-accepted-shot-audio--october-30) portable/model checks and inert Windows targets supplement canonical evidence only. No successor Windows execution, audibility, production save/audio/game-boot acceptance or task completion is inferred; all checkboxes and dependencies remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 10:12:08 AM Arizona (MST)):** [Original reactive stationary-guard checks](../../docs/status/current-status.md#original-reactive-stationary-guard--october-30) add portable/model and inert-build evidence only, with seeded/natural and save-policy refusal limits. No broad AI/gameplay, Windows/user, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

@@ -2,6 +2,22 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original reactive stationary guard — October 30
+
+**Documentation review: October 30, 2026, 10:12:08 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original guard slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
+
+An optional mode derives the dominant horizontal cardinal toward the accepted player, choosing Z on ties. It reuses the existing reciprocal range/cover trace and 64 accepted-local-step pulse. The old fixed-direction default remains unchanged. This stationary cardinal response is not general line of sight, moving AI or faithful MML behavior.
+
+Portable checks drove the actual shown-window key/timer path through an explicit native-platform model. Journeys exercised both reachable side flanks, natural gate/divider cover, killed-target silence, progressed F6 Save & Return followed by Continue, the old default and UI refusal/reentry. Author optimized and executed sanitizer checks passed within their recorded scopes. Independent optimized/sanitizer review separately covered analytic axes, tie and range cases and explicitly seeded strict-scene/parking boundaries. Those seeded checks are not natural traversal or actual Windows execution; the evidence classes remain separate.
+
+Legacy checks passed. Two Windows-target binaries compiled, linked and passed inert inspection, with the exact reused dependencies explicitly disclosed and applicability reviewed. This does not claim that every object was freshly compiled. Neither Windows executable ran, and no Windows user, visual or accessibility acceptance is established. Preserve the genuine baseline behavior RED and setup/strict-compile failures alongside their corrections.
+
+Save layout/version remains unchanged, with a distinct sealed policy identity and strict refusal of crossed-policy state; no migration was added. The cross-policy test directly proves owner/state nonadoption, not a direct comparison of live pixels. A checked refusal does not establish general compatibility between different policies.
+
+One separate bounded record increases build checks from 49 to 50. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations remain unchanged. No production game boot, faithful behavior, full IDE, provenance clearance or production S2 acceptance follows. Existing initializer and native workload/source-binding gates remain separate.
+
+**Next:** exact-diff documentation review. Any Windows/user check requires its separately scoped procedure and evidence; no run, transfer, new research or follow-on gameplay result is authorized or accepted here. Earlier dated results and queue statements retain their original applicability.
+
 ## Original Save & Return — October 30
 
 **Documentation review: October 30, 2026, 8:57:26 AM Arizona (MST).** The evidence owner supplied two separately completed, independently reviewed original slices below. These are reported private results; the public repository does not contain the source, fixtures or raw receipts. This documentation lane runs no implementation, research, game tests or PC actions.
