@@ -18,6 +18,19 @@ The result is a substantial discovery catalog, not a claim to have explained eve
 | [Combined source links](source-links.json) | Deduplicated navigation index extracted from all research reports. Inclusion inherits the report's evidence label; no blanket content/authenticity verification is implied. |
 | [Initial catalog validation](VALIDATION.json) | Initial JSON, target, path and catalog-count checks. Later BIOS batches have a separate [validation record](bios/VALIDATION.md). External URLs are not all independently re-fetched by these checks. |
 
+## Owner-suggested MML1 repositories — October 30
+
+**Reference review: October 30, 2026, 7:39:08 AM Arizona (MST).** These two owner-suggested links are catalog leads, not adopted construction references or runtime evidence.
+
+| Repository | Potential research use | Verified scope and limits |
+|---|---|---|
+| [ChrisNonyminus/mml1](https://github.com/ChrisNonyminus/mml1) | Preliminary archive-structure, alignment and filename notes can identify hypotheses for independent validation. | Its [README](https://github.com/ChrisNonyminus/mml1/blob/964bad3096a2d7a4a3d6cc65678d8440b2ea9cb1/README.md) describes a work-in-progress PS1 decompilation that is not yet shiftable, with a Linux/MIPS and original US-disc build process; it is not a native Windows implementation. The [archive notes](https://github.com/ChrisNonyminus/mml1/blob/964bad3096a2d7a4a3d6cc65678d8440b2ea9cb1/docs/CHUNKS.md) explicitly retain unknown fields and tentative interpretations. No license grant was established in this bounded review. |
+| [megamanlegends/mml1-psx on GitLab](https://gitlab.com/megamanlegends/mml1-psx/-/tree/master?ref_type=heads) | The public project description identifies asset-export tools; their actual scope remains a catalog lead. | Listing-only evidence from the coordinator's public-page review. README, tree contents, license and current revision were unavailable through cache/loading, not a policy denial. Do not conflate this project with the separate GitLab `megamanlegends/mml1` save-state viewer. |
+
+Neither repository was cloned or built, and implementation code or game assets were not inspected or adopted in this review. No fork, shared lineage or Atlas relationship was established. Public availability is not permission to reuse code or data; preliminary notes are not an implementation oracle. The existing rule against using other decompilations as construction references remains unchanged.
+
+This adds navigation and original assessment only. It creates no research assignment, changes no APEX ownership and advances no native capability, checklist, task or acceptance. Existing provenance, initializer and production S2 gates remain unchanged. Any later use needs its own permitted scope and evidence; this catalog entry grants none.
+
 ## How to learn the system
 
 Work from the hardware dossier's conceptual map through each interface. For every interaction ask: who produces the data, where does it live, who consumes it, what starts the operation, what signals completion, what happens when it is late, and what visible state changes? This is an original study method, not an implementation specification.

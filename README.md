@@ -56,13 +56,13 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **Where we are:** The original mission front door now has reported independent portable/model review: explicit New and Continue enter the existing authored mission and return to the same start screen. Two Windows-target binaries passed inert build/inspection only; neither was executed for this successor.
 
-**Next useful step:** Review this separate documentation candidate through the existing exact-diff procedure. Actual Windows appearance, accessibility and front-door behavior need separately scoped execution evidence; none is dispatched by this record. Native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Keep these references as catalog leads under the existing no-decompilation-construction rule. No new research assignment, source adoption or game test is dispatched. Runtime evidence and its existing owners remain separate; provenance, initializer and production S2 gates are unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-mission-frontdoor-review-01` · [reviewed basis fb62540](https://github.com/raiinman/Rock-Man-x64/commit/fb6254008752b00fa1d068984d49d403d63498dd).
+**Last evidence review:** 2026-10-30 · `2026-10-30-owner-repository-links-review-01` · [reviewed basis 0f61b03](https://github.com/raiinman/Rock-Man-x64/commit/0f61b03da4e090ff7d15dbbd4593807b371bb42c).
 **Latest repository change observed:** [b01d6b9](https://github.com/raiinman/Rock-Man-x64/commit/b01d6b90bae3734d0bfffcf16709e57f1c6e667b) · 2026-10-30T07:11:37-07:00 — docs: record bounded original mission front-door evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

@@ -1,7 +1,7 @@
 {
   "observed": "2026-10-22",
   "note": "Navigation metadata only. Read each report for source authorship, status, provenance, access limitations and uncertainty.",
-  "count": 171,
+  "count": 173,
   "sources": [
     {
       "url": "https://archive.org/details/net-yaroze-documents",
@@ -1775,6 +1775,28 @@
         "HARDWARE.md"
       ],
       "verification": "See linked report for evidence status and limitations."
+    },
+    {
+      "url": "https://github.com/ChrisNonyminus/mml1",
+      "labels": [
+        "Owner-suggested MML1 PS1 decompilation catalog lead"
+      ],
+      "reports": [
+        "README.md"
+      ],
+      "verification": "README and preliminary archive notes read at public revision 964bad3096a2d7a4a3d6cc65678d8440b2ea9cb1; no implementation adoption or license grant established. See research landing-page assessment.",
+      "observed": "2026-10-30"
+    },
+    {
+      "url": "https://gitlab.com/megamanlegends/mml1-psx/-/tree/master?ref_type=heads",
+      "labels": [
+        "Owner-suggested MML1 asset-export tools catalog lead"
+      ],
+      "reports": [
+        "README.md"
+      ],
+      "verification": "Coordinator public-listing review only; README/tree/license/current revision unavailable through cache/loading. Separate from megamanlegends/mml1 save-state viewer; no implementation adoption. See research landing-page assessment.",
+      "observed": "2026-10-30"
     }
   ]
 }
