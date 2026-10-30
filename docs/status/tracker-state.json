@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "282055db41b8bbb6c3038251032260c9795e7286",
-    "committed_at": "2026-10-30T07:43:41-07:00",
-    "subject": "docs: catalog owner-suggested MML1 repository references",
+    "sha": "04b40823175c0b6acd1647ea55acf9bbb3b93003",
+    "committed_at": "2026-10-30T09:10:46-07:00",
+    "subject": "docs: record bounded original save-return and shot-audio evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
