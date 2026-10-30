@@ -63,7 +63,7 @@ The goal includes a native game and editor. Documentation, research results and 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
 **Last evidence review:** 2026-10-30 · `2026-10-30-original-contact-patrol-review-01` · [reviewed basis 1d77d40](https://github.com/raiinman/Rock-Man-x64/commit/1d77d40597e42c99dcbb62e20ffd9d7d07831aff).
-**Latest repository change observed:** [df2536c](https://github.com/raiinman/Rock-Man-x64/commit/df2536c083bc80f54b8d33e5a31e0c94d26e7054) · 2026-10-30T15:05:09-07:00 — docs: record bounded original IDE optional shot-cue evidence.
+**Latest repository change observed:** [fbd11a7](https://github.com/raiinman/Rock-Man-x64/commit/fbd11a7cbfeb3f89c98c0edd680ac78d480167ad) · 2026-10-30T16:18:25-07:00 — docs: record bounded original contact-patrol evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 <!-- ROCK-MAN-TRACKER:END -->
