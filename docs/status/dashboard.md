@@ -3,8 +3,8 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-28 · `2026-10-28-ide-profiles-review-01` · [reviewed basis 721b628](https://github.com/raiinman/Rock-Man-x64/commit/721b6286b5b6c690bb834832f9ea8e2ce62bcb53).
-**Latest repository change observed:** [126906d](https://github.com/raiinman/Rock-Man-x64/commit/126906d143e8258545b4f21da20dd5c84a0c947d) · 2026-10-28T13:42:19-07:00 — docs: record bounded IDE geometry and texture profiles.
-**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
+**Latest repository change observed:** [db21f7e](https://github.com/raiinman/Rock-Man-x64/commit/db21f7ec8a43333f0e5ebf735ddb757a25eac533) · 2026-10-29T23:29:30-07:00 — docs: require visible quarter-hour notes and honest stall recovery.
+**Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
 

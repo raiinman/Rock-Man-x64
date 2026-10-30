@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "126906d143e8258545b4f21da20dd5c84a0c947d",
-    "committed_at": "2026-10-28T13:42:19-07:00",
-    "subject": "docs: record bounded IDE geometry and texture profiles",
+    "sha": "db21f7ec8a43333f0e5ebf735ddb757a25eac533",
+    "committed_at": "2026-10-29T23:29:30-07:00",
+    "subject": "docs: require visible quarter-hour notes and honest stall recovery",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": true,
-    "review_id_changed": true
+    "evidence_data_changed": false,
+    "review_id_changed": false
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "089bd4d5fd02a9f3c56b79a4710ace752816ee7ee32ec3983ae2c0b07c51af1f",
