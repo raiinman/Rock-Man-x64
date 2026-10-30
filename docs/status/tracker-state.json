@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "db21f7ec8a43333f0e5ebf735ddb757a25eac533",
-    "committed_at": "2026-10-29T23:29:30-07:00",
-    "subject": "docs: require visible quarter-hour notes and honest stall recovery",
+    "sha": "1b6570a02ef5cd294ce5450d10a6a606050ef2c0",
+    "committed_at": "2026-10-30T01:15:24-07:00",
+    "subject": "docs: record bounded original IDE existing-file play evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
-    "evidence_data_changed": false,
-    "review_id_changed": false
+    "evidence_data_changed": true,
+    "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
   "evidence_data_sha256": "62ef8df6aabb5c89a26d4e6d7dd3c38585cefd9c08000b1b00beea9f0afc72a4",
