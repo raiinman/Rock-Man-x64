@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-30",
-    "review_id": "2026-10-30-original-lateral-patrol-review-01",
-    "reviewed_through_commit": "8b04f85ea057a715fbda9df2435b4fb3a3316716",
-    "summary": "Reviewed October 30, 2026, 11:52:33 AM Arizona (MST): one independently reviewed optional original lateral patrol advances bounded eighth-unit X cells every eight accepted local steps, holds/reverses on swept blocking and attacks from the resulting pose. Portable modeled-native checks separate actual consumer journeys from seeded boundaries. A distinct 528-byte version-2 save records each room cell/direction; old 512-byte saves remain unchanged, with no migration or crossed fallback. Author optimized cohorts and executed O0 sanitizer checks remain distinct from independent optimized/O1 sanitizer review. Two killed O1 native compile attempts, map-pixel oracle correction and other failure/correction history remain preserved. Legacy and inert Windows-target checks passed; no Windows execution. Checks increase 50 to 51; all 30 task states/dependencies and historical criteria/acceptance, roadmap 5/20 and history remain unchanged. No MML fidelity, device/visual, production boot, full IDE, provenance or S2 acceptance."
+    "review_id": "2026-10-30-original-ide-play-policy-review-01",
+    "reviewed_through_commit": "58fee250b4199e630e03e876643148b6be9b8146",
+    "summary": "Reviewed October 30, 2026, 1:01:27 PM Arizona (MST): independently reviewed original IDE selection integrates fixed, reactive and patrol/V2 policies into receipt-bound Playtest and Export+Play. Joined export receipts remain geometry authority; captured owned selection and live-change supersession prevent stale-policy handoff without undoing completed publication. Existing-file play remains fixed. Reported modeled-native author/independent optimized and executed O0 ASan/UBSan cohorts passed with leaks disabled; legacy checks and inert Windows-target builds passed. Preserve stale-policy callback RED/fix, prior missing-selection/report behavior REDs, setup and post-scheduling Image-oracle corrections. No Windows executable ran. One record increases checks 51 to 52; all 30 task states/dependencies, historical criteria/acceptance, roadmap 5/20 and history remain unchanged. No device/audibility, MML fidelity, production startup/gameplay/save, full IDE, provenance or S2 acceptance; later slices excluded."
   },
   "overview": {
-    "now": "Optional original lateral patrol now has reported independent portable/model review: bounded eighth-unit horizontal cells, swept blocking/hold/reversal and attacks from the resulting pose. Its distinct version-2 save retains per-room cell/direction. Windows targets were linked/inspected inertly, never executed.",
-    "changed": "Added one bounded patrol record. Fixed and reactive stationary defaults, old save bytes, broad task states and historical acceptance remain unchanged. Author optimized/O0 sanitizer and independent optimized/O1 sanitizer cohorts, killed compile attempts and corrected oracle history remain explicit.",
-    "why": "Modeled consumer execution, intentionally seeded geometry/state checks and native target linking establish different boundaries. A separate save layout does not imply migration or crossed-policy compatibility, and a corrected map-pixel expectation is not a production fix.",
-    "next": "Complete exact-diff review of this separate documentation candidate. No newer IDE integration is included or accepted. Any Windows/device/visual validation requires separate scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
+    "now": "The original IDE now has reported independent portable/model review of explicit fixed, reactive and patrol/V2 play-policy selection for receipt-bound Playtest and Export+Play. Existing-file play remains fixed. Targets were linked/inspected inertly; no Windows executable ran for this successor.",
+    "changed": "Added one bounded integration record. Owned selection capture and live policy-change supersession retain geometry publication while preventing stale-policy child launch. Genuine behavior RED/fixes, setup/oracle corrections and O0 sanitizer limits remain explicit; broad tasks and historical acceptance are unchanged.",
+    "why": "A joined export receipt authenticates the checked geometry result, not an invented policy receipt. Pending handoff, completed publication and historical reports have distinct ownership; an intentional image-cache retag must be compared at the correct post-scheduling boundary.",
+    "next": "Complete exact-diff review of this separate documentation candidate. Later unaccepted work is excluded. Any Windows GUI/device/user validation needs separately scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
   },
   "updates": [
+    {
+      "id": "original-ide-play-policy-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "Explicit original IDE published-play policies select fixed (22), reactive (23) or patrol/V2 (24) for receipt-bound Playtest and Export+Play. Owned selection is captured before callbacks/export scheduling. A live change suppresses pending handoff without undoing completed geometry publication. The joined checked-export receipt remains geometry authority; no policy receipt is fabricated. Independent existing-file play remains policy 22; historical reports retain the actual policy.",
+      "why": "Modeled-native tests exercised admitted originally authored fixtures, real Open/edit/export/render workers and joins, checked geometry/material outputs, strict loaders/session/modal loop, dirty edits, retained images and new test saves. Optimized author/independent cohorts and separately executed O0 ASan/UBSan cohorts passed with leaks disabled; legacy checks retained existing-file policy 22 under UI policy 24. Genuine stale-policy callback RED exposed a wrongly excluded live policy change during Export+Play settlement; a narrow correction passed the independent cases. Earlier fixed/512-byte output and missing capture/report REDs, reviewer setup failure and corrected post-scheduling Image oracle remain distinct.",
+      "next": "Policies 22/23 produced 512-byte test saves and policy 24 produced 528-byte V2 with moved-target state; no owner saves were used. Three fresh translation units plus three dependency-checked reused objects linked into inert front-door/IDE targets, never run. No Windows GUI/device/audibility, MML fidelity, production startup/gameplay/save, full IDE, provenance, S2 or transfer acceptance. Later unaccepted slices are excluded.",
+      "evidence": [
+        "docs/status/current-status.md#original-ide-published-play-policy-selection--october-30"
+      ]
+    },
     {
       "id": "original-lateral-patrol-portable-01",
       "date": "2026-10-30",
@@ -8135,11 +8147,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-30-original-ide-play-policy-review-01",
+      "date": "2026-10-30",
+      "basis_commit": "58fee250b4199e630e03e876643148b6be9b8146",
+      "note": "Reviewed October 30, 2026, 1:01:27 PM Arizona (MST): independently reviewed original IDE selection integrates fixed, reactive and patrol/V2 policies into receipt-bound Playtest and Export+Play. Joined export receipts remain geometry authority; captured owned selection and live-change supersession prevent stale-policy handoff without undoing completed publication. Existing-file play remains fixed. Reported modeled-native author/independent optimized and executed O0 ASan/UBSan cohorts passed with leaks disabled; legacy checks and inert Windows-target builds passed. Preserve stale-policy callback RED/fix, prior missing-selection/report behavior REDs, setup and post-scheduling Image-oracle corrections. No Windows executable ran. One record increases checks 51 to 52; all 30 task states/dependencies, historical criteria/acceptance, roadmap 5/20 and history remain unchanged. No device/audibility, MML fidelity, production startup/gameplay/save, full IDE, provenance or S2 acceptance; later slices excluded. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-30 18:52:33 UTC",
+    "reviewed_at": "2026-10-30 20:01:27 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8843,6 +8917,13 @@
         "state": "tested",
         "update_id": "original-lateral-patrol-portable-01",
         "limit": "Reported modeled-native consumer checks; independently seeded geometry/parking/state limits separate from natural traversal. Author optimized/O0 ASan-UBSan and independent optimized/O1 sanitizer cohorts distinct; failed compile/oracle history preserved. Separate version-2 save with no migration/crossed fallback. Inert Windows targets only; no Windows/device/visual, MML fidelity, production boot, full IDE, provenance or S2 acceptance."
+      },
+      {
+        "id": "original-ide-play-policy-portable",
+        "label": "Original IDE published-play policy selection — modeled worker/session integration and inert targets",
+        "state": "tested",
+        "update_id": "original-ide-play-policy-portable-01",
+        "limit": "Reported real portable workers/joins and modeled-native author/independent optimized and executed O0 ASan/UBSan cohorts; leak detection disabled. Geometry receipts separate from captured play policy; live supersession RED/fix and setup/oracle history retained. Existing-file fixed policy unchanged. Three fresh translation units/three dependency-checked reused objects; inert targets only. No Windows/full IDE/production/provenance/S2 acceptance."
       }
     ]
   }

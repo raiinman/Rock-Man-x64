@@ -2,6 +2,26 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original IDE published-play policy selection — October 30
+
+**Documentation review: October 30, 2026, 1:01:27 PM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original IDE integration slice. This is reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
+
+Explicit published-play policies select **22 fixed**, **23 reactive** or **24 patrol/V2** for receipt-bound Playtest and Export+Play. The joined checked-export receipt remains geometry authority; no policy receipt is fabricated. Owned selection is captured before callbacks and export scheduling. A live policy change suppresses the pending child handoff without undoing completed geometry publication. Independent existing-file play remains policy 22 even under UI selection 24, and historical reports retain the policy actually used.
+
+Actual modeled-native tests used admitted originally authored mission fixtures, real Open/edit/export/render workers and joins, checked geometry/material outputs, strict loaders/session/modal loop, dirty edits, retained frames and new test saves. Checks covered real Export+Play; missing, invalid and retired selectors; pending-draft/no-receipt refusal; wrong-policy/format refusal; editor/Image/view/receipt preservation; pending supersession; spoofed notifications; and history. Policies 22/23 produced 512-byte test saves; 24 produced 528-byte version-2 saves with moved-target state. No owner saves were used.
+
+Strict optimized author and independent cohorts passed. Separately executed **O0 ASan/UBSan** author and independent cohorts passed with **leak detection disabled**. This is neither optimized sanitizer execution nor performance, leak-detector or race-freedom proof. Legacy checks passed, including existing-file policy 22 under UI policy 24 and the retained receipt/pending gates. These overlapping cohorts are not summed into a feature count.
+
+A genuine independent RED found that a live policy-change callback during real Export+Play settlement was incorrectly ignored by an internal path-update exclusion, launching a stale-policy child/save. The narrow correction removed only that inappropriate exclusion; corrected independent cases passed. Preserve the earlier behavior RED in which requested patrol ran fixed with a 512-byte save and UI capture/report behavior was absent.
+
+Keep reviewer setup and oracle corrections separate from behavioral REDs. Setup initially lacked its evidence output parent before compilation. The exporter intentionally retags its Image cache, so corrected preservation checks compare post-scheduling identity/pixels rather than a pre-export pointer. These corrections do not fabricate a production defect or erase earlier failures.
+
+Inert Windows targets freshly compiled three translation units and reused three objects only after exact object/compiler and unchanged dependency-closure checks. Both original front door and IDE linked and passed import/symbol inspection; neither executable ran. This adds integration, not a gameplay, codec, asset or audio feature. Independent terminal/source and local commit metadata review passed; local completion is not Windows execution or public release.
+
+One separate bounded record increases build checks from 51 to 52. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, stages, numerical validation and prior observations remain unchanged. No Windows GUI/device/audibility, faithful MML behavior, production startup/gameplay/save, full integrated IDE, provenance clearance, production S2 or transfer acceptance follows. Existing initializer and native workload/source-binding gates remain separate.
+
+**Next:** exact-diff documentation review. Later unaccepted slices are excluded. Any actual Windows/user check requires its separately scoped procedure and evidence; no run, transfer or new research assignment is requested here. Earlier dated results and queue statements retain their original applicability.
+
 ## Original lateral patrol — October 30
 
 **Documentation review: October 30, 2026, 11:52:33 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed optional original patrol slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.

@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Optional original lateral patrol now has reported independent portable/model review: bounded eighth-unit horizontal cells, swept blocking/hold/reversal and attacks from the resulting pose. Its distinct version-2 save retains per-room cell/direction. Windows targets were linked/inspected inertly, never executed.
+**Where we are:** The original IDE now has reported independent portable/model review of explicit fixed, reactive and patrol/V2 play-policy selection for receipt-bound Playtest and Export\+Play. Existing-file play remains fixed. Targets were linked/inspected inertly; no Windows executable ran for this successor.
 
-**Next useful step:** Complete exact-diff review of this separate documentation candidate. No newer IDE integration is included or accepted. Any Windows/device/visual validation requires separate scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Complete exact-diff review of this separate documentation candidate. Later unaccepted work is excluded. Any Windows GUI/device/user validation needs separately scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-lateral-patrol-review-01` · [reviewed basis 8b04f85](https://github.com/raiinman/Rock-Man-x64/commit/8b04f85ea057a715fbda9df2435b4fb3a3316716).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-ide-play-policy-review-01` · [reviewed basis 58fee25](https://github.com/raiinman/Rock-Man-x64/commit/58fee250b4199e630e03e876643148b6be9b8146).
 **Latest repository change observed:** [efb9f4b](https://github.com/raiinman/Rock-Man-x64/commit/efb9f4b78dc7034bcef4f8339bcf084bf8cd1513) · 2026-10-30T12:18:16-07:00 — docs: record bounded original lateral-patrol evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

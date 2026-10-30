@@ -12,6 +12,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Later bounded evidence note (October 30, 2026, 11:52:33 AM Arizona (MST)):** [Original lateral-patrol checks](../../docs/status/current-status.md#original-lateral-patrol--october-30) add portable/model and inert-build evidence only, with separate sanitizer configurations, seeded-boundary and save-format limits. No broad gameplay/save/IDE, Windows/device/visual, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 1:01:27 PM Arizona (MST)):** [Original IDE play-policy integration](../../docs/status/current-status.md#original-ide-published-play-policy-selection--october-30) adds portable/model and inert-target evidence only, preserving geometry/policy boundaries, live supersession failure history and O0 sanitizer/leak exclusions. No broad IDE/gameplay/save, Windows/device, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner
