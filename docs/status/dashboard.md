@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-30 · `2026-10-30-ide-existing-file-windows-review-01` · [reviewed basis 1689777](https://github.com/raiinman/Rock-Man-x64/commit/1689777c066d2067f177189bf579ff94354b3f8b).
-**Latest repository change observed:** [1b6570a](https://github.com/raiinman/Rock-Man-x64/commit/1b6570a02ef5cd294ce5450d10a6a606050ef2c0) · 2026-10-30T01:15:24-07:00 — docs: record bounded original IDE existing-file play evidence.
+**Latest repository change observed:** [f29b096](https://github.com/raiinman/Rock-Man-x64/commit/f29b09656b9b0c20ec94df489177024cd6bdcf39) · 2026-10-30T04:19:33-07:00 — docs: record bounded existing-file Windows workflow and exit evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
