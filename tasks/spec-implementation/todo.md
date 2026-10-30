@@ -596,6 +596,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Verification:** Review the actual selected production and IDE interfaces; dependencies on completed refinement tasks alone never prove runtime readiness. Apply the [standing Definition of Done](plan.md#standing-definition-of-done); retain exact failed, blocked and not-run distinctions.
 
+**Bounded evidence note (October 30, 2026, 12:55:26 AM Arizona):** [Original IDE existing-file play](../../docs/status/current-status.md#original-ide-existing-file-play--october-30) is one reviewed portable integration/inert-target support slice. Its modeled native boundaries, failure history, reused-object build applicability and unproven Windows/production scopes remain explicit in the [canonical record](../../docs/status/dashboard.md#build-and-specification-plan). This task and all acceptance checkboxes remain planned/unchecked; no dependency, provenance or execution gate is cleared.
+
 **Dependencies:** SI-08, SI-10, SI-15.
 
 **Files likely touched:** Private IDE integration specification, owning plan and focused test design.

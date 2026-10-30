@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** Two bounded IDE component profiles have terminal portable optimized/sanitized results and independent review: authored-mission geometry with intentionally flat diagnostic output, and owned textured file/manual rendering. Actual parser/raster/worker behavior is separate from modeled native UI boundaries; neither profile establishes full GUI or Windows execution.
+**Where we are:** An independently reviewed original-IDE command can open eligible, previously produced original mission files without another editor export, including from an empty idle editor. Reported portable integration and an inert Windows-target build do not establish Windows execution or production game boot.
 
-**Next useful step:** As of this review, an authoring bridge is being assessed. Await its bounded contract and actual evidence; no selected implementation, completed bridge or Windows outcome is claimed. Windows testing remains deferred without a test/reminder request. Broader IDE, provenance, initializer, S2 and native-game acceptance remain separate.
+**Next useful step:** Keep Windows appearance, accessibility and owner acceptance as separate unproven scopes under the applicable bounded procedure. Full integrated-IDE, production runtime, game-boot and release criteria remain unchanged. No new Windows run or test request is made by this documentation record.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-28 · `2026-10-28-ide-profiles-review-01` · [reviewed basis 721b628](https://github.com/raiinman/Rock-Man-x64/commit/721b6286b5b6c690bb834832f9ea8e2ce62bcb53).
+**Last evidence review:** 2026-10-30 · `2026-10-30-ide-existing-file-play-review-01` · [reviewed basis cf3bd04](https://github.com/raiinman/Rock-Man-x64/commit/cf3bd044e7414b8a14d093118699f61d81cdd819).
 **Latest repository change observed:** [db21f7e](https://github.com/raiinman/Rock-Man-x64/commit/db21f7ec8a43333f0e5ebf735ddb757a25eac533) · 2026-10-29T23:29:30-07:00 — docs: require visible quarter-hour notes and honest stall recovery.
 **Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.
 

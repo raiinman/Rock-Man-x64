@@ -407,18 +407,30 @@
   ],
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
-    "date": "2026-10-28",
-    "review_id": "2026-10-28-ide-profiles-review-01",
-    "reviewed_through_commit": "721b6286b5b6c690bb834832f9ea8e2ce62bcb53",
-    "summary": "Reviewed October 28, 2026, 1:00:50 PM Arizona (MST): evidence-owner terminal summaries add bounded authored-geometry and owned-textured portable IDE profile records. Actual parser/raster/material/worker-return-poll-join and ownership/lifecycle outcomes remain distinct from explicit native models, earlier optimized source-map applicability and source-only non-null current-resource destruction/reset; actual destruction followed Plain reset. Geometry validates UV but intentionally renders flat diagnostic output. Frozen IDE UNKNOWN/gaps and historical outcomes remain unchanged. Build checks increase from 42 to 44; all 30 task states/dependencies, criteria/versions/denominators/accepted sets, workstream stages, numerical validation records and prior observations preserved. This lane runs no native/game/research/build/platform tests. No new images/private identities or full-GUI/Windows/game-import/native-boot/fidelity acceptance. Authoring bridge is assessment only; Windows testing deferred, no prompt."
+    "date": "2026-10-30",
+    "review_id": "2026-10-30-ide-existing-file-play-review-01",
+    "reviewed_through_commit": "cf3bd044e7414b8a14d093118699f61d81cdd819",
+    "summary": "Reviewed October 30, 2026, 12:55:26 AM Arizona (MST): one independently reviewed original-IDE existing-file play record covers eligible original mission loading without another export, preserved editor state and receipt-bound launch safeguards. Portable loader/worker/modal-runtime checks with modeled native boundaries are separate from the dependency-checked inert Windows-target build; no Windows executable was run. Retained setup failures/corrections and genuine cancellation-defect RED/GREEN remain explicit. Build checks increase from 44 to 45; SI-24 and all 30 task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations are unchanged. Plan/task notes link the canonical record without marking completion. No new images, private identities, packages or production game-boot/release claim. This documentation lane runs no native tests."
   },
   "overview": {
-    "now": "Two bounded IDE component profiles have terminal portable optimized/sanitized results and independent review: authored-mission geometry with intentionally flat diagnostic output, and owned textured file/manual rendering. Actual parser/raster/worker behavior is separate from modeled native UI boundaries; neither profile establishes full GUI or Windows execution.",
-    "changed": "Added two terminal profile records with request ownership, source-copy removal, cancellation/stale/Close and texture/sidecar lifetime evidence. Historical UNKNOWN/gaps, earlier optimized-result applicability and source-only non-null destruction limits remain explicit. No new images, broad task completion or historical acceptance changes.",
-    "why": "Distinguish validated UV with flat output from actual owned textured rendering, and final-source-bound independent/sanitized results from earlier author-map applicability. Preserve source-compatibility findings as source findings rather than invented runtime failures; component profiles do not complete the integrated IDE journey.",
-    "next": "As of this review, an authoring bridge is being assessed. Await its bounded contract and actual evidence; no selected implementation, completed bridge or Windows outcome is claimed. Windows testing remains deferred without a test/reminder request. Broader IDE, provenance, initializer, S2 and native-game acceptance remain separate."
+    "now": "An independently reviewed original-IDE command can open eligible, previously produced original mission files without another editor export, including from an empty idle editor. Reported portable integration and an inert Windows-target build do not establish Windows execution or production game boot.",
+    "changed": "Added one bounded existing-file play record. Accepted edits, Undo state, images, export receipts and the retained game report stay preserved. Pending drafts/operations refuse, and receipt-bound launch safeguards remain. SI-24, all broad task states and historical acceptance are unchanged.",
+    "why": "Existing-file play is a separate explicit action, not an automatic save or export. Independent review covers failure/quit/shutdown and pending export-and-play preservation. Strict loading and file selection do not authenticate provenance; eligible original content and existing gates still apply.",
+    "next": "Keep Windows appearance, accessibility and owner acceptance as separate unproven scopes under the applicable bounded procedure. Full integrated-IDE, production runtime, game-boot and release criteria remain unchanged. No new Windows run or test request is made by this documentation record."
   },
   "updates": [
+    {
+      "id": "ide-existing-file-play-portable-01",
+      "date": "2026-10-30",
+      "kind": "synthetic-linux",
+      "capability_changed": false,
+      "changed": "A separate explicit original-IDE command opens eligible previously produced original mission files without requiring another editor export. It supports an empty idle editor and preserves accepted edits, Undo state, images, export receipts and the retained game report. Pending drafts or operations refuse; receipt-bound launch safeguards remain.",
+      "why": "Reported portable integration exercised original loaders, worker stages and the modal runtime with modeled native operating-system boundaries. Independent review covered launch failures, quit propagation, shutdown during child creation and pending export-and-play preservation. Setup failures/corrections and a genuinely reproduced and repaired cancellation defect remain retained. Optimized/sanitizer results keep their recorded applicability; no overlapping assertion total is inferred.",
+      "next": "The dependency-checked inert Windows-target build reused applicable runtime objects and was not executed. File selection/strict loading do not authenticate provenance; only eligible original content is in scope. No automatic save/export, Windows appearance/accessibility/owner acceptance, production game boot or release is established.",
+      "evidence": [
+        "docs/status/current-status.md#original-ide-existing-file-play--october-30"
+      ]
+    },
     {
       "id": "ide-authored-geometry-profile-portable-01",
       "date": "2026-10-28",
@@ -7604,11 +7616,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-30-ide-existing-file-play-review-01",
+      "date": "2026-10-30",
+      "basis_commit": "cf3bd044e7414b8a14d093118699f61d81cdd819",
+      "note": "Reviewed October 30, 2026, 12:55:26 AM Arizona (MST): one independently reviewed original-IDE existing-file play record covers eligible original mission loading without another export, preserved editor state and receipt-bound launch safeguards. Portable loader/worker/modal-runtime checks with modeled native boundaries are separate from the dependency-checked inert Windows-target build; no Windows executable was run. Retained setup failures/corrections and genuine cancellation-defect RED/GREEN remain explicit. Build checks increase from 44 to 45; SI-24 and all 30 task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations are unchanged. Plan/task notes link the canonical record without marking completion. No new images, private identities, packages or production game-boot/release claim. This documentation lane runs no native tests. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-28 20:00:50 UTC",
+    "reviewed_at": "2026-10-30 07:55:26 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -8263,6 +8337,13 @@
         "state": "tested",
         "update_id": "ide-owned-textured-profile-portable-01",
         "limit": "Owned UV/sidecar/texture after source-copy removal, real worker return/join. Earlier author optimized map applicability retained; final sanitized/independent source bound separately. Default cancel checkpoint source finding; non-null destroy/reset source-only, actual destroy after Plain reset. No full GUI/Windows/game-import acceptance."
+      },
+      {
+        "id": "ide-existing-file-play-portable",
+        "label": "Original IDE existing-file play — portable integration and inert Windows-target build",
+        "state": "tested",
+        "update_id": "ide-existing-file-play-portable-01",
+        "limit": "Reported portable loaders/workers/modal runtime with modeled native boundaries; independent failure/quit/shutdown/pending-export scope. Inert target uses dependency-checked reused runtime objects, never run. Setup/cancellation failures retained. File selection is not provenance authentication. No Windows/full-IDE/game-boot/release acceptance."
       }
     ]
   }

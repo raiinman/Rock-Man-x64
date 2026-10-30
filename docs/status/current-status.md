@@ -2,6 +2,22 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original IDE existing-file play — October 30
+
+**Documentation review: October 30, 2026, 12:55:26 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original-IDE support slice. This public summary records reported private evidence; the source, inputs and full receipts are not independently reproducible from this documentation-only repository. No implementation, research, game, platform or native tests are run by this documentation lane.
+
+A separate explicit command opens eligible, previously produced original mission files without requiring another editor export. It supports an empty idle editor and preserves accepted editor edits, Undo state, images, export receipts and the retained game report. Pending drafts or operations refuse. Existing receipt-bound launch safeguards remain; no automatic save or export was added.
+
+Portable integration checks exercised original loaders, worker stages and the modal runtime with modeled native operating-system boundaries. Independent review covered launch failures, quit propagation, shutdown during child creation and preservation of pending export-and-play behavior. Optimized and sanitizer checks passed within their recorded applicability. Test-setup failures and their corrections were preserved. A separately demonstrated cancellation defect was fixed with genuine RED/GREEN evidence; later passes do not erase that failure history. Overlapping assertion counts are not added into a feature or acceptance total.
+
+An inert Windows-target build passed with dependency-checked reused runtime objects. This is build evidence within those dependency/applicability limits, not a claim that every runtime object was freshly rebuilt or that a Windows executable ran. Windows appearance, accessibility and owner acceptance remain unproven for this slice. Earlier separately scoped platform observations retain their own applicability.
+
+Explicit file selection and strict loading do not authenticate provenance. Only eligible original content is in scope. Production runtime acceptance, native original-game boot, faithful behavior, full integrated-IDE acceptance and release remain unproven. No private source, artifact identity, package, capture or new public image is included.
+
+The [implementation plan](../../tasks/spec-implementation/plan.md#bounded-support-evidence-existing-file-play) and [SI-24 task note](../../tasks/spec-implementation/todo.md#si-24) point to this bounded record; they do not own a second acceptance state. One build check is added (44 to 45), while SI-24 and all 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation records and prior observations remain unchanged.
+
+**Next:** verify Windows appearance/accessibility/owner behavior separately under the applicable bounded procedure, without treating this record as an execution request. Broader provider, provenance, initializer and S2 gates remain in force. Earlier dated queue statements below remain historical snapshots, not current worker telemetry.
+
 ## Bounded IDE geometry and textured profiles — October 28
 
 **Documentation review: October 28, 2026, 1:00:50 PM Arizona (MST).** The evidence owner supplied terminal independently reviewed summaries for two selected component profiles. This documentation lane runs no new native tests, builds, research, game or platform execution. Private source and inputs are not independently reproducible from this public repository.

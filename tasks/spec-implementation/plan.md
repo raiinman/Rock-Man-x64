@@ -6,6 +6,10 @@ Decompose the [shared specification](../../SPEC.md) and seven [capabilities](../
 
 The owner approved this separate destination. [Initial adoption plan](../plan.md) and [execution list](../todo.md) are preserved verbatim, including their external delivery-receipt convention. Their adoption publication was independently reported verified by the coordinator; an unchanged checkbox is not evidence of a missing delivery. Existing native/research queues retain their owners. This plan does not replace the separate existing implementation assignment, launch a worker wave or duplicate unanswered handoffs.
 
+## Bounded support evidence: existing-file play
+
+As reviewed October 30, 2026, 12:55:26 AM Arizona (MST), [one original-IDE existing-file play slice](../../docs/status/current-status.md#original-ide-existing-file-play--october-30) has reported portable integration and independent scoped review plus an inert Windows-target build. The [canonical build map](../../docs/status/dashboard.md#build-and-specification-plan) owns its bounded check and limits. This supports the SI-24 journey discussion without completing SI-24, its dependencies or any historical acceptance criterion. File selection/strict loading do not authenticate provenance; provider, provenance and execution gates remain unchanged. No task checkbox or dependency is changed by this evidence note.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.
