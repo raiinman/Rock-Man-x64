@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-30 · `2026-10-30-original-lateral-patrol-review-01` · [reviewed basis 8b04f85](https://github.com/raiinman/Rock-Man-x64/commit/8b04f85ea057a715fbda9df2435b4fb3a3316716).
-**Latest repository change observed:** [9caabeb](https://github.com/raiinman/Rock-Man-x64/commit/9caabeb396cc55c5864a23f683211c6690966c32) · 2026-10-30T10:49:36-07:00 — docs: record bounded original reactive stationary-guard evidence.
+**Latest repository change observed:** [efb9f4b](https://github.com/raiinman/Rock-Man-x64/commit/efb9f4b78dc7034bcef4f8339bcf084bf8cd1513) · 2026-10-30T12:18:16-07:00 — docs: record bounded original lateral-patrol evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
