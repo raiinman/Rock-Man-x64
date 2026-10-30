@@ -10,6 +10,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Later bounded evidence note (October 30, 2026, 10:12:08 AM Arizona (MST)):** [Original reactive stationary-guard checks](../../docs/status/current-status.md#original-reactive-stationary-guard--october-30) add portable/model and inert-build evidence only, with seeded/natural and save-policy refusal limits. No broad AI/gameplay, Windows/user, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 11:52:33 AM Arizona (MST)):** [Original lateral-patrol checks](../../docs/status/current-status.md#original-lateral-patrol--october-30) add portable/model and inert-build evidence only, with separate sanitizer configurations, seeded-boundary and save-format limits. No broad gameplay/save/IDE, Windows/device/visual, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

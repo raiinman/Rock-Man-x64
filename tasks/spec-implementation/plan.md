@@ -20,6 +20,8 @@ As reviewed October 30, 2026, 8:57:26 AM Arizona (MST), [Save & Return](../../do
 
 As reviewed October 30, 2026, 10:12:08 AM Arizona (MST), the [original reactive stationary guard](../../docs/status/current-status.md#original-reactive-stationary-guard--october-30) has reported independent portable/model checks and two inert Windows-target builds. Natural traversal, analytic/seeded boundaries, reused dependencies and cross-policy owner/state nonadoption retain their specific limits. No general LOS/moving AI, Windows/user or production acceptance, task state or dependency changes. The canonical build map owns the bounded record.
 
+As reviewed October 30, 2026, 11:52:33 AM Arizona (MST), [optional original lateral patrol](../../docs/status/current-status.md#original-lateral-patrol--october-30) has reported independent portable/model review and inert Windows-target checks. Author optimized/O0 sanitizer and independent optimized/O1 sanitizer cohorts, explicitly seeded boundaries, failed compile/oracle history and distinct save policies retain their limits. No Windows/device/visual, broad AI/gameplay/IDE or production acceptance, task state or dependency changes. The canonical build map owns the bounded record.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.

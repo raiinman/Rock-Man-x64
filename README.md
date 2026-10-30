@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The optional original reactive stationary guard now has reported independent portable/model review. It selects a dominant horizontal cardinal toward accepted player state and reuses existing range/cover and local-step pulse behavior. Two Windows-target builds passed inert checks only; no executable ran on Windows.
+**Where we are:** Optional original lateral patrol now has reported independent portable/model review: bounded eighth-unit horizontal cells, swept blocking/hold/reversal and attacks from the resulting pose. Its distinct version-2 save retains per-room cell/direction. Windows targets were linked/inspected inertly, never executed.
 
-**Next useful step:** Complete exact-diff review of this separate documentation candidate. Any successor Windows/user validation needs separately scoped evidence. No follow-on gameplay implementation is accepted by this record; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Complete exact-diff review of this separate documentation candidate. No newer IDE integration is included or accepted. Any Windows/device/visual validation requires separate scoped evidence; native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-reactive-guard-review-01` · [reviewed basis dbfe109](https://github.com/raiinman/Rock-Man-x64/commit/dbfe109c3631d42ee78ef1668dcfe3e0890ee2f7).
+**Last evidence review:** 2026-10-30 · `2026-10-30-original-lateral-patrol-review-01` · [reviewed basis 8b04f85](https://github.com/raiinman/Rock-Man-x64/commit/8b04f85ea057a715fbda9df2435b4fb3a3316716).
 **Latest repository change observed:** [9caabeb](https://github.com/raiinman/Rock-Man-x64/commit/9caabeb396cc55c5864a23f683211c6690966c32) · 2026-10-30T10:49:36-07:00 — docs: record bounded original reactive stationary-guard evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

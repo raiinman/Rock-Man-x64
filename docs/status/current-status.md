@@ -2,6 +2,24 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original lateral patrol — October 30
+
+**Documentation review: October 30, 2026, 11:52:33 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed optional original patrol slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
+
+The optional patrol advances through bounded eighth-unit X cells every eight accepted local steps. Swept blocking holds and reverses it; the existing attack pulse uses the resulting pose. Existing fixed and reactive stationary modes remain unchanged. This bounded original behavior does not establish faithful MML movement, general AI or production gameplay acceptance.
+
+A distinct **528-byte version-2 save** records each room's patrol cell and direction. The old **512-byte layout** remains unchanged. No migration or crossed fallback was added; the two save policies are not claimed interchangeable.
+
+Actual code through a modeled native boundary checked movement, shots, kill/dead-clock behavior, Save & Return followed by Continue, live-load high-water handling, map pixels, cancellation/refusal and ownership. Independent explicitly seeded geometry, parking and state boundaries remain separate from natural traversal. Portable model pixels are not an actual Windows visual observation.
+
+Author optimized native cohorts passed within their retained corrected scope. The author's executed native **O0 ASan/UBSan** cohort is distinct from independent **optimized and O1 sanitizer** cohorts; these configurations are not summed or presented as repetitions of the same coverage. Both killed O1 native compilation attempts remain failed builds, not executed sanitizer passes. Preserve the incorrect map-pixel oracle and its correction, plus other RED/corrected-oracle history. Correcting that expectation is not described as a production fix.
+
+Legacy checks and inert Windows-target linking/inspection passed. No Windows executable ran, so no Windows user, audio/device or visual/accessibility acceptance is established. Independent final source and local commit metadata review passed; a local commit is not platform execution or public release.
+
+One separate bounded record increases build checks from 50 to 51. All 30 broad task states/dependencies, historical criteria/versions/denominators/accepted sets, roadmap 5/20, workstream stages, numerical validation and prior observations remain unchanged. No production game boot, full integrated IDE, faithful behavior, provenance clearance or production S2 acceptance follows. Existing initializer and native workload/source-binding gates remain separate.
+
+**Next:** exact-diff documentation review. Newer IDE policy integration is unfinished and excluded from this record. Any actual Windows/device/visual check requires its separately scoped procedure and evidence; no run, transfer or new research assignment is requested here. Earlier dated results and queue statements retain their original applicability.
+
 ## Original reactive stationary guard — October 30
 
 **Documentation review: October 30, 2026, 10:12:08 AM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original guard slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.
