@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "latest_repository_change": {
-    "sha": "bd8bddf7287bbc9d5eb24a5feb926d051d433a5b",
-    "committed_at": "2026-10-30T13:41:35-07:00",
-    "subject": "docs: record bounded original IDE play-policy integration evidence",
+    "sha": "df2536c083bc80f54b8d33e5a31e0c94d26e7054",
+    "committed_at": "2026-10-30T15:05:09-07:00",
+    "subject": "docs: record bounded original IDE optional shot-cue evidence",
     "source": "Exact local Git commit metadata; no prose-based capability inference",
     "evidence_data_changed": true,
     "review_id_changed": true
