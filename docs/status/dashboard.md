@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** 2026-10-30 · `2026-10-30-original-reactive-guard-review-01` · [reviewed basis dbfe109](https://github.com/raiinman/Rock-Man-x64/commit/dbfe109c3631d42ee78ef1668dcfe3e0890ee2f7).
-**Latest repository change observed:** [04b4082](https://github.com/raiinman/Rock-Man-x64/commit/04b40823175c0b6acd1647ea55acf9bbb3b93003) · 2026-10-30T09:10:46-07:00 — docs: record bounded original save-return and shot-audio evidence.
+**Latest repository change observed:** [9caabeb](https://github.com/raiinman/Rock-Man-x64/commit/9caabeb396cc55c5864a23f683211c6690966c32) · 2026-10-30T10:49:36-07:00 — docs: record bounded original reactive stationary-guard evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
