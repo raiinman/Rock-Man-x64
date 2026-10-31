@@ -2,6 +2,22 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original contact Windows partial check — October 30
+
+**Documentation evidence review: October 30, 2026, 8:58:27 PM Arizona (MST).** An independent reviewer consumed the completed Windows task result for the previously reviewed original contact build. This is a sanitized account of reported private evidence, not a new execution or a result reproducible from this public documentation repository.
+
+The original contact build opened paused on Windows. The owner then triggered F6 from the initial state. A later read-only verification observed a 528-byte test save and the same identified front door enabled and responding. Save existence, size and identity were checked privately; the original seven fixtures remained unchanged. The owner action and the subsequent observations are distinct evidence: this was not an automated F6 input or a progressed-world save journey.
+
+**Save contents were not independently decoded. Continue and restore correctness were not tested.** File existence and identity do not establish semantic validity or that the next session would restore the saved state. The remaining window was explicitly the front door, not the IDE. It was not evidence of process exit.
+
+A local report append failed because its execution transport closed after the read-only verification. The completed cloud task result retains the verified observations; no updated local receipt is claimed. Preserve that reporting failure rather than treating it as a failed save or inventing a successful report write.
+
+This partial contact-build result is separate from earlier bounded Windows workflow/exit checks on earlier builds and from separately labeled owner controls testimony. Neither earlier evidence nor portable modeled-native save/Continue proofs are transferred to this Windows check. Movement, Continue, final exit, IDE, audio, contact parity, native MML boot, history sanitizer completion and production S2 remain unproven by this result. No new image, package, source, private identity or save payload is published.
+
+One separate bounded build-check record increases 54 to 55. All 30 broad task states/dependencies, historical criteria, versions, denominators, accepted sets, roadmap 5/20, numerical validation and prior observations remain unchanged. This is not broad gameplay/save acceptance, full IDE completion, faithful behavior, production startup, provenance clearance or release.
+
+**Next:** exact-diff coordinator review and bounded owner publication approval. No further PC test, launch, input, cleanup or transfer is requested by this documentation candidate. Earlier dated results retain their original scope.
+
 ## Original contact patrol — October 30
 
 **Documentation review: October 30, 2026, 3:36:19 PM Arizona (MST).** The evidence owner supplied a completed, independently reviewed original contact-patrol slice. This records reported private evidence; source, fixtures and raw receipts are not reproducible from this public documentation. This documentation lane runs no implementation, research, game tests or PC actions.

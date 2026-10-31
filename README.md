@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The explicitly selected original contact-patrol policy now has reported independent portable/model review across the front door and receipt-bound IDE play. Contact damage, hold/reversal, ranged-pulse priority and save continuation are bounded; direct pillar obstruction was checked, gate-specific obstruction remains unexecuted.
+**Where we are:** The previously reviewed original contact build has a bounded reported Windows observation: paused entry and owner-triggered initial-state F6 save/return to the same enabled, responding front door. Independent evidence review confirms the recorded scope, not a fresh execution.
 
-**Next useful step:** Complete exact-diff review of this separate documentation candidate. Gate-specific obstruction is still unexecuted; any later check requires separately scoped evidence. Native workload/source-binding, provenance, initializer and production S2 gates remain unchanged.
+**Next useful step:** Complete exact-diff and bounded publication review for this separate documentation candidate. Continue/restore, movement, final exit, IDE, audio and contact parity are unproven here; no additional PC action is requested. Existing production workload/source-binding, provenance, initializer and S2 gates remain.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** 2026-10-30 · `2026-10-30-original-contact-patrol-review-01` · [reviewed basis 1d77d40](https://github.com/raiinman/Rock-Man-x64/commit/1d77d40597e42c99dcbb62e20ffd9d7d07831aff).
+**Last evidence review:** October 30, 2026, 8:58:27 PM Arizona \(MST\) · `2026-10-31-original-contact-windows-partial-review-01` · [reviewed basis 9e960e3](https://github.com/raiinman/Rock-Man-x64/commit/9e960e33c43d0a013082548c1956820eedfa6b48).
 **Latest repository change observed:** [fbd11a7](https://github.com/raiinman/Rock-Man-x64/commit/fbd11a7cbfeb3f89c98c0edd680ac78d480167ad) · 2026-10-30T16:18:25-07:00 — docs: record bounded original contact-patrol evidence.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

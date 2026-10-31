@@ -417,6 +417,27 @@ class ReviewTimeFormattingTests(unittest.TestCase):
                                               env={**os.environ,'TZ':zone},text=True)
                 self.assertEqual(actual.strip(),'October 28, 2026, 10:51:53 AM Arizona (MST)')
 
+class ReviewSurfaceFormattingTests(unittest.TestCase):
+    def test_current_review_surfaces_use_recorded_arizona_instant(self):
+        data,state=synthetic_fixture()
+        data['build_plan']={'reviewed_at':'2026-01-01 03:58:27 UTC'}
+        data['observations'].insert(0,copy.deepcopy(data['observations'][0]))
+        data['observations'][0].update(date='2025-12-30',review_id='historical-fixture')
+        before=copy.deepcopy(data)
+        label='December 31, 2025, 8:58:27 PM Arizona (MST)'
+        self.assertIn(u.md(label),'\n'.join(u.activity_lines(data,state)))
+        self.assertIn('Reviewed '+label,u.svg(data))
+        self.assertIn(u.md(label),'\n'.join(u.numeric_history(data)))
+        self.assertIn('## Reviewed '+u.md(label),u.changes(data))
+        self.assertIn('2025-12-30 · `historical-fixture`','\n'.join(u.numeric_history(data)))
+        self.assertEqual(data,before)
+
+    def test_date_only_review_is_explicit_utc_without_invented_local_time(self):
+        data,state=synthetic_fixture();before=copy.deepcopy(data)
+        self.assertIn(u.md('2026-01-01 (UTC date; time unrecorded)'),'\n'.join(u.activity_lines(data,state)))
+        self.assertIn('Reviewed 2026-01-01 (UTC date; time unrecorded)',u.svg(data))
+        self.assertEqual(data,before)
+
 class CurrentDatasetTests(unittest.TestCase):
     def test_current_reviewed_data_renders_without_drift_or_mutation(self):
         # Deliberately separate from the synthetic mutation fixture. This reads

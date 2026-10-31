@@ -28,6 +28,8 @@ As reviewed October 30, 2026, 2:48:32 PM Arizona (MST), [original IDE optional s
 
 As reviewed October 30, 2026, 3:36:19 PM Arizona (MST), [original contact patrol](../../docs/status/current-status.md#original-contact-patrol--october-30) has reported independent portable/model contact/save and IDE integration evidence plus inert targets. Natural journeys, seeded checks, prior-binary applicability and inherited component proofs remain separate; pillar obstruction was checked, gate-specific obstruction remains unexecuted. No Windows/device, production or task-state/dependency changes. The canonical build map owns the bounded record.
 
+As reviewed October 30, 2026, 8:58:27 PM Arizona (MST), the [partial original-contact Windows check](../../docs/status/current-status.md#original-contact-windows-partial-check--october-30) records paused entry and owner-triggered initial-state F6 followed by an observed test save and return to the same front door. Save contents were not independently decoded; Continue/restore, movement, final exit and IDE behavior remain untested here. A post-verification local report append failed; retained cloud evidence is separate. This adds one bounded record without changing tasks, dependencies or historical acceptance.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.

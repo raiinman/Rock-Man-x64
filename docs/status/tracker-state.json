@@ -9,7 +9,7 @@
     "review_id_changed": true
   },
   "trigger_status": "Configured for eligible main pushes: docs-only activity refresh and regeneration. Check Actions for the actual run; reviewed evidence alone moves capability stages.",
-  "evidence_data_sha256": "fb71c002df747680f73c3614330b4af48d97554a973bd126b1c7f22b2211a778",
+  "evidence_data_sha256": "3768329288ec2d8f1ad468fcf3a6713c95471e399afde775c300d89ca74ebe77",
   "generated_paths": [
     "README.md",
     "docs/status/dashboard.md",
@@ -17,9 +17,9 @@
     "docs/status/visuals/progress-dashboard.svg",
     "docs/status/tracker-state.json"
   ],
-  "reviewed_stage_sha256": "e6f87d6770f83cbdcd32d36f56889938100aa1ae86e52a838edb05ce8a35ca55",
-  "evidence_review_id": "2026-10-30-original-contact-patrol-review-01",
-  "evidence_review_date": "2026-10-30",
+  "reviewed_stage_sha256": "a0b1ee2419ac90ba8577d8916f2dd8298e95ab9965a7b6c5305a723c5795272d",
+  "evidence_review_id": "2026-10-31-original-contact-windows-partial-review-01",
+  "evidence_review_date": "2026-10-31",
   "reviewed_checklist_definitions": {
     "inspection": {
       "version": 1,
@@ -138,7 +138,8 @@
     "61c226b88d4a07b163909bf6714ebca459e3781ebffb7bde0ed29699cb133852",
     "86d961fa857b9cff2c8ec5e01250d9c4ac03f20cb313d9b4a4b24a172ed51fcd",
     "db43ebbf72fdac97b369248cd7723ce7b6642ab364e6e1246f1f0eb3af405da1",
-    "88c07863c2e5b999748ef307dc33b5e06002acd54e7e8d21a469a15810290a3e"
+    "88c07863c2e5b999748ef307dc33b5e06002acd54e7e8d21a469a15810290a3e",
+    "04978ea6b3c68f75f6536fa123e2d8128ed147b2448b82bcacc2583e2f021ae0"
   ],
-  "reviewed_build_plan_sha256": "264da88df575486ea07c8ac3551b4a3bc1ffcbfa85493dbc4cd53e8f1af6b705"
+  "reviewed_build_plan_sha256": "bd05622958e551769cafc7f70a11e0fb220dc7a00aa5d2725a43875a32285379"
 }

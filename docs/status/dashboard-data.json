@@ -407,18 +407,30 @@
   ],
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
-    "date": "2026-10-30",
-    "review_id": "2026-10-30-original-contact-patrol-review-01",
-    "reviewed_through_commit": "1d77d40597e42c99dcbb62e20ffd9d7d07831aff",
-    "summary": "Reviewed October 30, 2026, 3:36:19 PM Arizona (MST): independently reviewed original contact-patrol policy integrates front door and receipt-bound IDE play. At the existing eight accepted-local-step cadence, swept overlap may deal at most one HP; the guard holds/reverses and contact takes priority over a coincident ranged pulse. Portable modeled-native natural journeys/save continuation and independent seeded boundaries remain distinct. Direct obstruction evidence is an originally authored actor/pillar fixture; gate-specific obstruction remains unexecuted. Reported optimized and O0-g0 sanitizer cohorts passed with leaks disabled; legacy dependency-bound proofs and inert Windows targets retain their scopes. No Windows execution. Preserve compiler terminations, unexecuted attempts, admission RED and setup/metadata corrections without OOM inference. Checks increase 53 to 54; all 30 task states/dependencies, historical acceptance, roadmap 5/20 and history remain unchanged. No Windows/audibility, MML fidelity, production boot/provenance/S2 or PC/private publication claim."
+    "date": "2026-10-31",
+    "review_id": "2026-10-31-original-contact-windows-partial-review-01",
+    "reviewed_through_commit": "9e960e33c43d0a013082548c1956820eedfa6b48",
+    "summary": "Reviewed October 30, 2026, 8:58:27 PM Arizona (MST): independent evidence review confirms reported Windows paused entry of the previously reviewed original contact build and an owner-triggered initial-state F6 save/return to the same enabled, responding front door. A 528-byte test save was observed and its identity verified privately; contents were not independently decoded and Continue/restore correctness was not tested. Seven original fixtures remained unchanged. Local report append failed after read-only verification; the retained evidence is the completed cloud task result, not an updated local receipt. One bounded record increases checks 54 to 55; all 30 task states/dependencies, historical acceptance, criteria, denominators, roadmap 5/20 and history remain unchanged. Movement, final exit, IDE, audio, contact parity, native MML boot, history sanitizer completion and S2 remain unproven by this check."
   },
   "overview": {
-    "now": "The explicitly selected original contact-patrol policy now has reported independent portable/model review across the front door and receipt-bound IDE play. Contact damage, hold/reversal, ranged-pulse priority and save continuation are bounded; direct pillar obstruction was checked, gate-specific obstruction remains unexecuted.",
-    "changed": "Added one bounded record. Existing defaults, cue/receipt gates, save layout and historical acceptance remain unchanged; policy 25 has a distinct seal and refuses crossed policy 24 without migration. Natural journeys, seeded checks, inherited component proofs and inert builds retain separate applicability.",
-    "why": "Natural gate traversal does not prove gate-specific contact obstruction. A checked original actor/pillar fixture is not commercial-game evidence, and model state/frame equality or zero cue submission in a nonshot case is not live Windows/device or faithful-game acceptance.",
-    "next": "Complete exact-diff review of this separate documentation candidate. Gate-specific obstruction is still unexecuted; any later check requires separately scoped evidence. Native workload/source-binding, provenance, initializer and production S2 gates remain unchanged."
+    "now": "The previously reviewed original contact build has a bounded reported Windows observation: paused entry and owner-triggered initial-state F6 save/return to the same enabled, responding front door. Independent evidence review confirms the recorded scope, not a fresh execution.",
+    "changed": "A 528-byte test save was observed with its identity verified privately; seven original fixtures were unchanged. Save contents were not independently decoded. One bounded record is added; all broad task states and historical acceptance remain unchanged.",
+    "why": "A present save file and return to a front door do not prove Continue/restore correctness, progressed gameplay, process exit or IDE behavior. The owner initiated F6; observed return and file verification are distinct from owner testimony and earlier Windows workflows.",
+    "next": "Complete exact-diff and bounded publication review for this separate documentation candidate. Continue/restore, movement, final exit, IDE, audio and contact parity are unproven here; no additional PC action is requested. Existing production workload/source-binding, provenance, initializer and S2 gates remain."
   },
   "updates": [
+    {
+      "id": "original-contact-windows-partial-01",
+      "date": "2026-10-31",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "Reported Windows execution opened the previously reviewed original contact build paused. The owner triggered F6 from the initial state. A later read-only check observed a 528-byte test save and the same identified front door enabled and responding; seven original fixtures remained unchanged.",
+      "why": "Independent evidence review consumed the completed Windows task result. File existence, size and identity were checked privately, but contents were not independently decoded; Continue/restore correctness was not tested. The remaining window was the front door, not the IDE, and no process-exit result was observed. This partial contact-build result is separate from earlier bounded Windows workflows and owner controls testimony.",
+      "next": "Preserve the local report-append transport failure after verification; do not claim an updated local receipt. Movement, Continue, final exit, IDE, audio, contact parity, native MML boot, history sanitizer completion and S2 are not established. No new PC action, source transfer, historical acceptance or broad task completion follows.",
+      "evidence": [
+        "docs/status/current-status.md#original-contact-windows-partial-check--october-30"
+      ]
+    },
     {
       "id": "original-contact-patrol-portable-01",
       "date": "2026-10-30",
@@ -8357,11 +8369,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-31-original-contact-windows-partial-review-01",
+      "date": "2026-10-31",
+      "basis_commit": "9e960e33c43d0a013082548c1956820eedfa6b48",
+      "note": "Reviewed October 30, 2026, 8:58:27 PM Arizona (MST): independent evidence review confirms reported Windows paused entry of the previously reviewed original contact build and an owner-triggered initial-state F6 save/return to the same enabled, responding front door. A 528-byte test save was observed and its identity verified privately; contents were not independently decoded and Continue/restore correctness was not tested. Seven original fixtures remained unchanged. Local report append failed after read-only verification; the retained evidence is the completed cloud task result, not an updated local receipt. One bounded record increases checks 54 to 55; all 30 task states/dependencies, historical acceptance, criteria, denominators, roadmap 5/20 and history remain unchanged. Movement, final exit, IDE, audio, contact parity, native MML boot, history sanitizer completion and S2 remain unproven by this check. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-30 22:36:19 UTC",
+    "reviewed_at": "2026-10-31 03:58:27 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -9086,6 +9160,13 @@
         "state": "tested",
         "update_id": "original-contact-patrol-portable-01",
         "limit": "Reported portable native-boundary journeys distinct from seeded checks; direct obstruction is an originally authored actor/pillar fixture, gate-specific obstruction UNEXECUTED. O0-g0 ASan/UBSan cohorts with leaks disabled, prior binary applicability and inherited dependency-bound proofs separate. Distinct policy seal/no migration; inert targets only. No Windows/device/audibility, MML fidelity, production boot, provenance/S2 or PC/private publication acceptance."
+      },
+      {
+        "id": "original-contact-windows-partial",
+        "label": "Original contact build — bounded Windows paused entry and owner-triggered save/return",
+        "state": "tested",
+        "update_id": "original-contact-windows-partial-01",
+        "limit": "Reported Windows paused entry; owner-triggered initial-state F6 followed by observed 528-byte test save and same enabled/responding front door. Save identity privately checked, contents not independently decoded; Continue/restore untested. Seven fixtures unchanged. Local receipt append failed after verification; retained cloud task evidence only. No movement/final-exit/IDE/audio/contact-parity/MML-boot/history-sanitizer/S2 acceptance."
       }
     ]
   }

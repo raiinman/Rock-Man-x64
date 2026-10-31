@@ -111,6 +111,13 @@ def format_review_time(value):
             f'{local.hour % 12 or 12}:{local.minute:02d}:{local.second:02d} '
             f'{"AM" if local.hour < 12 else "PM"} Arizona ({local.tzname()})')
 
+def review_label(data):
+    """Display only the recorded current review; never infer an absent instant."""
+    plan = data.get('build_plan')
+    if plan is not None:
+        return format_review_time(plan['reviewed_at'])
+    return data['last_evidence_review']['date'] + ' (UTC date; time unrecorded)'
+
 def build_plan_ledger(data):
     plan = data.get('build_plan')
     if plan is None: return []
@@ -290,7 +297,7 @@ def numeric_history(data):
     lines=['', '## Numeric review history', '', 'Only recorded observations appear here. The first entry is a baseline, not a newly completed runtime milestone. A new checklist version starts a new comparison basis.', '', '| Recorded review | Checklist version | Completed / total | Change note |','|---|---|---|---|']
     for o in data['observations']:
         for row in o['checklists']:
-            lines.append(f'| {o["date"]} · `{o["review_id"]}` | {row["id"]} v{row["version"]} | {len(row["completed_ids"])} / {row["total"]} | {md(o["note"])} |')
+            lines.append(f'| {md(review_label(data)) if o["review_id"] == data["last_evidence_review"]["review_id"] else o["date"]} · `{o["review_id"]}` | {row["id"]} v{row["version"]} | {len(row["completed_ids"])} / {row["total"]} | {md(o["note"])} |')
     return lines+['']
 
 def checklist_ledger(data):
@@ -323,7 +330,7 @@ def activity_lines(data, state):
     review = data['last_evidence_review']; activity = state['latest_repository_change']
     different = activity['sha'] != review['reviewed_through_commit']
     return [
-        f'**Last evidence review:** {review["date"]} · `{review["review_id"]}` · [reviewed basis {review["reviewed_through_commit"][:7]}]({REPO}/commit/{review["reviewed_through_commit"]}).',
+        f'**Last evidence review:** {md(review_label(data))} · `{review["review_id"]}` · [reviewed basis {review["reviewed_through_commit"][:7]}]({REPO}/commit/{review["reviewed_through_commit"]}).',
         f'**Latest repository change observed:** [{activity["sha"][:7]}]({REPO}/commit/{activity["sha"]}) · {activity["committed_at"]} — {md(activity["subject"])}.',
         ('**Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.' if different and activity.get('evidence_data_changed') and activity.get('review_id_changed') else '**Review pending:** the repository has changed without a newly identified evidence review. The bars do not advance merely because a commit arrived.' if different else '**Evidence boundary:** repository activity and accepted capability are separate. A new push never counts as a native-game pass.'),
     ]
@@ -348,7 +355,7 @@ def changes(data):
              'Generated from reviewed evidence data. Entries describe actual reviewed changes; an unrelated repository push does not add a capability milestone.', '',
              '[Current tracker](../../README.md#progress-in-numbers) · [Maintenance](TRACKER.md)', '']
     for e in data['updates']:
-        lines += [f'## {e["date"]} · {e["id"]}', '', f'**Evidence class:** {md(e["kind"])}. **Runtime capability advanced:** {"yes, only within the cited scope" if e["capability_changed"] else "no"}.', '',
+        lines += [f'## {"Reviewed " + md(review_label(data)) if e is data["updates"][0] and e["date"] == data["last_evidence_review"]["date"] else e["date"]} · {e["id"]}', '', f'**Evidence class:** {md(e["kind"])}. **Runtime capability advanced:** {"yes, only within the cited scope" if e["capability_changed"] else "no"}.', '',
                   '**Changed:** '+md(e['changed']), '', '**Why:** '+md(e['why']), '', '**Next:** '+md(e['next']), '',
                   '**Evidence:** '+' · '.join(link(x, False, f'source {i+1}') for i, x in enumerate(e['evidence']))+'.', '']
     lines+=numeric_history(data)
@@ -404,7 +411,8 @@ def svg(data):
     t(48,103,'Project progress, in numbers',43,bold=True)
     t(48,139,'Accepted roadmap milestones + named delivery checklists.',19,'#c9c1bf')
     obs=data['observations'][-1]
-    t(48,175,'Reviewed '+obs['date']+'  /  '+('FIRST NUMERIC BASELINE — no earlier delta recorded' if len(data['observations'])==1 else 'CHANGES COMPARED WITH THE PREVIOUS RECORDED REVIEW'),15,'#ffc36d',True)
+    t(48,160,'Reviewed '+review_label(data),15,'#ffc36d',True)
+    t(48,180,'FIRST NUMERIC BASELINE — no earlier delta recorded' if len(data['observations'])==1 else 'CHANGES COMPARED WITH THE PREVIOUS RECORDED REVIEW',12,'#ffc36d',True)
     overall=next(c for c in data['checklists'] if c['id']=='roadmap')
     accepted,total,pct=numbers(overall)
     foundations=sum(i['done'] for i in overall['items'] if i['phase']=='foundation')

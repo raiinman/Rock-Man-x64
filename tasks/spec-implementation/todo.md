@@ -18,6 +18,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Later bounded evidence note (October 30, 2026, 3:36:19 PM Arizona (MST)):** [Original contact-patrol checks](../../docs/status/current-status.md#original-contact-patrol--october-30) add portable/model and inert-target evidence only, with prior-binary/seeded/inherited-proof limits and gate-specific obstruction unexecuted. No broad gameplay/save/IDE, Windows/device, production boot or task completion is inferred; all task checkboxes and dependencies remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 8:58:27 PM Arizona (MST)):** [Original-contact Windows partial evidence](../../docs/status/current-status.md#original-contact-windows-partial-check--october-30) covers paused entry, owner-triggered initial-state F6, an observed 528-byte test save and the same responding front door. Contents were not independently decoded; Continue/restore, movement, final exit and IDE are untested by this result. Earlier Windows evidence stays separate; all task checkboxes/dependencies and historical acceptance remain unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

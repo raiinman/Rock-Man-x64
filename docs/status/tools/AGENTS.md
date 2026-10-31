@@ -30,6 +30,8 @@ Generate the living public tracker from reviewed evidence and exact repository m
 - Keep the fixed output contract synchronized with the workflow. Widening outputs or privileges needs explicit review and authority, not an incidental generator change.
 - Every meaningful tool change updates tests, applicable contracts and exact generated output; retain failed checks until corrected and rerun.
 
+- Current review labels use the existing recorded `build_plan.reviewed_at` UTC instant through the Arizona formatter, including the current history entry; preserve canonical UTC bindings, prior historical entries and repository activity. Without a recorded instant, explicitly label the retained value as a UTC date with time unrecorded; never infer midnight. The SVG uses two header lines so the full timestamp does not clip. No output path or dependency is added.
+
 ## Verification
 
 - Run `python3 -B -m unittest discover -s docs/status/tools -p 'test_*.py' -v`.

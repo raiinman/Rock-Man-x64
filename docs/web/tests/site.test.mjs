@@ -248,3 +248,26 @@ test('build-plan keeps Linux/component and Windows build checks separately scope
   assert.equal((html.match(/class="plain-panel build-check"/g)||[]).length,2);
   assert.equal(d.build_plan.tasks[0].state,'planned');
 });
+
+test('current review surfaces share recorded Arizona instant and preserve historical dates',()=>{
+  const d=buildPlanFixture();d.build_plan.reviewed_at='2026-01-01 03:58:27 UTC';
+  d.last_evidence_review.date='2026-01-01';d.updates[0].date='2026-01-01';
+  d.observations.at(-1).date='2026-01-01';
+  const before=JSON.stringify(d),label='December 31, 2025, 8:58:27 PM Arizona (MST)';
+  for(const page of ['overview','roadmap','build-plan','history']){
+    const html=renderShell(d,state,route(page));
+    assert.ok(html.includes('Evidence reviewed<strong>'+label+'</strong>'),page);
+    if(page==='history'){
+      assert.ok(html.includes('<h3>'+label+'</h3>'));
+      assert.ok(html.includes('<strong>'+label+'</strong>'));
+      assert.ok(html.includes('Reviewed '+label+'<br>'));
+    }
+  }
+  assert.equal(JSON.stringify(d),before);
+});
+test('date-only review surfaces disclose UTC date without inventing Arizona time',()=>{
+  const d=copy(data);delete d.build_plan;const before=JSON.stringify(d);
+  const html=renderShell(d,state,route('overview'));
+  assert.ok(html.includes('Evidence reviewed<strong>'+escapeHTML(d.last_evidence_review.date+' (UTC date; time unrecorded)')+'</strong>'));
+  assert.equal(JSON.stringify(d),before);
+});

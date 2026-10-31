@@ -32,6 +32,8 @@ Make the reviewed public roadmap understandable on a spacious, interactive canva
 - Escape every data string; keep evidence links HTTPS or validated repository-relative paths. Production CSP admits only same-origin code/styles/data and no forms or embedded objects.
 - Preserve the repository chart/ledger fallback. Do not call a snapshot live or claim publication without verifying the actual public artifact.
 
+- Current review labels use the existing recorded `build_plan.reviewed_at` UTC instant through the Arizona formatter, including the current history entry; preserve canonical UTC bindings, prior historical entries and repository activity. Without a recorded instant, explicitly label the retained value as a UTC date with time unrecorded; never infer midnight. The SVG uses two header lines so the full timestamp does not clip. No output path or dependency is added.
+
 ## Verification
 
 - Run `node --test docs/web/tests/site.test.mjs` and `PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s docs/web/tests -p 'test_*.py'`.
