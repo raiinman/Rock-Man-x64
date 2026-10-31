@@ -3,7 +3,7 @@
 Generated from reviewed evidence data. This is documentation, not a playable game or a public test package.
 
 **Last evidence review:** October 30, 2026, 8:58:27 PM Arizona \(MST\) · `2026-10-31-original-contact-windows-partial-review-01` · [reviewed basis 9e960e3](https://github.com/raiinman/Rock-Man-x64/commit/9e960e33c43d0a013082548c1956820eedfa6b48).
-**Latest repository change observed:** [fbd11a7](https://github.com/raiinman/Rock-Man-x64/commit/fbd11a7cbfeb3f89c98c0edd680ac78d480167ad) · 2026-10-30T16:18:25-07:00 — docs: record bounded original contact-patrol evidence.
+**Latest repository change observed:** [c6dc63a](https://github.com/raiinman/Rock-Man-x64/commit/c6dc63a7e01d4e8fb43eb13eb98f6afed81ca963) · 2026-10-30T21:39:48-07:00 — docs: record partial original-contact Windows check and Arizona review labels.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 
 ![Milestone checklist completion](visuals/progress-dashboard.svg)
