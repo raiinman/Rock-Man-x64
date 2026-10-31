@@ -30,6 +30,8 @@ As reviewed October 30, 2026, 3:36:19 PM Arizona (MST), [original contact patrol
 
 As reviewed October 30, 2026, 8:58:27 PM Arizona (MST), the [partial original-contact Windows check](../../docs/status/current-status.md#original-contact-windows-partial-check--october-30) records paused entry and owner-triggered initial-state F6 followed by an observed test save and return to the same front door. Save contents were not independently decoded; Continue/restore, movement, final exit and IDE behavior remain untested here. A post-verification local report append failed; retained cloud evidence is separate. This adds one bounded record without changing tasks, dependencies or historical acceptance.
 
+As reviewed October 30, 2026, 9:43:25 PM Arizona (MST), the [bounded original-contact Windows Continue check](../../docs/status/current-status.md#original-contact-windows-continue-check--october-30) adds observable initial-state agreement, normal return to the same enabled front door and exit 0 for one additional launch. The save/package files remained unchanged; decoded/progressed restore, movement, firing, IDE, audio and contact parity are not tested here. Earlier unknown exits and reporting failure remain historical. No task state, dependency or historical acceptance changes.
+
 ## Architecture decisions and readiness
 
 - The [capability map](../../CAPABILITIES.md#directional-dependencies) owns typed consumer-to-provider edges. Runtime/data order is original-data-access before inspection/startup; runtime-control requires startup and separately resolved lifecycle gates. Product acceptance composition and evidence/reporting edges are not source imports.

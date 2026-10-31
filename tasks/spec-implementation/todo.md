@@ -20,6 +20,8 @@ Private file names are unavailable publicly. “Files likely touched” therefor
 
 **Later bounded evidence note (October 30, 2026, 8:58:27 PM Arizona (MST)):** [Original-contact Windows partial evidence](../../docs/status/current-status.md#original-contact-windows-partial-check--october-30) covers paused entry, owner-triggered initial-state F6, an observed 528-byte test save and the same responding front door. Contents were not independently decoded; Continue/restore, movement, final exit and IDE are untested by this result. Earlier Windows evidence stays separate; all task checkboxes/dependencies and historical acceptance remain unchanged.
 
+**Later bounded evidence note (October 30, 2026, 9:43:25 PM Arizona (MST)):** [Original-contact Windows Continue evidence](../../docs/status/current-status.md#original-contact-windows-continue-check--october-30) covers initial-state observations, normal child return and observed exit 0 for the additional launch only. Save and package files remained unchanged. No progressed/decoded restore, movement, firing, IDE, audio or contact-parity acceptance; prior unknown exits remain unknown. Task checkboxes/dependencies and historical acceptance are unchanged.
+
 <a id="si-01"></a>
 
 ## SI-01: Bind a selected private slice to its owner

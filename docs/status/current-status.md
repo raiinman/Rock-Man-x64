@@ -2,6 +2,20 @@
 
 For the latest reviewed project-wide summary and public coordination, use the [living tracker](dashboard.md) and [dated handoff](decisions-and-handoff.md). The checkpoint below identifies the latest implementation update documented on this page; it is not the date of every later research or coordination review.
 
+## Original contact Windows Continue check — October 30
+
+**Documentation evidence review: October 30, 2026, 9:43:25 PM Arizona (MST).** Independent evidence review consumed the completed Windows task result for a separately authorized, additional Continue-only launch of the previously reviewed original contact build. This is reported private evidence, not a new execution by this documentation lane or a result reproducible from this public repository.
+
+Continue opened a paused child in contact policy 25, showing HP 3 and the full initial action allowance of 32,768. Those observations matched the earlier visible initial state. **This establishes observable initial-state agreement only:** the saved contents were not independently decoded, and no progressed-world restoration or complete state/frame equality was demonstrated by this run.
+
+Normal child close returned to the same identified, enabled front door. Quit then ended this additional launch with observed exit 0. The 528-byte test save and all nine reviewed package files remained unchanged. No movement, firing, resave, IDE, audio or contact-parity test occurred. An enabled front door is not an IDE observation.
+
+The local report was subsequently updated and includes the earlier interrupted F6 evidence. Preserve the previous post-verification append failure as its actual historical outcome; the later update does not erase it. Observed exit 0 applies to this additional launch only. Earlier unknown process exits remain unknown, and earlier owner-triggered F6, older Windows workflows and portable modeled-native proofs retain their separate scopes.
+
+One separately bounded record increases build checks from 55 to 56. All 30 broad task states/dependencies, historical criteria, versions, denominators, accepted sets, roadmap 5/20, numerical validation and prior observations remain unchanged. No broad gameplay/save/IDE completion, faithful MML behavior, native game boot, history sanitizer completion, production startup, provenance clearance, S2 or release acceptance follows. No private source, save payload, package, capture, file identity or machine detail is published.
+
+**Next:** exact-diff coordinator review and bounded owner publication approval for this separate documentation candidate. No further PC test, launch, input, cleanup or transfer is requested here. Earlier dated records retain what was known at those reviews.
+
 ## Original contact Windows partial check — October 30
 
 **Documentation evidence review: October 30, 2026, 8:58:27 PM Arizona (MST).** An independent reviewer consumed the completed Windows task result for the previously reviewed original contact build. This is a sanitized account of reported private evidence, not a new execution or a result reproducible from this public documentation repository.

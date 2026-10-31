@@ -54,15 +54,15 @@ The goal includes a native game and editor. Documentation, research results and 
 
 **This chart updates from reviewed data after eligible GitHub pushes.** The top bar counts accepted milestones in the named overall roadmap—not code, effort or how much of the game is finished. Local checklists and test pass rates remain separate.
 
-**Where we are:** The previously reviewed original contact build has a bounded reported Windows observation: paused entry and owner-triggered initial-state F6 save/return to the same enabled, responding front door. Independent evidence review confirms the recorded scope, not a fresh execution.
+**Where we are:** A separately authorized Windows Continue-only run of the original contact build opened paused with the earlier observable initial state. Normal child close returned to the same enabled front door, and Quit produced an observed exit 0 for that run.
 
-**Next useful step:** Complete exact-diff and bounded publication review for this separate documentation candidate. Continue/restore, movement, final exit, IDE, audio and contact parity are unproven here; no additional PC action is requested. Existing production workload/source-binding, provenance, initializer and S2 gates remain.
+**Next useful step:** Complete exact-diff and bounded publication review of this separate candidate. Movement, firing, resave, IDE, audio, contact parity and progressed-world restore remain untested here; no further PC action is requested. Existing production workload/source-binding, provenance, initializer and S2 gates remain.
 
 **Change since previous numeric review:** Frozen inspection delivery: Δ \+0 goals; Data-only observation path: Δ \+0 goals; Selected loader checkpoints: Δ \+0 goals; Live controller safety gates: Δ \+0 goals; Native game boot acceptance: Δ \+0 goals; Accepted roadmap milestones: Δ \+0 goals.
 
 [Exact done criteria and evidence](docs/status/dashboard.md#named-checklists) · [Recorded changes](docs/status/changes.md#numeric-review-history) · [12 important discoveries](docs/status/dashboard.md#reconstruction-findings) · [How this stays current](docs/status/TRACKER.md)
 
-**Last evidence review:** October 30, 2026, 8:58:27 PM Arizona \(MST\) · `2026-10-31-original-contact-windows-partial-review-01` · [reviewed basis 9e960e3](https://github.com/raiinman/Rock-Man-x64/commit/9e960e33c43d0a013082548c1956820eedfa6b48).
+**Last evidence review:** October 30, 2026, 9:43:25 PM Arizona \(MST\) · `2026-10-31-original-contact-windows-continue-review-01` · [reviewed basis f1ba80a](https://github.com/raiinman/Rock-Man-x64/commit/f1ba80a20812578b3bd9b2d0f3909669ee49fcb7).
 **Latest repository change observed:** [c6dc63a](https://github.com/raiinman/Rock-Man-x64/commit/c6dc63a7e01d4e8fb43eb13eb98f6afed81ca963) · 2026-10-30T21:39:48-07:00 — docs: record partial original-contact Windows check and Arizona review labels.
 **Authored evidence update supplied:** the evidence file and its review identifier changed in the observed commit. Stages still mean only what the cited reviewed record establishes.
 

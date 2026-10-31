@@ -408,17 +408,29 @@
   "provenance": "Private evidence is summarized and not independently reproducible here. PSX-SPX remains a restricted-provenance research reference, not cleared implementation authority.",
   "last_evidence_review": {
     "date": "2026-10-31",
-    "review_id": "2026-10-31-original-contact-windows-partial-review-01",
-    "reviewed_through_commit": "9e960e33c43d0a013082548c1956820eedfa6b48",
-    "summary": "Reviewed October 30, 2026, 8:58:27 PM Arizona (MST): independent evidence review confirms reported Windows paused entry of the previously reviewed original contact build and an owner-triggered initial-state F6 save/return to the same enabled, responding front door. A 528-byte test save was observed and its identity verified privately; contents were not independently decoded and Continue/restore correctness was not tested. Seven original fixtures remained unchanged. Local report append failed after read-only verification; the retained evidence is the completed cloud task result, not an updated local receipt. One bounded record increases checks 54 to 55; all 30 task states/dependencies, historical acceptance, criteria, denominators, roadmap 5/20 and history remain unchanged. Movement, final exit, IDE, audio, contact parity, native MML boot, history sanitizer completion and S2 remain unproven by this check."
+    "review_id": "2026-10-31-original-contact-windows-continue-review-01",
+    "reviewed_through_commit": "f1ba80a20812578b3bd9b2d0f3909669ee49fcb7",
+    "summary": "Reviewed October 30, 2026, 9:43:25 PM Arizona (MST): independent evidence review confirms a separately authorized Windows Continue-only launch of the original contact build. The child opened paused in contact policy 25 with HP 3 and the full initial action allowance, matching the earlier observable initial state only. Normal child close returned to the same enabled front door; Quit ended this launch with observed exit 0. The 528-byte save and nine reviewed package files remained unchanged. No movement, firing, resave, IDE, audio or contact-parity check occurred. The local report was subsequently updated, preserving its earlier interrupted append; earlier unknown exits remain unknown. One bounded record increases checks 55 to 56; all 30 task states/dependencies, historical acceptance, criteria, denominators, roadmap 5/20 and prior evidence remain unchanged. No progressed-world restore, native MML boot, history sanitizer completion, provenance or S2 acceptance."
   },
   "overview": {
-    "now": "The previously reviewed original contact build has a bounded reported Windows observation: paused entry and owner-triggered initial-state F6 save/return to the same enabled, responding front door. Independent evidence review confirms the recorded scope, not a fresh execution.",
-    "changed": "A 528-byte test save was observed with its identity verified privately; seven original fixtures were unchanged. Save contents were not independently decoded. One bounded record is added; all broad task states and historical acceptance remain unchanged.",
-    "why": "A present save file and return to a front door do not prove Continue/restore correctness, progressed gameplay, process exit or IDE behavior. The owner initiated F6; observed return and file verification are distinct from owner testimony and earlier Windows workflows.",
-    "next": "Complete exact-diff and bounded publication review for this separate documentation candidate. Continue/restore, movement, final exit, IDE, audio and contact parity are unproven here; no additional PC action is requested. Existing production workload/source-binding, provenance, initializer and S2 gates remain."
+    "now": "A separately authorized Windows Continue-only run of the original contact build opened paused with the earlier observable initial state. Normal child close returned to the same enabled front door, and Quit produced an observed exit 0 for that run.",
+    "changed": "Added one bounded Windows record. The 528-byte test save and nine reviewed package files remained unchanged; the local report was subsequently updated. Prior interrupted reporting and earlier unknown exits remain part of the history.",
+    "why": "Visible initial-state agreement is narrower than decoded save equality, progressed-world restoration or gameplay parity. Exit 0 belongs only to this additional launch; it does not establish the outcome of earlier launches.",
+    "next": "Complete exact-diff and bounded publication review of this separate candidate. Movement, firing, resave, IDE, audio, contact parity and progressed-world restore remain untested here; no further PC action is requested. Existing production workload/source-binding, provenance, initializer and S2 gates remain."
   },
   "updates": [
+    {
+      "id": "original-contact-windows-continue-01",
+      "date": "2026-10-31",
+      "kind": "windows",
+      "capability_changed": false,
+      "changed": "Reported Windows Continue-only execution of the original contact build opened a paused policy-25 child with HP 3 and the full initial action allowance, matching the earlier observable initial state. Normal child close returned to the same identified enabled front door; Quit returned observed exit 0 for this launch.",
+      "why": "Independent evidence review consumed the completed Windows task result. The 528-byte test save and nine reviewed package files remained unchanged. Initial-state observations do not establish decoded state equality, progressed-world restore or movement/contact parity. No movement, firing, resave, IDE or audio check occurred.",
+      "next": "The local report was later updated, including the interrupted F6 evidence; retain the earlier append failure and earlier unknown exits rather than retroactively claiming success. Keep this additional launch distinct from initial F6/save observation, older Windows workflows and portable model checks. No broad task, native MML boot, provenance, history sanitizer or S2 acceptance follows.",
+      "evidence": [
+        "docs/status/current-status.md#original-contact-windows-continue-check--october-30"
+      ]
+    },
     {
       "id": "original-contact-windows-partial-01",
       "date": "2026-10-31",
@@ -8431,11 +8443,73 @@
           ]
         }
       ]
+    },
+    {
+      "review_id": "2026-10-31-original-contact-windows-continue-review-01",
+      "date": "2026-10-31",
+      "basis_commit": "f1ba80a20812578b3bd9b2d0f3909669ee49fcb7",
+      "note": "Reviewed October 30, 2026, 9:43:25 PM Arizona (MST): independent evidence review confirms a separately authorized Windows Continue-only launch of the original contact build. The child opened paused in contact policy 25 with HP 3 and the full initial action allowance, matching the earlier observable initial state only. Normal child close returned to the same enabled front door; Quit ended this launch with observed exit 0. The 528-byte save and nine reviewed package files remained unchanged. No movement, firing, resave, IDE, audio or contact-parity check occurred. The local report was subsequently updated, preserving its earlier interrupted append; earlier unknown exits remain unknown. One bounded record increases checks 55 to 56; all 30 task states/dependencies, historical acceptance, criteria, denominators, roadmap 5/20 and prior evidence remain unchanged. No progressed-world restore, native MML boot, history sanitizer completion, provenance or S2 acceptance. Zero historical acceptance delta.",
+      "checklists": [
+        {
+          "id": "inspection",
+          "version": 1,
+          "total": 7,
+          "completed_ids": [
+            "capture",
+            "portable",
+            "viewer",
+            "host"
+          ]
+        },
+        {
+          "id": "observation",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "mailbox",
+            "observer"
+          ]
+        },
+        {
+          "id": "loader",
+          "version": 1,
+          "total": 4,
+          "completed_ids": [
+            "prefix",
+            "heap",
+            "continuation"
+          ]
+        },
+        {
+          "id": "s2",
+          "version": 1,
+          "total": 4,
+          "completed_ids": []
+        },
+        {
+          "id": "boot",
+          "version": 1,
+          "total": 1,
+          "completed_ids": []
+        },
+        {
+          "id": "roadmap",
+          "version": 1,
+          "total": 20,
+          "completed_ids": [
+            "source-inventory",
+            "diagnostic-assets",
+            "offline-editor",
+            "cd-startup",
+            "portable-observation"
+          ]
+        }
+      ]
     }
   ],
   "build_plan": {
     "schema_version": 1,
-    "reviewed_at": "2026-10-31 03:58:27 UTC",
+    "reviewed_at": "2026-10-31 04:43:25 UTC",
     "plan_source": "tasks/spec-implementation/todo.md",
     "tasks": [
       {
@@ -9167,6 +9241,13 @@
         "state": "tested",
         "update_id": "original-contact-windows-partial-01",
         "limit": "Reported Windows paused entry; owner-triggered initial-state F6 followed by observed 528-byte test save and same enabled/responding front door. Save identity privately checked, contents not independently decoded; Continue/restore untested. Seven fixtures unchanged. Local receipt append failed after verification; retained cloud task evidence only. No movement/final-exit/IDE/audio/contact-parity/MML-boot/history-sanitizer/S2 acceptance."
+      },
+      {
+        "id": "original-contact-windows-continue",
+        "label": "Original contact build — bounded Windows initial-state Continue, return and exit",
+        "state": "tested",
+        "update_id": "original-contact-windows-continue-01",
+        "limit": "Reported additional Continue-only Windows launch: paused policy 25, HP 3/full initial allowance match earlier observable state; normal child close returns same enabled front door, Quit yields observed exit 0 for this run only. Save and nine package files unchanged. No decoded/progressed restore, movement/firing/resave/IDE/audio/contact-parity test. Earlier unknown exits remain unknown; no native MML boot/history-sanitizer/provenance/S2 acceptance."
       }
     ]
   }
